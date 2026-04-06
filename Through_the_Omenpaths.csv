@@ -1,0 +1,395 @@
+collector_number,name,mana_cost,cmc,type_line,rarity,colors,color_identity,oracle_text,power,toughness,loyalty,keywords,set_name,released_at,scryfall_uri
+1,Spectacular Spider-Man,{1}{W},2.0,Legendary Creature — Spider Human Hero,rare,W,W,"Flash
+{1}: Spectacular Spider-Man gains flying until end of turn.
+{1}, Sacrifice Spectacular Spider-Man: Creatures you control gain hexproof and indestructible until end of turn.",3,2,,Flash,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/1/spectacular-spider-man?utm_source=api
+2,Web-Shooters,{1}{W},2.0,Artifact — Equipment,uncommon,W,W,"Equipped creature gets +1/+1 and has reach and ""Whenever this creature attacks, tap target creature an opponent controls.""
+Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",,,,Equip,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/2/web-shooters?utm_source=api
+3,"Flash Thompson, Spider-Fan",{1}{W},2.0,Legendary Creature — Human Citizen,uncommon,W,W,"Flash
+When Flash Thompson enters, choose one or both —
+• Heckle — Tap target creature.
+• Hero Worship — Untap target creature.",2,2,,Flash,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/3/flash-thompson-spider-fan?utm_source=api
+4,With Great Power . . .,{3}{W},4.0,Enchantment — Aura,rare,W,W,"Enchant creature you control
+Enchanted creature gets +2/+2 for each Aura and Equipment attached to it.
+All damage that would be dealt to you is dealt to enchanted creature instead.",,,,Enchant,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/4/with-great-power-?utm_source=api
+5,City Pigeon,{W},1.0,Creature — Bird,common,W,W,"Flying
+When this creature leaves the battlefield, create a Food token. (It's an artifact with ""{2}, {T}, Sacrifice this token: You gain 3 life."")",1,1,,"Flying, Food",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/5/city-pigeon?utm_source=api
+6,Rent Is Due,{W},1.0,Enchantment,rare,W,W,"At the beginning of your end step, you may tap two untapped creatures and/or Treasures you control. If you do, draw a card. Otherwise, sacrifice this enchantment.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/6/rent-is-due?utm_source=api
+7,Costume Closet,{1}{W},2.0,Artifact,uncommon,W,W,"This artifact enters with two +1/+1 counters on it.
+{T}: Move a +1/+1 counter from this artifact onto target creature you control. Activate only as a sorcery.
+Whenever a modified creature you control leaves the battlefield, put a +1/+1 counter on this artifact. (Equipment, Auras you control, and counters are modifications.)",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/7/costume-closet?utm_source=api
+8,Selfless Police Captain,{1}{W},2.0,Creature — Human Detective,common,W,W,"This creature enters with a +1/+1 counter on it.
+When this creature leaves the battlefield, put its +1/+1 counters on target creature you control.",1,1,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/8/selfless-police-captain?utm_source=api
+9,"Spider-Man, Web-Slinger",{2}{W},3.0,Legendary Creature — Spider Human Hero,common,W,W,Web-slinging {W} (You may cast this spell for {W} if you also return a tapped creature you control to its owner's hand.),3,3,,Web-slinging,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/9/spider-man-web-slinger?utm_source=api
+10,"Starling, Aerial Ally",{4}{W},5.0,Legendary Creature — Human Hero,common,W,W,"Flying
+When Starling enters, another target creature you control gains flying until end of turn.",3,4,,Flying,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/10/starling-aerial-ally?utm_source=api
+11,Wild Pack Squad,{2}{W},3.0,Creature — Human Mercenary,common,W,W,"At the beginning of combat on your turn, up to one target creature gains first strike and vigilance until end of turn.",2,3,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/11/wild-pack-squad?utm_source=api
+12,"Silver Sable, Mercenary Leader",{2}{W},3.0,Legendary Creature — Human Mercenary Hero,uncommon,W,W,"When Silver Sable enters, put a +1/+1 counter on another target creature.
+Whenever Silver Sable attacks, target modified creature you control gains lifelink until end of turn. (Equipment, Auras you control, and counters are modifications.)",2,3,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/12/silver-sable-mercenary-leader?utm_source=api
+13,Thwip!,{W},1.0,Instant,common,W,W,"Target creature gets +2/+2 and gains flying until end of turn. If it's a Spider, you gain 2 life.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/13/thwip!?utm_source=api
+14,Origin of Spider-Man,{1}{W},2.0,Enchantment — Saga,rare,W,W,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Create a 2/1 green Spider creature token with reach.
+II — Put a +1/+1 counter on target creature you control. It becomes a legendary Spider Hero in addition to its other types.
+III — Target creature you control gains double strike until end of turn.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/14/origin-of-spider-man?utm_source=api
+15,Web Up,{2}{W},3.0,Enchantment,common,W,W,"When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/15/web-up?utm_source=api
+16,Daily Bugle Reporters,{3}{W},4.0,Creature — Human Citizen,common,W,W,"When this creature enters, choose one —
+• Puff Piece — Put a +1/+1 counter on each of up to two target creatures.
+• Investigative Journalism — Return target creature card with mana value 2 or less from your graveyard to your hand.",2,3,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/16/daily-bugle-reporters?utm_source=api
+17,Friendly Neighborhood,{3}{W},4.0,Enchantment — Aura,rare,W,W,"Enchant land
+When this Aura enters, create three 1/1 green and white Human Citizen creature tokens.
+Enchanted land has ""{1}, {T}: Target creature gets +1/+1 until end of turn for each creature you control. Activate only as a sorcery.""",,,,Enchant,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/17/friendly-neighborhood?utm_source=api
+18,Spider-UK,{3}{W},4.0,Legendary Creature — Spider Human Hero,uncommon,W,W,"Web-slinging {2}{W} (You may cast this spell for {2}{W} if you also return a tapped creature you control to its owner's hand.)
+At the beginning of your end step, if two or more creatures entered the battlefield under your control this turn, you draw a card and gain 2 life.",3,4,,Web-slinging,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/18/spider-uk?utm_source=api
+19,Spectacular Tactics,{1}{W},2.0,Instant,common,W,W,"Choose one —
+• Put a +1/+1 counter on target creature you control. It gains hexproof until end of turn.
+• Destroy target creature with power 4 or greater.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/19/spectacular-tactics?utm_source=api
+20,Sudden Strike,{1}{W},2.0,Instant,uncommon,W,W,Destroy target attacking or blocking creature.,,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/20/sudden-strike?utm_source=api
+21,Peter Parker // Amazing Spider-Man,,2.0,Legendary Creature — Human Scientist Hero // Legendary Creature — Spider Human Hero,mythic,,"G, U, W",,,,,"Reach, Vigilance, Transform",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/21/peter-parker-amazing-spider-man?utm_source=api
+22,"Anti-Venom, Horrifying Healer",{W}{W}{W}{W}{W},5.0,Legendary Creature — Symbiote Hero,mythic,W,W,"When Anti-Venom enters, if he was cast, return target creature card from your graveyard to the battlefield.
+If damage would be dealt to Anti-Venom, prevent that damage and put that many +1/+1 counters on him.",5,5,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/22/anti-venom-horrifying-healer?utm_source=api
+23,"Arachne, Psionic Weaver",{2}{W},3.0,Legendary Creature — Spider Human Hero,rare,W,W,"Web-slinging {W} (You may cast this spell for {W} if you also return a tapped creature you control to its owner's hand.)
+As Arachne enters, look at an opponent's hand, then choose a card type other than creature.
+Spells of the chosen type cost {1} more to cast.",3,3,,Web-slinging,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/23/arachne-psionic-weaver?utm_source=api
+24,Aunt May,{W},1.0,Legendary Creature — Human Citizen,uncommon,W,W,"Whenever another creature you control enters, you gain 1 life. If it's a Spider, put a +1/+1 counter on it.",0,2,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/24/aunt-may?utm_source=api
+25,"Beetle, Legacy Criminal",{3}{U},4.0,Legendary Creature — Human Rogue Villain,common,U,U,"Flying
+{1}{U}, Exile this card from your graveyard: Put a +1/+1 counter on target creature. It gains flying until end of turn. Activate only as a sorcery.",3,3,,Flying,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/25/beetle-legacy-criminal?utm_source=api
+26,"Spider-Byte, Web Warden",{2}{U},3.0,Legendary Creature — Spider Avatar Hero,uncommon,U,U,"When Spider-Byte enters, return up to one target nonland permanent to its owner's hand.",2,2,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/26/spider-byte-web-warden?utm_source=api
+27,"Hydro-Man, Fluid Felon",{U}{U},2.0,Legendary Creature — Elemental Villain,rare,U,U,"Whenever you cast a blue spell, if Hydro-Man is a creature, he gets +1/+1 until end of turn.
+At the beginning of your end step, untap Hydro-Man. Until your next turn, he becomes a land and gains ""{T}: Add {U}."" (He's not a creature during that time.)",2,2,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/27/hydro-man-fluid-felon?utm_source=api
+28,Spider-Sense,{1}{U},2.0,Instant,rare,U,U,"Web-slinging {U} (You may cast this spell for {U} if you also return a tapped creature you control to its owner's hand.)
+Counter target instant spell, sorcery spell, or triggered ability.",,,,Web-slinging,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/28/spider-sense?utm_source=api
+29,Amazing Acrobatics,{1}{U}{U},3.0,Instant,common,U,U,"Choose one or both —
+• Counter target spell.
+• Tap one or two target creatures.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/29/amazing-acrobatics?utm_source=api
+30,Norman Osborn // Green Goblin,,2.0,Legendary Creature — Human Scientist Villain // Legendary Creature — Goblin Human Villain,mythic,,"B, R, U",,,,,"Flying, Transform, Menace, Connive",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/30/norman-osborn-green-goblin?utm_source=api
+31,Spider-Man No More,{1}{U},2.0,Enchantment — Aura,common,U,U,"Enchant creature
+Enchanted creature is a Citizen with base power and toughness 1/1. It has defender and loses all other abilities. (It also loses all other creature types.)",,,,Enchant,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/31/spider-man-no-more?utm_source=api
+32,Impostor Syndrome,{4}{U}{U},6.0,Enchantment,mythic,U,U,"Whenever a nontoken creature you control deals combat damage to a player, create a token that's a copy of it, except it isn't legendary.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/32/impostor-syndrome?utm_source=api
+33,The Clone Saga,{3}{U},4.0,Enchantment — Saga,rare,U,U,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Surveil 3.
+II — When you next cast a creature spell this turn, copy it, except the copy isn't legendary.
+III — Choose a card name. Whenever a creature with the chosen name deals combat damage to a player this turn, draw a card.",,,,Surveil,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/33/the-clone-saga?utm_source=api
+34,"Lady Octopus, Inspired Inventor",{U},1.0,Legendary Creature — Human Scientist Villain,rare,U,U,"Whenever you draw your first or second card each turn, put an ingenuity counter on Lady Octopus.
+{T}: You may cast an artifact spell from your hand with mana value less than or equal to the number of ingenuity counters on Lady Octopus without paying its mana cost.",0,2,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/34/lady-octopus-inspired-inventor?utm_source=api
+35,Doc Ock's Henchmen,{2}{U},3.0,Creature — Human Villain,common,U,U,"Flash
+Whenever this creature attacks, it connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.)",2,1,,"Flash, Connive",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/35/doc-ocks-henchmen?utm_source=api
+36,"Madame Web, Clairvoyant",{4}{U}{U},6.0,Legendary Creature — Mutant Advisor,uncommon,U,U,"You may look at the top card of your library any time.
+You may cast Spider spells and noncreature spells from the top of your library.
+Whenever you attack, you may mill a card. (You may put the top card of your library into your graveyard.)",4,4,,Mill,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/36/madame-web-clairvoyant?utm_source=api
+37,School Daze,{3}{U}{U},5.0,Instant,uncommon,U,U,"Choose one —
+• Do Homework — Draw three cards.
+• Fight Crime — Counter target spell. Draw a card.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/37/school-daze?utm_source=api
+38,"Doc Ock, Sinister Scientist",{4}{U},5.0,Legendary Creature — Human Scientist Villain,common,U,U,"As long as there are eight or more cards in your graveyard, Doc Ock has base power and toughness 8/8.
+As long as you control another Villain, Doc Ock has hexproof. (He can't be the target of spells or abilities your opponents control.)",4,5,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/38/doc-ock-sinister-scientist?utm_source=api
+39,Mysterio's Phantasm,{1}{U},2.0,Creature — Illusion Villain,common,U,U,"Flying, vigilance
+Whenever this creature attacks, mill a card. (Put the top card of your library into your graveyard.)",1,3,,"Flying, Vigilance, Mill",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/39/mysterios-phantasm?utm_source=api
+40,Oscorp Research Team,{3}{U},4.0,Creature — Human Scientist,common,U,U,{6}{U}: Draw two cards.,1,5,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/40/oscorp-research-team?utm_source=api
+41,Robotics Mastery,{4}{U},5.0,Enchantment — Aura,uncommon,U,U,"Flash
+Enchant creature
+When this Aura enters, create two 1/1 colorless Robot artifact creature tokens with flying.
+Enchanted creature gets +2/+2.",,,,"Enchant, Flash",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/41/robotics-mastery?utm_source=api
+42,Secret Identity,{U},1.0,Instant,uncommon,U,U,"Choose one —
+• Conceal — Until end of turn, target creature you control becomes a Citizen with base power and toughness 1/1 and gains hexproof.
+• Reveal — Until end of turn, target creature you control becomes a Hero with base power and toughness 3/4 and gains flying and vigilance.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/42/secret-identity?utm_source=api
+43,Whoosh!,{1}{U},2.0,Instant,common,U,U,"Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)
+Return target nonland permanent to its owner's hand. If this spell was kicked, draw a card.",,,,Kicker,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/43/whoosh!?utm_source=api
+44,Hide on the Ceiling,{X}{U},1.0,Instant,rare,U,U,Exile X target artifacts and/or creatures. Return the exiled cards to the battlefield under their owners' control at the beginning of the next end step.,,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/44/hide-on-the-ceiling?utm_source=api
+45,Unstable Experiment,{1}{U},2.0,Instant,common,U,U,"Target player draws a card, then up to one target creature you control connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)",,,,Connive,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/45/unstable-experiment?utm_source=api
+46,"Chameleon, Master of Disguise",{3}{U},4.0,Legendary Creature — Human Shapeshifter Villain,uncommon,U,U,"You may have Chameleon enter as a copy of a creature you control, except his name is Chameleon, Master of Disguise.
+Mayhem {2}{U} (You may cast this card from your graveyard for {2}{U} if you discarded it this turn. Timing rules still apply.)",2,3,,Mayhem,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/46/chameleon-master-of-disguise?utm_source=api
+47,Flying Octobot,{1}{U},2.0,Artifact Creature — Robot Villain,uncommon,U,U,"Flying
+Whenever another Villain you control enters, put a +1/+1 counter on this creature. This ability triggers only once each turn.",1,1,,Flying,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/47/flying-octobot?utm_source=api
+48,"Mysterio, Master of Illusion",{3}{U},4.0,Legendary Creature — Human Villain,rare,U,U,"When Mysterio enters, create a 3/3 blue Illusion Villain creature token for each nontoken Villain you control. Exile those tokens when Mysterio leaves the battlefield.",3,3,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/48/mysterio-master-of-illusion?utm_source=api
+49,Alien Symbiosis,{1}{B},2.0,Enchantment — Aura,uncommon,B,B,"Enchant creature
+Enchanted creature gets +1/+1, has menace, and is a Symbiote in addition to its other types.
+You may cast this card from your graveyard by discarding a card in addition to paying its other costs.",,,,Enchant,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/49/alien-symbiosis?utm_source=api
+50,Venomized Cat,{2}{B},3.0,Creature — Symbiote Cat Villain,common,B,B,"Deathtouch
+When this creature enters, mill two cards. (Put the top two cards of your library into your graveyard.)",2,3,,"Mill, Deathtouch",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/50/venomized-cat?utm_source=api
+51,Inner Demons Gangsters,{3}{B},4.0,Creature — Human Rogue Villain,common,B,B,Discard a card: This creature gets +1/+0 and gains menace until end of turn. Activate only as a sorcery. (It can't be blocked except by two or more creatures.),3,4,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/51/inner-demons-gangsters?utm_source=api
+52,Risky Research,{2}{B},3.0,Sorcery,common,B,B,"Surveil 2, then draw two cards. You lose 2 life. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",,,,Surveil,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/52/risky-research?utm_source=api
+53,Common Crook,{1}{B},2.0,Creature — Human Rogue Villain,common,B,B,"When this creature dies, create a Treasure token. (It's an artifact with ""{T}, Sacrifice this token: Add one mana of any color."")",2,2,,Treasure,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/53/common-crook?utm_source=api
+54,Venom's Hunger,{4}{B},5.0,Sorcery,common,B,B,"This spell costs {2} less to cast if you control a Villain.
+Destroy target creature. You gain 2 life.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/54/venoms-hunger?utm_source=api
+55,Parker Luck,{2}{B},3.0,Enchantment,rare,B,B,"At the beginning of your end step, two target players each reveal the top card of their library. They each lose life equal to the mana value of the card revealed by the other player. Then they each put the card they revealed into their hand.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/55/parker-luck?utm_source=api
+56,"Gwenom, Remorseless",{3}{B}{B},5.0,Legendary Creature — Symbiote Spider Hero,mythic,B,B,"Deathtouch, lifelink
+Whenever Gwenom attacks, until end of turn, you may look at the top card of your library any time and you may play cards from the top of your library. If you cast a spell this way, pay life equal to its mana value rather than pay its mana cost.",4,4,,"Lifelink, Deathtouch",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/56/gwenom-remorseless?utm_source=api
+57,Behold the Sinister Six!,{6}{B},7.0,Sorcery,mythic,B,B,Return up to six target creature cards with different names from your graveyard to the battlefield.,,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/57/behold-the-sinister-six!?utm_source=api
+58,The Death of Gwen Stacy,{2}{B},3.0,Enchantment — Saga,rare,B,B,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Destroy target creature.
+II — Each player may discard a card. Each player who doesn't loses 3 life.
+III — Exile any number of target players' graveyards.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/58/the-death-of-gwen-stacy?utm_source=api
+59,Spider-Man Noir,{4}{B},5.0,Legendary Creature — Spider Human Hero,uncommon,B,B,"Menace
+Whenever a creature you control attacks alone, put a +1/+1 counter on it. Then surveil X, where X is the number of counters on it. (Look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",4,4,,"Surveil, Menace",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/59/spider-man-noir?utm_source=api
+60,"Morlun, Devourer of Spiders",{X}{B}{B},2.0,Legendary Creature — Vampire Villain,rare,B,B,"Lifelink
+Morlun enters with X +1/+1 counters on him.
+When Morlun enters, he deals X damage to target opponent.",2,1,,Lifelink,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/60/morlun-devourer-of-spiders?utm_source=api
+61,Merciless Enforcers,{1}{B},2.0,Creature — Human Mercenary Villain,common,B,B,"Lifelink
+{3}{B}: This creature deals 1 damage to each opponent.",2,1,,Lifelink,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/61/merciless-enforcers?utm_source=api
+62,Sandman's Quicksand,{1}{B}{B},3.0,Sorcery,uncommon,B,B,"Mayhem {3}{B} (You may cast this card from your graveyard for {3}{B} if you discarded it this turn. Timing rules still apply.)
+All creatures get -2/-2 until end of turn. If this spell's mayhem cost was paid, creatures your opponents control get -2/-2 until end of turn instead.",,,,Mayhem,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/62/sandmans-quicksand?utm_source=api
+63,"Tombstone, Career Criminal",{2}{B},3.0,Legendary Creature — Human Villain,uncommon,B,B,"When Tombstone enters, return target Villain card from your graveyard to your hand.
+Villain spells you cast cost {1} less to cast.",2,2,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/63/tombstone-career-criminal?utm_source=api
+64,Prison Break,{4}{B},5.0,Sorcery,uncommon,B,B,"Return target creature card from your graveyard to the battlefield with an additional +1/+1 counter on it.
+Mayhem {3}{B} (You may cast this card from your graveyard for {3}{B} if you discarded it this turn. Timing rules still apply.)",,,,Mayhem,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/64/prison-break?utm_source=api
+65,The Spot's Portal,{2}{B},3.0,Instant,uncommon,B,B,Put target creature on the bottom of its owner's library. You lose 2 life unless you control a Villain.,,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/65/the-spots-portal?utm_source=api
+66,Agent Venom,{2}{B},3.0,Legendary Creature — Symbiote Soldier Hero,rare,B,B,"Flash
+Menace
+Whenever another nontoken creature you control dies, you draw a card and lose 1 life.",2,3,,"Menace, Flash",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/66/agent-venom?utm_source=api
+67,Scorpion's Sting,{1}{B},2.0,Instant,common,B,B,Target creature gets -3/-3 until end of turn.,,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/67/scorpions-sting?utm_source=api
+68,"Scorpion, Seething Striker",{3}{B},4.0,Legendary Creature — Scorpion Human Villain,uncommon,B,B,"Deathtouch
+At the beginning of your end step, if a creature died this turn, target creature you control connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)",3,3,,"Connive, Deathtouch",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/68/scorpion-seething-striker?utm_source=api
+69,The Soul Stone,{1}{B},2.0,Legendary Artifact — Infinity Stone,mythic,B,B,"Indestructible
+{T}: Add {B}.
+{6}{B}, {T}, Exile a creature you control: Harness The Soul Stone. (Once harnessed, its ∞ ability is active.)
+∞ — At the beginning of your upkeep, return target creature card from your graveyard to the battlefield.",,,,Indestructible,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/69/the-soul-stone?utm_source=api
+70,"Venom, Evil Unleashed",{4}{B},5.0,Legendary Creature — Symbiote Villain,common,B,B,"Deathtouch
+{2}{B}, Exile this card from your graveyard: Put two +1/+1 counters on target creature. It gains deathtouch until end of turn. Activate only as a sorcery.",4,5,,Deathtouch,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/70/venom-evil-unleashed?utm_source=api
+71,"Eddie Brock // Venom, Lethal Protector",,3.0,Legendary Creature — Human Hero Villain // Legendary Creature — Symbiote Hero Villain,mythic,,"B, G, R",,,,,"Transform, Haste, Trample, Menace",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/71/eddie-brock-venom-lethal-protector?utm_source=api
+72,Villainous Wrath,{3}{B}{B},5.0,Sorcery,rare,B,B,Target opponent loses life equal to the number of creatures they control. Then destroy all creatures.,,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/72/villainous-wrath?utm_source=api
+73,"Swarm, Being of Bees",{2}{B},3.0,Legendary Creature — Insect Villain,common,B,B,"Flash
+Flying
+Mayhem {B} (You may cast this card from your graveyard for {B} if you discarded it this turn. Timing rules still apply.)",2,2,,"Flying, Mayhem, Flash",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/73/swarm-being-of-bees?utm_source=api
+74,"Black Cat, Cunning Thief",{3}{B}{B},5.0,Legendary Creature — Human Rogue Villain,rare,B,B,"When Black Cat enters, look at the top nine cards of target opponent's library, exile two of them face down, then put the rest on the bottom of their library in a random order. You may play the exiled cards for as long as they remain exiled. Mana of any type can be spent to cast spells this way.",2,3,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/74/black-cat-cunning-thief?utm_source=api
+75,Spider-Verse,{3}{R}{R},5.0,Enchantment,mythic,R,R,"The ""legend rule"" doesn't apply to Spiders you control.
+Whenever you cast a spell from anywhere other than your hand, you may copy it. If you do, you may choose new targets for the copy. If the copy is a permanent spell, it gains haste. Do this only once each turn.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/75/spider-verse?utm_source=api
+76,"Electro, Assaulting Battery",{1}{R}{R},3.0,Legendary Creature — Human Villain,rare,R,R,"Flying
+You don't lose unspent red mana as steps and phases end.
+Whenever you cast an instant or sorcery spell, add {R}.
+When Electro leaves the battlefield, you may pay {X}. When you do, he deals X damage to target player.",2,3,,Flying,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/76/electro-assaulting-battery?utm_source=api
+77,"Hobgoblin, Mantled Marauder",{1}{R},2.0,Legendary Creature — Goblin Human Villain,uncommon,R,R,"Flying, haste
+Whenever you discard a card, Hobgoblin gets +2/+0 until end of turn.",1,2,,"Flying, Haste",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/77/hobgoblin-mantled-marauder?utm_source=api
+78,Electro's Bolt,{2}{R},3.0,Sorcery,common,R,R,"Electro's Bolt deals 4 damage to target creature.
+Mayhem {1}{R} (You may cast this card from your graveyard for {1}{R} if you discarded it this turn. Timing rules still apply.)",,,,Mayhem,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/78/electros-bolt?utm_source=api
+79,Heroes' Hangout,{R},1.0,Sorcery,uncommon,R,R,"Choose one —
+• Date Night — Exile the top two cards of your library. Choose one of them. Until the end of your next turn, you may play that card.
+• Patrol Night — One or two target creatures each get +1/+0 and gain first strike until end of turn.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/79/heroes-hangout?utm_source=api
+80,Taxi Driver,{1}{R},2.0,Creature — Human Pilot,common,R,R,"{1}, {T}: Target creature gains haste until end of turn.",3,1,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/80/taxi-driver?utm_source=api
+81,Angry Rabble,{1}{R},2.0,Creature — Human Citizen,common,R,R,"Trample
+Whenever you cast a spell with mana value 4 or greater, this creature deals 1 damage to each opponent.
+{5}{R}: Put two +1/+1 counters on this creature. Activate only as a sorcery.",2,2,,Trample,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/81/angry-rabble?utm_source=api
+82,"Molten Man, Inferno Incarnate",{2}{R},3.0,Legendary Creature — Elemental Villain,uncommon,R,R,"When Molten Man enters, search your library for a basic Mountain card, put it onto the battlefield tapped, then shuffle.
+Molten Man gets +1/+1 for each Mountain you control.
+When Molten Man leaves the battlefield, sacrifice a land.",0,0,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/82/molten-man-inferno-incarnate?utm_source=api
+83,"Shocker, Unshakable",{4}{R}{R},6.0,Legendary Creature — Human Rogue Villain,uncommon,R,R,"During your turn, Shocker has first strike.
+Vibro-Shock Gauntlets — When Shocker enters, he deals 2 damage to target creature and 2 damage to that creature's controller.",5,5,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/83/shocker-unshakable?utm_source=api
+84,Stegron the Dinosaur Man,{4}{R},5.0,Legendary Creature — Dinosaur Villain,common,R,R,"Menace (This creature can't be blocked except by two or more creatures.)
+Dinosaur Formula — {1}{R}, Discard this card: Until end of turn, target creature you control gets +3/+1 and becomes a Dinosaur in addition to its other types.",5,4,,Menace,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/84/stegron-the-dinosaur-man?utm_source=api
+85,Spider-Punk,{1}{R},2.0,Legendary Creature — Spider Human Hero,rare,R,R,"Riot (This creature enters with your choice of a +1/+1 counter or haste.)
+Other Spiders you control have riot.
+Spells and abilities can't be countered.
+Damage can't be prevented.",2,1,,Riot,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/85/spider-punk?utm_source=api
+86,Raging Goblinoids,{4}{R},5.0,Creature — Goblin Berserker Villain,uncommon,R,R,"Haste
+Mayhem {2}{R} (You may cast this card from your graveyard for {2}{R} if you discarded it this turn. Timing rules still apply.)",5,4,,"Mayhem, Haste",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/86/raging-goblinoids?utm_source=api
+87,Maximum Carnage,{4}{R},5.0,Enchantment — Saga,rare,R,R,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Until your next turn, each creature attacks each combat if able and attacks a player other than you if able.
+II — Add {R}{R}{R}.
+III — This Saga deals 5 damage to each opponent.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/87/maximum-carnage?utm_source=api
+88,J. Jonah Jameson,{2}{R},3.0,Legendary Creature — Human Citizen,rare,R,R,"When J. Jonah Jameson enters, suspect up to one target creature. (A suspected creature has menace and can't block.)
+Whenever a creature you control with menace attacks, create a Treasure token.",2,2,,Treasure,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/88/j-jonah-jameson?utm_source=api
+89,Gwen Stacy // Ghost-Spider,,2.0,Legendary Creature — Human Performer Hero // Legendary Creature — Spider Human Hero,mythic,,"R, U, W",,,,,"Flying, Vigilance, Transform, Haste",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/89/gwen-stacy-ghost-spider?utm_source=api
+90,Shadow of the Goblin,{1}{R},2.0,Enchantment,rare,R,R,"Unreliable Visions — At the beginning of your first main phase, discard a card. If you do, draw a card.
+Undying Vengeance — Whenever you play a land or cast a spell from anywhere other than your hand, this enchantment deals 1 damage to each opponent.",,,,Undying,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/90/shadow-of-the-goblin?utm_source=api
+91,Superior Foes of Spider-Man,{2}{R},3.0,Creature — Human Rogue Villain,uncommon,R,R,"Trample
+Whenever you cast a spell with mana value 4 or greater, you may exile the top card of your library. If you do, you may play that card until you exile another card with this creature.",3,3,,Trample,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/91/superior-foes-of-spider-man?utm_source=api
+92,Spinneret and Spiderling,{R},1.0,Legendary Creature — Spider Human Hero,rare,R,R,"Whenever you attack with two or more Spiders, put a +1/+1 counter on Spinneret and Spiderling.
+Whenever Spinneret and Spiderling deals 4 or more damage, exile the top card of your library. Until the end of your next turn, you may play that card.",1,2,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/92/spinneret-and-spiderling?utm_source=api
+93,Romantic Rendezvous,{1}{R},2.0,Sorcery,common,R,R,"Discard a card, then draw two cards.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/93/romantic-rendezvous?utm_source=api
+94,Spider-Islanders,{3}{R},4.0,Creature — Spider Horror Citizen,common,R,R,Mayhem {1}{R} (You may cast this card from your graveyard for {1}{R} if you discarded it this turn. Timing rules still apply.),4,3,,Mayhem,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/94/spider-islanders?utm_source=api
+95,Shock,{R},1.0,Instant,common,R,R,Shock deals 2 damage to any target.,,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/95/shock?utm_source=api
+96,Masked Meower,{R},1.0,Creature — Spider Cat Hero,common,R,R,"Haste
+Discard a card, Sacrifice this creature: Draw a card.",1,1,,Haste,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/96/masked-meower?utm_source=api
+97,"Spider-Gwen, Free Spirit",{2}{R},3.0,Legendary Creature — Spider Human Hero,common,R,R,"Reach
+Whenever Spider-Gwen becomes tapped, you may discard a card. If you do, draw a card.",2,3,,Reach,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/97/spider-gwen-free-spirit?utm_source=api
+98,Wisecrack,{2}{R},3.0,Instant,uncommon,R,R,"Target creature deals damage equal to its power to itself. If that creature is attacking, Wisecrack deals 2 damage to that creature's controller.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/98/wisecrack?utm_source=api
+99,Pictures of Spider-Man,{2}{G},3.0,Artifact,uncommon,G,G,"When this artifact enters, look at the top five cards of your library. You may reveal up to two creature cards from among them and put them into your hand. Put the rest on the bottom of your library in a random order.
+{1}, {T}, Sacrifice this artifact: Create a Treasure token. (It's an artifact with ""{T}, Sacrifice this token: Add one mana of any color."")",,,,Treasure,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/99/pictures-of-spider-man?utm_source=api
+100,"Spider-Rex, Daring Dino",{4}{G}{G},6.0,Legendary Creature — Spider Dinosaur Hero,common,G,G,"Reach, trample
+Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)",6,6,,"Reach, Trample, Ward",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/100/spider-rex-daring-dino?utm_source=api
+101,"Spiders-Man, Heroic Horde",{1}{G},2.0,Legendary Creature — Spider Hero,uncommon,G,G,"Web-slinging {4}{G}{G} (You may cast this spell for {4}{G}{G} if you also return a tapped creature you control to its owner's hand.)
+When Spiders-Man enters, if they were cast using web-slinging, you gain 3 life and create two 2/1 green Spider creature tokens with reach.",2,3,,Web-slinging,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/101/spiders-man-heroic-horde?utm_source=api
+102,Miles Morales // Ultimate Spider-Man,,2.0,Legendary Creature — Human Citizen Hero // Legendary Creature — Spider Human Hero,mythic,,"G, R, W",,,,,"Transform, First strike, Haste",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/102/miles-morales-ultimate-spider-man?utm_source=api
+103,Kraven's Cats,{1}{G},2.0,Creature — Cat Villain,common,G,G,{2}{G}: This creature gets +2/+2 until end of turn. Activate only once each turn.,2,2,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/103/kravens-cats?utm_source=api
+104,Guy in the Chair,{2}{G},3.0,Creature — Human Advisor,common,G,G,"{T}: Add one mana of any color.
+Web Support — {2}{G}, {T}: Put a +1/+1 counter on target Spider. Activate only as a sorcery.",2,3,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/104/guy-in-the-chair?utm_source=api
+105,Radioactive Spider,{G},1.0,Creature — Spider,rare,G,G,"Reach, deathtouch
+Fateful Bite — {2}, Sacrifice this creature: Search your library for a Spider Hero card, reveal it, put it into your hand, then shuffle. Activate only as a sorcery.",1,1,,"Reach, Deathtouch",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/105/radioactive-spider?utm_source=api
+106,Professional Wrestler,{3}{G},4.0,Creature — Human Warrior Performer,common,G,G,"When this creature enters, create a Treasure token. (It's an artifact with ""{T}, Sacrifice this token: Add one mana of any color."")
+This creature can't be blocked by more than one creature.",4,4,,Treasure,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/106/professional-wrestler?utm_source=api
+107,Grow Extra Arms,{1}{G},2.0,Instant,common,G,G,"This spell costs {1} less to cast if it targets a Spider.
+Target creature gets +4/+4 until end of turn.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/107/grow-extra-arms?utm_source=api
+108,"Lizard, Connors's Curse",{2}{G}{G},4.0,Legendary Creature — Lizard Villain,rare,G,G,"Trample
+Lizard Formula — When Lizard, Connors's Curse enters, up to one other target creature loses all abilities and becomes a green Lizard creature with base power and toughness 4/4.",5,5,,Trample,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/108/lizard-connorss-curse?utm_source=api
+109,Lurking Lizards,{1}{G},2.0,Creature — Lizard Villain,common,G,G,"Trample
+Whenever you cast a spell with mana value 4 or greater, put a +1/+1 counter on this creature.",1,3,,Trample,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/109/lurking-lizards?utm_source=api
+110,"Ezekiel Sims, Spider-Totem",{4}{G},5.0,Legendary Creature — Spider Human Advisor,uncommon,G,G,"Reach
+At the beginning of combat on your turn, target Spider you control gets +2/+2 until end of turn.",3,5,,Reach,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/110/ezekiel-sims-spider-totem?utm_source=api
+111,Kapow!,{2}{G},3.0,Sorcery,common,G,G,Put a +1/+1 counter on target creature you control. It fights target creature an opponent controls. (Each deals damage equal to its power to the other.),,,,Fight,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/111/kapow!?utm_source=api
+112,Wall Crawl,{3}{G},4.0,Enchantment,uncommon,G,G,"When this enchantment enters, create a 2/1 green Spider creature token with reach, then you gain 1 life for each Spider you control.
+Spiders you control get +1/+1 and can't be blocked by creatures with defender.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/112/wall-crawl?utm_source=api
+113,"Sandman, Shifting Scoundrel",{1}{G}{G},3.0,Legendary Creature — Sand Elemental Villain,rare,G,G,"Sandman's power and toughness are each equal to the number of lands you control.
+Sandman can't be blocked by creatures with power 2 or less.
+{3}{G}{G}: Return this card and target land card from your graveyard to the battlefield tapped.",*,*,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/113/sandman-shifting-scoundrel?utm_source=api
+114,Scout the City,{1}{G},2.0,Sorcery,common,G,G,"Choose one —
+• Look Around — Mill three cards. You may put a permanent card from among them into your hand. You gain 3 life. (To mill three cards, put the top three cards of your library into your graveyard.)
+• Bring Down — Destroy target creature with flying.",,,,Mill,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/114/scout-the-city?utm_source=api
+115,Damage Control Crew,{3}{G},4.0,Creature — Human Citizen,uncommon,G,G,"When this creature enters, choose one —
+• Repair — Return target card with mana value 4 or greater from your graveyard to your hand.
+• Impound — Exile target artifact or enchantment.",3,3,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/115/damage-control-crew?utm_source=api
+116,Strength of Will,{1}{G},2.0,Instant,rare,G,G,"Until end of turn, target creature you control gains indestructible and ""Whenever this creature is dealt damage, put that many +1/+1 counters on it.""",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/116/strength-of-will?utm_source=api
+117,Supportive Parents,{2}{G},3.0,Creature — Human Citizen,uncommon,G,G,Tap two untapped creatures you control: Add one mana of any color.,3,3,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/117/supportive-parents?utm_source=api
+118,"Spider-Ham, Peter Porker",{1}{G},2.0,Legendary Creature — Spider Boar Hero,rare,G,G,"When Spider-Ham enters, create a Food token. (It's an artifact with ""{2}, {T}, Sacrifice this token: You gain 3 life."")
+Animal May-Ham — Other Spiders, Boars, Bats, Bears, Birds, Cats, Dogs, Frogs, Jackals, Lizards, Mice, Otters, Rabbits, Raccoons, Rats, Squirrels, Turtles, and Wolves you control get +1/+1.",2,2,,"Food, Animal May-Ham",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/118/spider-ham-peter-porker?utm_source=api
+119,Terrific Team-Up,{3}{G},4.0,Instant,uncommon,G,G,"This spell costs {2} less to cast if you control a permanent with mana value 4 or greater.
+One or two target creatures you control each get +1/+0 until end of turn. They each deal damage equal to their power to target creature an opponent controls.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/119/terrific-team-up?utm_source=api
+120,Web of Life and Destiny,{6}{G}{G},8.0,Enchantment,mythic,G,G,"Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+At the beginning of combat on your turn, look at the top five cards of your library. You may put a creature card from among them onto the battlefield. Put the rest on the bottom of your library in a random order.",,,,Convoke,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/120/web-of-life-and-destiny?utm_source=api
+121,Kraven's Last Hunt,{3}{G},4.0,Enchantment — Saga,rare,G,G,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Mill five cards. When you do, this Saga deals damage equal to the greatest power among creature cards in your graveyard to target creature.
+II — Target creature you control gets +2/+2 until end of turn.
+III — Return target creature card from your graveyard to your hand.",,,,Mill,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/121/kravens-last-hunt?utm_source=api
+122,"Spider-Man, Brooklyn Visionary",{4}{G},5.0,Legendary Creature — Spider Human Hero,common,G,G,"Web-slinging {2}{G} (You may cast this spell for {2}{G} if you also return a tapped creature you control to its owner's hand.)
+When Spider-Man enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",4,3,,Web-slinging,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/122/spider-man-brooklyn-visionary?utm_source=api
+123,"Silk, Web Weaver",{2}{G}{W},4.0,Legendary Creature — Spider Human Hero,rare,"G, W","G, W","Web-slinging {1}{G}{W} (You may cast this spell for {1}{G}{W} if you also return a tapped creature you control to its owner's hand.)
+Whenever you cast a creature spell, create a 1/1 green and white Human Citizen creature token.
+{3}{G}{W}: Creatures you control get +2/+2 and gain vigilance until end of turn.",3,5,,Web-slinging,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/123/silk-web-weaver?utm_source=api
+124,Spider-Man India,{3}{G}{W},5.0,Legendary Creature — Spider Human Hero,uncommon,"G, W","G, W","Web-slinging {1}{G}{W} (You may cast this spell for {1}{G}{W} if you also return a tapped creature you control to its owner's hand.)
+Pavitr's Sevā — Whenever you cast a creature spell, put a +1/+1 counter on target creature you control. It gains flying until end of turn.",4,4,,Web-slinging,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/124/spider-man-india?utm_source=api
+125,Biorganic Carapace,{2}{W}{U},4.0,Artifact — Equipment,rare,"U, W","U, W","When this Equipment enters, attach it to target creature you control.
+Equipped creature gets +2/+2 and has ""Whenever this creature deals combat damage to a player, draw a card for each modified creature you control."" (Equipment, Auras you control, and counters are modifications.)
+Equip {2}",,,,Equip,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/125/biorganic-carapace?utm_source=api
+126,"Scarlet Spider, Ben Reilly",{1}{R}{G},3.0,Legendary Creature — Spider Human Hero,rare,"G, R","G, R","Web-slinging {R}{G} (You may cast this spell for {R}{G} if you also return a tapped creature you control to its owner's hand.)
+Trample
+Sensational Save — If Scarlet Spider was cast using web-slinging, he enters with X +1/+1 counters on him, where X is the mana value of the returned creature.",4,3,,"Trample, Web-slinging",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/126/scarlet-spider-ben-reilly?utm_source=api
+127,Kraven the Hunter,{1}{B}{G},3.0,Legendary Creature — Human Warrior Villain,rare,"B, G","B, G","Trample
+Whenever a creature an opponent controls with the greatest power among creatures that player controls dies, draw a card and put a +1/+1 counter on Kraven the Hunter.",4,3,,Trample,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/127/kraven-the-hunter?utm_source=api
+128,"Prowler, Clawed Thief",{1}{U}{B},3.0,Legendary Creature — Human Rogue Villain,uncommon,"B, U","B, U","Menace (This creature can't be blocked except by two or more creatures.)
+Whenever another Villain you control enters, Prowler connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.)",2,3,,"Menace, Connive",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/128/prowler-clawed-thief?utm_source=api
+129,Cheering Crowd,{1}{R/G},2.0,Creature — Human Citizen,rare,"G, R","G, R","At the beginning of each player's first main phase, that player may put a +1/+1 counter on this creature. If they do, they add {C} for each counter on it.",2,2,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/129/cheering-crowd?utm_source=api
+130,"Sun-Spider, Nimble Webber",{3}{W/U},4.0,Legendary Creature — Spider Human Hero,uncommon,"U, W","U, W","During your turn, Sun-Spider has flying.
+When Sun-Spider enters, search your library for an Aura or Equipment card, reveal it, put it into your hand, then shuffle.",3,2,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/130/sun-spider-nimble-webber?utm_source=api
+131,"Shriek, Treblemaker",{2}{B/R},3.0,Legendary Creature — Mutant Villain,uncommon,"B, R","B, R","At the beginning of your first main phase, you may discard a card. When you do, target creature can't block this turn.
+Sonic Blast — Whenever a creature an opponent controls dies, Shriek deals 1 damage to that player.",2,3,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/131/shriek-treblemaker?utm_source=api
+132,Mary Jane Watson,{1}{G/W},2.0,Legendary Creature — Human Performer,rare,"G, W","G, W","Whenever a Spider you control enters, draw a card. This ability triggers only once each turn.",2,2,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/132/mary-jane-watson?utm_source=api
+133,"Carnage, Crimson Chaos",{2}{B}{R},4.0,Legendary Creature — Symbiote Villain,rare,"B, R","B, R","Trample
+When Carnage enters, return target creature card with mana value 3 or less from your graveyard to the battlefield. It gains ""This creature attacks each combat if able"" and ""When this creature deals combat damage to a player, sacrifice it.""
+Mayhem {B}{R}",4,3,,"Mayhem, Trample",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/133/carnage-crimson-chaos?utm_source=api
+134,Web-Warriors,{4}{G/W},5.0,Creature — Spider Hero,uncommon,"G, W","G, W","When this creature enters, put a +1/+1 counter on each other creature you control.",4,3,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/134/web-warriors?utm_source=api
+135,"Kraven, Proud Predator",{1}{R}{G},3.0,Legendary Creature — Human Warrior Villain,uncommon,"G, R","G, R","Vigilance
+Top of the Food Chain — Kraven's power is equal to the greatest mana value among permanents you control.",*,4,,Vigilance,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/135/kraven-proud-predator?utm_source=api
+136,"Jackal, Genius Geneticist",{G}{U},2.0,Legendary Creature — Human Scientist Villain,rare,"G, U","G, U","Trample
+Whenever you cast a creature spell with mana value equal to Jackal's power, copy that spell, except the copy isn't legendary. Then put a +1/+1 counter on Jackal. (The copy becomes a token.)",1,1,,Trample,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/136/jackal-genius-geneticist?utm_source=api
+137,Gallant Citizen,{G/W}{G/W},2.0,Creature — Human Citizen,common,"G, W","G, W","When this creature enters, draw a card.",1,1,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/137/gallant-citizen?utm_source=api
+138,"Araña, Heart of the Spider",{1}{R}{W},3.0,Legendary Creature — Spider Human Hero,rare,"R, W","R, W","Whenever you attack, put a +1/+1 counter on target attacking creature.
+Whenever a modified creature you control deals combat damage to a player, exile the top card of your library. You may play that card this turn. (Equipment, Auras you control, and counters are modifications.)",3,3,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/138/ara%C3%B1a-heart-of-the-spider?utm_source=api
+139,"Spider-Girl, Legacy Hero",{G}{W},2.0,Legendary Creature — Spider Human Hero,uncommon,"G, W","G, W","During your turn, Spider-Girl has flying.
+When Spider-Girl leaves the battlefield, create a 1/1 green and white Human Citizen creature token.",2,2,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/139/spider-girl-legacy-hero?utm_source=api
+140,Superior Spider-Man,{2}{U}{B},4.0,Legendary Creature — Spider Human Hero,rare,"B, U","B, U","Mind Swap — You may have Superior Spider-Man enter as a copy of any creature card in a graveyard, except his name is Superior Spider-Man and he's a 4/4 Spider Human Hero in addition to his other types. When you do, exile that card.",4,4,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/140/superior-spider-man?utm_source=api
+141,"Scarlet Spider, Kaine",{B}{R},2.0,Legendary Creature — Spider Human Hero,uncommon,"B, R","B, R","Menace (This creature can't be blocked except by two or more creatures.)
+When Scarlet Spider enters, you may discard a card. If you do, put a +1/+1 counter on him.
+Mayhem {B/R} (You may cast this card from your graveyard for {B/R} if you discarded it this turn. Timing rules still apply.)",2,1,,"Mayhem, Menace",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/141/scarlet-spider-kaine?utm_source=api
+142,Pumpkin Bombardment,{B/R},1.0,Sorcery,common,"B, R","B, R","As an additional cost to cast this spell, discard a card or pay {2}.
+Pumpkin Bombardment deals 3 damage to target creature.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/142/pumpkin-bombardment?utm_source=api
+143,"SP//dr, Piloted by Peni",{3}{W}{U},5.0,Legendary Artifact Creature — Spider Hero,uncommon,"U, W","U, W","Vigilance
+When SP//dr enters, put a +1/+1 counter on target creature.
+Whenever a modified creature you control deals combat damage to a player, draw a card. (Equipment, Auras you control, and counters are modifications.)",4,4,,Vigilance,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/143/spdr-piloted-by-peni?utm_source=api
+144,Spider Manifestation,{1}{R/G},2.0,Creature — Spider Avatar,common,"G, R","G, R","Reach
+{T}: Add {R} or {G}.
+Whenever you cast a spell with mana value 4 or greater, untap this creature.",2,2,,Reach,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/144/spider-manifestation?utm_source=api
+145,"Spider-Woman, Stunning Savior",{1}{W/U},2.0,Legendary Creature — Spider Human Hero,rare,"U, W","U, W","Flying
+Venom Blast — Artifacts and creatures your opponents control enter tapped.",2,2,,Flying,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/145/spider-woman-stunning-savior?utm_source=api
+146,"Wraith, Vicious Vigilante",{1}{W}{U},3.0,Legendary Creature — Human Detective Hero,uncommon,"U, W","U, W","Double strike
+Fear Gas — Wraith can't be blocked.",1,1,,"Fear, Double strike",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/146/wraith-vicious-vigilante?utm_source=api
+147,Mob Lookout,{1}{U/B},2.0,Creature — Human Rogue Villain,common,"B, U","B, U","When this creature enters, target creature you control connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)",0,3,,Connive,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/147/mob-lookout?utm_source=api
+148,"Doctor Octopus, Master Planner",{5}{U}{B},7.0,Legendary Creature — Human Scientist Villain,mythic,"B, U","B, U","Other Villains you control get +2/+2.
+Your maximum hand size is eight.
+At the beginning of your end step, if you have fewer than eight cards in hand, draw cards equal to the difference.",4,8,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/148/doctor-octopus-master-planner?utm_source=api
+149,"Green Goblin, Revenant",{3}{B}{R},5.0,Legendary Creature — Goblin Human Villain,uncommon,"B, R","B, R","Flying, deathtouch
+Whenever Green Goblin attacks, discard a card. Then draw a card for each card you've discarded this turn.",3,3,,"Deathtouch, Flying",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/149/green-goblin-revenant?utm_source=api
+150,"The Spot, Living Portal",{3}{W}{B},5.0,Legendary Creature — Human Scientist Villain,rare,"B, W","B, W","When The Spot enters, exile up to one target nonland permanent and up to one target nonland permanent card from a graveyard.
+When The Spot dies, put him on the bottom of his owner's library. If you do, return the exiled cards to their owners' hands.",4,4,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/150/the-spot-living-portal?utm_source=api
+151,Rhino's Rampage,{R/G},1.0,Sorcery,uncommon,"G, R","G, R","Target creature you control gets +1/+0 until end of turn. It fights target creature an opponent controls. When excess damage is dealt to the creature an opponent controls this way, destroy up to one target noncreature artifact with mana value 3 or less.",,,,Fight,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/151/rhinos-rampage?utm_source=api
+152,"Vulture, Scheming Scavenger",{5}{U/B},6.0,Legendary Creature — Human Artificer Villain,uncommon,"B, U","B, U","Flying
+Whenever Vulture attacks, other Villains you control gain flying until end of turn.",4,6,,Flying,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/152/vulture-scheming-scavenger?utm_source=api
+153,Ultimate Green Goblin,{1}{B/R}{B/R},3.0,Legendary Creature — Goblin Villain,rare,"B, R","B, R","At the beginning of your upkeep, discard a card, then create a Treasure token.
+Mayhem {2}{B/R} (You may cast this card from your graveyard for {2}{B/R} if you discarded it this turn. Timing rules still apply.)",5,4,,"Mayhem, Treasure",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/153/ultimate-green-goblin?utm_source=api
+154,Cosmic Spider-Man,{W}{U}{B}{R}{G},5.0,Legendary Creature — Spider Human Hero,mythic,"B, G, R, U, W","B, G, R, U, W","Flying, first strike, trample, lifelink, haste
+At the beginning of combat on your turn, other Spiders you control gain flying, first strike, trample, lifelink, and haste until end of turn.",5,5,,"Flying, Lifelink, First strike, Haste, Trample",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/154/cosmic-spider-man?utm_source=api
+155,Symbiote Spider-Man,{2}{U/B},3.0,Legendary Creature — Symbiote Spider Hero,rare,"B, U","B, U","Whenever this creature deals combat damage to a player, look at that many cards from the top of your library. Put one of them into your hand and the rest into your graveyard.
+Find New Host — {2}{U/B}, Exile this card from your graveyard: Put a +1/+1 counter on target creature you control. It gains this card's other abilities. Activate only as a sorcery.",2,4,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/155/symbiote-spider-man?utm_source=api
+156,Morbius the Living Vampire,{2}{U}{B},4.0,Legendary Creature — Vampire Scientist Villain,uncommon,"B, U","B, U","Flying, vigilance, lifelink
+{U}{B}, Exile this card from your graveyard: Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.",3,1,,"Flying, Lifelink, Vigilance",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/156/morbius-the-living-vampire?utm_source=api
+157,Spider-Man 2099,{U}{R},2.0,Legendary Creature — Spider Human Hero,rare,"R, U","R, U","From the Future — You can't cast Spider-Man 2099 during your first, second, or third turns of the game.
+Double strike, vigilance
+At the beginning of your end step, if you've played a land or cast a spell this turn from anywhere other than your hand, Spider-Man 2099 deals damage equal to his power to any target.",2,3,,"Vigilance, Double strike",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/157/spider-man-2099?utm_source=api
+158,Mister Negative,{5}{W}{B},7.0,Legendary Creature — Human Villain,mythic,"B, W","B, W","Vigilance, lifelink
+Darkforce Inversion — When Mister Negative enters, you may exchange life totals with target opponent. If you lost life this way, draw that many cards.",5,5,,"Lifelink, Vigilance",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/158/mister-negative?utm_source=api
+159,Skyward Spider,{W/U}{W/U},2.0,Creature — Spider Human Hero,common,"U, W","U, W","Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+This creature has flying as long as it's modified. (Equipment, Auras you control, and counters are modifications.)",2,2,,Ward,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/159/skyward-spider?utm_source=api
+160,"Rhino, Barreling Brute",{3}{R}{R}{G}{G},7.0,Legendary Creature — Human Villain,uncommon,"G, R","G, R","Vigilance, trample, haste
+Whenever Rhino attacks, if you've cast a spell with mana value 4 or greater this turn, draw a card.",6,7,,"Vigilance, Haste, Trample",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/160/rhino-barreling-brute?utm_source=api
+161,Spider-Suit,{1},1.0,Artifact — Equipment,uncommon,,,"Equipped creature gets +2/+2 and is a Spider Hero in addition to its other types.
+Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",,,,Equip,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/161/spider-suit?utm_source=api
+162,Passenger Ferry,{3},3.0,Artifact — Vehicle,common,,U,"Whenever this Vehicle attacks, you may pay {U}. When you do, another target attacking creature can't be blocked this turn.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)",4,3,,Crew,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/162/passenger-ferry?utm_source=api
+163,Mechanical Mobster,{3},3.0,Artifact Creature — Human Robot Villain,common,,,"When this creature enters, exile up to one target card from a graveyard. Target creature you control connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)",2,1,,Connive,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/163/mechanical-mobster?utm_source=api
+164,Eerie Gravestone,{2},2.0,Artifact,common,,B,"When this artifact enters, draw a card.
+{1}{B}, Sacrifice this artifact: Mill four cards. You may put a creature card from among them into your hand. (To mill four cards, put the top four cards of your library into your graveyard.)",,,,Mill,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/164/eerie-gravestone?utm_source=api
+165,"Living Brain, Mechanical Marvel",{4},4.0,Legendary Artifact Creature — Robot Villain,uncommon,,,"At the beginning of combat on your turn, target non-Equipment artifact you control becomes an artifact creature with base power and toughness 3/3 until end of turn. Untap it.",3,3,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/165/living-brain-mechanical-marvel?utm_source=api
+166,"Iron Spider, Stark Upgrade",{3},3.0,Legendary Artifact Creature — Spider Hero,rare,,,"Vigilance
+{T}: Put a +1/+1 counter on each artifact creature and/or Vehicle you control.
+{2}, Remove two +1/+1 counters from among artifacts you control: Draw a card.",2,3,,Vigilance,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/166/iron-spider-stark-upgrade?utm_source=api
+167,Doc Ock's Tentacles,{1},1.0,Artifact — Equipment,rare,,,"Whenever a creature you control with mana value 5 or greater enters, you may attach this Equipment to it.
+Equipped creature gets +4/+4.
+Equip {5}",,,,Equip,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/167/doc-ocks-tentacles?utm_source=api
+168,"Spider-Slayer, Hatred Honed",{2},2.0,Legendary Artifact Creature — Human Villain,uncommon,,,"Whenever Spider-Slayer deals damage to a Spider, destroy that creature.
+{6}, Exile this card from your graveyard: Create two tapped 1/1 colorless Robot artifact creature tokens with flying.",2,1,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/168/spider-slayer-hatred-honed?utm_source=api
+169,News Helicopter,{3},3.0,Artifact Creature — Construct,common,,,"Flying
+When this creature enters, create a 1/1 green and white Human Citizen creature token.",1,1,,Flying,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/169/news-helicopter?utm_source=api
+170,Bagel and Schmear,{1},1.0,Artifact — Food,common,,W,"Share — {W}, {T}, Sacrifice this artifact: Put a +1/+1 counter on up to one target creature. Draw a card. Activate only as a sorcery.
+Nosh — {2}, {T}, Sacrifice this artifact: You gain 3 life and draw a card.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/170/bagel-and-schmear?utm_source=api
+171,Peter Parker's Camera,{1},1.0,Artifact,rare,,,"This artifact enters with three film counters on it.
+{2}, {T}, Remove a film counter from this artifact: Copy target activated or triggered ability you control. You may choose new targets for the copy.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/171/peter-parkers-camera?utm_source=api
+172,Interdimensional Web Watch,{4},4.0,Artifact,rare,,,"When this artifact enters, exile the top two cards of your library. Until the end of your next turn, you may play those cards.
+{T}: Add two mana in any combination of colors. Spend this mana only to cast spells from exile.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/172/interdimensional-web-watch?utm_source=api
+173,Spider-Mobile,{3},3.0,Artifact — Vehicle,uncommon,,,"Trample
+Whenever this Vehicle attacks or blocks, it gets +1/+1 until end of turn for each Spider you control.
+Crew 2",3,3,,"Crew, Trample",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/173/spider-mobile?utm_source=api
+174,Spider-Bot,{2},2.0,Artifact Creature — Spider Robot Scout,common,,,"Reach
+When this creature enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.",2,1,,Reach,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/174/spider-bot?utm_source=api
+175,Rocket-Powered Goblin Glider,{3},3.0,Artifact — Equipment,rare,,,"When this Equipment enters, if it was cast from your graveyard, attach it to target creature you control.
+Equipped creature gets +2/+0 and has flying and haste.
+Equip {2}
+Mayhem {2}",,,,"Mayhem, Equip",Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/175/rocket-powered-goblin-glider?utm_source=api
+176,Steel Wrecking Ball,{5},5.0,Artifact,common,,R,"When this artifact enters, it deals 5 damage to target creature.
+{1}{R}, Discard this card: Destroy target artifact.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/176/steel-wrecking-ball?utm_source=api
+177,Hot Dog Cart,{3},3.0,Artifact,common,,,"When this artifact enters, create a Food token. (It's an artifact with ""{2}, {T}, Sacrifice this token: You gain 3 life."")
+{T}: Add one mana of any color.",,,,Food,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/177/hot-dog-cart?utm_source=api
+178,Subway Train,{2},2.0,Artifact — Vehicle,common,,G,"When this Vehicle enters, you may pay {G}. If you do, search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)",3,1,,Crew,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/178/subway-train?utm_source=api
+179,Oscorp Industries,,0.0,Land,rare,,"B, R, U","This land enters tapped.
+When this land enters from a graveyard, you lose 2 life.
+{T}: Add {U}, {B}, or {R}.
+Mayhem (You may play this card from your graveyard if you discarded it this turn. Timing rules still apply.)",,,,Mayhem,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/179/oscorp-industries?utm_source=api
+180,Daily Bugle Building,,0.0,Land,uncommon,,,"{T}: Add {C}.
+{1}, {T}: Add one mana of any color.
+Smear Campaign — {1}, {T}: Target legendary creature gains menace until end of turn. Activate only as a sorcery.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/180/daily-bugle-building?utm_source=api
+181,Multiversal Passage,,0.0,Land,rare,,,"As this land enters, choose a basic land type. Then you may pay 2 life. If you don't, it enters tapped.
+This land is the chosen type.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/181/multiversal-passage?utm_source=api
+182,Ominous Asylum,,0.0,Land,common,,"B, R","This land enters tapped.
+{T}: Add {B} or {R}.
+{4}, {T}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",,,,Surveil,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/182/ominous-asylum?utm_source=api
+183,Savage Mansion,,0.0,Land,common,,"G, R","This land enters tapped.
+{T}: Add {R} or {G}.
+{4}, {T}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",,,,Surveil,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/183/savage-mansion?utm_source=api
+184,Sinister Hideout,,0.0,Land,common,,"B, U","This land enters tapped.
+{T}: Add {U} or {B}.
+{4}, {T}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",,,,Surveil,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/184/sinister-hideout?utm_source=api
+185,Suburban Sanctuary,,0.0,Land,common,,"G, W","This land enters tapped.
+{T}: Add {G} or {W}.
+{4}, {T}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",,,,Surveil,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/185/suburban-sanctuary?utm_source=api
+186,University Campus,,0.0,Land,common,,"U, W","This land enters tapped.
+{T}: Add {W} or {U}.
+{4}, {T}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",,,,Surveil,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/186/university-campus?utm_source=api
+187,Urban Retreat,,0.0,Land,rare,,"G, U, W","This land enters tapped.
+{T}: Add {G}, {W}, or {U}.
+{2}, Return a tapped creature you control to its owner's hand: Put this card from your hand onto the battlefield. Activate only as a sorcery.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/187/urban-retreat?utm_source=api
+188,Vibrant Cityscape,,0.0,Land,common,,,"{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",,,,,Through the Omenpaths,2025-09-23,https://scryfall.com/card/om1/188/vibrant-cityscape?utm_source=api

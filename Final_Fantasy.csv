@@ -1,0 +1,652 @@
+collector_number,name,mana_cost,cmc,type_line,rarity,colors,color_identity,oracle_text,power,toughness,loyalty,keywords,set_name,released_at,scryfall_uri
+1,Summon: Bahamut,{9},9.0,Enchantment Creature — Saga Dragon,mythic,,,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)
+I, II — Destroy up to one target nonland permanent.
+III — Draw two cards.
+IV — Mega Flare — This creature deals damage equal to the total mana value of other permanents you control to each opponent.
+Flying",9,9,,Flying,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/1/summon:-bahamut?utm_source=api
+2,"Ultima, Origin of Oblivion",{5},5.0,Legendary Creature — God,rare,,,"Flying
+Whenever Ultima attacks, put a blight counter on target land. For as long as that land has a blight counter on it, it loses all land types and abilities and has ""{T}: Add {C}.""
+Whenever you tap a land for {C}, add an additional {C}.",4,4,,Flying,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/2/ultima-origin-of-oblivion?utm_source=api
+3,Adelbert Steiner,{1}{W},2.0,Legendary Creature — Human Knight,uncommon,W,W,"Lifelink
+Adelbert Steiner gets +1/+1 for each Equipment you control.",2,1,,Lifelink,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/3/adelbert-steiner?utm_source=api
+4,Aerith Gainsborough,{2}{W},3.0,Legendary Creature — Human Cleric,rare,W,W,"Lifelink
+Whenever you gain life, put a +1/+1 counter on Aerith Gainsborough.
+When Aerith Gainsborough dies, put X +1/+1 counters on each legendary creature you control, where X is the number of +1/+1 counters on Aerith Gainsborough.",2,2,,Lifelink,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/4/aerith-gainsborough?utm_source=api
+5,Aerith Rescue Mission,{3}{W},4.0,Sorcery,common,W,W,"Choose one —
+• Take the Elevator — Create three 1/1 colorless Hero creature tokens.
+• Take 59 Flights of Stairs — Tap up to three target creatures. Put a stun counter on one of them. (If a permanent with a stun counter would become untapped, remove one from it instead.)",,,,"Take 59 Flights of Stairs, Take the Elevator",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/5/aerith-rescue-mission?utm_source=api
+6,Ambrosia Whiteheart,{1}{W},2.0,Legendary Creature — Bird,uncommon,W,W,"Flash
+When Ambrosia Whiteheart enters, you may return another permanent you control to its owner's hand.
+Landfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn.",2,2,,"Flash, Landfall",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/6/ambrosia-whiteheart?utm_source=api
+7,"Ashe, Princess of Dalmasca",{2}{W},3.0,Legendary Creature — Human Rebel Noble,uncommon,W,W,"Whenever Ashe attacks, look at the top five cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",3,2,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/7/ashe-princess-of-dalmasca?utm_source=api
+8,Auron's Inspiration,{2}{W},3.0,Instant,uncommon,W,W,"Attacking creatures get +2/+0 until end of turn.
+Flashback {2}{W}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/8/aurons-inspiration?utm_source=api
+9,Battle Menu,{1}{W},2.0,Instant,uncommon,W,W,"Choose one —
+• Attack — Create a 2/2 white Knight creature token.
+• Ability — Target creature gets +0/+4 until end of turn.
+• Magic — Destroy target creature with power 4 or greater.
+• Item — You gain 4 life.",,,,"Attack, Ability, Item, Magic",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/9/battle-menu?utm_source=api
+10,"Cloud, Midgar Mercenary",{W}{W},2.0,Legendary Creature — Human Soldier Mercenary,mythic,W,W,"When Cloud enters, search your library for an Equipment card, reveal it, put it into your hand, then shuffle.
+As long as Cloud is equipped, if an ability of Cloud or an Equipment attached to it triggers, that ability triggers an additional time.",2,1,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/10/cloud-midgar-mercenary?utm_source=api
+11,Cloudbound Moogle,{3}{W}{W},5.0,Creature — Moogle,common,W,W,"Flying
+When this creature enters, put a +1/+1 counter on target creature.
+Plainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)",2,3,,"Flying, Plainscycling, Landcycling, Typecycling, Cycling",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/11/cloudbound-moogle?utm_source=api
+12,Coeurl,{1}{W},2.0,Creature — Cat Beast,common,W,W,"{1}{W}, {T}: Tap target nonenchantment creature.",2,2,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/12/coeurl?utm_source=api
+13,Crystal Fragments // Summon: Alexander,,1.0,Artifact — Equipment // Enchantment Creature — Saga Construct,uncommon,,W,,,,,"Flying, Transform, Equip",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/13/crystal-fragments-summon:-alexander?utm_source=api
+14,The Crystal's Chosen,{5}{W}{W},7.0,Sorcery,uncommon,W,W,Create four 1/1 colorless Hero creature tokens. Then put a +1/+1 counter on each creature you control.,,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/14/the-crystals-chosen?utm_source=api
+15,Delivery Moogle,{3}{W},4.0,Creature — Moogle,uncommon,W,W,"Flying
+When this creature enters, search your library and/or graveyard for an artifact card with mana value 2 or less, reveal it, and put it into your hand. If you search your library this way, shuffle.",3,2,,Flying,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/15/delivery-moogle?utm_source=api
+16,"Dion, Bahamut's Dominant // Bahamut, Warden of Light",,4.0,Legendary Creature — Human Noble Knight // Legendary Enchantment Creature — Saga Dragon,rare,,W,,,,,"Dragonfire Dive, Flying, Transform",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/16/dion-bahamuts-dominant-bahamut-warden-of-light?utm_source=api
+17,Dragoon's Lance,{1}{W},2.0,Artifact — Equipment,uncommon,W,W,"Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature gets +1/+0 and is a Knight in addition to its other types.
+During your turn, equipped creature has flying.
+Gae Bolg — Equip {4}",,,,"Gae Bolg, Job select, Equip",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/17/dragoons-lance?utm_source=api
+18,Dwarven Castle Guard,{1}{W},2.0,Creature — Dwarf Soldier,common,W,W,"When this creature dies, create a 1/1 colorless Hero creature token.",2,1,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/18/dwarven-castle-guard?utm_source=api
+19,Fate of the Sun-Cryst,{4}{W},5.0,Instant,common,W,W,"This spell costs {2} less to cast if it targets a tapped creature.
+Destroy target nonland permanent.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/19/fate-of-the-sun-cryst?utm_source=api
+20,From Father to Son,{1}{W},2.0,Sorcery,rare,W,W,"Search your library for a Vehicle card, reveal it, and put it into your hand. If this spell was cast from a graveyard, put that card onto the battlefield instead. Then shuffle.
+Flashback {4}{W}{W}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/20/from-father-to-son?utm_source=api
+21,G'raha Tia,{4}{W},5.0,Legendary Creature — Cat Archer,uncommon,W,W,"Reach
+The Allagan Eye — Whenever one or more other creatures and/or artifacts you control die, draw a card. This ability triggers only once each turn.",3,5,,"Reach, The Allagan Eye",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/21/graha-tia?utm_source=api
+22,Gaelicat,{2}{W},3.0,Creature — Cat,common,W,W,"Flying, vigilance
+As long as you control two or more artifacts, this creature gets +2/+0.",1,3,,"Flying, Vigilance",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/22/gaelicat?utm_source=api
+23,Machinist's Arsenal,{4}{W},5.0,Artifact — Equipment,rare,W,W,"Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature gets +2/+2 for each artifact you control and is an Artificer in addition to its other types.
+Machina — Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)",,,,"Machina, Job select, Equip",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/23/machinists-arsenal?utm_source=api
+24,Magitek Armor,{3}{W},4.0,Artifact — Vehicle,uncommon,W,W,"When this Vehicle enters, create a 1/1 colorless Hero creature token.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",4,4,,Crew,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/24/magitek-armor?utm_source=api
+25,Magitek Infantry,{W},1.0,Artifact Creature — Robot Soldier,common,W,W,"This creature gets +1/+0 as long as you control another artifact.
+{2}{W}: Search your library for a card named Magitek Infantry, put it onto the battlefield tapped, then shuffle.",1,1,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/25/magitek-infantry?utm_source=api
+26,"Minwu, White Mage",{3}{W}{W},5.0,Legendary Creature — Human Cleric,rare,W,W,"Vigilance, lifelink
+Whenever you gain life, put a +1/+1 counter on each Cleric you control.",3,3,,"Lifelink, Vigilance",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/26/minwu-white-mage?utm_source=api
+27,Moogles' Valor,{3}{W}{W},5.0,Instant,rare,W,W,"For each creature you control, create a 1/2 white Moogle creature token with lifelink. Then creatures you control gain indestructible until end of turn.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/27/moogles-valor?utm_source=api
+28,Paladin's Arms,{2}{W},3.0,Artifact — Equipment,common,W,W,"Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature gets +2/+1, has ward {1}, and is a Knight in addition to its other types.
+Lightbringer and Hero's Shield — Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)",,,,"Job select, Equip",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/28/paladins-arms?utm_source=api
+29,Phoenix Down,{W},1.0,Artifact,uncommon,W,W,"{1}{W}, {T}, Exile this artifact: Choose one —
+• Return target creature card with mana value 4 or less from your graveyard to the battlefield tapped.
+• Exile target Skeleton, Spirit, or Zombie.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/29/phoenix-down?utm_source=api
+30,Restoration Magic,{W},1.0,Instant,uncommon,W,W,"Tiered (Choose one additional cost.)
+• Cure — {0} — Target permanent gains hexproof and indestructible until end of turn.
+• Cura — {1} — Target permanent gains hexproof and indestructible until end of turn. You gain 3 life.
+• Curaga — {3}{W} — Permanents you control gain hexproof and indestructible until end of turn. You gain 6 life.",,,,"Curaga, Cura, Tiered, Cure",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/30/restoration-magic?utm_source=api
+31,Sidequest: Catch a Fish // Cooking Campsite,,3.0,Enchantment // Land,uncommon,,W,,,,,"Transform, Food",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/31/sidequest:-catch-a-fish-cooking-campsite?utm_source=api
+32,Slash of Light,{1}{W},2.0,Instant,common,W,W,Slash of Light deals damage equal to the number of creatures you control plus the number of Equipment you control to target creature.,,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/32/slash-of-light?utm_source=api
+33,Snow Villiers,{2}{W},3.0,Legendary Creature — Human Rebel Monk,uncommon,W,W,"Vigilance
+Snow Villiers's power is equal to the number of creatures you control.",*,3,,Vigilance,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/33/snow-villiers?utm_source=api
+34,"Stiltzkin, Moogle Merchant",{W},1.0,Legendary Creature — Moogle,rare,W,W,"Lifelink
+{2}, {T}: Target opponent gains control of another target permanent you control. If they do, you draw a card.",1,2,,Lifelink,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/34/stiltzkin-moogle-merchant?utm_source=api
+35,Summon: Choco/Mog,{2}{W},3.0,Enchantment Creature — Saga Bird Moogle,common,W,W,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)
+I, II, III, IV — Stampede! — Other creatures you control get +1/+0 until end of turn.",3,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/35/summon:-chocomog?utm_source=api
+36,Summon: Knights of Round,{6}{W}{W},8.0,Enchantment Creature — Saga Knight,mythic,W,W,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after V.)
+I, II, III, IV — Create three 2/2 white Knight creature tokens.
+V — Ultimate End — Other creatures you control get +2/+2 until end of turn. Put an indestructible counter on each of them.
+Indestructible",3,3,,Indestructible,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/36/summon:-knights-of-round?utm_source=api
+37,Summon: Primal Garuda,{3}{W},4.0,Enchantment Creature — Saga Harpy,uncommon,W,W,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Aerial Blast — This creature deals 4 damage to target tapped creature an opponent controls.
+II, III — Slipstream — Another target creature you control gets +1/+0 and gains flying until end of turn.
+Flying",3,3,,Flying,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/37/summon:-primal-garuda?utm_source=api
+38,Ultima,{3}{W}{W},5.0,Sorcery,rare,W,W,"Destroy all artifacts and creatures. End the turn. (Exile all spells and abilities from the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and ""this turn"" and ""until end of turn"" effects end.)",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/38/ultima?utm_source=api
+39,"Venat, Heart of Hydaelyn // Hydaelyn, the Mothercrystal",,3.0,Legendary Creature — Elder Wizard // Legendary Creature — God,rare,,W,,,,,"Blessing of Light, Indestructible, Transform",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/39/venat-heart-of-hydaelyn-hydaelyn-the-mothercrystal?utm_source=api
+40,Weapons Vendor,{3}{W},4.0,Creature — Human Artificer,common,W,W,"When this creature enters, draw a card.
+At the beginning of combat on your turn, if you control an Equipment, you may pay {1}. When you do, attach target Equipment you control to target creature you control.",2,2,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/40/weapons-vendor?utm_source=api
+41,White Auracite,{2}{W}{W},4.0,Artifact,common,W,W,"When this artifact enters, exile target nonland permanent an opponent controls until this artifact leaves the battlefield.
+{T}: Add {W}.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/41/white-auracite?utm_source=api
+42,White Mage's Staff,{1}{W},2.0,Artifact — Equipment,common,W,W,"Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature gets +1/+1, has ""Whenever this creature attacks, you gain 1 life,"" and is a Cleric in addition to its other types.
+Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",,,,"Job select, Equip",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/42/white-mages-staff?utm_source=api
+43,The Wind Crystal,{2}{W}{W},4.0,Legendary Artifact,rare,W,W,"White spells you cast cost {1} less to cast.
+If you would gain life, you gain twice that much life instead.
+{4}{W}{W}, {T}: Creatures you control gain flying and lifelink until end of turn.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/43/the-wind-crystal?utm_source=api
+44,You're Not Alone,{W},1.0,Instant,common,W,W,"Target creature gets +2/+2 until end of turn. If you control three or more creatures, it gets +4/+4 until end of turn instead.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/44/youre-not-alone?utm_source=api
+45,Zack Fair,{W},1.0,Legendary Creature — Human Soldier,uncommon,W,W,"Zack Fair enters with a +1/+1 counter on it.
+{1}, Sacrifice Zack Fair: Target creature you control gains indestructible until end of turn. Put Zack Fair's counters on that creature and attach an Equipment that was attached to Zack Fair to that creature.",0,1,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/45/zack-fair?utm_source=api
+46,Astrologian's Planisphere,{1}{U},2.0,Artifact — Equipment,rare,U,U,"Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature is a Wizard in addition to its other types and has ""Whenever you cast a noncreature spell and whenever you draw your third card each turn, put a +1/+1 counter on this creature.""
+Diana — Equip {2}",,,,"Job select, Equip",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/46/astrologians-planisphere?utm_source=api
+47,Cargo Ship,{1}{U},2.0,Artifact — Vehicle,uncommon,U,U,"Flying, vigilance
+{T}: Add {C}. Spend this mana only to cast an artifact spell or activate an ability of an artifact source.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",2,3,,"Flying, Vigilance, Crew",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/47/cargo-ship?utm_source=api
+48,Combat Tutorial,{2}{U},3.0,Sorcery,common,U,U,Target player draws two cards. Put a +1/+1 counter on up to one target creature you control.,,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/48/combat-tutorial?utm_source=api
+49,Dragoon's Wyvern,{2}{U},3.0,Creature — Drake,common,U,U,"Flying
+When this creature enters, create a 1/1 colorless Hero creature token.",2,1,,Flying,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/49/dragoons-wyvern?utm_source=api
+50,Dreams of Laguna,{1}{U},2.0,Instant,common,U,U,"Surveil 1, then draw a card. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)
+Flashback {3}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,"Surveil, Flashback",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/50/dreams-of-laguna?utm_source=api
+51,"Edgar, King of Figaro",{4}{U}{U},6.0,Legendary Creature — Human Artificer Noble,rare,U,U,"When Edgar enters, draw a card for each artifact you control.
+Two-Headed Coin — The first time you flip one or more coins each turn, those coins come up heads and you win those flips.",4,5,,Two-Headed Coin,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/51/edgar-king-of-figaro?utm_source=api
+52,Eject,{3}{U},4.0,Instant,uncommon,U,U,"This spell can't be countered.
+Return target nonland permanent to its owner's hand.
+Draw a card.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/52/eject?utm_source=api
+53,Ether,{3}{U},4.0,Artifact,uncommon,U,U,"{T}, Exile this artifact: Add {U}. When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/53/ether?utm_source=api
+54,"Gogo, Master of Mimicry",{2}{U},3.0,Legendary Creature — Wizard,mythic,U,U,"{X}{X}, {T}: Copy target activated or triggered ability you control X times. You may choose new targets for the copies. This ability can't be copied and X can't be 0. (Mana abilities can't be targeted.)",2,4,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/54/gogo-master-of-mimicry?utm_source=api
+55,Ice Flan,{4}{U}{U},6.0,Creature — Elemental Ooze,common,U,U,"When this creature enters, tap target artifact or creature an opponent controls. Put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+Islandcycling {2} ({2}, Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle.)",5,4,,"Islandcycling, Landcycling, Typecycling, Cycling",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/55/ice-flan?utm_source=api
+56,Ice Magic,{1}{U},2.0,Instant,common,U,U,"Tiered (Choose one additional cost.)
+• Blizzard — {0} — Return target creature to its owner's hand.
+• Blizzara — {2} — Target creature's owner puts it on their choice of the top or bottom of their library.
+• Blizzaga — {5}{U} — Target creature's owner shuffles it into their library.",,,,"Blizzard, Blizzara, Blizzaga, Tiered",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/56/ice-magic?utm_source=api
+57,Il Mheg Pixie,{1}{U},2.0,Creature — Faerie,uncommon,U,U,"Flying
+Whenever this creature attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",2,1,,"Flying, Surveil",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/57/il-mheg-pixie?utm_source=api
+58,"Jill, Shiva's Dominant // Shiva, Warden of Ice",,3.0,Legendary Creature — Human Noble Warrior // Legendary Enchantment Creature — Saga Elemental,rare,,U,,,,,Transform,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/58/jill-shivas-dominant-shiva-warden-of-ice?utm_source=api
+59,Louisoix's Sacrifice,{U},1.0,Instant,rare,U,U,"As an additional cost to cast this spell, sacrifice a legendary creature or pay {2}.
+Counter target activated ability, triggered ability, or noncreature spell.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/59/louisoixs-sacrifice?utm_source=api
+60,The Lunar Whale,{3}{U},4.0,Legendary Artifact — Vehicle,rare,U,U,"Flying
+You may look at the top card of your library any time.
+As long as The Lunar Whale attacked this turn, you may play the top card of your library.
+Crew 1",3,5,,"Flying, Crew",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/60/the-lunar-whale?utm_source=api
+61,Magic Damper,{U},1.0,Instant,common,U,U,Target creature you control gets +1/+1 and gains hexproof until end of turn. Untap it.,,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/61/magic-damper?utm_source=api
+62,"Matoya, Archon Elder",{2}{U},3.0,Legendary Creature — Human Warlock,rare,U,U,"Whenever you scry or surveil, draw a card. (Draw after you scry or surveil.)",1,4,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/62/matoya-archon-elder?utm_source=api
+63,Memories Returning,{2}{U}{U},4.0,Sorcery,rare,U,U,"Reveal the top five cards of your library. Put one of them into your hand. Then choose an opponent. They put one on the bottom of your library. Then you put one into your hand. Then they put one on the bottom of your library. Put the other into your hand.
+Flashback {7}{U}{U}",,,,Flashback,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/63/memories-returning?utm_source=api
+64,The Prima Vista,{4}{U},5.0,Legendary Artifact — Vehicle,uncommon,U,U,"Flying
+Whenever you cast a noncreature spell, if at least four mana was spent to cast it, The Prima Vista becomes an artifact creature until end of turn.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)",5,3,,"Flying, Crew",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/64/the-prima-vista?utm_source=api
+65,Qiqirn Merchant,{2}{U},3.0,Creature — Beast Citizen,common,U,U,"{1}, {T}: Draw a card, then discard a card.
+{7}, {T}, Sacrifice this creature: Draw three cards. This ability costs {1} less to activate for each Town you control.",1,4,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/65/qiqirn-merchant?utm_source=api
+66,Quistis Trepe,{2}{U},3.0,Legendary Creature — Human Wizard,uncommon,U,U,"Blue Magic — When Quistis Trepe enters, you may cast target instant or sorcery card from a graveyard, and mana of any type can be spent to cast that spell. If that spell would be put into a graveyard, exile it instead.",2,2,,Blue Magic,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/66/quistis-trepe?utm_source=api
+67,Relm's Sketching,{2}{U}{U},4.0,Sorcery,uncommon,U,U,"Create a token that's a copy of target artifact, creature, or land.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/67/relms-sketching?utm_source=api
+68,Retrieve the Esper,{3}{U},4.0,Sorcery,common,U,U,"Create a 3/3 blue Robot Warrior artifact creature token. Then if this spell was cast from a graveyard, put two +1/+1 counters on that token.
+Flashback {5}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/68/retrieve-the-esper?utm_source=api
+69,Rook Turret,{3}{U},4.0,Artifact Creature — Construct,common,U,U,"Flying
+Whenever another artifact you control enters, you may draw a card. If you do, discard a card.",3,3,,Flying,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/69/rook-turret?utm_source=api
+70,Sage's Nouliths,{1}{U},2.0,Artifact — Equipment,common,U,U,"Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature gets +1/+0, has ""Whenever this creature attacks, untap target attacking creature,"" and is a Cleric in addition to its other types.
+Hagneia — Equip {3}",,,,"Hagneia, Job select, Equip",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/70/sages-nouliths?utm_source=api
+71,Sahagin,{1}{U},2.0,Creature — Merfolk Warrior,common,U,U,"Whenever you cast a noncreature spell, if at least four mana was spent to cast it, put a +1/+1 counter on this creature and it can't be blocked this turn.",1,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/71/sahagin?utm_source=api
+72,Scorpion Sentinel,{1}{U},2.0,Artifact Creature — Robot Scorpion,common,U,U,"As long as you control seven or more lands, this creature gets +3/+0.",1,4,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/72/scorpion-sentinel?utm_source=api
+73,Sidequest: Card Collection // Magicked Card,,4.0,Enchantment // Artifact — Vehicle,uncommon,,U,,,,,"Flying, Transform, Crew",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/73/sidequest:-card-collection-magicked-card?utm_source=api
+74,Sleep Magic,{U},1.0,Enchantment — Aura,uncommon,U,U,"Enchant creature
+When this Aura enters, tap enchanted creature.
+Enchanted creature doesn't untap during its controller's untap step.
+When enchanted creature is dealt damage, sacrifice this Aura.",,,,Enchant,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/74/sleep-magic?utm_source=api
+75,Stolen Uniform,{U},1.0,Instant,uncommon,U,U,"Choose target creature you control and target Equipment. Gain control of that Equipment until end of turn. Attach it to the chosen creature. When you lose control of that Equipment this turn, if it's attached to a creature you control, unattach it.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/75/stolen-uniform?utm_source=api
+76,Stuck in Summoner's Sanctum,{2}{U},3.0,Enchantment — Aura,common,U,U,"Flash
+Enchant artifact or creature
+When this Aura enters, tap enchanted permanent.
+Enchanted permanent doesn't untap during its controller's untap step and its activated abilities can't be activated.",,,,"Enchant, Flash",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/76/stuck-in-summoners-sanctum?utm_source=api
+77,Summon: Leviathan,{4}{U}{U},6.0,Enchantment Creature — Saga Leviathan,rare,U,U,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Return each creature that isn't a Kraken, Leviathan, Merfolk, Octopus, or Serpent to its owner's hand.
+II, III — Until end of turn, whenever a Kraken, Leviathan, Merfolk, Octopus, or Serpent attacks, draw a card.
+Ward {2}",6,6,,Ward,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/77/summon:-leviathan?utm_source=api
+78,Summon: Shiva,{3}{U}{U},5.0,Enchantment Creature — Saga Elemental,uncommon,U,U,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Heavenly Strike — Tap target creature an opponent controls. Put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+III — Diamond Dust — Draw a card for each tapped creature your opponents control.",4,5,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/78/summon:-shiva?utm_source=api
+79,Swallowed by Leviathan,{2}{U},3.0,Instant,uncommon,U,U,"Choose target spell. Surveil 2, then counter the chosen spell unless its controller pays {1} for each card in your graveyard. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",,,,Surveil,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/79/swallowed-by-leviathan?utm_source=api
+80,Syncopate,{X}{U},1.0,Instant,common,U,U,"Counter target spell unless its controller pays {X}. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/80/syncopate?utm_source=api
+81,Thief's Knife,{2}{U},3.0,Artifact — Equipment,uncommon,U,U,"Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature gets +1/+1, has ""Whenever this creature deals combat damage to a player, draw a card,"" and is a Rogue in addition to its other types.
+Equip {4}",,,,"Job select, Equip",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/81/thiefs-knife?utm_source=api
+82,Travel the Overworld,{5}{U}{U},7.0,Sorcery,uncommon,U,U,"Affinity for Towns (This spell costs {1} less to cast for each Town you control.)
+Draw four cards.",,,,Affinity,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/82/travel-the-overworld?utm_source=api
+83,"Ultros, Obnoxious Octopus",{1}{U},2.0,Legendary Creature — Octopus,uncommon,U,U,"Whenever you cast a noncreature spell, if at least four mana was spent to cast it, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+Whenever you cast a noncreature spell, if at least eight mana was spent to cast it, put eight +1/+1 counters on Ultros.",2,1,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/83/ultros-obnoxious-octopus?utm_source=api
+84,Valkyrie Aerial Unit,{5}{U}{U},7.0,Artifact Creature — Construct,uncommon,U,U,"Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
+Flying
+When this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",5,4,,"Flying, Surveil, Affinity",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/84/valkyrie-aerial-unit?utm_source=api
+85,The Water Crystal,{2}{U}{U},4.0,Legendary Artifact,rare,U,U,"Blue spells you cast cost {1} less to cast.
+If an opponent would mill one or more cards, they mill that many cards plus four instead.
+{4}{U}{U}, {T}: Each opponent mills cards equal to the number of cards in your hand.",,,,Mill,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/85/the-water-crystal?utm_source=api
+86,Y'shtola Rhul,{4}{U}{U},6.0,Legendary Creature — Cat Druid,mythic,U,U,"At the beginning of your end step, exile target creature you control, then return it to the battlefield under its owner's control. Then if it's the first end step of the turn, there is an additional end step after this step.",3,5,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/86/yshtola-rhul?utm_source=api
+87,Ahriman,{2}{B},3.0,Creature — Eye Horror,common,B,B,"Flying, deathtouch
+{3}, Sacrifice another creature or artifact: Draw a card.",2,2,,"Deathtouch, Flying",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/87/ahriman?utm_source=api
+88,Al Bhed Salvagers,{2}{B},3.0,Creature — Human Artificer Warrior,uncommon,B,B,"Whenever this creature or another creature or artifact you control dies, target opponent loses 1 life and you gain 1 life.",2,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/88/al-bhed-salvagers?utm_source=api
+89,"Ardyn, the Usurper",{5}{B}{B}{B},8.0,Legendary Creature — Elder Human Noble,rare,B,B,"Demons you control have menace, lifelink, and haste.
+Starscourge — At the beginning of combat on your turn, exile up to one target creature card from a graveyard. If you exiled a card this way, create a token that's a copy of that card, except it's a 5/5 black Demon.",4,4,,Starscourge,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/89/ardyn-the-usurper?utm_source=api
+90,Black Mage's Rod,{1}{B},2.0,Artifact — Equipment,common,B,B,"Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature gets +1/+0, has ""Whenever you cast a noncreature spell, this creature deals 1 damage to each opponent,"" and is a Wizard in addition to its other types.
+Equip {3}",,,,"Job select, Equip",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/90/black-mages-rod?utm_source=api
+91,"Cecil, Dark Knight // Cecil, Redeemed Paladin",,1.0,Legendary Creature — Human Knight // Legendary Creature — Human Knight,rare,,"B, W",,,,,"Lifelink, Protect, Transform, Darkness, Deathtouch",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/91/cecil-dark-knight-cecil-redeemed-paladin?utm_source=api
+92,Circle of Power,{3}{B},4.0,Sorcery,uncommon,B,B,"You draw two cards and you lose 2 life. Create a 0/1 black Wizard creature token with ""Whenever you cast a noncreature spell, this token deals 1 damage to each opponent.""
+Wizards you control get +1/+0 and gain lifelink until end of turn.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/92/circle-of-power?utm_source=api
+93,Cornered by Black Mages,{1}{B}{B},3.0,Sorcery,common,B,B,"Target opponent sacrifices a creature of their choice.
+Create a 0/1 black Wizard creature token with ""Whenever you cast a noncreature spell, this token deals 1 damage to each opponent.""",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/93/cornered-by-black-mages?utm_source=api
+94,Dark Confidant,{1}{B},2.0,Creature — Human Wizard,mythic,B,B,"At the beginning of your upkeep, reveal the top card of your library and put that card into your hand. You lose life equal to its mana value.",2,1,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/94/dark-confidant?utm_source=api
+95,Dark Knight's Greatsword,{2}{B},3.0,Artifact — Equipment,uncommon,B,B,"Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature gets +3/+0 and is a Knight in addition to its other types.
+Chaosbringer — Equip—Pay 3 life. Activate only once each turn.",,,,"Chaosbringer, Job select, Equip",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/95/dark-knights-greatsword?utm_source=api
+96,The Darkness Crystal,{2}{B}{B},4.0,Legendary Artifact,rare,B,B,"Black spells you cast cost {1} less to cast.
+If a nontoken creature an opponent controls would die, instead exile it and you gain 2 life.
+{4}{B}{B}, {T}: Put target creature card exiled with The Darkness Crystal onto the battlefield tapped under your control with two additional +1/+1 counters on it.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/96/the-darkness-crystal?utm_source=api
+97,Demon Wall,{1}{B},2.0,Artifact Creature — Demon Wall,uncommon,B,B,"Defender
+Menace (This creature can't be blocked except by two or more creatures.)
+As long as this creature has a counter on it, it can attack as though it didn't have defender.
+{5}{B}: Put two +1/+1 counters on this creature.",3,3,,"Menace, Defender",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/97/demon-wall?utm_source=api
+98,Evil Reawakened,{4}{B},5.0,Sorcery,uncommon,B,B,Return target creature card from your graveyard to the battlefield with two additional +1/+1 counters on it.,,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/98/evil-reawakened?utm_source=api
+99,"Fang, Fearless l'Cie",{2}{B},3.0,Legendary Creature — Human Warrior,uncommon,B,B,"Whenever one or more cards leave your graveyard, you draw a card and you lose 1 life. This ability triggers only once each turn.
+(Melds with Vanille, Cheerful l'Cie.)",2,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/99/fang-fearless-lcie?utm_source=api
+99b,"Ragnarok, Divine Deliverance",,7.0,Legendary Creature — Beast Avatar,uncommon,"B, G","B, G","Vigilance, menace, trample, reach, haste
+When Ragnarok dies, destroy target permanent and return target nonlegendary permanent card from your graveyard to the battlefield.",7,6,,"Reach, Vigilance, Haste, Trample, Menace",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/99b/ragnarok-divine-deliverance?utm_source=api
+100,Fight On!,{2}{B},3.0,Instant,common,B,B,Return up to two target creature cards from your graveyard to your hand.,,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/100/fight-on!?utm_source=api
+101,The Final Days,{2}{B}{B},4.0,Sorcery,uncommon,B,B,"Create two tapped 2/2 black Horror creature tokens. If this spell was cast from a graveyard, instead create X of those tokens, where X is the number of creature cards in your graveyard.
+Flashback {4}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/101/the-final-days?utm_source=api
+102,Gaius van Baelsar,{2}{B}{B},4.0,Legendary Creature — Human Soldier,uncommon,B,B,"When Gaius van Baelsar enters, choose one —
+• Each player sacrifices a creature token of their choice.
+• Each player sacrifices a nontoken creature of their choice.
+• Each player sacrifices an enchantment of their choice.",3,2,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/102/gaius-van-baelsar?utm_source=api
+103,Hecteyes,{1}{B},2.0,Creature — Ooze Horror,common,B,B,"When this creature enters, each opponent discards a card.",1,1,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/103/hecteyes?utm_source=api
+104,"Jecht, Reluctant Guardian // Braska's Final Aeon",,4.0,Legendary Creature — Human Warrior // Legendary Enchantment Creature — Saga Nightmare,rare,,B,,,,,"Transform, Menace",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/104/jecht-reluctant-guardian-braskas-final-aeon?utm_source=api
+105,"Kain, Traitorous Dragoon",{2}{B},3.0,Legendary Creature — Human Knight,rare,B,B,"Jump — During your turn, Kain has flying.
+Whenever Kain deals combat damage to a player, that player gains control of Kain. If they do, you draw that many cards, create that many tapped Treasure tokens, then lose that much life.",2,4,,"Jump, Treasure",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/105/kain-traitorous-dragoon?utm_source=api
+106,Malboro,{4}{B}{B},6.0,Creature — Plant Horror,common,B,B,"Bad Breath — When this creature enters, each opponent discards a card, loses 2 life, and exiles the top three cards of their library.
+Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)",4,4,,"Landcycling, Bad Breath, Typecycling, Cycling, Swampcycling",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/106/malboro?utm_source=api
+107,Namazu Trader,{3}{B},4.0,Creature — Fish Citizen,common,B,B,"When this creature enters, you lose 1 life and create a Treasure token.
+Whenever this creature attacks, you may sacrifice another creature or artifact. If you do, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",3,4,,"Surveil, Treasure",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/107/namazu-trader?utm_source=api
+108,Ninja's Blades,{2}{B},3.0,Artifact — Equipment,rare,B,B,"Job select
+Equipped creature gets +1/+1, is a Ninja in addition to its other types, and has ""Whenever this creature deals combat damage to a player, draw a card, then discard a card. That player loses life equal to the discarded card's mana value.""
+Mutsunokami — Equip {2}",,,,"Job select, Equip, Mutsunokami",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/108/ninjas-blades?utm_source=api
+109,Overkill,{2}{B},3.0,Instant,uncommon,B,B,Target creature gets -0/-9999 until end of turn.,,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/109/overkill?utm_source=api
+110,Phantom Train,{3}{B},4.0,Artifact — Vehicle,uncommon,B,B,"Trample
+Sacrifice another artifact or creature: Put a +1/+1 counter on this Vehicle. It becomes a Spirit artifact creature in addition to its other types until end of turn.",4,4,,Trample,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/110/phantom-train?utm_source=api
+111,Poison the Waters,{1}{B},2.0,Sorcery,uncommon,B,B,"Choose one —
+• All creatures get -1/-1 until end of turn.
+• Target player reveals their hand. You choose an artifact or creature card from it. That player discards that card.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/111/poison-the-waters?utm_source=api
+112,Qutrub Forayer,{2}{B},3.0,Creature — Zombie Horror,common,B,B,"When this creature enters, choose one —
+• Destroy target creature that was dealt damage this turn.
+• Exile up to two target cards from a single graveyard.",3,2,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/112/qutrub-forayer?utm_source=api
+113,Reno and Rude,{1}{B},2.0,Legendary Creature — Human Assassin,uncommon,B,B,"Menace
+Whenever Reno and Rude deals combat damage to a player, exile the top card of that player's library. Then you may sacrifice another creature or artifact. If you do, you may play the exiled card this turn, and mana of any type can be spent to cast it.",2,1,,Menace,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/113/reno-and-rude?utm_source=api
+114,Resentful Revelation,{1}{B},2.0,Sorcery,common,B,B,"Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.
+Flashback {6}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/114/resentful-revelation?utm_source=api
+115,"Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",,3.0,Legendary Creature — Human Avatar Soldier // Legendary Creature — Angel Nightmare Avatar,mythic,,B,,,,,"Flying, Transform, Super Nova",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/115/sephiroth-fabled-soldier-sephiroth-one-winged-angel?utm_source=api
+116,Sephiroth's Intervention,{3}{B},4.0,Instant,common,B,B,Destroy target creature. You gain 2 life.,,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/116/sephiroths-intervention?utm_source=api
+117,Shambling Cie'th,{2}{B},3.0,Creature — Mutant Horror,uncommon,B,B,"This creature enters tapped.
+Whenever you cast a noncreature spell, you may pay {B}. If you do, return this card from your graveyard to your hand.",3,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/117/shambling-cieth?utm_source=api
+118,Shinra Reinforcements,{2}{B},3.0,Creature — Human Soldier,common,B,B,"When this creature enters, mill three cards and you gain 3 life. (To mill three cards, put the top three cards of your library into your graveyard.)",2,3,,Mill,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/118/shinra-reinforcements?utm_source=api
+119,"Sidequest: Hunt the Mark // Yiazmat, Ultimate Mark",,5.0,Enchantment // Legendary Creature — Dragon,uncommon,,B,,,,,"Transform, Treasure",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/119/sidequest:-hunt-the-mark-yiazmat-ultimate-mark?utm_source=api
+120,Summon: Anima,{4}{B}{B},6.0,Enchantment Creature — Saga Horror,uncommon,B,B,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)
+I, II, III — Pain — You draw a card and you lose 1 life.
+IV — Oblivion — Each opponent sacrifices a creature of their choice and loses 3 life.
+Menace",4,4,,Menace,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/120/summon:-anima?utm_source=api
+121,Summon: Primal Odin,{4}{B}{B},6.0,Enchantment Creature — Saga Knight,rare,B,B,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Gungnir — Destroy target creature an opponent controls.
+II — Zantetsuken — This creature gains ""Whenever this creature deals combat damage to a player, that player loses the game.""
+III — Hall of Sorrow — Draw two cards. Each player loses 2 life.",5,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/121/summon:-primal-odin?utm_source=api
+122,Tonberry,{B},1.0,Creature — Salamander Horror,uncommon,B,B,"This creature enters tapped with a stun counter on it. (If it would become untapped, remove a stun counter from it instead.)
+Chef's Knife — During your turn, this creature has first strike and deathtouch.",2,1,,Chef's Knife,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/122/tonberry?utm_source=api
+123,Undercity Dire Rat,{1}{B},2.0,Creature — Rat,common,B,B,"Rat Tail — When this creature dies, create a Treasure token. (It's an artifact with ""{T}, Sacrifice this token: Add one mana of any color."")",2,2,,"Treasure, Rat Tail",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/123/undercity-dire-rat?utm_source=api
+124,Vayne's Treachery,{1}{B},2.0,Instant,common,B,B,"Kicker—Sacrifice an artifact or creature. (You may sacrifice an artifact or creature in addition to any other costs as you cast this spell.)
+Target creature gets -2/-2 until end of turn. If this spell was kicked, that creature gets -6/-6 until end of turn instead.",,,,Kicker,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/124/vaynes-treachery?utm_source=api
+125,Vincent Valentine // Galian Beast,,4.0,Legendary Creature — Assassin // Legendary Creature — Werewolf Beast,rare,,B,,,,,"Lifelink, Transform, Trample",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/125/vincent-valentine-galian-beast?utm_source=api
+126,Vincent's Limit Break,{1}{B},2.0,Instant,common,B,B,"Tiered (Choose one additional cost.)
+Until end of turn, target creature you control gains ""When this creature dies, return it to the battlefield tapped under its owner's control"" and has the chosen base power and toughness.
+• Galian Beast — {0} — 3/2.
+• Death Gigas — {1} — 5/2.
+• Hellmasker — {3} — 7/2.",,,,"Hellmasker, Death Gigas, Tiered, Galian Beast",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/126/vincents-limit-break?utm_source=api
+127,"Zenos yae Galvus // Shinryu, Transcendent Rival",,5.0,Legendary Creature — Human Noble Warrior // Legendary Creature — Dragon,rare,,B,,,,,"Flying, Transform, My First Friend, Burning Chains",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/127/zenos-yae-galvus-shinryu-transcendent-rival?utm_source=api
+128,"Zodiark, Umbral God",{B}{B}{B}{B}{B},5.0,Legendary Creature — God,rare,B,B,"Indestructible
+When Zodiark enters, each player sacrifices half the non-God creatures they control of their choice, rounded down.
+Whenever a player sacrifices another creature, put a +1/+1 counter on Zodiark.",5,5,,Indestructible,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/128/zodiark-umbral-god?utm_source=api
+129,Barret Wallace,{3}{R},4.0,Legendary Creature — Human Rebel,uncommon,R,R,"Reach
+Whenever Barret Wallace attacks, it deals damage equal to the number of equipped creatures you control to defending player.",4,4,,Reach,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/129/barret-wallace?utm_source=api
+130,Blazing Bomb,{R},1.0,Creature — Elemental,common,R,R,"Whenever you cast a noncreature spell, if at least four mana was spent to cast it, put a +1/+1 counter on this creature.
+Blow Up — {T}, Sacrifice this creature: It deals damage equal to its power to target creature. Activate only as a sorcery.",1,1,,Blow Up,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/130/blazing-bomb?utm_source=api
+131,Call the Mountain Chocobo,{3}{R},4.0,Sorcery,common,R,R,"Search your library for a Mountain card, reveal it, put it into your hand, then shuffle. Create a 2/2 green Bird creature token with ""Whenever a land you control enters, this token gets +1/+0 until end of turn.""
+Flashback {5}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/131/call-the-mountain-chocobo?utm_source=api
+132,Choco-Comet,{X}{R}{R},2.0,Sorcery,uncommon,R,R,"Choco-Comet deals X damage to any target.
+Create a 2/2 green Bird creature token with ""Whenever a land you control enters, this token gets +1/+0 until end of turn.""",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/132/choco-comet?utm_source=api
+133,"Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",,6.0,Legendary Creature — Human Noble Warrior // Legendary Enchantment Creature — Saga Demon,mythic,,R,,,,,"Transform, Fight",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/133/clive-ifrits-dominant-ifrit-warden-of-inferno?utm_source=api
+134,Coral Sword,{R},1.0,Artifact — Equipment,uncommon,R,R,"Flash
+When this Equipment enters, attach it to target creature you control. That creature gains first strike until end of turn.
+Equipped creature gets +1/+0.
+Equip {1}",,,,"Equip, Flash",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/134/coral-sword?utm_source=api
+135,The Fire Crystal,{2}{R}{R},4.0,Legendary Artifact,rare,R,R,"Red spells you cast cost {1} less to cast.
+Creatures you control have haste.
+{4}{R}{R}, {T}: Create a token that's a copy of target creature you control. Sacrifice it at the beginning of the next end step.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/135/the-fire-crystal?utm_source=api
+136,Fire Magic,{R},1.0,Instant,uncommon,R,R,"Tiered (Choose one additional cost.)
+• Fire — {0} — Fire Magic deals 1 damage to each creature.
+• Fira — {2} — Fire Magic deals 2 damage to each creature.
+• Firaga — {5} — Fire Magic deals 3 damage to each creature.",,,,"Fire, Firaga, Fira, Tiered",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/136/fire-magic?utm_source=api
+137,"Firion, Wild Rose Warrior",{2}{R},3.0,Legendary Creature — Human Rebel Warrior,rare,R,R,"Equipped creatures you control have haste.
+Whenever a nontoken Equipment you control enters, create a token that's a copy of it, except it has ""This Equipment's equip abilities cost {2} less to activate."" Sacrifice that token at the beginning of the next upkeep.",3,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/137/firion-wild-rose-warrior?utm_source=api
+138,Freya Crescent,{R},1.0,Legendary Creature — Rat Knight,uncommon,R,R,"Jump — During your turn, Freya Crescent has flying.
+{T}: Add {R}. Spend this mana only to cast an Equipment spell or activate an equip ability.",1,1,,Jump,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/138/freya-crescent?utm_source=api
+139,"Gilgamesh, Master-at-Arms",{4}{R}{R},6.0,Legendary Creature — Human Samurai,rare,R,R,"Whenever Gilgamesh enters or attacks, look at the top six cards of your library. You may put any number of Equipment cards from among them onto the battlefield. Put the rest on the bottom of your library in a random order. When you put one or more Equipment onto the battlefield this way, you may attach one of them to a Samurai you control.",6,6,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/139/gilgamesh-master-at-arms?utm_source=api
+140,Haste Magic,{1}{R},2.0,Instant,common,R,R,Target creature gets +3/+1 and gains haste until end of turn. Exile the top card of your library. You may play it until your next end step.,,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/140/haste-magic?utm_source=api
+141,Hill Gigas,{4}{R}{R},6.0,Creature — Giant,common,R,R,"Trample, haste
+Mountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)",5,4,,"Mountaincycling, Landcycling, Haste, Trample, Typecycling, Cycling",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/141/hill-gigas?utm_source=api
+142,Item Shopkeep,{1}{R},2.0,Creature — Human Citizen,common,R,R,"Whenever you attack, target attacking equipped creature gains menace until end of turn. (It can't be blocked except by two or more creatures.)",2,2,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/142/item-shopkeep?utm_source=api
+143,Laughing Mad,{2}{R},3.0,Instant,common,R,R,"As an additional cost to cast this spell, discard a card.
+Draw two cards.
+Flashback {3}{R} (You may cast this card from your graveyard for its flashback cost and any additional costs. Then exile it.)",,,,Flashback,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/143/laughing-mad?utm_source=api
+144,Light of Judgment,{4}{R},5.0,Instant,common,R,R,Light of Judgment deals 6 damage to target creature. Destroy up to one Equipment attached to that creature.,,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/144/light-of-judgment?utm_source=api
+145,Mysidian Elder,{2}{R},3.0,Creature — Human Wizard,common,R,R,"When this creature enters, create a 0/1 black Wizard creature token with ""Whenever you cast a noncreature spell, this token deals 1 damage to each opponent.""",1,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/145/mysidian-elder?utm_source=api
+146,Nibelheim Aflame,{2}{R}{R},4.0,Sorcery,mythic,R,R,"Choose target creature you control. It deals damage equal to its power to each other creature. If this spell was cast from a graveyard, discard your hand and draw four cards.
+Flashback {5}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/146/nibelheim-aflame?utm_source=api
+147,Opera Love Song,{1}{R},2.0,Instant,uncommon,R,R,"Choose one —
+• Exile the top two cards of your library. You may play those cards until your next end step.
+• One or two target creatures each get +2/+0 until end of turn.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/147/opera-love-song?utm_source=api
+148,Prompto Argentum,{1}{R},2.0,Legendary Creature — Human Scout,uncommon,R,R,"Haste
+Selfie Shot — Whenever you cast a noncreature spell, if at least four mana was spent to cast it, create a Treasure token.",2,2,,"Selfie Shot, Treasure, Haste",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/148/prompto-argentum?utm_source=api
+149,Queen Brahne,{2}{R},3.0,Legendary Creature — Human Noble,uncommon,R,R,"Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever Queen Brahne attacks, create a 0/1 black Wizard creature token with ""Whenever you cast a noncreature spell, this token deals 1 damage to each opponent.""",2,1,,Prowess,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/149/queen-brahne?utm_source=api
+150,Random Encounter,{4}{R}{R},6.0,Sorcery,uncommon,R,R,"Shuffle your library, then mill four cards. Put each creature card milled this way onto the battlefield. They gain haste. At the beginning of the next end step, return those creatures to their owner's hand.
+Flashback {6}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,"Flashback, Mill",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/150/random-encounter?utm_source=api
+151,"Raubahn, Bull of Ala Mhigo",{1}{R},2.0,Legendary Creature — Human Warrior,rare,R,R,"Ward—Pay life equal to Raubahn's power.
+Whenever Raubahn attacks, attach up to one target Equipment you control to target attacking creature.",2,2,,Ward,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/151/raubahn-bull-of-ala-mhigo?utm_source=api
+152,Red Mage's Rapier,{1}{R},2.0,Artifact — Equipment,common,R,R,"Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature has ""Whenever you cast a noncreature spell, this creature gets +2/+0 until end of turn"" and is a Wizard in addition to its other types.
+Equip {3}",,,,"Job select, Equip",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/152/red-mages-rapier?utm_source=api
+153,Sabotender,{1}{R},2.0,Creature — Plant,common,R,R,"Reach
+Landfall — Whenever a land you control enters, this creature deals 1 damage to each opponent.",2,1,,"Reach, Landfall",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/153/sabotender?utm_source=api
+154,Samurai's Katana,{2}{R},3.0,Artifact — Equipment,uncommon,R,R,"Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature gets +2/+2, has trample and haste, and is a Samurai in addition to its other types.
+Murasame — Equip {5}",,,,"Murasame, Job select, Equip",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/154/samurais-katana?utm_source=api
+155,Sandworm,{4}{R},5.0,Creature — Worm,uncommon,R,R,"Haste
+When this creature enters, destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.",5,4,,Haste,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/155/sandworm?utm_source=api
+156,Seifer Almasy,{3}{R},4.0,Legendary Creature — Human Knight,rare,R,R,"Whenever a creature you control attacks alone, it gains double strike until end of turn.
+Fire Cross — Whenever Seifer Almasy deals combat damage to a player, you may cast target instant or sorcery card with mana value 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.",3,4,,Fire Cross,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/156/seifer-almasy?utm_source=api
+157,Self-Destruct,{1}{R},2.0,Instant,uncommon,R,R,"Target creature you control deals X damage to any other target and X damage to itself, where X is its power.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/157/self-destruct?utm_source=api
+158,"Sidequest: Play Blitzball // World Champion, Celestial Weapon",,3.0,Enchantment // Legendary Artifact — Equipment,uncommon,,R,,,,,"Double Overdrive, Transform, Equip",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/158/sidequest:-play-blitzball-world-champion-celestial-weapon?utm_source=api
+159,Sorceress's Schemes,{3}{R},4.0,Sorcery,uncommon,R,R,"Return target instant or sorcery card from your graveyard or exiled card with flashback you own to your hand. Add {R}.
+Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/159/sorceresss-schemes?utm_source=api
+160,Summon: Brynhildr,{1}{R},2.0,Enchantment Creature — Saga Knight,rare,R,R,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Chain — Exile the top card of your library. During any turn you put a lore counter on this Saga, you may play that card.
+II, III — Gestalt Mode — When you next cast a creature spell this turn, it gains haste until end of turn.",2,1,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/160/summon:-brynhildr?utm_source=api
+161,Summon: Esper Ramuh,{2}{R}{R},4.0,Enchantment Creature — Saga Wizard,uncommon,R,R,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Judgment Bolt — This creature deals damage equal to the number of noncreature, nonland cards in your graveyard to target creature an opponent controls.
+II, III — Wizards you control get +1/+0 until end of turn.",3,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/161/summon:-esper-ramuh?utm_source=api
+162,Summon: G.F. Cerberus,{2}{R}{R},4.0,Enchantment Creature — Saga Dog,rare,R,R,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+II — Double — When you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.
+III — Triple — When you next cast an instant or sorcery spell this turn, copy it twice. You may choose new targets for the copies.",3,3,,Surveil,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/162/summon:-gf-cerberus?utm_source=api
+163,Summon: G.F. Ifrit,{2}{R},3.0,Enchantment Creature — Saga Demon,common,R,R,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)
+I, II — You may discard a card. If you do, draw a card.
+III, IV — Add {R}.",3,2,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/163/summon:-gf-ifrit?utm_source=api
+164,Suplex,{1}{R},2.0,Sorcery,common,R,R,"Choose one —
+• Suplex deals 3 damage to target creature. If that creature would die this turn, exile it instead.
+• Exile target artifact.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/164/suplex?utm_source=api
+165,Thunder Magic,{R},1.0,Instant,common,R,R,"Tiered (Choose one additional cost.)
+• Thunder — {0} — Thunder Magic deals 2 damage to target creature.
+• Thundara — {3} — Thunder Magic deals 4 damage to target creature.
+• Thundaga — {5}{R} — Thunder Magic deals 8 damage to target creature.",,,,"Thunder, Thundaga, Tiered, Thundara",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/165/thunder-magic?utm_source=api
+166,Triple Triad,{3}{R}{R}{R},6.0,Enchantment,rare,R,R,"At the beginning of your upkeep, each player exiles the top card of their library. Until end of turn, you may play the card you own exiled this way and each other card exiled this way with lesser mana value than it without paying their mana costs.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/166/triple-triad?utm_source=api
+167,Unexpected Request,{2}{R},3.0,Sorcery,uncommon,R,R,"Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. You may attach an Equipment you control to that creature. If you do, unattach it at the beginning of the next end step.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/167/unexpected-request?utm_source=api
+168,"Vaan, Street Thief",{2}{R},3.0,Legendary Creature — Human Scout,rare,R,R,"Whenever one or more Scouts, Pirates, and/or Rogues you control deal combat damage to a player, exile the top card of that player's library. You may cast it. If you don't, create a Treasure token.
+Whenever you cast a spell you don't own, put a +1/+1 counter on each Scout, Pirate, and Rogue you control.",2,2,,Treasure,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/168/vaan-street-thief?utm_source=api
+169,Warrior's Sword,{3}{R},4.0,Artifact — Equipment,common,R,R,"Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature gets +3/+2 and is a Warrior in addition to its other types.
+Equip {5} ({5}: Attach to target creature you control. Equip only as a sorcery.)",,,,"Job select, Equip",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/169/warriors-sword?utm_source=api
+170,Zell Dincht,{2}{R},3.0,Legendary Creature — Human Monk,rare,R,R,"You may play an additional land on each of your turns.
+Zell Dincht gets +1/+0 for each land you control.
+At the beginning of your end step, return a land you control to its owner's hand.",0,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/170/zell-dincht?utm_source=api
+171,Airship Crash,{2}{G},3.0,Instant,common,G,G,"Destroy target artifact, enchantment, or creature with flying.
+Cycling {2} ({2}, Discard this card: Draw a card.)",,,,Cycling,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/171/airship-crash?utm_source=api
+172,Ancient Adamantoise,{5}{G}{G}{G},8.0,Creature — Turtle,mythic,G,G,"Vigilance, ward {3}
+Damage isn't removed from this creature during cleanup steps.
+All damage that would be dealt to you and other permanents you control is dealt to this creature instead.
+When this creature dies, exile it and create ten tapped Treasure tokens.",8,20,,"Vigilance, Treasure, Ward",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/172/ancient-adamantoise?utm_source=api
+173,Balamb T-Rexaur,{4}{G}{G},6.0,Creature — Dinosaur,common,G,G,"Trample
+When this creature enters, you gain 3 life.
+Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.)",6,6,,"Landcycling, Trample, Forestcycling, Typecycling, Cycling",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/173/balamb-t-rexaur?utm_source=api
+174,Bard's Bow,{2}{G},3.0,Artifact — Equipment,common,G,G,"Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature gets +2/+2, has reach, and is a Bard in addition to its other types.
+Perseus's Bow — Equip {6} ({6}: Attach to target creature you control. Equip only as a sorcery.)",,,,"Job select, Equip",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/174/bards-bow?utm_source=api
+175,Bartz and Boko,{3}{G}{G},5.0,Legendary Creature — Human Bird,rare,G,G,"Affinity for Birds (This spell costs {1} less to cast for each Bird you control.)
+When Bartz and Boko enters, each other Bird you control deals damage equal to its power to target creature an opponent controls.",4,3,,Affinity,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/175/bartz-and-boko?utm_source=api
+176,Blitzball Shot,{1}{G},2.0,Instant,common,G,G,Target creature gets +3/+3 and gains trample until end of turn.,,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/176/blitzball-shot?utm_source=api
+177,Cactuar,{G},1.0,Creature — Plant,uncommon,G,G,"Trample
+At the beginning of your end step, if this creature didn't enter the battlefield this turn, return it to its owner's hand.",3,3,,Trample,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/177/cactuar?utm_source=api
+178,Chocobo Kick,{1}{G},2.0,Sorcery,common,G,G,"Kicker—Return a land you control to its owner's hand. (You may return a land you control to its owner's hand in addition to any other costs as you cast this spell.)
+Target creature you control deals damage equal to its power to target creature an opponent controls. If this spell was kicked, the creature you control deals twice that much damage instead.",,,,Kicker,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/178/chocobo-kick?utm_source=api
+179,Chocobo Racetrack,{3}{G}{G},5.0,Artifact,uncommon,G,G,"Landfall — Whenever a land you control enters, create a 2/2 green Bird creature token with ""Whenever a land you control enters, this token gets +1/+0 until end of turn.""",,,,Landfall,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/179/chocobo-racetrack?utm_source=api
+180,Clash of the Eikons,{G},1.0,Sorcery,uncommon,G,G,"Choose one or more —
+• Target creature you control fights target creature an opponent controls.
+• Remove a lore counter from target Saga you control. (Removing lore counters doesn't cause chapter abilities to trigger.)
+• Put a lore counter on target Saga you control.",,,,Fight,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/180/clash-of-the-eikons?utm_source=api
+181,Coliseum Behemoth,{5}{G}{G},7.0,Creature — Beast,uncommon,G,G,"Trample
+When this creature enters, choose one —
+• Destroy target artifact or enchantment.
+• Draw a card.",7,7,,Trample,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/181/coliseum-behemoth?utm_source=api
+182,Commune with Beavers,{G},1.0,Sorcery,common,G,G,"Look at the top three cards of your library. You may reveal an artifact, creature, or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/182/commune-with-beavers?utm_source=api
+183,Diamond Weapon,{7}{G}{G},9.0,Legendary Artifact Creature — Elemental,uncommon,G,G,"This spell costs {1} less to cast for each permanent card in your graveyard.
+Reach
+Immune — Prevent all combat damage that would be dealt to Diamond Weapon.",8,8,,"Reach, Immune",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/183/diamond-weapon?utm_source=api
+184,The Earth Crystal,{2}{G}{G},4.0,Legendary Artifact,rare,G,G,"Green spells you cast cost {1} less to cast.
+If one or more +1/+1 counters would be put on a creature you control, twice that many +1/+1 counters are put on that creature instead.
+{4}{G}{G}, {T}: Distribute two +1/+1 counters among one or two target creatures you control.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/184/the-earth-crystal?utm_source=api
+185,Esper Origins // Summon: Esper Maduin,,2.0,Sorcery // Enchantment Creature — Saga Elemental,rare,,G,,,,,"Surveil, Transform, Flashback",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/185/esper-origins-summon:-esper-maduin?utm_source=api
+186,Galuf's Final Act,{1}{G},2.0,Instant,uncommon,G,G,"Until end of turn, target creature gets +1/+0 and gains ""When this creature dies, put a number of +1/+1 counters equal to its power on up to one target creature.""",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/186/galufs-final-act?utm_source=api
+187,Gigantoad,{3}{G},4.0,Creature — Frog,common,G,G,"As long as you control seven or more lands, this creature gets +2/+2.",4,4,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/187/gigantoad?utm_source=api
+188,Goobbue Gardener,{1}{G},2.0,Creature — Plant Beast,common,G,G,{T}: Add {G}.,1,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/188/goobbue-gardener?utm_source=api
+189,Gran Pulse Ochu,{G},1.0,Creature — Plant Beast,common,G,G,"Deathtouch
+{8}: Until end of turn, this creature gets +1/+1 for each permanent card in your graveyard.",1,1,,Deathtouch,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/189/gran-pulse-ochu?utm_source=api
+190,Gysahl Greens,{1}{G},2.0,Sorcery,common,G,G,"Create a 2/2 green Bird creature token with ""Whenever a land you control enters, this token gets +1/+0 until end of turn.""
+Flashback {6}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/190/gysahl-greens?utm_source=api
+191,Jumbo Cactuar,{5}{G}{G},7.0,Creature — Plant,rare,G,G,"10,000 Needles — Whenever this creature attacks, it gets +9999/+0 until end of turn.",1,7,,"10,000 Needles",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/191/jumbo-cactuar?utm_source=api
+192,Loporrit Scout,{2}{G},3.0,Creature — Rabbit Scout,common,G,G,"Whenever another creature you control enters, this creature gets +1/+1 until end of turn.",3,2,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/192/loporrit-scout?utm_source=api
+193,Prishe's Wanderings,{2}{G},3.0,Instant,common,G,G,"Search your library for a basic land card or Town card, put it onto the battlefield tapped, then shuffle. When you search your library this way, put a +1/+1 counter on target creature you control.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/193/prishes-wanderings?utm_source=api
+194,"Quina, Qu Gourmet",{2}{G},3.0,Legendary Creature — Qu,uncommon,G,G,"If one or more tokens would be created under your control, those tokens plus a 1/1 green Frog creature token are created instead.
+{2}, Sacrifice a Frog: Put a +1/+1 counter on Quina.",2,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/194/quina-qu-gourmet?utm_source=api
+195,Reach the Horizon,{3}{G},4.0,Sorcery,uncommon,G,G,"Search your library for up to two basic land cards and/or Town cards with different names, put them onto the battlefield tapped, then shuffle.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/195/reach-the-horizon?utm_source=api
+196,A Realm Reborn,{4}{G}{G},6.0,Enchantment,rare,G,G,"Other permanents you control have ""{T}: Add one mana of any color.""",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/196/a-realm-reborn?utm_source=api
+197,Ride the Shoopuf,{1}{G},2.0,Enchantment,uncommon,G,G,"Landfall — Whenever a land you control enters, put a +1/+1 counter on target creature you control.
+{5}{G}{G}: This enchantment becomes a 7/7 Beast creature in addition to its other types.",,,,Landfall,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/197/ride-the-shoopuf?utm_source=api
+198,Rydia's Return,{3}{G}{G},5.0,Sorcery,uncommon,G,G,"Choose one —
+• Creatures you control get +3/+3 until end of turn.
+• Return up to two target permanent cards from your graveyard to your hand.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/198/rydias-return?utm_source=api
+199,Sazh Katzroy,{3}{G},4.0,Legendary Creature — Human Pilot,rare,G,G,"When Sazh Katzroy enters, you may search your library for a Bird or basic land card, reveal it, put it into your hand, then shuffle.
+Whenever Sazh Katzroy attacks, put a +1/+1 counter on target creature, then double the number of +1/+1 counters on that creature.",3,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/199/sazh-katzroy?utm_source=api
+200,Sazh's Chocobo,{G},1.0,Creature — Bird,uncommon,G,G,"Landfall — Whenever a land you control enters, put a +1/+1 counter on this creature.",0,1,,Landfall,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/200/sazhs-chocobo?utm_source=api
+201,Sidequest: Raise a Chocobo // Black Chocobo,,2.0,Enchantment // Creature — Bird,uncommon,,G,,,,,"Transform, Landfall",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/201/sidequest:-raise-a-chocobo-black-chocobo?utm_source=api
+202,Summon: Fat Chocobo,{4}{G},5.0,Enchantment Creature — Saga Bird,common,G,G,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)
+I — Wark — Create a 2/2 green Bird creature token with ""Whenever a land you control enters, this token gets +1/+0 until end of turn.""
+II, III, IV — Kerplunk — Creatures you control gain trample until end of turn.",4,4,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/202/summon:-fat-chocobo?utm_source=api
+203,Summon: Fenrir,{2}{G},3.0,Enchantment Creature — Saga Wolf,uncommon,G,G,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Crescent Fang — Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+II — Heavenward Howl — When you next cast a creature spell this turn, that creature enters with an additional +1/+1 counter on it.
+III — Ecliptic Growl — Draw a card if you control the creature with the greatest power or tied for the greatest power.",3,2,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/203/summon:-fenrir?utm_source=api
+204,Summon: Titan,{3}{G}{G},5.0,Enchantment Creature — Saga Giant,rare,G,G,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Mill five cards.
+II — Return all land cards from your graveyard to the battlefield tapped.
+III — Until end of turn, another target creature you control gains trample and gets +X/+X, where X is the number of lands you control.
+Reach, trample",7,7,,"Reach, Trample, Mill",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/204/summon:-titan?utm_source=api
+205,Summoner's Grimoire,{3}{G},4.0,Artifact — Equipment,rare,G,G,"Job select
+Equipped creature is a Shaman in addition to its other types and has ""Whenever this creature attacks, you may put a creature card from your hand onto the battlefield. If that card is an enchantment card, it enters tapped and attacking.""
+Abraxas — Equip {3}",,,,"Job select, Equip, Abraxas",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/205/summoners-grimoire?utm_source=api
+206,Tifa Lockhart,{1}{G},2.0,Legendary Creature — Human Monk,rare,G,G,"Trample
+Landfall — Whenever a land you control enters, double Tifa Lockhart's power until end of turn.",1,2,,"Trample, Landfall",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/206/tifa-lockhart?utm_source=api
+207,Tifa's Limit Break,{G},1.0,Instant,uncommon,G,G,"Tiered (Choose one additional cost.)
+• Somersault — {0} — Target creature gets +2/+2 until end of turn.
+• Meteor Strikes — {2} — Double target creature's power and toughness until end of turn.
+• Final Heaven — {6}{G} — Triple target creature's power and toughness until end of turn.",,,,"Final Heaven, Meteor Strikes, Somersault, Tiered",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/207/tifas-limit-break?utm_source=api
+208,"Torgal, A Fine Hound",{1}{G},2.0,Legendary Creature — Wolf,uncommon,G,G,"Whenever you cast your first Human creature spell each turn, that creature enters with an additional +1/+1 counter on it for each Dog and/or Wolf you control.
+{T}: Add one mana of any color.",2,2,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/208/torgal-a-fine-hound?utm_source=api
+209,Town Greeter,{1}{G},2.0,Creature — Human Citizen,common,G,G,"When this creature enters, mill four cards. You may put a land card from among them into your hand. If you put a Town card into your hand this way, you gain 2 life. (To mill four cards, a player puts the top four cards of their library into their graveyard.)",1,1,,Mill,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/209/town-greeter?utm_source=api
+210,Traveling Chocobo,{2}{G},3.0,Creature — Bird,mythic,G,G,"You may look at the top card of your library any time.
+You may play lands and cast Bird spells from the top of your library.
+If a land or Bird you control entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",3,2,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/210/traveling-chocobo?utm_source=api
+211,"Vanille, Cheerful l'Cie",{3}{G},4.0,Legendary Creature — Human Cleric,uncommon,G,"B, G","When Vanille enters, mill two cards, then return a permanent card from your graveyard to your hand.
+At the beginning of your first main phase, if you both own and control Vanille and a creature named Fang, Fearless l'Cie, you may pay {3}{B}{G}. If you do, exile them, then meld them into Ragnarok, Divine Deliverance.",3,2,,"Meld, Mill",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/211/vanille-cheerful-lcie?utm_source=api
+212,Absolute Virtue,{6}{W}{U},8.0,Legendary Creature — Avatar Warrior,mythic,"U, W","U, W","This spell can't be countered.
+Flying
+You have protection from each of your opponents. (You can't be dealt damage, enchanted, or targeted by anything controlled by your opponents.)",8,8,,Flying,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/212/absolute-virtue?utm_source=api
+213,Balthier and Fran,{1}{R}{G},3.0,Legendary Creature — Human Rabbit,rare,"G, R","G, R","Reach
+Vehicles you control get +1/+1 and have vigilance and reach.
+Whenever a Vehicle crewed by Balthier and Fran this turn attacks, if it's the first combat phase of the turn, you may pay {1}{R}{G}. If you do, after this phase, there is an additional combat phase.",4,3,,Reach,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/213/balthier-and-fran?utm_source=api
+214,Black Waltz No. 3,{2}{B}{R},4.0,Legendary Creature — Wizard,uncommon,"B, R","B, R","Flying, deathtouch
+Whenever you cast a noncreature spell, Black Waltz No. 3 deals 2 damage to each opponent.",2,2,,"Deathtouch, Flying",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/214/black-waltz-no-3?utm_source=api
+215,"Choco, Seeker of Paradise",{1}{G}{W}{U},4.0,Legendary Creature — Bird,rare,"G, U, W","G, U, W","Whenever one or more Birds you control attack, look at that many cards from the top of your library. You may put one of them into your hand. Then put any number of land cards from among them onto the battlefield tapped and the rest into your graveyard.
+Landfall — Whenever a land you control enters, Choco gets +1/+0 until end of turn.",3,5,,Landfall,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/215/choco-seeker-of-paradise?utm_source=api
+216,"Cid, Timeless Artificer",{2}{W}{U},4.0,Legendary Creature — Human Artificer,uncommon,"U, W","U, W","Artifact creatures and Heroes you control get +1/+1 for each Artificer you control and each Artificer card in your graveyard.
+A deck can have any number of cards named Cid, Timeless Artificer.
+Cycling {W}{U} ({W}{U}, Discard this card: Draw a card.)",4,4,,Cycling,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/216/cid-timeless-artificer?utm_source=api
+217,Cloud of Darkness,{2}{B}{G}{G},5.0,Legendary Creature — Avatar,uncommon,"B, G","B, G","Flying
+Particle Beam — When Cloud of Darkness enters, target creature an opponent controls gets -X/-X until end of turn, where X is the number of permanent cards in your graveyard.",3,3,,"Particle Beam, Flying",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/217/cloud-of-darkness?utm_source=api
+218,"Emet-Selch, Unsundered // Hades, Sorcerer of Eld",,3.0,Legendary Creature — Elder Wizard // Legendary Creature — Avatar,mythic,,"B, U",,,,,"Vigilance, Echo of the Lost, Transform",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/218/emet-selch-unsundered-hades-sorcerer-of-eld?utm_source=api
+219,The Emperor of Palamecia // The Lord Master of Hell,,2.0,Legendary Creature — Human Noble Wizard // Legendary Creature — Demon Noble Wizard,uncommon,,"R, U",,,,,"Starfall, Transform",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/219/the-emperor-of-palamecia-the-lord-master-of-hell?utm_source=api
+220,"Exdeath, Void Warlock // Neo Exdeath, Dimension's End",,3.0,Legendary Creature — Spirit Warlock // Legendary Creature — Spirit Avatar,uncommon,,"B, G",,,,,"Transform, Trample",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/220/exdeath-void-warlock-neo-exdeath-dimensions-end?utm_source=api
+221,"Garland, Knight of Cornelia // Chaos, the Endless",,2.0,Legendary Creature — Human Knight // Legendary Creature — Demon,uncommon,,"B, R",,,,,"Flying, Surveil, Transform",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/221/garland-knight-of-cornelia-chaos-the-endless?utm_source=api
+222,"Garnet, Princess of Alexandria",{G}{W},2.0,Legendary Creature — Human Noble Cleric,uncommon,"G, W","G, W","Lifelink
+Whenever Garnet attacks, you may remove a lore counter from each of any number of Sagas you control. Put a +1/+1 counter on Garnet for each lore counter removed this way.",2,2,,Lifelink,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/222/garnet-princess-of-alexandria?utm_source=api
+223,"Giott, King of the Dwarves",{R}{W},2.0,Legendary Creature — Dwarf Noble,uncommon,"R, W","R, W","Double strike
+Whenever Giott or another Dwarf you control enters and whenever an Equipment you control enters, you may discard a card. If you do, draw a card.",1,1,,Double strike,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/223/giott-king-of-the-dwarves?utm_source=api
+224,Gladiolus Amicitia,{4}{R}{G},6.0,Legendary Creature — Human Warrior,uncommon,"G, R","G, R","When Gladiolus Amicitia enters, search your library for a land card, put it onto the battlefield tapped, then shuffle.
+Landfall — Whenever a land you control enters, another target creature you control gets +2/+2 and gains trample until end of turn.",6,6,,Landfall,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/224/gladiolus-amicitia?utm_source=api
+225,"Golbez, Crystal Collector",{U}{B},2.0,Legendary Creature — Human Wizard,rare,"B, U","B, U","Whenever an artifact you control enters, surveil 1.
+At the beginning of your end step, if you control four or more artifacts, return target creature card from your graveyard to your hand. Then if you control eight or more artifacts, each opponent loses life equal to that card's power.",1,4,,Surveil,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/225/golbez-crystal-collector?utm_source=api
+226,Hope Estheim,{W}{U},2.0,Legendary Creature — Human Wizard,rare,"U, W","U, W","Lifelink
+At the beginning of your end step, each opponent mills X cards, where X is the amount of life you gained this turn.",2,2,,"Lifelink, Mill",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/226/hope-estheim?utm_source=api
+227,Ignis Scientia,{1}{G}{U},3.0,Legendary Creature — Human Advisor,uncommon,"G, U","G, U","When Ignis Scientia enters, look at the top six cards of your library. You may put a land card from among them onto the battlefield tapped. Put the rest on the bottom of your library in a random order.
+I've Come Up with a New Recipe! — {1}{G}{U}, {T}: Exile target card from a graveyard. If a creature card was exiled this way, create a Food token.",2,2,,Food,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/227/ignis-scientia?utm_source=api
+228,"Jenova, Ancient Calamity",{2}{B}{G},4.0,Legendary Creature — Alien,rare,"B, G","B, G","At the beginning of combat on your turn, put a number of +1/+1 counters equal to Jenova's power on up to one other target creature. That creature becomes a Mutant in addition to its other types.
+Whenever a Mutant you control dies during your turn, you draw cards equal to its power.",1,5,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/228/jenova-ancient-calamity?utm_source=api
+229,"Joshua, Phoenix's Dominant // Phoenix, Warden of Fire",,3.0,Legendary Creature — Human Noble Wizard // Legendary Enchantment Creature — Saga Phoenix,rare,,"R, W",,,,,"Flying, Lifelink, Transform",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/229/joshua-phoenixs-dominant-phoenix-warden-of-fire?utm_source=api
+230,Judge Magister Gabranth,{W}{B},2.0,Legendary Creature — Human Advisor Knight,uncommon,"B, W","B, W","Menace (This creature can't be blocked except by two or more creatures.)
+Whenever another creature or artifact you control dies, put a +1/+1 counter on Judge Magister Gabranth.",2,2,,Menace,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/230/judge-magister-gabranth?utm_source=api
+231,"Kefka, Court Mage // Kefka, Ruler of Ruin",,5.0,Legendary Creature — Human Wizard // Legendary Creature — Avatar Wizard,mythic,,"B, R, U",,,,,"Flying, Transform",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/231/kefka-court-mage-kefka-ruler-of-ruin?utm_source=api
+232,"Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",,4.0,Legendary Creature — Human Mutant Wizard // Legendary Creature — Avatar Wizard,rare,,"B, R",,,,,Transform,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/232/kuja-genome-sorcerer-trance-kuja-fate-defied?utm_source=api
+233,"Lightning, Army of One",{1}{R}{W},3.0,Legendary Creature — Human Soldier,mythic,"R, W","R, W","First strike, trample, lifelink
+Stagger — Whenever Lightning deals combat damage to a player, until your next turn, if a source would deal damage to that player or a permanent that player controls, it deals double that damage instead.",3,2,,"Lifelink, Stagger, First strike, Trample",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/233/lightning-army-of-one?utm_source=api
+234,Locke Cole,{1}{U}{B},3.0,Legendary Creature — Human Rogue,uncommon,"B, U","B, U","Deathtouch, lifelink
+Whenever Locke Cole deals combat damage to a player, draw a card, then discard a card.",2,3,,"Lifelink, Deathtouch",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/234/locke-cole?utm_source=api
+235,"Noctis, Prince of Lucis",{1}{W}{U}{B},4.0,Legendary Creature — Human Noble,rare,"B, U, W","B, U, W","Lifelink
+You may cast artifact spells from your graveyard by paying 3 life in addition to paying their other costs. If you cast a spell this way, that artifact enters with a finality counter on it.",4,3,,Lifelink,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/235/noctis-prince-of-lucis?utm_source=api
+236,"Omega, Heartless Evolution",{5}{G}{U},7.0,Legendary Artifact Creature — Robot,uncommon,"G, U","G, U","Wave Cannon — When Omega enters, for each opponent, tap up to one target nonland permanent that opponent controls. Put X stun counters on each of those permanents and you gain X life, where X is the number of nonbasic lands you control. (If a permanent with a stun counter would become untapped, remove one from it instead.)",8,8,,Wave Cannon,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/236/omega-heartless-evolution?utm_source=api
+237,Rinoa Heartilly,{3}{G}{W},5.0,Legendary Creature — Human Rebel Warlock,uncommon,"G, W","G, W","When Rinoa Heartilly enters, create Angelo, a legendary 1/1 green and white Dog creature token.
+Angelo Cannon — Whenever Rinoa Heartilly attacks, another target creature you control gets +1/+1 until end of turn for each creature you control.",4,4,,Angelo Cannon,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/237/rinoa-heartilly?utm_source=api
+238,Rufus Shinra,{1}{W}{B},3.0,Legendary Creature — Human Noble,uncommon,"B, W","B, W","Whenever Rufus Shinra attacks, if you don't control a creature named Darkstar, create Darkstar, a legendary 2/2 white and black Dog creature token.",2,4,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/238/rufus-shinra?utm_source=api
+239,"Rydia, Summoner of Mist",{R}{G},2.0,Legendary Creature — Human Shaman,uncommon,"G, R","G, R","Landfall — Whenever a land you control enters, you may discard a card. If you do, draw a card.
+Summon — {X}, {T}: Return target Saga card with mana value X from your graveyard to the battlefield with a finality counter on it. It gains haste until end of turn. Activate only as a sorcery.",1,2,,"Summon, Landfall",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/239/rydia-summoner-of-mist?utm_source=api
+240,Serah Farron // Crystallized Serah,,3.0,Legendary Creature — Human Citizen // Legendary Artifact,rare,,"G, W",,,,,Transform,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/240/serah-farron-crystallized-serah?utm_source=api
+241,"Shantotto, Tactician Magician",{1}{U}{R},3.0,Legendary Creature — Dwarf Wizard,uncommon,"R, U","R, U","Whenever you cast a noncreature spell, Shantotto gets +X/+0 until end of turn, where X is the amount of mana spent to cast that spell. If X is 4 or more, draw a card.",0,4,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/241/shantotto-tactician-magician?utm_source=api
+242,"Sin, Spira's Punishment",{4}{B}{G}{U},7.0,Legendary Creature — Leviathan Avatar,rare,"B, G, U","B, G, U","Flying
+Whenever Sin enters or attacks, exile a permanent card from your graveyard at random, then create a tapped token that's a copy of that card. If the exiled card is a land card, repeat this process.",7,7,,Flying,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/242/sin-spiras-punishment?utm_source=api
+243,"Squall, SeeD Mercenary",{2}{W}{B},4.0,Legendary Creature — Human Knight Mercenary,rare,"B, W","B, W","Rough Divide — Whenever a creature you control attacks alone, it gains double strike until end of turn.
+Whenever Squall deals combat damage to a player, return target permanent card with mana value 3 or less from your graveyard to the battlefield.",3,4,,Rough Divide,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/243/squall-seed-mercenary?utm_source=api
+244,"Tellah, Great Sage",{3}{U}{R},5.0,Legendary Creature — Human Wizard,rare,"R, U","R, U","Whenever you cast a noncreature spell, create a 1/1 colorless Hero creature token. If four or more mana was spent to cast that spell, draw two cards. If eight or more mana was spent to cast that spell, sacrifice Tellah and it deals that much damage to each opponent.",3,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/244/tellah-great-sage?utm_source=api
+245,"Terra, Magical Adept // Esper Terra",,3.0,Legendary Creature — Human Wizard Warrior // Legendary Enchantment Creature — Saga Wizard,mythic,,"B, G, R, U, W",,,,,"Flying, Transform, Mill, Trance",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/245/terra-magical-adept-esper-terra?utm_source=api
+246,"Tidus, Blitzball Star",{1}{W}{U},3.0,Legendary Creature — Human Warrior,uncommon,"U, W","U, W","Whenever an artifact you control enters, put a +1/+1 counter on Tidus.
+Whenever Tidus attacks, tap target creature an opponent controls.",2,1,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/246/tidus-blitzball-star?utm_source=api
+247,"Ultimecia, Time Sorceress // Ultimecia, Omnipotent",,5.0,Legendary Creature — Human Warlock // Legendary Creature — Nightmare Warlock,uncommon,,"B, U",,,,,"Surveil, Transform, Menace, Time Compression",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/247/ultimecia-time-sorceress-ultimecia-omnipotent?utm_source=api
+248,Vivi Ornitier,{1}{U}{R},3.0,Legendary Creature — Wizard,mythic,"R, U","R, U","{0}: Add X mana in any combination of {U} and/or {R}, where X is Vivi Ornitier's power. Activate only during your turn and only once each turn.
+Whenever you cast a noncreature spell, put a +1/+1 counter on Vivi Ornitier and it deals 1 damage to each opponent.",0,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/248/vivi-ornitier?utm_source=api
+A-248,A-Vivi Ornitier,{1}{U}{R},3.0,Legendary Creature — Wizard,mythic,"R, U","R, U","{T}: Add X mana in any combination of {U} and/or {R}, where X is Vivi Ornitier's power.
+Whenever you cast a noncreature spell, put a +1/+1 counter on Vivi Ornitier and it deals 1 damage to each opponent.",0,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/A-248/a-vivi-ornitier?utm_source=api
+249,The Wandering Minstrel,{G}{U},2.0,Legendary Creature — Human Bard,rare,"G, U","B, G, R, U, W","Lands you control enter untapped.
+The Minstrel's Ballad — At the beginning of combat on your turn, if you control five or more Towns, create a 2/2 Elemental creature token that's all colors.
+{3}{W}{U}{B}{R}{G}: Other creatures you control get +X/+X until end of turn, where X is the number of Towns you control.",1,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/249/the-wandering-minstrel?utm_source=api
+250,"Yuna, Hope of Spira",{3}{G}{W},5.0,Legendary Creature — Human Cleric,mythic,"G, W","G, W","During your turn, Yuna and enchantment creatures you control have trample, lifelink, and ward {2}.
+At the beginning of your end step, return up to one target enchantment card from your graveyard to the battlefield with a finality counter on it. (If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.)",3,5,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/250/yuna-hope-of-spira?utm_source=api
+251,"Zidane, Tantalus Thief",{3}{R}{W},5.0,Legendary Creature — Human Mutant Scout,uncommon,"R, W","R, W","When Zidane enters, gain control of target creature an opponent controls until end of turn. Untap it. It gains lifelink and haste until end of turn.
+Whenever an opponent gains control of a permanent from you, you create a Treasure token.",3,3,,Treasure,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/251/zidane-tantalus-thief?utm_source=api
+252,Adventurer's Airship,{3},3.0,Artifact — Vehicle,common,,,"Flying
+Whenever this Vehicle attacks, draw a card, then discard a card.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)",3,2,,"Flying, Crew",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/252/adventurers-airship?utm_source=api
+253,Aettir and Priwen,{6},6.0,Legendary Artifact — Equipment,mythic,,,"Equipped creature has base power and toughness X/X, where X is your life total.
+Equip {5}",,,,Equip,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/253/aettir-and-priwen?utm_source=api
+254,Blitzball,{3},3.0,Artifact,common,,,"{T}: Add one mana of any color.
+GOOOOAAAALLL! — {T}, Sacrifice this artifact: Draw two cards. Activate only if an opponent was dealt combat damage by a legendary creature this turn.",,,,GOOOOAAAALLL!,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/254/blitzball?utm_source=api
+255,Buster Sword,{3},3.0,Artifact — Equipment,mythic,,,"Equipped creature gets +3/+2.
+Whenever equipped creature deals combat damage to a player, draw a card, then you may cast a spell from your hand with mana value less than or equal to that damage without paying its mana cost.
+Equip {2}",,,,Equip,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/255/buster-sword?utm_source=api
+256,Elixir,{1},1.0,Artifact,uncommon,,,"This artifact enters tapped.
+{5}, {T}, Exile this artifact: Shuffle all nonland cards from your graveyard into your library. You gain life equal to the number of cards shuffled into your library this way.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/256/elixir?utm_source=api
+257,Excalibur II,{1},1.0,Legendary Artifact — Equipment,rare,,,"Whenever you gain life, put a charge counter on Excalibur II.
+Equipped creature gets +1/+1 for each charge counter on Excalibur II.
+Equip {3}",,,,Equip,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/257/excalibur-ii?utm_source=api
+258,Genji Glove,{5},5.0,Artifact — Equipment,rare,,,"Equipped creature has double strike.
+Whenever equipped creature attacks, if it's the first combat phase of the turn, untap it. After this phase, there is an additional combat phase.
+Equip {3}",,,,Equip,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/258/genji-glove?utm_source=api
+259,Instant Ramen,{2},2.0,Artifact — Food,common,,,"Flash
+When this artifact enters, draw a card.
+{2}, {T}, Sacrifice this artifact: You gain 3 life.",,,,Flash,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/259/instant-ramen?utm_source=api
+260,Iron Giant,{7},7.0,Artifact Creature — Demon,common,,,"Vigilance, reach, trample",6,6,,"Reach, Vigilance, Trample",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/260/iron-giant?utm_source=api
+261,Lion Heart,{4},4.0,Artifact — Equipment,uncommon,,,"When this Equipment enters, it deals 2 damage to any target.
+Equipped creature gets +2/+1.
+Equip {2}",,,,Equip,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/261/lion-heart?utm_source=api
+262,Lunatic Pandora,{1},1.0,Legendary Artifact,common,,,"{2}, {T}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+{6}, {T}, Sacrifice Lunatic Pandora: Destroy target nonland permanent.",,,,Surveil,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/262/lunatic-pandora?utm_source=api
+263,Magic Pot,{3},3.0,Artifact Creature — Goblin Construct,common,,,"When this creature dies, create a Treasure token. (It's an artifact with ""{T}, Sacrifice this token: Add one mana of any color."")
+{2}, {T}: Exile target card from a graveyard.",1,4,,Treasure,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/263/magic-pot?utm_source=api
+264,The Masamune,{3},3.0,Legendary Artifact — Equipment,rare,,,"As long as equipped creature is attacking, it has first strike and must be blocked if able.
+Equipped creature has ""If a creature dying causes a triggered ability of this creature or an emblem you own to trigger, that ability triggers an additional time.""
+Equip {2}",,,,Equip,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/264/the-masamune?utm_source=api
+265,Monk's Fist,{2},2.0,Artifact — Equipment,common,,,"Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature gets +1/+0 and is a Monk in addition to its other types.
+Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",,,,"Job select, Equip",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/265/monks-fist?utm_source=api
+266,PuPu UFO,{2},2.0,Artifact Creature — Construct Alien,uncommon,,,"Flying
+{T}: You may put a land card from your hand onto the battlefield.
+{3}: Until end of turn, this creature's base power becomes equal to the number of Towns you control.",0,4,,Flying,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/266/pupu-ufo?utm_source=api
+267,The Regalia,{4},4.0,Legendary Artifact — Vehicle,rare,,,"Haste
+Whenever The Regalia attacks, reveal cards from the top of your library until you reveal a land card. Put that card onto the battlefield tapped and the rest on the bottom of your library in a random order.
+Crew 1",4,4,,"Haste, Crew",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/267/the-regalia?utm_source=api
+268,Relentless X-ATM092,{6},6.0,Artifact Creature — Robot Spider,uncommon,,,"This creature can't be blocked except by three or more creatures.
+{8}: Return this card from your graveyard to the battlefield tapped with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead.)",6,5,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/268/relentless-x-atm092?utm_source=api
+269,Ring of the Lucii,{4},4.0,Legendary Artifact,uncommon,,,"{T}: Add {C}{C}.
+{2}, {T}, Pay 1 life: Tap target nonland permanent.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/269/ring-of-the-lucii?utm_source=api
+270,World Map,{1},1.0,Artifact,common,,,"{1}, {T}, Sacrifice this artifact: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+{3}, {T}, Sacrifice this artifact: Search your library for a land card, reveal it, put it into your hand, then shuffle.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/270/world-map?utm_source=api
+271,Adventurer's Inn,,0.0,Land — Town,common,,,"When this land enters, you gain 2 life.
+{T}: Add {C}.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/271/adventurers-inn?utm_source=api
+272,"Balamb Garden, SeeD Academy // Balamb Garden, Airborne",,0.0,Land — Town // Legendary Artifact — Vehicle,rare,,"G, U",,,,,"Flying, Transform, Crew",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/272/balamb-garden-seed-academy-balamb-garden-airborne?utm_source=api
+273,"Baron, Airship Kingdom",,0.0,Land — Town,common,,"R, U","This land enters tapped.
+{T}: Add {U} or {R}.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/273/baron-airship-kingdom?utm_source=api
+274,Capital City,,0.0,Land — Town,uncommon,,,"{T}: Add {C}.
+{1}, {T}: Add one mana of any color.
+Cycling {2} ({2}, Discard this card: Draw a card.)",,,,Cycling,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/274/capital-city?utm_source=api
+275,Clive's Hideaway,,0.0,Land — Town,rare,,,"Hideaway 4 (When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)
+{T}: Add {C}.
+{2}, {T}: You may play the exiled card without paying its mana cost if you control four or more legendary creatures.",,,,Hideaway,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/275/clives-hideaway?utm_source=api
+276,Crossroads Village,,0.0,Land — Town,common,,,"This land enters tapped. As it enters, choose a color.
+{T}: Add one mana of the chosen color.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/276/crossroads-village?utm_source=api
+277,"Eden, Seat of the Sanctum",,0.0,Land — Town,uncommon,,,"{T}: Add {C}.
+{5}, {T}: Mill two cards. Then you may sacrifice this land. When you do, return another target permanent card from your graveyard to your hand.",,,,Mill,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/277/eden-seat-of-the-sanctum?utm_source=api
+278,"Gohn, Town of Ruin",,0.0,Land — Town,common,,"B, G","This land enters tapped.
+{T}: Add {B} or {G}.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/278/gohn-town-of-ruin?utm_source=api
+279,The Gold Saucer,,0.0,Land — Town,uncommon,,,"{T}: Add {C}.
+{2}, {T}: Flip a coin. If you win the flip, create a Treasure token.
+{3}, {T}, Sacrifice two artifacts: Draw a card.",,,,Treasure,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/279/the-gold-saucer?utm_source=api
+280,"Gongaga, Reactor Town",,0.0,Land — Town,common,,"G, R","This land enters tapped.
+{T}: Add {R} or {G}.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/280/gongaga-reactor-town?utm_source=api
+281,"Guadosalam, Farplane Gateway",,0.0,Land — Town,common,,"G, U","This land enters tapped.
+{T}: Add {G} or {U}.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/281/guadosalam-farplane-gateway?utm_source=api
+282,"Insomnia, Crown City",,0.0,Land — Town,common,,"B, W","This land enters tapped.
+{T}: Add {W} or {B}.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/282/insomnia-crown-city?utm_source=api
+283,"Ishgard, the Holy See // Faith & Grief",{3}{W}{W},0.0,Land — Town // Sorcery — Adventure,rare,,W,,,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/283/ishgard-the-holy-see-faith-&-grief?utm_source=api
+284,"Jidoor, Aristocratic Capital // Overture",{4}{U}{U},0.0,Land — Town // Sorcery — Adventure,rare,,U,,,,,Mill,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/284/jidoor-aristocratic-capital-overture?utm_source=api
+285,"Lindblum, Industrial Regency // Mage Siege",{2}{R},0.0,Land — Town // Instant — Adventure,rare,,R,,,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/285/lindblum-industrial-regency-mage-siege?utm_source=api
+286,"Midgar, City of Mako // Reactor Raid",{2}{B},0.0,Land — Town // Sorcery — Adventure,rare,,B,,,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/286/midgar-city-of-mako-reactor-raid?utm_source=api
+287,"Rabanastre, Royal City",,0.0,Land — Town,common,,"R, W","This land enters tapped.
+{T}: Add {R} or {W}.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/287/rabanastre-royal-city?utm_source=api
+288,"Sharlayan, Nation of Scholars",,0.0,Land — Town,common,,"U, W","This land enters tapped.
+{T}: Add {W} or {U}.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/288/sharlayan-nation-of-scholars?utm_source=api
+289,Starting Town,,0.0,Land — Town,rare,,,"This land enters tapped unless it's your first, second, or third turn of the game.
+{T}: Add {C}.
+{T}, Pay 1 life: Add one mana of any color.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/289/starting-town?utm_source=api
+290,"Treno, Dark City",,0.0,Land — Town,common,,"B, U","This land enters tapped.
+{T}: Add {U} or {B}.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/290/treno-dark-city?utm_source=api
+291,"Vector, Imperial Capital",,0.0,Land — Town,common,,"B, R","This land enters tapped.
+{T}: Add {B} or {R}.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/291/vector-imperial-capital?utm_source=api
+292,"Windurst, Federation Center",,0.0,Land — Town,common,,"G, W","This land enters tapped.
+{T}: Add {G} or {W}.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/292/windurst-federation-center?utm_source=api
+293,"Zanarkand, Ancient Metropolis // Lasting Fayth",{4}{G}{G},0.0,Land — Town // Sorcery — Adventure,rare,,G,,,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/293/zanarkand-ancient-metropolis-lasting-fayth?utm_source=api
+294,Plains,,0.0,Basic Land — Plains,common,,W,({T}: Add {W}.),,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/294/plains?utm_source=api
+297,Island,,0.0,Basic Land — Island,common,,U,({T}: Add {U}.),,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/297/island?utm_source=api
+300,Swamp,,0.0,Basic Land — Swamp,common,,B,({T}: Add {B}.),,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/300/swamp?utm_source=api
+303,Mountain,,0.0,Basic Land — Mountain,common,,R,({T}: Add {R}.),,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/303/mountain?utm_source=api
+306,Forest,,0.0,Basic Land — Forest,common,,G,({T}: Add {G}.),,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/306/forest?utm_source=api
+309,Wastes,,0.0,Basic Land,common,,,{T}: Add {C}.,,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/309/wastes?utm_source=api
+552,"Cloud, Planet's Champion",{3}{R}{W},5.0,Legendary Creature — Human Soldier Mercenary,mythic,"R, W","R, W","During your turn, as long as Cloud is equipped, it has double strike and indestructible. (This creature deals both first-strike and regular combat damage. Damage and effects that say ""destroy"" don't destroy this creature.)
+Equip abilities you activate that target Cloud cost {2} less to activate.",4,4,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/552/cloud-planets-champion?utm_source=api
+553,"Sephiroth, Planet's Heir",{4}{U}{B},6.0,Legendary Creature — Human Avatar Soldier,mythic,"B, U","B, U","Vigilance (Attacking doesn't cause this creature to tap.)
+When Sephiroth enters, creatures your opponents control get -2/-2 until end of turn.
+Whenever a creature an opponent controls dies, put a +1/+1 counter on Sephiroth.",4,4,,Vigilance,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/553/sephiroth-planets-heir?utm_source=api
+554,"Beatrix, Loyal General",{4}{W}{W},6.0,Legendary Creature — Human Soldier,rare,W,W,"Vigilance (Attacking doesn't cause this creature to tap.)
+At the beginning of combat on your turn, you may attach any number of Equipment you control to target creature you control.",4,4,,Vigilance,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/554/beatrix-loyal-general?utm_source=api
+555,"Rosa, Resolute White Mage",{3}{W},4.0,Legendary Creature — Human Noble Cleric,rare,W,W,"Reach (This creature can block creatures with flying.)
+At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. It gains lifelink until end of turn. (Damage dealt by the creature also causes you to gain that much life.)",2,3,,Reach,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/555/rosa-resolute-white-mage?utm_source=api
+556,"Ultimecia, Temporal Threat",{4}{U}{U},6.0,Legendary Creature — Human Warlock,rare,U,U,"When Ultimecia enters, tap all creatures your opponents control.
+Whenever a creature you control deals combat damage to a player, draw a card.",4,4,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/556/ultimecia-temporal-threat?utm_source=api
+557,Deadly Embrace,{3}{B}{B},5.0,Sorcery,rare,B,B,Destroy target creature an opponent controls. Then draw a card for each creature that died this turn.,,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/557/deadly-embrace?utm_source=api
+558,Seymour Flux,{4}{B},5.0,Legendary Creature — Spirit Avatar,rare,B,B,"At the beginning of your upkeep, you may pay 1 life. If you do, draw a card and put a +1/+1 counter on Seymour Flux.",5,5,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/558/seymour-flux?utm_source=api
+559,Judgment Bolt,{3}{R},4.0,Instant,rare,R,R,"Judgment Bolt deals 5 damage to target creature and X damage to that creature's controller, where X is the number of Equipment you control.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/559/judgment-bolt?utm_source=api
+560,"Lightning, Security Sergeant",{2}{R},3.0,Legendary Creature — Human Soldier,rare,R,R,"Menace (This creature can't be blocked except by two or more creatures.)
+Whenever Lightning deals combat damage to a player, exile the top card of your library. You may play that card for as long as you control Lightning.",2,3,,Menace,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/560/lightning-security-sergeant?utm_source=api
+561,"Xande, Dark Mage",{2}{U}{B},4.0,Legendary Creature — Human Wizard,rare,"B, U","B, U","Menace (This creature can't be blocked except by two or more creatures.)
+Xande gets +1/+1 for each noncreature, nonland card in your graveyard.",3,3,,Menace,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/561/xande-dark-mage?utm_source=api
+562,Magitek Scythe,{4},4.0,Artifact — Equipment,rare,,,"A Test of Your Reflexes! — When this Equipment enters, you may attach it to target creature you control. If you do, that creature gains first strike until end of turn and must be blocked this turn if able.
+Equipped creature gets +2/+1.
+Equip {2}",,,,"Equip, A Test of Your Reflexes!",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/562/magitek-scythe?utm_source=api
+563,Ultima Weapon,{7},7.0,Legendary Artifact — Equipment,rare,,,"Whenever equipped creature attacks, destroy target creature an opponent controls.
+Equipped creature gets +7/+7.
+Equip {7}",,,,Equip,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/563/ultima-weapon?utm_source=api

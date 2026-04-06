@@ -1,0 +1,552 @@
+collector_number,name,mana_cost,cmc,type_line,rarity,colors,color_identity,oracle_text,power,toughness,loyalty,keywords,set_name,released_at,scryfall_uri
+1,"Ugin, Eye of the Storms",{7},7.0,Legendary Planeswalker — Ugin,mythic,,,"When you cast this spell, exile up to one target permanent that's one or more colors.
+Whenever you cast a colorless spell, exile up to one target permanent that's one or more colors.
++2: You gain 3 life and draw a card.
+0: Add {C}{C}{C}.
+−11: Search your library for any number of colorless nonland cards, exile them, then shuffle. Until end of turn, you may cast those cards without paying their mana costs.",,,7,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/1/ugin-eye-of-the-storms?utm_source=api
+2,"Anafenza, Unyielding Lineage",{2}{W},3.0,Legendary Creature — Spirit Soldier,rare,W,W,"Flash
+First strike
+Whenever another nontoken creature you control dies, Anafenza endures 2. (Put two +1/+1 counters on it or create a 2/2 white Spirit creature token.)",2,2,,"First strike, Flash, Endure",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/2/anafenza-unyielding-lineage?utm_source=api
+3,Arashin Sunshield,{3}{W},4.0,Creature — Human Warrior,common,W,W,"When this creature enters, exile up to two target cards from a single graveyard.
+{W}, {T}: Tap target creature.",3,4,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/3/arashin-sunshield?utm_source=api
+4,Bearer of Glory,{1}{W},2.0,Creature — Human Soldier,common,W,W,"During your turn, this creature has first strike.
+{4}{W}: Creatures you control get +1/+1 until end of turn.",2,1,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/4/bearer-of-glory?utm_source=api
+5,Clarion Conqueror,{2}{W},3.0,Creature — Dragon,rare,W,W,"Flying
+Activated abilities of artifacts, creatures, and planeswalkers can't be activated.",3,3,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/5/clarion-conqueror?utm_source=api
+6,Coordinated Maneuver,{1}{W},2.0,Instant,common,W,W,"Choose one —
+• Coordinated Maneuver deals damage equal to the number of creatures you control to target creature or planeswalker.
+• Destroy target enchantment.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/6/coordinated-maneuver?utm_source=api
+7,Dalkovan Packbeasts,{2}{W},3.0,Creature — Ox,uncommon,W,W,"Vigilance
+Mobilize 3 (Whenever this creature attacks, create three tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)",0,4,,"Vigilance, Mobilize",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/7/dalkovan-packbeasts?utm_source=api
+8,Descendant of Storms,{W},1.0,Creature — Human Soldier,uncommon,W,W,"Whenever this creature attacks, you may pay {1}{W}. If you do, it endures 1. (Put a +1/+1 counter on it or create a 1/1 white Spirit creature token.)",2,1,,Endure,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/8/descendant-of-storms?utm_source=api
+9,Dragonback Lancer,{3}{W},4.0,Creature — Human Soldier,common,W,W,"Flying
+Mobilize 1 (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)",3,3,,"Flying, Mobilize",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/9/dragonback-lancer?utm_source=api
+10,Duty Beyond Death,{1}{W},2.0,Instant,uncommon,W,W,"As an additional cost to cast this spell, sacrifice a creature.
+Creatures you control gain indestructible until end of turn. Put a +1/+1 counter on each creature you control. (Damage and effects that say ""destroy"" don't destroy those creatures.)",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/10/duty-beyond-death?utm_source=api
+11,"Elspeth, Storm Slayer",{3}{W}{W},5.0,Legendary Planeswalker — Elspeth,mythic,W,W,"If one or more tokens would be created under your control, twice that many of those tokens are created instead.
++1: Create a 1/1 white Soldier creature token.
+0: Put a +1/+1 counter on each creature you control. Those creatures gain flying until your next turn.
+−3: Destroy target creature an opponent controls with mana value 3 or greater.",,,5,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/11/elspeth-storm-slayer?utm_source=api
+12,Fortress Kin-Guard,{1}{W},2.0,Creature — Dog Soldier,common,W,W,"When this creature enters, it endures 1. (Put a +1/+1 counter on it or create a 1/1 white Spirit creature token.)",1,2,,Endure,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/12/fortress-kin-guard?utm_source=api
+13,Furious Forebear,{1}{W},2.0,Creature — Spirit Warrior,uncommon,W,W,"Whenever a creature you control dies while this card is in your graveyard, you may pay {1}{W}. If you do, return this card from your graveyard to your hand.",3,1,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/13/furious-forebear?utm_source=api
+14,Lightfoot Technique,{1}{W},2.0,Instant,common,W,W,"Put a +1/+1 counter on target creature. It gains flying and indestructible until end of turn. (Damage and effects that say ""destroy"" don't destroy it.)",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/14/lightfoot-technique?utm_source=api
+15,Loxodon Battle Priest,{4}{W},5.0,Creature — Elephant Cleric,uncommon,W,W,"At the beginning of combat on your turn, put a +1/+1 counter on another target creature you control.",3,5,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/15/loxodon-battle-priest?utm_source=api
+16,Mardu Devotee,{W},1.0,Creature — Human Scout,common,W,"B, R, W","When this creature enters, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
+{1}: Add {R}, {W}, or {B}. Activate only once each turn.",1,2,,Scry,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/16/mardu-devotee?utm_source=api
+17,Osseous Exhale,{1}{W},2.0,Instant,common,W,W,"As an additional cost to cast this spell, you may behold a Dragon. (You may choose a Dragon you control or reveal a Dragon card from your hand.)
+Osseous Exhale deals 5 damage to target attacking or blocking creature. If a Dragon was beheld, you gain 2 life.",,,,Behold,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/17/osseous-exhale?utm_source=api
+18,Poised Practitioner,{2}{W},3.0,Creature — Human Monk,common,W,W,"Flurry — Whenever you cast your second spell each turn, put a +1/+1 counter on this creature. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",2,3,,"Flurry, Scry",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/18/poised-practitioner?utm_source=api
+19,Rally the Monastery,{3}{W},4.0,Instant,uncommon,W,W,"This spell costs {2} less to cast if you've cast another spell this turn.
+Choose one —
+• Create two 1/1 white Monk creature tokens with prowess.
+• Up to two target creatures you control each get +2/+2 until end of turn.
+• Destroy target creature with power 4 or greater.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/19/rally-the-monastery?utm_source=api
+20,Rebellious Strike,{1}{W},2.0,Instant,common,W,W,"Target creature gets +3/+0 until end of turn.
+Draw a card.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/20/rebellious-strike?utm_source=api
+21,Riling Dawnbreaker // Signaling Roar,{4}{W} // {1}{W},5.0,Creature — Dragon // Sorcery — Omen,common,W,W,,3,4,,"Flying, Vigilance",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/21/riling-dawnbreaker-signaling-roar?utm_source=api
+22,Sage of the Skies,{2}{W},3.0,Creature — Human Monk,rare,W,W,"When you cast this spell, if you've cast another spell this turn, copy this spell. (The copy becomes a token.)
+Flying, lifelink",2,3,,"Flying, Lifelink",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/22/sage-of-the-skies?utm_source=api
+23,Salt Road Packbeast,{5}{W},6.0,Creature — Beast,common,W,W,"Affinity for creatures (This spell costs {1} less to cast for each creature you control.)
+When this creature enters, draw a card.",4,3,,Affinity,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/23/salt-road-packbeast?utm_source=api
+24,Smile at Death,{3}{W}{W},5.0,Enchantment,mythic,W,W,"At the beginning of your upkeep, return up to two target creature cards with power 2 or less from your graveyard to the battlefield. Put a +1/+1 counter on each of those creatures.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/24/smile-at-death?utm_source=api
+25,Starry-Eyed Skyrider,{2}{W},3.0,Creature — Human Scout,uncommon,W,W,"Flying
+Whenever this creature attacks, another target creature you control gains flying until end of turn.
+Attacking tokens you control have flying.",1,3,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/25/starry-eyed-skyrider?utm_source=api
+26,Static Snare,{4}{W},5.0,Enchantment,uncommon,W,W,"Flash
+This spell costs {1} less to cast for each attacking creature.
+When this enchantment enters, exile target artifact or creature an opponent controls until this enchantment leaves the battlefield.",,,,Flash,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/26/static-snare?utm_source=api
+27,Stormbeacon Blade,{1}{W},2.0,Artifact — Equipment,uncommon,W,W,"Equipped creature gets +3/+0.
+Whenever equipped creature attacks, draw a card if you control three or more attacking creatures.
+Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",,,,Equip,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/27/stormbeacon-blade?utm_source=api
+28,Stormplain Detainment,{2}{W},3.0,Enchantment,common,W,W,"When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/28/stormplain-detainment?utm_source=api
+29,Sunpearl Kirin,{1}{W},2.0,Creature — Kirin,uncommon,W,W,"Flash
+Flying
+When this creature enters, return up to one other target nonland permanent you control to its owner's hand. If it was a token, draw a card.",2,1,,"Flying, Flash",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/29/sunpearl-kirin?utm_source=api
+30,Teeming Dragonstorm,{3}{W},4.0,Enchantment,uncommon,W,W,"When this enchantment enters, create two 2/2 white Soldier creature tokens.
+When a Dragon you control enters, return this enchantment to its owner's hand.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/30/teeming-dragonstorm?utm_source=api
+31,Tempest Hawk,{2}{W},3.0,Creature — Bird,common,W,W,"Flying
+Whenever this creature deals combat damage to a player, you may search your library for a card named Tempest Hawk, reveal it, put it into your hand, then shuffle.
+A deck can have any number of cards named Tempest Hawk.",2,2,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/31/tempest-hawk?utm_source=api
+32,United Battlefront,{3}{W},4.0,Sorcery,rare,W,W,"Look at the top seven cards of your library. Put up to two noncreature, nonland permanent cards with mana value 3 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/32/united-battlefront?utm_source=api
+33,Voice of Victory,{1}{W},2.0,Creature — Human Bard,rare,W,W,"Mobilize 2 (Whenever this creature attacks, create two tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)
+Your opponents can't cast spells during your turn.",1,3,,Mobilize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/33/voice-of-victory?utm_source=api
+34,Wayspeaker Bodyguard,{3}{W},4.0,Creature — Orc Monk,uncommon,W,W,"When this creature enters, return target nonland permanent card with mana value 2 or less from your graveyard to your hand.
+Flurry — Whenever you cast your second spell each turn, tap target creature an opponent controls.",3,4,,Flurry,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/34/wayspeaker-bodyguard?utm_source=api
+35,Aegis Sculptor,{3}{U},4.0,Creature — Bird Wizard,uncommon,U,U,"Flying
+Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+At the beginning of your upkeep, you may exile two cards from your graveyard. If you do, put a +1/+1 counter on this creature.",2,3,,"Flying, Ward",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/35/aegis-sculptor?utm_source=api
+36,Agent of Kotis,{1}{U},2.0,Creature — Human Rogue,common,U,U,"Renew — {3}{U}, Exile this card from your graveyard: Put two +1/+1 counters on target creature. Activate only as a sorcery.",2,1,,Renew,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/36/agent-of-kotis?utm_source=api
+37,Ambling Stormshell,{3}{U}{U},5.0,Creature — Turtle,rare,U,U,"Ward {2}
+Whenever this creature attacks, put three stun counters on it and draw three cards. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+Whenever you cast a Turtle spell, untap this creature.",5,9,,Ward,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/37/ambling-stormshell?utm_source=api
+38,Bewildering Blizzard,{4}{U}{U},6.0,Instant,uncommon,U,U,Draw three cards. Creatures your opponents control get -3/-0 until end of turn.,,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/38/bewildering-blizzard?utm_source=api
+39,Constrictor Sage,{4}{U},5.0,Creature — Snake Wizard,uncommon,U,U,"When this creature enters, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+Renew — {2}{U}, Exile this card from your graveyard: Tap target creature an opponent controls and put a stun counter on it. Activate only as a sorcery.",4,4,,Renew,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/39/constrictor-sage?utm_source=api
+40,Dirgur Island Dragon // Skimming Strike,{5}{U} // {1}{U},6.0,Creature — Dragon // Instant — Omen,common,U,U,,4,4,,"Flying, Ward",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/40/dirgur-island-dragon-skimming-strike?utm_source=api
+41,Dispelling Exhale,{1}{U},2.0,Instant,common,U,U,"As an additional cost to cast this spell, you may behold a Dragon. (You may choose a Dragon you control or reveal a Dragon card from your hand.)
+Counter target spell unless its controller pays {2}. If a Dragon was beheld, counter that spell unless its controller pays {4} instead.",,,,Behold,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/41/dispelling-exhale?utm_source=api
+42,Dragonologist,{2}{U},3.0,Creature — Human Wizard,rare,U,U,"When this creature enters, look at the top six cards of your library. You may reveal an instant, sorcery, or Dragon card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+Untapped Dragons you control have hexproof.",1,3,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/42/dragonologist?utm_source=api
+43,Dragonstorm Forecaster,{U},1.0,Creature — Human Scout,uncommon,U,U,"{2}, {T}: Search your library for a card named Dragonstorm Globe or Boulderborn Dragon, reveal it, put it into your hand, then shuffle.",0,3,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/43/dragonstorm-forecaster?utm_source=api
+44,Essence Anchor,{2}{U},3.0,Artifact,uncommon,U,U,"At the beginning of your upkeep, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+{T}: Create a 2/2 black Zombie Druid creature token. Activate only during your turn and only if a card left your graveyard this turn.",,,,Surveil,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/44/essence-anchor?utm_source=api
+45,Focus the Mind,{4}{U},5.0,Instant,common,U,U,"This spell costs {2} less to cast if you've cast another spell this turn.
+Draw three cards, then discard a card.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/45/focus-the-mind?utm_source=api
+46,Fresh Start,{1}{U},2.0,Enchantment — Aura,uncommon,U,U,"Flash
+Enchant creature
+Enchanted creature gets -5/-0 and loses all abilities.",,,,"Enchant, Flash",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/46/fresh-start?utm_source=api
+47,Highspire Bell-Ringer,{2}{U},3.0,Creature — Djinn Monk,common,U,U,"Flying
+The second spell you cast each turn costs {1} less to cast.",1,4,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/47/highspire-bell-ringer?utm_source=api
+48,Humbling Elder,{U},1.0,Creature — Human Monk,common,U,U,"Flash
+When this creature enters, target creature an opponent controls gets -2/-0 until end of turn.",1,2,,Flash,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/48/humbling-elder?utm_source=api
+49,Iceridge Serpent,{4}{U},5.0,Creature — Serpent,common,U,U,"When this creature enters, return target creature an opponent controls to its owner's hand.",3,3,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/49/iceridge-serpent?utm_source=api
+50,Kishla Trawlers,{2}{U},3.0,Creature — Human Citizen,uncommon,U,U,"When this creature enters, you may exile a creature card from your graveyard. When you do, return target instant or sorcery card from your graveyard to your hand.",3,2,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/50/kishla-trawlers?utm_source=api
+51,Marang River Regent // Coil and Catch,{4}{U}{U} // {3}{U},6.0,Creature — Dragon // Instant — Omen,rare,U,U,,6,7,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/51/marang-river-regent-coil-and-catch?utm_source=api
+52,Naga Fleshcrafter,{3}{U},4.0,Creature — Snake Shapeshifter,rare,U,U,"You may have this creature enter as a copy of any creature on the battlefield.
+Renew — {2}{U}, Exile this card from your graveyard: Put a +1/+1 counter on target nonlegendary creature you control. Each other creature you control becomes a copy of that creature until end of turn. Activate only as a sorcery.",0,0,,Renew,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/52/naga-fleshcrafter?utm_source=api
+53,Ringing Strike Mastery,{U},1.0,Enchantment — Aura,common,U,U,"Enchant creature
+When this Aura enters, tap enchanted creature.
+Enchanted creature doesn't untap during its controller's untap step.
+Enchanted creature has ""{5}: Untap this creature.""",,,,Enchant,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/53/ringing-strike-mastery?utm_source=api
+54,Riverwalk Technique,{3}{U},4.0,Instant,common,U,U,"Choose one —
+• The owner of target nonland permanent puts it on their choice of the top or bottom of their library.
+• Counter target noncreature spell.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/54/riverwalk-technique?utm_source=api
+55,Roiling Dragonstorm,{1}{U},2.0,Enchantment,uncommon,U,U,"When this enchantment enters, draw two cards, then discard a card.
+When a Dragon you control enters, return this enchantment to its owner's hand.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/55/roiling-dragonstorm?utm_source=api
+56,Sibsig Appraiser,{2}{U},3.0,Creature — Zombie Advisor,common,U,U,"When this creature enters, look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.",2,1,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/56/sibsig-appraiser?utm_source=api
+57,Snowmelt Stag,{3}{U},4.0,Creature — Elemental Elk,common,U,U,"Vigilance
+During your turn, this creature has base power and toughness 5/2.
+{5}{U}{U}: This creature can't be blocked this turn.",2,5,,Vigilance,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/57/snowmelt-stag?utm_source=api
+58,Spectral Denial,{X}{U},1.0,Instant,uncommon,U,U,"This spell costs {1} less to cast for each creature you control with power 4 or greater.
+Counter target spell unless its controller pays {X}.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/58/spectral-denial?utm_source=api
+59,Stillness in Motion,{1}{U},2.0,Enchantment,rare,U,U,"At the beginning of your upkeep, mill three cards. Then if your library has no cards in it, exile this enchantment and put five cards from your graveyard on top of your library in any order.",,,,Mill,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/59/stillness-in-motion?utm_source=api
+60,"Taigam, Master Opportunist",{1}{U},2.0,Legendary Creature — Human Monk,mythic,U,U,"Flurry — Whenever you cast your second spell each turn, copy it, then exile the spell you cast with four time counters on it. If it doesn't have suspend, it gains suspend. (At the beginning of its owner's upkeep, they remove a time counter. When the last is removed, they may play it without paying its mana cost. If it's a creature, it has haste.)",2,2,,Flurry,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/60/taigam-master-opportunist?utm_source=api
+61,Temur Devotee,{1}{U},2.0,Creature — Human Druid,common,U,"G, R, U","Defender
+{1}: Add {G}, {U}, or {R}. Activate only once each turn.",3,3,,Defender,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/61/temur-devotee?utm_source=api
+62,Unending Whisper,{U},1.0,Sorcery,common,U,U,"Draw a card.
+Harmonize {5}{U} (You may cast this card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile this spell.)",,,,Harmonize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/62/unending-whisper?utm_source=api
+63,Ureni's Rebuff,{1}{U},2.0,Sorcery,uncommon,U,U,"Return target creature to its owner's hand.
+Harmonize {5}{U} (You may cast this card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile this spell.)",,,,Harmonize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/63/urenis-rebuff?utm_source=api
+64,Veteran Ice Climber,{1}{U},2.0,Creature — Human Scout,uncommon,U,U,"Vigilance
+This creature can't be blocked.
+Whenever this creature attacks, up to one target player mills cards equal to this creature's power. (They put that many cards from the top of their library into their graveyard.)",1,3,,"Vigilance, Mill",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/64/veteran-ice-climber?utm_source=api
+65,Wingblade Disciple,{2}{U},3.0,Creature — Human Monk,uncommon,U,U,"Flying
+Flurry — Whenever you cast your second spell each turn, create a 1/1 white Bird creature token with flying.",2,2,,"Flying, Flurry",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/65/wingblade-disciple?utm_source=api
+66,Wingspan Stride,{U},1.0,Enchantment — Aura,common,U,U,"Enchant creature
+Enchanted creature gets +1/+1 and has flying.
+{2}{U}: Return this Aura to its owner's hand.",,,,Enchant,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/66/wingspan-stride?utm_source=api
+67,Winternight Stories,{2}{U},3.0,Sorcery,rare,U,U,"Draw three cards. Then discard two cards unless you discard a creature card.
+Harmonize {4}{U} (You may cast this card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile this spell.)",,,,Harmonize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/67/winternight-stories?utm_source=api
+68,Abzan Devotee,{1}{B},2.0,Creature — Dog Cleric,common,B,"B, G, W","{1}: Add {W}, {B}, or {G}. Activate only once each turn.
+{2}{B}: Return this card from your graveyard to your hand.",2,1,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/68/abzan-devotee?utm_source=api
+69,Adorned Crocodile,{4}{B},5.0,Creature — Crocodile,common,B,B,"When this creature dies, create a 2/2 black Zombie Druid creature token.
+Renew — {B}, Exile this card from your graveyard: Put a +1/+1 counter on target creature. Activate only as a sorcery.",5,3,,Renew,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/69/adorned-crocodile?utm_source=api
+70,Aggressive Negotiations,{2}{B},3.0,Sorcery,common,B,B,Target opponent reveals their hand. You choose a nonland card from it and exile that card. Put a +1/+1 counter on up to one target creature you control.,,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/70/aggressive-negotiations?utm_source=api
+71,Alchemist's Assistant,{1}{B},2.0,Creature — Monkey,uncommon,B,B,"Lifelink
+Renew — {1}{B}, Exile this card from your graveyard: Put a lifelink counter on target creature. Activate only as a sorcery.",2,1,,"Lifelink, Renew",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/71/alchemists-assistant?utm_source=api
+72,Alesha's Legacy,{1}{B},2.0,Instant,common,B,B,"Target creature you control gains deathtouch and indestructible until end of turn. (Damage and effects that say ""destroy"" don't destroy it.)",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/72/aleshas-legacy?utm_source=api
+73,Avenger of the Fallen,{2}{B},3.0,Creature — Human Warrior,rare,B,B,"Deathtouch
+Mobilize X, where X is the number of creature cards in your graveyard. (Whenever this creature attacks, create X tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)",2,4,,"Mobilize, Deathtouch",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/73/avenger-of-the-fallen?utm_source=api
+74,Caustic Exhale,{B},1.0,Instant,common,B,B,"As an additional cost to cast this spell, behold a Dragon or pay {1}. (To behold a Dragon, choose a Dragon you control or reveal a Dragon card from your hand.)
+Target creature gets -3/-3 until end of turn.",,,,Behold,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/74/caustic-exhale?utm_source=api
+75,Corroding Dragonstorm,{1}{B},2.0,Enchantment,uncommon,B,B,"When this enchantment enters, each opponent loses 2 life and you gain 2 life. Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+When a Dragon you control enters, return this enchantment to its owner's hand.",,,,Surveil,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/75/corroding-dragonstorm?utm_source=api
+76,Cruel Truths,{3}{B},4.0,Instant,common,B,B,"Surveil 2, then draw two cards. You lose 2 life. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",,,,Surveil,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/76/cruel-truths?utm_source=api
+77,Delta Bloodflies,{1}{B},2.0,Creature — Insect,common,B,B,"Flying
+Whenever this creature attacks, if you control a creature with a counter on it, each opponent loses 1 life.",1,2,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/77/delta-bloodflies?utm_source=api
+78,Desperate Measures,{B},1.0,Instant,uncommon,B,B,"Target creature gets +1/-1 until end of turn. When it dies under your control this turn, draw two cards.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/78/desperate-measures?utm_source=api
+79,Dragon's Prey,{2}{B},3.0,Instant,common,B,B,"This spell costs {2} more to cast if it targets a Dragon.
+Destroy target creature.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/79/dragons-prey?utm_source=api
+80,Feral Deathgorger // Dusk Sight,{5}{B} // {1}{B},6.0,Creature — Dragon // Sorcery — Omen,common,B,B,,3,5,,"Deathtouch, Flying",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/80/feral-deathgorger-dusk-sight?utm_source=api
+81,Gurmag Rakshasa,{4}{B}{B},6.0,Creature — Demon,uncommon,B,B,"Menace (This creature can't be blocked except by two or more creatures.)
+When this creature enters, target creature an opponent controls gets -2/-2 until end of turn and target creature you control gets +2/+2 until end of turn.",5,5,,Menace,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/81/gurmag-rakshasa?utm_source=api
+82,Hundred-Battle Veteran,{3}{B},4.0,Creature — Zombie Warrior,uncommon,B,B,"As long as there are three or more different kinds of counters among creatures you control, this creature gets +2/+4.
+You may cast this card from your graveyard. If you do, it enters with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead.)",4,2,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/82/hundred-battle-veteran?utm_source=api
+83,Kin-Tree Nurturer,{2}{B},3.0,Creature — Human Druid,common,B,B,"Lifelink
+When this creature enters, it endures 1. (Put a +1/+1 counter on it or create a 1/1 white Spirit creature token.)",2,1,,"Lifelink, Endure",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/83/kin-tree-nurturer?utm_source=api
+84,Krumar Initiate,{1}{B},2.0,Creature — Human Cleric,uncommon,B,B,"{X}{B}, {T}, Pay X life: This creature endures X. Activate only as a sorcery. (Put X +1/+1 counters on it or create an X/X white Spirit creature token.)",2,2,,Endure,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/84/krumar-initiate?utm_source=api
+85,Nightblade Brigade,{2}{B},3.0,Creature — Goblin Soldier,common,B,B,"Deathtouch
+Mobilize 1 (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)
+When this creature enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",1,3,,"Surveil, Mobilize, Deathtouch",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/85/nightblade-brigade?utm_source=api
+86,Qarsi Revenant,{1}{B}{B},3.0,Creature — Vampire,rare,B,B,"Flying, deathtouch, lifelink
+Renew — {2}{B}, Exile this card from your graveyard: Put a flying counter, a deathtouch counter, and a lifelink counter on target creature. Activate only as a sorcery.",3,3,,"Deathtouch, Flying, Lifelink, Renew",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/86/qarsi-revenant?utm_source=api
+87,Rot-Curse Rakshasa,{1}{B},2.0,Creature — Demon,mythic,B,B,"Trample
+Decayed (This creature can't block. When it attacks, sacrifice it at end of combat.)
+Renew — {X}{B}{B}, Exile this card from your graveyard: Put a decayed counter on each of X target creatures. Activate only as a sorcery.",5,5,,"Renew, Trample, Decayed",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/87/rot-curse-rakshasa?utm_source=api
+88,Salt Road Skirmish,{3}{B},4.0,Sorcery,uncommon,B,B,Destroy target creature. Create two 1/1 red Warrior creature tokens. They gain haste until end of turn. Sacrifice them at the beginning of the next end step.,,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/88/salt-road-skirmish?utm_source=api
+89,Sandskitter Outrider,{3}{B},4.0,Creature — Goblin Soldier,common,B,B,"Menace (This creature can't be blocked except by two or more creatures.)
+When this creature enters, it endures 2. (Put two +1/+1 counters on it or create a 2/2 white Spirit creature token.)",2,1,,"Menace, Endure",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/89/sandskitter-outrider?utm_source=api
+90,Scavenger Regent // Exude Toxin,{3}{B} // {X}{B}{B},4.0,Creature — Dragon // Sorcery — Omen,rare,B,B,,4,4,,"Flying, Ward",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/90/scavenger-regent-exude-toxin?utm_source=api
+91,The Sibsig Ceremony,{B}{B}{B},3.0,Legendary Enchantment,rare,B,B,"Creature spells you cast cost {2} less to cast.
+Whenever a creature you control enters, if you cast it, destroy that creature, then create a 2/2 black Zombie Druid creature token.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/91/the-sibsig-ceremony?utm_source=api
+92,"Sidisi, Regent of the Mire",{1}{B},2.0,Legendary Creature — Zombie Snake Warlock,rare,B,B,"{T}, Sacrifice a creature you control with mana value X other than Sidisi: Return target creature card with mana value X plus 1 from your graveyard to the battlefield. Activate only as a sorcery.",1,3,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/92/sidisi-regent-of-the-mire?utm_source=api
+93,Sinkhole Surveyor,{1}{B},2.0,Creature — Bird Scout,rare,B,B,"Flying
+Whenever this creature attacks, you lose 1 life and this creature endures 1. (Put a +1/+1 counter on it or create a 1/1 white Spirit creature token.)",1,3,,"Endure, Flying",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/93/sinkhole-surveyor?utm_source=api
+94,Strategic Betrayal,{1}{B},2.0,Sorcery,uncommon,B,B,Target opponent exiles a creature they control and their graveyard.,,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/94/strategic-betrayal?utm_source=api
+95,Unburied Earthcarver,{1}{B},2.0,Creature — Human Warrior,common,B,B,"{2}, Sacrifice another creature: Put a +1/+1 counter on this creature.",2,2,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/95/unburied-earthcarver?utm_source=api
+96,Unrooted Ancestor,{2}{B},3.0,Creature — Spirit Cleric,uncommon,B,B,"Flash
+{1}, Sacrifice another creature: This creature gains indestructible until end of turn. Tap it. (Damage and effects that say ""destroy"" don't destroy it.)",3,2,,Flash,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/96/unrooted-ancestor?utm_source=api
+97,Venerated Stormsinger,{3}{B},4.0,Creature — Orc Cleric,uncommon,B,B,"Mobilize 1 (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)
+Whenever this creature or another creature you control dies, each opponent loses 1 life and you gain 1 life.",3,3,,Mobilize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/97/venerated-stormsinger?utm_source=api
+98,Wail of War,{2}{B},3.0,Instant,uncommon,B,B,"Choose one —
+• Creatures target opponent controls get -1/-1 until end of turn.
+• Return up to two target creature cards from your graveyard to your hand.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/98/wail-of-war?utm_source=api
+99,Worthy Cost,{B},1.0,Sorcery,common,B,B,"As an additional cost to cast this spell, sacrifice a creature.
+Exile target creature or planeswalker.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/99/worthy-cost?utm_source=api
+100,Yathan Tombguard,{2}{B},3.0,Creature — Human Warrior,uncommon,B,B,"Menace (This creature can't be blocked except by two or more creatures.)
+Whenever a creature you control with a counter on it deals combat damage to a player, you draw a card and you lose 1 life.",2,3,,Menace,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/100/yathan-tombguard?utm_source=api
+101,Breaching Dragonstorm,{4}{R},5.0,Enchantment,uncommon,R,R,"When this enchantment enters, exile cards from the top of your library until you exile a nonland card. You may cast it without paying its mana cost if that spell's mana value is 8 or less. If you don't, put that card into your hand.
+When a Dragon you control enters, return this enchantment to its owner's hand.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/101/breaching-dragonstorm?utm_source=api
+102,Channeled Dragonfire,{R},1.0,Sorcery,uncommon,R,R,"Channeled Dragonfire deals 2 damage to any target.
+Harmonize {5}{R}{R} (You may cast this card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile this spell.)",,,,Harmonize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/102/channeled-dragonfire?utm_source=api
+103,Cori-Steel Cutter,{1}{R},2.0,Artifact — Equipment,rare,R,R,"Equipped creature gets +1/+1 and has trample and haste.
+Flurry — Whenever you cast your second spell each turn, create a 1/1 white Monk creature token with prowess. You may attach this Equipment to it. (Whenever you cast a noncreature spell, the token gets +1/+1 until end of turn.)
+Equip {1}{R}",,,,"Flurry, Equip",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/103/cori-steel-cutter?utm_source=api
+A-103,A-Cori-Steel Cutter,{1}{R},2.0,Artifact — Equipment,rare,R,R,"Equipped creature has haste.
+Flurry — Whenever you cast your second spell each turn, create a 1/1 white Monk creature token with prowess. You may attach this Equipment to it.
+Equip {1}{R}",,,,"Flurry, Equip",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/A-103/a-cori-steel-cutter?utm_source=api
+104,Devoted Duelist,{1}{R},2.0,Creature — Goblin Monk,common,R,R,"Haste
+Flurry — Whenever you cast your second spell each turn, this creature deals 1 damage to each opponent.",2,1,,"Flurry, Haste",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/104/devoted-duelist?utm_source=api
+105,Dracogenesis,{6}{R}{R},8.0,Enchantment,mythic,R,R,You may cast Dragon spells without paying their mana costs.,,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/105/dracogenesis?utm_source=api
+106,Equilibrium Adept,{3}{R},4.0,Creature — Dog Monk,uncommon,R,R,"When this creature enters, exile the top card of your library. Until the end of your next turn, you may play that card.
+Flurry — Whenever you cast your second spell each turn, this creature gains double strike until end of turn.",2,4,,Flurry,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/106/equilibrium-adept?utm_source=api
+107,Fire-Rim Form,{1}{R},2.0,Enchantment — Aura,common,R,R,"Flash
+Enchant creature
+When this Aura enters, enchanted creature gains first strike until end of turn.
+Enchanted creature gets +2/+0.",,,,"Enchant, Flash",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/107/fire-rim-form?utm_source=api
+108,Fleeting Effigy,{R},1.0,Creature — Elemental,uncommon,R,R,"Haste
+At the beginning of your end step, return this creature to its owner's hand. (Return it only if it's on the battlefield.)
+{2}{R}: This creature gets +2/+0 until end of turn.",2,2,,Haste,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/108/fleeting-effigy?utm_source=api
+109,Iridescent Tiger,{4}{R},5.0,Creature — Cat,uncommon,R,"B, G, R, U, W","When this creature enters, if you cast it, add {W}{U}{B}{R}{G}.",3,4,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/109/iridescent-tiger?utm_source=api
+110,Jeskai Devotee,{1}{R},2.0,Creature — Orc Monk,common,R,"R, U, W","Flurry — Whenever you cast your second spell each turn, this creature gets +1/+1 until end of turn.
+{1}: Add {U}, {R}, or {W}. Activate only once each turn.",2,2,,Flurry,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/110/jeskai-devotee?utm_source=api
+111,Magmatic Hellkite,{2}{R}{R},4.0,Creature — Dragon,rare,R,R,"Flying
+When this creature enters, destroy target nonbasic land an opponent controls. Its controller searches their library for a basic land card, puts it onto the battlefield tapped with a stun counter on it, then shuffles. (If a permanent with a stun counter would become untapped, remove one from it instead.)",4,5,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/111/magmatic-hellkite?utm_source=api
+112,Meticulous Artisan,{3}{R},4.0,Creature — Djinn Artificer,common,R,R,"Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+When this creature enters, create a Treasure token. (It's an artifact with ""{T}, Sacrifice this token: Add one mana of any color."")",3,3,,"Prowess, Treasure",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/112/meticulous-artisan?utm_source=api
+113,Molten Exhale,{1}{R},2.0,Sorcery,common,R,R,"You may cast this spell as though it had flash if you behold a Dragon as an additional cost to cast it. (To behold a Dragon, choose a Dragon you control or reveal a Dragon card from your hand.)
+Molten Exhale deals 4 damage to target creature or planeswalker.",,,,Behold,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/113/molten-exhale?utm_source=api
+114,Narset's Rebuke,{4}{R},5.0,Instant,common,R,"R, U, W","Narset's Rebuke deals 5 damage to target creature. Add {U}{R}{W}. If that creature would die this turn, exile it instead.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/114/narsets-rebuke?utm_source=api
+115,Overwhelming Surge,{2}{R},3.0,Instant,uncommon,R,R,"Choose one or both —
+• Overwhelming Surge deals 3 damage to target creature.
+• Destroy target noncreature artifact.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/115/overwhelming-surge?utm_source=api
+116,Rescue Leopard,{2}{R},3.0,Creature — Cat,common,R,R,"Whenever this creature becomes tapped, you may discard a card. If you do, draw a card.",4,2,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/116/rescue-leopard?utm_source=api
+117,Reverberating Summons,{1}{R},2.0,Enchantment,uncommon,R,R,"At the beginning of each combat, if you've cast two or more spells this turn, this enchantment becomes a 3/3 Monk creature with haste in addition to its other types until end of turn.
+{1}{R}, Discard your hand, Sacrifice this enchantment: Draw two cards.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/117/reverberating-summons?utm_source=api
+118,"Sarkhan, Dragon Ascendant",{1}{R},2.0,Legendary Creature — Human Druid,rare,R,R,"When Sarkhan enters, you may behold a Dragon. If you do, create a Treasure token. (To behold a Dragon, choose a Dragon you control or reveal a Dragon card from your hand.)
+Whenever a Dragon you control enters, put a +1/+1 counter on Sarkhan. Until end of turn, Sarkhan becomes a Dragon in addition to its other types and gains flying.",2,2,,"Behold, Treasure",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/118/sarkhan-dragon-ascendant?utm_source=api
+119,Seize Opportunity,{2}{R},3.0,Instant,common,R,R,"Choose one —
+• Exile the top two cards of your library. Until the end of your next turn, you may play those cards.
+• Up to two target creatures each get +2/+1 until end of turn.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/119/seize-opportunity?utm_source=api
+120,Shock Brigade,{1}{R},2.0,Creature — Goblin Soldier,common,R,R,"Menace (This creature can't be blocked except by two or more creatures.)
+Mobilize 1 (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)",1,3,,"Menace, Mobilize",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/120/shock-brigade?utm_source=api
+121,Shocking Sharpshooter,{1}{R},2.0,Creature — Human Archer,uncommon,R,R,"Reach
+Whenever another creature you control enters, this creature deals 1 damage to target opponent.",1,3,,Reach,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/121/shocking-sharpshooter?utm_source=api
+122,Stadium Headliner,{R},1.0,Creature — Goblin Warrior,rare,R,R,"Mobilize 1 (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)
+{1}{R}, Sacrifice this creature: It deals damage equal to the number of creatures you control to target creature.",1,1,,Mobilize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/122/stadium-headliner?utm_source=api
+123,Stormscale Scion,{4}{R}{R},6.0,Creature — Dragon,mythic,R,R,"Flying
+Other Dragons you control get +1/+1.
+Storm (When you cast this spell, copy it for each spell cast before it this turn. Copies become tokens.)",4,4,,"Flying, Storm",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/123/stormscale-scion?utm_source=api
+124,Stormshriek Feral // Flush Out,{4}{R} // {1}{R},5.0,Creature — Dragon // Sorcery — Omen,common,R,R,,3,3,,"Flying, Haste",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/124/stormshriek-feral-flush-out?utm_source=api
+125,Summit Intimidator,{3}{R},4.0,Creature — Yeti,common,R,R,"Reach
+When this creature enters, target creature can't block this turn.",4,3,,Reach,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/125/summit-intimidator?utm_source=api
+126,Sunset Strikemaster,{1}{R},2.0,Creature — Human Monk,uncommon,R,R,"{T}: Add {R}.
+{2}{R}, {T}, Sacrifice this creature: It deals 6 damage to target creature with flying.",3,1,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/126/sunset-strikemaster?utm_source=api
+127,Tersa Lightshatter,{2}{R},3.0,Legendary Creature — Orc Wizard,rare,R,R,"Haste
+When Tersa Lightshatter enters, discard up to two cards, then draw that many cards.
+Whenever Tersa Lightshatter attacks, if there are seven or more cards in your graveyard, exile a card at random from your graveyard. You may play that card this turn.",3,3,,Haste,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/127/tersa-lightshatter?utm_source=api
+128,Twin Bolt,{1}{R},2.0,Instant,common,R,R,Twin Bolt deals 2 damage divided as you choose among one or two targets.,,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/128/twin-bolt?utm_source=api
+129,Underfoot Underdogs,{2}{R},3.0,Creature — Goblin Warrior,common,R,R,"When this creature enters, create a 1/1 red Goblin creature token.
+{1}, {T}: Target creature you control with power 2 or less can't be blocked this turn.",1,2,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/129/underfoot-underdogs?utm_source=api
+130,Unsparing Boltcaster,{2}{R},3.0,Creature — Ogre Wizard,uncommon,R,R,"When this creature enters, it deals 5 damage to target creature an opponent controls that was dealt damage this turn.",3,3,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/130/unsparing-boltcaster?utm_source=api
+131,War Effort,{3}{R},4.0,Enchantment,uncommon,R,R,"Creatures you control get +1/+0.
+Whenever you attack, create a 1/1 red Warrior creature token that's tapped and attacking. Sacrifice it at the beginning of the next end step.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/131/war-effort?utm_source=api
+132,Wild Ride,{R},1.0,Sorcery,common,R,R,"Target creature gets +3/+0 and gains haste until end of turn.
+Harmonize {4}{R} (You may cast this card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile this spell.)",,,,Harmonize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/132/wild-ride?utm_source=api
+133,Zurgo's Vanguard,{2}{R},3.0,Creature — Dog Soldier,uncommon,R,R,"Mobilize 1 (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)
+Zurgo's Vanguard's power is equal to the number of creatures you control.",*,3,,Mobilize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/133/zurgos-vanguard?utm_source=api
+134,Ainok Wayfarer,{1}{G},2.0,Creature — Dog Scout,common,G,G,"When this creature enters, mill three cards. You may put a land card from among them into your hand. If you don't, put a +1/+1 counter on this creature. (To mill three cards, put the top three cards of your library into your graveyard.)",1,1,,Mill,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/134/ainok-wayfarer?utm_source=api
+135,Attuned Hunter,{2}{G},3.0,Creature — Human Ranger,uncommon,G,G,"Trample
+Whenever one or more cards leave your graveyard during your turn, put a +1/+1 counter on this creature.",3,3,,Trample,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/135/attuned-hunter?utm_source=api
+136,Bloomvine Regent // Claim Territory,{3}{G}{G} // {2}{G},5.0,Creature — Dragon // Sorcery — Omen,rare,G,G,,4,5,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/136/bloomvine-regent-claim-territory?utm_source=api
+137,Champion of Dusan,{2}{G},3.0,Creature — Human Warrior,common,G,G,"Trample
+Renew — {1}{G}, Exile this card from your graveyard: Put a +1/+1 counter and a trample counter on target creature. Activate only as a sorcery.",4,2,,"Renew, Trample",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/137/champion-of-dusan?utm_source=api
+138,Craterhoof Behemoth,{5}{G}{G}{G},8.0,Creature — Beast,mythic,G,G,"Haste
+When this creature enters, creatures you control gain trample and get +X/+X until end of turn, where X is the number of creatures you control.",5,5,,Haste,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/138/craterhoof-behemoth?utm_source=api
+139,Dragon Sniper,{G},1.0,Creature — Human Archer,uncommon,G,G,"Vigilance, reach, deathtouch",1,1,,"Reach, Vigilance, Deathtouch",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/139/dragon-sniper?utm_source=api
+140,Dragonbroods' Relic,{1}{G},2.0,Artifact,uncommon,G,"B, G, R, U, W","{T}, Tap an untapped creature you control: Add one mana of any color.
+{3}{W}{U}{B}{R}{G}, Sacrifice this artifact: Create a 4/4 Dragon creature token named Reliquary Dragon that's all colors. It has flying, lifelink, and ""When this token enters, it deals 3 damage to any target."" Activate only as a sorcery.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/140/dragonbroods-relic?utm_source=api
+141,Dusyut Earthcarver,{5}{G},6.0,Creature — Elephant Druid,common,G,G,"Reach
+When this creature enters, it endures 3. (Put three +1/+1 counters on it or create a 3/3 white Spirit creature token.)",4,4,,"Reach, Endure",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/141/dusyut-earthcarver?utm_source=api
+142,Encroaching Dragonstorm,{3}{G},4.0,Enchantment,uncommon,G,G,"When this enchantment enters, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
+When a Dragon you control enters, return this enchantment to its owner's hand.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/142/encroaching-dragonstorm?utm_source=api
+143,Formation Breaker,{1}{G},2.0,Creature — Beast,uncommon,G,G,"Creatures with power less than this creature's power can't block it.
+As long as you control a creature with a counter on it, this creature gets +1/+2.",2,1,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/143/formation-breaker?utm_source=api
+144,Herd Heirloom,{1}{G},2.0,Artifact,rare,G,G,"{T}: Add one mana of any color. Spend this mana only to cast a creature spell.
+{T}: Until end of turn, target creature you control with power 4 or greater gains trample and ""Whenever this creature deals combat damage to a player, draw a card.""",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/144/herd-heirloom?utm_source=api
+145,Heritage Reclamation,{1}{G},2.0,Instant,common,G,G,"Choose one —
+• Destroy target artifact.
+• Destroy target enchantment.
+• Exile up to one target card from a graveyard. Draw a card.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/145/heritage-reclamation?utm_source=api
+146,Inspirited Vanguard,{4}{G},5.0,Creature — Human Soldier,uncommon,G,G,"Whenever this creature enters or attacks, it endures 2. (Put two +1/+1 counters on it or create a 2/2 white Spirit creature token.)",3,2,,Endure,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/146/inspirited-vanguard?utm_source=api
+147,Knockout Maneuver,{2}{G},3.0,Sorcery,uncommon,G,G,"Put a +1/+1 counter on target creature you control, then it deals damage equal to its power to target creature an opponent controls.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/147/knockout-maneuver?utm_source=api
+148,Krotiq Nestguard,{2}{G},3.0,Creature — Insect,common,G,G,"Defender
+{2}{G}: This creature can attack this turn as though it didn't have defender.",4,4,,Defender,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/148/krotiq-nestguard?utm_source=api
+149,Lasyd Prowler,{2}{G}{G},4.0,Creature — Snake Ranger,rare,G,G,"When this creature enters, you may mill cards equal to the number of lands you control.
+Renew — {1}{G}, Exile this card from your graveyard: Put X +1/+1 counters on target creature, where X is the number of land cards in your graveyard. Activate only as a sorcery.",5,5,,"Renew, Mill",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/149/lasyd-prowler?utm_source=api
+150,Nature's Rhythm,{X}{G}{G},2.0,Sorcery,rare,G,G,"Search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle.
+Harmonize {X}{G}{G}{G}{G} (You may cast this card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by an amount of generic mana equal to its power. Then exile this spell.)",,,,Harmonize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/150/natures-rhythm?utm_source=api
+151,Piercing Exhale,{1}{G},2.0,Instant,common,G,G,"As an additional cost to cast this spell, you may behold a Dragon. (You may choose a Dragon you control or reveal a Dragon card from your hand.)
+Target creature you control deals damage equal to its power to target creature or planeswalker. If a Dragon was beheld, surveil 2.",,,,"Surveil, Behold",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/151/piercing-exhale?utm_source=api
+152,Rainveil Rejuvenator,{3}{G},4.0,Creature — Elephant Druid,uncommon,G,G,"When this creature enters, you may mill three cards. (You may put the top three cards of your library into your graveyard.)
+{T}: Add an amount of {G} equal to this creature's power.",2,4,,Mill,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/152/rainveil-rejuvenator?utm_source=api
+153,Rite of Renewal,{3}{G},4.0,Sorcery,uncommon,G,G,Return up to two target permanent cards from your graveyard to your hand. Target player shuffles up to four target cards from their graveyard into their library. Exile Rite of Renewal.,,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/153/rite-of-renewal?utm_source=api
+154,Roamer's Routine,{2}{G},3.0,Sorcery,common,G,G,"Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Harmonize {4}{G} (You may cast this card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile this spell.)",,,,Harmonize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/154/roamers-routine?utm_source=api
+155,Sage of the Fang,{2}{G},3.0,Creature — Human Druid,uncommon,G,G,"When this creature enters, put a +1/+1 counter on target creature.
+Renew — {3}{G}, Exile this card from your graveyard: Put a +1/+1 counter on target creature, then double the number of +1/+1 counters on that creature. Activate only as a sorcery.",2,2,,Renew,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/155/sage-of-the-fang?utm_source=api
+156,Sagu Pummeler,{3}{G},4.0,Creature — Beast,common,G,G,"Reach
+Renew — {4}{G}, Exile this card from your graveyard: Put two +1/+1 counters and a reach counter on target creature. Activate only as a sorcery.",4,4,,"Reach, Renew",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/156/sagu-pummeler?utm_source=api
+157,Sagu Wildling // Roost Seek,{4}{G} // {G},5.0,Creature — Dragon // Sorcery — Omen,common,G,G,,3,3,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/157/sagu-wildling-roost-seek?utm_source=api
+158,Sarkhan's Resolve,{1}{G},2.0,Instant,common,G,G,"Choose one —
+• Target creature gets +3/+3 until end of turn.
+• Destroy target creature with flying.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/158/sarkhans-resolve?utm_source=api
+159,Snakeskin Veil,{G},1.0,Instant,common,G,G,Put a +1/+1 counter on target creature you control. It gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.),,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/159/snakeskin-veil?utm_source=api
+160,Sultai Devotee,{1}{G},2.0,Creature — Zombie Snake Druid,common,G,"B, G, U","Deathtouch
+{1}: Add {B}, {G}, or {U}. Activate only once each turn.",2,1,,Deathtouch,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/160/sultai-devotee?utm_source=api
+161,"Surrak, Elusive Hunter",{2}{G},3.0,Legendary Creature — Human Warrior,rare,G,G,"This spell can't be countered.
+Trample
+Whenever a creature you control or a creature spell you control becomes the target of a spell or ability an opponent controls, draw a card.",4,3,,Trample,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/161/surrak-elusive-hunter?utm_source=api
+162,Synchronized Charge,{1}{G},2.0,Sorcery,uncommon,G,G,"Distribute two +1/+1 counters among one or two target creatures you control. Creatures you control with counters on them gain vigilance and trample until end of turn.
+Harmonize {4}{G} (You may cast this card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile this spell.)",,,,Harmonize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/162/synchronized-charge?utm_source=api
+163,Trade Route Envoy,{3}{G},4.0,Creature — Dog Soldier,common,G,G,"When this creature enters, draw a card if you control a creature with a counter on it. If you don't draw a card this way, put a +1/+1 counter on this creature.",4,3,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/163/trade-route-envoy?utm_source=api
+164,Traveling Botanist,{1}{G},2.0,Creature — Dog Scout,uncommon,G,G,"Whenever this creature becomes tapped, look at the top card of your library. If it's a land card, you may reveal it and put it into your hand. If you don't put the card into your hand, you may put it into your graveyard.",2,3,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/164/traveling-botanist?utm_source=api
+165,Undergrowth Leopard,{1}{G},2.0,Creature — Cat,common,G,G,"Vigilance
+{1}, Sacrifice this creature: Destroy target artifact or enchantment.",2,2,,Vigilance,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/165/undergrowth-leopard?utm_source=api
+166,Warden of the Grove,{2}{G},3.0,Creature — Hydra,rare,G,G,"At the beginning of your end step, put a +1/+1 counter on this creature.
+Whenever another nontoken creature you control enters, it endures X, where X is the number of counters on this creature. (Put X +1/+1 counters on the creature that entered or create an X/X white Spirit creature token.)",2,2,,Endure,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/166/warden-of-the-grove?utm_source=api
+167,All-Out Assault,{2}{R}{W}{B},5.0,Enchantment,mythic,"B, R, W","B, R, W","Creatures you control get +1/+1 and have deathtouch.
+When this enchantment enters, if it's your main phase, there is an additional combat phase after this phase followed by an additional main phase. When you next attack this turn, untap each creature you control.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/167/all-out-assault?utm_source=api
+168,Armament Dragon,{3}{W}{B}{G},6.0,Creature — Dragon,uncommon,"B, G, W","B, G, W","Flying
+When this creature enters, distribute three +1/+1 counters among one, two, or three target creatures you control.",3,4,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/168/armament-dragon?utm_source=api
+169,Auroral Procession,{G}{U},2.0,Instant,uncommon,"G, U","G, U",Return target card from your graveyard to your hand.,,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/169/auroral-procession?utm_source=api
+170,Awaken the Honored Dead,{B}{G}{U},3.0,Enchantment — Saga,rare,"B, G, U","B, G, U","(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Destroy target nonland permanent.
+II — Mill three cards.
+III — You may discard a card. When you do, return target creature or land card from your graveyard to your hand.",,,,Mill,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/170/awaken-the-honored-dead?utm_source=api
+171,Barrensteppe Siege,{2}{W}{B},4.0,Enchantment,rare,"B, W","B, W","As this enchantment enters, choose Abzan or Mardu.
+• Abzan — At the beginning of your end step, put a +1/+1 counter on each creature you control.
+• Mardu — At the beginning of your end step, if a creature died under your control this turn, each opponent sacrifices a creature of their choice.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/171/barrensteppe-siege?utm_source=api
+172,"Betor, Kin to All",{2}{W}{B}{G},5.0,Legendary Creature — Spirit Dragon,mythic,"B, G, W","B, G, W","Flying
+At the beginning of your end step, if creatures you control have total toughness 10 or greater, draw a card. Then if creatures you control have total toughness 20 or greater, untap each creature you control. Then if creatures you control have total toughness 40 or greater, each opponent loses half their life, rounded up.",5,7,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/172/betor-kin-to-all?utm_source=api
+173,Bone-Cairn Butcher,{1}{R}{W}{B},4.0,Creature — Demon,uncommon,"B, R, W","B, R, W","Mobilize 2 (Whenever this creature attacks, create two tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)
+Attacking tokens you control have deathtouch.",4,4,,Mobilize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/173/bone-cairn-butcher?utm_source=api
+174,Call the Spirit Dragons,{W}{U}{B}{R}{G},5.0,Enchantment,mythic,"B, G, R, U, W","B, G, R, U, W","Dragons you control have indestructible.
+At the beginning of your upkeep, for each color, put a +1/+1 counter on a Dragon you control of that color. If you put +1/+1 counters on five Dragons this way, you win the game.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/174/call-the-spirit-dragons?utm_source=api
+175,Cori Mountain Stalwart,{1}{R}{W},3.0,Creature — Human Monk,uncommon,"R, W","R, W","Flurry — Whenever you cast your second spell each turn, this creature deals 2 damage to each opponent and you gain 2 life.",3,3,,Flurry,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/175/cori-mountain-stalwart?utm_source=api
+176,Death Begets Life,{5}{B}{G}{U},8.0,Sorcery,mythic,"B, G, U","B, G, U",Destroy all creatures and enchantments. Draw a card for each permanent destroyed this way.,,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/176/death-begets-life?utm_source=api
+177,Defibrillating Current,{2/R}{2/W}{2/B},6.0,Sorcery,uncommon,"B, R, W","B, R, W",Defibrillating Current deals 4 damage to target creature or planeswalker and you gain 2 life.,,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/177/defibrillating-current?utm_source=api
+178,Disruptive Stormbrood // Petty Revenge,{4}{G} // {1}{B},5.0,Creature — Dragon // Sorcery — Omen,uncommon,G,"B, G",,3,3,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/178/disruptive-stormbrood-petty-revenge?utm_source=api
+179,Dragonback Assault,{3}{G}{U}{R},6.0,Enchantment,mythic,"G, R, U","G, R, U","When this enchantment enters, it deals 3 damage to each creature and each planeswalker.
+Landfall — Whenever a land you control enters, create a 4/4 red Dragon creature token with flying.",,,,Landfall,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/179/dragonback-assault?utm_source=api
+180,Dragonclaw Strike,{2/G}{2/U}{2/R},6.0,Sorcery,uncommon,"G, R, U","G, R, U",Double the power and toughness of target creature you control until end of turn. Then it fights up to one target creature an opponent controls. (Each deals damage equal to its power to the other.),,,,Fight,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/180/dragonclaw-strike?utm_source=api
+181,Effortless Master,{2}{U}{R},4.0,Creature — Orc Monk,uncommon,"R, U","R, U","Vigilance
+Menace (This creature can't be blocked except by two or more creatures.)
+This creature enters with two +1/+1 counters on it if you've cast two or more spells this turn.",4,3,,"Vigilance, Menace",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/181/effortless-master?utm_source=api
+182,Eshki Dragonclaw,{1}{G}{U}{R},4.0,Legendary Creature — Human Warrior,rare,"G, R, U","G, R, U","Vigilance, trample, ward {1}
+At the beginning of combat on your turn, if you've cast both a creature spell and a noncreature spell this turn, draw a card and put two +1/+1 counters on Eshki Dragonclaw.",4,4,,"Vigilance, Trample, Ward",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/182/eshki-dragonclaw?utm_source=api
+183,Fangkeeper's Familiar,{1}{B}{G}{U},4.0,Creature — Snake,rare,"B, G, U","B, G, U","Flash
+When this creature enters, choose one —
+• You gain 3 life and surveil 3. (Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+• Destroy target enchantment.
+• Counter target creature spell.",3,3,,"Surveil, Flash",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/183/fangkeepers-familiar?utm_source=api
+184,"Felothar, Dawn of the Abzan",{W}{B}{G},3.0,Legendary Creature — Human Warrior,rare,"B, G, W","B, G, W","Trample
+Whenever Felothar enters or attacks, you may sacrifice a nonland permanent. When you do, put a +1/+1 counter on each creature you control.",3,3,,Trample,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/184/felothar-dawn-of-the-abzan?utm_source=api
+185,Flamehold Grappler,{U}{R}{W},3.0,Creature — Human Monk,rare,"R, U, W","R, U, W","First strike
+When this creature enters, copy the next spell you cast this turn when you cast it. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)",3,3,,First strike,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/185/flamehold-grappler?utm_source=api
+186,Frontline Rush,{R}{W},2.0,Instant,uncommon,"R, W","R, W","Choose one —
+• Create two 1/1 red Goblin creature tokens.
+• Target creature gets +X/+X until end of turn, where X is the number of creatures you control.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/186/frontline-rush?utm_source=api
+187,Frostcliff Siege,{1}{U}{R},3.0,Enchantment,rare,"R, U","R, U","As this enchantment enters, choose Jeskai or Temur.
+• Jeskai — Whenever one or more creatures you control deal combat damage to a player, draw a card.
+• Temur — Creatures you control get +1/+0 and have trample and haste.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/187/frostcliff-siege?utm_source=api
+188,Glacial Dragonhunt,{U}{R},2.0,Sorcery,uncommon,"R, U","R, U","Draw a card, then you may discard a card. When you discard a nonland card this way, Glacial Dragonhunt deals 3 damage to target creature.
+Harmonize {4}{U}{R} (You may cast this card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile this spell.)",,,,Harmonize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/188/glacial-dragonhunt?utm_source=api
+189,Glacierwood Siege,{1}{G}{U},3.0,Enchantment,rare,"G, U","G, U","As this enchantment enters, choose Temur or Sultai.
+• Temur — Whenever you cast an instant or sorcery spell, target player mills four cards.
+• Sultai — You may play lands from your graveyard.",,,,Mill,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/189/glacierwood-siege?utm_source=api
+190,Gurmag Nightwatch,{2/B}{2/G}{2/U},6.0,Creature — Human Ranger,common,"B, G, U","B, G, U","When this creature enters, look at the top three cards of your library. You may put one of those cards back on top of your library. Put the rest into your graveyard.",3,3,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/190/gurmag-nightwatch?utm_source=api
+191,Hardened Tactician,{1}{W}{B},3.0,Creature — Human Warrior,uncommon,"B, W","B, W","{1}, Sacrifice a token: Draw a card.",2,4,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/191/hardened-tactician?utm_source=api
+192,Hollowmurk Siege,{B}{G},2.0,Enchantment,rare,"B, G","B, G","As this enchantment enters, choose Sultai or Abzan.
+• Sultai — Whenever a counter is put on a creature you control, draw a card. This ability triggers only once each turn.
+• Abzan — Whenever you attack, put a +1/+1 counter on target attacking creature. It gains menace until end of turn.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/192/hollowmurk-siege?utm_source=api
+193,Host of the Hereafter,{2}{B}{G},4.0,Creature — Zombie Warlock,uncommon,"B, G","B, G","This creature enters with two +1/+1 counters on it.
+Whenever this creature or another creature you control dies, if it had counters on it, put its counters on up to one target creature you control.",2,2,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/193/host-of-the-hereafter?utm_source=api
+194,Inevitable Defeat,{1}{R}{W}{B},4.0,Instant,rare,"B, R, W","B, R, W","This spell can't be countered.
+Exile target nonland permanent. Its controller loses 3 life and you gain 3 life.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/194/inevitable-defeat?utm_source=api
+195,Jeskai Brushmaster,{1}{U}{R}{W},4.0,Creature — Orc Monk,uncommon,"R, U, W","R, U, W","Double strike
+Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",2,4,,"Prowess, Double strike",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/195/jeskai-brushmaster?utm_source=api
+196,Jeskai Revelation,{4}{U}{R}{W},7.0,Instant,mythic,"R, U, W","R, U, W",Return target spell or permanent to its owner's hand. Jeskai Revelation deals 4 damage to any target. Create two 1/1 white Monk creature tokens with prowess. Draw two cards. You gain 4 life.,,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/196/jeskai-revelation?utm_source=api
+197,Jeskai Shrinekeeper,{2}{U}{R}{W},5.0,Creature — Dragon,uncommon,"R, U, W","R, U, W","Flying, haste
+Whenever this creature deals combat damage to a player, you gain 1 life and draw a card.",3,3,,"Flying, Haste",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/197/jeskai-shrinekeeper?utm_source=api
+198,Karakyk Guardian,{3}{G}{U}{R},6.0,Creature — Dragon,uncommon,"G, R, U","G, R, U","Flying, vigilance, trample
+This creature has hexproof if it hasn't dealt damage yet. (It can't be the target of spells or abilities your opponents control.)",6,5,,"Flying, Vigilance, Trample",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/198/karakyk-guardian?utm_source=api
+199,Kheru Goldkeeper,{1}{B}{G}{U},4.0,Creature — Dragon,uncommon,"B, G, U","B, G, U","Flying
+Whenever one or more cards leave your graveyard during your turn, create a Treasure token. (It's an artifact with ""{T}, Sacrifice this token: Add one mana of any color."")
+Renew — {2}{B}{G}{U}, Exile this card from your graveyard: Put two +1/+1 counters and a flying counter on target creature. Activate only as a sorcery.",3,3,,"Flying, Renew, Treasure",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/199/kheru-goldkeeper?utm_source=api
+200,Kin-Tree Severance,{2/W}{2/B}{2/G},6.0,Instant,uncommon,"B, G, W","B, G, W",Exile target permanent with mana value 3 or greater.,,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/200/kin-tree-severance?utm_source=api
+201,Kishla Skimmer,{G}{U},2.0,Creature — Bird Scout,uncommon,"G, U","G, U","Flying
+Whenever a card leaves your graveyard during your turn, draw a card. This ability triggers only once each turn.",2,2,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/201/kishla-skimmer?utm_source=api
+202,"Kotis, the Fangkeeper",{1}{B}{G}{U},4.0,Legendary Creature — Zombie Warrior,rare,"B, G, U","B, G, U","Indestructible
+Whenever Kotis deals combat damage to a player, exile the top X cards of their library, where X is the amount of damage dealt. You may cast any number of spells with mana value X or less from among them without paying their mana costs.",2,1,,Indestructible,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/202/kotis-the-fangkeeper?utm_source=api
+203,Lie in Wait,{B}{G}{U},3.0,Sorcery,uncommon,"B, G, U","B, G, U",Return target creature card from your graveyard to your hand. Lie in Wait deals damage equal to that card's power to target creature.,,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/203/lie-in-wait?utm_source=api
+204,Lotuslight Dancers,{2}{B}{G}{U},5.0,Creature — Zombie Bard,rare,"B, G, U","B, G, U","Lifelink
+When this creature enters, search your library for a black card, a green card, and a blue card. Put those cards into your graveyard, then shuffle.",3,6,,Lifelink,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/204/lotuslight-dancers?utm_source=api
+205,Mammoth Bellow,{2}{G}{U}{R},5.0,Sorcery,uncommon,"G, R, U","G, R, U","Create a 5/5 green Elephant creature token.
+Harmonize {5}{G}{U}{R} (You may cast this card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile this spell.)",,,,Harmonize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/205/mammoth-bellow?utm_source=api
+206,Mardu Siegebreaker,{1}{R}{W}{B},4.0,Creature — Human Warrior,rare,"B, R, W","B, R, W","Deathtouch, haste
+When this creature enters, exile up to one other target creature you control until this creature leaves the battlefield.
+Whenever this creature attacks, for each opponent, create a tapped token that's a copy of the exiled card attacking that opponent. At the beginning of your next end step, sacrifice those tokens.",4,4,,"Haste, Deathtouch",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/206/mardu-siegebreaker?utm_source=api
+207,Marshal of the Lost,{2}{W}{B},4.0,Creature — Orc Warrior,uncommon,"B, W","B, W","Deathtouch
+Whenever you attack, target creature gets +X/+X until end of turn, where X is the number of attacking creatures.",3,3,,Deathtouch,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/207/marshal-of-the-lost?utm_source=api
+208,Monastery Messenger,{2/U}{2/R}{2/W},6.0,Creature — Bird Scout,common,"R, U, W","R, U, W","Flying, vigilance
+When this creature enters, put up to one target noncreature, nonland card from your graveyard on top of your library.",2,3,,"Flying, Vigilance",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/208/monastery-messenger?utm_source=api
+209,"Narset, Jeskai Waymaster",{U}{R}{W},3.0,Legendary Creature — Human Monk,rare,"R, U, W","R, U, W","At the beginning of your end step, you may discard your hand. If you do, draw cards equal to the number of spells you've cast this turn.",3,4,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/209/narset-jeskai-waymaster?utm_source=api
+210,"Neriv, Heart of the Storm",{1}{R}{W}{B},4.0,Legendary Creature — Spirit Dragon,mythic,"B, R, W","B, R, W","Flying
+If a creature you control that entered this turn would deal damage, it deals twice that much damage instead.",4,5,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/210/neriv-heart-of-the-storm?utm_source=api
+211,New Way Forward,{2}{U}{R}{W},5.0,Instant,rare,"R, U, W","R, U, W","The next time a source of your choice would deal damage to you this turn, prevent that damage. When damage is prevented this way, New Way Forward deals that much damage to that source's controller and you draw that many cards.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/211/new-way-forward?utm_source=api
+212,Perennation,{3}{W}{B}{G},6.0,Sorcery,mythic,"B, G, W","B, G, W",Return target permanent card from your graveyard to the battlefield with a hexproof counter and an indestructible counter on it.,,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/212/perennation?utm_source=api
+213,Purging Stormbrood // Absorb Essence,{4}{B} // {1}{W},5.0,Creature — Dragon // Instant — Omen,uncommon,B,"B, W",,4,4,,"Flying, Ward",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/213/purging-stormbrood-absorb-essence?utm_source=api
+214,Rakshasa's Bargain,{2/B}{2/G}{2/U},6.0,Instant,uncommon,"B, G, U","B, G, U",Look at the top four cards of your library. Put two of them into your hand and the rest into your graveyard.,,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/214/rakshasas-bargain?utm_source=api
+215,Rediscover the Way,{U}{R}{W},3.0,Enchantment — Saga,rare,"R, U, W","R, U, W","(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
+III — Whenever you cast a noncreature spell this turn, target creature you control gains double strike until end of turn.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/215/rediscover-the-way?utm_source=api
+216,Reigning Victor,{2/R}{2/W}{2/B},6.0,Creature — Orc Warrior,common,"B, R, W","B, R, W","Mobilize 1 (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)
+When this creature enters, target creature gets +1/+0 and gains indestructible until end of turn. (Damage and effects that say ""destroy"" don't destroy it.)",3,3,,Mobilize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/216/reigning-victor?utm_source=api
+217,Reputable Merchant,{2/W}{2/B}{2/G},6.0,Creature — Human Citizen,common,"B, G, W","B, G, W","When this creature enters or dies, put a +1/+1 counter on target creature you control.",2,2,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/217/reputable-merchant?utm_source=api
+218,Revival of the Ancestors,{1}{W}{B}{G},4.0,Enchantment — Saga,rare,"B, G, W","B, G, W","(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Create three 1/1 white Spirit creature tokens.
+II — Distribute three +1/+1 counters among one, two, or three target creatures you control.
+III — Creatures you control gain trample and lifelink until end of turn.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/218/revival-of-the-ancestors?utm_source=api
+219,Riverwheel Sweep,{2/U}{2/R}{2/W},6.0,Sorcery,uncommon,"R, U, W","R, U, W","Tap target creature. Put three stun counters on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+Exile the top two cards of your library. Choose one of them. Until the end of your next turn, you may play that card.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/219/riverwheel-sweep?utm_source=api
+220,Roar of Endless Song,{2}{G}{U}{R},5.0,Enchantment — Saga,rare,"G, R, U","G, R, U","(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Create a 5/5 green Elephant creature token.
+III — Double the power and toughness of each creature you control until end of turn.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/220/roar-of-endless-song?utm_source=api
+221,Runescale Stormbrood // Chilling Screech,{3}{R} // {1}{U},4.0,Creature — Dragon // Instant — Omen,uncommon,R,"R, U",,2,4,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/221/runescale-stormbrood-chilling-screech?utm_source=api
+222,Severance Priest,{W}{B}{G},3.0,Creature — Djinn Cleric,rare,"B, G, W","B, G, W","Deathtouch
+When this creature enters, target opponent reveals their hand. You may choose a nonland card from it. If you do, exile that card.
+When this creature leaves the battlefield, the exiled card's owner creates an X/X white Spirit creature token, where X is the mana value of the exiled card.",3,3,,Deathtouch,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/222/severance-priest?utm_source=api
+223,"Shiko, Paragon of the Way",{2}{U}{R}{W},5.0,Legendary Creature — Spirit Dragon,mythic,"R, U, W","R, U, W","Flying, vigilance
+When Shiko enters, exile target nonland card with mana value 3 or less from your graveyard. Copy it, then you may cast the copy without paying its mana cost. (A copy of a permanent spell becomes a token.)",4,5,,"Flying, Vigilance",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/223/shiko-paragon-of-the-way?utm_source=api
+224,Skirmish Rhino,{W}{B}{G},3.0,Creature — Rhino,uncommon,"B, G, W","B, G, W","Trample
+When this creature enters, each opponent loses 2 life and you gain 2 life.",3,4,,Trample,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/224/skirmish-rhino?utm_source=api
+225,Songcrafter Mage,{G}{U}{R},3.0,Creature — Human Bard,rare,"G, R, U","G, R, U","Flash
+When this creature enters, target instant or sorcery card in your graveyard gains harmonize until end of turn. Its harmonize cost is equal to its mana cost. (You may cast that card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile the spell.)",3,2,,Flash,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/225/songcrafter-mage?utm_source=api
+226,Sonic Shrieker,{2}{R}{W}{B},5.0,Creature — Dragon,uncommon,"B, R, W","B, R, W","Flying
+When this creature enters, it deals 2 damage to any target and you gain 2 life. If a player is dealt damage this way, they discard a card.",4,4,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/226/sonic-shrieker?utm_source=api
+227,Stalwart Successor,{1}{B}{G},3.0,Creature — Human Warrior,uncommon,"B, G","B, G","Menace (This creature can't be blocked except by two or more creatures.)
+Whenever one or more counters are put on a creature you control, if it's the first time counters have been put on that creature this turn, put a +1/+1 counter on that creature.",3,2,,Menace,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/227/stalwart-successor?utm_source=api
+228,Temur Battlecrier,{G}{U}{R},3.0,Creature — Orc Ranger,rare,"G, R, U","G, R, U","During your turn, spells you cast cost {1} less to cast for each creature you control with power 4 or greater.",4,3,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/228/temur-battlecrier?utm_source=api
+229,Temur Tawnyback,{2/G}{2/U}{2/R},6.0,Creature — Beast,common,"G, R, U","G, R, U","When this creature enters, draw a card, then discard a card.",4,3,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/229/temur-tawnyback?utm_source=api
+230,"Teval, Arbiter of Virtue",{2}{B}{G}{U},5.0,Legendary Creature — Spirit Dragon,mythic,"B, G, U","B, G, U","Flying, lifelink
+Spells you cast have delve. (Each card you exile from your graveyard while casting those spells pays for {1}.)
+Whenever you cast a spell, you lose life equal to its mana value.",6,6,,"Flying, Lifelink",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/230/teval-arbiter-of-virtue?utm_source=api
+231,Thunder of Unity,{R}{W}{B},3.0,Enchantment — Saga,rare,"B, R, W","B, R, W","(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — You draw two cards and you lose 2 life.
+II, III — Whenever a creature you control enters this turn, each opponent loses 1 life and you gain 1 life.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/231/thunder-of-unity?utm_source=api
+232,Twinmaw Stormbrood // Charring Bite,{5}{W} // {1}{R},6.0,Creature — Dragon // Sorcery — Omen,uncommon,W,"R, W",,5,4,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/232/twinmaw-stormbrood-charring-bite?utm_source=api
+233,"Ureni, the Song Unending",{5}{G}{U}{R},8.0,Legendary Creature — Spirit Dragon,mythic,"G, R, U","G, R, U","Flying, protection from white and from black
+When Ureni enters, it deals X damage divided as you choose among any number of target creatures and/or planeswalkers your opponents control, where X is the number of lands you control.",10,10,,"Flying, Protection",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/233/ureni-the-song-unending?utm_source=api
+234,Whirlwing Stormbrood // Dynamic Soar,{4}{U} // {2}{G},5.0,Creature — Dragon // Sorcery — Omen,uncommon,U,"G, U",,4,3,,"Flying, Flash",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/234/whirlwing-stormbrood-dynamic-soar?utm_source=api
+235,Windcrag Siege,{1}{R}{W},3.0,Enchantment,rare,"R, W","R, W","As this enchantment enters, choose Mardu or Jeskai.
+• Mardu — If a creature attacking causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+• Jeskai — At the beginning of your upkeep, create a 1/1 red Goblin creature token. It gains lifelink and haste until end of turn.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/235/windcrag-siege?utm_source=api
+236,Yathan Roadwatcher,{1}{W}{B}{G},4.0,Creature — Human Scout,rare,"B, G, W","B, G, W","When this creature enters, if you cast it, mill four cards. When you do, return target creature card with mana value 3 or less from your graveyard to the battlefield.",3,3,,Mill,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/236/yathan-roadwatcher?utm_source=api
+237,"Zurgo, Thunder's Decree",{R}{W}{B},3.0,Legendary Creature — Orc Warrior,rare,"B, R, W","B, R, W","Mobilize 2 (Whenever this creature attacks, create two tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)
+During your end step, Warrior tokens you control have ""This token can't be sacrificed.""",2,4,,Mobilize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/237/zurgo-thunders-decree?utm_source=api
+238,Abzan Monument,{2},2.0,Artifact,uncommon,,"B, G, W","When this artifact enters, search your library for a basic Plains, Swamp, or Forest card, reveal it, put it into your hand, then shuffle.
+{1}{W}{B}{G}, {T}, Sacrifice this artifact: Create an X/X white Spirit creature token, where X is the greatest toughness among creatures you control. Activate only as a sorcery.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/238/abzan-monument?utm_source=api
+239,Boulderborn Dragon,{5},5.0,Artifact Creature — Dragon,common,,,"Flying, vigilance
+Whenever this creature attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",3,3,,"Flying, Surveil, Vigilance",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/239/boulderborn-dragon?utm_source=api
+240,Dragonfire Blade,{1},1.0,Artifact — Equipment,rare,,,"Equipped creature gets +2/+2 and has hexproof from monocolored.
+Equip {4}. This ability costs {1} less to activate for each color of the creature it targets.",,,,Equip,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/240/dragonfire-blade?utm_source=api
+241,Dragonstorm Globe,{3},3.0,Artifact,common,,,"Each Dragon you control enters with an additional +1/+1 counter on it.
+{T}: Add one mana of any color.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/241/dragonstorm-globe?utm_source=api
+242,Embermouth Sentinel,{2},2.0,Artifact Creature — Chimera,common,,,"When this creature enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. If you control a Dragon, put that card onto the battlefield tapped instead.",2,1,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/242/embermouth-sentinel?utm_source=api
+243,Jade-Cast Sentinel,{4},4.0,Artifact Creature — Ape Snake,common,,,"Reach
+{2}, {T}: Put target card from a graveyard on the bottom of its owner's library.",1,5,,Reach,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/243/jade-cast-sentinel?utm_source=api
+244,Jeskai Monument,{2},2.0,Artifact,uncommon,,"R, U, W","When this artifact enters, search your library for a basic Island, Mountain, or Plains card, reveal it, put it into your hand, then shuffle.
+{1}{U}{R}{W}, {T}, Sacrifice this artifact: Create two 1/1 white Bird creature tokens with flying. Activate only as a sorcery.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/244/jeskai-monument?utm_source=api
+245,Mardu Monument,{2},2.0,Artifact,uncommon,,"B, R, W","When this artifact enters, search your library for a basic Mountain, Plains, or Swamp card, reveal it, put it into your hand, then shuffle.
+{2}{R}{W}{B}, {T}, Sacrifice this artifact: Create three 1/1 red Warrior creature tokens. They gain menace and haste until end of turn. Activate only as a sorcery. (A creature with menace can't be blocked except by two or more creatures.)",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/245/mardu-monument?utm_source=api
+246,Mox Jasper,{0},0.0,Legendary Artifact,mythic,,,{T}: Add one mana of any color. Activate only if you control a Dragon.,,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/246/mox-jasper?utm_source=api
+247,Sultai Monument,{2},2.0,Artifact,uncommon,,"B, G, U","When this artifact enters, search your library for a basic Swamp, Forest, or Island card, reveal it, put it into your hand, then shuffle.
+{2}{B}{G}{U}, {T}, Sacrifice this artifact: Create two 2/2 black Zombie Druid creature tokens. Activate only as a sorcery.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/247/sultai-monument?utm_source=api
+248,Temur Monument,{2},2.0,Artifact,uncommon,,"G, R, U","When this artifact enters, search your library for a basic Forest, Island, or Mountain card, reveal it, put it into your hand, then shuffle.
+{3}{G}{U}{R}, {T}, Sacrifice this artifact: Create a 5/5 green Elephant creature token. Activate only as a sorcery.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/248/temur-monument?utm_source=api
+249,Watcher of the Wayside,{3},3.0,Artifact Creature — Golem,common,,,"When this creature enters, target player mills two cards. You gain 2 life. (To mill two cards, a player puts the top two cards of their library into their graveyard.)",3,2,,Mill,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/249/watcher-of-the-wayside?utm_source=api
+250,Bloodfell Caves,,0.0,Land,common,,"B, R","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {B} or {R}.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/250/bloodfell-caves?utm_source=api
+251,Blossoming Sands,,0.0,Land,common,,"G, W","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {G} or {W}.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/251/blossoming-sands?utm_source=api
+252,Cori Mountain Monastery,,0.0,Land,rare,,R,"This land enters tapped unless you control a Plains or an Island.
+{T}: Add {R}.
+{3}{R}, {T}: Exile the top card of your library. Until the end of your next turn, you may play that card.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/252/cori-mountain-monastery?utm_source=api
+253,Dalkovan Encampment,,0.0,Land,rare,,W,"This land enters tapped unless you control a Swamp or a Mountain.
+{T}: Add {W}.
+{2}{W}, {T}: Whenever you attack this turn, create two 1/1 red Warrior creature tokens that are tapped and attacking. Sacrifice them at the beginning of the next end step.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/253/dalkovan-encampment?utm_source=api
+254,Dismal Backwater,,0.0,Land,common,,"B, U","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {U} or {B}.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/254/dismal-backwater?utm_source=api
+255,Evolving Wilds,,0.0,Land,common,,,"{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/255/evolving-wilds?utm_source=api
+256,Frontier Bivouac,,0.0,Land,uncommon,,"G, R, U","This land enters tapped.
+{T}: Add {G}, {U}, or {R}.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/256/frontier-bivouac?utm_source=api
+257,Great Arashin City,,0.0,Land,rare,,B,"This land enters tapped unless you control a Forest or a Plains.
+{T}: Add {B}.
+{1}{B}, {T}, Exile a creature card from your graveyard: Create a 1/1 white Spirit creature token.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/257/great-arashin-city?utm_source=api
+258,Jungle Hollow,,0.0,Land,common,,"B, G","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {B} or {G}.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/258/jungle-hollow?utm_source=api
+259,Kishla Village,,0.0,Land,rare,,G,"This land enters tapped unless you control an Island or a Swamp.
+{T}: Add {G}.
+{3}{G}, {T}: Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",,,,Surveil,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/259/kishla-village?utm_source=api
+260,Maelstrom of the Spirit Dragon,,0.0,Land,rare,,,"{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast a Dragon spell or an Omen spell.
+{4}, {T}, Sacrifice this land: Search your library for a Dragon card, reveal it, put it into your hand, then shuffle.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/260/maelstrom-of-the-spirit-dragon?utm_source=api
+261,Mistrise Village,,0.0,Land,rare,,U,"This land enters tapped unless you control a Mountain or a Forest.
+{T}: Add {U}.
+{U}, {T}: The next spell you cast this turn can't be countered.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/261/mistrise-village?utm_source=api
+262,Mystic Monastery,,0.0,Land,uncommon,,"R, U, W","This land enters tapped.
+{T}: Add {U}, {R}, or {W}.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/262/mystic-monastery?utm_source=api
+263,Nomad Outpost,,0.0,Land,uncommon,,"B, R, W","This land enters tapped.
+{T}: Add {R}, {W}, or {B}.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/263/nomad-outpost?utm_source=api
+264,Opulent Palace,,0.0,Land,uncommon,,"B, G, U","This land enters tapped.
+{T}: Add {B}, {G}, or {U}.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/264/opulent-palace?utm_source=api
+265,Rugged Highlands,,0.0,Land,common,,"G, R","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {R} or {G}.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/265/rugged-highlands?utm_source=api
+266,Sandsteppe Citadel,,0.0,Land,uncommon,,"B, G, W","This land enters tapped.
+{T}: Add {W}, {B}, or {G}.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/266/sandsteppe-citadel?utm_source=api
+267,Scoured Barrens,,0.0,Land,common,,"B, W","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {W} or {B}.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/267/scoured-barrens?utm_source=api
+268,Swiftwater Cliffs,,0.0,Land,common,,"R, U","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {U} or {R}.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/268/swiftwater-cliffs?utm_source=api
+269,Thornwood Falls,,0.0,Land,common,,"G, U","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {G} or {U}.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/269/thornwood-falls?utm_source=api
+270,Tranquil Cove,,0.0,Land,common,,"U, W","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {W} or {U}.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/270/tranquil-cove?utm_source=api
+271,Wind-Scarred Crag,,0.0,Land,common,,"R, W","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {R} or {W}.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/271/wind-scarred-crag?utm_source=api
+277,Plains,,0.0,Basic Land — Plains,common,,W,({T}: Add {W}.),,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/277/plains?utm_source=api
+279,Island,,0.0,Basic Land — Island,common,,U,({T}: Add {U}.),,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/279/island?utm_source=api
+281,Swamp,,0.0,Basic Land — Swamp,common,,B,({T}: Add {B}.),,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/281/swamp?utm_source=api
+283,Mountain,,0.0,Basic Land — Mountain,common,,R,({T}: Add {R}.),,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/283/mountain?utm_source=api
+285,Forest,,0.0,Basic Land — Forest,common,,G,({T}: Add {G}.),,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/285/forest?utm_source=api

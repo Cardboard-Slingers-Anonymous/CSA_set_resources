@@ -1,0 +1,597 @@
+collector_number,name,mana_cost,cmc,type_line,rarity,colors,color_identity,oracle_text,power,toughness,loyalty,keywords,set_name,released_at,scryfall_uri
+1,Aang's Journey,{2},2.0,Sorcery — Lesson,common,,,"Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Search your library for a basic land card. If this spell was kicked, instead search your library for a basic land card and a Shrine card. Reveal those cards, put them into your hand, then shuffle.
+You gain 2 life.",,,,Kicker,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/1/aangs-journey?utm_source=api
+2,Energybending,{2},2.0,Instant — Lesson,uncommon,,,"Lands you control gain all basic land types until end of turn.
+Draw a card.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/2/energybending?utm_source=api
+3,Zuko's Exile,{5},5.0,Instant — Lesson,common,,,"Exile target artifact, creature, or enchantment. Its controller creates a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/3/zukos-exile?utm_source=api
+4,"Aang, the Last Airbender",{3}{W},4.0,Legendary Creature — Human Avatar Ally,uncommon,W,W,"Flying
+When Aang enters, airbend up to one other target nonland permanent. (Exile it. While it's exiled, its owner may cast it for {2} rather than its mana cost.)
+Whenever you cast a Lesson spell, Aang gains lifelink until end of turn.",3,2,,"Flying, Airbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/4/aang-the-last-airbender?utm_source=api
+5,Aang's Iceberg,{2}{W},3.0,Enchantment,rare,W,W,"Flash
+When this enchantment enters, exile up to one other target nonland permanent until this enchantment leaves the battlefield.
+Waterbend {3}: Sacrifice this enchantment. If you do, scry 2. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",,,,"Flash, Waterbend, Scry",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/5/aangs-iceberg?utm_source=api
+6,Airbender Ascension,{1}{W},2.0,Enchantment,rare,W,W,"When this enchantment enters, airbend up to one target creature.
+Whenever a creature you control enters, put a quest counter on this enchantment.
+At the beginning of your end step, if this enchantment has four or more quest counters on it, exile up to one target creature you control, then return it to the battlefield under its owner's control.",,,,Airbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/6/airbender-ascension?utm_source=api
+7,Airbender's Reversal,{1}{W},2.0,Instant — Lesson,uncommon,W,W,"Choose one —
+• Destroy target attacking creature.
+• Airbend target creature you control. (Exile it. While it's exiled, its owner may cast it for {2} rather than its mana cost.)",,,,Airbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/7/airbenders-reversal?utm_source=api
+8,Airbending Lesson,{2}{W},3.0,Instant — Lesson,common,W,W,"Airbend target nonland permanent. (Exile it. While it's exiled, its owner may cast it for {2} rather than its mana cost.)
+Draw a card.",,,,Airbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/8/airbending-lesson?utm_source=api
+9,"Appa, Loyal Sky Bison",{4}{W}{W},6.0,Legendary Creature — Bison Ally,uncommon,W,W,"Flying
+Whenever Appa enters or attacks, choose one —
+• Target creature you control gains flying until end of turn.
+• Airbend another target nonland permanent you control. (Exile it. While it's exiled, its owner may cast it for {2} rather than its mana cost.)",4,4,,"Flying, Airbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/9/appa-loyal-sky-bison?utm_source=api
+10,"Appa, Steadfast Guardian",{2}{W}{W},4.0,Legendary Creature — Bison Ally,mythic,W,W,"Flash
+Flying
+When Appa enters, airbend any number of other target nonland permanents you control. (Exile them. While each one is exiled, its owner may cast it for {2} rather than its mana cost.)
+Whenever you cast a spell from exile, create a 1/1 white Ally creature token.",3,4,,"Flying, Airbend, Flash",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/10/appa-steadfast-guardian?utm_source=api
+11,Avatar Enthusiasts,{2}{W},3.0,Creature — Human Peasant Ally,common,W,W,"Whenever another Ally you control enters, put a +1/+1 counter on this creature.",2,2,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/11/avatar-enthusiasts?utm_source=api
+12,Avatar's Wrath,{2}{W}{W},4.0,Sorcery,rare,W,W,"Choose up to one target creature, then airbend all other creatures. (Exile them. While each one is exiled, its owner may cast it for {2} rather than its mana cost.)
+Until your next turn, your opponents can't cast spells from anywhere other than their hands.
+Exile Avatar's Wrath.",,,,Airbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/12/avatars-wrath?utm_source=api
+13,Compassionate Healer,{1}{W},2.0,Creature — Human Cleric Ally,common,W,W,"Whenever this creature becomes tapped, you gain 1 life and scry 1. (Look at the top card of your library. You may put it on the bottom.)",2,2,,Scry,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/13/compassionate-healer?utm_source=api
+14,Curious Farm Animals,{W},1.0,Creature — Boar Elk Bird Ox,common,W,W,"When this creature dies, you gain 3 life.
+{2}, Sacrifice this creature: Destroy up to one target artifact or enchantment.",1,1,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/14/curious-farm-animals?utm_source=api
+15,Destined Confrontation,{2}{W}{W},4.0,Sorcery,uncommon,W,W,"Each player chooses any number of creatures they control with total power 4 or less, then sacrifices all other creatures they control.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/15/destined-confrontation?utm_source=api
+16,Earth Kingdom Jailer,{2}{W},3.0,Creature — Human Soldier Ally,uncommon,W,W,"When this creature enters, exile up to one target artifact, creature, or enchantment an opponent controls with mana value 3 or greater until this creature leaves the battlefield.",3,3,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/16/earth-kingdom-jailer?utm_source=api
+17,Earth Kingdom Protectors,{W},1.0,Creature — Human Soldier Ally,uncommon,W,W,"Vigilance
+Sacrifice this creature: Another target Ally you control gains indestructible until end of turn. (Damage and effects that say ""destroy"" don't destroy it.)",1,1,,Vigilance,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/17/earth-kingdom-protectors?utm_source=api
+18,Enter the Avatar State,{W},1.0,Instant — Lesson,uncommon,W,W,"Until end of turn, target creature you control becomes an Avatar in addition to its other types and gains flying, first strike, lifelink, and hexproof. (A creature with hexproof can't be the target of spells or abilities your opponents control.)",,,,"Lifelink, First strike",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/18/enter-the-avatar-state?utm_source=api
+19,Fancy Footwork,{2}{W},3.0,Instant — Lesson,uncommon,W,W,Untap one or two target creatures. They each get +2/+2 until end of turn.,,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/19/fancy-footwork?utm_source=api
+20,Gather the White Lotus,{4}{W},5.0,Sorcery,uncommon,W,W,"Create a 1/1 white Ally creature token for each Plains you control. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)",,,,Scry,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/20/gather-the-white-lotus?utm_source=api
+21,Glider Kids,{2}{W},3.0,Creature — Human Pilot Ally,common,W,W,"Flying
+When this creature enters, scry 1. (Look at the top card of your library. You may put it on the bottom.)",2,3,,"Scry, Flying",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/21/glider-kids?utm_source=api
+22,Glider Staff,{2}{W},3.0,Artifact — Equipment,uncommon,W,W,"When this Equipment enters, airbend up to one target creature. (Exile it. While it's exiled, its owner may cast it for {2} rather than its mana cost.)
+Equipped creature gets +1/+1 and has flying.
+Equip {2}",,,,"Airbend, Equip",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/22/glider-staff?utm_source=api
+23,"Hakoda, Selfless Commander",{3}{W},4.0,Legendary Creature — Human Warrior Ally,rare,W,W,"Vigilance
+You may look at the top card of your library any time.
+You may cast Ally spells from the top of your library.
+Sacrifice Hakoda: Creatures you control get +0/+5 and gain indestructible until end of turn.",3,5,,Vigilance,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/23/hakoda-selfless-commander?utm_source=api
+24,Invasion Reinforcements,{1}{W},2.0,Creature — Human Warrior Ally,uncommon,W,W,"Flash
+When this creature enters, create a 1/1 white Ally creature token.",1,1,,Flash,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/24/invasion-reinforcements?utm_source=api
+25,Jeong Jeong's Deserters,{1}{W},2.0,Creature — Human Rebel Ally,common,W,W,"When this creature enters, put a +1/+1 counter on target creature.",1,2,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/25/jeong-jeongs-deserters?utm_source=api
+26,Kyoshi Warriors,{3}{W},4.0,Creature — Human Warrior Ally,common,W,W,"When this creature enters, create a 1/1 white Ally creature token.",3,3,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/26/kyoshi-warriors?utm_source=api
+27,The Legend of Yangchen // Avatar Yangchen,,5.0,Enchantment — Saga // Legendary Creature — Avatar,mythic,,W,,,,,"Flying, Airbend, Transform",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/27/the-legend-of-yangchen-avatar-yangchen?utm_source=api
+28,Master Piandao,{4}{W},5.0,Legendary Creature — Human Warrior Ally,uncommon,W,W,"First strike
+Whenever Master Piandao attacks, look at the top four cards of your library. You may reveal an Ally, Equipment, or Lesson card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",4,4,,First strike,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/28/master-piandao?utm_source=api
+29,"Momo, Friendly Flier",{W},1.0,Legendary Creature — Lemur Bat Ally,rare,W,W,"Flying
+The first non-Lemur creature spell with flying you cast during each of your turns costs {1} less to cast.
+Whenever another creature you control with flying enters, Momo gets +1/+1 until end of turn.",1,1,,Flying,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/29/momo-friendly-flier?utm_source=api
+30,"Momo, Playful Pet",{W},1.0,Legendary Creature — Lemur Bat Ally,uncommon,W,W,"Flying, vigilance
+When Momo leaves the battlefield, choose one —
+• Create a Food token. (It's an artifact with ""{2}, {T}, Sacrifice this token: You gain 3 life."")
+• Put a +1/+1 counter on target creature you control.
+• Scry 2.",1,1,,"Scry, Flying, Vigilance, Food",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/30/momo-playful-pet?utm_source=api
+31,Path to Redemption,{1}{W},2.0,Enchantment — Aura,common,W,W,"Enchant creature
+Enchanted creature can't attack or block.
+{5}, Sacrifice this Aura: Exile enchanted creature. Create a 1/1 white Ally creature token. Activate only during your turn.",,,,Enchant,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/31/path-to-redemption?utm_source=api
+32,Rabaroo Troop,{3}{W}{W},5.0,Creature — Rabbit Kangaroo,common,W,W,"Landfall — Whenever a land you control enters, this creature gains flying until end of turn and you gain 1 life.
+Plainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)",3,5,,"Plainscycling, Landcycling, Typecycling, Cycling, Landfall",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/32/rabaroo-troop?utm_source=api
+33,Razor Rings,{1}{W},2.0,Instant,common,W,W,Razor Rings deals 4 damage to target attacking or blocking creature. You gain life equal to the excess damage dealt this way.,,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/33/razor-rings?utm_source=api
+34,Sandbenders' Storm,{3}{W},4.0,Instant,common,W,W,"Choose one —
+• Destroy target creature with power 4 or greater.
+• Earthbend 3. (Target land you control becomes a 0/0 creature with haste that's still a land. Put three +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",,,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/34/sandbenders-storm?utm_source=api
+35,South Pole Voyager,{1}{W},2.0,Creature — Human Scout Ally,rare,W,W,"Whenever this creature or another Ally you control enters, you gain 1 life. If this is the second time this ability has resolved this turn, draw a card.",2,2,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/35/south-pole-voyager?utm_source=api
+36,Southern Air Temple,{3}{W},4.0,Legendary Enchantment — Shrine,uncommon,W,W,"When Southern Air Temple enters, put X +1/+1 counters on each creature you control, where X is the number of Shrines you control.
+Whenever another Shrine you control enters, put a +1/+1 counter on each creature you control.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/36/southern-air-temple?utm_source=api
+37,"Suki, Courageous Rescuer",{1}{W}{W},3.0,Legendary Creature — Human Warrior Ally,rare,W,W,"Other creatures you control get +1/+0.
+Whenever another permanent you control leaves the battlefield during your turn, create a 1/1 white Ally creature token. This ability triggers only once each turn.",2,4,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/37/suki-courageous-rescuer?utm_source=api
+38,Team Avatar,{2}{W},3.0,Enchantment,uncommon,W,W,"Whenever a creature you control attacks alone, it gets +X/+X until end of turn, where X is the number of creatures you control.
+{2}{W}, Discard this card: It deals damage equal to the number of creatures you control to target creature.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/38/team-avatar?utm_source=api
+39,United Front,{X}{W}{W},2.0,Sorcery,mythic,W,W,"Create X 1/1 white Ally creature tokens, then put a +1/+1 counter on each creature you control.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/39/united-front?utm_source=api
+40,Vengeful Villagers,{3}{W},4.0,Creature — Human Citizen,uncommon,W,W,"Whenever this creature attacks, choose target creature an opponent controls. Tap it, then you may sacrifice an artifact or creature. If you do, put a stun counter on the chosen creature. (If a permanent with a stun counter would become untapped, remove one from it instead.)",3,3,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/40/vengeful-villagers?utm_source=api
+41,Water Tribe Captain,{2}{W},3.0,Creature — Human Soldier Ally,common,W,W,{5}: Creatures you control get +1/+1 until end of turn.,3,3,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/41/water-tribe-captain?utm_source=api
+42,Water Tribe Rallier,{1}{W},2.0,Creature — Human Soldier Ally,uncommon,W,W,"Waterbend {5}: Look at the top four cards of your library. You may reveal a creature card with power 3 or less from among them and put it into your hand. Put the rest on the bottom of your library in a random order. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",2,2,,Waterbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/42/water-tribe-rallier?utm_source=api
+43,Yip Yip!,{W},1.0,Instant — Lesson,common,W,W,"Target creature you control gets +2/+2 until end of turn. If that creature is an Ally, it also gains flying until end of turn.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/43/yip-yip!?utm_source=api
+44,Accumulate Wisdom,{1}{U},2.0,Instant — Lesson,uncommon,U,U,Look at the top three cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order. Put each of those cards into your hand instead if there are three or more Lesson cards in your graveyard.,,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/44/accumulate-wisdom?utm_source=api
+45,Benevolent River Spirit,{U}{U},2.0,Creature — Spirit,uncommon,U,U,"As an additional cost to cast this spell, waterbend {5}. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)
+Flying, ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+When this creature enters, scry 2.",4,5,,"Scry, Flying, Ward, Waterbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/45/benevolent-river-spirit?utm_source=api
+46,Boomerang Basics,{U},1.0,Sorcery — Lesson,uncommon,U,U,"Return target nonland permanent to its owner's hand. If you controlled that permanent, draw a card.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/46/boomerang-basics?utm_source=api
+47,Crashing Wave,{U}{U},2.0,Sorcery,uncommon,U,U,"As an additional cost to cast this spell, waterbend {X}. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)
+Tap up to X target creatures, then distribute three stun counters among any number of tapped creatures your opponents control. (If a permanent with a stun counter would become untapped, remove one from it instead.)",,,,Waterbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/47/crashing-wave?utm_source=api
+48,Ember Island Production,{3}{U}{U},5.0,Sorcery,uncommon,U,U,"Choose one—
+• Create a token that's a copy of target creature you control, except it's not legendary and it's a 4/4 Hero in addition to its other types.
+• Create a token that's a copy of target creature an opponent controls, except it's not legendary and it's a 2/2 Coward in addition to its other types.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/48/ember-island-production?utm_source=api
+49,First-Time Flyer,{1}{U},2.0,Creature — Human Pilot Ally,common,U,U,"Flying
+This creature gets +1/+1 as long as there's a Lesson card in your graveyard.",1,2,,Flying,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/49/first-time-flyer?utm_source=api
+50,Flexible Waterbender,{3}{U},4.0,Creature — Human Warrior Ally,common,U,U,"Vigilance
+Waterbend {3}: This creature has base power and toughness 5/2 until end of turn. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",2,5,,"Vigilance, Waterbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/50/flexible-waterbender?utm_source=api
+51,Forecasting Fortune Teller,{1}{U},2.0,Creature — Human Advisor Ally,common,U,U,"When this creature enters, create a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")",1,3,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/51/forecasting-fortune-teller?utm_source=api
+52,Geyser Leaper,{4}{U},5.0,Creature — Human Warrior Ally,common,U,U,"Flying
+Waterbend {4}: Draw a card, then discard a card. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",4,3,,"Flying, Waterbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/52/geyser-leaper?utm_source=api
+53,Giant Koi,{4}{U}{U},6.0,Creature — Fish,common,U,U,"Waterbend {3}: This creature can't be blocked this turn. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)
+Islandcycling {2} ({2}, Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle.)",5,7,,"Islandcycling, Landcycling, Typecycling, Waterbend, Cycling",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/53/giant-koi?utm_source=api
+54,Gran-Gran,{U},1.0,Legendary Creature — Human Peasant Ally,uncommon,U,U,"Whenever Gran-Gran becomes tapped, draw a card, then discard a card.
+Noncreature spells you cast cost {1} less to cast as long as there are three or more Lesson cards in your graveyard.",1,2,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/54/gran-gran?utm_source=api
+55,Honest Work,{U},1.0,Enchantment — Aura,uncommon,U,U,"Enchant creature an opponent controls
+When this Aura enters, tap enchanted creature and remove all counters from it.
+Enchanted creature loses all abilities and is a Citizen with base power and toughness 1/1 and ""{T}: Add {C}"" named Humble Merchant. (It loses all other creature types and names.)",,,,Enchant,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/55/honest-work?utm_source=api
+56,Iguana Parrot,{2}{U},3.0,Creature — Lizard Bird Pirate,common,U,U,"Flying, vigilance
+Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",2,2,,"Flying, Prowess, Vigilance",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/56/iguana-parrot?utm_source=api
+57,Invasion Submersible,{2}{U},3.0,Artifact — Vehicle,uncommon,U,U,"When this Vehicle enters, return up to one other target nonland permanent to its owner's hand.
+Exhaust — Waterbend {3}: This Vehicle becomes an artifact creature. Put three +1/+1 counters on it. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}. Activate each exhaust ability only once.)",0,0,,"Exhaust, Waterbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/57/invasion-submersible?utm_source=api
+58,It'll Quench Ya!,{1}{U},2.0,Instant — Lesson,common,U,U,Counter target spell unless its controller pays {2}.,,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/58/itll-quench-ya!?utm_source=api
+59,"Katara, Bending Prodigy",{2}{U},3.0,Legendary Creature — Human Warrior Ally,uncommon,U,U,"At the beginning of your end step, if Katara is tapped, put a +1/+1 counter on her.
+Waterbend {6}: Draw a card. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",2,3,,Waterbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/59/katara-bending-prodigy?utm_source=api
+60,Knowledge Seeker,{1}{U},2.0,Creature — Fox Spirit,uncommon,U,U,"Vigilance
+Whenever you draw your second card each turn, put a +1/+1 counter on this creature.
+When this creature dies, create a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")",2,1,,Vigilance,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/60/knowledge-seeker?utm_source=api
+61,The Legend of Kuruk // Avatar Kuruk,,4.0,Enchantment — Saga // Legendary Creature — Avatar,mythic,,U,,,,,"Transform, Exhaust, Waterbend, Scry",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/61/the-legend-of-kuruk-avatar-kuruk?utm_source=api
+62,Lost Days,{4}{U},5.0,Instant — Lesson,common,U,U,"The owner of target creature or enchantment puts it into their library second from the top or on the bottom. You create a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/62/lost-days?utm_source=api
+63,Master Pakku,{1}{U},2.0,Legendary Creature — Human Advisor Ally,uncommon,U,U,"Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever Master Pakku becomes tapped, target player mills X cards, where X is the number of Lesson cards in your graveyard. (They put the top X cards of their library into their graveyard.)",1,3,,"Prowess, Mill",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/63/master-pakku?utm_source=api
+64,"The Mechanist, Aerial Artisan",{2}{U},3.0,Legendary Creature — Human Artificer Ally,rare,U,U,"Whenever you cast a noncreature spell, create a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")
+{T}: Until end of turn, target artifact token you control becomes a 3/1 Construct artifact creature with flying.",1,3,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/64/the-mechanist-aerial-artisan?utm_source=api
+65,North Pole Patrol,{2}{U},3.0,Creature — Human Soldier Ally,uncommon,U,U,"{T}: Untap another target permanent you control.
+Waterbend {3}, {T}: Tap target creature an opponent controls. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",2,3,,Waterbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/65/north-pole-patrol?utm_source=api
+66,Octopus Form,{U},1.0,Instant — Lesson,common,U,U,Target creature you control gets +1/+1 and gains hexproof until end of turn. Untap it. (It can't be the target of spells or abilities your opponents control.),,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/66/octopus-form?utm_source=api
+67,Otter-Penguin,{1}{U},2.0,Creature — Otter Bird,common,U,U,"Whenever you draw your second card each turn, this creature gets +1/+2 until end of turn and can't be blocked this turn.",2,1,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/67/otter-penguin?utm_source=api
+68,Rowdy Snowballers,{2}{U},3.0,Creature — Human Peasant Ally,common,U,U,"When this creature enters, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)",2,2,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/68/rowdy-snowballers?utm_source=api
+69,Secret of Bloodbending,{U}{U}{U}{U},4.0,Sorcery — Lesson,mythic,U,U,"As an additional cost to cast this spell, you may waterbend {10}.
+You control target opponent during their next combat phase. If this spell's additional cost was paid, you control that player during their next turn instead. (You see all cards that player could see and make all decisions for them.)
+Exile Secret of Bloodbending.",,,,Waterbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/69/secret-of-bloodbending?utm_source=api
+70,Serpent of the Pass,{5}{U}{U},7.0,Creature — Serpent,uncommon,U,U,"If there are three or more Lesson cards in your graveyard, you may cast this spell as though it had flash.
+This spell costs {1} less to cast for each noncreature, nonland card in your graveyard.",6,5,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/70/serpent-of-the-pass?utm_source=api
+71,Sokka's Haiku,{3}{U}{U},5.0,Instant — Lesson,uncommon,U,U,"Counter target spell.
+Draw a card, then mill three cards.
+Untap target land.",,,,Mill,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/71/sokkas-haiku?utm_source=api
+72,The Spirit Oasis,{2}{U},3.0,Legendary Enchantment — Shrine,uncommon,U,U,"When The Spirit Oasis enters, draw a card for each Shrine you control.
+Whenever another Shrine you control enters, draw a card.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/72/the-spirit-oasis?utm_source=api
+73,Spirit Water Revival,{1}{U}{U},3.0,Sorcery,rare,U,U,"As an additional cost to cast this spell, you may waterbend {6}. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)
+Draw two cards. If this spell's additional cost was paid, instead shuffle your graveyard into your library, draw seven cards, and you have no maximum hand size for the rest of the game.
+Exile Spirit Water Revival.",,,,Waterbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/73/spirit-water-revival?utm_source=api
+74,"Teo, Spirited Glider",{3}{U},4.0,Legendary Creature — Human Pilot Ally,uncommon,U,U,"Flying
+Whenever one or more creatures you control with flying attack, draw a card, then discard a card. When you discard a nonland card this way, put a +1/+1 counter on target creature you control.",1,4,,Flying,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/74/teo-spirited-glider?utm_source=api
+75,Tiger-Seal,{U},1.0,Creature — Cat Seal,rare,U,U,"Vigilance
+At the beginning of your upkeep, tap this creature.
+Whenever you draw your second card each turn, untap this creature.",3,3,,Vigilance,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/75/tiger-seal?utm_source=api
+76,"Ty Lee, Chi Blocker",{2}{U},3.0,Legendary Creature — Human Performer Ally,rare,U,U,"Flash
+Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+When Ty Lee enters, tap up to one target creature. It doesn't untap during its controller's untap step for as long as you control Ty Lee.",2,1,,"Prowess, Flash",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/76/ty-lee-chi-blocker?utm_source=api
+77,The Unagi of Kyoshi Island,{3}{U}{U},5.0,Legendary Creature — Serpent,rare,U,U,"Flash
+Ward—Waterbend {4}. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {4}. They can tap their artifacts and creatures to help. Each one pays for {1}.)
+Whenever an opponent draws their second card each turn, you draw two cards.",5,5,,"Ward, Flash, Waterbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/77/the-unagi-of-kyoshi-island?utm_source=api
+78,"Wan Shi Tong, Librarian",{X}{U}{U},2.0,Legendary Creature — Bird Spirit,mythic,U,U,"Flash
+Flying, vigilance
+When Wan Shi Tong enters, put X +1/+1 counters on him. Then draw half X cards, rounded down.
+Whenever an opponent searches their library, put a +1/+1 counter on Wan Shi Tong and draw a card.",1,1,,"Flying, Vigilance, Flash",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/78/wan-shi-tong-librarian?utm_source=api
+79,Waterbender Ascension,{1}{U},2.0,Enchantment,rare,U,U,"Whenever a creature you control deals combat damage to a player, put a quest counter on this enchantment. Then if it has four or more quest counters on it, draw a card.
+Waterbend {4}: Target creature can't be blocked this turn. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",,,,Waterbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/79/waterbender-ascension?utm_source=api
+80,Waterbending Lesson,{3}{U},4.0,Sorcery — Lesson,common,U,U,"Draw three cards. Then discard a card unless you waterbend {2}. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",,,,Waterbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/80/waterbending-lesson?utm_source=api
+81,Waterbending Scroll,{1}{U},2.0,Artifact,uncommon,U,U,"{6}, {T}: Draw a card. This ability costs {1} less to activate for each Island you control.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/81/waterbending-scroll?utm_source=api
+82,Watery Grasp,{U},1.0,Enchantment — Aura,common,U,U,"Enchant creature
+Enchanted creature doesn't untap during its controller's untap step.
+Waterbend {5}: Enchanted creature's owner shuffles it into their library. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",,,,"Enchant, Waterbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/82/watery-grasp?utm_source=api
+83,"Yue, the Moon Spirit",{3}{U},4.0,Legendary Creature — Spirit Ally,rare,U,U,"Flying, vigilance
+Waterbend {5}, {T}: You may cast a noncreature spell from your hand without paying its mana cost. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",3,3,,"Flying, Vigilance, Waterbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/83/yue-the-moon-spirit?utm_source=api
+84,Azula Always Lies,{1}{B},2.0,Instant — Lesson,common,B,B,"Choose one or both —
+• Target creature gets -1/-1 until end of turn.
+• Put a +1/+1 counter on target creature.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/84/azula-always-lies?utm_source=api
+85,"Azula, On the Hunt",{3}{B},4.0,Legendary Creature — Human Noble,uncommon,B,B,"Firebending 2 (Whenever this creature attacks, add {R}{R}. This mana lasts until end of combat.)
+Whenever Azula attacks, you lose 1 life and create a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")",4,3,,Firebending,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/85/azula-on-the-hunt?utm_source=api
+86,Beetle-Headed Merchants,{4}{B},5.0,Creature — Human Citizen,common,B,B,"Whenever this creature attacks, you may sacrifice another creature or artifact. If you do, draw a card and put a +1/+1 counter on this creature.",5,4,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/86/beetle-headed-merchants?utm_source=api
+87,Boiling Rock Rioter,{2}{B},3.0,Creature — Human Rogue Ally,rare,B,B,"Firebending 1 (Whenever this creature attacks, add {R}. This mana lasts until end of combat.)
+Tap an untapped Ally you control: Exile target card from a graveyard.
+Whenever this creature attacks, you may cast an Ally spell from among cards you own exiled with this creature.",3,3,,Firebending,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/87/boiling-rock-rioter?utm_source=api
+88,Buzzard-Wasp Colony,{3}{B},4.0,Creature — Bird Insect,uncommon,B,B,"Flying
+When this creature enters, you may sacrifice an artifact or creature. If you do, draw a card.
+Whenever another creature you control dies, if it had counters on it, put its counters on this creature.",2,2,,Flying,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/88/buzzard-wasp-colony?utm_source=api
+89,Callous Inspector,{B},1.0,Creature — Human Soldier,common,B,B,"Menace (This creature can't be blocked except by two or more creatures.)
+When this creature dies, it deals 1 damage to you. Create a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")",1,1,,Menace,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/89/callous-inspector?utm_source=api
+90,Canyon Crawler,{4}{B}{B},6.0,Creature — Spider Beast,common,B,B,"Deathtouch
+When this creature enters, create a Food token. (It's an artifact with ""{2}, {T}, Sacrifice this token: You gain 3 life."")
+Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)",6,6,,"Landcycling, Food, Typecycling, Cycling, Swampcycling, Deathtouch",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/90/canyon-crawler?utm_source=api
+91,Cat-Gator,{6}{B},7.0,Creature — Fish Crocodile,uncommon,B,B,"Lifelink
+When this creature enters, it deals damage equal to the number of Swamps you control to any target.",3,2,,Lifelink,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/91/cat-gator?utm_source=api
+92,Corrupt Court Official,{1}{B},2.0,Creature — Human Advisor,common,B,B,"When this creature enters, target opponent discards a card.",1,1,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/92/corrupt-court-official?utm_source=api
+93,Dai Li Indoctrination,{1}{B},2.0,Sorcery — Lesson,common,B,B,"Choose one —
+• Target opponent reveals their hand. You choose a nonland permanent card from it. That player discards that card.
+• Earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",,,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/93/dai-li-indoctrination?utm_source=api
+94,Day of Black Sun,{X}{B}{B},2.0,Sorcery,rare,B,B,Each creature with mana value X or less loses all abilities until end of turn. Destroy those creatures.,,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/94/day-of-black-sun?utm_source=api
+95,Deadly Precision,{B},1.0,Sorcery,common,B,B,"As an additional cost to cast this spell, pay {4} or sacrifice an artifact or creature.
+Destroy target creature.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/95/deadly-precision?utm_source=api
+96,Epic Downfall,{1}{B},2.0,Sorcery,uncommon,B,B,Exile target creature with mana value 3 or greater.,,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/96/epic-downfall?utm_source=api
+97,Fatal Fissure,{1}{B},2.0,Instant,uncommon,B,B,"Choose target creature. When that creature dies this turn, you earthbend 4. (Target land you control becomes a 0/0 creature with haste that's still a land. Put four +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",,,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/97/fatal-fissure?utm_source=api
+98,The Fire Nation Drill,{2}{B}{B},4.0,Legendary Artifact — Vehicle,rare,B,B,"Trample
+When The Fire Nation Drill enters, you may tap it. When you do, destroy target creature with power 4 or less.
+{1}: Permanents your opponents control lose hexproof and indestructible until end of turn.
+Crew 2",6,3,,"Crew, Trample",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/98/the-fire-nation-drill?utm_source=api
+99,Fire Nation Engineer,{2}{B},3.0,Creature — Human Artificer,uncommon,B,B,"Raid — At the beginning of your end step, if you attacked this turn, put a +1/+1 counter on another target creature or Vehicle you control.",2,3,,Raid,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/99/fire-nation-engineer?utm_source=api
+100,Fire Navy Trebuchet,{2}{B},3.0,Artifact Creature — Wall,uncommon,B,B,"Defender, reach
+Whenever you attack, create a 2/1 colorless Construct artifact creature token with flying named Ballistic Boulder that's tapped and attacking. Sacrifice that token at the beginning of the next end step.",0,4,,"Reach, Defender",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/100/fire-navy-trebuchet?utm_source=api
+101,Foggy Swamp Hunters,{3}{B},4.0,Creature — Human Ranger Ally,common,B,B,"As long as you've drawn two or more cards this turn, this creature has lifelink and menace. (It can't be blocked except by two or more creatures.)",3,4,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/101/foggy-swamp-hunters?utm_source=api
+102,Foggy Swamp Visions,{1}{B}{B},3.0,Sorcery,rare,B,B,"As an additional cost to cast this spell, waterbend {X}. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)
+Exile X target creature cards from graveyards. For each creature card exiled this way, create a token that's a copy of it. At the beginning of your next end step, sacrifice those tokens.",,,,Waterbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/102/foggy-swamp-visions?utm_source=api
+103,Heartless Act,{1}{B},2.0,Instant,uncommon,B,B,"Choose one —
+• Destroy target creature with no counters on it.
+• Remove up to three counters from target creature.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/103/heartless-act?utm_source=api
+104,Hog-Monkey,{2}{B},3.0,Creature — Boar Monkey,common,B,B,"At the beginning of combat on your turn, target creature you control with a +1/+1 counter on it gains menace until end of turn. (It can't be blocked except by two or more creatures.)
+Exhaust — {5}: Put two +1/+1 counters on this creature. (Activate each exhaust ability only once.)",3,2,,Exhaust,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/104/hog-monkey?utm_source=api
+105,"Joo Dee, One of Many",{1}{B},2.0,Creature — Human Advisor,uncommon,B,B,"{B}, {T}: Surveil 1. Create a token that's a copy of this creature, then sacrifice an artifact or creature. Activate only as a sorcery. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)",2,2,,Surveil,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/105/joo-dee-one-of-many?utm_source=api
+106,"June, Bounty Hunter",{1}{B},2.0,Legendary Creature — Human Mercenary,uncommon,B,B,"June can't be blocked as long as you've drawn two or more cards this turn.
+{1}, Sacrifice another creature: Create a Clue token. Activate only during your turn. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")",2,2,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/106/june-bounty-hunter?utm_source=api
+107,"Koh, the Face Stealer",{4}{B}{B},6.0,Legendary Creature — Shapeshifter Spirit,mythic,B,B,"When Koh enters, exile up to one other target creature.
+Whenever another nontoken creature dies, you may exile it.
+Pay 1 life: Choose a creature card exiled with Koh.
+Koh has all activated and triggered abilities of the last chosen card.",6,6,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/107/koh-the-face-stealer?utm_source=api
+108,"Lo and Li, Twin Tutors",{4}{B},5.0,Legendary Creature — Human Advisor,uncommon,B,B,"When Lo and Li enter, search your library for a Lesson or Noble card, reveal it, put it into your hand, then shuffle.
+Noble creatures you control and Lesson spells you control have lifelink.",2,2,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/108/lo-and-li-twin-tutors?utm_source=api
+109,"Mai, Scornful Striker",{1}{B},2.0,Legendary Creature — Human Noble Ally,rare,B,B,"First strike
+Whenever a player casts a noncreature spell, they lose 2 life.",2,2,,First strike,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/109/mai-scornful-striker?utm_source=api
+110,Merchant of Many Hats,{1}{B},2.0,Creature — Human Peasant Ally,common,B,B,{2}{B}: Return this card from your graveyard to your hand.,2,2,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/110/merchant-of-many-hats?utm_source=api
+111,Northern Air Temple,{B},1.0,Legendary Enchantment — Shrine,uncommon,B,B,"When Northern Air Temple enters, each opponent loses X life and you gain X life, where X is the number of Shrines you control.
+Whenever another Shrine you control enters, each opponent loses 1 life and you gain 1 life.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/111/northern-air-temple?utm_source=api
+112,Obsessive Pursuit,{1}{B},2.0,Enchantment,rare,B,B,"When this enchantment enters and at the beginning of your upkeep, you lose 1 life and create a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")
+Whenever you attack, put X +1/+1 counters on target attacking creature, where X is the number of permanents you've sacrificed this turn. If X is three or greater, that creature gains lifelink until end of turn.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/112/obsessive-pursuit?utm_source=api
+113,Ozai's Cruelty,{2}{B},3.0,Sorcery — Lesson,uncommon,B,B,Ozai's Cruelty deals 2 damage to target player. That player discards two cards.,,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/113/ozais-cruelty?utm_source=api
+114,Phoenix Fleet Airship,{2}{B}{B},4.0,Artifact — Vehicle,mythic,B,B,"Flying
+At the beginning of your end step, if you sacrificed a permanent this turn, create a token that's a copy of this Vehicle.
+As long as you control eight or more permanents named Phoenix Fleet Airship, this Vehicle is an artifact creature.
+Crew 1",4,4,,"Flying, Crew",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/114/phoenix-fleet-airship?utm_source=api
+115,Pirate Peddlers,{2}{B},3.0,Creature — Human Pirate,common,B,B,"Deathtouch
+Whenever you sacrifice another permanent, put a +1/+1 counter on this creature.",2,2,,Deathtouch,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/115/pirate-peddlers?utm_source=api
+116,Raven Eagle,{2}{B},3.0,Creature — Bird Assassin,rare,B,B,"Flying
+Whenever this creature enters or attacks, exile up to one target card from a graveyard. If a creature card is exiled this way, create a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")
+Whenever you draw your second card each turn, each opponent loses 1 life and you gain 1 life.",2,3,,Flying,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/116/raven-eagle?utm_source=api
+117,The Rise of Sozin // Fire Lord Sozin,,6.0,Enchantment — Saga // Legendary Creature — Human Noble,mythic,,B,,,,,"Transform, Firebending, Menace",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/117/the-rise-of-sozin-fire-lord-sozin?utm_source=api
+118,Ruinous Waterbending,{1}{B}{B},3.0,Sorcery — Lesson,uncommon,B,B,"As an additional cost to cast this spell, you may waterbend {4}. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)
+All creatures get -2/-2 until end of turn. If this spell's additional cost was paid, whenever a creature dies this turn, you gain 1 life.",,,,Waterbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/118/ruinous-waterbending?utm_source=api
+119,Sold Out,{3}{B},4.0,Instant,common,B,B,"Exile target creature. If it was dealt damage this turn, create a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/119/sold-out?utm_source=api
+120,Swampsnare Trap,{2}{B},3.0,Enchantment — Aura,common,B,B,"This spell costs {1} less to cast if it targets a creature with flying.
+Enchant creature
+Enchanted creature gets -5/-3.",,,,Enchant,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/120/swampsnare-trap?utm_source=api
+121,Tundra Tank,{2}{B},3.0,Artifact — Vehicle,uncommon,B,B,"Firebending 1 (Whenever this creature attacks, add {R}. This mana lasts until end of combat.)
+When this Vehicle enters, target creature you control gains indestructible until end of turn.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",4,4,,"Crew, Firebending",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/121/tundra-tank?utm_source=api
+122,Wolfbat,{2}{B},3.0,Creature — Wolf Bat,uncommon,B,B,"Flying
+Whenever you draw your second card each turn, you may pay {B}. If you do, return this card from your graveyard to the battlefield with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead.)",2,2,,Flying,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/122/wolfbat?utm_source=api
+123,Zuko's Conviction,{B},1.0,Instant,uncommon,B,B,"Kicker {4} (You may pay an additional {4} as you cast this spell.)
+Return target creature card from your graveyard to your hand. If this spell was kicked, instead put that card onto the battlefield tapped.",,,,Kicker,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/123/zukos-conviction?utm_source=api
+124,Boar-q-pine,{2}{R},3.0,Creature — Boar Porcupine,common,R,R,"Whenever you cast a noncreature spell, put a +1/+1 counter on this creature.",2,2,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/124/boar-q-pine?utm_source=api
+125,Bumi Bash,{3}{R},4.0,Sorcery,common,R,R,"Choose one —
+• Bumi Bash deals damage equal to the number of lands you control to target creature.
+• Destroy target land creature or nonbasic land.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/125/bumi-bash?utm_source=api
+126,The Cave of Two Lovers,{3}{R},4.0,Enchantment — Saga,uncommon,R,R,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Create two 1/1 white Ally creature tokens.
+II — Search your library for a Mountain or Cave card, reveal it, put it into your hand, then shuffle.
+III — Earthbend 3. (Target land you control becomes a 0/0 creature with haste that's still a land. Put three +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",,,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/126/the-cave-of-two-lovers?utm_source=api
+127,Combustion Man,{3}{R}{R},5.0,Legendary Creature — Human Assassin,uncommon,R,R,"Whenever Combustion Man attacks, destroy target permanent unless its controller has Combustion Man deal damage to them equal to his power.",4,6,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/127/combustion-man?utm_source=api
+128,Combustion Technique,{1}{R},2.0,Instant — Lesson,uncommon,R,R,"Combustion Technique deals damage equal to 2 plus the number of Lesson cards in your graveyard to target creature. If that creature would die this turn, exile it instead.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/128/combustion-technique?utm_source=api
+129,Crescent Island Temple,{3}{R},4.0,Legendary Enchantment — Shrine,uncommon,R,R,"When Crescent Island Temple enters, for each Shrine you control, create a 1/1 red Monk creature token with prowess. (Whenever you cast a noncreature spell, it gets +1/+1 until end of turn.)
+Whenever another Shrine you control enters, create a 1/1 red Monk creature token with prowess.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/129/crescent-island-temple?utm_source=api
+130,Cunning Maneuver,{1}{R},2.0,Instant,common,R,R,"Target creature gets +3/+1 until end of turn.
+Create a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/130/cunning-maneuver?utm_source=api
+131,Deserter's Disciple,{1}{R},2.0,Creature — Human Rebel Ally,common,R,R,{T}: Another target creature you control with power 2 or less can't be blocked this turn.,2,2,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/131/deserters-disciple?utm_source=api
+132,Fated Firepower,{X}{R}{R}{R},3.0,Enchantment,mythic,R,R,"Flash
+This enchantment enters with X fire counters on it.
+If a source you control would deal damage to an opponent or a permanent an opponent controls, it deals that much damage plus an amount of damage equal to the number of fire counters on this enchantment instead.",,,,Flash,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/132/fated-firepower?utm_source=api
+133,Fire Nation Attacks,{4}{R},5.0,Instant,uncommon,R,R,"Create two 2/2 red Soldier creature tokens with firebending 1. (Whenever a creature with firebending 1 attacks, add {R}. This mana lasts until end of combat.)
+Flashback {8}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/133/fire-nation-attacks?utm_source=api
+134,Fire Nation Cadets,{R},1.0,Creature — Human Soldier,common,R,R,"This creature has firebending 2 as long as there's a Lesson card in your graveyard. (Whenever this creature attacks, add {R}{R}. This mana lasts until end of combat.)
+{2}: This creature gets +1/+0 until end of turn.",1,2,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/134/fire-nation-cadets?utm_source=api
+135,Fire Nation Raider,{3}{R},4.0,Creature — Human Soldier,common,R,R,"Raid — When this creature enters, if you attacked this turn, create a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")",4,2,,Raid,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/135/fire-nation-raider?utm_source=api
+136,Fire Sages,{1}{R},2.0,Creature — Human Cleric,uncommon,R,R,"Firebending 1 (Whenever this creature attacks, add {R}. This mana lasts until end of combat.)
+{1}{R}{R}: Put a +1/+1 counter on this creature.",2,2,,Firebending,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/136/fire-sages?utm_source=api
+137,Firebender Ascension,{1}{R},2.0,Enchantment,rare,R,R,"When this enchantment enters, create a 2/2 red Soldier creature token with firebending 1.
+Whenever a creature you control attacking causes a triggered ability of that creature to trigger, put a quest counter on this enchantment. Then if it has four or more quest counters on it, you may copy that ability. You may choose new targets for the copy.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/137/firebender-ascension?utm_source=api
+138,Firebending Lesson,{R},1.0,Instant — Lesson,common,R,R,"Kicker {4} (You may pay an additional {4} as you cast this spell.)
+Firebending Lesson deals 2 damage to target creature. If this spell was kicked, it deals 5 damage to that creature instead.",,,,Kicker,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/138/firebending-lesson?utm_source=api
+139,Firebending Student,{1}{R},2.0,Creature — Human Monk,rare,R,R,"Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Firebending X, where X is this creature's power. (Whenever this creature attacks, add X {R}. This mana lasts until end of combat.)",1,2,,"Prowess, Firebending",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/139/firebending-student?utm_source=api
+140,How to Start a Riot,{2}{R},3.0,Instant — Lesson,common,R,R,"Target creature gains menace until end of turn. (It can't be blocked except by two or more creatures.)
+Creatures target player controls get +2/+0 until end of turn.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/140/how-to-start-a-riot?utm_source=api
+141,Iroh's Demonstration,{1}{R},2.0,Sorcery — Lesson,uncommon,R,R,"Choose one —
+• Iroh's Demonstration deals 1 damage to each creature your opponents control.
+• Iroh's Demonstration deals 4 damage to target creature.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/141/irohs-demonstration?utm_source=api
+142,"Jeong Jeong, the Deserter",{2}{R},3.0,Legendary Creature — Human Rebel Ally,uncommon,R,R,"Firebending 1 (Whenever this creature attacks, add {R}. This mana lasts until end of combat.)
+Exhaust — {3}: Put a +1/+1 counter on Jeong Jeong. When you next cast a Lesson spell this turn, copy it and you may choose new targets for the copy. (Activate each exhaust ability only once.)",2,3,,"Exhaust, Firebending",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/142/jeong-jeong-the-deserter?utm_source=api
+143,Jet's Brainwashing,{R},1.0,Sorcery,uncommon,R,R,"Kicker {3} (You may pay an additional {3} as you cast this spell.)
+Target creature can't block this turn. If this spell was kicked, gain control of that creature until end of turn, untap it, and it gains haste until end of turn.
+Create a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")",,,,Kicker,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/143/jets-brainwashing?utm_source=api
+144,The Last Agni Kai,{1}{R},2.0,Instant,rare,R,R,"Target creature you control fights target creature an opponent controls. If the creature the opponent controls is dealt excess damage this way, add that much {R}.
+Until end of turn, you don't lose unspent red mana as steps and phases end.",,,,Fight,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/144/the-last-agni-kai?utm_source=api
+145,The Legend of Roku // Avatar Roku,,4.0,Enchantment — Saga // Legendary Creature — Avatar,mythic,,R,,,,,"Transform, Firebending",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/145/the-legend-of-roku-avatar-roku?utm_source=api
+146,Lightning Strike,{1}{R},2.0,Instant,common,R,R,Lightning Strike deals 3 damage to any target.,,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/146/lightning-strike?utm_source=api
+147,"Mai, Jaded Edge",{1}{R},2.0,Legendary Creature — Human Noble,uncommon,R,R,"Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Exhaust — {3}: Put a double strike counter on Mai. (Activate each exhaust ability only once.)",1,3,,"Prowess, Exhaust",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/147/mai-jaded-edge?utm_source=api
+148,Mongoose Lizard,{4}{R}{R},6.0,Creature — Mongoose Lizard,common,R,R,"Menace (This creature can't be blocked except by two or more creatures.)
+When this creature enters, it deals 1 damage to any target.
+Mountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)",5,6,,"Mountaincycling, Landcycling, Menace, Typecycling, Cycling",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/148/mongoose-lizard?utm_source=api
+149,Price of Freedom,{1}{R},2.0,Sorcery — Lesson,uncommon,R,R,"Destroy target artifact or land an opponent controls. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Draw a card.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/149/price-of-freedom?utm_source=api
+150,Ran and Shaw,{3}{R}{R},5.0,Legendary Creature — Dragon,rare,R,R,"Flying, firebending 2
+When Ran and Shaw enter, if you cast them and there are three or more Dragon and/or Lesson cards in your graveyard, create a token that's a copy of Ran and Shaw, except it's not legendary.
+{3}{R}: Dragons you control get +2/+0 until end of turn.",4,4,,"Flying, Firebending",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/150/ran-and-shaw?utm_source=api
+151,Redirect Lightning,{R},1.0,Instant — Lesson,rare,R,R,"As an additional cost to cast this spell, pay 5 life or pay {2}.
+Change the target of target spell or ability with a single target.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/151/redirect-lightning?utm_source=api
+152,Rough Rhino Cavalry,{4}{R},5.0,Creature — Human Mercenary,common,R,R,"Firebending 2 (Whenever this creature attacks, add {R}{R}. This mana lasts until end of combat.)
+Exhaust — {8}: Put two +1/+1 counters on this creature. It gains trample until end of turn. (Activate each exhaust ability only once.)",5,5,,"Exhaust, Firebending",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/152/rough-rhino-cavalry?utm_source=api
+153,Solstice Revelations,{2}{R},3.0,Instant — Lesson,uncommon,R,R,"Exile cards from the top of your library until you exile a nonland card. You may cast that card without paying its mana cost if the spell's mana value is less than the number of Mountains you control. If you don't cast that card this way, put it into your hand.
+Flashback {6}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/153/solstice-revelations?utm_source=api
+154,Sozin's Comet,{3}{R}{R},5.0,Sorcery,mythic,R,R,"Each creature you control gains firebending 5 until end of turn. (Whenever it attacks, add {R}{R}{R}{R}{R}. This mana lasts until end of combat.)
+Foretell {2}{R} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",,,,Foretell,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/154/sozins-comet?utm_source=api
+155,Tiger-Dillo,{1}{R},2.0,Creature — Cat Armadillo,uncommon,R,R,This creature can't attack or block unless you control another creature with power 4 or greater.,4,3,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/155/tiger-dillo?utm_source=api
+156,Treetop Freedom Fighters,{2}{R},3.0,Creature — Human Rebel Ally,common,R,R,"Haste
+When this creature enters, create a 1/1 white Ally creature token.",2,1,,Haste,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/156/treetop-freedom-fighters?utm_source=api
+157,Twin Blades,{2}{R},3.0,Artifact — Equipment,uncommon,R,R,"Flash
+When this Equipment enters, attach it to target creature you control. That creature gains double strike until end of turn.
+Equipped creature gets +1/+1.
+Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",,,,"Equip, Flash",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/157/twin-blades?utm_source=api
+158,"Ty Lee, Artful Acrobat",{2}{R},3.0,Legendary Creature — Human Performer,uncommon,R,R,"Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever Ty Lee attacks, you may pay {1}. When you do, target creature can't block this turn.",3,2,,Prowess,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/158/ty-lee-artful-acrobat?utm_source=api
+159,War Balloon,{2}{R},3.0,Artifact — Vehicle,uncommon,R,R,"Flying
+{1}: Put a fire counter on this Vehicle.
+As long as this Vehicle has three or more fire counters on it, it's an artifact creature.
+Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",4,3,,"Flying, Crew",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/159/war-balloon?utm_source=api
+160,Wartime Protestors,{3}{R},4.0,Creature — Human Rebel Ally,rare,R,R,"Haste
+Whenever another Ally you control enters, put a +1/+1 counter on that creature and it gains haste until end of turn.",4,4,,Haste,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/160/wartime-protestors?utm_source=api
+161,Yuyan Archers,{1}{R},2.0,Creature — Human Archer,common,R,R,"Reach
+When this creature enters, you may discard a card. If you do, draw a card.",3,1,,Reach,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/161/yuyan-archers?utm_source=api
+162,"Zhao, the Moon Slayer",{1}{R},2.0,Legendary Creature — Human Soldier,rare,R,R,"Menace
+Nonbasic lands enter tapped.
+{7}: Put a conqueror counter on Zhao.
+As long as Zhao has a conqueror counter on him, nonbasic lands are Mountains. (They lose all other land types and abilities and have ""{T}: Add {R}."")",2,2,,Menace,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/162/zhao-the-moon-slayer?utm_source=api
+163,"Zuko, Exiled Prince",{3}{R},4.0,Legendary Creature — Human Noble,uncommon,R,R,"Firebending 3 (Whenever this creature attacks, add {R}{R}{R}. This mana lasts until end of combat.)
+{3}: Exile the top card of your library. You may play that card this turn.",4,3,,Firebending,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/163/zuko-exiled-prince?utm_source=api
+164,Allies at Last,{2}{G},3.0,Instant,uncommon,G,G,"Affinity for Allies (This spell costs {1} less to cast for each Ally you control.)
+Up to two target creatures you control each deal damage equal to their power to target creature an opponent controls.",,,,Affinity,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/164/allies-at-last?utm_source=api
+165,Avatar Destiny,{2}{G}{G},4.0,Enchantment — Aura,rare,G,G,"Enchant creature you control
+Enchanted creature gets +1/+1 for each creature card in your graveyard and is an Avatar in addition to its other types.
+When enchanted creature dies, mill cards equal to its power. Return this card to its owner's hand and up to one creature card milled this way to the battlefield under your control.",,,,"Enchant, Mill",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/165/avatar-destiny?utm_source=api
+166,Badgermole,{4}{G},5.0,Creature — Badger Mole,common,G,G,"When this creature enters, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)
+Creatures you control with +1/+1 counters on them have trample.",4,4,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/166/badgermole?utm_source=api
+167,Badgermole Cub,{1}{G},2.0,Creature — Badger Mole,mythic,G,G,"When this creature enters, earthbend 1. (Target land you control becomes a 0/0 creature with haste that's still a land. Put a +1/+1 counter on it. When it dies or is exiled, return it to the battlefield tapped.)
+Whenever you tap a creature for mana, add an additional {G}.",2,2,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/167/badgermole-cub?utm_source=api
+168,"The Boulder, Ready to Rumble",{3}{G},4.0,Legendary Creature — Human Warrior Performer,uncommon,G,G,"Whenever The Boulder attacks, earthbend X, where X is the number of creatures you control with power 4 or greater. (Target land you control becomes a 0/0 creature with haste that's still a land. Put X +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",4,4,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/168/the-boulder-ready-to-rumble?utm_source=api
+169,"Bumi, King of Three Trials",{5}{G},6.0,Legendary Creature — Human Noble Ally,uncommon,G,G,"When Bumi enters, choose up to X, where X is the number of Lesson cards in your graveyard —
+• Put three +1/+1 counters on Bumi.
+• Target player scries 3.
+• Earthbend 3. (Target land you control becomes a 0/0 creature with haste that's still a land. Put three +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",4,4,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/169/bumi-king-of-three-trials?utm_source=api
+170,Cycle of Renewal,{2}{G},3.0,Instant — Lesson,common,G,G,"Sacrifice a land. Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/170/cycle-of-renewal?utm_source=api
+171,Diligent Zookeeper,{3}{G},4.0,Creature — Human Citizen Ally,rare,G,G,"Each non-Human creature you control gets +1/+1 for each of its creature types, to a maximum of 10.",4,4,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/171/diligent-zookeeper?utm_source=api
+172,The Earth King,{3}{G},4.0,Legendary Creature — Human Noble Ally,rare,G,G,"When The Earth King enters, create a 4/4 green Bear creature token.
+Whenever one or more creatures you control with power 4 or greater attack, search your library for up to that many basic land cards, put them onto the battlefield tapped, then shuffle.",2,2,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/172/the-earth-king?utm_source=api
+173,Earth Kingdom General,{3}{G},4.0,Creature — Human Soldier Ally,uncommon,G,G,"When this creature enters, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)
+Whenever you put one or more +1/+1 counters on a creature, you may gain that much life. Do this only once each turn.",2,2,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/173/earth-kingdom-general?utm_source=api
+174,Earth Rumble,{3}{G},4.0,Sorcery,uncommon,G,G,"Earthbend 2. When you do, up to one target creature you control fights target creature an opponent controls. (To earthbend 2, target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped. Creatures that fight each deal damage equal to their power to the other.)",,,,"Fight, Earthbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/174/earth-rumble?utm_source=api
+175,Earthbender Ascension,{2}{G},3.0,Enchantment,rare,G,G,"When this enchantment enters, earthbend 2. Then search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Landfall — Whenever a land you control enters, put a quest counter on this enchantment. When you do, if it has four or more quest counters on it, put a +1/+1 counter on target creature you control. It gains trample until end of turn.",,,,"Earthbend, Landfall",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/175/earthbender-ascension?utm_source=api
+176,Earthbending Lesson,{3}{G},4.0,Sorcery — Lesson,common,G,G,"Earthbend 4. (Target land you control becomes a 0/0 creature with haste that's still a land. Put four +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",,,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/176/earthbending-lesson?utm_source=api
+177,Earthen Ally,{G},1.0,Creature — Human Soldier Ally,rare,G,"B, G, R, U, W","This creature gets +1/+0 for each color among Allies you control.
+{2}{W}{U}{B}{R}{G}: Earthbend 5. (Target land you control becomes a 0/0 creature with haste that's still a land. Put five +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",0,2,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/177/earthen-ally?utm_source=api
+178,Elemental Teachings,{4}{G},5.0,Instant — Lesson,rare,G,G,"Search your library for up to four land cards with different names and reveal them. An opponent chooses two of those cards. Put the chosen cards into your graveyard and the rest onto the battlefield tapped, then shuffle.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/178/elemental-teachings?utm_source=api
+179,"Flopsie, Bumi's Buddy",{4}{G}{G},6.0,Legendary Creature — Ape Goat,uncommon,G,G,"When Flopsie enters, put a +1/+1 counter on each creature you control.
+Each creature you control with power 4 or greater can't be blocked by more than one creature.",4,4,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/179/flopsie-bumis-buddy?utm_source=api
+180,Foggy Swamp Vinebender,{3}{G},4.0,Creature — Human Plant Ally,common,G,G,"This creature can't be blocked by creatures with power 2 or less.
+Waterbend {5}: Put a +1/+1 counter on this creature. Activate only during your turn. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",4,3,,Waterbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/180/foggy-swamp-vinebender?utm_source=api
+181,Great Divide Guide,{1}{G},2.0,Creature — Human Scout Ally,rare,G,G,"Each land and Ally you control has ""{T}: Add one mana of any color.""",2,3,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/181/great-divide-guide?utm_source=api
+182,"Haru, Hidden Talent",{1}{G},2.0,Legendary Creature — Human Peasant Ally,uncommon,G,G,"Whenever another Ally you control enters, earthbend 1. (Target land you control becomes a 0/0 creature with haste that's still a land. Put a +1/+1 counter on it. When it dies or is exiled, return it to the battlefield tapped.)",1,1,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/182/haru-hidden-talent?utm_source=api
+183,Invasion Tactics,{4}{G},5.0,Enchantment,uncommon,G,G,"When this enchantment enters, creatures you control get +2/+2 until end of turn.
+Whenever one or more Allies you control deal combat damage to a player, draw a card.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/183/invasion-tactics?utm_source=api
+184,Kyoshi Island Plaza,{3}{G},4.0,Legendary Enchantment — Shrine,uncommon,G,G,"When Kyoshi Island Plaza enters, search your library for up to X basic land cards, where X is the number of Shrines you control. Put those cards onto the battlefield tapped, then shuffle.
+Whenever another Shrine you control enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/184/kyoshi-island-plaza?utm_source=api
+185,Leaves from the Vine,{1}{G},2.0,Enchantment — Saga,uncommon,G,G,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Mill three cards, then create a Food token. (It's an artifact with ""{2}, {T}, Sacrifice this token: You gain 3 life."")
+II — Put a +1/+1 counter on each of up to two target creatures you control.
+III — Draw a card if there's a creature or Lesson card in your graveyard.",,,,"Food, Mill",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/185/leaves-from-the-vine?utm_source=api
+186,The Legend of Kyoshi // Avatar Kyoshi,,6.0,Enchantment — Saga // Legendary Creature — Avatar,mythic,,G,,,,,"Transform, Earthbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/186/the-legend-of-kyoshi-avatar-kyoshi?utm_source=api
+187,Origin of Metalbending,{1}{G},2.0,Instant — Lesson,common,G,G,"Choose one —
+• Destroy target artifact or enchantment.
+• Put a +1/+1 counter on target creature you control. It gains indestructible until end of turn. (Damage and effects that say ""destroy"" don't destroy it.)",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/187/origin-of-metalbending?utm_source=api
+188,Ostrich-Horse,{2}{G},3.0,Creature — Bird Horse,common,G,G,"When this creature enters, mill three cards. You may put a land card from among them into your hand. If you don't, put a +1/+1 counter on this creature. (To mill three cards, put the top three cards of your library into your graveyard.)",3,1,,Mill,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/188/ostrich-horse?utm_source=api
+189,Pillar Launch,{G},1.0,Instant,common,G,G,Target creature gets +2/+2 and gains reach until end of turn. Untap it.,,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/189/pillar-launch?utm_source=api
+190,Raucous Audience,{1}{G},2.0,Creature — Human Citizen,common,G,G,"{T}: Add {G}. If you control a creature with power 4 or greater, add {G}{G} instead.",2,1,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/190/raucous-audience?utm_source=api
+191,Rebellious Captives,{1}{G},2.0,Creature — Human Peasant Ally,common,G,G,"Exhaust — {6}: Put two +1/+1 counters on this creature, then earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped. Activate each exhaust ability only once.)",2,2,,"Exhaust, Earthbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/191/rebellious-captives?utm_source=api
+192,Rockalanche,{2}{G},3.0,Sorcery — Lesson,uncommon,G,G,"Earthbend X, where X is the number of Forests you control. (Target land you control becomes a 0/0 creature with haste that's still a land. Put X +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)
+Flashback {5}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,"Earthbend, Flashback",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/192/rockalanche?utm_source=api
+193,Rocky Rebuke,{1}{G},2.0,Instant,common,G,G,Target creature you control deals damage equal to its power to target creature an opponent controls.,,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/193/rocky-rebuke?utm_source=api
+194,Saber-Tooth Moose-Lion,{4}{G}{G},6.0,Creature — Elk Cat,common,G,G,"Reach
+Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.)",7,7,,"Reach, Landcycling, Forestcycling, Typecycling, Cycling",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/194/saber-tooth-moose-lion?utm_source=api
+195,Seismic Sense,{G},1.0,Sorcery — Lesson,uncommon,G,G,"Look at the top X cards of your library, where X is the number of lands you control. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/195/seismic-sense?utm_source=api
+196,Shared Roots,{1}{G},2.0,Sorcery — Lesson,uncommon,G,G,"Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/196/shared-roots?utm_source=api
+197,Sparring Dummy,{1}{G},2.0,Artifact Creature — Scarecrow,uncommon,G,G,"Defender
+{T}: Mill a card. You may put a land card milled this way into your hand. You gain 2 life if a Lesson card is milled this way. (To mill a card, put the top card of your library into your graveyard.)",1,3,,"Mill, Defender",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/197/sparring-dummy?utm_source=api
+198,"Toph, the Blind Bandit",{2}{G},3.0,Legendary Creature — Human Warrior Ally,uncommon,G,G,"When Toph enters, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)
+Toph's power is equal to the number of +1/+1 counters on lands you control.",*,3,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/198/toph-the-blind-bandit?utm_source=api
+199,True Ancestry,{1}{G},2.0,Sorcery — Lesson,uncommon,G,G,"Return up to one target permanent card from your graveyard to your hand.
+Create a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/199/true-ancestry?utm_source=api
+200,Turtle-Duck,{G},1.0,Creature — Turtle Bird,common,G,G,"{3}: Until end of turn, this creature has base power 4 and gains trample.",0,4,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/200/turtle-duck?utm_source=api
+201,Unlucky Cabbage Merchant,{1}{G},2.0,Creature — Human Citizen,uncommon,G,G,"When this creature enters, create a Food token. (It's an artifact with ""{2}, {T}, Sacrifice this token: You gain 3 life."")
+Whenever you sacrifice a Food, you may search your library for a basic land card and put it onto the battlefield tapped. If you search your library this way, put this creature on the bottom of its owner's library, then shuffle.",2,2,,Food,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/201/unlucky-cabbage-merchant?utm_source=api
+202,Walltop Sentries,{2}{G},3.0,Creature — Human Soldier Ally,common,G,G,"Reach, deathtouch
+When this creature dies, if there's a Lesson card in your graveyard, you gain 2 life.",2,3,,"Reach, Deathtouch",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/202/walltop-sentries?utm_source=api
+203,"Aang, at the Crossroads // Aang, Destined Savior",,5.0,Legendary Creature — Human Avatar Ally // Legendary Creature — Avatar Ally,rare,,"G, U, W",,,,,"Flying, Transform, Earthbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/203/aang-at-the-crossroads-aang-destined-savior?utm_source=api
+204,"Aang, Swift Savior // Aang and La, Ocean's Fury",,3.0,Legendary Creature — Human Avatar Ally // Legendary Creature — Avatar Spirit Ally,rare,,"U, W",,,,,"Flying, Reach, Airbend, Transform, Trample, Flash, Waterbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/204/aang-swift-savior-aang-and-la-oceans-fury?utm_source=api
+205,Abandon Attachments,{1}{U/R},2.0,Instant — Lesson,common,"R, U","R, U","You may discard a card. If you do, draw two cards.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/205/abandon-attachments?utm_source=api
+206,Air Nomad Legacy,{W}{U},2.0,Enchantment,uncommon,"U, W","U, W","When this enchantment enters, create a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")
+Creatures you control with flying get +1/+1.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/206/air-nomad-legacy?utm_source=api
+207,"Avatar Aang // Aang, Master of Elements",,4.0,Legendary Creature — Human Avatar Ally // Legendary Creature — Avatar Ally,mythic,,"B, G, R, U, W",,,,,"Flying, Transform, Firebending",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/207/avatar-aang-aang-master-of-elements?utm_source=api
+208,"Azula, Cunning Usurper",{2}{U}{B}{B},5.0,Legendary Creature — Human Noble Rogue,rare,"B, U","B, U","Firebending 2 (Whenever this creature attacks, add {R}{R}. This mana lasts until end of combat.)
+When Azula enters, target opponent exiles a nontoken creature they control, then they exile a nonland card from their graveyard.
+During your turn, you may cast cards exiled with Azula and you may cast them as though they had flash. Mana of any type can be spent to cast those spells.",4,4,,Firebending,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/208/azula-cunning-usurper?utm_source=api
+209,Beifong's Bounty Hunters,{2}{B}{G},4.0,Creature — Human Mercenary,rare,"B, G","B, G","Whenever a nonland creature you control dies, earthbend X, where X is that creature's power. (Target land you control becomes a 0/0 creature with haste that's still a land. Put X +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",4,4,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/209/beifongs-bounty-hunters?utm_source=api
+210,Bitter Work,{1}{R}{G},3.0,Enchantment,uncommon,"G, R","G, R","Whenever you attack a player with one or more creatures with power 4 or greater, draw a card.
+Exhaust — {4}: Earthbend 4. Activate only during your turn. (Target land you control becomes a 0/0 creature with haste that's still a land. Put four +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped. Activate each exhaust ability only once.)",,,,"Exhaust, Earthbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/210/bitter-work?utm_source=api
+211,"Bumi, Unleashed",{3}{R}{G},5.0,Legendary Creature — Human Noble Ally,mythic,"G, R","G, R","Trample
+When Bumi enters, earthbend 4.
+Whenever Bumi deals combat damage to a player, untap all lands you control. After this phase, there is an additional combat phase. Only land creatures can attack during that combat phase.",5,4,,"Trample, Earthbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/211/bumi-unleashed?utm_source=api
+212,Cat-Owl,{3}{W/U},4.0,Creature — Cat Bird,common,"U, W","U, W","Flying
+Whenever this creature attacks, untap target artifact or creature.",3,3,,Flying,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/212/cat-owl?utm_source=api
+213,Cruel Administrator,{3}{B}{R},5.0,Creature — Human Soldier,uncommon,"B, R","B, R","Raid — This creature enters with a +1/+1 counter on it if you attacked this turn.
+Whenever this creature attacks, create a 2/2 red Soldier creature token with firebending 1. (Whenever it attacks, add {R}. This mana lasts until end of combat.)",5,4,,Raid,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/213/cruel-administrator?utm_source=api
+214,Dai Li Agents,{3}{B}{G},5.0,Creature — Human Soldier,uncommon,"B, G","B, G","When this creature enters, earthbend 1, then earthbend 1. (To earthbend 1, target land you control becomes a 0/0 creature with haste that's still a land. Put a +1/+1 counter on it. When it dies or is exiled, return it to the battlefield tapped.)
+Whenever this creature attacks, each opponent loses X life and you gain X life, where X is the number of creatures you control with +1/+1 counters on them.",3,4,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/214/dai-li-agents?utm_source=api
+215,Dragonfly Swarm,{1}{U}{R},3.0,Creature — Dragon Insect,uncommon,"R, U","R, U","Flying, ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
+This creature's power is equal to the number of noncreature, nonland cards in your graveyard.
+When this creature dies, if there's a Lesson card in your graveyard, draw a card.",*,3,,"Flying, Ward",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/215/dragonfly-swarm?utm_source=api
+216,Earth Kingdom Soldier,{4}{G/W},5.0,Creature — Human Soldier,common,"G, W","G, W","Vigilance
+When this creature enters, put a +1/+1 counter on each of up to two target creatures you control.",3,4,,Vigilance,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/216/earth-kingdom-soldier?utm_source=api
+217,Earth King's Lieutenant,{G}{W},2.0,Creature — Human Soldier Ally,rare,"G, W","G, W","Trample
+When this creature enters, put a +1/+1 counter on each other Ally creature you control.
+Whenever another Ally you control enters, put a +1/+1 counter on this creature.",1,1,,Trample,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/217/earth-kings-lieutenant?utm_source=api
+218,Earth Rumble Wrestlers,{3}{R/G},4.0,Creature — Human Warrior Performer,common,"G, R","G, R","Reach
+This creature gets +1/+0 and has trample as long as you control a land creature or a land entered the battlefield under your control this turn.",3,4,,Reach,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/218/earth-rumble-wrestlers?utm_source=api
+219,Earth Village Ruffians,{2}{B/G},3.0,Creature — Human Soldier Rogue,common,"B, G","B, G","When this creature dies, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",3,1,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/219/earth-village-ruffians?utm_source=api
+220,Fire Lord Azula,{1}{U}{B}{R},4.0,Legendary Creature — Human Noble,rare,"B, R, U","B, R, U","Firebending 2 (Whenever this creature attacks, add {R}{R}. This mana lasts until end of combat.)
+Whenever you cast a spell while Fire Lord Azula is attacking, copy that spell. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)",4,4,,Firebending,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/220/fire-lord-azula?utm_source=api
+221,Fire Lord Zuko,{R}{W}{B},3.0,Legendary Creature — Human Noble Ally,rare,"B, R, W","B, R, W","Firebending X, where X is Fire Lord Zuko's power. (Whenever this creature attacks, add X {R}. This mana lasts until end of combat.)
+Whenever you cast a spell from exile and whenever a permanent you control enters from exile, put a +1/+1 counter on each creature you control.",2,4,,Firebending,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/221/fire-lord-zuko?utm_source=api
+222,Foggy Swamp Spirit Keeper,{1}{U}{B},3.0,Creature — Human Druid Ally,uncommon,"B, U","B, U","Lifelink
+Whenever you draw your second card each turn, create a 1/1 colorless Spirit creature token with ""This token can't block or be blocked by non-Spirit creatures.""",2,4,,Lifelink,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/222/foggy-swamp-spirit-keeper?utm_source=api
+223,Guru Pathik,{2}{G/U}{G/U},4.0,Legendary Creature — Human Monk Ally,uncommon,"G, U","G, U","When Guru Pathik enters, look at the top five cards of your library. You may reveal a Lesson, Saga, or Shrine card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+Whenever you cast a Lesson, Saga, or Shrine spell, put a +1/+1 counter on another target creature you control.",2,4,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/223/guru-pathik?utm_source=api
+224,"Hama, the Bloodbender",{2}{U/B}{U/B}{U/B},5.0,Legendary Creature — Human Warlock,uncommon,"B, U","B, U","When Hama enters, target opponent mills three cards. Exile up to one noncreature, nonland card from that player's graveyard. For as long as you control Hama, you may cast the exiled card during your turn by waterbending {X} rather than paying its mana cost, where X is its mana value. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",3,3,,"Mill, Waterbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/224/hama-the-bloodbender?utm_source=api
+225,"Hei Bai, Spirit of Balance",{2}{W/B}{W/B},4.0,Legendary Creature — Bear Spirit,uncommon,"B, W","B, W","Whenever Hei Bai enters or attacks, you may sacrifice another creature or artifact. If you do, put two +1/+1 counters on Hei Bai.
+When Hei Bai leaves the battlefield, put its counters on target creature you control.",3,3,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/225/hei-bai-spirit-of-balance?utm_source=api
+226,Hermitic Herbalist,{G}{U},2.0,Creature — Human Druid Ally,uncommon,"G, U","G, U","{T}: Add one mana of any color.
+{T}: Add two mana in any combination of colors. Spend this mana only to cast Lesson spells.",2,3,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/226/hermitic-herbalist?utm_source=api
+227,"Iroh, Grand Lotus",{3}{G}{U}{R},6.0,Legendary Creature — Human Noble Ally,rare,"G, R, U","G, R, U","Firebending 2
+During your turn, each non-Lesson instant and sorcery card in your graveyard has flashback. The flashback cost is equal to that card's mana cost. (You may cast a card from your graveyard for its flashback cost. Then exile it.)
+During your turn, each Lesson card in your graveyard has flashback {1}.",5,5,,Firebending,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/227/iroh-grand-lotus?utm_source=api
+228,"Iroh, Tea Master",{1}{R}{W},3.0,Legendary Creature — Human Citizen Ally,rare,"R, W","R, W","When Iroh enters, create a Food token.
+At the beginning of combat on your turn, you may have target opponent gain control of target permanent you control. When you do, create a 1/1 white Ally creature token. Put a +1/+1 counter on that token for each permanent you own that your opponents control.",2,2,,Food,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/228/iroh-tea-master?utm_source=api
+229,"Jet, Freedom Fighter",{2}{R/W}{R/W}{R/W},5.0,Legendary Creature — Human Rebel Ally,uncommon,"R, W","R, W","When Jet enters, he deals damage equal to the number of creatures you control to target creature an opponent controls.
+When Jet dies, put a +1/+1 counter on each of up to two target creatures.",3,1,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/229/jet-freedom-fighter?utm_source=api
+230,"Katara, the Fearless",{G}{W}{U},3.0,Legendary Creature — Human Warrior Ally,rare,"G, U, W","G, U, W","If a triggered ability of an Ally you control triggers, that ability triggers an additional time.",3,3,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/230/katara-the-fearless?utm_source=api
+231,"Katara, Water Tribe's Hope",{2}{W}{U}{U},5.0,Legendary Creature — Human Warrior Ally,rare,"U, W","U, W","Vigilance
+When Katara enters, create a 1/1 white Ally creature token.
+Waterbend {X}: Creatures you control have base power and toughness X/X until end of turn. X can't be 0. Activate only during your turn. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",3,3,,"Vigilance, Waterbend",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/231/katara-water-tribes-hope?utm_source=api
+232,The Lion-Turtle,{1}{G}{U},3.0,Legendary Creature — Elder Cat Turtle,rare,"G, U","G, U","Vigilance, reach
+When The Lion-Turtle enters, you gain 3 life.
+The Lion-Turtle can't attack or block unless there are three or more Lesson cards in your graveyard.
+{T}: Add one mana of any color.",3,6,,"Reach, Vigilance",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/232/the-lion-turtle?utm_source=api
+233,"Long Feng, Grand Secretariat",{1}{B/G}{B/G},3.0,Legendary Creature — Human Advisor,uncommon,"B, G","B, G","Whenever another creature you control or a land you control is put into a graveyard from the battlefield, put a +1/+1 counter on target creature you control.",2,3,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/233/long-feng-grand-secretariat?utm_source=api
+234,Messenger Hawk,{2}{U/B},3.0,Creature — Bird Scout,common,"B, U","B, U","Flying
+When this creature enters, create a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")
+This creature gets +2/+0 as long as you've drawn two or more cards this turn.",1,2,,Flying,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/234/messenger-hawk?utm_source=api
+235,"Ozai, the Phoenix King",{2}{B}{B}{R}{R},6.0,Legendary Creature — Human Noble,mythic,"B, R","B, R","Trample, firebending 4, haste
+If you would lose unspent mana, that mana becomes red instead.
+Ozai has flying and indestructible as long as you have six or more unspent mana.",7,7,,"Haste, Trample, Firebending",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/235/ozai-the-phoenix-king?utm_source=api
+236,Platypus-Bear,{1}{G/U},2.0,Creature — Platypus Bear,common,"G, U","G, U","Defender
+When this creature enters, mill two cards. (Put the top two cards of your library into your graveyard.)
+As long as there is a Lesson card in your graveyard, this creature can attack as though it didn't have defender.",2,3,,"Mill, Defender",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/236/platypus-bear?utm_source=api
+237,Pretending Poxbearers,{1}{W/B},2.0,Creature — Human Citizen Ally,common,"B, W","B, W","When this creature dies, create a 1/1 white Ally creature token.",2,1,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/237/pretending-poxbearers?utm_source=api
+238,"Professor Zei, Anthropologist",{U/R}{U/R},2.0,Legendary Creature — Human Advisor Ally,uncommon,"R, U","R, U","{T}, Discard a card: Draw a card.
+{1}, {T}, Sacrifice Professor Zei: Return target instant or sorcery card from your graveyard to your hand. Activate only during your turn.",0,3,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/238/professor-zei-anthropologist?utm_source=api
+239,Sandbender Scavengers,{W}{B},2.0,Creature — Human Rogue,rare,"B, W","B, W","Whenever you sacrifice another permanent, put a +1/+1 counter on this creature.
+When this creature dies, you may exile it. When you do, return target creature card with mana value less than or equal to this creature's power from your graveyard to the battlefield.",1,1,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/239/sandbender-scavengers?utm_source=api
+240,"Sokka, Bold Boomeranger",{U}{R},2.0,Legendary Creature — Human Warrior Ally,rare,"R, U","R, U","When Sokka enters, discard up to two cards, then draw that many cards.
+Whenever you cast an artifact or Lesson spell, put a +1/+1 counter on Sokka.",1,1,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/240/sokka-bold-boomeranger?utm_source=api
+241,"Sokka, Lateral Strategist",{1}{W/U}{W/U},3.0,Legendary Creature — Human Warrior Ally,uncommon,"U, W","U, W","Vigilance
+Whenever Sokka and at least one other creature attack, draw a card.",2,4,,Vigilance,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/241/sokka-lateral-strategist?utm_source=api
+242,"Sokka, Tenacious Tactician",{1}{U}{R}{W},4.0,Legendary Creature — Human Warrior Ally,rare,"R, U, W","R, U, W","Menace, prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Other Allies you control have menace and prowess.
+Whenever you cast a noncreature spell, create a 1/1 white Ally creature token.",3,3,,"Prowess, Menace",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/242/sokka-tenacious-tactician?utm_source=api
+243,"Suki, Kyoshi Warrior",{2}{G/W}{G/W},4.0,Legendary Creature — Human Warrior Ally,uncommon,"G, W","G, W","Suki's power is equal to the number of creatures you control.
+Whenever Suki attacks, create a 1/1 white Ally creature token that's tapped and attacking.",*,4,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/243/suki-kyoshi-warrior?utm_source=api
+244,Sun Warriors,{2}{R}{W},4.0,Creature — Human Warrior Ally,uncommon,"R, W","R, W","Firebending X, where X is the number of creatures you control. (Whenever this creature attacks, add X {R}. This mana lasts until end of combat.)
+{5}: Create a 1/1 white Ally creature token.",3,5,,Firebending,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/244/sun-warriors?utm_source=api
+245,Tolls of War,{W}{B},2.0,Enchantment,uncommon,"B, W","B, W","When this enchantment enters, create a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")
+Whenever you sacrifice a permanent during your turn, create a 1/1 white Ally creature token. This ability triggers only once each turn.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/245/tolls-of-war?utm_source=api
+246,"Toph, Hardheaded Teacher",{2}{R}{G},4.0,Legendary Creature — Human Warrior Ally,rare,"G, R","G, R","When Toph enters, you may discard a card. If you do, return target instant or sorcery card from your graveyard to your hand.
+Whenever you cast a spell, earthbend 1. If that spell is a Lesson, put an additional +1/+1 counter on that land. (Target land you control becomes a 0/0 creature with haste that's still a land. Put a +1/+1 counter on it. When it dies or is exiled, return it to the battlefield tapped.)",3,4,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/246/toph-hardheaded-teacher?utm_source=api
+247,"Toph, the First Metalbender",{1}{R}{G}{W},4.0,Legendary Creature — Human Warrior Ally,rare,"G, R, W","G, R, W","Nontoken artifacts you control are lands in addition to their other types. (They don't gain the ability to {T} for mana.)
+At the beginning of your end step, earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",3,3,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/247/toph-the-first-metalbender?utm_source=api
+248,Uncle Iroh,{1}{R/G}{R/G},3.0,Legendary Creature — Human Noble Ally,uncommon,"G, R","G, R","Firebending 1 (Whenever this creature attacks, add {R}. This mana lasts until end of combat.)
+Lesson spells you cast cost {1} less to cast.",4,2,,Firebending,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/248/uncle-iroh?utm_source=api
+249,Vindictive Warden,{2}{B/R},3.0,Creature — Human Soldier,common,"B, R","B, R","Menace (This creature can't be blocked except by two or more creatures.)
+Firebending 1 (Whenever this creature attacks, add {R}. This mana lasts until end of combat.)
+{3}: This creature deals 1 damage to each opponent.",2,3,,"Firebending, Menace",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/249/vindictive-warden?utm_source=api
+250,Wandering Musicians,{3}{R/W},4.0,Creature — Human Bard Ally,common,"R, W","R, W","Whenever this creature attacks, creatures you control get +1/+0 until end of turn.",2,5,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/250/wandering-musicians?utm_source=api
+251,White Lotus Reinforcements,{1}{G}{W},3.0,Creature — Human Soldier Ally,uncommon,"G, W","G, W","Vigilance
+Other Allies you control get +1/+1.",2,3,,Vigilance,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/251/white-lotus-reinforcements?utm_source=api
+252,"Zhao, Ruthless Admiral",{2}{B/R}{B/R},4.0,Legendary Creature — Human Soldier,uncommon,"B, R","B, R","Firebending 2 (Whenever this creature attacks, add {R}{R}. This mana lasts until end of combat.)
+Whenever you sacrifice another permanent, creatures you control get +1/+0 until end of turn.",3,4,,Firebending,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/252/zhao-ruthless-admiral?utm_source=api
+253,"Zuko, Conflicted",{B}{R},2.0,Legendary Creature — Human Rogue,rare,"B, R","B, R","At the beginning of your first main phase, choose one that hasn't been chosen and you lose 2 life —
+• Draw a card.
+• Put a +1/+1 counter on Zuko.
+• Add {R}.
+• Exile Zuko, then return him to the battlefield under an opponent's control.",2,3,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/253/zuko-conflicted?utm_source=api
+254,Barrels of Blasting Jelly,{1},1.0,Artifact,common,,,"{1}: Add one mana of any color. Activate only once each turn.
+{5}, {T}, Sacrifice this artifact: It deals 5 damage to target creature.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/254/barrels-of-blasting-jelly?utm_source=api
+255,Bender's Waterskin,{3},3.0,Artifact,common,,,"Untap this artifact during each other player's untap step.
+{T}: Add one mana of any color.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/255/benders-waterskin?utm_source=api
+256,Fire Nation Warship,{3},3.0,Artifact — Vehicle,uncommon,,,"Reach
+When this Vehicle dies, create a Clue token. (It's an artifact with ""{2}, Sacrifice this token: Draw a card."")
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)",4,4,,"Reach, Crew",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/256/fire-nation-warship?utm_source=api
+257,Kyoshi Battle Fan,{2},2.0,Artifact — Equipment,common,,,"When this Equipment enters, create a 1/1 white Ally creature token, then attach this Equipment to it.
+Equipped creature gets +1/+0.
+Equip {2} ({2}:Attach to target creature you control. Equip only as a sorcery.)",,,,Equip,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/257/kyoshi-battle-fan?utm_source=api
+258,Meteor Sword,{7},7.0,Artifact — Equipment,uncommon,,,"When this Equipment enters, destroy target permanent.
+Equipped creature gets +3/+3.
+Equip {3} ({3}:Attach to target creature you control. Equip only as a sorcery.)",,,,Equip,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/258/meteor-sword?utm_source=api
+259,Planetarium of Wan Shi Tong,{6},6.0,Legendary Artifact,mythic,,,"{1}, {T}: Scry 2.
+Whenever you scry or surveil, look at the top card of your library. You may cast that card without paying its mana cost. Do this only once each turn. (Look at the card after you scry or surveil.)",,,,Scry,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/259/planetarium-of-wan-shi-tong?utm_source=api
+260,Trusty Boomerang,{1},1.0,Artifact — Equipment,uncommon,,,"Equipped creature has ""{1}, {T}: Tap target creature. Return Trusty Boomerang to its owner's hand.""
+Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",,,,Equip,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/260/trusty-boomerang?utm_source=api
+261,The Walls of Ba Sing Se,{8},8.0,Legendary Artifact Creature — Wall,mythic,,,"Defender
+Other permanents you control have indestructible.",0,30,,Defender,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/261/the-walls-of-ba-sing-se?utm_source=api
+262,White Lotus Tile,{4},4.0,Artifact,mythic,,,"This artifact enters tapped.
+{T}: Add X mana of any one color, where X is the greatest number of creatures you control that have a creature type in common.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/262/white-lotus-tile?utm_source=api
+263,Abandoned Air Temple,,0.0,Land,rare,,W,"This land enters tapped unless you control a basic land.
+{T}: Add {W}.
+{3}{W}, {T}: Put a +1/+1 counter on each creature you control.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/263/abandoned-air-temple?utm_source=api
+264,Agna Qel'a,,0.0,Land,rare,,U,"This land enters tapped unless you control a basic land.
+{T}: Add {U}.
+{2}{U}, {T}: Draw a card, then discard a card.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/264/agna-qela?utm_source=api
+265,Airship Engine Room,,0.0,Land,common,,"R, U","This land enters tapped.
+{T}: Add {U} or {R}.
+{4}, {T}, Sacrifice this land: Draw a card.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/265/airship-engine-room?utm_source=api
+266,Ba Sing Se,,0.0,Land,rare,,G,"This land enters tapped unless you control a basic land.
+{T}: Add {G}.
+{2}{G}, {T}: Earthbend 2. Activate only as a sorcery. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",,,,Earthbend,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/266/ba-sing-se?utm_source=api
+267,Boiling Rock Prison,,0.0,Land,common,,"B, R","This land enters tapped.
+{T}: Add {B} or {R}.
+{4}, {T}, Sacrifice this land: Draw a card.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/267/boiling-rock-prison?utm_source=api
+268,Fire Nation Palace,,0.0,Land,rare,,R,"This land enters tapped unless you control a basic land.
+{T}: Add {R}.
+{1}{R}, {T}: Target creature you control gains firebending 4 until end of turn. (Whenever it attacks, add {R}{R}{R}{R}. This mana lasts until end of combat.)",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/268/fire-nation-palace?utm_source=api
+269,Foggy Bottom Swamp,,0.0,Land,common,,"B, G","This land enters tapped.
+{T}: Add {B} or {G}.
+{4}, {T}, Sacrifice this land: Draw a card.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/269/foggy-bottom-swamp?utm_source=api
+270,Jasmine Dragon Tea Shop,,0.0,Land,rare,,,"{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast an Ally spell or activate an ability of an Ally source.
+{5}, {T}: Create a 1/1 white Ally creature token.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/270/jasmine-dragon-tea-shop?utm_source=api
+271,Kyoshi Village,,0.0,Land,common,,"G, W","This land enters tapped.
+{T}: Add {G} or {W}.
+{4}, {T}, Sacrifice this land: Draw a card.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/271/kyoshi-village?utm_source=api
+272,Meditation Pools,,0.0,Land,common,,"G, U","This land enters tapped.
+{T}: Add {G} or {U}.
+{4}, {T}, Sacrifice this land: Draw a card.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/272/meditation-pools?utm_source=api
+273,Misty Palms Oasis,,0.0,Land,common,,"B, W","This land enters tapped.
+{T}: Add {W} or {B}.
+{4}, {T}, Sacrifice this land: Draw a card.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/273/misty-palms-oasis?utm_source=api
+274,North Pole Gates,,0.0,Land,common,,"U, W","This land enters tapped.
+{T}: Add {W} or {U}.
+{4}, {T}, Sacrifice this land: Draw a card.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/274/north-pole-gates?utm_source=api
+275,Omashu City,,0.0,Land,common,,"G, R","This land enters tapped.
+{T}: Add {R} or {G}.
+{4}, {T}, Sacrifice this land: Draw a card.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/275/omashu-city?utm_source=api
+276,Realm of Koh,,0.0,Land,rare,,B,"This land enters tapped unless you control a basic land.
+{T}: Add {B}.
+{3}{B}, {T}: Create a 1/1 colorless Spirit creature token with ""This token can't block or be blocked by non-Spirit creatures.""",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/276/realm-of-koh?utm_source=api
+277,Rumble Arena,,0.0,Land,common,,,"Vigilance
+When this land enters, scry 1. (Look at the top card of your library. You may put it on the bottom.)
+{T}: Add {C}.
+{1}, {T}: Add one mana of any color.",,,,"Vigilance, Scry",Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/277/rumble-arena?utm_source=api
+278,Secret Tunnel,,0.0,Land — Cave,rare,,,"This land can't be blocked.
+{T}: Add {C}.
+{4}, {T}: Two target creatures you control that share a creature type can't be blocked this turn.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/278/secret-tunnel?utm_source=api
+279,Serpent's Pass,,0.0,Land,common,,"B, U","This land enters tapped.
+{T}: Add {U} or {B}.
+{4}, {T}, Sacrifice this land: Draw a card.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/279/serpents-pass?utm_source=api
+280,Sun-Blessed Peak,,0.0,Land,common,,"R, W","This land enters tapped.
+{T}: Add {R} or {W}.
+{4}, {T}, Sacrifice this land: Draw a card.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/280/sun-blessed-peak?utm_source=api
+281,White Lotus Hideout,,0.0,Land,uncommon,,,"{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast a Lesson or Shrine spell.
+{1}, {T}: Add one mana of any color.",,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/281/white-lotus-hideout?utm_source=api
+282,Plains,,0.0,Basic Land — Plains,common,,W,({T}: Add {W}.),,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/282/plains?utm_source=api
+283,Island,,0.0,Basic Land — Island,common,,U,({T}: Add {U}.),,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/283/island?utm_source=api
+284,Swamp,,0.0,Basic Land — Swamp,common,,B,({T}: Add {B}.),,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/284/swamp?utm_source=api
+285,Mountain,,0.0,Basic Land — Mountain,common,,R,({T}: Add {R}.),,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/285/mountain?utm_source=api
+286,Forest,,0.0,Basic Land — Forest,common,,G,({T}: Add {G}.),,,,,Avatar: The Last Airbender,2025-11-21,https://scryfall.com/card/tla/286/forest?utm_source=api

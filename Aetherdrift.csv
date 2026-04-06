@@ -1,0 +1,635 @@
+collector_number,name,mana_cost,cmc,type_line,rarity,colors,color_identity,oracle_text,power,toughness,loyalty,keywords,set_name,released_at,scryfall_uri
+1,Air Response Unit,{2}{W},3.0,Artifact — Vehicle,uncommon,W,W,"Flying, vigilance
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",3,3,,"Flying, Vigilance, Crew",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/1/air-response-unit?utm_source=api
+2,Alacrian Armory,{3}{W},4.0,Artifact,uncommon,W,W,"Creatures you control get +0/+1 and have vigilance.
+At the beginning of combat on your turn, choose up to one target Mount or Vehicle you control. Until end of turn, that permanent becomes saddled if it's a Mount and becomes an artifact creature if it's a Vehicle.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/2/alacrian-armory?utm_source=api
+3,"Basri, Tomorrow's Champion",{W},1.0,Legendary Creature — Human Knight,rare,W,W,"{W}, {T}, Exert Basri: Create a 1/1 white Cat creature token with lifelink. (An exerted creature won't untap during your next untap step.)
+Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)
+When you cycle this card, Cats you control gain hexproof and indestructible until end of turn.",2,1,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/3/basri-tomorrows-champion?utm_source=api
+4,Brightfield Glider,{W},1.0,Creature — Possum Mount,common,W,W,"Vigilance
+Whenever this creature attacks while saddled, it gets +1/+2 and gains flying until end of turn.
+Saddle 3 (Tap any number of other creatures you control with total power 3 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)",1,1,,"Saddle, Vigilance",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/4/brightfield-glider?utm_source=api
+5,Brightfield Mustang,{3}{W},4.0,Creature — Horse Mount,common,W,W,"Whenever this creature attacks while saddled, untap it and put a +1/+1 counter on it.
+Saddle 1 (Tap any number of other creatures you control with total power 1 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)",3,3,,Saddle,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/5/brightfield-mustang?utm_source=api
+6,Broadcast Rambler,{4}{W},5.0,Artifact — Vehicle,common,W,W,"When this Vehicle enters, create a 1/1 colorless Thopter artifact creature token with flying.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",5,4,,Crew,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/6/broadcast-rambler?utm_source=api
+7,Bulwark Ox,{1}{W},2.0,Creature — Ox Mount,rare,W,W,"Whenever this creature attacks while saddled, put a +1/+1 counter on target creature.
+Sacrifice this creature: Creatures you control with counters on them gain hexproof and indestructible until end of turn.
+Saddle 1 (Tap any number of other creatures you control with total power 1 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)",2,2,,Saddle,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/7/bulwark-ox?utm_source=api
+8,Canyon Vaulter,{1}{W},2.0,Creature — Kor Pilot,uncommon,W,W,"Whenever this creature saddles a Mount or crews a Vehicle during your main phase, that Mount or Vehicle gains flying until end of turn.",3,1,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/8/canyon-vaulter?utm_source=api
+9,Cloudspire Captain,{2}{W},3.0,Creature — Human Pilot,uncommon,W,W,"Mounts and Vehicles you control get +1/+1.
+This creature saddles Mounts and crews Vehicles as though its power were 2 greater.",2,3,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/9/cloudspire-captain?utm_source=api
+10,Collision Course,{1}{W},2.0,Sorcery,common,W,W,"Choose one —
+• Collision Course deals X damage to target creature, where X is the number of permanents you control that are creatures and/or Vehicles.
+• Destroy target artifact.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/10/collision-course?utm_source=api
+11,Daring Mechanic,{2}{W},3.0,Creature — Human Artificer,common,W,W,{3}{W}: Put a +1/+1 counter on target Mount or Vehicle.,3,3,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/11/daring-mechanic?utm_source=api
+12,Detention Chariot,{4}{W}{W},6.0,Artifact — Vehicle,uncommon,W,W,"When this Vehicle enters, exile target artifact or creature an opponent controls until this Vehicle leaves the battlefield.
+Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)
+Cycling {W} ({W}, Discard this card: Draw a card.)",6,6,,"Crew, Cycling",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/12/detention-chariot?utm_source=api
+13,Gallant Strike,{1}{W},2.0,Instant,uncommon,W,W,"Destroy target creature with toughness 4 or greater.
+Cycling {2} ({2}, Discard this card: Draw a card.)",,,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/13/gallant-strike?utm_source=api
+14,Gloryheath Lynx,{1}{W},2.0,Creature — Cat Mount,uncommon,W,W,"Lifelink
+Whenever this creature attacks while saddled, search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.
+Saddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)",2,3,,"Lifelink, Saddle",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/14/gloryheath-lynx?utm_source=api
+15,Guardian Sunmare,{3}{W}{W},5.0,Creature — Horse Mount,rare,W,W,"Ward {2}
+Whenever this creature attacks while saddled, search your library for a nonland permanent card with mana value 3 or less, put it onto the battlefield, then shuffle.
+Saddle 4",5,5,,"Saddle, Ward",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/15/guardian-sunmare?utm_source=api
+16,Guidelight Synergist,{3}{W},4.0,Artifact Creature — Robot Artificer,uncommon,W,W,"Flying
+This creature gets +1/+0 for each artifact you control.",0,4,,Flying,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/16/guidelight-synergist?utm_source=api
+17,Interface Ace,{1}{W},2.0,Artifact Creature — Robot Pilot,common,W,W,"This creature saddles Mounts and crews Vehicles using its toughness rather than its power.
+Whenever this creature becomes tapped during your turn, untap it. This ability triggers only once each turn.",0,4,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/17/interface-ace?utm_source=api
+18,Leonin Surveyor,{1}{W},2.0,Creature — Cat Scout,common,W,W,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+During your turn, this creature has first strike.
+Max speed — {3}, Exile this card from your graveyard: Draw a card.",2,2,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/18/leonin-surveyor?utm_source=api
+19,Lightshield Parry,{W},1.0,Instant,common,W,W,"Target creature gets +2/+2 until end of turn.
+Cycling {2} ({2}, Discard this card: Draw a card.)",,,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/19/lightshield-parry?utm_source=api
+20,Lightwheel Enhancements,{W},1.0,Enchantment — Aura,common,W,W,"Enchant creature or Vehicle
+Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+Enchanted permanent gets +1/+1 and has vigilance.
+Max speed — You may cast this card from your graveyard.",,,,"Max speed, Enchant, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/20/lightwheel-enhancements?utm_source=api
+21,Lotusguard Disciple,{2}{W},3.0,Creature — Bird Cleric,common,W,W,"Flying
+When this creature enters, target creature or Vehicle gains lifelink and indestructible until end of turn.",2,2,,Flying,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/21/lotusguard-disciple?utm_source=api
+22,Nesting Bot,{W},1.0,Artifact Creature — Robot,uncommon,W,W,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+When this creature dies, create a 1/1 colorless Servo artifact creature token.
+Max speed — This creature gets +1/+0.",1,1,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/22/nesting-bot?utm_source=api
+23,Perilous Snare,{2}{W},3.0,Artifact,rare,W,W,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+When this artifact enters, exile target nonland permanent an opponent controls until this artifact leaves the battlefield.
+Max speed — {T}: Put a +1/+1 counter on target creature or Vehicle you control. Activate only as a sorcery.",,,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/23/perilous-snare?utm_source=api
+24,Pride of the Road,{3}{W},4.0,Creature — Zombie Cat Warrior,uncommon,W,W,"Vigilance
+Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+Max speed — At the beginning of combat on your turn, target creature or Vehicle you control gains double strike until end of turn.",2,5,,"Max speed, Vigilance, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/24/pride-of-the-road?utm_source=api
+25,Ride's End,{4}{W},5.0,Instant,common,W,W,"This spell costs {3} less to cast if it targets a tapped permanent.
+Exile target creature or Vehicle.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/25/rides-end?utm_source=api
+26,Roadside Assistance,{2}{W},3.0,Enchantment — Aura,uncommon,W,W,"Enchant creature or Vehicle
+When this Aura enters, create a 1/1 colorless Pilot creature token with ""This token saddles Mounts and crews Vehicles as though its power were 2 greater.""
+Enchanted permanent gets +1/+1 and has lifelink.",,,,Enchant,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/26/roadside-assistance?utm_source=api
+27,Salvation Engine,{4}{W},5.0,Artifact — Vehicle,mythic,W,W,"Other artifact creatures you control get +2/+2.
+Whenever this Vehicle attacks, return up to one target artifact card from your graveyard to the battlefield.
+Crew 6",6,10,,Crew,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/27/salvation-engine?utm_source=api
+28,Skyseer's Chariot,{1}{W},2.0,Artifact — Vehicle,rare,W,W,"Flying
+As this Vehicle enters, choose a nonland card name.
+Activated abilities of sources with the chosen name cost {2} more to activate.
+Crew 2",3,3,,"Flying, Crew",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/28/skyseers-chariot?utm_source=api
+29,Spectacular Pileup,{3}{W}{W},5.0,Sorcery,rare,W,W,"All creatures and Vehicles lose indestructible until end of turn, then destroy all creatures and Vehicles.
+Cycling {2} ({2}, Discard this card: Draw a card.)",,,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/29/spectacular-pileup?utm_source=api
+30,Spotcycle Scouter,{1}{W},2.0,Artifact — Vehicle,common,W,W,"When this Vehicle enters, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",3,2,,"Crew, Scry",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/30/spotcycle-scouter?utm_source=api
+31,"Sundial, Dawn Tyrant",{1}{W},2.0,Legendary Artifact Creature — Construct,uncommon,W,W,,3,3,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/31/sundial-dawn-tyrant?utm_source=api
+32,Swiftwing Assailant,{3}{W},4.0,Creature — Bird Warrior,common,W,W,"Flying
+Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+Max speed — This creature gets +0/+1 and has vigilance.",3,3,,"Flying, Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/32/swiftwing-assailant?utm_source=api
+33,Tune Up,{3}{W},4.0,Sorcery,uncommon,W,W,"Return target artifact card from your graveyard to the battlefield. If it's a Vehicle, it becomes an artifact creature.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/33/tune-up?utm_source=api
+34,Unswerving Sloth,{3}{W}{W},5.0,Creature — Sloth Mount,uncommon,W,W,"Whenever this creature attacks while saddled, it gains indestructible until end of turn. Untap all creatures you control.
+Saddle 4 (Tap any number of other creatures you control with total power 4 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)",5,5,,Saddle,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/34/unswerving-sloth?utm_source=api
+35,Valor's Flagship,{4}{W}{W}{W},7.0,Legendary Artifact — Vehicle,mythic,W,W,"Flying, first strike, lifelink
+Crew 3
+Cycling {X}{2}{W} ({X}{2}{W}, Discard this card: Draw a card.)
+When you cycle this card, create X 1/1 colorless Pilot creature tokens with ""This token saddles Mounts and crews Vehicles as though its power were 2 greater.""",7,7,,"Flying, Lifelink, First strike, Crew, Cycling",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/35/valors-flagship?utm_source=api
+36,Voyager Glidecar,{W},1.0,Artifact — Vehicle,rare,W,W,"When this Vehicle enters, scry 1.
+Tap three other untapped creatures you control: Until end of turn, this Vehicle becomes an artifact creature and gains flying. Put a +1/+1 counter on it.
+Crew 1",2,3,,"Crew, Scry",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/36/voyager-glidecar?utm_source=api
+37,Voyager Quickwelder,{2}{W},3.0,Artifact Creature — Robot Artificer,common,W,W,Artifact spells you cast cost {1} less to cast.,2,4,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/37/voyager-quickwelder?utm_source=api
+38,Aether Syphon,{1}{U}{U},3.0,Artifact,uncommon,U,U,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+{2}, {T}: Draw a card.
+Max speed — Whenever you draw a card, each opponent mills two cards. (Each opponent puts the top two cards of their library into their graveyard.)",,,,"Max speed, Mill, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/38/aether-syphon?utm_source=api
+39,Bounce Off,{U},1.0,Instant,common,U,U,Return target creature or Vehicle to its owner's hand.,,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/39/bounce-off?utm_source=api
+40,"Caelorna, Coral Tyrant",{1}{U},2.0,Legendary Creature — Octopus,uncommon,U,U,,0,8,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/40/caelorna-coral-tyrant?utm_source=api
+41,Diversion Unit,{1}{U},2.0,Artifact Creature — Robot,uncommon,U,U,"Flying
+{U}, Sacrifice this creature: Counter target instant or sorcery spell unless its controller pays {3}.",2,1,,Flying,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/41/diversion-unit?utm_source=api
+42,Flood the Engine,{2}{U},3.0,Enchantment — Aura,common,U,U,"Enchant creature or Vehicle
+When this Aura enters, tap enchanted permanent.
+Enchanted permanent loses all abilities and doesn't untap during its controller's untap step.",,,,Enchant,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/42/flood-the-engine?utm_source=api
+43,Gearseeker Serpent,{5}{U}{U},7.0,Creature — Serpent,common,U,U,"Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
+{5}{U}: This creature can't be blocked this turn.",5,6,,Affinity,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/43/gearseeker-serpent?utm_source=api
+44,Glitch Ghost Surveyor,{2}{U},3.0,Creature — Spirit Scout,common,U,U,"Flying
+Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+Max speed — {3}, Exile this card from your graveyard: Draw a card.",2,2,,"Flying, Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/44/glitch-ghost-surveyor?utm_source=api
+45,Guidelight Optimizer,{1}{U},2.0,Artifact Creature — Robot,common,U,U,{T}: Add {U}. Spend this mana only to cast an artifact spell or activate an ability.,2,1,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/45/guidelight-optimizer?utm_source=api
+46,Howler's Heavy,{3}{U},4.0,Creature — Seal Pirate,common,U,U,"Cycling {1}{U} ({1}{U}, Discard this card: Draw a card.)
+When you cycle this card, target creature or Vehicle an opponent controls gets -3/-0 until end of turn.",3,4,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/46/howlers-heavy?utm_source=api
+47,Hulldrifter,{3}{U}{U},5.0,Artifact — Vehicle,common,U,U,"Flying
+When this Vehicle enters, draw two cards.
+Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",3,2,,"Flying, Crew",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/47/hulldrifter?utm_source=api
+48,Keen Buccaneer,{2}{U},3.0,Creature — Octopus Pirate,common,U,U,"Vigilance
+Exhaust — {1}{U}: Draw a card, then discard a card. Put a +1/+1 counter on this creature. (Activate each exhaust ability only once.)",2,3,,"Vigilance, Exhaust",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/48/keen-buccaneer?utm_source=api
+49,Memory Guardian,{4}{U},5.0,Artifact Creature — Robot Artificer,uncommon,U,U,"Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
+Flying",3,4,,"Flying, Affinity",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/49/memory-guardian?utm_source=api
+50,Midnight Mangler,{1}{U},2.0,Artifact — Vehicle,common,U,U,"During turns other than yours, this Vehicle is an artifact creature.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)",3,3,,Crew,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/50/midnight-mangler?utm_source=api
+51,Mindspring Merfolk,{U},1.0,Creature — Merfolk Wizard,rare,U,U,"Exhaust — {X}{U}{U}, {T}: Draw X cards. Put a +1/+1 counter on each Merfolk creature you control. (Activate each exhaust ability only once.)",1,1,,Exhaust,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/51/mindspring-merfolk?utm_source=api
+52,"Mu Yanling, Wind Rider",{2}{U}{U},4.0,Legendary Creature — Human Wizard Pilot,mythic,U,U,"When Mu Yanling enters, create a 3/2 colorless Vehicle artifact token with crew 1.
+Vehicles you control have flying.
+Whenever one or more creatures you control with flying deal combat damage to a player, draw a card.",2,4,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/52/mu-yanling-wind-rider?utm_source=api
+53,Nimble Thopterist,{3}{U},4.0,Creature — Vedalken Artificer,common,U,U,"When this creature enters, create a 1/1 colorless Thopter artifact creature token with flying.",3,2,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/53/nimble-thopterist?utm_source=api
+54,Possession Engine,{3}{U}{U},5.0,Artifact — Vehicle,rare,U,U,"When this Vehicle enters, gain control of target creature an opponent controls for as long as you control this Vehicle. That creature can't attack or block for as long as you control this Vehicle.
+Crew 3",5,5,,Crew,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/54/possession-engine?utm_source=api
+55,Rangers' Refueler,{1}{U},2.0,Artifact — Vehicle,uncommon,U,U,"Whenever you activate an exhaust ability, draw a card.
+Exhaust — {4}: This Vehicle becomes an artifact creature. Put a +1/+1 counter on it. (Activate each exhaust ability only once.)
+Crew 2",3,3,,"Crew, Exhaust",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/55/rangers-refueler?utm_source=api
+56,Repurposing Bay,{2}{U},3.0,Artifact,rare,U,U,"{2}, {T}, Sacrifice another artifact: Search your library for an artifact card with mana value equal to 1 plus the sacrificed artifact's mana value, put that card onto the battlefield, then shuffle. Activate only as a sorcery.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/56/repurposing-bay?utm_source=api
+57,Riverchurn Monument,{1}{U},2.0,Artifact,rare,U,U,"{1}, {T}: Any number of target players each mill two cards. (Each of them puts the top two cards of their library into their graveyard.)
+Exhaust — {2}{U}{U}, {T}: Any number of target players each mill cards equal to the number of cards in their graveyard. (Activate each exhaust ability only once.)",,,,"Exhaust, Mill",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/57/riverchurn-monument?utm_source=api
+58,Roadside Blowout,{2}{U},3.0,Sorcery,uncommon,U,U,"This spell costs {2} less to cast if it targets a permanent with mana value 1.
+Return target creature or Vehicle an opponent controls to its owner's hand.
+Draw a card.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/58/roadside-blowout?utm_source=api
+59,Sabotage Strategist,{2}{U}{U},4.0,Creature — Vedalken Ranger,uncommon,U,U,"Flying, vigilance
+Whenever one or more creatures attack you, those creatures get -1/-0 until end of turn.
+Exhaust — {5}{U}{U}: Put three +1/+1 counters on this creature. (Activate each exhaust ability only once.)",2,2,,"Flying, Vigilance, Exhaust",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/59/sabotage-strategist?utm_source=api
+60,Scrounging Skyray,{1}{U},2.0,Creature — Fish Pirate,uncommon,U,U,"Flying
+Whenever you discard one or more cards, put that many +1/+1 counters on this creature.
+Cycling {2} ({2}, Discard this card: Draw a card.)",1,2,,"Flying, Cycling",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/60/scrounging-skyray?utm_source=api
+61,Skystreak Engineer,{1}{U},2.0,Creature — Human Pilot,common,U,U,"Flying
+Exhaust — {4}{U}: Put two +1/+1 counters on this creature. (Activate each exhaust ability only once.)",1,3,,"Flying, Exhaust",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/61/skystreak-engineer?utm_source=api
+62,Slick Imitator,{1}{U},2.0,Creature — Ooze,uncommon,U,U,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+Max speed — {1}, Sacrifice this creature: Copy target spell you control. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)",1,3,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/62/slick-imitator?utm_source=api
+63,Spectral Interference,{1}{U},2.0,Instant,common,U,U,Counter target artifact or creature spell unless its controller pays {4}.,,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/63/spectral-interference?utm_source=api
+64,Spell Pierce,{U},1.0,Instant,uncommon,U,U,Counter target noncreature spell unless its controller pays {2}.,,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/64/spell-pierce?utm_source=api
+65,Spikeshell Harrier,{4}{U},5.0,Artifact Creature — Robot Turtle,uncommon,U,U,"When this creature enters, return target creature or Vehicle an opponent controls to its owner's hand. If that opponent's speed is greater than each other player's speed, reduce that opponent's speed by 1. This effect can't reduce their speed below 1.",4,4,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/65/spikeshell-harrier?utm_source=api
+66,Stall Out,{1}{U},2.0,Sorcery,common,U,U,"Tap target creature or Vehicle, then put three stun counters on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+Cycling {2} ({2}, Discard this card: Draw a card.)",,,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/66/stall-out?utm_source=api
+67,Stock Up,{2}{U},3.0,Sorcery,uncommon,U,U,Look at the top five cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.,,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/67/stock-up?utm_source=api
+68,Thopter Fabricator,{2}{U},3.0,Artifact — Vehicle,rare,U,U,"Flying
+Whenever you draw your second card each turn, create a 1/1 colorless Thopter artifact creature token with flying.
+Crew 2",4,4,,"Flying, Crew",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/68/thopter-fabricator?utm_source=api
+69,Trade the Helm,{4}{U},5.0,Sorcery,uncommon,U,U,"Exchange control of target artifact or creature you control and target artifact or creature an opponent controls.
+Cycling {2} ({2}, Discard this card: Draw a card.)",,,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/69/trade-the-helm?utm_source=api
+70,Transit Mage,{2}{U},3.0,Creature — Human Wizard,uncommon,U,U,"When this creature enters, you may search your library for an artifact card with mana value 4 or 5, reveal it, put it into your hand, then shuffle.",2,2,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/70/transit-mage?utm_source=api
+71,Trip Up,{3}{U},4.0,Instant,common,U,U,"Target nonland permanent's owner puts it on their choice of the top or bottom of their library.
+Cycling {2} ({2}, Discard this card: Draw a card.)",,,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/71/trip-up?utm_source=api
+72,Unstoppable Plan,{2}{U},3.0,Enchantment,rare,U,U,"At the beginning of your end step, untap all nonland permanents you control.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/72/unstoppable-plan?utm_source=api
+73,"Vnwxt, Verbose Host",{1}{U},2.0,Legendary Creature — Homunculus,rare,U,U,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+You have no maximum hand size.
+Max speed — If you would draw a card, draw two cards instead.",0,4,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/73/vnwxt-verbose-host?utm_source=api
+74,Waxen Shapethief,{3}{U},4.0,Creature — Shapeshifter,rare,U,U,"Flash
+You may have this creature enter as a copy of an artifact or creature you control.
+Cycling {2} ({2}, Discard this card: Draw a card.)",0,0,,"Flash, Cycling",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/74/waxen-shapethief?utm_source=api
+75,Ancient Vendetta,{3}{B},4.0,Sorcery,uncommon,B,B,"Choose a card name. Search target opponent's graveyard, hand, and library for up to four cards with that name and exile them. Then that player shuffles.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/75/ancient-vendetta?utm_source=api
+76,Back on Track,{4}{B},5.0,Sorcery,uncommon,B,B,"Return target creature or Vehicle card from your graveyard to the battlefield. Create a 1/1 colorless Pilot creature token with ""This token saddles Mounts and crews Vehicles as though its power were 2 greater.""",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/76/back-on-track?utm_source=api
+77,Bloodghast,{B}{B},2.0,Creature — Vampire Spirit,rare,B,B,"This creature can't block.
+This creature has haste as long as an opponent has 10 or less life.
+Landfall — Whenever a land you control enters, you may return this card from your graveyard to the battlefield.",2,1,,Landfall,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/77/bloodghast?utm_source=api
+78,Carrion Cruiser,{2}{B},3.0,Artifact — Vehicle,uncommon,B,B,"When this Vehicle enters, mill two cards. Then return a creature or Vehicle card from your graveyard to your hand. (To mill two cards, put the top two cards of your library into your graveyard.)
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",3,2,,"Crew, Mill",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/78/carrion-cruiser?utm_source=api
+79,Chitin Gravestalker,{5}{B},6.0,Creature — Insect Warrior,common,B,B,"This spell costs {1} less to cast for each artifact and/or creature card in your graveyard.
+Cycling {2} ({2}, Discard this card: Draw a card.)",5,4,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/79/chitin-gravestalker?utm_source=api
+80,Cryptcaller Chariot,{3}{B},4.0,Artifact — Vehicle,rare,B,B,"Menace
+Whenever you discard one or more cards, create that many tapped 2/2 black Zombie creature tokens.
+Crew 2",5,5,,"Crew, Menace",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/80/cryptcaller-chariot?utm_source=api
+81,Cursecloth Wrappings,{2}{B}{B},4.0,Artifact,rare,B,B,"Zombies you control get +1/+1.
+{T}: Target creature card in your graveyard gains embalm until end of turn. The embalm cost is equal to its mana cost. (Exile that card and pay its embalm cost: Create a token that's a copy of it, except it's a white Zombie in addition to its other types and has no mana cost. Embalm only as a sorcery.)",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/81/cursecloth-wrappings?utm_source=api
+82,Deathless Pilot,{1}{B},2.0,Creature — Zombie Pilot,common,B,B,"This creature saddles Mounts and crews Vehicles as though its power were 2 greater.
+{3}{B}: Return this card from your graveyard to your hand.",2,2,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/82/deathless-pilot?utm_source=api
+83,Demonic Junker,{6}{B},7.0,Artifact — Vehicle,rare,B,B,"Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
+When this Vehicle enters, for each player, destroy up to one target creature that player controls. If a creature you controlled was destroyed this way, put two +1/+1 counters on this Vehicle.
+Crew 2",4,3,,"Affinity, Crew",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/83/demonic-junker?utm_source=api
+84,Engine Rat,{B},1.0,Creature — Zombie Rat,common,B,B,"Deathtouch
+{5}{B}: Each opponent loses 2 life.",1,1,,Deathtouch,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/84/engine-rat?utm_source=api
+85,Gas Guzzler,{B},1.0,Creature — Vampire Rogue,rare,B,B,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+This creature enters tapped.
+Max speed — {B}, Sacrifice another creature or Vehicle: Draw a card.",2,1,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/85/gas-guzzler?utm_source=api
+86,Gastal Raider,{2}{B},3.0,Creature — Vampire Rogue,uncommon,B,B,"Start your engines!
+When this creature enters, target opponent reveals their hand. You choose an instant or sorcery card from it. That player discards that card.
+Max speed — This creature gets +1/+1 and has menace.",2,1,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/86/gastal-raider?utm_source=api
+87,"Gonti, Night Minister",{2}{B}{B},4.0,Legendary Creature — Aetherborn Rogue,rare,B,B,"Whenever a player casts a spell they don't own, that player creates a Treasure token.
+Whenever a creature deals combat damage to one of your opponents, its controller looks at the top card of that opponent's library and exiles it face down. They may play that card for as long as it remains exiled. Mana of any type can be spent to cast a spell this way.",3,4,,Treasure,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/87/gonti-night-minister?utm_source=api
+88,Grim Bauble,{B},1.0,Artifact,common,B,B,"When this artifact enters, target creature an opponent controls gets -2/-2 until end of turn.
+{2}{B}, {T}, Sacrifice this artifact: Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",,,,Surveil,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/88/grim-bauble?utm_source=api
+89,Grim Javelineer,{2}{B},3.0,Creature — Human Warrior,common,B,B,"Whenever you attack, target attacking creature gets +1/+0 until end of turn. When that creature dies this turn, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",3,2,,Surveil,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/89/grim-javelineer?utm_source=api
+90,Hellish Sideswipe,{B},1.0,Sorcery,uncommon,B,B,"As an additional cost to cast this spell, sacrifice an artifact or creature.
+Destroy target creature or Vehicle. If the sacrificed permanent was a Vehicle, draw a card.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/90/hellish-sideswipe?utm_source=api
+91,Hour of Victory,{2}{B},3.0,Enchantment,uncommon,B,B,"Start your engines!
+When this enchantment enters, create a 2/2 black Zombie creature token.
+Max speed — {1}{B}, Sacrifice this enchantment: Search your library for a card, put it into your hand, then shuffle. Activate only as a sorcery.",,,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/91/hour-of-victory?utm_source=api
+92,Intimidation Tactics,{B},1.0,Sorcery,uncommon,B,B,"Target opponent reveals their hand. You choose an artifact or creature card from it. Exile that card.
+Cycling {3} ({3}, Discard this card: Draw a card.)",,,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/92/intimidation-tactics?utm_source=api
+93,"Kalakscion, Hunger Tyrant",{1}{B}{B},3.0,Legendary Creature — Crocodile,uncommon,B,B,,7,2,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/93/kalakscion-hunger-tyrant?utm_source=api
+94,The Last Ride,{B},1.0,Legendary Artifact — Vehicle,mythic,B,B,"The Last Ride gets -X/-X, where X is your life total.
+{2}{B}, Pay 2 life: Draw a card.
+Crew 2",13,13,,Crew,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/94/the-last-ride?utm_source=api
+95,Locust Spray,{B},1.0,Instant,uncommon,B,B,"Target creature gets -1/-1 until end of turn.
+Cycling {B} ({B}, Discard this card: Draw a card.)",,,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/95/locust-spray?utm_source=api
+96,Maximum Overdrive,{1}{B},2.0,Instant,common,B,B,Put a +1/+1 counter on target creature. It gains deathtouch and indestructible until end of turn.,,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/96/maximum-overdrive?utm_source=api
+97,Momentum Breaker,{1}{B},2.0,Enchantment,uncommon,B,B,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+When this enchantment enters, each opponent sacrifices a creature or Vehicle of their choice. Each opponent who can't discards a card.
+{2}, Sacrifice this enchantment: You gain life equal to your speed.",,,,Start your engines!,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/97/momentum-breaker?utm_source=api
+98,Mutant Surveyor,{2}{B},3.0,Creature — Mutant Scout,common,B,B,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+{2}: This creature gets +1/+1 until end of turn.
+Max speed — {3}, Exile this card from your graveyard: Draw a card.",2,3,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/98/mutant-surveyor?utm_source=api
+99,Pactdoll Terror,{3}{B},4.0,Artifact Creature — Toy,common,B,B,"Whenever this creature or another artifact you control enters, each opponent loses 1 life and you gain 1 life.",3,4,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/99/pactdoll-terror?utm_source=api
+100,Quag Feast,{1}{B},2.0,Sorcery,rare,B,B,"Choose target creature, planeswalker, or Vehicle. Mill two cards, then destroy the chosen permanent if its mana value is less than or equal to the number of cards in your graveyard.",,,,Mill,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/100/quag-feast?utm_source=api
+101,Ripclaw Wrangler,{3}{B},4.0,Artifact — Vehicle,common,B,B,"When this Vehicle enters, each opponent discards a card.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)",4,3,,Crew,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/101/ripclaw-wrangler?utm_source=api
+102,Risen Necroregent,{4}{B},5.0,Creature — Zombie Cat Knight,uncommon,B,B,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+Max speed — At the beginning of your end step, create a 2/2 black Zombie creature token.",5,4,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/102/risen-necroregent?utm_source=api
+103,Risky Shortcut,{2}{B},3.0,Sorcery,common,B,B,Draw two cards. Each player loses 2 life.,,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/103/risky-shortcut?utm_source=api
+104,Shefet Archfiend,{5}{B}{B},7.0,Creature — Demon,uncommon,B,B,"Flying
+When this creature enters, all other creatures get -2/-2 until end of turn.
+Cycling {2} ({2}, Discard this card: Draw a card.)",5,5,,"Flying, Cycling",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/104/shefet-archfiend?utm_source=api
+105,The Speed Demon,{3}{B}{B},5.0,Legendary Creature — Demon,mythic,B,B,"Flying, trample
+Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+At the beginning of your end step, you draw X cards and lose X life, where X is your speed.",5,5,,"Flying, Trample, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/105/the-speed-demon?utm_source=api
+106,Spin Out,{1}{B}{B},3.0,Instant,common,B,B,Destroy target creature or Vehicle.,,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/106/spin-out?utm_source=api
+107,Streaking Oilgorger,{4}{B},5.0,Creature — Vampire,common,B,B,"Flying, haste
+Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+Max speed — This creature has lifelink.",3,3,,"Flying, Max speed, Haste, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/107/streaking-oilgorger?utm_source=api
+108,Syphon Fuel,{4}{B},5.0,Instant,common,B,B,Target creature gets -6/-6 until end of turn. You gain 2 life.,,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/108/syphon-fuel?utm_source=api
+109,Wickerfolk Indomitable,{3}{B},4.0,Artifact Creature — Scarecrow,uncommon,B,B,You may cast this card from your graveyard by paying 2 life and sacrificing an artifact or creature in addition to paying its other costs.,4,3,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/109/wickerfolk-indomitable?utm_source=api
+110,Wreckage Wickerfolk,{1}{B},2.0,Artifact Creature — Scarecrow,common,B,B,"Flying
+When this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",1,3,,"Flying, Surveil",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/110/wreckage-wickerfolk?utm_source=api
+111,Wretched Doll,{1}{B},2.0,Artifact Creature — Toy,uncommon,B,B,"{B}, {T}: Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)",3,1,,Surveil,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/111/wretched-doll?utm_source=api
+112,Adrenaline Jockey,{2}{R},3.0,Creature — Minotaur Pilot,uncommon,R,R,"Whenever a player casts a spell, if it's not their turn, this creature deals 4 damage to them.
+Whenever you activate an exhaust ability, put a +1/+1 counter on this creature.",3,3,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/112/adrenaline-jockey?utm_source=api
+113,Boommobile,{2}{R}{R},4.0,Artifact — Vehicle,rare,R,R,"When this Vehicle enters, add four mana of any one color. Spend this mana only to activate abilities.
+Exhaust — {X}{2}{R}: This Vehicle deals X damage to any target. Put a +1/+1 counter on this Vehicle. (Activate each exhaust ability only once.)
+Crew 2",5,5,,"Crew, Exhaust",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/113/boommobile?utm_source=api
+114,Burner Rocket,{1}{R},2.0,Artifact — Vehicle,common,R,R,"Flash
+When this Vehicle enters, target creature you control gets +2/+0 and gains trample until end of turn.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",3,1,,"Crew, Flash",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/114/burner-rocket?utm_source=api
+115,Burnout Bashtronaut,{R},1.0,Creature — Goblin Warrior,rare,R,R,"Menace
+Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+{2}: This creature gets +1/+0 until end of turn.
+Max speed — This creature has double strike.",1,1,,"Max speed, Menace, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/115/burnout-bashtronaut?utm_source=api
+116,"Chandra, Spark Hunter",{3}{R},4.0,Legendary Planeswalker — Chandra,mythic,R,R,"At the beginning of combat on your turn, choose up to one target Vehicle you control. Until end of turn, it becomes an artifact creature and gains haste.
++2: You may sacrifice an artifact or discard a card. If you do, draw a card.
+0: Create a 3/2 colorless Vehicle artifact token with crew 1.
+−7: You get an emblem with ""Whenever an artifact you control enters, this emblem deals 3 damage to any target.""",,,4,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/116/chandra-spark-hunter?utm_source=api
+117,Clamorous Ironclad,{3}{R},4.0,Artifact — Vehicle,common,R,R,"Menace (This creature can't be blocked except by two or more creatures.)
+Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)
+Cycling {R} ({R}, Discard this card: Draw a card.)",6,3,,"Crew, Menace, Cycling",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/117/clamorous-ironclad?utm_source=api
+118,Count on Luck,{R}{R}{R},3.0,Enchantment,rare,R,R,"At the beginning of your upkeep, exile the top card of your library. You may play that card this turn.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/118/count-on-luck?utm_source=api
+119,Crash and Burn,{3}{R},4.0,Instant,common,R,R,"Choose one —
+• Destroy target Vehicle.
+• Crash and Burn deals 6 damage to target creature or planeswalker.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/119/crash-and-burn?utm_source=api
+120,"Daretti, Rocketeer Engineer",{4}{R},5.0,Legendary Creature — Goblin Artificer,rare,R,R,"Daretti's power is equal to the greatest mana value among artifacts you control.
+Whenever Daretti enters or attacks, choose target artifact card in your graveyard. You may sacrifice an artifact. If you do, return the chosen card to the battlefield.",*,5,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/120/daretti-rocketeer-engineer?utm_source=api
+121,Draconautics Engineer,{1}{R},2.0,Creature — Goblin Artificer,rare,R,R,"Exhaust — {R}: Other creatures you control gain haste until end of turn. Put a +1/+1 counter on this creature. (Activate each exhaust ability only once.)
+Exhaust — {3}{R}: Create a 4/4 red Dinosaur Dragon creature token with flying.",2,2,,Exhaust,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/121/draconautics-engineer?utm_source=api
+122,Dracosaur Auxiliary,{4}{R}{R},6.0,Creature — Dinosaur Dragon Mount,uncommon,R,R,"Flying, haste
+Whenever this creature attacks while saddled, it deals 2 damage to any target.
+Saddle 3 (Tap any number of other creatures you control with total power 3 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)",4,4,,"Flying, Saddle, Haste",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/122/dracosaur-auxiliary?utm_source=api
+123,Dynamite Diver,{R},1.0,Creature — Goblin Pilot,common,R,R,"This creature saddles Mounts and crews Vehicles as though its power were 2 greater.
+When this creature dies, it deals 1 damage to any target.",1,1,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/123/dynamite-diver?utm_source=api
+124,Endrider Catalyzer,{1}{R},2.0,Creature — Human Warrior,common,R,R,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+Max speed — {T}: Add {R}{R}.",3,1,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/124/endrider-catalyzer?utm_source=api
+125,Endrider Spikespitter,{3}{R},4.0,Creature — Human Mercenary,uncommon,R,R,"Reach
+Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+Max speed — At the beginning of your upkeep, exile the top card of your library. You may play that card this turn.",3,4,,"Reach, Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/125/endrider-spikespitter?utm_source=api
+126,Fuel the Flames,{2}{R},3.0,Instant,uncommon,R,R,"Fuel the Flames deals 2 damage to each creature.
+Cycling {2} ({2}, Discard this card: Draw a card.)",,,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/126/fuel-the-flames?utm_source=api
+127,Full Throttle,{4}{R}{R},6.0,Sorcery,rare,R,R,"After this main phase, there are two additional combat phases.
+At the beginning of each combat this turn, untap all creatures that attacked this turn.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/127/full-throttle?utm_source=api
+128,Gastal Blockbuster,{2}{R},3.0,Creature — Human Berserker,common,R,R,"When this creature enters, you may sacrifice a creature or Vehicle. When you do, destroy target artifact an opponent controls.",3,2,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/128/gastal-blockbuster?utm_source=api
+129,Gastal Thrillroller,{2}{R},3.0,Artifact — Vehicle,rare,R,R,"Trample, haste
+When this Vehicle enters, it becomes an artifact creature until end of turn.
+Crew 2
+{2}{R}, Discard a card: Return this card from your graveyard to the battlefield with a finality counter on it. Activate only as a sorcery.",4,2,,"Haste, Crew, Trample",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/129/gastal-thrillroller?utm_source=api
+130,Gilded Ghoda,{1}{R},2.0,Creature — Horse Mount,common,R,R,"Whenever this creature attacks while saddled, create a Treasure token. (It's an artifact with ""{T}, Sacrifice this token: Add one mana of any color."")
+Saddle 1 (Tap any number of other creatures you control with total power 1 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)",2,2,,"Saddle, Treasure",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/130/gilded-ghoda?utm_source=api
+131,Goblin Surveyor,{2}{R},3.0,Creature — Goblin Scout,common,R,R,"Trample
+Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+Max speed — {3}, Exile this card from your graveyard: Draw a card.",3,2,,"Max speed, Trample, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/131/goblin-surveyor?utm_source=api
+132,Greasewrench Goblin,{R},1.0,Creature — Goblin Artificer,uncommon,R,R,"Exhaust — {2}{R}: Discard up to two cards, then draw that many cards. Put a +1/+1 counter on this creature. (Activate each exhaust ability only once.)",2,1,,Exhaust,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/132/greasewrench-goblin?utm_source=api
+133,"Hazoret, Godseeker",{1}{R},2.0,Legendary Creature — God,mythic,R,R,"Indestructible, haste
+Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+{1}, {T}: Target creature with power 2 or less can't be blocked this turn.
+Hazoret can't attack or block unless you have max speed.",5,3,,"Indestructible, Haste, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/133/hazoret-godseeker?utm_source=api
+134,Howlsquad Heavy,{2}{R},3.0,Creature — Goblin Mercenary,rare,R,R,"Start your engines!
+Other Goblins you control have haste.
+At the beginning of combat on your turn, create a 1/1 red Goblin creature token. That token attacks this combat if able.
+Max speed — {T}: Add {R} for each Goblin you control.",2,3,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/134/howlsquad-heavy?utm_source=api
+135,Kickoff Celebrations,{1}{R},2.0,Enchantment,common,R,R,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+When this enchantment enters, you may discard a card. If you do, draw two cards.
+Max speed — Sacrifice this enchantment: Creatures and Vehicles you control gain haste until end of turn.",,,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/135/kickoff-celebrations?utm_source=api
+136,Lightning Strike,{1}{R},2.0,Instant,common,R,R,Lightning Strike deals 3 damage to any target.,,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/136/lightning-strike?utm_source=api
+137,Magmakin Artillerist,{2}{R},3.0,Creature — Elemental Pirate,common,R,R,"Whenever you discard one or more cards, this creature deals that much damage to each opponent.
+Cycling {1}{R} ({1}{R}, Discard this card: Draw a card.)
+When you cycle this card, it deals 1 damage to each opponent.",1,4,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/137/magmakin-artillerist?utm_source=api
+138,Marauding Mako,{R},1.0,Creature — Shark Pirate,uncommon,R,R,"Whenever you discard one or more cards, put that many +1/+1 counters on this creature.
+Cycling {2} ({2}, Discard this card: Draw a card.)",1,1,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/138/marauding-mako?utm_source=api
+139,Outpace Oblivion,{2}{R},3.0,Enchantment,uncommon,R,R,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+When this enchantment enters, it deals 5 damage to up to one target creature or planeswalker.
+{2}, Sacrifice this enchantment: It deals 2 damage to each player who doesn't have max speed.",,,,Start your engines!,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/139/outpace-oblivion?utm_source=api
+140,Pacesetter Paragon,{2}{R},3.0,Creature — Human Pilot,uncommon,R,R,Exhaust — {2}{R}: Put a +1/+1 counter on this creature. It gains double strike until end of turn. (Activate each exhaust ability only once.),2,3,,Exhaust,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/140/pacesetter-paragon?utm_source=api
+141,Pedal to the Metal,{X}{R},1.0,Instant,common,R,R,Target creature gets +X/+0 and gains first strike until end of turn.,,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/141/pedal-to-the-metal?utm_source=api
+142,Prowcatcher Specialist,{1}{R},2.0,Creature — Goblin Warrior,common,R,R,"Haste
+Exhaust — {3}{R}: Put two +1/+1 counters on this creature. (Activate each exhaust ability only once.)",2,1,,"Haste, Exhaust",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/142/prowcatcher-specialist?utm_source=api
+143,Push the Limit,{5}{R}{R},7.0,Sorcery,uncommon,R,R,"Return all Mount and Vehicle cards from your graveyard to the battlefield. Sacrifice them at the beginning of the next end step.
+Vehicles you control become artifact creatures until end of turn. Creatures you control gain haste until end of turn.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/143/push-the-limit?utm_source=api
+144,Reckless Velocitaur,{3}{R},4.0,Creature — Minotaur Pilot,uncommon,R,R,"Whenever this creature saddles a Mount or crews a Vehicle during your main phase, that Mount or Vehicle gets +2/+0 and gains trample until end of turn.",3,3,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/144/reckless-velocitaur?utm_source=api
+145,Road Rage,{R},1.0,Instant,uncommon,R,R,"Road Rage deals X damage to target creature or planeswalker, where X is 2 plus the number of Mounts and Vehicles you control.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/145/road-rage?utm_source=api
+146,Skycrash,{1}{R},2.0,Instant,uncommon,R,R,"Destroy target artifact.
+Cycling {R} ({R}, Discard this card: Draw a card.)",,,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/146/skycrash?utm_source=api
+147,Spire Mechcycle,{4}{R},5.0,Artifact — Vehicle,uncommon,R,R,"Haste
+Exhaust — Tap another untapped Mount or Vehicle you control: This Vehicle becomes an artifact creature. Put a +1/+1 counter on it for each Mount and/or Vehicle you control other than this Vehicle. (Activate each exhaust ability only once.)
+Crew 2",5,4,,"Haste, Crew, Exhaust",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/147/spire-mechcycle?utm_source=api
+148,Thunderhead Gunner,{4}{R},5.0,Creature — Shark Pirate,common,R,R,"Reach
+Discard a card: Draw a card. Activate only as a sorcery and only once each turn.",4,5,,Reach,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/148/thunderhead-gunner?utm_source=api
+149,"Tyrox, Saurid Tyrant",{1}{R},2.0,Legendary Creature — Dinosaur Warrior,uncommon,R,R,,4,1,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/149/tyrox-saurid-tyrant?utm_source=api
+150,Afterburner Expert,{2}{G},3.0,Creature — Goblin Artificer,rare,G,G,"Exhaust — {2}{G}{G}: Put two +1/+1 counters on this creature. (Activate each exhaust ability only once.)
+Whenever you activate an exhaust ability, return this card from your graveyard to the battlefield.",4,2,,Exhaust,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/150/afterburner-expert?utm_source=api
+151,Agonasaur Rex,{3}{G}{G},5.0,Creature — Dinosaur,rare,G,G,"Trample
+Cycling {2}{G} ({2}{G}, Discard this card: Draw a card.)
+When you cycle this card, put two +1/+1 counters on up to one target creature or Vehicle. It gains trample and indestructible until end of turn.",8,8,,"Trample, Cycling",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/151/agonasaur-rex?utm_source=api
+152,Alacrian Jaguar,{4}{G},5.0,Creature — Cat Mount,common,G,G,"Vigilance
+Whenever this creature attacks while saddled, it gets +2/+2 until end of turn.
+Saddle 1 (Tap any number of other creatures you control with total power 1 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)",4,4,,"Saddle, Vigilance",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/152/alacrian-jaguar?utm_source=api
+153,Autarch Mammoth,{4}{G}{G},6.0,Creature — Elephant Mount,uncommon,G,G,"When this creature enters and whenever it attacks while saddled, create a 3/3 green Elephant creature token.
+Saddle 5 (Tap any number of other creatures you control with total power 5 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)",5,5,,Saddle,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/153/autarch-mammoth?utm_source=api
+154,Beastrider Vanguard,{1}{G},2.0,Creature — Human Knight,common,G,G,{4}{G}: Look at the top three cards of your library. You may reveal a permanent card from among them and put it into your hand. Put the rest on the bottom of your library in any order.,2,2,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/154/beastrider-vanguard?utm_source=api
+155,Bestow Greatness,{2}{G},3.0,Instant,common,G,G,Target creature gets +4/+4 and gains trample until end of turn.,,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/155/bestow-greatness?utm_source=api
+156,Broken Wings,{2}{G},3.0,Instant,common,G,G,"Destroy target artifact, enchantment, or creature with flying.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/156/broken-wings?utm_source=api
+157,Defend the Rider,{G},1.0,Instant,uncommon,G,G,"Choose one —
+• Target permanent you control gains hexproof and indestructible until end of turn.
+• Create a 1/1 colorless Pilot creature token with ""This token saddles Mounts and crews Vehicles as though its power were 2 greater.""",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/157/defend-the-rider?utm_source=api
+158,District Mascot,{G},1.0,Creature — Dog Mount,rare,G,G,"This creature enters with a +1/+1 counter on it.
+{1}{G}, Remove two +1/+1 counters from this creature: Destroy target artifact.
+Whenever this creature attacks while saddled, put a +1/+1 counter on it.
+Saddle 1",0,0,,Saddle,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/158/district-mascot?utm_source=api
+159,Dredger's Insight,{1}{G},2.0,Enchantment,uncommon,G,G,"Whenever one or more artifact and/or creature cards leave your graveyard, you gain 1 life.
+When this enchantment enters, mill four cards. You may put an artifact, creature, or land card from among the milled cards into your hand. (To mill four cards, put the top four cards of your library into your graveyard.)",,,,Mill,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/159/dredgers-insight?utm_source=api
+160,Earthrumbler,{4}{G},5.0,Artifact — Vehicle,uncommon,G,G,"Vigilance, trample
+Exile an artifact or creature card from your graveyard: This Vehicle becomes an artifact creature until end of turn.
+Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",7,6,,"Vigilance, Crew, Trample",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/160/earthrumbler?utm_source=api
+161,Elvish Refueler,{2}{G},3.0,Creature — Elf Druid,uncommon,G,G,"During your turn, as long as you haven't activated an exhaust ability this turn, you may activate exhaust abilities as though they haven't been activated.
+Exhaust — {1}{G}: Put a +1/+1 counter on this creature. (Activate each exhaust ability only once.)",2,3,,Exhaust,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/161/elvish-refueler?utm_source=api
+162,Fang Guardian,{3}{G},4.0,Creature — Ape Druid,uncommon,G,G,"Flash
+When this creature enters, another target creature or Vehicle you control gets +2/+2 until end of turn.",4,2,,Flash,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/162/fang-guardian?utm_source=api
+163,Fang-Druid Summoner,{3}{G},4.0,Creature — Ape Druid,uncommon,G,G,"Reach
+When this creature enters, you may search your library and/or graveyard for a creature card with no abilities, reveal it, and put it into your hand. If you search your library this way, shuffle.",2,4,,Reach,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/163/fang-druid-summoner?utm_source=api
+164,Greenbelt Guardian,{1}{G},2.0,Creature — Elf Ranger,uncommon,G,G,"{G}: Target creature gains trample until end of turn.
+Exhaust — {3}{G}: Put three +1/+1 counters on this creature. (Activate each exhaust ability only once.)",2,2,,Exhaust,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/164/greenbelt-guardian?utm_source=api
+165,Hazard of the Dunes,{3}{G},4.0,Creature — Wurm,common,G,G,"Trample, reach
+Exhaust — {6}{G}: Put three +1/+1 counters on this creature. (Activate each exhaust ability only once.)",4,4,,"Reach, Trample, Exhaust",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/165/hazard-of-the-dunes?utm_source=api
+166,Jibbirik Omnivore,{1}{G},2.0,Creature — Beast,common,G,G,,3,2,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/166/jibbirik-omnivore?utm_source=api
+167,Loxodon Surveyor,{2}{G},3.0,Creature — Elephant Scout,common,G,G,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+Max speed — {3}, Exile this card from your graveyard: Draw a card.",3,3,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/167/loxodon-surveyor?utm_source=api
+168,Lumbering Worldwagon,{2}{G},3.0,Artifact — Vehicle,rare,G,G,"This Vehicle's power is equal to the number of lands you control.
+Whenever this Vehicle enters or attacks, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Crew 4",*,4,,Crew,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/168/lumbering-worldwagon?utm_source=api
+169,March of the World Ooze,{3}{G}{G}{G},6.0,Enchantment,mythic,G,G,"Creatures you control have base power and toughness 6/6 and are Oozes in addition to their other types.
+Whenever an opponent casts a spell, if it's not their turn, you create a 3/3 green Elephant creature token.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/169/march-of-the-world-ooze?utm_source=api
+170,Migrating Ketradon,{4}{G}{G},6.0,Creature — Dinosaur,common,G,G,"Reach
+When this creature enters, you gain 4 life.
+Cycling {2} ({2}, Discard this card: Draw a card.)",6,6,,"Reach, Cycling",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/170/migrating-ketradon?utm_source=api
+171,Molt Tender,{G},1.0,Creature — Insect Druid,uncommon,G,G,"{T}: Mill a card. (Put the top card of your library into your graveyard.)
+{T}, Exile a card from your graveyard: Add one mana of any color.",1,1,,Mill,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/171/molt-tender?utm_source=api
+172,Ooze Patrol,{3}{G},4.0,Creature — Ooze,uncommon,G,G,"When this creature enters, mill two cards, then put a +1/+1 counter on this creature for each artifact and/or creature card in your graveyard. (To mill two cards, put the top two cards of your library into your graveyard.)",2,2,,Mill,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/172/ooze-patrol?utm_source=api
+173,"Oviya, Automech Artisan",{3}{G},4.0,Legendary Creature — Human Artificer,rare,G,G,"Each creature that's attacking one of your opponents has trample.
+{G}, {T}: You may put a creature or Vehicle card from your hand onto the battlefield. If you put an artifact onto the battlefield this way, put two +1/+1 counters on it.",1,2,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/173/oviya-automech-artisan?utm_source=api
+174,Plow Through,{G},1.0,Sorcery,uncommon,G,G,"Choose one —
+• Target creature you control fights target creature an opponent controls. (Each deals damage equal to its power to the other.)
+• Destroy target Vehicle.",,,,Fight,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/174/plow-through?utm_source=api
+175,Point the Way,{G},1.0,Enchantment,uncommon,G,G,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+{3}{G}, Sacrifice this enchantment: Search your library for up to X basic land cards, where X is your speed. Put those cards onto the battlefield tapped, then shuffle.",,,,Start your engines!,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/175/point-the-way?utm_source=api
+176,Pothole Mole,{2}{G},3.0,Creature — Mole,common,G,G,"When this creature enters, mill three cards, then you may return a land card from your graveyard to your hand. (To mill three cards, put the top three cards of your library into your graveyard.)",2,3,,Mill,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/176/pothole-mole?utm_source=api
+177,Regal Imperiosaur,{1}{G}{G},3.0,Creature — Dinosaur,rare,G,G,Other Dinosaurs you control get +1/+1.,5,4,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/177/regal-imperiosaur?utm_source=api
+178,Rise from the Wreck,{2}{G},3.0,Sorcery,uncommon,G,G,"Return up to one target creature card, up to one target Mount card, up to one target Vehicle card, and up to one target creature card with no abilities from your graveyard to your hand.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/178/rise-from-the-wreck?utm_source=api
+179,Run Over,{1}{G},2.0,Instant,common,G,G,"This spell costs {1} less to cast if it targets a Mount or Vehicle you control.
+Target creature you control deals damage equal to its power to target creature an opponent controls.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/179/run-over?utm_source=api
+180,Silken Strength,{1}{G},2.0,Enchantment — Aura,common,G,G,"Flash
+Enchant creature or Vehicle
+When this Aura enters, untap enchanted permanent.
+Enchanted permanent gets +1/+2 and has reach.",,,,"Enchant, Flash",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/180/silken-strength?utm_source=api
+181,Stampeding Scurryfoot,{G},1.0,Creature — Mouse,common,G,G,Exhaust — {3}{G}: Put a +1/+1 counter on this creature. Create a 3/3 green Elephant creature token. (Activate each exhaust ability only once.),1,1,,Exhaust,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/181/stampeding-scurryfoot?utm_source=api
+182,"Terrian, World Tyrant",{2}{G}{G}{G},5.0,Legendary Creature — Dinosaur Ooze,uncommon,G,G,,9,7,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/182/terrian-world-tyrant?utm_source=api
+183,Thunderous Velocipede,{1}{G}{G},3.0,Artifact — Vehicle,mythic,G,G,"Trample
+Each other Vehicle and creature you control enters with an additional +1/+1 counter on it if its mana value is 4 or less. Otherwise, it enters with three additional +1/+1 counters on it.
+Crew 3",5,5,,"Crew, Trample",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/183/thunderous-velocipede?utm_source=api
+184,Veloheart Bike,{2}{G},3.0,Artifact — Vehicle,common,G,G,"When this Vehicle enters, you gain 2 life.
+{T}: Add one mana of any color.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)",4,2,,Crew,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/184/veloheart-bike?utm_source=api
+185,Venomsac Lagac,{1}{G},2.0,Creature — Lizard Mount,common,G,G,"Deathtouch
+Whenever this creature attacks while saddled, it gets +0/+3 until end of turn.
+Saddle 2 (Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)",2,1,,"Saddle, Deathtouch",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/185/venomsac-lagac?utm_source=api
+186,Webstrike Elite,{G}{G},2.0,Creature — Insect Archer,rare,G,G,"Reach
+Cycling {X}{G}{G} ({X}{G}{G}, Discard this card: Draw a card.)
+When you cycle this card, destroy up to one target artifact or enchantment with mana value X.",3,3,,"Reach, Cycling",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/186/webstrike-elite?utm_source=api
+187,"Aatchik, Emerald Radian",{3}{B}{B}{G},6.0,Legendary Creature — Insect Druid,rare,"B, G","B, G","When Aatchik enters, create a 1/1 green Insect creature token for each artifact and/or creature card in your graveyard.
+Whenever another Insect you control dies, put a +1/+1 counter on Aatchik. Each opponent loses 1 life.",3,3,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/187/aatchik-emerald-radian?utm_source=api
+188,Apocalypse Runner,{2}{B}{R},4.0,Artifact — Vehicle,uncommon,"B, R","B, R","{T}: Target creature you control with power 2 or less gains lifelink until end of turn and can't be blocked this turn.
+Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",6,5,,Crew,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/188/apocalypse-runner?utm_source=api
+189,Boom Scholar,{1}{R}{G},3.0,Creature — Goblin Advisor,uncommon,"G, R","G, R","Exhaust abilities of other permanents you control cost {2} less to activate.
+Exhaust — {4}{R}{G}: Creatures and Vehicles you control gain trample until end of turn. Put two +1/+1 counters on this creature. (Activate each exhaust ability only once.)",3,3,,Exhaust,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/189/boom-scholar?utm_source=api
+190,Boosted Sloop,{1}{U}{R},3.0,Artifact — Vehicle,uncommon,"R, U","R, U","Menace
+Whenever you attack, draw a card, then discard a card.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",3,3,,"Crew, Menace",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/190/boosted-sloop?utm_source=api
+191,Brightglass Gearhulk,{G}{G}{W}{W},4.0,Artifact Creature — Construct,mythic,"G, W","G, W","First strike, trample
+When this creature enters, you may search your library for up to two artifact, creature, and/or enchantment cards with mana value 1 or less, reveal them, put them into your hand, then shuffle.",4,4,,"First strike, Trample",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/191/brightglass-gearhulk?utm_source=api
+192,Broadside Barrage,{1}{U}{R},3.0,Instant,uncommon,"R, U","R, U","Broadside Barrage deals 5 damage to target creature or planeswalker. Draw a card, then discard a card.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/192/broadside-barrage?utm_source=api
+193,Broodheart Engine,{B}{G},2.0,Artifact,uncommon,"B, G","B, G","At the beginning of your upkeep, surveil 1.
+{2}{B}{G}, {T}, Sacrifice this artifact: Return target creature or Vehicle card from your graveyard to the battlefield. Activate only as a sorcery.",,,,Surveil,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/193/broodheart-engine?utm_source=api
+194,"Captain Howler, Sea Scourge",{2}{U}{R},4.0,Legendary Creature — Shark Pirate,rare,"R, U","R, U","Ward—{2}, Pay 2 life.
+Whenever you discard one or more cards, target creature gets +2/+0 until end of turn for each card discarded this way. Whenever that creature deals combat damage to a player this turn, you draw a card.",5,4,,Ward,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/194/captain-howler-sea-scourge?utm_source=api
+195,"Caradora, Heart of Alacria",{2}{G}{W},4.0,Legendary Creature — Human Knight,rare,"G, W","G, W","When Caradora enters, you may search your library for a Mount or Vehicle card, reveal it, put it into your hand, then shuffle.
+If one or more +1/+1 counters would be put on a creature or Vehicle you control, that many plus one +1/+1 counters are put on it instead.",4,2,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/195/caradora-heart-of-alacria?utm_source=api
+196,Cloudspire Coordinator,{R}{W},2.0,Creature — Human Pilot,uncommon,"R, W","R, W","When this creature enters, scry 2.
+{T}: Create X 1/1 colorless Pilot creature tokens, where X is the number of Mounts and/or Vehicles that entered the battlefield under your control this turn. The tokens have ""This token saddles Mounts and crews Vehicles as though its power were 2 greater.""",3,1,,Scry,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/196/cloudspire-coordinator?utm_source=api
+197,Cloudspire Skycycle,{2}{R}{W},4.0,Artifact — Vehicle,uncommon,"R, W","R, W","Flying
+When this Vehicle enters, distribute two +1/+1 counters among one or two other target Vehicles and/or creatures you control.
+Crew 1",2,3,,"Flying, Crew",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/197/cloudspire-skycycle?utm_source=api
+198,Coalstoke Gearhulk,{1}{B}{B}{R}{R},5.0,Artifact Creature — Construct,mythic,"B, R","B, R","Menace, deathtouch
+When this creature enters, put target creature card with mana value 4 or less from a graveyard onto the battlefield under your control with a finality counter on it. That creature gains menace, deathtouch, and haste. At the beginning of your next end step, exile that creature.",5,4,,"Menace, Deathtouch",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/198/coalstoke-gearhulk?utm_source=api
+199,Debris Beetle,{2}{B}{G},4.0,Artifact — Vehicle,rare,"B, G","B, G","Trample
+When this Vehicle enters, each opponent loses 3 life and you gain 3 life.
+Crew 2",6,6,,"Crew, Trample",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/199/debris-beetle?utm_source=api
+200,Dune Drifter,{X}{W}{B},2.0,Artifact — Vehicle,uncommon,"B, W","B, W","When this Vehicle enters, return target artifact or creature card with mana value X or less from your graveyard to the battlefield.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)",3,3,,Crew,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/200/dune-drifter?utm_source=api
+201,Embalmed Ascendant,{1}{W}{B},3.0,Creature — Zombie,uncommon,"B, W","B, W","Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+When this creature enters, create a 2/2 black Zombie creature token.
+Max speed — Whenever a creature you control dies, each opponent loses 1 life and you gain 1 life.",1,2,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/201/embalmed-ascendant?utm_source=api
+202,Explosive Getaway,{3}{R}{W},5.0,Sorcery,rare,"R, W","R, W","Exile up to one target artifact or creature. Return it to the battlefield under its owner's control at the beginning of the next end step.
+Explosive Getaway deals 4 damage to each creature.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/202/explosive-getaway?utm_source=api
+203,"Far Fortune, End Boss",{2}{B}{R},4.0,Legendary Creature — Human Mercenary,rare,"B, R","B, R","Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+Whenever you attack, Far Fortune deals 1 damage to each opponent.
+Max speed — If a source you control would deal damage to an opponent or a permanent an opponent controls, it deals that much damage plus 1 instead.",4,5,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/203/far-fortune-end-boss?utm_source=api
+204,Fearless Swashbuckler,{1}{U}{R},3.0,Creature — Fish Pirate,rare,"R, U","R, U","Haste
+Vehicles you control have haste.
+Whenever you attack, if a Pirate and a Vehicle attacked this combat, draw three cards, then discard two cards.",3,3,,Haste,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/204/fearless-swashbuckler?utm_source=api
+205,Gastal Thrillseeker,{B}{R},2.0,Creature — Lizard Berserker,uncommon,"B, R","B, R","Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+When this creature enters, it deals 1 damage to target opponent and you gain 1 life.
+Max speed — This creature has deathtouch and haste.",2,3,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/205/gastal-thrillseeker?utm_source=api
+206,Guidelight Pathmaker,{4}{W}{U},6.0,Artifact — Vehicle,uncommon,"U, W","U, W","Vigilance
+When this Vehicle enters, you may search your library for an artifact card and reveal it. Put it onto the battlefield if its mana value is 2 or less. Otherwise, put it into your hand. If you search your library this way, shuffle.
+Crew 2",6,5,,"Vigilance, Crew",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/206/guidelight-pathmaker?utm_source=api
+207,Haunt the Network,{3}{U}{B},5.0,Sorcery,uncommon,"B, U","B, U","Choose target opponent. Create two 1/1 colorless Thopter artifact creature tokens with flying. Then the chosen player loses X life and you gain X life, where X is the number of artifacts you control.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/207/haunt-the-network?utm_source=api
+208,Haunted Hellride,{1}{U}{B},3.0,Artifact — Vehicle,uncommon,"B, U","B, U","Whenever you attack, target creature you control gets +1/+0 and gains deathtouch until end of turn. Untap it.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",3,3,,Crew,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/208/haunted-hellride?utm_source=api
+209,"Ketramose, the New Dawn",{1}{W}{B},3.0,Legendary Creature — God,mythic,"B, W","B, W","Menace, lifelink, indestructible
+Ketramose can't attack or block unless there are seven or more cards in exile.
+Whenever one or more cards are put into exile from graveyards and/or the battlefield during your turn, you draw a card and lose 1 life.",4,4,,"Lifelink, Indestructible, Menace",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/209/ketramose-the-new-dawn?utm_source=api
+210,"Kolodin, Triumph Caster",{R}{W},2.0,Legendary Creature — Human Pilot,rare,"R, W","R, W","Mounts and Vehicles you control have haste.
+Whenever a Mount you control enters, it becomes saddled until end of turn.
+Whenever a Vehicle you control enters, it becomes an artifact creature until end of turn.",2,3,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/210/kolodin-triumph-caster?utm_source=api
+211,"Lagorin, Soul of Alacria",{G}{W},2.0,Legendary Creature — Beast Mount,uncommon,"G, W","G, W","Flying
+Whenever Lagorin attacks while saddled, put a +1/+1 counter on each of up to two target Mounts and/or Vehicles.
+Saddle 1 (Tap any number of other creatures you control with total power 1 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)",1,1,,"Flying, Saddle",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/211/lagorin-soul-of-alacria?utm_source=api
+212,"Loot, the Pathfinder",{2}{G}{U}{R},5.0,Legendary Creature — Beast Noble,mythic,"G, R, U","G, R, U","Double strike, vigilance, haste
+Exhaust — {G}, {T}: Add three mana of any one color. (Activate each exhaust ability only once.)
+Exhaust — {U}, {T}: Draw three cards.
+Exhaust — {R}, {T}: Loot deals 3 damage to any target.",2,4,,"Vigilance, Haste, Exhaust, Double strike",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/212/loot-the-pathfinder?utm_source=api
+213,"Mendicant Core, Guidelight",{W}{U},2.0,Legendary Artifact Creature — Robot,rare,"U, W","U, W","Mendicant Core's power is equal to the number of artifacts you control.
+Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+Max speed — Whenever you cast an artifact spell, you may pay {1}. If you do, copy it. (The copy becomes a token.)",*,3,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/213/mendicant-core-guidelight?utm_source=api
+214,"Mimeoplasm, Revered One",{X}{B}{G}{U},3.0,Legendary Creature — Ooze,mythic,"B, G, U","B, G, U","As Mimeoplasm enters, exile up to X creature cards from your graveyard. It enters with three +1/+1 counters on it for each creature card exiled this way.
+{2}: Mimeoplasm becomes a copy of target creature card exiled with it, except it's 0/0 and has this ability.",0,0,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/214/mimeoplasm-revered-one?utm_source=api
+215,Oildeep Gearhulk,{U}{U}{B}{B},4.0,Artifact Creature — Construct,mythic,"B, U","B, U","Lifelink, ward {1}
+When this creature enters, look at target player's hand. You may choose a card from it. If you do, that player discards that card, then draws a card.",4,4,,"Lifelink, Ward",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/215/oildeep-gearhulk?utm_source=api
+216,Pyrewood Gearhulk,{2}{R}{R}{G}{G},6.0,Artifact Creature — Construct,mythic,"G, R","G, R","Vigilance, menace
+When this creature enters, other creatures you control get +2/+2 and gain vigilance and menace until end of turn. Damage can't be prevented this turn.",7,7,,"Vigilance, Menace",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/216/pyrewood-gearhulk?utm_source=api
+217,Rangers' Aetherhive,{1}{G}{U},3.0,Artifact — Vehicle,uncommon,"G, U","G, U","Vigilance
+Whenever you activate an exhaust ability, create a 1/1 colorless Thopter artifact creature token with flying.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",3,5,,"Vigilance, Crew",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/217/rangers-aetherhive?utm_source=api
+218,"Redshift, Rocketeer Chief",{R}{G},2.0,Legendary Creature — Goblin Pilot,rare,"G, R","G, R","Vigilance
+{T}: Add X mana of any one color, where X is Redshift's power. Spend this mana only to activate abilities.
+Exhaust — {10}{R}{G}: Put any number of permanent cards from your hand onto the battlefield. (Activate each exhaust ability only once.)",2,3,,"Vigilance, Exhaust",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/218/redshift-rocketeer-chief?utm_source=api
+219,Riptide Gearhulk,{1}{W}{W}{U}{U},5.0,Artifact Creature — Construct,mythic,"U, W","U, W","Double strike
+Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+When this creature enters, for each opponent, put up to one target nonland permanent that player controls into its owner's library third from the top.",2,5,,"Prowess, Double strike",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/219/riptide-gearhulk?utm_source=api
+220,Rocketeer Boostbuggy,{R}{G},2.0,Artifact — Vehicle,uncommon,"G, R","G, R","Whenever this Vehicle attacks, create a Treasure token. (It's an artifact with ""{T}, Sacrifice this token: Add one mana of any color."")
+Exhaust — {3}: This Vehicle becomes an artifact creature. Put a +1/+1 counter on it. (Activate each exhaust ability only once.)
+Crew 1",3,2,,"Treasure, Crew, Exhaust",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/220/rocketeer-boostbuggy?utm_source=api
+221,"Sab-Sunen, Luxa Embodied",{3}{G}{U},5.0,Legendary Creature — God,mythic,"G, U","G, U","Reach, trample, indestructible
+Sab-Sunen can't attack or block unless it has an even number of counters on it. (Zero is even.)
+At the beginning of your first main phase, put a +1/+1 counter on Sab-Sunen. Then if it has an odd number of counters on it, draw two cards.",6,6,,"Reach, Indestructible, Trample",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/221/sab-sunen-luxa-embodied?utm_source=api
+222,"Samut, the Driving Force",{3}{R}{G}{W},6.0,Legendary Creature — Human Warrior Cleric,rare,"G, R, W","G, R, W","First strike, vigilance, haste
+Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+Other creatures you control get +X/+0, where X is your speed.
+Noncreature spells you cast cost {X} less to cast, where X is your speed.",4,5,,"Vigilance, First strike, Haste, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/222/samut-the-driving-force?utm_source=api
+223,"Sita Varma, Masked Racer",{G}{U},2.0,Legendary Creature — Human Rogue,rare,"G, U","G, U",Exhaust — {X}{G}{G}{U}: Put X +1/+1 counters on Sita Varma. Then you may have the base power and toughness of each other creature you control become equal to Sita Varma's power until end of turn. (Activate each exhaust ability only once.),2,3,,Exhaust,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/223/sita-varma-masked-racer?utm_source=api
+224,Skyserpent Seeker,{G}{U},2.0,Creature — Snake,uncommon,"G, U","G, U","Flying, deathtouch
+Exhaust — {4}: Reveal cards from the top of your library until you reveal two land cards. Put those land cards onto the battlefield tapped and the rest on the bottom of your library in a random order. Put a +1/+1 counter on this creature. (Activate each exhaust ability only once.)",1,1,,"Deathtouch, Flying, Exhaust",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/224/skyserpent-seeker?utm_source=api
+225,Thundering Broodwagon,{2}{B}{B}{G}{G},6.0,Artifact — Vehicle,uncommon,"B, G","B, G","Menace, reach
+When this Vehicle enters, destroy target nonland permanent an opponent controls with mana value 4 or less.
+Crew 3
+Cycling {2} ({2}, Discard this card: Draw a card.)",6,5,,"Reach, Crew, Menace, Cycling",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/225/thundering-broodwagon?utm_source=api
+226,Veteran Beastrider,{1}{G}{W},3.0,Creature — Human Knight,uncommon,"G, W","G, W","At the beginning of your end step, untap each creature you control.
+{2}{G}{W}: Creatures you control get +1/+1 until end of turn.",3,4,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/226/veteran-beastrider?utm_source=api
+227,Voyage Home,{5}{W}{U},7.0,Sorcery,uncommon,"U, W","U, W","Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
+You draw three cards and gain 3 life.",,,,Affinity,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/227/voyage-home?utm_source=api
+228,"Winter, Cursed Rider",{U}{B},2.0,Legendary Creature — Human Warlock,rare,"B, U","B, U","Ward—Pay 2 life.
+Artifacts you control have ""Ward—Pay 2 life.""
+Exhaust — {2}{U}{B}, {T}, Exile X artifact cards from your graveyard: Each other nonartifact creature gets -X/-X until end of turn. (Activate each exhaust ability only once.)",3,2,,"Exhaust, Ward",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/228/winter-cursed-rider?utm_source=api
+229,"Zahur, Glory's Past",{W}{B},2.0,Legendary Creature — Zombie Cat Warrior,rare,"B, W","B, W","Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+Sacrifice another creature: Surveil 1. Activate only once each turn.
+Max speed — Whenever a nontoken creature you control dies, create a tapped 2/2 black Zombie creature token.",3,2,,"Surveil, Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/229/zahur-glorys-past?utm_source=api
+230,Aetherjacket,{3},3.0,Artifact Creature — Thopter,common,,,"Flying, vigilance
+{2}, {T}, Sacrifice this creature: Destroy another target artifact. Activate only as a sorcery.",2,1,,"Flying, Vigilance",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/230/aetherjacket?utm_source=api
+231,The Aetherspark,{4},4.0,Legendary Artifact Planeswalker — Equipment,mythic,,,"As long as The Aetherspark is attached to a creature, The Aetherspark can't be attacked and has ""Whenever equipped creature deals combat damage during your turn, put that many loyalty counters on The Aetherspark.""
++1: Attach The Aetherspark to up to one target creature you control. Put a +1/+1 counter on that creature.
+−5: Draw two cards.
+−10: Add ten mana of any one color.",,,4,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/231/the-aetherspark?utm_source=api
+232,Camera Launcher,{3},3.0,Artifact Creature — Construct,common,,,Exhaust — {3}: Put a +1/+1 counter on this creature. Create a 1/1 colorless Thopter artifact creature token with flying. (Activate each exhaust ability only once.),2,2,,Exhaust,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/232/camera-launcher?utm_source=api
+233,Guidelight Matrix,{2},2.0,Artifact,common,,,"When this artifact enters, draw a card.
+{2}, {T}: Target Mount you control becomes saddled until end of turn. Activate only as a sorcery.
+{2}, {T}: Target Vehicle you control becomes an artifact creature until end of turn.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/233/guidelight-matrix?utm_source=api
+234,Lifecraft Engine,{3},3.0,Artifact — Vehicle,rare,,,"As this Vehicle enters, choose a creature type.
+Vehicle creatures you control are the chosen creature type in addition to their other types.
+Each creature you control of the chosen type other than this Vehicle gets +1/+1.
+Crew 3",4,4,,Crew,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/234/lifecraft-engine?utm_source=api
+235,Marketback Walker,{X}{X},0.0,Artifact Creature — Construct,rare,,,"This creature enters with X +1/+1 counters on it.
+{4}: Put a +1/+1 counter on this creature.
+When this creature dies, draw a card for each +1/+1 counter on it.",0,0,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/235/marketback-walker?utm_source=api
+236,Marshals' Pathcruiser,{3},3.0,Artifact — Vehicle,uncommon,,"B, G, R, U, W","When this Vehicle enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+Exhaust — {W}{U}{B}{R}{G}: This Vehicle becomes an artifact creature. Put two +1/+1 counters on it. (Activate each exhaust ability only once.)
+Crew 5",6,5,,"Crew, Exhaust",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/236/marshals-pathcruiser?utm_source=api
+237,Monument to Endurance,{3},3.0,Artifact,rare,,,"Whenever you discard a card, choose one that hasn't been chosen this turn —
+• Draw a card.
+• Create a Treasure token.
+• Each opponent loses 3 life.",,,,Treasure,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/237/monument-to-endurance?utm_source=api
+238,Pit Automaton,{2},2.0,Artifact Creature — Construct,uncommon,,,"Defender
+{T}: Add {C}{C}. Spend this mana only to activate abilities.
+{2}, {T}: When you next activate an exhaust ability that isn't a mana ability this turn, copy it. You may choose new targets for the copy.",0,4,,Defender,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/238/pit-automaton?utm_source=api
+239,Racers' Scoreboard,{4},4.0,Artifact,uncommon,,,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+When this artifact enters, draw two cards, then discard a card.
+Max speed — Spells you cast cost {1} less to cast.",,,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/239/racers-scoreboard?utm_source=api
+240,Radiant Lotus,{6},6.0,Artifact,mythic,,,"{T}, Sacrifice one or more artifacts: Choose a color. Target player adds three mana of the chosen color for each artifact sacrificed this way.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/240/radiant-lotus?utm_source=api
+241,Rover Blades,{3},3.0,Artifact — Equipment Vehicle,uncommon,,,"Double strike
+Equipped creature has double strike.
+Equip {4}
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn. Creatures can't be attached to other permanents.)",2,2,,"Crew, Equip, Double strike",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/241/rover-blades?utm_source=api
+242,Scrap Compactor,{1},1.0,Artifact,common,,,"{3}, {T}, Sacrifice this artifact: It deals 3 damage to target creature.
+{6}, {T}, Sacrifice this artifact: Destroy target creature or Vehicle.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/242/scrap-compactor?utm_source=api
+243,Skybox Ferry,{5},5.0,Artifact — Vehicle,common,,,"Flying
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
+Cycling {2} ({2}, Discard this card: Draw a card.)",4,4,,"Flying, Crew, Cycling",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/243/skybox-ferry?utm_source=api
+244,Starting Column,{3},3.0,Artifact,common,,,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+{T}: Add one mana of any color.
+Max speed — {T}, Sacrifice this artifact: Draw two cards, then discard a card.",,,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/244/starting-column?utm_source=api
+245,Ticket Tortoise,{2},2.0,Artifact Creature — Turtle,common,,,"Defender
+When this creature enters, if an opponent controls more lands than you, you create a Treasure token. (It's an artifact with ""{T}, Sacrifice this token: Add one mana of any color."")",3,1,,"Treasure, Defender",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/245/ticket-tortoise?utm_source=api
+246,Walking Sarcophagus,{2},2.0,Artifact Creature — Zombie Cat,common,,,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+Max speed — This creature gets +1/+2.",2,1,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/246/walking-sarcophagus?utm_source=api
+247,Wreck Remover,{4},4.0,Artifact Creature — Construct,common,,,"Whenever this creature enters or attacks, exile up to one target card from a graveyard. You gain 1 life.
+Cycling {2} ({2}, Discard this card: Draw a card.)",3,4,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/247/wreck-remover?utm_source=api
+248,Amonkhet Raceway,,0.0,Land,uncommon,,,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+{T}: Add {C}.
+Max speed — {T}: Target creature gains haste until end of turn.",,,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/248/amonkhet-raceway?utm_source=api
+249,Avishkar Raceway,,0.0,Land,common,,,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+{T}: Add {C}.
+Max speed — {3}, {T}, Discard a card: Draw a card.",,,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/249/avishkar-raceway?utm_source=api
+250,Bleachbone Verge,,0.0,Land,rare,,"B, W","{T}: Add {B}.
+{T}: Add {W}. Activate only if you control a Plains or a Swamp.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/250/bleachbone-verge?utm_source=api
+251,Bloodfell Caves,,0.0,Land,common,,"B, R","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {B} or {R}.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/251/bloodfell-caves?utm_source=api
+252,Blossoming Sands,,0.0,Land,common,,"G, W","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {G} or {W}.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/252/blossoming-sands?utm_source=api
+253,Country Roads,,0.0,Land,uncommon,,W,"This land enters tapped unless you control a Mount or Vehicle.
+{T}: Add {W}.
+{1}{W}, {T}, Sacrifice this land: Create a 1/1 colorless Pilot creature token with ""This token saddles Mounts and crews Vehicles as though its power were 2 greater."" Activate only as a sorcery.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/253/country-roads?utm_source=api
+254,Dismal Backwater,,0.0,Land,common,,"B, U","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {U} or {B}.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/254/dismal-backwater?utm_source=api
+255,Foul Roads,,0.0,Land,uncommon,,B,"This land enters tapped unless you control a Mount or Vehicle.
+{T}: Add {B}.
+{1}{B}, {T}, Sacrifice this land: Create a 1/1 colorless Pilot creature token with ""This token saddles Mounts and crews Vehicles as though its power were 2 greater."" Activate only as a sorcery.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/255/foul-roads?utm_source=api
+256,Jungle Hollow,,0.0,Land,common,,"B, G","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {B} or {G}.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/256/jungle-hollow?utm_source=api
+257,Muraganda Raceway,,0.0,Land,rare,,,"Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+{T}: Add {C}.
+Max speed — {T}: Add {C}{C}.",,,,"Max speed, Start your engines!",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/257/muraganda-raceway?utm_source=api
+258,Night Market,,0.0,Land,common,,,"This land enters tapped. As it enters, choose a color.
+{T}: Add one mana of the chosen color.
+Cycling {3} ({3}, Discard this card: Draw a card.)",,,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/258/night-market?utm_source=api
+259,Reef Roads,,0.0,Land,uncommon,,U,"This land enters tapped unless you control a Mount or Vehicle.
+{T}: Add {U}.
+{1}{U}, {T}, Sacrifice this land: Create a 1/1 colorless Pilot creature token with ""This token saddles Mounts and crews Vehicles as though its power were 2 greater."" Activate only as a sorcery.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/259/reef-roads?utm_source=api
+260,Riverpyre Verge,,0.0,Land,rare,,"R, U","{T}: Add {R}.
+{T}: Add {U}. Activate only if you control an Island or a Mountain.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/260/riverpyre-verge?utm_source=api
+261,Rocky Roads,,0.0,Land,uncommon,,R,"This land enters tapped unless you control a Mount or Vehicle.
+{T}: Add {R}.
+{1}{R}, {T}, Sacrifice this land: Create a 1/1 colorless Pilot creature token with ""This token saddles Mounts and crews Vehicles as though its power were 2 greater."" Activate only as a sorcery.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/261/rocky-roads?utm_source=api
+262,Rugged Highlands,,0.0,Land,common,,"G, R","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {R} or {G}.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/262/rugged-highlands?utm_source=api
+263,Scoured Barrens,,0.0,Land,common,,"B, W","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {W} or {B}.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/263/scoured-barrens?utm_source=api
+264,Sunbillow Verge,,0.0,Land,rare,,"R, W","{T}: Add {W}.
+{T}: Add {R}. Activate only if you control a Mountain or a Plains.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/264/sunbillow-verge?utm_source=api
+265,Swiftwater Cliffs,,0.0,Land,common,,"R, U","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {U} or {R}.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/265/swiftwater-cliffs?utm_source=api
+266,Thornwood Falls,,0.0,Land,common,,"G, U","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {G} or {U}.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/266/thornwood-falls?utm_source=api
+267,Tranquil Cove,,0.0,Land,common,,"U, W","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {W} or {U}.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/267/tranquil-cove?utm_source=api
+268,Wastewood Verge,,0.0,Land,rare,,"B, G","{T}: Add {G}.
+{T}: Add {B}. Activate only if you control a Swamp or a Forest.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/268/wastewood-verge?utm_source=api
+269,Wild Roads,,0.0,Land,uncommon,,G,"This land enters tapped unless you control a Mount or Vehicle.
+{T}: Add {G}.
+{1}{G}, {T}, Sacrifice this land: Create a 1/1 colorless Pilot creature token with ""This token saddles Mounts and crews Vehicles as though its power were 2 greater."" Activate only as a sorcery.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/269/wild-roads?utm_source=api
+270,Willowrush Verge,,0.0,Land,rare,,"G, U","{T}: Add {U}.
+{T}: Add {G}. Activate only if you control a Forest or an Island.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/270/willowrush-verge?utm_source=api
+271,Wind-Scarred Crag,,0.0,Land,common,,"R, W","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {R} or {W}.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/271/wind-scarred-crag?utm_source=api
+277,Plains,,0.0,Basic Land — Plains,common,,W,({T}: Add {W}.),,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/277/plains?utm_source=api
+280,Island,,0.0,Basic Land — Island,common,,U,({T}: Add {U}.),,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/280/island?utm_source=api
+283,Swamp,,0.0,Basic Land — Swamp,common,,B,({T}: Add {B}.),,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/283/swamp?utm_source=api
+286,Mountain,,0.0,Basic Land — Mountain,common,,R,({T}: Add {R}.),,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/286/mountain?utm_source=api
+289,Forest,,0.0,Basic Land — Forest,common,,G,({T}: Add {G}.),,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/289/forest?utm_source=api

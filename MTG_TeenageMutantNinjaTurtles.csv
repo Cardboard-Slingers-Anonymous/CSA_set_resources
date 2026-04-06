@@ -1,0 +1,422 @@
+collector_number,name,mana_cost,cmc,type_line,rarity,colors,color_identity,oracle_text,power,toughness,loyalty,keywords,set_name,released_at,scryfall_uri
+1,Action News Crew,{1}{W},2.0,Creature — Human Citizen,common,W,W,"Vigilance
+Channel — {6}, Discard this card: Put a +1/+1 counter on each creature you control. Draw a card.",2,2,,"Vigilance, Channel",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/1/action-news-crew?utm_source=api
+2,"Agent Bishop, Man in Black",{2}{W},3.0,Legendary Creature — Human Soldier,rare,W,W,"At the beginning of combat on your turn, put a +1/+1 counter on each of up to two target creatures.",1,2,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/2/agent-bishop-man-in-black?utm_source=api
+3,"April O'Neil, Kunoichi Trainee",{1}{W},2.0,Legendary Creature — Human Ninja,common,W,W,"When April O'Neil enters, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
+April O'Neil can't be blocked by creatures with power 3 or greater.",2,2,,Scry,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/3/april-oneil-kunoichi-trainee?utm_source=api
+4,Dimensional Exile,{1}{W},2.0,Enchantment — Aura,uncommon,W,W,"Enchant basic land you control
+When this Aura enters, exile target creature an opponent controls until this Aura leaves the battlefield.",,,,Enchant,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/4/dimensional-exile?utm_source=api
+5,East Wind Avatar,{3}{W},4.0,Creature — Bird Spirit Avatar,common,W,W,"Flying, vigilance
+Alliance — Whenever another creature you control enters, this creature gets +1/+0 until end of turn.",2,4,,"Flying, Vigilance, Alliance",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/5/east-wind-avatar?utm_source=api
+6,Featherbrained Filcher,{W},1.0,Creature — Bird Mutant,uncommon,W,W,"Flying
+When this creature leaves the battlefield, create a Food token. (It's an artifact with ""{2}, {T}, Sacrifice this token: You gain 3 life."")",0,2,,"Flying, Food",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/6/featherbrained-filcher?utm_source=api
+7,Grounded for Life,{4}{W},5.0,Instant,common,W,W,"This spell costs {3} less to cast if it targets a tapped creature.
+Destroy target creature.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/7/grounded-for-life?utm_source=api
+8,Hamato Guardian Stance,{W},1.0,Instant,common,W,W,Target creature gets +1/+3 and gains flying until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom.),,,,Scry,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/8/hamato-guardian-stance?utm_source=api
+9,High-Flying Ace,{2}{W},3.0,Creature — Bird Mutant,common,W,W,"Flying
+{3}{W}: Target creature without flying gains flying until end of turn. Activate only as a sorcery.",2,3,,Flying,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/9/high-flying-ace?utm_source=api
+10,"Jennika, Bad Apple Big Sister",{4}{W},5.0,Legendary Creature — Mutant Ninja Turtle,common,W,W,"When Jennika enters, create a 2/2 red Mutant creature token.
+Plainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)",3,3,,"Plainscycling, Landcycling, Typecycling, Cycling",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/10/jennika-bad-apple-big-sister?utm_source=api
+11,"Koya, Death from Above",{2}{W},3.0,Legendary Creature — Mutant Ninja Bird,uncommon,W,"B, W","Flying
+When Koya enters, exile up to one other target creature. At the beginning of the next end step, you may pay {3}{B}. If you don't, return that card to the battlefield under its owner's control.",2,1,,Flying,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/11/koya-death-from-above?utm_source=api
+12,The Last Ronin's Technique,{3}{W},4.0,Instant,uncommon,W,W,"Sneak {1}{W} (You may cast this spell for {1}{W} if you also return an unblocked attacker you control to hand during the declare blockers step.)
+Create three 1/1 white Ninja Turtle Spirit creature tokens. If this spell's sneak cost was paid, they enter tapped and attacking.",,,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/12/the-last-ronins-technique?utm_source=api
+13,Leader's Talent,{1}{W},2.0,Enchantment — Class,rare,W,W,"(Gain the next level as a sorcery to add its ability.)
+Whenever you attack, put a +1/+1 counter on target attacking creature.
+{2}{W}: Level 2
+Whenever a creature you control leaves the battlefield, if it had a counter on it, you gain 2 life.
+{3}{W}: Level 3
+Whenever you cast a spell, put a +1/+1 counter on each creature you control.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/13/leaders-talent?utm_source=api
+14,"Leonardo, Big Brother",{2}{W},3.0,Legendary Creature — Mutant Ninja Turtle,common,W,W,"Sneak {W} (You may cast this spell for {W} if you also return an unblocked attacker you control to hand during the declare blockers step. He enters tapped and attacking.)
+Leonardo gets +1/+0 for each other creature you control.",1,3,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/14/leonardo-big-brother?utm_source=api
+15,"Leonardo, Cutting Edge",{1}{W},2.0,Legendary Creature — Mutant Ninja Turtle,rare,W,W,"Sneak {W} (You may cast this spell for {W} if you also return an unblocked attacker you control to hand during the declare blockers step. He enters tapped and attacking.)
+Lifelink
+Whenever you gain life, put a +1/+1 counter on Leonardo.",1,1,,"Lifelink, Sneak",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/15/leonardo-cutting-edge?utm_source=api
+16,"Leonardo, Leader in Blue",{W},1.0,Legendary Creature — Mutant Ninja Turtle,uncommon,W,W,"Sneak {3}{W}{W} (You may cast this spell for {3}{W}{W} if you also return an unblocked attacker you control to hand during the declare blockers step. He enters tapped and attacking.)
+When Leonardo enters, if his sneak cost was paid, creatures you control get +2/+0 until end of turn.
+{1}{W}: Leonardo gains first strike until end of turn.",2,1,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/16/leonardo-leader-in-blue?utm_source=api
+17,"Leonardo, Sewer Samurai",{3}{W},4.0,Legendary Creature — Mutant Ninja Turtle Samurai,mythic,W,W,"Sneak {2}{W}{W}
+Double strike
+During your turn, you may cast creature spells with power or toughness 1 or less from your graveyard. If you cast a spell this way, that creature enters with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead.)",3,3,,"Double strike, Sneak",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/17/leonardo-sewer-samurai?utm_source=api
+18,Leonardo's Technique,{3}{W},4.0,Sorcery,rare,W,W,"Sneak {1}{W} (You may cast this spell for {1}{W} if you also return an unblocked attacker you control to hand during the declare blockers step.)
+Return one or two target creature cards each with mana value 3 or less from your graveyard to the battlefield.",,,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/18/leonardos-technique?utm_source=api
+19,"Lita, Little Orphan Amphibian",{1}{W},2.0,Legendary Creature — Mutant Ninja Turtle,uncommon,W,W,"Alliance — Whenever another creature you control enters, choose one that hasn't been chosen this turn.
+• Put a +1/+1 counter on Lita.
+• Create a Food token. (It's an artifact with ""{2}, {T}, Sacrifice this token: You gain 3 life."")
+• Scry 1.",2,1,,"Alliance, Food, Scry",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/19/lita-little-orphan-amphibian?utm_source=api
+20,Make Your Move,{2}{W},3.0,Instant,common,W,W,"Destroy target artifact, enchantment, or creature with power 4 or greater.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/20/make-your-move?utm_source=api
+21,Mighty Mutanimals,{2}{W}{W},4.0,Creature — Mutant Rebel,uncommon,W,W,"When this creature enters, create a 2/2 red Mutant creature token.
+Alliance — Whenever another creature you control enters, put a +1/+1 counter on target creature you control.",2,1,,Alliance,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/21/mighty-mutanimals?utm_source=api
+22,Prehistoric Pet,{W},1.0,Creature — Dinosaur Ninja,rare,W,W,"This creature can't be blocked by creatures with greater power.
+{1}{W}, {T}: Return another target creature you control to its owner's hand. Activate only during your turn.",1,2,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/22/prehistoric-pet?utm_source=api
+23,Quintessential Katana,{W},1.0,Artifact — Equipment,uncommon,W,W,"Equipped creature gets +1/+1 and has ""Whenever this creature deals combat damage, untap it and you gain 2 life.""
+Whenever a Ninja you control enters, you may attach this Equipment to it.
+Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",,,,Equip,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/23/quintessential-katana?utm_source=api
+24,"Sally Pride, Lioness Leader",{3}{W}{W},5.0,Legendary Creature — Cat Mutant Rebel,rare,W,W,"When Sally Pride enters, create X 2/2 red Mutant creature tokens, where X is the number of nontoken creatures you control.
+Whenever Sally Pride attacks, put a +1/+1 counter on each creature you control.",2,4,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/24/sally-pride-lioness-leader?utm_source=api
+25,Triceraton Commander,{X}{X}{W}{W},2.0,Creature — Dinosaur Soldier,mythic,W,W,"Flying
+Whenever this creature attacks, Dinosaurs you control other than this creature get +1/+1 and gain flying until end of turn.
+When this creature enters, create X 2/2 white Dinosaur Soldier creature tokens.",2,2,,Flying,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/25/triceraton-commander?utm_source=api
+26,Turncoat Kunoichi,{2}{W},3.0,Creature — Mutant Ninja Fox,rare,W,"B, W","Sneak {2}{W}{B} (You may cast this spell for {2}{W}{B} if you also return an unblocked attacker you control to hand during the declare blockers step. It enters tapped and attacking.)
+When this creature enters, choose target creature an opponent controls. Exile that creature until this creature leaves the battlefield. If this creature's sneak cost was paid, instead exile the chosen creature.",3,2,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/26/turncoat-kunoichi?utm_source=api
+27,Turtles Forever,{3}{W},4.0,Instant,rare,W,W,"Search your library and/or outside the game for exactly four legendary creature cards you own with different names, then reveal those cards. An opponent chooses two of them. Put the chosen cards into your hand and shuffle the rest into your library.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/27/turtles-forever?utm_source=api
+28,Uneasy Alliance,{1}{W},2.0,Enchantment — Aura,common,W,W,"Enchant creature
+Enchanted creature can't attack or block.
+{5}, Sacrifice this Aura: Exile enchanted creature. You create a 1/1 black Ninja creature token. Activate only as a sorcery.",,,,Enchant,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/28/uneasy-alliance?utm_source=api
+29,"April O'Neil, Hacktivist",{3}{U},4.0,Legendary Creature — Human Scientist,rare,U,U,"At the beginning of your end step, draw a card for each card type among spells you've cast this turn.",1,5,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/29/april-oneil-hacktivist?utm_source=api
+30,"April, Reporter of the Weird",{2}{U},3.0,Legendary Creature — Human Detective,uncommon,U,U,"Whenever April deals combat damage to a player, draw that many cards, then discard a card.",2,2,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/30/april-reporter-of-the-weird?utm_source=api
+31,Bespoke Bō,{2}{U},3.0,Artifact — Equipment,uncommon,U,U,"When this Equipment enters, return up to one other target nonland permanent to its owner's hand.
+Equipped creature gets +2/+1 and has vigilance.
+Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",,,,Equip,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/31/bespoke-b%C5%8D?utm_source=api
+32,Buzz Bots,{1}{U},2.0,Artifact Creature — Robot Insect,common,U,U,"Flying, vigilance
+When this creature dies, draw a card.",1,1,,"Flying, Vigilance",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/32/buzz-bots?utm_source=api
+33,Crustacean Commando,{1}{U},2.0,Creature — Crab Mutant Soldier,common,U,U,"When this creature enters, create a Mutagen token. (It's an artifact with ""{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."")",0,3,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/33/crustacean-commando?utm_source=api
+34,Does Machines,{1}{U},2.0,Enchantment — Class,rare,U,U,"(Gain the next level as a sorcery to add its ability.)
+When this Class enters, mill two cards, draw two cards, then discard two cards.
+{1}{U}: Level 2
+When this Class becomes level 2, return up to two target artifact cards from your graveyard to your hand.
+{4}{U}: Level 3
+At the beginning of combat on your turn, put three +1/+1 counters on target artifact you control. If it isn't a creature, it becomes a 0/0 Robot creature in addition to its other types.",,,,Mill,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/34/does-machines?utm_source=api
+35,"Donatello, Gadget Master",{2}{U},3.0,Legendary Creature — Mutant Ninja Turtle,rare,U,U,"Sneak {1}{U} (You may cast this spell for {1}{U} if you also return an unblocked attacker you control to hand during the declare blockers step. He enters tapped and attacking.)
+Whenever Donatello deals combat damage to a player, create a token that's a copy of target artifact you control.",3,2,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/35/donatello-gadget-master?utm_source=api
+36,"Donatello, Mutant Mechanic",{3}{U},4.0,Legendary Creature — Mutant Ninja Turtle,mythic,U,U,"{T}: Put three +1/+1 counters on target artifact you control. If it isn't a creature, it becomes a 0/0 Robot creature in addition to its other types. Activate only as a sorcery.
+Whenever an artifact you control is put into a graveyard from the battlefield, if it had counters on it, put those counters on up to one target artifact or creature you control.",3,5,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/36/donatello-mutant-mechanic?utm_source=api
+37,"Donatello, Turtle Techie",{3}{U},4.0,Legendary Creature — Mutant Ninja Turtle,common,U,U,"When Donatello enters, if you control an artifact, draw a card.",3,4,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/37/donatello-turtle-techie?utm_source=api
+38,"Donatello, Way with Machines",{2}{U},3.0,Legendary Creature — Mutant Ninja Turtle,uncommon,U,U,"Flying
+Whenever an artifact you control enters, put a +1/+1 counter on Donatello.",1,2,,Flying,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/38/donatello-way-with-machines?utm_source=api
+39,Donatello's Technique,{2}{U},3.0,Sorcery,uncommon,U,U,"Sneak {U} (You may cast this spell for {U} if you also return an unblocked attacker you control to hand during the declare blockers step.)
+Draw two cards.",,,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/39/donatellos-technique?utm_source=api
+40,Fugitive Droid,{U},1.0,Artifact Creature — Robot Scientist,uncommon,U,U,"This creature can't be blocked if an artifact entered the battlefield under your control this turn.
+{U}, Sacrifice this creature: Counter target spell that targets an artifact or creature you control.",1,1,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/40/fugitive-droid?utm_source=api
+41,"Kitsune, Dragon's Daughter",{4}{U}{U},6.0,Legendary Creature — Fox Warlock Avatar,rare,U,U,"Vigilance
+Whenever Kitsune enters or deals combat damage to a player, you may exchange control of two other target creatures controlled by different players.",6,6,,Vigilance,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/41/kitsune-dragons-daughter?utm_source=api
+42,Kitsune's Technique,{4}{U}{U},6.0,Instant,rare,U,U,"Sneak {1}{U} (You may cast this spell for {1}{U} if you also return an unblocked attacker you control to hand during the declare blockers step.)
+Target opponent mills half their library, rounded up.",,,,"Mill, Sneak",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/42/kitsunes-technique?utm_source=api
+43,"Krang, Master Mind",{6}{U}{U},8.0,Legendary Artifact Creature — Utrom Warrior,rare,U,U,"Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
+When Krang enters, if you have fewer than four cards in hand, draw cards equal to the difference.
+Krang gets +1/+0 for each other artifact you control.",1,4,,Affinity,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/43/krang-master-mind?utm_source=api
+44,Metalhead,{4}{U},5.0,Legendary Artifact Creature — Robot Turtle,uncommon,U,"R, U","When Metalhead enters, return up to one other target artifact or creature to its owner's hand.
+{R}, Sacrifice another artifact: Put a +1/+1 counter on Metalhead. He gains menace and haste until end of turn.",4,4,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/44/metalhead?utm_source=api
+45,Mind Transfer Protocol,{2}{U},3.0,Instant,common,U,U,"Until end of turn, target artifact or creature becomes an artifact creature with base power and toughness 4/5.
+Draw a card.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/45/mind-transfer-protocol?utm_source=api
+46,Mondo Gecko,{1}{U}{U},3.0,Legendary Creature — Lizard Mutant,mythic,U,U,"{1}, Discard a card: Until end of turn, Mondo Gecko becomes the color of your choice and gains hexproof from that color.
+Whenever Mondo Gecko deals combat damage to a player, draw a card for each color among permanents you control.",2,3,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/46/mondo-gecko?utm_source=api
+47,Negate,{1}{U},2.0,Instant,common,U,U,Counter target noncreature spell.,,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/47/negate?utm_source=api
+48,Ooze Spill,{1}{U}{U},3.0,Instant,uncommon,U,U,"Counter target spell. Create a Mutagen token. (It's an artifact with ""{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."")",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/48/ooze-spill?utm_source=api
+49,"Ray Fillet, Man Ray",{3}{U},4.0,Legendary Creature — Fish Mutant,uncommon,U,U,"Flying
+When Ray Fillet enters, create a Mutagen token. (It's an artifact with ""{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."")
+{2}, Remove a +1/+1 counter from a creature you control: Draw a card.",3,3,,Flying,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/49/ray-fillet-man-ray?utm_source=api
+50,"Renet, Temporal Apprentice",{3}{U}{U},5.0,Legendary Creature — Human Wizard,rare,U,U,"Flash
+When Renet enters, return each other nonland permanent that entered this turn to its owner's hand.",4,3,,Flash,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/50/renet-temporal-apprentice?utm_source=api
+51,Retro-Mutation,{2}{U},3.0,Enchantment — Aura,common,U,U,"Flash
+Enchant creature
+Enchanted creature is a Turtle with base power and toughness 0/1. It can't attack and loses all abilities. (It also loses all other creature types.)",,,,"Enchant, Flash",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/51/retro-mutation?utm_source=api
+52,Return to the Sewers,{3}{U},4.0,Instant,common,U,U,"Target creature's owner puts it on their choice of the top or bottom of their library. You create a Mutagen token. (It's an artifact with ""{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."")",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/52/return-to-the-sewers?utm_source=api
+53,Sewer-veillance Cam,{U},1.0,Artifact,common,U,U,"Flash
+When this artifact enters or leaves the battlefield, you may tap or untap target creature.
+{3}{U}, Sacrifice this artifact: Draw two cards.",,,,Flash,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/53/sewer-veillance-cam?utm_source=api
+54,"Stockman, Mad Fly-entist",{4}{U},5.0,Legendary Creature — Insect Mutant Scientist,common,U,U,"Flying
+When Stockman enters, draw a card, then discard a card.
+Islandcycling {2} ({2}, Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle.)",3,4,,"Flying, Islandcycling, Landcycling, Typecycling, Cycling",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/54/stockman-mad-fly-entist?utm_source=api
+55,Turtles in Time,{5}{U}{U},7.0,Sorcery,mythic,U,U,"Return all creatures to their owners' hands. Each player may shuffle their hand and graveyard into their library, then each player who does draws seven cards.
+Exile Turtles in Time.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/55/turtles-in-time?utm_source=api
+56,Utrom Scientists,{2}{U},3.0,Artifact Creature — Utrom Robot Scientist,common,U,U,"When this creature enters, tap up to one target creature and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)",2,2,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/56/utrom-scientists?utm_source=api
+57,Anchovy & Banana Pizza,{2}{B}{B},4.0,Artifact — Food,common,B,B,"When this artifact enters, destroy target creature.
+{2}, {T}, Sacrifice this artifact: You gain 3 life.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/57/anchovy-&-banana-pizza?utm_source=api
+58,"Armaggon, Future Shark",{6}{B}{B},8.0,Legendary Creature — Shark Horror Mutant,rare,B,B,"Flash
+When Armaggon enters, destroy up to three target creatures.",9,6,,Flash,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/58/armaggon-future-shark?utm_source=api
+59,"Bebop, Warthog Warrior",{4}{B},5.0,Legendary Creature — Boar Mutant Warrior,common,B,B,"Menace (This creature can't be blocked except by two or more creatures.)
+Rhinos you control have menace.
+Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)",5,4,,"Landcycling, Menace, Typecycling, Cycling, Swampcycling",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/59/bebop-warthog-warrior?utm_source=api
+60,The Cloning of Shredder,{4}{B}{B},6.0,Enchantment — Saga,mythic,B,B,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Exile target creature card from your graveyard. Create a token that's a copy of it, except it isn't legendary and is a Mutant in addition to its other types.
+II, III — Create a token that's a copy of a card exiled with this Saga, except it isn't legendary and is a Mutant in addition to its other types.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/60/the-cloning-of-shredder?utm_source=api
+61,Death in the Family,{1}{B},2.0,Instant,uncommon,B,B,Exile target creature with mana value 3 or less.,,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/61/death-in-the-family?utm_source=api
+62,Dream Beavers,{B},1.0,Creature — Beaver Nightmare,uncommon,B,B,"Flying
+When this creature enters, each opponent loses 1 life and you gain 1 life. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",1,1,,"Scry, Flying",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/62/dream-beavers?utm_source=api
+63,Foot Mystic,{3}{B},4.0,Creature — Human Ninja Warlock,common,B,B,"Lifelink
+Disappear — When this creature enters, if a permanent left the battlefield under your control this turn, create a 1/1 black Ninja creature token.",2,4,,"Disappear, Lifelink",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/63/foot-mystic?utm_source=api
+64,Insectoid Exterminator,{2}{B},3.0,Creature — Insect Mutant,common,B,B,"Flying
+Disappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",2,2,,"Scry, Flying, Disappear",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/64/insectoid-exterminator?utm_source=api
+65,"Lord Dregg, Insect Invader",{3}{B},4.0,Legendary Creature — Insect Warrior,uncommon,B,"B, G","Flying
+Disappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, create a 1/1 black Insect Warrior creature token with flying.
+{3}{G}, Sacrifice a token: Draw a card.",3,2,,"Flying, Disappear",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/65/lord-dregg-insect-invader?utm_source=api
+66,"Madame Null, Power Broker",{2}{B},3.0,Legendary Creature — Demon Advisor,rare,B,B,"Deathtouch
+Whenever another creature you control enters, you may pay life equal to its power. If you do, put that many +1/+1 counters on it.",1,3,,Deathtouch,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/66/madame-null-power-broker?utm_source=api
+67,Ninja Teen,{2}{B},3.0,Enchantment — Class,rare,B,B,"(Gain the next level as a sorcery to add its ability.)
+Whenever a creature you control leaves the battlefield, each opponent loses 1 life.
+{1}{B}: Level 2
+Creatures you control get +1/+0 and have menace.
+{B}: Level 3
+Creature cards in your graveyard have sneak {3}{B}.
+You may cast creature spells from your graveyard using their sneak abilities.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/67/ninja-teen?utm_source=api
+68,"Oroku Saki, Shredder Rising",{2}{B},3.0,Legendary Creature — Human Ninja,common,B,B,"Sneak {1}{B} (You may cast this spell for {1}{B} if you also return an unblocked attacker you control to hand during the declare blockers step. He enters tapped and attacking.)
+Whenever Oroku Saki deals combat damage to a player, you draw a card and lose 1 life.",3,1,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/68/oroku-saki-shredder-rising?utm_source=api
+69,Pain 101,{1}{B},2.0,Instant,common,B,B,"Until end of turn, target creature gains deathtouch and ""When this creature dies, return it to the battlefield tapped under its owner's control.""",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/69/pain-101?utm_source=api
+70,Paramecia Coloniex,{1}{B},2.0,Creature — Zombie Worm,uncommon,B,B,"When this creature enters, mill three cards. (Put the top three cards of your library into your graveyard.)
+When this creature dies, you may exile it. When you do, put target creature card from your graveyard on top of your library.",2,2,,Mill,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/70/paramecia-coloniex?utm_source=api
+71,"Rat King, Verminister",{1}{B},2.0,Legendary Creature — Rat Avatar,rare,B,B,"Disappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, create a 1/1 black Rat creature token and put a +1/+1 counter on Rat King.
+{T}, Sacrifice three Rats: Return target creature card and all other cards with the same name as that card from your graveyard to the battlefield tapped.",1,1,,Disappear,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/71/rat-king-verminister?utm_source=api
+72,"Savanti Romero, Time's Exile",{3}{B}{B},5.0,Legendary Creature — Demon Wizard,rare,B,B,"Trample
+At the beginning of combat on your turn, put a +1/+1 counter on Savanti Romero. Then you draw X cards and lose X life, where X is the number of counters on Savanti Romero.",4,4,,Trample,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/72/savanti-romero-times-exile?utm_source=api
+73,"Shark Shredder, Killer Clone",{2}{B}{B},4.0,Legendary Creature — Shark Octopus Ninja,rare,B,B,"Sneak {3}{B}{B}
+First strike
+Whenever Shark Shredder deals combat damage to a player, put up to one target creature card from that player's graveyard onto the battlefield under your control. It enters tapped and attacking that player.",4,4,,"First strike, Sneak",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/73/shark-shredder-killer-clone?utm_source=api
+74,"Shredder, Unrelenting",{4}{B},5.0,Legendary Creature — Human Ninja,uncommon,B,B,"Sneak {3}{B} (You may cast this spell for {3}{B} if you also return an unblocked attacker you control to hand during the declare blockers step. He enters tapped and attacking.)
+Deathtouch
+Whenever Shredder enters or attacks, another target creature you control gains deathtouch until end of turn.",6,4,,"Sneak, Deathtouch",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/74/shredder-unrelenting?utm_source=api
+75,Shredder's Armor,{1}{B},2.0,Artifact — Equipment,uncommon,B,B,"Equipped creature gets +2/+1.
+When this Equipment enters, attach it to target creature you control.
+Equip—Sacrifice another nonland permanent. Activate only once each turn.",,,,Equip,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/75/shredders-armor?utm_source=api
+76,Shredder's Revenge,{2}{B},3.0,Sorcery,common,B,B,"Choose one —
+• Target player discards two cards.
+• Target player draws two cards and loses 2 life.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/76/shredders-revenge?utm_source=api
+77,Shredder's Technique,{2}{B},3.0,Sorcery,uncommon,B,B,"Sneak {B} (You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step.)
+Destroy target creature or enchantment. If an enchantment was destroyed this way, you lose 2 life.",,,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/77/shredders-technique?utm_source=api
+78,South Wind Avatar,{3}{B},4.0,Creature — Snake Spirit Avatar,rare,B,B,"Deathtouch
+Whenever another creature you control dies, you gain life equal to its toughness.
+Whenever you gain life, each opponent loses 1 life.",3,4,,Deathtouch,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/78/south-wind-avatar?utm_source=api
+79,"Splinter, Hamato Yoshi",{1}{B},2.0,Legendary Creature — Mutant Ninja Rat,uncommon,B,B,"Sneak {B} (You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blockers step. He enters tapped and attacking.)
+Menace (This creature can't be blocked except by two or more creatures.)
+Other Ninjas you control get +1/+1.",1,3,,"Menace, Sneak",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/79/splinter-hamato-yoshi?utm_source=api
+80,Splinter's Technique,{3}{B},4.0,Sorcery,rare,B,B,"Sneak {1}{B} (You may cast this spell for {1}{B} if you also return an unblocked attacker you control to hand during the declare blockers step.)
+Search your library for a card, put that card into your hand, then shuffle.",,,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/80/splinters-technique?utm_source=api
+81,Squirrelanoids,{B},1.0,Creature — Squirrel Mutant,common,B,B,Deathtouch,1,1,,Deathtouch,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/81/squirrelanoids?utm_source=api
+82,Stomped by the Foot,{1}{B},2.0,Instant,common,B,B,"Kicker—Sacrifice an artifact or creature. (You may sacrifice an artifact or creature in addition to any other costs as you cast this spell.)
+Target creature gets -2/-2 until end of turn. If this spell was kicked, that creature gets -5/-5 until end of turn instead.",,,,Kicker,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/82/stomped-by-the-foot?utm_source=api
+83,Super Shredder,{1}{B},2.0,Legendary Creature — Mutant Ninja Human,mythic,B,B,"Menace
+Whenever another permanent leaves the battlefield, put a +1/+1 counter on Super Shredder.",1,1,,Menace,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/83/super-shredder?utm_source=api
+84,Tunnel Rats,{1}{B},2.0,Creature — Rat,common,B,B,{4}{B}: Return this card from your graveyard to the battlefield tapped.,2,2,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/84/tunnel-rats?utm_source=api
+85,Bot Bashing Time,{3}{R},4.0,Sorcery,common,R,R,"Bot Bashing Time deals 6 damage to target creature. If that creature would die this turn, exile it instead.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/85/bot-bashing-time?utm_source=api
+86,Broadcast Takeover,{2}{R}{R}{R},5.0,Sorcery,mythic,R,R,Gain control of all artifacts your opponents control until end of turn. Untap them. They gain haste until end of turn.,,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/86/broadcast-takeover?utm_source=api
+87,"Casey Jones, Jury-Rig Justiciar",{1}{R},2.0,Legendary Creature — Human Berserker,uncommon,R,R,"Haste
+When Casey Jones enters, look at the top four cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",2,1,,Haste,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/87/casey-jones-jury-rig-justiciar?utm_source=api
+88,"Casey Jones, Vigilante",{1}{R}{R},3.0,Legendary Creature — Human Berserker,rare,R,R,"When Casey Jones enters, draw three cards. At the beginning of your next upkeep, discard three cards at random.",4,3,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/88/casey-jones-vigilante?utm_source=api
+89,Cool but Rude,{1}{R},2.0,Enchantment — Class,rare,R,R,"(Gain the next level as a sorcery to add its ability.)
+Whenever you attack, you may discard a card. If you do, draw a card.
+{1}{R}: Level 2
+Whenever you discard a card, this Class deals 2 damage to each opponent.
+{1}{R}: Level 3
+When this Class becomes level 3, search your library for a card, put it into your hand, shuffle, then discard a card at random.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/89/cool-but-rude?utm_source=api
+90,"General Traag, Heart of Stone",{3}{R}{R},5.0,Legendary Artifact Creature — Elemental Soldier,uncommon,R,R,"Trample
+When General Traag enters, you may sacrifice another artifact. When you do, General Traag deals 4 damage to target creature.",4,3,,Trample,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/90/general-traag-heart-of-stone?utm_source=api
+91,Hard-Won Jitte,{1}{R},2.0,Artifact — Equipment,uncommon,R,R,"Equipped creature has double strike.
+Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",,,,Equip,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/91/hard-won-jitte?utm_source=api
+92,Improvised Arsenal,{1}{R},2.0,Artifact — Equipment,rare,R,R,"Equipped creature gets +1/+0 for each artifact you control.
+{4}{R}: Create a token that's a copy of this Equipment.
+Equip {R}",,,,Equip,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/92/improvised-arsenal?utm_source=api
+93,Jennika's Technique,{2}{R},3.0,Instant,uncommon,R,R,"Sneak {R} (You may cast this spell for {R} if you also return an unblocked attacker you control to hand during the declare blockers step.)
+Jennika's Technique deals 2 damage to each creature.",,,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/93/jennikas-technique?utm_source=api
+94,Manhole Missile,{1}{R},2.0,Instant,common,R,R,"Manhole Missile deals 3 damage to target creature. You may put a card from your hand on the bottom of your library. If you do, draw a card.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/94/manhole-missile?utm_source=api
+95,Mouser Attack!,{1}{R},2.0,Instant,common,R,R,"Choose one —
+• Create a 1/1 colorless Robot artifact creature token.
+• Target creature gets +3/+0 and gains first strike until end of turn.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/95/mouser-attack!?utm_source=api
+96,Mouser Foundry,{1}{R},2.0,Artifact,common,R,R,"When this artifact enters or leaves the battlefield, create a 1/1 colorless Robot artifact creature token.
+{4}{R}, Sacrifice this artifact: It deals 3 damage to target creature.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/96/mouser-foundry?utm_source=api
+97,Mutant Town Musicians,{2}{R},3.0,Creature — Mutant Bard Performer,common,R,R,"Trample
+Alliance — Whenever another creature you control enters, this creature gets +1/+0 until end of turn.",2,4,,"Alliance, Trample",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/97/mutant-town-musicians?utm_source=api
+98,Null Group Biological Assets,{2}{R},3.0,Creature — Mutant Mercenary,common,R,R,"During your turn, this creature has first strike.
+Whenever this creature attacks, you may discard a card. If you do, draw a card.",3,1,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/98/null-group-biological-assets?utm_source=api
+99,"Old Hob, Alleycat Blues",{4}{R},5.0,Legendary Creature — Cat Mutant Rebel,uncommon,R,"R, W","At the beginning of combat on your turn, create a 2/2 red Mutant creature token. It gains haste until end of turn. Destroy it at the beginning of the next end step.
+{1}{W}: Target attacking creature token gains indestructible until end of turn.",4,4,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/99/old-hob-alleycat-blues?utm_source=api
+100,Purple Dragon Punks,{1}{R},2.0,Creature — Human Rogue,common,R,R,{T}: Add {R}. Spend this mana only to cast an artifact spell or to activate an ability.,2,2,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/100/purple-dragon-punks?utm_source=api
+101,"Raphael, Most Attitude",{3}{R},4.0,Legendary Creature — Mutant Ninja Turtle,uncommon,R,R,"Menace (This creature can't be blocked except by two or more creatures.)
+Alliance — Whenever another creature you control enters, you may exile the top card of your library.
+Whenever Raphael attacks, until end of turn, you may play a card exiled with Raphael.",4,3,,"Alliance, Menace",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/101/raphael-most-attitude?utm_source=api
+102,"Raphael, Ninja Destroyer",{2}{R}{R},4.0,Legendary Creature — Mutant Ninja Turtle,mythic,R,R,"Raphael must be blocked if able.
+Enrage — Whenever Raphael is dealt damage, add that much {R}. Until end of turn, you don't lose this mana as steps and phases end.",4,4,,Enrage,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/102/raphael-ninja-destroyer?utm_source=api
+103,"Raphael, the Nightwatcher",{2}{R}{R},4.0,Legendary Creature — Mutant Ninja Turtle,rare,R,R,"Sneak {1}{R}{R} (You may cast this spell for {1}{R}{R} if you also return an unblocked attacker you control to hand during the declare blockers step. He enters tapped and attacking.)
+Attacking creatures you control have double strike.",2,3,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/103/raphael-the-nightwatcher?utm_source=api
+104,"Raphael, Tough Turtle",{1}{R},2.0,Legendary Creature — Mutant Ninja Turtle,common,R,R,"Alliance — Whenever another creature you control enters, Raphael deals 1 damage to target opponent.",1,3,,Alliance,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/104/raphael-tough-turtle?utm_source=api
+105,Raphael's Technique,{4}{R}{R},6.0,Instant,rare,R,R,"Sneak {2}{R} (You may cast this spell for {2}{R} if you also return an unblocked attacker you control to hand during the declare blockers step.)
+Each player may discard their hand and draw seven cards.",,,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/105/raphaels-technique?utm_source=api
+106,Ravenous Robots,{1}{R},2.0,Artifact Creature — Robot,rare,R,R,"Whenever you cast an artifact spell, create a 1/1 colorless Robot artifact creature token.
+{R}, {T}: Creature tokens you control gain haste until end of turn.",2,1,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/106/ravenous-robots?utm_source=api
+107,Rock Soldiers,{3}{R},4.0,Artifact Creature — Elemental Soldier,common,R,R,"When this creature enters, destroy up to one target noncreature artifact.",4,3,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/107/rock-soldiers?utm_source=api
+108,"Slash, Reptile Rampager",{3}{R}{R},5.0,Legendary Creature — Mutant Berserker Turtle,rare,R,R,"Alliance — Whenever another creature you control enters, Slash deals 2 damage to each opponent.
+Whenever Slash attacks, create a 2/2 red Mutant creature token.",7,5,,Alliance,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/108/slash-reptile-rampager?utm_source=api
+109,Spicy Oatmeal Pizza,{2}{R},3.0,Artifact — Food,uncommon,R,R,"When this artifact enters, it deals 4 damage to any target and 3 damage to you.
+{2}, {T}, Sacrifice this artifact: You gain 3 life.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/109/spicy-oatmeal-pizza?utm_source=api
+110,"Wingnut, Bat on the Belfry",{1}{R},2.0,Legendary Creature — Bat Mutant,uncommon,R,R,"Alliance — Whenever another creature you control enters, Wingnut gains your choice of flying, menace, or haste until end of turn.
+Whenever Wingnut attacks, each other attacking creature gets +1/+0 until end of turn.",1,2,,"Alliance, Menace",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/110/wingnut-bat-on-the-belfry?utm_source=api
+111,"Zog, Triceraton Castaway",{4}{R},5.0,Legendary Creature — Dinosaur Soldier,common,R,R,"Reach, trample
+When Zog enters, target creature can't block this turn.
+Mountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)",5,4,,"Mountaincycling, Reach, Landcycling, Trample, Typecycling, Cycling",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/111/zog-triceraton-castaway?utm_source=api
+112,Courier of Comestibles,{1}{G},2.0,Creature — Human Citizen,uncommon,G,G,"When this creature enters, you may search your library for a Food card, reveal it, put it into your hand, then shuffle. If you don't put a card into your hand this way, create a Food token. (It's an artifact with ""{2}, {T}, Sacrifice this token: You gain 3 life."")",1,2,,Food,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/112/courier-of-comestibles?utm_source=api
+113,Cowabunga!,{G},1.0,Sorcery,common,G,G,"Look at the top four cards of your library. You may reveal a Mutant, Ninja, Turtle, or land card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/113/cowabunga!?utm_source=api
+114,Frog Butler,{1}{G},2.0,Creature — Frog Spirit,common,G,G,"Deathtouch
+{T}: Add one mana of any color.
+{2}: This creature gains reach until end of turn.",1,1,,Deathtouch,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/114/frog-butler?utm_source=api
+115,Groundchuck & Dirtbag,{4}{G}{G},6.0,Legendary Creature — Ox Mole Mutant,rare,G,G,"Trample
+Whenever you tap a land for mana, add {G}.",8,8,,Trample,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/115/groundchuck-&-dirtbag?utm_source=api
+116,Guac & Marshmallow Pizza,{G},1.0,Artifact — Food,common,G,G,"Flash
+When this artifact enters, target creature gets +2/+2 until end of turn. Untap it.
+{2}, {T}, Sacrifice this artifact: You gain 3 life.",,,,Flash,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/116/guac-&-marshmallow-pizza?utm_source=api
+117,"Leatherhead, Swamp Stalker",{2}{G}{G},4.0,Legendary Creature — Crocodile Mutant Rogue,rare,G,G,"Trample
+Leatherhead enters with a hexproof counter on her.
+Whenever Leatherhead deals combat damage to a player, you may remove a counter from her. When you do, destroy target artifact or enchantment that player controls.",5,4,,Trample,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/117/leatherhead-swamp-stalker?utm_source=api
+118,"Michelangelo, Game Master",{2}{G},3.0,Legendary Creature — Mutant Ninja Turtle,common,G,G,"Disappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, put a +1/+1 counter on Michelangelo.",3,3,,Disappear,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/118/michelangelo-game-master?utm_source=api
+119,"Michelangelo, Improviser",{3}{G},4.0,Legendary Creature — Mutant Ninja Turtle,mythic,G,G,"Sneak {2}{G}{G} (You may cast this spell for {2}{G}{G} if you also return an unblocked attacker you control to hand during the declare blockers step. He enters tapped and attacking.)
+Whenever Michelangelo deals combat damage to a player, you may put a creature card and/or a land card from your hand onto the battlefield.",4,4,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/119/michelangelo-improviser?utm_source=api
+120,"Michelangelo, Mutant BFF",{2}{G}{G},4.0,Legendary Creature — Mutant Ninja Turtle,uncommon,G,G,"Each creature you control with a counter on it can't be blocked by more than one creature.
+Whenever Michelangelo enters or attacks, create a Mutagen token. (It's an artifact with ""{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."")",4,4,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/120/michelangelo-mutant-bff?utm_source=api
+121,"Michelangelo, Weirdness to 11",{1}{G},2.0,Legendary Creature — Mutant Ninja Turtle,rare,G,G,"When Michelangelo enters, create a Mutagen token. (It's an artifact with ""{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."")
+If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.",1,1,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/121/michelangelo-weirdness-to-11?utm_source=api
+122,Michelangelo's Technique,{4}{G},5.0,Sorcery,rare,G,G,"Sneak {3}{G} (You may cast this spell for {3}{G} if you also return an unblocked attacker you control to hand during the declare blockers step.)
+Look at the top eight cards of your library. Put up to two creature cards with total mana value 6 or less from among them onto the battlefield and the rest on the bottom of your library in a random order.",,,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/122/michelangelos-technique?utm_source=api
+123,"Mona Lisa, Science Geek",{2}{G},3.0,Legendary Creature — Lizard Mutant,uncommon,G,G,"Reach
+{T}: Add X mana of any one color, where X is Mona Lisa's power.",1,3,,Reach,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/123/mona-lisa-science-geek?utm_source=api
+124,"Mutagen Man, Living Ooze",{X}{G}{G},2.0,Legendary Creature — Ooze Mutant,rare,G,G,"Trample
+Activated abilities of artifact tokens you control cost {1} less to activate.
+When Mutagen Man enters, create X Mutagen tokens. (They're artifacts with ""{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."")",2,3,,Trample,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/124/mutagen-man-living-ooze?utm_source=api
+125,Mutant Chain Reaction,{2}{G},3.0,Sorcery,common,G,G,"Destroy up to one target artifact, enchantment, or creature with flying. Create a Mutagen token. (It's an artifact with ""{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."")",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/125/mutant-chain-reaction?utm_source=api
+126,New Generation's Technique,{3}{G},4.0,Sorcery,uncommon,G,G,"Sneak {2}{G} (You may cast this spell for {2}{G} if you also return an unblocked attacker you control to hand during the declare blockers step.)
+Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",,,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/126/new-generations-technique?utm_source=api
+127,Novel Nunchaku,{2}{G},3.0,Artifact — Equipment,uncommon,G,G,"When this Equipment enters, attach it to target creature you control. When you do, equipped creature fights up to one target creature an opponent controls. (Each deals damage equal to its power to the other.)
+Equipped creature gets +1/+1 and has trample.
+Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",,,,"Fight, Equip",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/127/novel-nunchaku?utm_source=api
+128,Party Dude,{G},1.0,Enchantment — Class,rare,G,G,"(Gain the next level as a sorcery to add its ability.)
+When this Class enters, each player creates a Food token.
+{1}{G}: Level 2
+Whenever an artifact an opponent controls is put into a graveyard from the battlefield, draw a card.
+{4}{G}: Level 3
+Whenever one or more of your opponents are attacked, up to one target attacking creature gets +X/+X until end of turn, where X is the number of cards in your hand.",,,,Food,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/128/party-dude?utm_source=api
+129,Primordial Pachyderm,{3}{G},4.0,Creature — Elephant Avatar,common,G,G,"Reach, trample
+When this creature enters, you gain 2 life.",4,4,,"Reach, Trample",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/129/primordial-pachyderm?utm_source=api
+130,Ragamuffin Raptor,{4}{G},5.0,Creature — Dinosaur,common,G,G,"When this creature enters, return up to one target creature or Food card from your graveyard to your hand.",4,3,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/130/ragamuffin-raptor?utm_source=api
+131,"Rocksteady, Crash Courser",{4}{G}{G},6.0,Legendary Creature — Rhino Mutant,common,G,G,"Rocksteady can't be blocked by more than one creature.
+Boars you control can't be blocked by more than one creature.
+Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.)",7,7,,"Landcycling, Forestcycling, Typecycling, Cycling",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/131/rocksteady-crash-courser?utm_source=api
+132,Saved by the Shell,{1}{G},2.0,Instant,uncommon,G,G,"This spell costs {1} less to cast if you control a Turtle.
+Put a +1/+1 counter on target creature you control. It gains trample, hexproof, and indestructible until end of turn.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/132/saved-by-the-shell?utm_source=api
+133,Tenderize,{1}{G},2.0,Instant,common,G,G,Target creature you control deals damage equal to its power to target creature an opponent controls.,,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/133/tenderize?utm_source=api
+134,Transdimensional Bovine,{2}{G},3.0,Creature — Ox Avatar,rare,G,G,"Flying
+{T}: Add two mana of any one color.",0,4,,Flying,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/134/transdimensional-bovine?utm_source=api
+135,Turtle Power!,{2}{G},3.0,Enchantment,rare,G,G,"Flash
+Turtles you control get +2/+2.",,,,Flash,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/135/turtle-power!?utm_source=api
+136,"Venus, Torn Between Worlds",{4}{G},5.0,Legendary Creature — Mutant Frog Turtle,uncommon,G,"G, U","Whenever Venus is dealt damage, put that many +1/+1 counters on her. (She must survive the damage to get the counters.)
+Whenever a creature you control with a counter on it deals combat damage to a player, you may pay {U}. If you do, draw a card.",5,5,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/136/venus-torn-between-worlds?utm_source=api
+137,West Wind Avatar,{5}{G}{G},7.0,Creature — Cat Spirit Avatar,uncommon,G,G,"Trample
+Whenever this creature enters or attacks, you may sacrifice a token or a land. If you do, you gain 3 life.
+Disappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, draw a card.",7,7,,"Disappear, Trample",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/137/west-wind-avatar?utm_source=api
+138,Zoo Escapees,{1}{G},2.0,Creature — Boar Rhino,common,G,G,"When this creature leaves the battlefield, create a Mutagen token. (It's an artifact with ""{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."")",2,2,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/138/zoo-escapees?utm_source=api
+139,Baxter Stockman,{3}{U}{R},5.0,Legendary Creature — Human Scientist,uncommon,"R, U","R, U","When Baxter Stockman enters, create a 1/1 colorless Robot artifact creature token.
+At the beginning of combat on your turn, target artifact creature you control gets +3/+0 and gains first strike and vigilance until end of turn.",3,3,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/139/baxter-stockman?utm_source=api
+140,Bebop & Rocksteady,{1}{B/G}{B/G},3.0,Legendary Creature — Boar Rhino Mutant,rare,"B, G","B, G","Whenever Bebop & Rocksteady attack or block, sacrifice a permanent unless you discard a card.",7,5,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/140/bebop-&-rocksteady?utm_source=api
+141,Brilliance Unleashed,{4}{U}{R},6.0,Sorcery,uncommon,"R, U","R, U","Choose one or both —
+• Brilliance Unleashed deals 5 damage to target creature.
+• Choose target artifact card in your graveyard. Return it to the battlefield if it's an artifact creature card. Otherwise, return it to the battlefield and it's a 3/3 Robot artifact creature with flying.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/141/brilliance-unleashed?utm_source=api
+142,Dark Leo & Shredder,{W}{B},2.0,Legendary Creature — Mutant Ninja Turtle Human,mythic,"B, W","B, W","Sneak {W}{B}
+Attacking Ninjas you control have deathtouch.
+Whenever Dark Leo & Shredder deal combat damage to a player, create a 1/1 black Ninja creature token. Then if you control five or more Ninjas, that player loses half their life, rounded up.",1,3,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/142/dark-leo-&-shredder?utm_source=api
+143,"Don & Leo, Problem Solvers",{3}{W/U}{W/U},5.0,Legendary Creature — Mutant Ninja Turtle,rare,"U, W","U, W","Vigilance
+At the beginning of your end step, exile up to one target artifact you control and up to one target creature you control. Then return them to the battlefield under their owners' control.",4,6,,Vigilance,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/143/don-&-leo-problem-solvers?utm_source=api
+144,"Don & Raph, Hard Science",{1}{U/R}{U/R},3.0,Legendary Creature — Mutant Ninja Turtle,rare,"R, U","R, U","Menace
+Whenever Don & Raph attack, the next noncreature spell you cast this turn has affinity for artifacts. (It costs {1} less to cast for each artifact you control.)",2,4,,Menace,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/144/don-&-raph-hard-science?utm_source=api
+145,EPF Point Squad,{1}{R/W}{R/W},3.0,Creature — Human Soldier,common,"R, W","R, W","Alliance — Whenever another creature you control enters, put a +1/+1 counter on this creature.",2,1,,Alliance,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/145/epf-point-squad?utm_source=api
+146,Foot Elite,{2}{W/B},3.0,Creature — Human Ninja,common,"B, W","B, W","Whenever this creature attacks, another target creature you control gets +1/+0 and gains indestructible until end of turn. (Damage and effects that say ""destroy"" don't destroy it.)",2,4,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/146/foot-elite?utm_source=api
+147,Foot Ninjas,{4}{W/B}{W/B},6.0,Creature — Human Ninja,common,"B, W","B, W","Sneak {3}{W/B} (You may cast this spell for {3}{W/B} if you also return an unblocked attacker you control to hand during the declare blockers step. It enters tapped and attacking.)
+When this creature enters, you gain 3 life.",5,5,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/147/foot-ninjas?utm_source=api
+148,Genghis Frog,{G}{U},2.0,Legendary Creature — Frog Mutant Rogue,uncommon,"G, U","G, U","Trample
+Whenever Genghis Frog or another Mutant you control enters, create a Mutagen token. (It's an artifact with ""{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."")",1,3,,Trample,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/148/genghis-frog?utm_source=api
+149,Go Ninja Go,{R}{W},2.0,Sorcery,uncommon,"R, W","R, W","Choose one or both —
+• Exile target creature you control, then return it to the battlefield under its owner's control.
+• Go Ninja Go deals damage equal to the greatest power among creatures you control to target creature an opponent controls.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/149/go-ninja-go?utm_source=api
+150,Ice Cream Kitty,{1}{B/G},2.0,Artifact Creature — Food Cat Mutant,common,"B, G","B, G","{2}, Sacrifice another creature or token: Draw a card. Activate only as a sorcery.
+{2}, {T}, Sacrifice this creature: You gain 3 life.",1,3,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/150/ice-cream-kitty?utm_source=api
+151,"Karai, Future of the Foot",{1}{W}{B},3.0,Legendary Creature — Human Ninja,uncommon,"B, W","B, W","Sneak {2}{W}{B} (You may cast this spell for {2}{W}{B} if you also return an unblocked attacker you control to hand during the declare blockers step. She enters tapped and attacking.)
+Whenever Karai deals combat damage to a player, return target creature card from your graveyard to your hand. If her sneak cost was paid this turn, instead return that card to the battlefield.",3,3,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/151/karai-future-of-the-foot?utm_source=api
+152,Karai's Technique,{1}{W}{B},3.0,Sorcery,uncommon,"B, W","B, W","Sneak {W}{B} (You may cast this spell for {W}{B} if you also return an unblocked attacker you control to hand during the declare blockers step.)
+Choose one or both —
+• Target creature gets +3/+3 until end of turn.
+• Target creature gets -3/-3 until end of turn.",,,,Sneak,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/152/karais-technique?utm_source=api
+153,Krang & Shredder,{4}{U/B}{U/B},6.0,Legendary Creature — Utrom Human Ninja,rare,"B, U","B, U","Whenever Krang & Shredder enter or attack, each opponent exiles cards from the top of their library until they exile a nonland card.
+Disappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, you may cast a card exiled with Krang & Shredder without paying its mana cost.",6,7,,Disappear,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/153/krang-&-shredder?utm_source=api
+154,The Last Ronin,{4}{B}{G},6.0,Enchantment — Saga,mythic,"B, G","B, G","(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Destroy all creatures.
+II — Mill four cards. When you do, return target creature card from your graveyard to your hand.
+III — Whenever a creature you control attacks alone this turn, put three +1/+1 counters on it. It gains trample, lifelink, and indestructible until end of turn.",,,,Mill,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/154/the-last-ronin?utm_source=api
+155,Lessons from Life,{2}{G}{U},4.0,Sorcery,uncommon,"G, U","G, U",Draw three cards. You may put a land card from your hand onto the battlefield tapped.,,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/155/lessons-from-life?utm_source=api
+156,Mechanized Ninja Cavalry,{1}{R/W},2.0,Artifact Creature — Robot Ninja,common,"R, W","R, W","When this creature enters, create a 1/1 colorless Robot artifact creature token.",1,1,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/156/mechanized-ninja-cavalry?utm_source=api
+157,"Mikey & Don, Party Planners",{2}{G/U}{G/U},4.0,Legendary Creature — Mutant Ninja Turtle,rare,"G, U","G, U","Ward {2}
+You may look at the top card of your library any time.
+You may play lands and cast Mutant, Ninja, or Turtle spells from the top of your library. If you cast a creature spell this way, that creature enters with an additional +1/+1 counter on it.",3,3,,Ward,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/157/mikey-&-don-party-planners?utm_source=api
+158,"Mikey & Leo, Chaos & Order",{G/W}{G/W},2.0,Legendary Creature — Mutant Ninja Turtle,rare,"G, W","G, W","Whenever you put a counter on a creature you control, draw a card. This ability triggers only once each turn.",2,2,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/158/mikey-&-leo-chaos-&-order?utm_source=api
+159,Mouser Mark III,{1}{U/R},2.0,Artifact Creature — Robot,common,"R, U","R, U",This creature can't attack unless you control another artifact.,2,3,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/159/mouser-mark-iii?utm_source=api
+160,The Neutrinos,{2}{R}{W},4.0,Legendary Creature — Elf Rebel,uncommon,"R, W","R, W","Flying
+Alliance — Whenever another creature you control enters, The Neutrinos get +1/+0 until end of turn.
+Whenever The Neutrinos attack, exile up to one target creature you own, then return it to the battlefield under your control tapped and attacking.",2,4,,"Flying, Alliance",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/160/the-neutrinos?utm_source=api
+161,Nobody,{1}{U/R}{U/R},3.0,Artifact Creature — Human Hero,common,"R, U","R, U","When this creature enters, return up to one other target artifact you control to its owner's hand. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",3,2,,Scry,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/161/nobody?utm_source=api
+162,North Wind Avatar,{2}{U}{U}{R},5.0,Creature — Dragon Spirit Avatar,mythic,"R, U","R, U","Flying
+When this creature enters, if you cast it, you may put a card you own from outside the game into your hand.",5,5,,Flying,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/162/north-wind-avatar?utm_source=api
+163,"Pizza Face, Gastromancer",{3}{B}{G},5.0,Legendary Artifact Creature — Food Mutant,uncommon,"B, G","B, G","When Pizza Face enters, create a Food token.
+Disappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, put three +1/+1 counters on up to one other target artifact or creature. If it isn't a creature, it becomes a 0/0 Mutant creature in addition to its other types.
+{10}, {T}, Sacrifice Pizza Face: You gain 15 life.",2,4,,"Disappear, Food",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/163/pizza-face-gastromancer?utm_source=api
+164,Punk Frogs,{3}{G/U}{G/U},5.0,Creature — Frog Mutant Rebel,common,"G, U","G, U","Ward {3} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)",4,5,,Ward,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/164/punk-frogs?utm_source=api
+165,Putrid Pals,{2}{B/G}{B/G},4.0,Creature — Human Ooze Mutant,common,"B, G","B, G","Deathtouch
+Disappear — This creature enters with two +1/+1 counters on it if a permanent left the battlefield under your control this turn.",3,3,,"Disappear, Deathtouch",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/165/putrid-pals?utm_source=api
+166,"Raph & Leo, Sibling Rivals",{1}{R/W}{R/W},3.0,Legendary Creature — Mutant Ninja Turtle,rare,"R, W","R, W","Whenever Raph & Leo attack, if it's the first combat phase of the turn, untap one or two target attacking creatures. After this phase, there is an additional combat phase.",2,4,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/166/raph-&-leo-sibling-rivals?utm_source=api
+167,"Raph & Mikey, Troublemakers",{5}{R/G}{R/G},7.0,Legendary Creature — Mutant Ninja Turtle,rare,"G, R","G, R","Trample, haste
+Whenever Raph & Mikey attack, reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield tapped and attacking and the rest on the bottom of your library in a random order.",7,7,,"Haste, Trample",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/167/raph-&-mikey-troublemakers?utm_source=api
+168,Slithering Cryptid,{2}{G/U},3.0,Creature — Fish Mutant,common,"G, U","G, U","When this creature enters, create a Mutagen token. (It's an artifact with ""{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."")",2,3,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/168/slithering-cryptid?utm_source=api
+169,"Splinter, Radical Rat",{1}{W/B}{W/B},3.0,Legendary Creature — Mutant Ninja Rat,rare,"B, W","B, U, W","If an ability of a Ninja creature you control triggers, that ability triggers an additional time.
+{1}{U}: Target Ninja can't be blocked this turn.",2,4,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/169/splinter-radical-rat?utm_source=api
+170,Tainted Treats,{1}{B}{G},3.0,Instant,uncommon,"B, G","B, G","Destroy target artifact or creature. If its mana value was 4 or less, create a Food token. (It's an artifact with ""{2}, {T}, Sacrifice this token: You gain 3 life."")",,,,Food,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/170/tainted-treats?utm_source=api
+171,"Tokka & Rahzar, Terrible Twos",{B/R}{B/R},2.0,Legendary Creature — Turtle Wolf Mutant,rare,"B, R","B, R","This spell can't be countered.
+Menace
+Whenever a player casts a spell, if the amount of mana spent to cast it was less than its mana value, Tokka & Rahzar deal 3 damage to that player.",3,2,,Menace,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/171/tokka-&-rahzar-terrible-twos?utm_source=api
+172,Chrome Dome,{2},2.0,Artifact Creature — Robot Ninja,rare,,,"Other artifact creatures you control get +1/+0.
+{5}: Create a token that's a copy of another target artifact you control. That token gains haste. Sacrifice it at the beginning of the next end step.",1,3,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/172/chrome-dome?utm_source=api
+173,Everything Pizza,{2},2.0,Artifact — Food,uncommon,,"B, G, R, U, W","When this artifact enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+{2}{W}{U}{B}{R}{G}, {T}, Sacrifice this artifact: Target player gains 3 life and draws a card. Each of your opponents discards a card. This artifact deals 3 damage to any target. Put three +1/+1 counters on up to one target creature.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/173/everything-pizza?utm_source=api
+174,Henchbots,{4},4.0,Artifact Creature — Robot,uncommon,,,"When this creature enters, exile target tapped creature an opponent controls until this creature leaves the battlefield.",2,3,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/174/henchbots?utm_source=api
+175,"Krang, Utrom Warlord",{9},9.0,Legendary Artifact Creature — Utrom Robot,mythic,,,"Flying, trample, indestructible, haste
+Other artifact creatures you control have flying, trample, indestructible, and haste.",9,9,,"Flying, Indestructible, Haste, Trample",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/175/krang-utrom-warlord?utm_source=api
+176,Omni-Cheese Pizza,{2},2.0,Artifact — Food,common,,,"When this artifact enters, draw a card.
+{1}, {T}, Sacrifice this artifact: Add one mana of any color.
+{2}, {T}, Sacrifice this artifact: You gain 3 life.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/176/omni-cheese-pizza?utm_source=api
+177,The Ooze,{2},2.0,Legendary Artifact,rare,,,"Whenever a creature you control with a +1/+1 counter on it leaves the battlefield, create a Mutagen token for each +1/+1 counter on it. (A Mutagen token is an artifact with ""{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."")
+{T}: Exile target card from a graveyard. Create a Mutagen token.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/177/the-ooze?utm_source=api
+178,Skateboard,{1},1.0,Artifact — Equipment,uncommon,,,"When this Equipment enters, tap target permanent.
+Equipped creature gets +1/+0 and has haste.
+Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",,,,Equip,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/178/skateboard?utm_source=api
+179,Technodrome,{2},2.0,Artifact Creature — Construct,mythic,,,"Reach, trample
+This creature can't attack or block unless its power is 6 or greater.
+{T}, Sacrifice another artifact: Draw a card. Put a +1/+1 counter on this creature.",3,3,,"Reach, Trample",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/179/technodrome?utm_source=api
+180,Turtle Blimp,{5},5.0,Artifact — Vehicle,uncommon,,,"Flying
+When this Vehicle enters, create a 2/2 red Mutant creature token.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)",3,4,,"Flying, Crew",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/180/turtle-blimp?utm_source=api
+181,Turtle Van,{3},3.0,Artifact — Vehicle,rare,,,"Whenever this Vehicle attacks, put a +1/+1 counter on target creature that crewed it this turn. Then if that creature is a Mutant, Ninja, or Turtle, double the number of +1/+1 counters on it.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",4,4,,Crew,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/181/turtle-van?utm_source=api
+182,Weather Maker,{3},3.0,Artifact,rare,,,"Landfall — Whenever a land you control enters, put a charge counter on this artifact.
+{T}: Add one mana of any color.
+{T}, Remove two charge counters from this artifact: Add {C}{C}.
+{T}, Remove three charge counters from this artifact: It deals 3 damage to any target.",,,,Landfall,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/182/weather-maker?utm_source=api
+183,Dimension X,,0.0,Land,common,,"R, W","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {R} or {W}.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/183/dimension-x?utm_source=api
+184,Escape Tunnel,,0.0,Land,common,,,"{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+{T}, Sacrifice this land: Target creature with power 2 or less can't be blocked this turn.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/184/escape-tunnel?utm_source=api
+185,Foot Headquarters,,0.0,Land,common,,"B, W","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {W} or {B}.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/185/foot-headquarters?utm_source=api
+186,Illegitimate Business,,0.0,Land,common,,"B, G","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {B} or {G}.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/186/illegitimate-business?utm_source=api
+187,Mutant Town,,0.0,Land,common,,"G, U","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {G} or {U}.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/187/mutant-town?utm_source=api
+188,Northampton Farm,,0.0,Land,rare,,,"{T}: Add {C}.
+{1}, {T}: Exile target creature you own.
+{2}, {T}, Sacrifice this land: Return a creature card exiled with this land to the battlefield under your control. Return each other card exiled with this land to its owner's hand.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/188/northampton-farm?utm_source=api
+189,TCRI Building,,0.0,Land,common,,"R, U","This land enters tapped.
+When this land enters, you gain 1 life.
+{T}: Add {U} or {R}.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/189/tcri-building?utm_source=api
+190,Turtle Lair,,0.0,Land,uncommon,,,"{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast a Ninja or Turtle spell.
+{3}, {T}: Target Ninja or Turtle can't be blocked this turn.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/190/turtle-lair?utm_source=api
+315,Plains,,0.0,Basic Land — Plains,common,,W,({T}: Add {W}.),,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/315/plains?utm_source=api
+316,Island,,0.0,Basic Land — Island,common,,U,({T}: Add {U}.),,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/316/island?utm_source=api
+317,Swamp,,0.0,Basic Land — Swamp,common,,B,({T}: Add {B}.),,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/317/swamp?utm_source=api
+318,Mountain,,0.0,Basic Land — Mountain,common,,R,({T}: Add {R}.),,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/318/mountain?utm_source=api
+319,Forest,,0.0,Basic Land — Forest,common,,G,({T}: Add {G}.),,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/319/forest?utm_source=api

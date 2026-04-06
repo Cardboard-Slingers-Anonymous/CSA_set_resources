@@ -1,0 +1,535 @@
+collector_number,name,mana_cost,cmc,type_line,rarity,colors,color_identity,oracle_text,power,toughness,loyalty,keywords,set_name,released_at,scryfall_uri
+1,Anticausal Vestige,{6},6.0,Creature — Eldrazi,rare,,,"When this creature leaves the battlefield, draw a card, then you may put a permanent card with mana value less than or equal to the number of lands you control from your hand onto the battlefield tapped.
+Warp {4} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",7,5,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/1/anticausal-vestige?utm_source=api
+2,"Tezzeret, Cruel Captain",{3},3.0,Legendary Planeswalker — Tezzeret,mythic,,,"Whenever an artifact you control enters, put a loyalty counter on Tezzeret.
+0: Untap target artifact or creature. If it's an artifact creature, put a +1/+1 counter on it.
+−3: Search your library for an artifact card with mana value 1 or less, reveal it, put it into your hand, then shuffle.
+−7: You get an emblem with ""At the beginning of combat on your turn, put three +1/+1 counters on target artifact you control. If it's not a creature, it becomes a 0/0 Robot artifact creature.""",,,4,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/2/tezzeret-cruel-captain?utm_source=api
+3,All-Fates Stalker,{3}{W},4.0,Creature — Drix Assassin,uncommon,W,W,"When this creature enters, exile up to one target non-Assassin creature until this creature leaves the battlefield.
+Warp {1}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",2,3,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/3/all-fates-stalker?utm_source=api
+4,Astelli Reclaimer,{3}{W}{W},5.0,Creature — Angel Warrior,rare,W,W,"Flying
+When this creature enters, return target noncreature, nonland permanent card with mana value X or less from your graveyard to the battlefield, where X is the amount of mana spent to cast this creature.
+Warp {2}{W}",5,4,,"Flying, Warp",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/4/astelli-reclaimer?utm_source=api
+5,Auxiliary Boosters,{4}{W},5.0,Artifact — Equipment,common,W,W,"When this Equipment enters, create a 2/2 colorless Robot artifact creature token and attach this Equipment to it.
+Equipped creature gets +1/+2 and has flying.
+Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",,,,Equip,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/5/auxiliary-boosters?utm_source=api
+6,Banishing Light,{2}{W},3.0,Enchantment,common,W,W,"When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/6/banishing-light?utm_source=api
+7,Beyond the Quiet,{3}{W}{W},5.0,Sorcery,rare,W,W,Exile all creatures and Spacecraft.,,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/7/beyond-the-quiet?utm_source=api
+8,Brightspear Zealot,{2}{W},3.0,Creature — Human Soldier,common,W,W,"Vigilance
+This creature gets +2/+0 as long as you've cast two or more spells this turn.",2,4,,Vigilance,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/8/brightspear-zealot?utm_source=api
+9,Cosmogrand Zenith,{2}{W},3.0,Creature — Human Soldier,mythic,W,W,"Whenever you cast your second spell each turn, choose one —
+• Create two 1/1 white Human Soldier creature tokens.
+• Put a +1/+1 counter on each creature you control.",2,4,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/9/cosmogrand-zenith?utm_source=api
+10,Dawnstrike Vanguard,{5}{W},6.0,Creature — Human Knight,uncommon,W,W,"Lifelink
+At the beginning of your end step, if you control two or more tapped creatures, put a +1/+1 counter on each creature you control other than this creature.",4,5,,Lifelink,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/10/dawnstrike-vanguard?utm_source=api
+11,Dockworker Drone,{1}{W},2.0,Artifact Creature — Robot,common,W,W,"This creature enters with a +1/+1 counter on it.
+When this creature dies, put its counters on target creature you control.",1,1,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/11/dockworker-drone?utm_source=api
+12,Dual-Sun Adepts,{2}{W},3.0,Creature — Human Soldier,uncommon,W,W,"Double strike
+{5}: Creatures you control get +1/+1 until end of turn.",2,2,,Double strike,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/12/dual-sun-adepts?utm_source=api
+13,Dual-Sun Technique,{1}{W},2.0,Instant,uncommon,W,W,"Target creature you control gains double strike until end of turn. If it has a +1/+1 counter on it, draw a card.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/13/dual-sun-technique?utm_source=api
+14,Emergency Eject,{2}{W},3.0,Instant,uncommon,W,W,"Destroy target nonland permanent. Its controller creates a Lander token. (It's an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/14/emergency-eject?utm_source=api
+15,Exalted Sunborn,{3}{W}{W},5.0,Creature — Angel Wizard,mythic,W,W,"Flying, lifelink
+If one or more tokens would be created under your control, twice that many of those tokens are created instead.
+Warp {1}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",4,5,,"Flying, Lifelink, Warp",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/15/exalted-sunborn?utm_source=api
+16,Exosuit Savior,{2}{W},3.0,Creature — Human Soldier,common,W,W,"Flying
+When this creature enters, return up to one other target permanent you control to its owner's hand.",2,2,,Flying,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/16/exosuit-savior?utm_source=api
+17,Flight-Deck Coordinator,{2}{W},3.0,Creature — Human Soldier,common,W,W,"At the beginning of your end step, if you control two or more tapped creatures, you gain 2 life.",3,3,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/17/flight-deck-coordinator?utm_source=api
+18,Focus Fire,{W},1.0,Instant,common,W,W,"Focus Fire deals X damage to target attacking or blocking creature, where X is 2 plus the number of creatures and/or Spacecraft you control.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/18/focus-fire?utm_source=api
+19,"Haliya, Guided by Light",{2}{W},3.0,Legendary Creature — Human Soldier,rare,W,W,"Whenever Haliya or another creature or artifact you control enters, you gain 1 life.
+At the beginning of your end step, draw a card if you've gained 3 or more life this turn.
+Warp {W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",3,3,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/19/haliya-guided-by-light?utm_source=api
+20,Hardlight Containment,{W},1.0,Enchantment — Aura,rare,W,W,"Enchant artifact you control
+When this Aura enters, exile target creature an opponent controls until this Aura leaves the battlefield.
+Enchanted permanent has ward {1}.",,,,Enchant,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/20/hardlight-containment?utm_source=api
+21,Honor,{W},1.0,Sorcery,uncommon,W,W,"Put a +1/+1 counter on target creature.
+Draw a card.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/21/honor?utm_source=api
+22,Honored Knight-Captain,{1}{W},2.0,Creature — Human Advisor Knight,uncommon,W,W,"When this creature enters, create a 1/1 white Human Soldier creature token.
+{4}{W}{W}, Sacrifice this creature: Search your library for an Equipment card, put it onto the battlefield, then shuffle.",1,1,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/22/honored-knight-captain?utm_source=api
+23,Knight Luminary,{3}{W},4.0,Creature — Human Knight,common,W,W,"When this creature enters, create a 1/1 white Human Soldier creature token.
+Warp {1}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",3,2,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/23/knight-luminary?utm_source=api
+24,Lightstall Inquisitor,{W},1.0,Creature — Angel Wizard,rare,W,W,"Vigilance
+When this creature enters, each opponent exiles a card from their hand and may play that card for as long as it remains exiled. Each spell cast this way costs {1} more to cast. Each land played this way enters tapped.",2,1,,Vigilance,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/24/lightstall-inquisitor?utm_source=api
+25,Lumen-Class Frigate,{1}{W},2.0,Artifact — Spacecraft,rare,W,W,"Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 12+.)
+2+ | Other creatures you control get +1/+1.
+12+ | Flying, lifelink",3,5,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/25/lumen-class-frigate?utm_source=api
+26,Luxknight Breacher,{3}{W},4.0,Creature — Human Knight,common,W,W,This creature enters with a +1/+1 counter on it for each other creature and/or artifact you control.,2,2,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/26/luxknight-breacher?utm_source=api
+27,Pinnacle Starcage,{1}{W}{W},3.0,Artifact,rare,W,W,"When this artifact enters, exile all artifacts and creatures with mana value 2 or less until this artifact leaves the battlefield.
+{6}{W}{W}: Put each card exiled with this artifact into its owner's graveyard, then create a 2/2 colorless Robot artifact creature token for each card put into a graveyard this way. Sacrifice this artifact.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/27/pinnacle-starcage?utm_source=api
+28,Pulsar Squadron Ace,{1}{W},2.0,Creature — Human Pilot,uncommon,W,W,"When this creature enters, look at the top five cards of your library. You may reveal a Spacecraft card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. If you didn't put a card into your hand this way, put a +1/+1 counter on this creature.",1,2,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/28/pulsar-squadron-ace?utm_source=api
+29,Radiant Strike,{3}{W},4.0,Instant,common,W,W,Destroy target artifact or tapped creature. You gain 3 life.,,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/29/radiant-strike?utm_source=api
+30,Rayblade Trooper,{2}{W},3.0,Creature — Human Soldier,uncommon,W,W,"When this creature enters, put a +1/+1 counter on target creature you control.
+Whenever a nontoken creature you control with a +1/+1 counter on it dies, create a 1/1 white Human Soldier creature token.
+Warp {1}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",2,2,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/30/rayblade-trooper?utm_source=api
+31,Reroute Systems,{W},1.0,Instant,uncommon,W,W,"Choose one —
+• Target artifact or creature gains indestructible until end of turn. (Damage and effects that say ""destroy"" don't destroy it.)
+• Reroute Systems deals 2 damage to target tapped creature.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/31/reroute-systems?utm_source=api
+32,Rescue Skiff,{5}{W},6.0,Artifact — Spacecraft,uncommon,W,W,"When this Spacecraft enters, return target creature or enchantment card from your graveyard to the battlefield.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 10+.)
+10+ | Flying",5,6,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/32/rescue-skiff?utm_source=api
+33,Scout for Survivors,{2}{W},3.0,Sorcery,uncommon,W,W,Return up to three target creature cards with total mana value 3 or less from your graveyard to the battlefield. Put a +1/+1 counter on each of them.,,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/33/scout-for-survivors?utm_source=api
+34,Seam Rip,{W},1.0,Enchantment,uncommon,W,W,"When this enchantment enters, exile target nonland permanent an opponent controls with mana value 2 or less until this enchantment leaves the battlefield.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/34/seam-rip?utm_source=api
+35,The Seriema,{1}{W}{W},3.0,Legendary Artifact — Spacecraft,rare,W,W,"When The Seriema enters, search your library for a legendary creature card, reveal it, put it into your hand, then shuffle.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+.)
+7+ | Flying
+Other tapped legendary creatures you control have indestructible.",5,5,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/35/the-seriema?utm_source=api
+36,Squire's Lightblade,{W},1.0,Artifact — Equipment,common,W,W,"Flash
+When this Equipment enters, attach it to target creature you control. That creature gains first strike until end of turn.
+Equipped creature gets +1/+0.
+Equip {3}",,,,"Equip, Flash",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/36/squires-lightblade?utm_source=api
+37,Starfield Shepherd,{3}{W}{W},5.0,Creature — Angel,uncommon,W,W,"Flying
+When this creature enters, search your library for a basic Plains card or a creature card with mana value 1 or less, reveal it, put it into your hand, then shuffle.
+Warp {1}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",3,2,,"Flying, Warp",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/37/starfield-shepherd?utm_source=api
+38,Starfighter Pilot,{1}{W},2.0,Creature — Human Pilot,common,W,W,"Whenever this creature becomes tapped, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",2,2,,Surveil,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/38/starfighter-pilot?utm_source=api
+39,Starport Security,{W},1.0,Artifact Creature — Robot Soldier,common,W,W,"{3}{W}, {T}: Tap another target creature. This ability costs {2} less to activate if you control a creature with a +1/+1 counter on it.",1,1,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/39/starport-security?utm_source=api
+40,Sunstar Chaplain,{1}{W},2.0,Creature — Human Cleric,rare,W,W,"At the beginning of your end step, if you control two or more tapped creatures, put a +1/+1 counter on target creature you control.
+{2}, Remove a +1/+1 counter from a creature you control: Tap target artifact or creature.",3,2,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/40/sunstar-chaplain?utm_source=api
+41,Sunstar Expansionist,{1}{W},2.0,Creature — Human Knight,uncommon,W,W,"When this creature enters, if an opponent controls more lands than you, create a Lander token. (It's an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")
+Landfall — Whenever a land you control enters, this creature gets +1/+0 until end of turn.",2,3,,Landfall,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/41/sunstar-expansionist?utm_source=api
+42,Sunstar Lightsmith,{3}{W},4.0,Creature — Human Artificer,uncommon,W,W,"Whenever you cast your second spell each turn, put a +1/+1 counter on this creature and draw a card.",3,3,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/42/sunstar-lightsmith?utm_source=api
+43,Wedgelight Rammer,{3}{W},4.0,Artifact — Spacecraft,uncommon,W,W,"When this Spacecraft enters, create a 2/2 colorless Robot artifact creature token.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 9+.)
+9+ | Flying, first strike",3,4,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/43/wedgelight-rammer?utm_source=api
+44,Weftblade Enhancer,{5}{W},6.0,Creature — Drix Artificer,common,W,W,"When this creature enters, put a +1/+1 counter on each of up to two target creatures.
+Warp {2}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",3,4,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/44/weftblade-enhancer?utm_source=api
+45,Zealous Display,{2}{W},3.0,Instant,common,W,W,"Creatures you control get +2/+0 until end of turn. If it's not your turn, untap those creatures.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/45/zealous-display?utm_source=api
+46,Annul,{U},1.0,Instant,uncommon,U,U,Counter target artifact or enchantment spell.,,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/46/annul?utm_source=api
+47,Atomic Microsizer,{U},1.0,Artifact — Equipment,uncommon,U,U,"Equipped creature gets +1/+0.
+Whenever equipped creature attacks, choose up to one target creature. That creature can't be blocked this turn and has base power and toughness 1/1 until end of turn.
+Equip {2}",,,,Equip,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/47/atomic-microsizer?utm_source=api
+48,Cerebral Download,{4}{U},5.0,Instant,uncommon,U,U,"Surveil X, where X is the number of artifacts you control. Then draw three cards. (To surveil X, look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",,,,Surveil,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/48/cerebral-download?utm_source=api
+49,Cloudsculpt Technician,{2}{U},3.0,Creature — Jellyfish Artificer,common,U,U,"Flying
+As long as you control an artifact, this creature gets +1/+0.",1,4,,Flying,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/49/cloudsculpt-technician?utm_source=api
+50,Codecracker Hound,{2}{U},3.0,Creature — Dog,uncommon,U,U,"When this creature enters, look at the top two cards of your library. Put one into your hand and the other into your graveyard.
+Warp {2}{U} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",2,1,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/50/codecracker-hound?utm_source=api
+51,Consult the Star Charts,{1}{U},2.0,Instant,rare,U,U,"Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)
+Look at the top X cards of your library, where X is the number of lands you control. Put one of those cards into your hand. If this spell was kicked, put two of those cards into your hand instead. Put the rest on the bottom of your library in a random order.",,,,Kicker,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/51/consult-the-star-charts?utm_source=api
+52,Cryogen Relic,{1}{U},2.0,Artifact,common,U,U,"When this artifact enters or leaves the battlefield, draw a card.
+{1}{U}, Sacrifice this artifact: Put a stun counter on up to one target tapped creature. (If a permanent with a stun counter would become untapped, remove one from it instead.)",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/52/cryogen-relic?utm_source=api
+53,Cryoshatter,{U},1.0,Enchantment — Aura,common,U,U,"Enchant creature
+Enchanted creature gets -5/-0.
+When enchanted creature becomes tapped or is dealt damage, destroy it.",,,,Enchant,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/53/cryoshatter?utm_source=api
+54,Desculpting Blast,{1}{U},2.0,Instant,uncommon,U,U,"Return target nonland permanent to its owner's hand. If it was attacking, create a 1/1 colorless Drone artifact creature token with flying and ""This token can block only creatures with flying.""",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/54/desculpting-blast?utm_source=api
+55,Divert Disaster,{1}{U},2.0,Instant,common,U,U,"Counter target spell unless its controller pays {2}. If they do, you create a Lander token. (It's an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/55/divert-disaster?utm_source=api
+56,Emissary Escort,{1}{U},2.0,Artifact Creature — Robot Soldier,rare,U,U,"This creature gets +X/+0, where X is the greatest mana value among other artifacts you control.",0,4,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/56/emissary-escort?utm_source=api
+57,Gigastorm Titan,{4}{U},5.0,Creature — Elemental,uncommon,U,U,This spell costs {3} less to cast if you've cast another spell this turn.,4,4,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/57/gigastorm-titan?utm_source=api
+58,Illvoi Galeblade,{U},1.0,Creature — Jellyfish Warrior,common,U,U,"Flash
+Flying
+{2}, Sacrifice this creature: Draw a card.",1,1,,"Flying, Flash",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/58/illvoi-galeblade?utm_source=api
+59,Illvoi Infiltrator,{2}{U},3.0,Creature — Jellyfish Rogue,uncommon,U,U,"This creature can't be blocked if you've cast two or more spells this turn.
+Whenever this creature deals combat damage to a player, draw a card.",1,3,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/59/illvoi-infiltrator?utm_source=api
+60,Illvoi Light Jammer,{1}{U},2.0,Artifact — Equipment,common,U,U,"Flash
+When this Equipment enters, attach it to target creature you control. That creature gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)
+Equipped creature gets +1/+2.
+Equip {3}",,,,"Equip, Flash",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/60/illvoi-light-jammer?utm_source=api
+61,Illvoi Operative,{1}{U},2.0,Creature — Jellyfish Rogue,common,U,U,"Whenever you cast your second spell each turn, put a +1/+1 counter on this creature.",2,1,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/61/illvoi-operative?utm_source=api
+62,Lost in Space,{3}{U},4.0,Instant,common,U,U,Target artifact or creature's owner puts it on their choice of the top or bottom of their library. Surveil 1. (Look at the top card of your library. You may put it into your graveyard.),,,,Surveil,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/62/lost-in-space?utm_source=api
+63,Mechan Assembler,{4}{U},5.0,Artifact Creature — Robot Artificer,uncommon,U,U,"Whenever another artifact you control enters, create a 2/2 colorless Robot artifact creature token. This ability triggers only once each turn.",4,4,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/63/mechan-assembler?utm_source=api
+64,Mechan Navigator,{1}{U},2.0,Artifact Creature — Robot Pilot,uncommon,U,U,"Whenever this creature becomes tapped, draw a card, then discard a card.",2,1,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/64/mechan-navigator?utm_source=api
+65,Mechan Shieldmate,{1}{U},2.0,Artifact Creature — Robot Soldier,common,U,U,"Defender
+As long as an artifact entered the battlefield under your control this turn, this creature can attack as though it didn't have defender.",3,2,,Defender,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/65/mechan-shieldmate?utm_source=api
+66,Mechanozoa,{4}{U}{U},6.0,Artifact Creature — Robot Jellyfish,common,U,U,"When this creature enters, tap target artifact or creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+Warp {2}{U} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",5,5,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/66/mechanozoa?utm_source=api
+67,Mental Modulation,{1}{U},2.0,Instant,common,U,U,"This spell costs {1} less to cast during your turn.
+Tap target artifact or creature.
+Draw a card.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/67/mental-modulation?utm_source=api
+68,"Mm'menon, the Right Hand",{3}{U}{U},5.0,Legendary Creature — Jellyfish Advisor,rare,U,U,"Flying
+You may look at the top card of your library any time.
+You may cast artifact spells from the top of your library.
+Artifacts you control have ""{T}: Add {U}. Spend this mana only to cast a spell from anywhere other than your hand.""",3,4,,Flying,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/68/mmmenon-the-right-hand?utm_source=api
+69,Moonlit Meditation,{2}{U},3.0,Enchantment — Aura,rare,U,U,"Enchant artifact or creature you control
+The first time you would create one or more tokens each turn, you may instead create that many tokens that are copies of enchanted permanent.",,,,Enchant,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/69/moonlit-meditation?utm_source=api
+70,Mouth of the Storm,{6}{U},7.0,Creature — Elemental,uncommon,U,U,"Flying
+Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+When this creature enters, creatures your opponents control get -3/-0 until your next turn.",6,6,,"Flying, Ward",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/70/mouth-of-the-storm?utm_source=api
+71,Nanoform Sentinel,{2}{U},3.0,Artifact Creature — Robot,common,U,U,"Whenever this creature becomes tapped, untap another target permanent. This ability triggers only once each turn.",3,2,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/71/nanoform-sentinel?utm_source=api
+72,Quantum Riddler,{3}{U}{U},5.0,Creature — Sphinx,mythic,U,U,"Flying
+When this creature enters, draw a card.
+As long as you have one or fewer cards in hand, if you would draw one or more cards, you draw that many cards plus one instead.
+Warp {1}{U}",4,6,,"Flying, Warp",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/72/quantum-riddler?utm_source=api
+73,Scour for Scrap,{3}{U},4.0,Instant,uncommon,U,U,"Choose one or both —
+• Search your library for an artifact card, reveal it, put it into your hand, then shuffle.
+• Return target artifact card from your graveyard to your hand.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/73/scour-for-scrap?utm_source=api
+74,Selfcraft Mechan,{3}{U},4.0,Artifact Creature — Robot Artificer,common,U,U,"When this creature enters, you may sacrifice an artifact. When you do, put a +1/+1 counter on target creature and draw a card.",3,4,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/74/selfcraft-mechan?utm_source=api
+75,Sinister Cryologist,{2}{U},3.0,Creature — Jellyfish Wizard,common,U,U,"When this creature enters, target creature an opponent controls gets -3/-0 until end of turn.
+Warp {U} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",2,3,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/75/sinister-cryologist?utm_source=api
+76,Specimen Freighter,{5}{U},6.0,Artifact — Spacecraft,uncommon,U,U,"When this Spacecraft enters, return up to two target non-Spacecraft creatures to their owners' hands.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 9+.)
+9+ | Flying
+Whenever this Spacecraft attacks, defending player mills four cards.",4,7,,"Station, Mill",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/76/specimen-freighter?utm_source=api
+77,Starbreach Whale,{4}{U},5.0,Creature — Whale,common,U,U,"Flying
+When this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+Warp {1}{U} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",3,5,,"Flying, Surveil, Warp",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/77/starbreach-whale?utm_source=api
+78,Starfield Vocalist,{3}{U},4.0,Creature — Human Bard,rare,U,U,"If a permanent entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+Warp {1}{U} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",3,4,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/78/starfield-vocalist?utm_source=api
+79,Starwinder,{5}{U}{U},7.0,Creature — Leviathan,rare,U,U,"Whenever a creature you control deals combat damage to a player, you may draw that many cards.
+Warp {2}{U}{U} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",7,7,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/79/starwinder?utm_source=api
+80,Steelswarm Operator,{1}{U},2.0,Artifact Creature — Robot Soldier,uncommon,U,U,"Flying
+{T}: Add {U}. Spend this mana only to cast an artifact spell.
+{T}: Add {U}{U}. Spend this mana only to activate abilities of artifact sources.",1,1,,Flying,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/80/steelswarm-operator?utm_source=api
+81,Synthesizer Labship,{U},1.0,Artifact — Spacecraft,rare,U,U,"Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 9+.)
+2+ | At the beginning of combat on your turn, up to one other target artifact you control becomes an artifact creature with base power and toughness 2/2 and gains flying until end of turn.
+9+ | Flying, vigilance",4,4,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/81/synthesizer-labship?utm_source=api
+82,Tractor Beam,{2}{U}{U},4.0,Enchantment — Aura,uncommon,U,U,"Enchant creature or Spacecraft
+When this Aura enters, tap enchanted permanent.
+You control enchanted permanent.
+Enchanted permanent doesn't untap during its controller's untap step.",,,,Enchant,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/82/tractor-beam?utm_source=api
+83,Unravel,{1}{U}{U},3.0,Instant,uncommon,U,U,"Counter target spell. If the amount of mana spent to cast that spell was less than its mana value, you draw a card.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/83/unravel?utm_source=api
+84,Uthros Psionicist,{2}{U},3.0,Creature — Jellyfish Scientist,uncommon,U,U,The second spell you cast each turn costs {2} less to cast.,2,4,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/84/uthros-psionicist?utm_source=api
+85,Uthros Scanship,{3}{U},4.0,Artifact — Spacecraft,uncommon,U,U,"When this Spacecraft enters, draw two cards, then discard a card.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)
+8+ | Flying",4,4,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/85/uthros-scanship?utm_source=api
+86,Weftwalking,{4}{U}{U},6.0,Enchantment,mythic,U,U,"When this enchantment enters, if you cast it, shuffle your hand and graveyard into your library, then draw seven cards.
+The first spell each player casts during each of their turns may be cast without paying its mana cost.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/86/weftwalking?utm_source=api
+87,"Alpharael, Stonechosen",{3}{B}{B},5.0,Legendary Creature — Human Cleric,mythic,B,B,"Ward—Discard a card at random.
+Void — Whenever Alpharael attacks, if a nonland permanent left the battlefield this turn or a spell was warped this turn, defending player loses half their life, rounded up.",3,3,,"Ward, Void",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/87/alpharael-stonechosen?utm_source=api
+88,Archenemy's Charm,{B}{B}{B},3.0,Instant,rare,B,B,"Choose one —
+• Exile target creature or planeswalker.
+• Return one or two target creature and/or planeswalker cards from your graveyard to your hand.
+• Put two +1/+1 counters on target creature you control. It gains lifelink until end of turn.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/88/archenemys-charm?utm_source=api
+89,Beamsaw Prospector,{1}{B},2.0,Creature — Human Artificer,common,B,B,"When this creature dies, create a Lander token. (It's an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")",2,1,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/89/beamsaw-prospector?utm_source=api
+90,Blade of the Swarm,{3}{B},4.0,Creature — Insect Assassin,uncommon,B,B,"When this creature enters, choose one —
+• Put two +1/+1 counters on this creature.
+• Put target exiled card with warp on the bottom of its owner's library.",3,1,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/90/blade-of-the-swarm?utm_source=api
+91,Chorale of the Void,{3}{B},4.0,Enchantment — Aura,rare,B,B,"Enchant creature you control
+Whenever enchanted creature attacks, put target creature card from defending player's graveyard onto the battlefield under your control tapped and attacking.
+Void — At the beginning of your end step, sacrifice this Aura unless a nonland permanent left the battlefield this turn or a spell was warped this turn.",,,,"Enchant, Void",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/91/chorale-of-the-void?utm_source=api
+92,Comet Crawler,{2}{B},3.0,Creature — Insect Horror,common,B,B,"Lifelink
+Whenever this creature attacks, you may sacrifice another creature or artifact. If you do, this creature gets +2/+0 until end of turn.",2,3,,Lifelink,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/92/comet-crawler?utm_source=api
+93,Dark Endurance,{1}{B},2.0,Instant,common,B,B,"This spell costs {1} less to cast if it targets a blocking creature.
+Target creature gets +2/+0 and gains indestructible until end of turn. (Damage and effects that say ""destroy"" don't destroy it.)",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/93/dark-endurance?utm_source=api
+94,Decode Transmissions,{2}{B},3.0,Sorcery,common,B,B,"You draw two cards and lose 2 life.
+Void — If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead you draw two cards and each opponent loses 2 life.",,,,Void,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/94/decode-transmissions?utm_source=api
+95,Depressurize,{1}{B},2.0,Instant,common,B,B,"Target creature gets -3/-0 until end of turn. Then if that creature's power is 0 or less, destroy it.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/95/depressurize?utm_source=api
+96,Dubious Delicacy,{2}{B},3.0,Artifact — Food,uncommon,B,B,"Flash
+When this artifact enters, up to one target creature gets -3/-3 until end of turn.
+{2}, {T}, Sacrifice this artifact: You gain 3 life.
+{2}, {T}, Sacrifice this artifact: Target opponent loses 3 life.",,,,Flash,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/96/dubious-delicacy?utm_source=api
+97,Elegy Acolyte,{2}{B}{B},4.0,Creature — Human Cleric,rare,B,B,"Lifelink
+Whenever one or more creatures you control deal combat damage to a player, you draw a card and lose 1 life.
+Void — At the beginning of your end step, if a nonland permanent left the battlefield this turn or a spell was warped this turn, create a 2/2 colorless Robot artifact creature token.",4,4,,"Lifelink, Void",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/97/elegy-acolyte?utm_source=api
+98,Embrace Oblivion,{B},1.0,Sorcery,common,B,B,"As an additional cost to cast this spell, sacrifice an artifact or creature.
+Destroy target creature or Spacecraft.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/98/embrace-oblivion?utm_source=api
+99,Entropic Battlecruiser,{3}{B},4.0,Artifact — Spacecraft,rare,B,B,"Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)
+1+ | Whenever an opponent discards a card, they lose 3 life.
+8+ | Flying, deathtouch
+Whenever this Spacecraft attacks, each opponent discards a card. Each opponent who can't loses 3 life.",3,10,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/99/entropic-battlecruiser?utm_source=api
+100,Faller's Faithful,{2}{B},3.0,Creature — Human Wizard,uncommon,B,B,"When this creature enters, destroy up to one other target creature. If that creature wasn't dealt damage this turn, its controller draws two cards.",3,1,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/100/fallers-faithful?utm_source=api
+101,Fell Gravship,{2}{B},3.0,Artifact — Spacecraft,uncommon,B,B,"When this Spacecraft enters, mill three cards, then return a creature or Spacecraft card from your graveyard to your hand.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)
+8+ | Flying, lifelink",3,2,,"Station, Mill",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/101/fell-gravship?utm_source=api
+102,Gravblade Heavy,{3}{B},4.0,Creature — Human Soldier,common,B,B,"As long as you control an artifact, this creature gets +1/+0 and has deathtouch.",3,4,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/102/gravblade-heavy?utm_source=api
+103,Gravkill,{3}{B},4.0,Instant,common,B,B,Exile target creature or Spacecraft.,,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/103/gravkill?utm_source=api
+104,Gravpack Monoist,{2}{B},3.0,Creature — Human Scout,common,B,B,"Flying
+When this creature dies, create a tapped 2/2 colorless Robot artifact creature token.",2,1,,Flying,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/104/gravpack-monoist?utm_source=api
+105,Hullcarver,{B},1.0,Artifact Creature — Robot Assassin,common,B,B,Deathtouch,1,1,,Deathtouch,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/105/hullcarver?utm_source=api
+106,Hylderblade,{B},1.0,Artifact — Equipment,uncommon,B,B,"Equipped creature gets +3/+1.
+Void — At the beginning of your end step, if a nonland permanent left the battlefield this turn or a spell was warped this turn, attach this Equipment to target creature you control.
+Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)",,,,"Equip, Void",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/106/hylderblade?utm_source=api
+107,Hymn of the Faller,{1}{B},2.0,Sorcery,uncommon,B,B,"Surveil 1, then you draw a card and lose 1 life. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)
+Void — If a nonland permanent left the battlefield this turn or a spell was warped this turn, draw another card.",,,,"Surveil, Void",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/107/hymn-of-the-faller?utm_source=api
+108,Insatiable Skittermaw,{2}{B},3.0,Creature — Insect Horror,common,B,B,"Menace (This creature can't be blocked except by two or more creatures.)
+Void — At the beginning of your end step, if a nonland permanent left the battlefield this turn or a spell was warped this turn, put a +1/+1 counter on this creature.",2,2,,"Menace, Void",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/108/insatiable-skittermaw?utm_source=api
+109,Lightless Evangel,{1}{B},2.0,Creature — Vampire Cleric,uncommon,B,B,"Whenever you sacrifice another creature or artifact, put a +1/+1 counter on this creature.",2,2,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/109/lightless-evangel?utm_source=api
+110,Monoist Circuit-Feeder,{4}{B}{B},6.0,Artifact Creature — Nautilus,uncommon,B,B,"Flying
+When this creature enters, until end of turn, target creature you control gets +X/+0 and target creature an opponent controls gets -0/-X, where X is the number of artifacts you control.",4,4,,Flying,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/110/monoist-circuit-feeder?utm_source=api
+111,Monoist Sentry,{B},1.0,Artifact Creature — Robot,uncommon,B,B,Defender,4,1,,Defender,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/111/monoist-sentry?utm_source=api
+112,Perigee Beckoner,{4}{B},5.0,Creature — Horror,common,B,B,"When this creature enters, until end of turn, another target creature you control gets +2/+0 and gains ""When this creature dies, return it to the battlefield tapped under its owner's control.""
+Warp {1}{B} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",4,5,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/112/perigee-beckoner?utm_source=api
+113,Requiem Monolith,{2}{B},3.0,Artifact,rare,B,B,"{T}: Until end of turn, target creature gains ""Whenever this creature is dealt damage, you draw that many cards and lose that much life."" That creature's controller may have this artifact deal 1 damage to it. Activate only as a sorcery.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/113/requiem-monolith?utm_source=api
+114,Scrounge for Eternity,{2}{B},3.0,Sorcery,uncommon,B,B,"As an additional cost to cast this spell, sacrifice an artifact or creature.
+Return target creature or Spacecraft card with mana value 5 or less from your graveyard to the battlefield. Then create a Lander token. (It's an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/114/scrounge-for-eternity?utm_source=api
+115,"Sothera, the Supervoid",{2}{B}{B},4.0,Legendary Enchantment,mythic,B,B,"Whenever a creature you control dies, each opponent chooses a creature they control and exiles it.
+At the beginning of your end step, if a player controls no creatures, sacrifice Sothera, then put a creature card exiled with it onto the battlefield under your control with two additional +1/+1 counters on it.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/115/sothera-the-supervoid?utm_source=api
+116,Sunset Saboteur,{1}{B},2.0,Creature — Human Rogue,rare,B,B,"Menace
+Ward—Discard a card.
+Whenever this creature attacks, put a +1/+1 counter on target creature an opponent controls.",4,1,,"Menace, Ward",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/116/sunset-saboteur?utm_source=api
+117,Susurian Dirgecraft,{4}{B},5.0,Artifact — Spacecraft,uncommon,B,B,"When this Spacecraft enters, each opponent sacrifices a nontoken creature of their choice.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+.)
+7+ | Flying",4,3,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/117/susurian-dirgecraft?utm_source=api
+118,Susurian Voidborn,{2}{B},3.0,Creature — Vampire Soldier,uncommon,B,B,"Whenever this creature or another creature or artifact you control dies, target opponent loses 1 life and you gain 1 life.
+Warp {B} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",2,2,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/118/susurian-voidborn?utm_source=api
+119,Swarm Culler,{3}{B},4.0,Creature — Insect Warrior,common,B,B,"Flying
+Whenever this creature becomes tapped, you may sacrifice another creature or artifact. If you do, draw a card.",2,4,,Flying,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/119/swarm-culler?utm_source=api
+120,Temporal Intervention,{2}{B},3.0,Sorcery,common,B,B,"Void — This spell costs {2} less to cast if a nonland permanent left the battlefield this turn or a spell was warped this turn.
+Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.",,,,Void,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/120/temporal-intervention?utm_source=api
+121,Timeline Culler,{B}{B},2.0,Creature — Drix Warlock,uncommon,B,B,"Haste
+You may cast this card from your graveyard using its warp ability.
+Warp—{B}, Pay 2 life. (You may cast this card from your hand or graveyard for its warp cost. If you do, exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",2,2,,"Haste, Warp",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/121/timeline-culler?utm_source=api
+122,Tragic Trajectory,{B},1.0,Sorcery,uncommon,B,B,"Target creature gets -2/-2 until end of turn.
+Void — That creature gets -10/-10 until end of turn instead if a nonland permanent left the battlefield this turn or a spell was warped this turn.",,,,Void,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/122/tragic-trajectory?utm_source=api
+123,Umbral Collar Zealot,{1}{B},2.0,Creature — Human Cleric,uncommon,B,B,Sacrifice another creature or artifact: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.),3,2,,Surveil,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/123/umbral-collar-zealot?utm_source=api
+124,Virus Beetle,{1}{B},2.0,Artifact Creature — Insect,common,B,B,"When this creature enters, each opponent discards a card.",1,1,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/124/virus-beetle?utm_source=api
+125,Voidforged Titan,{4}{B},5.0,Artifact Creature — Robot Warrior,uncommon,B,B,"Void — At the beginning of your end step, if a nonland permanent left the battlefield this turn or a spell was warped this turn, you draw a card and lose 1 life.",5,4,,Void,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/125/voidforged-titan?utm_source=api
+126,Vote Out,{3}{B},4.0,Sorcery,uncommon,B,B,"Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+Destroy target creature.",,,,Convoke,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/126/vote-out?utm_source=api
+127,"Xu-Ifit, Osteoharmonist",{1}{B}{B},3.0,Legendary Creature — Human Wizard,rare,B,B,{T}: Return target creature card from your graveyard to the battlefield. It's a Skeleton in addition to its other types and has no abilities. Activate only as a sorcery.,2,3,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/127/xu-ifit-osteoharmonist?utm_source=api
+128,Zero Point Ballad,{X}{B},1.0,Sorcery,rare,B,B,"Destroy all creatures with toughness X or less. You lose X life. If X is 6 or more, return a creature card put into a graveyard this way to the battlefield under your control.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/128/zero-point-ballad?utm_source=api
+129,Bombard,{2}{R},3.0,Instant,common,R,R,Bombard deals 4 damage to target creature.,,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/129/bombard?utm_source=api
+130,Cut Propulsion,{2}{R},3.0,Instant,uncommon,R,R,"Target creature deals damage to itself equal to its power. If that creature has flying, it deals twice that much damage to itself instead.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/130/cut-propulsion?utm_source=api
+131,Debris Field Crusher,{4}{R},5.0,Artifact — Spacecraft,uncommon,R,R,"When this Spacecraft enters, it deals 3 damage to any target.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)
+8+ | Flying
+{1}{R}: This Spacecraft gets +2/+0 until end of turn.",1,5,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/131/debris-field-crusher?utm_source=api
+132,Devastating Onslaught,{X}{X}{R},1.0,Sorcery,mythic,R,R,Create X tokens that are copies of target artifact or creature you control. Those tokens gain haste until end of turn. Sacrifice them at the beginning of the next end step.,,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/132/devastating-onslaught?utm_source=api
+133,Drill Too Deep,{1}{R},2.0,Instant,common,R,R,"Choose one —
+• Put five charge counters on target Spacecraft or Planet you control.
+• Destroy target artifact.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/133/drill-too-deep?utm_source=api
+134,Frontline War-Rager,{2}{R},3.0,Creature — Kavu Soldier,common,R,R,"At the beginning of your end step, if you control two or more tapped creatures, put a +1/+1 counter on this creature.",2,3,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/134/frontline-war-rager?utm_source=api
+135,Full Bore,{R},1.0,Instant,uncommon,R,R,"Target creature you control gets +3/+2 until end of turn. If that creature was cast for its warp cost, it also gains trample and haste until end of turn.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/135/full-bore?utm_source=api
+136,Galvanizing Sawship,{5}{R},6.0,Artifact — Spacecraft,uncommon,R,R,"Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 3+.)
+3+ | Flying, haste",6,5,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/136/galvanizing-sawship?utm_source=api
+137,Invasive Maneuvers,{1}{R},2.0,Instant,uncommon,R,R,Invasive Maneuvers deals 3 damage to target creature. It deals 5 damage instead if you control a Spacecraft.,,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/137/invasive-maneuvers?utm_source=api
+138,Kav Landseeker,{3}{R},4.0,Creature — Kavu Soldier,common,R,R,"Menace (This creature can't be blocked except by two or more creatures.)
+When this creature enters, create a Lander token. At the beginning of the end step on your next turn, sacrifice that token. (It's an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")",4,3,,Menace,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/138/kav-landseeker?utm_source=api
+139,Kavaron Harrier,{R},1.0,Artifact Creature — Robot Soldier,uncommon,R,R,"Whenever this creature attacks, you may pay {2}. If you do, create a 2/2 colorless Robot artifact creature token that's tapped and attacking. Sacrifice that token at end of combat.",2,1,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/139/kavaron-harrier?utm_source=api
+140,Kavaron Skywarden,{4}{R},5.0,Creature — Kavu Soldier,common,R,R,"Reach
+Void — At the beginning of your end step, if a nonland permanent left the battlefield this turn or a spell was warped this turn, put a +1/+1 counter on this creature.",4,5,,"Reach, Void",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/140/kavaron-skywarden?utm_source=api
+141,Kavaron Turbodrone,{2}{R},3.0,Artifact Creature — Robot Scout,common,R,R,{T}: Target creature you control gets +1/+1 and gains haste until end of turn. Activate only as a sorcery.,2,3,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/141/kavaron-turbodrone?utm_source=api
+142,Lithobraking,{2}{R},3.0,Instant,uncommon,R,R,"Create a Lander token. Then you may sacrifice an artifact. When you do, Lithobraking deals 2 damage to each creature. (A Lander token is an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/142/lithobraking?utm_source=api
+143,Melded Moxite,{1}{R},2.0,Artifact,common,R,R,"When this artifact enters, you may discard a card. If you do, draw two cards.
+{3}, Sacrifice this artifact: Create a tapped 2/2 colorless Robot artifact creature token.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/143/melded-moxite?utm_source=api
+144,Memorial Team Leader,{3}{R},4.0,Creature — Kavu Soldier,uncommon,R,R,"During your turn, other creatures you control get +1/+0.
+Warp {1}{R} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",4,3,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/144/memorial-team-leader?utm_source=api
+145,Memorial Vault,{3}{R},4.0,Artifact,rare,R,R,"{T}, Sacrifice another artifact: Exile the top X cards of your library, where X is one plus the mana value of the sacrificed artifact. You may play those cards this turn.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/145/memorial-vault?utm_source=api
+146,Molecular Modifier,{2}{R},3.0,Creature — Kavu Artificer,uncommon,R,R,"At the beginning of combat on your turn, target creature you control gets +1/+0 and gains first strike until end of turn.",2,2,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/146/molecular-modifier?utm_source=api
+147,Nebula Dragon,{6}{R},7.0,Creature — Dragon,common,R,R,"Flying
+When this creature enters, it deals 3 damage to any target.",4,4,,Flying,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/147/nebula-dragon?utm_source=api
+148,Nova Hellkite,{3}{R}{R},5.0,Creature — Dragon,rare,R,R,"Flying, haste
+When this creature enters, it deals 1 damage to target creature an opponent controls.
+Warp {2}{R} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",4,5,,"Flying, Haste, Warp",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/148/nova-hellkite?utm_source=api
+149,Orbital Plunge,{3}{R},4.0,Sorcery,common,R,R,"Orbital Plunge deals 6 damage to target creature. If excess damage was dealt this way, create a Lander token. (It's an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/149/orbital-plunge?utm_source=api
+150,Oreplate Pangolin,{1}{R},2.0,Artifact Creature — Robot Pangolin,common,R,R,"Whenever another artifact you control enters, you may pay {1}. If you do, put a +1/+1 counter on this creature.",2,2,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/150/oreplate-pangolin?utm_source=api
+151,Pain for All,{2}{R},3.0,Enchantment — Aura,rare,R,R,"Enchant creature you control
+When this Aura enters, enchanted creature deals damage equal to its power to any other target.
+Whenever enchanted creature is dealt damage, it deals that much damage to each opponent.",,,,Enchant,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/151/pain-for-all?utm_source=api
+152,Plasma Bolt,{R},1.0,Sorcery,common,R,R,"Plasma Bolt deals 2 damage to any target.
+Void — Plasma Bolt deals 3 damage instead if a nonland permanent left the battlefield this turn or a spell was warped this turn.",,,,Void,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/152/plasma-bolt?utm_source=api
+153,Possibility Technician,{2}{R},3.0,Creature — Kavu Artificer,rare,R,R,"Whenever this creature or another Kavu you control enters, exile the top card of your library. For as long as that card remains exiled, you may play it if you control a Kavu.
+Warp {1}{R} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",3,3,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/153/possibility-technician?utm_source=api
+154,Red Tiger Mechan,{3}{R},4.0,Artifact Creature — Robot Cat,common,R,R,"Haste
+Warp {1}{R} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",3,3,,"Haste, Warp",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/154/red-tiger-mechan?utm_source=api
+155,Remnant Elemental,{1}{R},2.0,Creature — Elemental,uncommon,R,R,"Reach
+Landfall — Whenever a land you control enters, this creature gets +2/+0 until end of turn.",0,4,,"Reach, Landfall",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/155/remnant-elemental?utm_source=api
+156,Rig for War,{1}{R},2.0,Instant,common,R,R,Target creature gets +3/+0 and gains first strike and reach until end of turn.,,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/156/rig-for-war?utm_source=api
+157,Roving Actuator,{3}{R},4.0,Artifact Creature — Robot,uncommon,R,R,"Void — When this creature enters, if a nonland permanent left the battlefield this turn or a spell was warped this turn, exile up to one target instant or sorcery card with mana value 2 or less from your graveyard. Copy it. You may cast the copy without paying its mana cost.",3,4,,Void,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/157/roving-actuator?utm_source=api
+158,Ruinous Rampage,{1}{R}{R},3.0,Sorcery,uncommon,R,R,"Choose one —
+• Ruinous Rampage deals 3 damage to each opponent.
+• Exile all artifacts with mana value 3 or less.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/158/ruinous-rampage?utm_source=api
+159,Rust Harvester,{R},1.0,Artifact Creature — Robot,rare,R,R,"Menace
+{2}, {T}, Exile an artifact card from your graveyard: Put a +1/+1 counter on this creature, then it deals damage equal to its power to any target.",1,1,,Menace,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/159/rust-harvester?utm_source=api
+160,Slagdrill Scrapper,{R},1.0,Artifact Creature — Robot Scout,common,R,R,"{2}, {T}, Sacrifice another artifact or land: Draw a card.",1,2,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/160/slagdrill-scrapper?utm_source=api
+161,Systems Override,{2}{R},3.0,Sorcery,uncommon,R,R,"Gain control of target artifact or creature until end of turn. Untap that permanent. It gains haste until end of turn. If it's a Spacecraft, put ten charge counters on it. If you do, remove ten charge counters from it at the beginning of the next end step.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/161/systems-override?utm_source=api
+162,"Tannuk, Steadfast Second",{2}{R}{R},4.0,Legendary Creature — Kavu Pilot,mythic,R,R,"Other creatures you control have haste.
+Artifact cards and red creature cards in your hand have warp {2}{R}. (You may cast a card from your hand for its warp cost. Exile that permanent at the beginning of the next end step, then you may cast it from exile on a later turn.)",3,5,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/162/tannuk-steadfast-second?utm_source=api
+163,Terminal Velocity,{4}{R}{R},6.0,Sorcery,rare,R,R,"You may put an artifact or creature card from your hand onto the battlefield. That permanent gains haste, ""When this permanent leaves the battlefield, it deals damage equal to its mana value to each creature,"" and ""At the beginning of your end step, sacrifice this permanent.""",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/163/terminal-velocity?utm_source=api
+164,Terrapact Intimidator,{1}{R},2.0,Creature — Kavu Scout,uncommon,R,R,"When this creature enters, target opponent may have you create two Lander tokens. If they don't, put two +1/+1 counters on this creature. (A Lander token is an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")",2,1,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/164/terrapact-intimidator?utm_source=api
+165,Territorial Bruntar,{4}{R}{R},6.0,Creature — Beast,uncommon,R,R,"Reach
+Landfall — Whenever a land you control enters, exile cards from the top of your library until you exile a nonland card. You may cast that card this turn.",6,6,,"Reach, Landfall",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/165/territorial-bruntar?utm_source=api
+166,Vaultguard Trooper,{4}{R},5.0,Creature — Kavu Soldier,uncommon,R,R,"At the beginning of your end step, if you control two or more tapped creatures, you may discard your hand. If you do, draw two cards.",5,5,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/166/vaultguard-trooper?utm_source=api
+167,Warmaker Gunship,{2}{R},3.0,Artifact — Spacecraft,rare,R,R,"When this Spacecraft enters, it deals damage equal to the number of artifacts you control to target creature an opponent controls.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 6+.)
+6+ | Flying",4,3,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/167/warmaker-gunship?utm_source=api
+168,Weapons Manufacturing,{1}{R},2.0,Enchantment,rare,R,R,"Whenever a nontoken artifact you control enters, create a colorless artifact token named Munitions with ""When this token leaves the battlefield, it deals 2 damage to any target.""",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/168/weapons-manufacturing?utm_source=api
+169,Weftstalker Ardent,{2}{R},3.0,Creature — Drix Artificer,uncommon,R,R,"Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent.
+Warp {R} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",2,3,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/169/weftstalker-ardent?utm_source=api
+170,Zookeeper Mechan,{1}{R},2.0,Artifact Creature — Robot,common,R,R,"{T}: Add {R}.
+{6}{R}: Target creature you control gets +4/+0 until end of turn. Activate only as a sorcery.",1,3,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/170/zookeeper-mechan?utm_source=api
+171,Atmospheric Greenhouse,{4}{G},5.0,Artifact — Spacecraft,uncommon,G,G,"When this Spacecraft enters, put a +1/+1 counter on each creature you control.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)
+8+ | Flying, trample",5,4,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/171/atmospheric-greenhouse?utm_source=api
+172,Bioengineered Future,{1}{G}{G},3.0,Enchantment,rare,G,G,"When this enchantment enters, create a Lander token. (It's an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")
+Each creature you control enters with an additional +1/+1 counter on it for each land that entered the battlefield under your control this turn.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/172/bioengineered-future?utm_source=api
+173,Biosynthic Burst,{1}{G},2.0,Instant,common,G,G,"Put a +1/+1 counter on target creature you control. It gains reach, trample, and indestructible until end of turn. Untap it. (Damage and effects that say ""destroy"" don't destroy it.)",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/173/biosynthic-burst?utm_source=api
+174,Blooming Stinger,{1}{G},2.0,Creature — Plant Scorpion,common,G,G,"Deathtouch
+When this creature enters, another target creature you control gains deathtouch until end of turn.",2,2,,Deathtouch,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/174/blooming-stinger?utm_source=api
+175,Broodguard Elite,{X}{G}{G},2.0,Creature — Insect Knight,uncommon,G,G,"This creature enters with X +1/+1 counters on it.
+When this creature leaves the battlefield, put its counters on target creature you control.
+Warp {X}{G} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",0,0,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/175/broodguard-elite?utm_source=api
+176,Close Encounter,{1}{G},2.0,Instant,uncommon,G,G,"As an additional cost to cast this spell, choose a creature you control or a warped creature card you own in exile.
+Close Encounter deals damage equal to the power of the chosen creature or card to target creature.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/176/close-encounter?utm_source=api
+177,Diplomatic Relations,{2}{G},3.0,Instant,common,G,G,Target creature you control gets +1/+0 and gains vigilance until end of turn. It deals damage equal to its power to target creature an opponent controls.,,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/177/diplomatic-relations?utm_source=api
+178,Drix Fatemaker,{3}{G},4.0,Creature — Drix Wizard,common,G,G,"When this creature enters, put a +1/+1 counter on target creature.
+Each creature you control with a +1/+1 counter on it has trample.
+Warp {1}{G} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",3,2,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/178/drix-fatemaker?utm_source=api
+179,Edge Rover,{G},1.0,Artifact Creature — Robot Scout,uncommon,G,G,"Reach
+When this creature dies, each player creates a Lander token. (It's an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")",2,2,,Reach,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/179/edge-rover?utm_source=api
+180,Eumidian Terrabotanist,{1}{G},2.0,Creature — Insect Druid,uncommon,G,G,"Landfall — Whenever a land you control enters, you gain 1 life.",2,3,,Landfall,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/180/eumidian-terrabotanist?utm_source=api
+181,Eusocial Engineering,{3}{G}{G},5.0,Enchantment,uncommon,G,G,"Landfall — Whenever a land you control enters, create a 2/2 colorless Robot artifact creature token.
+Warp {1}{G} (You may cast this card from your hand for its warp cost. Exile this enchantment at the beginning of the next end step, then you may cast it from exile on a later turn.)",,,,"Warp, Landfall",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/181/eusocial-engineering?utm_source=api
+182,Famished Worldsire,{5}{G}{G}{G},8.0,Creature — Leviathan,mythic,G,G,"Ward {3}
+Devour land 3 (As this creature enters, you may sacrifice any number of lands. It enters with three times that many +1/+1 counters on it.)
+When this creature enters, look at the top X cards of your library, where X is this creature's power. Put any number of land cards from among them onto the battlefield tapped, then shuffle.",0,0,,"Ward, Devour",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/182/famished-worldsire?utm_source=api
+183,Frenzied Baloth,{G}{G},2.0,Creature — Beast,rare,G,G,"This spell can't be countered.
+Trample, haste
+Creature spells you control can't be countered.
+Combat damage can't be prevented.",3,2,,"Haste, Trample",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/183/frenzied-baloth?utm_source=api
+184,Fungal Colossus,{6}{G},7.0,Creature — Fungus Beast,common,G,G,"This spell costs {X} less to cast, where X is the number of differently named lands you control.",5,5,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/184/fungal-colossus?utm_source=api
+185,Galactic Wayfarer,{2}{G},3.0,Creature — Human Scout,common,G,G,"When this creature enters, create a Lander token. (It's an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")",3,3,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/185/galactic-wayfarer?utm_source=api
+186,Gene Pollinator,{G},1.0,Artifact Creature — Robot Insect,common,G,G,"{T}, Tap an untapped permanent you control: Add one mana of any color.",1,2,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/186/gene-pollinator?utm_source=api
+187,Germinating Wurm,{4}{G},5.0,Creature — Plant Wurm,common,G,G,"When this creature enters, you gain 2 life.
+Warp {1}{G} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",5,5,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/187/germinating-wurm?utm_source=api
+188,Glacier Godmaw,{5}{G}{G},7.0,Creature — Leviathan,uncommon,G,G,"Trample
+When this creature enters, create a Lander token. (It's an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")
+Landfall — Whenever a land you control enters, creatures you control get +1/+1 and gain vigilance and haste until end of turn.",6,6,,"Trample, Landfall",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/188/glacier-godmaw?utm_source=api
+189,Harmonious Grovestrider,{3}{G}{G},5.0,Creature — Beast,uncommon,G,G,"Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+Harmonious Grovestrider's power and toughness are each equal to the number of lands you control.",*,*,,Ward,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/189/harmonious-grovestrider?utm_source=api
+190,Hemosymbic Mite,{G},1.0,Creature — Mite,uncommon,G,G,"Whenever this creature becomes tapped, another target creature you control gets +X/+X until end of turn, where X is this creature's power.",1,1,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/190/hemosymbic-mite?utm_source=api
+191,Icecave Crasher,{3}{G},4.0,Creature — Beast,common,G,G,"Trample
+Landfall — Whenever a land you control enters, this creature gets +1/+0 until end of turn.",4,4,,"Trample, Landfall",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/191/icecave-crasher?utm_source=api
+192,Icetill Explorer,{2}{G}{G},4.0,Creature — Insect Scout,rare,G,G,"You may play an additional land on each of your turns.
+You may play lands from your graveyard.
+Landfall — Whenever a land you control enters, mill a card.",2,4,,"Mill, Landfall",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/192/icetill-explorer?utm_source=api
+193,Intrepid Tenderfoot,{1}{G},2.0,Creature — Insect Citizen,common,G,G,{3}: Put a +1/+1 counter on this creature. Activate only as a sorcery.,2,2,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/193/intrepid-tenderfoot?utm_source=api
+194,Larval Scoutlander,{2}{G},3.0,Artifact — Spacecraft,uncommon,G,G,"When this Spacecraft enters, you may sacrifice a land or Lander. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+.)
+7+ | Flying",3,3,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/194/larval-scoutlander?utm_source=api
+195,Lashwhip Predator,{4}{G}{G},6.0,Creature — Plant Beast,uncommon,G,G,"This spell costs {2} less to cast if your opponents control three or more creatures.
+Reach",5,7,,Reach,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/195/lashwhip-predator?utm_source=api
+196,Loading Zone,{3}{G},4.0,Enchantment,rare,G,G,"If one or more counters would be put on a creature, Spacecraft, or Planet you control, twice that many of each of those kinds of counters are put on it instead.
+Warp {G} (You may cast this card from your hand for its warp cost. Exile this enchantment at the beginning of the next end step, then you may cast it from exile on a later turn.)",,,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/196/loading-zone?utm_source=api
+197,Meltstrider Eulogist,{2}{G},3.0,Creature — Insect Soldier,uncommon,G,G,"Whenever a creature you control with a +1/+1 counter on it dies, draw a card.",3,3,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/197/meltstrider-eulogist?utm_source=api
+198,Meltstrider's Gear,{G},1.0,Artifact — Equipment,common,G,G,"When this Equipment enters, attach it to target creature you control.
+Equipped creature gets +2/+1 and has reach.
+Equip {5} ({5}: Attach to target creature you control. Equip only as a sorcery.)",,,,Equip,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/198/meltstriders-gear?utm_source=api
+199,Meltstrider's Resolve,{G},1.0,Enchantment — Aura,uncommon,G,G,"Enchant creature you control
+When this Aura enters, enchanted creature fights up to one target creature an opponent controls. (Each deals damage equal to its power to the other.)
+Enchanted creature gets +0/+2 and can't be blocked by more than one creature.",,,,"Fight, Enchant",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/199/meltstriders-resolve?utm_source=api
+200,Mightform Harmonizer,{2}{G}{G},4.0,Creature — Insect Druid,rare,G,G,"Landfall — Whenever a land you control enters, double the power of target creature you control until end of turn.
+Warp {2}{G} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",4,4,,"Warp, Landfall",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/200/mightform-harmonizer?utm_source=api
+201,Ouroboroid,{2}{G}{G},4.0,Creature — Plant Wurm,mythic,G,G,"At the beginning of combat on your turn, put X +1/+1 counters on each creature you control, where X is this creature's power.",1,3,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/201/ouroboroid?utm_source=api
+202,Pull Through the Weft,{3}{G}{G},5.0,Sorcery,uncommon,G,G,"Return up to two target nonland permanent cards from your graveyard to your hand, then return up to two target land cards from your graveyard to the battlefield tapped.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/202/pull-through-the-weft?utm_source=api
+203,Sami's Curiosity,{G},1.0,Sorcery,common,G,G,"You gain 2 life. Create a Lander token. (It's an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/203/samis-curiosity?utm_source=api
+204,Seedship Agrarian,{3}{G},4.0,Creature — Insect Scientist,uncommon,G,G,"Whenever this creature becomes tapped, create a Lander token. (It's an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")
+Landfall — Whenever a land you control enters, put a +1/+1 counter on this creature.",3,3,,Landfall,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/204/seedship-agrarian?utm_source=api
+205,Seedship Impact,{1}{G},2.0,Instant,uncommon,G,G,"Destroy target artifact or enchantment. If its mana value was 2 or less, create a Lander token. (It's an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/205/seedship-impact?utm_source=api
+206,Shattered Wings,{2}{G},3.0,Sorcery,common,G,G,"Destroy target artifact, enchantment, or creature with flying. Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",,,,Surveil,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/206/shattered-wings?utm_source=api
+207,Skystinger,{2}{G},3.0,Creature — Insect Warrior,common,G,G,"Reach
+Whenever this creature blocks a creature with flying, this creature gets +5/+0 until end of turn.",3,3,,Reach,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/207/skystinger?utm_source=api
+208,Sledge-Class Seedship,{2}{G},3.0,Artifact — Spacecraft,rare,G,G,"Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+.)
+7+ | Flying
+Whenever this Spacecraft attacks, you may put a creature card from your hand onto the battlefield.",4,5,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/208/sledge-class-seedship?utm_source=api
+209,Tapestry Warden,{3}{G},4.0,Artifact Creature — Robot Soldier,uncommon,G,G,"Vigilance
+Each creature you control with toughness greater than its power assigns combat damage equal to its toughness rather than its power.
+Each creature you control with toughness greater than its power stations permanents using its toughness rather than its power.",3,4,,Vigilance,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/209/tapestry-warden?utm_source=api
+210,Terrasymbiosis,{2}{G},3.0,Enchantment,rare,G,G,"Whenever you put one or more +1/+1 counters on a creature you control, you may draw that many cards. Do this only once each turn.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/210/terrasymbiosis?utm_source=api
+211,Thawbringer,{2}{G},3.0,Creature — Insect Scout,common,G,G,"When this creature enters or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",4,2,,Surveil,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/211/thawbringer?utm_source=api
+212,"Alpharael, Dreaming Acolyte",{1}{U}{B},3.0,Legendary Creature — Human Cleric,uncommon,"B, U","B, U","When Alpharael enters, draw two cards. Then discard two cards unless you discard an artifact card.
+During your turn, Alpharael has deathtouch.",2,3,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/212/alpharael-dreaming-acolyte?utm_source=api
+213,Biomechan Engineer,{G}{U},2.0,Creature — Insect Artificer,uncommon,"G, U","G, U","When this creature enters, create a Lander token. (It's an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")
+{8}: Draw two cards and create a 2/2 colorless Robot artifact creature token.",2,2,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/213/biomechan-engineer?utm_source=api
+214,Biotech Specialist,{R}{G},2.0,Creature — Insect Scientist,rare,"G, R","G, R","When this creature enters, create a Lander token. (It's an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")
+Whenever you sacrifice an artifact, this creature deals 2 damage to target opponent.",1,3,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/214/biotech-specialist?utm_source=api
+215,Cosmogoyf,{B}{G},2.0,Creature — Elemental Lhurgoyf,rare,"B, G","B, G",Cosmogoyf's power is equal to the number of cards you own in exile and its toughness is equal to that number plus 1.,*,1+*,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/215/cosmogoyf?utm_source=api
+216,"Dyadrine, Synthesis Amalgam",{X}{G}{W},2.0,Legendary Artifact Creature — Construct,rare,"G, W","G, W","Trample
+Dyadrine enters with a number of +1/+1 counters on it equal to the amount of mana spent to cast it.
+Whenever you attack, you may remove a +1/+1 counter from each of two creatures you control. If you do, draw a card and create a 2/2 colorless Robot artifact creature token.",0,1,,Trample,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/216/dyadrine-synthesis-amalgam?utm_source=api
+217,Genemorph Imago,{G}{U},2.0,Creature — Insect Druid,rare,"G, U","G, U","Flying
+Landfall — Whenever a land you control enters, target creature has base power and toughness 3/3 until end of turn. If you control six or more lands, that creature has base power and toughness 6/6 until end of turn instead.",1,3,,"Landfall, Flying",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/217/genemorph-imago?utm_source=api
+218,"Haliya, Ascendant Cadet",{2}{G}{W}{W},5.0,Legendary Creature — Human Soldier,uncommon,"G, W","G, W","Whenever Haliya enters or attacks, put a +1/+1 counter on target creature you control.
+Whenever one or more creatures you control with +1/+1 counters on them deal combat damage to a player, draw a card.",3,3,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/218/haliya-ascendant-cadet?utm_source=api
+219,Infinite Guideline Station,{W}{U}{B}{R}{G},5.0,Legendary Artifact — Spacecraft,rare,"B, G, R, U, W","B, G, R, U, W","When Infinite Guideline Station enters, create a tapped 2/2 colorless Robot artifact creature token for each multicolored permanent you control.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 12+.)
+12+ | Flying
+Whenever Infinite Guideline Station attacks, draw a card for each multicolored permanent you control.",7,15,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/219/infinite-guideline-station?utm_source=api
+220,Interceptor Mechan,{2}{B}{R},4.0,Artifact Creature — Robot,uncommon,"B, R","B, R","Flying
+When this creature enters, return target artifact or creature card from your graveyard to your hand.
+Void — At the beginning of your end step, if a nonland permanent left the battlefield this turn or a spell was warped this turn, put a +1/+1 counter on this creature.",2,2,,"Flying, Void",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/220/interceptor-mechan?utm_source=api
+221,"Mm'menon, Uthros Exile",{1}{U}{R},3.0,Legendary Creature — Jellyfish Advisor,uncommon,"R, U","R, U","Flying
+Whenever an artifact you control enters, put a +1/+1 counter on target creature.",1,3,,Flying,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/221/mmmenon-uthros-exile?utm_source=api
+222,Mutinous Massacre,{3}{B}{B}{R}{R},7.0,Sorcery,rare,"B, R","B, R",Choose odd or even. Destroy each creature with mana value of the chosen quality. Then gain control of all creatures until end of turn. Untap them. They gain haste until end of turn. (Zero is even.),,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/222/mutinous-massacre?utm_source=api
+223,Pinnacle Emissary,{1}{U}{R},3.0,Artifact Creature — Robot,rare,"R, U","R, U","Whenever you cast an artifact spell, create a 1/1 colorless Drone artifact creature token with flying and ""This token can block only creatures with flying.""
+Warp {U/R} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",3,3,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/223/pinnacle-emissary?utm_source=api
+224,"Ragost, Deft Gastronaut",{R}{W},2.0,Legendary Creature — Lobster Citizen,rare,"R, W","R, W","Artifacts you control are Foods in addition to their other types and have ""{2}, {T}, Sacrifice this artifact: You gain 3 life.""
+{1}, {T}, Sacrifice a Food: Ragost deals 3 damage to each opponent.
+At the beginning of each end step, if you gained life this turn, untap Ragost.",2,2,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/224/ragost-deft-gastronaut?utm_source=api
+225,"Sami, Ship's Engineer",{2}{R}{W},4.0,Legendary Creature — Human Artificer,uncommon,"R, W","R, W","At the beginning of your end step, if you control two or more tapped creatures, create a tapped 2/2 colorless Robot artifact creature token.",2,4,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/225/sami-ships-engineer?utm_source=api
+226,"Sami, Wildcat Captain",{4}{R}{W},6.0,Legendary Creature — Human Artificer Rogue,mythic,"R, W","R, W","Double strike, vigilance
+Spells you cast have affinity for artifacts. (They cost {1} less to cast for each artifact you control.)",4,4,,"Vigilance, Double strike",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/226/sami-wildcat-captain?utm_source=api
+227,Seedship Broodtender,{B}{G},2.0,Creature — Insect Citizen,uncommon,"B, G","B, G","When this creature enters, mill three cards. (Put the top three cards of your library into your graveyard.)
+{3}{B}{G}, Sacrifice this creature: Return target creature or Spacecraft card from your graveyard to the battlefield. Activate only as a sorcery.",2,3,,Mill,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/227/seedship-broodtender?utm_source=api
+228,Singularity Rupture,{3}{U}{B}{B},6.0,Sorcery,rare,"B, U","B, U","Destroy all creatures, then any number of target players each mill half their library, rounded down.",,,,Mill,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/228/singularity-rupture?utm_source=api
+229,Space-Time Anomaly,{2}{W}{U},4.0,Sorcery,rare,"U, W","U, W",Target player mills cards equal to your life total.,,,,Mill,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/229/space-time-anomaly?utm_source=api
+230,Station Monitor,{W}{U},2.0,Creature — Lizard Artificer,uncommon,"U, W","U, W","Whenever you cast your second spell each turn, create a 1/1 colorless Drone artifact creature token with flying and ""This token can block only creatures with flying.""",2,2,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/230/station-monitor?utm_source=api
+231,"Syr Vondam, Sunstar Exemplar",{W}{B},2.0,Legendary Creature — Human Knight,rare,"B, W","B, W","Vigilance, menace
+Whenever another creature you control dies or is put into exile, put a +1/+1 counter on Syr Vondam and you gain 1 life.
+When Syr Vondam dies or is put into exile while its power is 4 or greater, destroy up to one target nonland permanent.",2,2,,"Vigilance, Menace",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/231/syr-vondam-sunstar-exemplar?utm_source=api
+232,"Syr Vondam, the Lucent",{2}{W}{B}{B},5.0,Legendary Creature — Human Knight,uncommon,"B, W","B, W","Deathtouch, lifelink
+Whenever Syr Vondam enters or attacks, other creatures you control get +1/+0 and gain deathtouch until end of turn.",4,4,,"Lifelink, Deathtouch",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/232/syr-vondam-the-lucent?utm_source=api
+233,"Tannuk, Memorial Ensign",{1}{R}{G},3.0,Legendary Creature — Kavu Pilot,uncommon,"G, R","G, R","Landfall — Whenever a land you control enters, Tannuk deals 1 damage to each opponent. If this is the second time this ability has resolved this turn, draw a card.",2,4,,Landfall,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/233/tannuk-memorial-ensign?utm_source=api
+234,All-Fates Scroll,{3},3.0,Artifact,uncommon,,,"{T}: Add one mana of any color.
+{7}, {T}, Sacrifice this artifact: Draw X cards, where X is the number of differently named lands you control.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/234/all-fates-scroll?utm_source=api
+235,Bygone Colossus,{9},9.0,Artifact Creature — Robot Giant,uncommon,,,"Warp {3} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",9,9,,Warp,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/235/bygone-colossus?utm_source=api
+236,Chrome Companion,{2},2.0,Artifact Creature — Dog,common,,,"Whenever this creature becomes tapped, you gain 1 life.
+{2}, {T}: Put target card from a graveyard on the bottom of its owner's library.",2,1,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/236/chrome-companion?utm_source=api
+237,Dauntless Scrapbot,{3},3.0,Artifact Creature — Robot,uncommon,,,"When this creature enters, exile each opponent's graveyard. Create a Lander token. (It's an artifact with ""{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."")",3,1,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/237/dauntless-scrapbot?utm_source=api
+238,"Dawnsire, Sunstar Dreadnought",{5},5.0,Legendary Artifact — Spacecraft,mythic,,,"Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 20+.)
+10+ | Whenever you attack, Dawnsire deals 100 damage to up to one target creature or planeswalker.
+20+ | Flying",20,20,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/238/dawnsire-sunstar-dreadnought?utm_source=api
+239,The Dominion Bracelet,{2},2.0,Legendary Artifact — Equipment,mythic,,,"Equipped creature gets +1/+1 and has ""{15}, Exile The Dominion Bracelet: You control target opponent during their next turn. This ability costs {X} less to activate, where X is this creature's power. Activate only as a sorcery."" (You see all cards that player could see and make all decisions for them.)
+Equip {1}",,,,Equip,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/239/the-dominion-bracelet?utm_source=api
+240,The Endstone,{7},7.0,Legendary Artifact,mythic,,,"Whenever you play a land or cast a spell, draw a card.
+At the beginning of your end step, your life total becomes half your starting life total, rounded up.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/240/the-endstone?utm_source=api
+241,The Eternity Elevator,{5},5.0,Legendary Artifact — Spacecraft,rare,,,"{T}: Add {C}{C}{C}.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
+20+ | {T}: Add X mana of any one color, where X is the number of charge counters on The Eternity Elevator.",,,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/241/the-eternity-elevator?utm_source=api
+242,Extinguisher Battleship,{8},8.0,Artifact — Spacecraft,rare,,,"When this Spacecraft enters, destroy target noncreature permanent. Then this Spacecraft deals 4 damage to each creature.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 5+.)
+5+ | Flying, trample",10,10,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/242/extinguisher-battleship?utm_source=api
+243,Nutrient Block,{1},1.0,Artifact — Food,common,,,"Indestructible (Effects that say ""destroy"" don't destroy this artifact.)
+{2}, {T}, Sacrifice this artifact: You gain 3 life.
+When this artifact is put into a graveyard from the battlefield, draw a card.",,,,Indestructible,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/243/nutrient-block?utm_source=api
+244,Pinnacle Kill-Ship,{7},7.0,Artifact — Spacecraft,common,,,"When this Spacecraft enters, it deals 10 damage to up to one target creature.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 7+.)
+7+ | Flying",7,7,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/244/pinnacle-kill-ship?utm_source=api
+245,Survey Mechan,{4},4.0,Artifact Creature — Robot,uncommon,,,"Flying
+Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+{10}, Sacrifice this creature: It deals 3 damage to any target. Target player draws three cards and gains 3 life. This ability costs {X} less to activate, where X is the number of differently named lands you control.",1,3,,"Flying, Hexproof",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/245/survey-mechan?utm_source=api
+246,Thaumaton Torpedo,{1},1.0,Artifact,common,,,"{6}, {T}, Sacrifice this artifact: Destroy target nonland permanent. This ability costs {3} less to activate if you attacked with a Spacecraft this turn.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/246/thaumaton-torpedo?utm_source=api
+247,Thrumming Hivepool,{6},6.0,Artifact,rare,,,"Affinity for Slivers (This spell costs {1} less to cast for each Sliver you control.)
+Slivers you control have double strike and haste.
+At the beginning of your upkeep, create two 1/1 colorless Sliver creature tokens.",,,,Affinity,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/247/thrumming-hivepool?utm_source=api
+248,Virulent Silencer,{3},3.0,Artifact Creature — Robot Assassin,uncommon,,,"Whenever a nontoken artifact creature you control deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.)",2,3,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/248/virulent-silencer?utm_source=api
+249,Wurmwall Sweeper,{2},2.0,Artifact — Spacecraft,common,,,"When this Spacecraft enters, surveil 2.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 4+.)
+4+ | Flying",2,2,,"Surveil, Station",Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/249/wurmwall-sweeper?utm_source=api
+250,"Adagia, Windswept Bastion",,0.0,Land — Planet,mythic,,W,"This land enters tapped.
+{T}: Add {W}.
+Station (Tap another creature you control: Put charge counters equal to its power on this Planet. Station only as a sorcery.)
+12+ | {3}{W}, {T}: Create a token that's a copy of target artifact or enchantment you control, except it's legendary. Activate only as a sorcery.",,,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/250/adagia-windswept-bastion?utm_source=api
+251,Breeding Pool,,0.0,Land — Forest Island,rare,,"G, U","({T}: Add {G} or {U}.)
+As this land enters, you may pay 2 life. If you don't, it enters tapped.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/251/breeding-pool?utm_source=api
+252,Command Bridge,,0.0,Land,common,,,"This land enters tapped.
+When this land enters, sacrifice it unless you tap an untapped permanent you control.
+{T}: Add one mana of any color.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/252/command-bridge?utm_source=api
+253,"Evendo, Waking Haven",,0.0,Land — Planet,mythic,,G,"This land enters tapped.
+{T}: Add {G}.
+Station (Tap another creature you control: Put charge counters equal to its power on this Planet. Station only as a sorcery.)
+12+ | {G}, {T}: Add {G} for each creature you control.",,,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/253/evendo-waking-haven?utm_source=api
+254,Godless Shrine,,0.0,Land — Plains Swamp,rare,,"B, W","({T}: Add {W} or {B}.)
+As this land enters, you may pay 2 life. If you don't, it enters tapped.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/254/godless-shrine?utm_source=api
+255,"Kavaron, Memorial World",,0.0,Land — Planet,mythic,,R,"This land enters tapped.
+{T}: Add {R}.
+Station (Tap another creature you control: Put charge counters equal to its power on this Planet. Station only as a sorcery.)
+12+ | {1}{R}, {T}, Sacrifice a land: Create a 2/2 colorless Robot artifact creature token, then creatures you control get +1/+0 and gain haste until end of turn.",,,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/255/kavaron-memorial-world?utm_source=api
+256,Sacred Foundry,,0.0,Land — Mountain Plains,rare,,"R, W","({T}: Add {R} or {W}.)
+As this land enters, you may pay 2 life. If you don't, it enters tapped.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/256/sacred-foundry?utm_source=api
+257,Secluded Starforge,,0.0,Land,rare,,,"{T}: Add {C}.
+{2}, {T}, Tap X untapped artifacts you control: Target creature gets +X/+0 until end of turn. Activate only as a sorcery.
+{5}, {T}: Create a 2/2 colorless Robot artifact creature token.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/257/secluded-starforge?utm_source=api
+258,Stomping Ground,,0.0,Land — Mountain Forest,rare,,"G, R","({T}: Add {R} or {G}.)
+As this land enters, you may pay 2 life. If you don't, it enters tapped.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/258/stomping-ground?utm_source=api
+259,"Susur Secundi, Void Altar",,0.0,Land — Planet,mythic,,B,"This land enters tapped.
+{T}: Add {B}.
+Station (Tap another creature you control: Put charge counters equal to its power on this Planet. Station only as a sorcery.)
+12+ | {1}{B}, {T}, Pay 2 life, Sacrifice a creature: Draw cards equal to the sacrificed creature's power. Activate only as a sorcery.",,,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/259/susur-secundi-void-altar?utm_source=api
+260,"Uthros, Titanic Godcore",,0.0,Land — Planet,mythic,,U,"This land enters tapped.
+{T}: Add {U}.
+Station (Tap another creature you control: Put charge counters equal to its power on this Planet. Station only as a sorcery.)
+12+ | {U}, {T}: Add {U} for each artifact you control.",,,,Station,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/260/uthros-titanic-godcore?utm_source=api
+261,Watery Grave,,0.0,Land — Island Swamp,rare,,"B, U","({T}: Add {U} or {B}.)
+As this land enters, you may pay 2 life. If you don't, it enters tapped.",,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/261/watery-grave?utm_source=api
+267,Plains,,0.0,Basic Land — Plains,common,,W,({T}: Add {W}.),,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/267/plains?utm_source=api
+269,Island,,0.0,Basic Land — Island,common,,U,({T}: Add {U}.),,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/269/island?utm_source=api
+271,Swamp,,0.0,Basic Land — Swamp,common,,B,({T}: Add {B}.),,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/271/swamp?utm_source=api
+273,Mountain,,0.0,Basic Land — Mountain,common,,R,({T}: Add {R}.),,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/273/mountain?utm_source=api
+275,Forest,,0.0,Basic Land — Forest,common,,G,({T}: Add {G}.),,,,,Edge of Eternities,2025-08-01,https://scryfall.com/card/eoe/275/forest?utm_source=api

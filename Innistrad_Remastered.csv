@@ -1,0 +1,543 @@
+collector_number,name,mana_cost,cmc,type_line,rarity,colors,color_identity,oracle_text,power,toughness,loyalty,keywords,set_name,released_at,scryfall_uri
+1,Abundant Maw,{8},8.0,Creature — Eldrazi Leech,common,,B,"Emerge {6}{B} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)
+When you cast this spell, target opponent loses 3 life and you gain 3 life.",6,4,,Emerge,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/1/abundant-maw?utm_source=api
+2,Decimator of the Provinces,{10},10.0,Creature — Eldrazi Boar,rare,,G,"Emerge {6}{G}{G}{G} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)
+When you cast this spell, creatures you control get +2/+2 and gain trample until end of turn.
+Trample, haste",7,7,,"Emerge, Haste, Trample",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/2/decimator-of-the-provinces?utm_source=api
+3,Distended Mindbender,{8},8.0,Creature — Eldrazi Insect,rare,,B,"Emerge {5}{B}{B} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)
+When you cast this spell, target opponent reveals their hand. You choose from it a nonland card with mana value 3 or less and a card with mana value 4 or greater. That player discards those cards.",5,5,,Emerge,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/3/distended-mindbender?utm_source=api
+4,Elder Deep-Fiend,{8},8.0,Creature — Eldrazi Octopus,rare,,U,"Flash
+Emerge {5}{U}{U} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)
+When you cast this spell, tap up to four target permanents.",5,6,,"Emerge, Flash",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/4/elder-deep-fiend?utm_source=api
+5,"Emrakul, the Promised End",{13},13.0,Legendary Creature — Eldrazi,mythic,,,"This spell costs {1} less to cast for each card type among cards in your graveyard.
+When you cast this spell, you gain control of target opponent during that player's next turn. After that turn, that player takes an extra turn.
+Flying, trample, protection from instants",13,13,,"Flying, Protection, Trample",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/5/emrakul-the-promised-end?utm_source=api
+6,It of the Horrid Swarm,{8},8.0,Creature — Eldrazi Insect,common,,G,"Emerge {6}{G} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)
+When you cast this spell, create two 1/1 green Insect creature tokens.",4,4,,Emerge,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/6/it-of-the-horrid-swarm?utm_source=api
+7,Wretched Gryff,{7},7.0,Creature — Eldrazi Hippogriff,common,,U,"Emerge {5}{U} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)
+When you cast this spell, draw a card.
+Flying",3,4,,"Flying, Emerge",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/7/wretched-gryff?utm_source=api
+8,Ambitious Farmhand // Seasoned Cathar,,2.0,Creature — Human Peasant // Creature — Human Knight,uncommon,,W,,,,,"Lifelink, Transform, Coven",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/8/ambitious-farmhand-seasoned-cathar?utm_source=api
+9,Angelic Purge,{2}{W},3.0,Sorcery,common,W,W,"As an additional cost to cast this spell, sacrifice a permanent.
+Exile target artifact, creature, or enchantment.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/9/angelic-purge?utm_source=api
+10,Apothecary Geist,{3}{W},4.0,Creature — Spirit,common,W,W,"Flying
+When this creature enters, if you control another Spirit, you gain 3 life.",2,3,,Flying,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/10/apothecary-geist?utm_source=api
+11,"Archangel Avacyn // Avacyn, the Purifier",,5.0,Legendary Creature — Angel // Legendary Creature — Angel,mythic,,"R, W",,,,,"Flying, Vigilance, Transform, Flash",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/11/archangel-avacyn-avacyn-the-purifier?utm_source=api
+12,Avacynian Priest,{1}{W},2.0,Creature — Human Cleric,common,W,W,"{1}, {T}: Tap target non-Human creature.",1,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/12/avacynian-priest?utm_source=api
+13,Bound by Moonsilver,{2}{W},3.0,Enchantment — Aura,common,W,W,"Enchant creature
+Enchanted creature can't attack, block, or transform.
+Sacrifice another permanent: Attach this Aura to target creature. Activate only as a sorcery and only once each turn.",,,,"Transform, Enchant",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/13/bound-by-moonsilver?utm_source=api
+14,"Bruna, the Fading Light",{5}{W}{W},7.0,Legendary Creature — Angel Horror,rare,W,W,"When you cast this spell, you may return target Angel or Human creature card from your graveyard to the battlefield.
+Flying, vigilance
+(Melds with Gisela, the Broken Blade.)",5,7,,"Flying, Vigilance",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/14/bruna-the-fading-light?utm_source=api
+14b,"Brisela, Voice of Nightmares",,11.0,Legendary Creature — Eldrazi Angel,mythic,,W,"Flying, first strike, vigilance, lifelink
+Your opponents can't cast spells with mana value 3 or less.",9,10,,"Flying, Lifelink, Vigilance, First strike",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/14b/brisela-voice-of-nightmares?utm_source=api
+15,Cathar Commando,{1}{W},2.0,Creature — Human Soldier,common,W,W,"Flash
+{1}, Sacrifice this creature: Destroy target artifact or enchantment.",3,1,,Flash,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/15/cathar-commando?utm_source=api
+16,Cathar's Call,{2}{W},3.0,Enchantment — Aura,uncommon,W,W,"Enchant creature
+Enchanted creature has vigilance and ""At the beginning of your end step, create a 1/1 white Human creature token.""",,,,Enchant,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/16/cathars-call?utm_source=api
+17,Cathars' Crusade,{3}{W}{W},5.0,Enchantment,rare,W,W,"Whenever a creature you control enters, put a +1/+1 counter on each creature you control.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/17/cathars-crusade?utm_source=api
+18,Crusader of Odric,{2}{W},3.0,Creature — Human Soldier,common,W,W,Crusader of Odric's power and toughness are each equal to the number of creatures you control.,*,*,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/18/crusader-of-odric?utm_source=api
+19,Dauntless Cathar,{2}{W},3.0,Creature — Human Soldier,common,W,W,"{1}{W}, Exile this card from your graveyard: Create a 1/1 white Spirit creature token with flying. Activate only as a sorcery.",3,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/19/dauntless-cathar?utm_source=api
+20,Drogskol Shieldmate,{2}{W},3.0,Creature — Spirit Soldier,common,W,W,"Flash
+When this creature enters, other creatures you control get +0/+1 until end of turn.",2,3,,Flash,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/20/drogskol-shieldmate?utm_source=api
+21,Faith Unbroken,{3}{W},4.0,Enchantment — Aura,uncommon,W,W,"Enchant creature you control
+When this Aura enters, exile target creature an opponent controls until this Aura leaves the battlefield.
+Enchanted creature gets +2/+2.",,,,Enchant,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/21/faith-unbroken?utm_source=api
+22,Fiend Hunter,{1}{W}{W},3.0,Creature — Human Cleric,uncommon,W,W,"When this creature enters, you may exile another target creature.
+When this creature leaves the battlefield, return the exiled card to the battlefield under its owner's control.",1,3,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/22/fiend-hunter?utm_source=api
+23,Gather the Townsfolk,{1}{W},2.0,Sorcery,common,W,W,"Create two 1/1 white Human creature tokens.
+Fateful hour — If you have 5 or less life, create five of those tokens instead.",,,,Fateful hour,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/23/gather-the-townsfolk?utm_source=api
+24,"Gisela, the Broken Blade",{2}{W}{W},4.0,Legendary Creature — Angel Horror,mythic,W,W,"Flying, first strike, lifelink
+At the beginning of your end step, if you both own and control Gisela and a creature named Bruna, the Fading Light, exile them, then meld them into Brisela, Voice of Nightmares.",4,3,,"Flying, Lifelink, First strike, Meld",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/24/gisela-the-broken-blade?utm_source=api
+25,Gryff's Boon,{W},1.0,Enchantment — Aura,uncommon,W,W,"Enchant creature
+Enchanted creature gets +1/+0 and has flying.
+{3}{W}: Return this card from your graveyard to the battlefield attached to target creature. Activate only as a sorcery.",,,,Enchant,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/25/gryffs-boon?utm_source=api
+26,Guardian of Pilgrims,{1}{W},2.0,Creature — Spirit Cleric,common,W,W,"When this creature enters, target creature gets +1/+1 until end of turn.",2,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/26/guardian-of-pilgrims?utm_source=api
+27,Hopeful Initiate,{W},1.0,Creature — Human Warlock,rare,W,W,"Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)
+{2}{W}, Remove two +1/+1 counters from among creatures you control: Destroy target artifact or enchantment.",1,2,,Training,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/27/hopeful-initiate?utm_source=api
+28,Inspiring Captain,{3}{W},4.0,Creature — Human Knight,common,W,W,"When this creature enters, creatures you control get +1/+1 until end of turn.",3,3,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/28/inspiring-captain?utm_source=api
+29,Intangible Virtue,{1}{W},2.0,Enchantment,uncommon,W,W,Creature tokens you control get +1/+1 and have vigilance.,,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/29/intangible-virtue?utm_source=api
+30,Lingering Souls,{2}{W},3.0,Sorcery,uncommon,W,"B, W","Create two 1/1 white Spirit creature tokens with flying.
+Flashback {1}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/30/lingering-souls?utm_source=api
+31,Lunarch Mantle,{1}{W},2.0,Enchantment — Aura,common,W,W,"Enchant creature
+Enchanted creature gets +2/+2 and has ""{1}, Sacrifice a permanent: This creature gains flying until end of turn.""",,,,Enchant,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/31/lunarch-mantle?utm_source=api
+32,Lunarch Veteran // Luminous Phantom,,1.0,Creature — Human Cleric // Creature — Spirit Cleric,common,,W,,,,,"Flying, Transform, Disturb",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/32/lunarch-veteran-luminous-phantom?utm_source=api
+33,Mausoleum Guard,{3}{W},4.0,Creature — Human Scout,uncommon,W,W,"When this creature dies, create two 1/1 white Spirit creature tokens with flying.",2,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/33/mausoleum-guard?utm_source=api
+34,Mentor of the Meek,{2}{W},3.0,Creature — Human Soldier,uncommon,W,W,"Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card.",2,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/34/mentor-of-the-meek?utm_source=api
+35,Niblis of the Urn,{1}{W},2.0,Creature — Spirit,uncommon,W,W,"Flying
+Whenever this creature attacks, you may tap target creature.",1,1,,Flying,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/35/niblis-of-the-urn?utm_source=api
+36,"Odric, Lunarch Marshal",{3}{W},4.0,Legendary Creature — Human Soldier,rare,W,W,"At the beginning of each combat, creatures you control gain first strike until end of turn if a creature you control has first strike. The same is true for flying, deathtouch, double strike, haste, hexproof, indestructible, lifelink, menace, reach, skulk, trample, and vigilance.",3,3,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/36/odric-lunarch-marshal?utm_source=api
+37,Rally the Peasants,{2}{W},3.0,Instant,uncommon,W,"R, W","Creatures you control get +2/+0 until end of turn.
+Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/37/rally-the-peasants?utm_source=api
+38,Restoration Angel,{3}{W},4.0,Creature — Angel,rare,W,W,"Flash
+Flying
+When this creature enters, you may exile target non-Angel creature you control, then return that card to the battlefield under your control.",3,4,,"Flying, Flash",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/38/restoration-angel?utm_source=api
+39,Slayer of the Wicked,{3}{W},4.0,Creature — Human Soldier,uncommon,W,W,"When this creature enters, you may destroy target Vampire, Werewolf, or Zombie.",3,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/39/slayer-of-the-wicked?utm_source=api
+40,Soul-Guide Gryff,{4}{W},5.0,Creature — Hippogriff Spirit,common,W,W,"Flying
+When this creature enters, exile up to one target card from a graveyard.",3,4,,Flying,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/40/soul-guide-gryff?utm_source=api
+41,Spectral Shepherd,{2}{W},3.0,Creature — Spirit,uncommon,W,"U, W","Flying
+{1}{U}: Return target Spirit you control to its owner's hand.",2,2,,Flying,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/41/spectral-shepherd?utm_source=api
+42,Strength of Arms,{W},1.0,Instant,common,W,W,"Target creature gets +2/+2 until end of turn. If you control an Equipment, create a 1/1 white Human Soldier creature token.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/42/strength-of-arms?utm_source=api
+43,Subjugator Angel,{4}{W}{W},6.0,Creature — Angel,uncommon,W,W,"Flying
+When this creature enters, tap all creatures your opponents control.",4,3,,Flying,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/43/subjugator-angel?utm_source=api
+44,"Thalia, Heretic Cathar",{2}{W},3.0,Legendary Creature — Human Soldier,rare,W,W,"First strike
+Creatures and nonbasic lands your opponents control enter tapped.",3,2,,First strike,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/44/thalia-heretic-cathar?utm_source=api
+45,Thraben Inspector,{W},1.0,Creature — Human Soldier,common,W,W,"When this creature enters, investigate. (Create a Clue token. It's an artifact with ""{2}, Sacrifice this token: Draw a card."")",1,2,,Investigate,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/45/thraben-inspector?utm_source=api
+46,Town Gossipmonger // Incited Rabble,,1.0,Creature — Human // Creature — Human,uncommon,,"R, W",,,,,Transform,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/46/town-gossipmonger-incited-rabble?utm_source=api
+47,Twinblade Geist // Twinblade Invocation,,2.0,Creature — Spirit Warrior // Enchantment — Aura,uncommon,,W,,,,,"Transform, Enchant, Double strike, Disturb",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/47/twinblade-geist-twinblade-invocation?utm_source=api
+48,Valorous Stance,{1}{W},2.0,Instant,uncommon,W,W,"Choose one —
+• Target creature gains indestructible until end of turn. (Damage and effects that say ""destroy"" don't destroy it.)
+• Destroy target creature with toughness 4 or greater.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/48/valorous-stance?utm_source=api
+49,Vanquish the Horde,{6}{W}{W},8.0,Sorcery,rare,W,W,"This spell costs {1} less to cast for each creature on the battlefield.
+Destroy all creatures.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/49/vanquish-the-horde?utm_source=api
+50,Voice of the Blessed,{W}{W},2.0,Creature — Spirit Cleric,rare,W,W,"Whenever you gain life, put a +1/+1 counter on this creature.
+As long as this creature has four or more +1/+1 counters on it, it has flying and vigilance.
+As long as this creature has ten or more +1/+1 counters on it, it has indestructible.",2,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/50/voice-of-the-blessed?utm_source=api
+51,Wedding Announcement // Wedding Festivity,,3.0,Enchantment // Enchantment,rare,,W,,,,,Transform,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/51/wedding-announcement-wedding-festivity?utm_source=api
+52,Aberrant Researcher // Perfected Form,,4.0,Creature — Human Insect // Creature — Insect Horror,uncommon,,U,,,,,"Flying, Transform, Mill",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/52/aberrant-researcher-perfected-form?utm_source=api
+53,Battleground Geist,{4}{U},5.0,Creature — Spirit,common,U,U,"Flying
+Other Spirit creatures you control get +1/+0.",3,3,,Flying,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/53/battleground-geist?utm_source=api
+54,Biolume Egg // Biolume Serpent,,3.0,Creature — Serpent Egg // Creature — Serpent,uncommon,,U,,,,,"Transform, Defender, Scry",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/54/biolume-egg-biolume-serpent?utm_source=api
+55,Cackling Counterpart,{1}{U}{U},3.0,Instant,uncommon,U,U,"Create a token that's a copy of target creature you control.
+Flashback {5}{U}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/55/cackling-counterpart?utm_source=api
+56,Cobbled Lancer,{U},1.0,Creature — Zombie Horse,uncommon,U,U,"As an additional cost to cast this spell, exile a creature card from your graveyard.
+{3}{U}, Exile this card from your graveyard: Draw a card.",3,3,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/56/cobbled-lancer?utm_source=api
+57,Compelling Deterrence,{1}{U},2.0,Instant,uncommon,U,U,Return target nonland permanent to its owner's hand. Then that player discards a card if you control a Zombie.,,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/57/compelling-deterrence?utm_source=api
+58,Covetous Castaway // Ghostly Castigator,,2.0,Creature — Human // Creature — Spirit,uncommon,,U,,,,,"Flying, Transform, Mill, Disturb",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/58/covetous-castaway-ghostly-castigator?utm_source=api
+59,Deadeye Navigator,{4}{U}{U},6.0,Creature — Spirit,rare,U,U,"Soulbond (You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.)
+As long as Deadeye Navigator is paired with another creature, each of those creatures has ""{1}{U}: Exile this creature, then return it to the battlefield under your control.""",5,5,,Soulbond,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/59/deadeye-navigator?utm_source=api
+60,Delver of Secrets // Insectile Aberration,,1.0,Creature — Human Wizard // Creature — Human Insect,common,,U,,,,,"Flying, Transform",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/60/delver-of-secrets-insectile-aberration?utm_source=api
+61,Deranged Assistant,{1}{U},2.0,Creature — Human Wizard,common,U,U,"{T}, Mill a card: Add {C}. (To mill a card, put the top card of your library into your graveyard.)",1,1,,Mill,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/61/deranged-assistant?utm_source=api
+62,Docent of Perfection // Final Iteration,,5.0,Creature — Insect Horror // Creature — Eldrazi Insect,rare,,U,,,,,"Flying, Transform",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/62/docent-of-perfection-final-iteration?utm_source=api
+63,Drunau Corpse Trawler,{3}{U},4.0,Creature — Zombie,uncommon,U,"B, U","When this creature enters, create a 2/2 black Zombie creature token.
+{2}{B}: Target Zombie gains deathtouch until end of turn.",1,1,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/63/drunau-corpse-trawler?utm_source=api
+64,Essence Flux,{U},1.0,Instant,common,U,U,"Exile target creature you control, then return that card to the battlefield under its owner's control. If it's a Spirit, put a +1/+1 counter on it.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/64/essence-flux?utm_source=api
+65,Forbidden Alchemy,{2}{U},3.0,Instant,uncommon,U,"B, U","Look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.
+Flashback {6}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/65/forbidden-alchemy?utm_source=api
+66,Geistlight Snare,{2}{U},3.0,Instant,uncommon,U,U,"This spell costs {1} less to cast if you control a Spirit. It also costs {1} less to cast if you control an enchantment.
+Counter target spell unless its controller pays {3}.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/66/geistlight-snare?utm_source=api
+67,Grizzled Angler // Grisly Anglerfish,,3.0,Creature — Human // Creature — Eldrazi Fish,uncommon,,U,,,,,"Transform, Mill",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/67/grizzled-angler-grisly-anglerfish?utm_source=api
+68,Hullbreaker Horror,{5}{U}{U},7.0,Creature — Kraken Horror,rare,U,U,"Flash
+This spell can't be countered.
+Whenever you cast a spell, choose up to one —
+• Return target spell you don't control to its owner's hand.
+• Return target nonland permanent to its owner's hand.",7,8,,Flash,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/68/hullbreaker-horror?utm_source=api
+69,Imprisoned in the Moon,{2}{U},3.0,Enchantment — Aura,common,U,U,"Enchant creature, land, or planeswalker
+Enchanted permanent is a colorless land with ""{T}: Add {C}"" and loses all other card types and abilities.",,,,Enchant,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/69/imprisoned-in-the-moon?utm_source=api
+70,"Jace, Unraveler of Secrets",{3}{U}{U},5.0,Legendary Planeswalker — Jace,mythic,U,U,"+1: Scry 1, then draw a card.
+−2: Return target creature to its owner's hand.
+−8: You get an emblem with ""Whenever an opponent casts their first spell each turn, counter that spell.""",,,5,Scry,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/70/jace-unraveler-of-secrets?utm_source=api
+71,Laboratory Maniac,{2}{U},3.0,Creature — Human Wizard,uncommon,U,U,"If you would draw a card while your library has no cards in it, you win the game instead.",2,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/71/laboratory-maniac?utm_source=api
+72,Lantern Bearer // Lanterns' Lift,,1.0,Creature — Spirit // Enchantment — Aura,common,,U,,,,,"Flying, Transform, Enchant, Disturb",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/72/lantern-bearer-lanterns-lift?utm_source=api
+73,Makeshift Mauler,{3}{U},4.0,Creature — Zombie Horror,common,U,U,"As an additional cost to cast this spell, exile a creature card from your graveyard.",4,5,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/73/makeshift-mauler?utm_source=api
+74,Mausoleum Wanderer,{U},1.0,Creature — Spirit,rare,U,U,"Flying
+Whenever another Spirit you control enters, this creature gets +1/+1 until end of turn.
+Sacrifice this creature: Counter target instant or sorcery spell unless its controller pays {X}, where X is this creature's power.",1,1,,Flying,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/74/mausoleum-wanderer?utm_source=api
+75,Memory Deluge,{2}{U}{U},4.0,Instant,rare,U,U,"Look at the top X cards of your library, where X is the amount of mana spent to cast this spell. Put two of them into your hand and the rest on the bottom of your library in a random order.
+Flashback {5}{U}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/75/memory-deluge?utm_source=api
+76,Mist Raven,{2}{U}{U},4.0,Creature — Bird,uncommon,U,U,"Flying
+When this creature enters, return target creature to its owner's hand.",2,2,,Flying,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/76/mist-raven?utm_source=api
+77,Mystic Retrieval,{3}{U},4.0,Sorcery,uncommon,U,"R, U","Return target instant or sorcery card from your graveyard to your hand.
+Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/77/mystic-retrieval?utm_source=api
+78,Nebelgast Herald,{2}{U},3.0,Creature — Spirit,uncommon,U,U,"Flash
+Flying
+Whenever this creature or another Spirit you control enters, tap target creature an opponent controls.",2,1,,"Flying, Flash",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/78/nebelgast-herald?utm_source=api
+79,Necroduality,{3}{U},4.0,Enchantment,mythic,U,U,"Whenever a nontoken Zombie you control enters, create a token that's a copy of that creature.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/79/necroduality?utm_source=api
+80,Overcharged Amalgam,{2}{U}{U},4.0,Creature — Zombie Horror,rare,U,U,"Flash
+Flying
+Exploit (When this creature enters, you may sacrifice a creature.)
+When this creature exploits a creature, counter target spell, activated ability, or triggered ability.",3,3,,"Flying, Flash, Exploit",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/80/overcharged-amalgam?utm_source=api
+81,Reckless Scholar,{2}{U},3.0,Creature — Human Wizard,common,U,U,"{T}: Target player draws a card, then discards a card.",2,1,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/81/reckless-scholar?utm_source=api
+82,Rise from the Tides,{5}{U},6.0,Sorcery,uncommon,U,U,Create a tapped 2/2 black Zombie creature token for each instant and sorcery card in your graveyard.,,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/82/rise-from-the-tides?utm_source=api
+83,Rooftop Storm,{5}{U},6.0,Enchantment,rare,U,U,You may pay {0} rather than pay the mana cost for Zombie creature spells you cast.,,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/83/rooftop-storm?utm_source=api
+84,Silent Departure,{U},1.0,Sorcery,common,U,U,"Return target creature to its owner's hand.
+Flashback {4}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/84/silent-departure?utm_source=api
+85,Soulcipher Board // Cipherbound Spirit,,2.0,Artifact // Creature — Spirit,uncommon,,U,,,,,"Flying, Transform",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/85/soulcipher-board-cipherbound-spirit?utm_source=api
+86,Spontaneous Mutation,{U},1.0,Enchantment — Aura,common,U,U,"Flash
+Enchant creature
+Enchanted creature gets -X/-0, where X is the number of cards in your graveyard.",,,,"Enchant, Flash",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/86/spontaneous-mutation?utm_source=api
+87,Stitched Mangler,{2}{U},3.0,Creature — Zombie Horror,common,U,U,"This creature enters tapped.
+When this creature enters, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.",2,3,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/87/stitched-mangler?utm_source=api
+88,Summary Dismissal,{2}{U}{U},4.0,Instant,uncommon,U,U,Exile all other spells and counter all abilities.,,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/88/summary-dismissal?utm_source=api
+89,Syncopate,{X}{U},1.0,Instant,common,U,U,"Counter target spell unless its controller pays {X}. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/89/syncopate?utm_source=api
+90,Temporal Mastery,{5}{U}{U},7.0,Sorcery,mythic,U,U,"Take an extra turn after this one. Exile Temporal Mastery.
+Miracle {1}{U} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)",,,,Miracle,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/90/temporal-mastery?utm_source=api
+91,Thing in the Ice // Awoken Horror,,2.0,Creature — Horror // Creature — Kraken Horror,rare,,U,,,,,"Transform, Defender",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/91/thing-in-the-ice-awoken-horror?utm_source=api
+92,Think Twice,{1}{U},2.0,Instant,common,U,U,"Draw a card.
+Flashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/92/think-twice?utm_source=api
+93,Tower Geist,{3}{U},4.0,Creature — Spirit,common,U,U,"Flying
+When this creature enters, look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.",2,2,,Flying,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/93/tower-geist?utm_source=api
+94,Wretched Throng,{1}{U},2.0,Creature — Zombie Horror,common,U,U,"When this creature dies, you may search your library for a card named Wretched Throng, reveal it, put it into your hand, then shuffle.",2,1,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/94/wretched-throng?utm_source=api
+95,Archghoul of Thraben,{2}{B},3.0,Creature — Zombie Cleric,uncommon,B,B,"Whenever this creature or another Zombie you control dies, look at the top card of your library. If it's a Zombie card, you may reveal it and put it into your hand. If you don't put the card into your hand, you may put it into your graveyard.",3,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/95/archghoul-of-thraben?utm_source=api
+96,Asylum Visitor,{1}{B},2.0,Creature — Vampire Wizard,uncommon,B,B,"At the beginning of each player's upkeep, if that player has no cards in hand, you draw a card and you lose 1 life.
+Madness {1}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",3,1,,Madness,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/96/asylum-visitor?utm_source=api
+97,Blood Artist,{1}{B},2.0,Creature — Vampire,uncommon,B,B,"Whenever this creature or another creature dies, target player loses 1 life and you gain 1 life.",0,1,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/97/blood-artist?utm_source=api
+98,Bloodline Keeper // Lord of Lineage,,4.0,Creature — Vampire // Creature — Vampire,mythic,,B,,,,,"Flying, Transform",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/98/bloodline-keeper-lord-of-lineage?utm_source=api
+99,Butcher Ghoul,{1}{B},2.0,Creature — Zombie,common,B,B,"Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)",1,1,,Undying,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/99/butcher-ghoul?utm_source=api
+100,Captivating Vampire,{1}{B}{B},3.0,Creature — Vampire,rare,B,B,"Other Vampire creatures you control get +1/+1.
+Tap five untapped Vampires you control: Gain control of target creature. It becomes a Vampire in addition to its other types.",2,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/100/captivating-vampire?utm_source=api
+101,Collective Brutality,{1}{B},2.0,Sorcery,rare,B,B,"Escalate—Discard a card. (Pay this cost for each mode chosen beyond the first.)
+Choose one or more —
+• Target opponent reveals their hand. You choose an instant or sorcery card from it. That player discards that card.
+• Target creature gets -2/-2 until end of turn.
+• Target opponent loses 2 life and you gain 2 life.",,,,Escalate,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/101/collective-brutality?utm_source=api
+102,Crawl from the Cellar,{B},1.0,Sorcery,common,B,B,"Return target creature card from your graveyard to your hand. Put a +1/+1 counter on up to one target Zombie you control.
+Flashback {3}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/102/crawl-from-the-cellar?utm_source=api
+103,Deadly Allure,{B},1.0,Sorcery,uncommon,B,"B, G","Target creature gains deathtouch until end of turn and must be blocked this turn if able.
+Flashback {G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/103/deadly-allure?utm_source=api
+104,Demonic Taskmaster,{2}{B},3.0,Creature — Demon,uncommon,B,B,"Flying
+At the beginning of your upkeep, sacrifice a creature other than this creature.",4,3,,Flying,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/104/demonic-taskmaster?utm_source=api
+105,Desperate Farmer // Depraved Harvester,,3.0,Creature — Human Peasant // Creature — Human Knight,common,,B,,,,,"Lifelink, Transform",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/105/desperate-farmer-depraved-harvester?utm_source=api
+106,Eaten Alive,{B},1.0,Sorcery,common,B,B,"As an additional cost to cast this spell, sacrifice a creature or pay {3}{B}.
+Exile target creature or planeswalker.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/106/eaten-alive?utm_source=api
+107,Ecstatic Awakener // Awoken Demon,,1.0,Creature — Human Wizard // Creature — Demon,common,,B,,,,,Transform,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/107/ecstatic-awakener-awoken-demon?utm_source=api
+108,Edgar's Awakening,{3}{B}{B},5.0,Sorcery,uncommon,B,B,"Return target creature card from your graveyard to the battlefield.
+When you discard this card, you may pay {B}. When you do, return target creature card from your graveyard to your hand.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/108/edgars-awakening?utm_source=api
+109,Falkenrath Torturer,{2}{B},3.0,Creature — Vampire,common,B,B,"Sacrifice a creature: This creature gains flying until end of turn. If the sacrificed creature was a Human, put a +1/+1 counter on this creature.",2,1,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/109/falkenrath-torturer?utm_source=api
+110,Ghoulish Procession,{1}{B},2.0,Enchantment,uncommon,B,B,"Whenever one or more nontoken creatures die, create a 2/2 black Zombie creature token with decayed. This ability triggers only once each turn. (A creature with decayed can't block. When it attacks, sacrifice it at end of combat.)",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/110/ghoulish-procession?utm_source=api
+111,Gisa's Bidding,{2}{B}{B},4.0,Sorcery,common,B,B,"Create two 2/2 black Zombie creature tokens.
+Madness {2}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",,,,Madness,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/111/gisas-bidding?utm_source=api
+112,Gluttonous Guest,{2}{B},3.0,Creature — Vampire,common,B,B,"When this creature enters, create a Blood token. (It's an artifact with ""{1}, {T}, Discard a card, Sacrifice this token: Draw a card."")
+Whenever you sacrifice a Blood token, you gain 1 life.",1,4,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/112/gluttonous-guest?utm_source=api
+113,Graf Rats,{1}{B},2.0,Creature — Rat,uncommon,B,B,"At the beginning of combat on your turn, if you both own and control this creature and a creature named Midnight Scavengers, exile them, then meld them into Chittering Host.",2,1,,Meld,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/113/graf-rats?utm_source=api
+114,Gravecrawler,{B},1.0,Creature — Zombie,rare,B,B,"This creature can't block.
+You may cast this card from your graveyard as long as you control a Zombie.",2,1,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/114/gravecrawler?utm_source=api
+115,Griselbrand,{4}{B}{B}{B}{B},8.0,Legendary Creature — Demon,mythic,B,B,"Flying, lifelink
+Pay 7 life: Draw seven cards.",7,7,,"Flying, Lifelink",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/115/griselbrand?utm_source=api
+116,Haunted Dead,{3}{B},4.0,Creature — Zombie,uncommon,B,B,"When this creature enters, create a 1/1 white Spirit creature token with flying.
+{1}{B}, Discard two cards: Return this card from your graveyard to the battlefield tapped.",2,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/116/haunted-dead?utm_source=api
+117,Heartless Summoning,{1}{B},2.0,Enchantment,rare,B,B,"Creature spells you cast cost {2} less to cast.
+Creatures you control get -1/-1.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/117/heartless-summoning?utm_source=api
+118,Indulgent Aristocrat,{B},1.0,Creature — Vampire Noble,uncommon,B,B,"Lifelink
+{2}, Sacrifice a creature: Put a +1/+1 counter on each Vampire you control.",1,1,,Lifelink,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/118/indulgent-aristocrat?utm_source=api
+119,Infernal Grasp,{1}{B},2.0,Instant,uncommon,B,B,Destroy target creature. You lose 2 life.,,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/119/infernal-grasp?utm_source=api
+120,Invasion of Innistrad // Deluge of the Dead,,4.0,Battle — Siege // Enchantment,rare,,B,,,,,"Transform, Flash",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/120/invasion-of-innistrad-deluge-of-the-dead?utm_source=api
+121,Killing Wave,{X}{B},1.0,Sorcery,uncommon,B,B,"For each creature, its controller sacrifices it unless they pay X life.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/121/killing-wave?utm_source=api
+122,The Meathook Massacre,{X}{B}{B},2.0,Legendary Enchantment,mythic,B,B,"When The Meathook Massacre enters, each creature gets -X/-X until end of turn.
+Whenever a creature you control dies, each opponent loses 1 life.
+Whenever a creature an opponent controls dies, you gain 1 life.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/122/the-meathook-massacre?utm_source=api
+123,Midnight Scavengers,{4}{B},5.0,Creature — Human Rogue,common,B,B,"When this creature enters, you may return target creature card with mana value 3 or less from your graveyard to your hand.
+(Melds with Graf Rats.)",3,3,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/123/midnight-scavengers?utm_source=api
+123b,Chittering Host,,7.0,Creature — Eldrazi Horror,common,,B,"Haste
+Menace (This creature can't be blocked except by two or more creatures.)
+When this creature enters, other creatures you control get +1/+0 and gain menace until end of turn.",5,6,,"Haste, Menace",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/123b/chittering-host?utm_source=api
+124,Morbid Opportunist,{2}{B},3.0,Creature — Human Rogue,uncommon,B,B,"Whenever one or more other creatures die, draw a card. This ability triggers only once each turn.",1,3,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/124/morbid-opportunist?utm_source=api
+125,Morkrut Banshee,{3}{B}{B},5.0,Creature — Spirit,uncommon,B,B,"Morbid — When this creature enters, if a creature died this turn, target creature gets -4/-4 until end of turn.",4,4,,Morbid,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/125/morkrut-banshee?utm_source=api
+126,Murderous Compulsion,{1}{B},2.0,Sorcery,common,B,B,"Destroy target tapped creature.
+Madness {1}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",,,,Madness,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/126/murderous-compulsion?utm_source=api
+127,Olivia's Dragoon,{1}{B},2.0,Creature — Vampire Berserker,common,B,B,Discard a card: This creature gains flying until end of turn.,2,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/127/olivias-dragoon?utm_source=api
+128,Restless Bloodseeker // Bloodsoaked Reveler,,2.0,Creature — Vampire // Creature — Vampire,uncommon,,B,,,,,Transform,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/128/restless-bloodseeker-bloodsoaked-reveler?utm_source=api
+129,Sanitarium Skeleton,{B},1.0,Creature — Skeleton,common,B,B,{2}{B}: Return this card from your graveyard to your hand.,1,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/129/sanitarium-skeleton?utm_source=api
+130,Sever the Bloodline,{3}{B},4.0,Sorcery,uncommon,B,B,"Exile target creature and all other creatures with the same name as that creature.
+Flashback {5}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/130/sever-the-bloodline?utm_source=api
+131,Siege Zombie,{1}{B},2.0,Creature — Zombie,common,B,B,Tap three untapped creatures you control: Each opponent loses 1 life.,2,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/131/siege-zombie?utm_source=api
+132,Skirsdag High Priest,{1}{B},2.0,Creature — Human Cleric,rare,B,B,"Morbid — {T}, Tap two untapped creatures you control: Create a 5/5 black Demon creature token with flying. Activate only if a creature died this turn.",1,2,,Morbid,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/132/skirsdag-high-priest?utm_source=api
+133,"Sorin, Imperious Bloodlord",{2}{B},3.0,Legendary Planeswalker — Sorin,mythic,B,B,"+1: Target creature you control gains deathtouch and lifelink until end of turn. If it's a Vampire, put a +1/+1 counter on it.
++1: You may sacrifice a Vampire. When you do, Sorin deals 3 damage to any target and you gain 3 life.
+−3: You may put a Vampire creature card from your hand onto the battlefield.",,,4,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/133/sorin-imperious-bloodlord?utm_source=api
+134,Tragic Slip,{B},1.0,Instant,common,B,B,"Target creature gets -1/-1 until end of turn.
+Morbid — That creature gets -13/-13 until end of turn instead if a creature died this turn.",,,,Morbid,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/134/tragic-slip?utm_source=api
+135,Tree of Perdition,{3}{B},4.0,Creature — Plant,rare,B,B,"Defender
+{T}: Exchange target opponent's life total with this creature's toughness.",0,13,,Defender,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/135/tree-of-perdition?utm_source=api
+136,Triskaidekaphobia,{3}{B},4.0,Enchantment,uncommon,B,B,"At the beginning of your upkeep, choose one —
+• Each player with exactly 13 life loses the game, then each player gains 1 life.
+• Each player with exactly 13 life loses the game, then each player loses 1 life.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/136/triskaidekaphobia?utm_source=api
+137,Village Rites,{B},1.0,Instant,common,B,B,"As an additional cost to cast this spell, sacrifice a creature.
+Draw two cards.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/137/village-rites?utm_source=api
+138,Voldaren Bloodcaster // Bloodbat Summoner,,2.0,Creature — Vampire Wizard // Creature — Vampire Wizard,rare,,B,,,,,"Flying, Transform",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/138/voldaren-bloodcaster-bloodbat-summoner?utm_source=api
+139,Abrade,{1}{R},2.0,Instant,common,R,R,"Choose one —
+• Abrade deals 3 damage to target creature.
+• Destroy target artifact.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/139/abrade?utm_source=api
+140,Alchemist's Greeting,{4}{R},5.0,Sorcery,common,R,R,"Alchemist's Greeting deals 4 damage to target creature.
+Madness {1}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",,,,Madness,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/140/alchemists-greeting?utm_source=api
+141,Ancestral Anger,{R},1.0,Sorcery,common,R,R,"Target creature gains trample and gets +X/+0 until end of turn, where X is 1 plus the number of cards named Ancestral Anger in your graveyard.
+Draw a card.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/141/ancestral-anger?utm_source=api
+142,Bedlam Reveler,{6}{R}{R},8.0,Creature — Devil Horror,rare,R,R,"This spell costs {1} less to cast for each instant and sorcery card in your graveyard.
+Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+When this creature enters, discard your hand, then draw three cards.",3,4,,Prowess,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/142/bedlam-reveler?utm_source=api
+143,Blood Mist,{3}{R},4.0,Enchantment,uncommon,R,R,"At the beginning of combat on your turn, target creature you control gains double strike until end of turn.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/143/blood-mist?utm_source=api
+144,Blood Petal Celebrant,{1}{R},2.0,Creature — Vampire,common,R,R,"This creature has first strike as long as it's attacking.
+When this creature dies, create a Blood token. (It's an artifact with ""{1}, {T}, Discard a card, Sacrifice this token: Draw a card."")",2,1,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/144/blood-petal-celebrant?utm_source=api
+145,Bloodmad Vampire,{2}{R},3.0,Creature — Vampire Berserker,common,R,R,"Whenever this creature deals combat damage to a player, put a +1/+1 counter on it.
+Madness {1}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",4,1,,Madness,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/145/bloodmad-vampire?utm_source=api
+146,Borrowed Hostility,{R},1.0,Instant,common,R,R,"Escalate {3} (Pay this cost for each mode chosen beyond the first.)
+Choose one or both —
+• Target creature gets +3/+0 until end of turn.
+• Target creature gains first strike until end of turn.",,,,Escalate,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/146/borrowed-hostility?utm_source=api
+147,Burning Vengeance,{2}{R},3.0,Enchantment,uncommon,R,R,"Whenever you cast a spell from your graveyard, this enchantment deals 2 damage to any target.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/147/burning-vengeance?utm_source=api
+148,"Chandra, Dressed to Kill",{1}{R}{R},3.0,Legendary Planeswalker — Chandra,mythic,R,R,"+1: Add {R}. Chandra deals 1 damage to up to one target player or planeswalker.
++1: Exile the top card of your library. If it's red, you may cast it this turn.
+−7: Exile the top five cards of your library. You may cast red spells from among them this turn. You get an emblem with ""Whenever you cast a red spell, this emblem deals X damage to any target, where X is the amount of mana spent to cast that spell.""",,,3,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/148/chandra-dressed-to-kill?utm_source=api
+149,Collective Defiance,{1}{R}{R},3.0,Sorcery,rare,R,R,"Escalate {1} (Pay this cost for each mode chosen beyond the first.)
+Choose one or more —
+• Target player discards all the cards in their hand, then draws that many cards.
+• Collective Defiance deals 4 damage to target creature.
+• Collective Defiance deals 3 damage to target opponent or planeswalker.",,,,Escalate,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/149/collective-defiance?utm_source=api
+150,Conduit of Storms // Conduit of Emrakul,,3.0,Creature — Werewolf Horror // Creature — Eldrazi Werewolf,common,,R,,,,,Transform,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/150/conduit-of-storms-conduit-of-emrakul?utm_source=api
+151,Faithless Looting,{R},1.0,Sorcery,common,R,R,"Draw two cards, then discard two cards.
+Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/151/faithless-looting?utm_source=api
+152,Falkenrath Gorger,{R},1.0,Creature — Vampire Berserker,rare,R,R,"Each Vampire creature card you own that isn't on the battlefield has madness. The madness cost is equal to its mana cost. (If you discard a card with madness, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",2,1,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/152/falkenrath-gorger?utm_source=api
+153,Festival Crasher,{1}{R},2.0,Creature — Devil,common,R,R,"Whenever you cast an instant or sorcery spell, this creature gets +2/+0 until end of turn.",1,3,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/153/festival-crasher?utm_source=api
+154,Fiery Temper,{1}{R}{R},3.0,Instant,uncommon,R,R,"Fiery Temper deals 3 damage to any target.
+Madness {R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",,,,Madness,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/154/fiery-temper?utm_source=api
+155,Furyblade Vampire,{1}{R},2.0,Creature — Vampire Berserker,uncommon,R,R,"Trample
+At the beginning of combat on your turn, you may discard a card. If you do, this creature gets +3/+0 until end of turn.",1,2,,Trample,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/155/furyblade-vampire?utm_source=api
+156,Geier Reach Bandit // Vildin-Pack Alpha,,3.0,Creature — Human Rogue Werewolf // Creature — Werewolf,uncommon,,R,,,,,"Transform, Haste",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/156/geier-reach-bandit-vildin-pack-alpha?utm_source=api
+157,Hanweir Garrison,{2}{R},3.0,Creature — Human Soldier,rare,R,R,"Whenever this creature attacks, create two 1/1 red Human creature tokens that are tapped and attacking.
+(Melds with Hanweir Battlements.)",2,3,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/157/hanweir-garrison?utm_source=api
+157b,"Hanweir, the Writhing Township",,3.0,Legendary Creature — Eldrazi Ooze,rare,,R,"Trample, haste
+Whenever Hanweir attacks, create two 3/2 colorless Eldrazi Horror creature tokens that are tapped and attacking.",7,4,,"Haste, Trample",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/157b/hanweir-the-writhing-township?utm_source=api
+158,Hanweir Watchkeep // Bane of Hanweir,,3.0,Creature — Human Warrior Werewolf // Creature — Werewolf,common,,R,,,,,"Transform, Defender",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/158/hanweir-watchkeep-bane-of-hanweir?utm_source=api
+159,Honeymoon Hearse,{2}{R},3.0,Artifact — Vehicle,uncommon,R,R,"Trample
+Tap two untapped creatures you control: This Vehicle becomes an artifact creature until end of turn.",5,5,,Trample,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/159/honeymoon-hearse?utm_source=api
+160,Hungry Ridgewolf,{1}{R},2.0,Creature — Wolf,common,R,R,"As long as you control another Wolf or Werewolf, this creature gets +1/+0 and has trample.",2,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/160/hungry-ridgewolf?utm_source=api
+161,Kruin Outlaw // Terror of Kruin Pass,,3.0,Creature — Human Rogue Werewolf // Creature — Werewolf,rare,,R,,,,,"Transform, First strike, Double strike",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/161/kruin-outlaw-terror-of-kruin-pass?utm_source=api
+162,Lightning Axe,{R},1.0,Instant,uncommon,R,R,"As an additional cost to cast this spell, discard a card or pay {5}.
+Lightning Axe deals 5 damage to target creature.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/162/lightning-axe?utm_source=api
+163,Lightning Mauler,{1}{R},2.0,Creature — Human Berserker,uncommon,R,R,"Soulbond (You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.)
+As long as this creature is paired with another creature, both creatures have haste.",2,1,,Soulbond,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/163/lightning-mauler?utm_source=api
+164,Mass Hysteria,{R},1.0,Enchantment,rare,R,R,All creatures have haste.,,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/164/mass-hysteria?utm_source=api
+165,Mirrorwing Dragon,{3}{R}{R},5.0,Creature — Dragon,mythic,R,R,"Flying
+Whenever a player casts an instant or sorcery spell that targets only this creature, that player copies that spell for each other creature they control that the spell could target. Each copy targets a different one of those creatures.",4,5,,Flying,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/165/mirrorwing-dragon?utm_source=api
+166,Neonate's Rush,{2}{R},3.0,Instant,common,R,R,"This spell costs {1} less to cast if you control a Vampire.
+Neonate's Rush deals 1 damage to target creature and 1 damage to its controller. Draw a card.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/166/neonates-rush?utm_source=api
+167,Reforge the Soul,{3}{R}{R},5.0,Sorcery,rare,R,R,"Each player discards their hand, then draws seven cards.
+Miracle {1}{R} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)",,,,Miracle,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/167/reforge-the-soul?utm_source=api
+168,Runebound Wolf,{1}{R},2.0,Creature — Wolf,uncommon,R,R,"{3}{R}, {T}: This creature deals damage equal to the number of Wolves and Werewolves you control to target opponent.",2,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/168/runebound-wolf?utm_source=api
+169,Savage Alliance,{2}{R},3.0,Instant,uncommon,R,R,"Escalate {1} (Pay this cost for each mode chosen beyond the first.)
+Choose one or more —
+• Creatures target player controls gain trample until end of turn.
+• Savage Alliance deals 2 damage to target creature.
+• Savage Alliance deals 1 damage to each creature target opponent controls.",,,,Escalate,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/169/savage-alliance?utm_source=api
+170,Seize the Storm,{4}{R},5.0,Sorcery,common,R,R,"Create a red Elemental creature token with trample and ""This token's power and toughness are each equal to the number of instant and sorcery cards in your graveyard plus the number of cards with flashback you own in exile.""
+Flashback {6}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/170/seize-the-storm?utm_source=api
+171,Smoldering Werewolf // Erupting Dreadwolf,,4.0,Creature — Werewolf Horror // Creature — Eldrazi Werewolf,uncommon,,R,,,,,Transform,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/171/smoldering-werewolf-erupting-dreadwolf?utm_source=api
+172,Stensia Masquerade,{2}{R},3.0,Enchantment,uncommon,R,R,"Attacking creatures you control have first strike.
+Whenever a Vampire you control deals combat damage to a player, put a +1/+1 counter on it.
+Madness {2}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",,,,Madness,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/172/stensia-masquerade?utm_source=api
+173,Stromkirk Occultist,{2}{R},3.0,Creature — Vampire Horror,uncommon,R,R,"Trample
+Whenever this creature deals combat damage to a player, exile the top card of your library. Until end of turn, you may play that card.
+Madness {1}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",3,2,,"Madness, Trample",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/173/stromkirk-occultist?utm_source=api
+174,Thermo-Alchemist,{1}{R},2.0,Creature — Human Shaman,uncommon,R,R,"Defender
+{T}: This creature deals 1 damage to each opponent.
+Whenever you cast an instant or sorcery spell, untap this creature.",0,3,,Defender,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/174/thermo-alchemist?utm_source=api
+175,Through the Breach,{4}{R},5.0,Instant — Arcane,mythic,R,R,"You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.
+Splice onto Arcane {2}{R}{R} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)",,,,Splice,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/175/through-the-breach?utm_source=api
+176,Ulrich's Kindred,{2}{R},3.0,Creature — Wolf,uncommon,R,"G, R","Trample
+{3}{G}: Target attacking Wolf or Werewolf gains indestructible until end of turn. (Damage and effects that say ""destroy"" don't destroy it.)",3,2,,Trample,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/176/ulrichs-kindred?utm_source=api
+177,Uncaged Fury,{2}{R},3.0,Instant,uncommon,R,R,Target creature gets +1/+1 and gains double strike until end of turn.,,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/177/uncaged-fury?utm_source=api
+178,Vexing Devil,{R},1.0,Creature — Devil,rare,R,R,"When this creature enters, any opponent may have it deal 4 damage to them. If a player does, sacrifice this creature.",4,3,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/178/vexing-devil?utm_source=api
+179,Village Messenger // Moonrise Intruder,,1.0,Creature — Human Werewolf // Creature — Werewolf,common,,R,,,,,"Transform, Haste, Menace",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/179/village-messenger-moonrise-intruder?utm_source=api
+180,Voldaren Ambusher,{2}{R},3.0,Creature — Vampire Archer,uncommon,R,R,"When this creature enters, if an opponent lost life this turn, it deals X damage to up to one target creature or planeswalker, where X is the number of Vampires you control.",2,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/180/voldaren-ambusher?utm_source=api
+181,Voldaren Duelist,{3}{R},4.0,Creature — Vampire Warrior,common,R,R,"Haste
+When this creature enters, target creature can't block this turn.",3,2,,Haste,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/181/voldaren-duelist?utm_source=api
+182,Voldaren Epicure,{R},1.0,Creature — Vampire,common,R,R,"When this creature enters, it deals 1 damage to each opponent. Create a Blood token. (It's an artifact with ""{1}, {T}, Discard a card, Sacrifice this token: Draw a card."")",1,1,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/182/voldaren-epicure?utm_source=api
+183,Zealous Conscripts,{4}{R},5.0,Creature — Human Warrior,rare,R,R,"Haste
+When this creature enters, gain control of target permanent until end of turn. Untap that permanent. It gains haste until end of turn.",3,3,,Haste,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/183/zealous-conscripts?utm_source=api
+184,Abundant Growth,{G},1.0,Enchantment — Aura,common,G,G,"Enchant land
+When this Aura enters, draw a card.
+Enchanted land has ""{T}: Add one mana of any color.""",,,,Enchant,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/184/abundant-growth?utm_source=api
+185,Aim High,{1}{G},2.0,Instant,common,G,G,Untap target creature. It gets +2/+2 and gains reach until end of turn.,,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/185/aim-high?utm_source=api
+186,Ambush Viper,{1}{G},2.0,Creature — Snake,common,G,G,"Flash
+Deathtouch",2,1,,"Flash, Deathtouch",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/186/ambush-viper?utm_source=api
+187,Bramble Wurm,{6}{G},7.0,Creature — Wurm,common,G,G,"Reach, trample
+When this creature enters, you gain 5 life.
+{2}{G}, Exile this card from your graveyard: You gain 5 life.",7,6,,"Reach, Trample",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/187/bramble-wurm?utm_source=api
+188,Clear Shot,{2}{G},3.0,Instant,uncommon,G,G,Target creature you control gets +1/+1 until end of turn. It deals damage equal to its power to target creature you don't control.,,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/188/clear-shot?utm_source=api
+189,Cryptolith Rite,{1}{G},2.0,Enchantment,rare,G,G,"Creatures you control have ""{T}: Add one mana of any color.""",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/189/cryptolith-rite?utm_source=api
+190,Cultivator Colossus,{4}{G}{G}{G},7.0,Creature — Plant Beast,mythic,G,G,"Trample
+Cultivator Colossus's power and toughness are each equal to the number of lands you control.
+When this creature enters, you may put a land card from your hand onto the battlefield tapped. If you do, draw a card and repeat this process.",*,*,,Trample,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/190/cultivator-colossus?utm_source=api
+191,Dawnhart Disciple,{1}{G},2.0,Creature — Human Warlock,common,G,G,"Whenever another Human you control enters, this creature gets +1/+1 until end of turn.",2,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/191/dawnhart-disciple?utm_source=api
+192,Duel for Dominance,{1}{G},2.0,Instant,common,G,G,"Coven — Choose target creature you control and target creature you don't control. If you control three or more creatures with different powers, put a +1/+1 counter on the chosen creature you control. Then the chosen creatures fight each other. (Each deals damage equal to its power to the other.)",,,,"Fight, Coven",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/192/duel-for-dominance?utm_source=api
+193,Duskwatch Recruiter // Krallenhorde Howler,,2.0,Creature — Human Warrior Werewolf // Creature — Werewolf,uncommon,,G,,,,,Transform,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/193/duskwatch-recruiter-krallenhorde-howler?utm_source=api
+194,Eccentric Farmer,{2}{G},3.0,Creature — Human Peasant,common,G,G,"When this creature enters, mill three cards, then you may return a land card from your graveyard to your hand. (To mill three cards, put the top three cards of your library into your graveyard.)",2,3,,Mill,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/194/eccentric-farmer?utm_source=api
+195,Eldritch Evolution,{1}{G}{G},3.0,Sorcery,rare,G,G,"As an additional cost to cast this spell, sacrifice a creature.
+Search your library for a creature card with mana value X or less, where X is 2 plus the sacrificed creature's mana value. Put that card onto the battlefield, then shuffle. Exile Eldritch Evolution.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/195/eldritch-evolution?utm_source=api
+196,Festerhide Boar,{3}{G},4.0,Creature — Boar,common,G,G,"Trample
+Morbid — This creature enters with two +1/+1 counters on it if a creature died this turn.",3,3,,"Trample, Morbid",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/196/festerhide-boar?utm_source=api
+197,"Garruk Relentless // Garruk, the Veil-Cursed",,4.0,Legendary Planeswalker — Garruk // Legendary Planeswalker — Garruk,mythic,,"B, G",,,,,Transform,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/197/garruk-relentless-garruk-the-veil-cursed?utm_source=api
+198,Ghoultree,{7}{G},8.0,Creature — Zombie Treefolk,uncommon,G,G,This spell costs {1} less to cast for each creature card in your graveyard.,10,10,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/198/ghoultree?utm_source=api
+199,Grapple with the Past,{1}{G},2.0,Instant,common,G,G,"Mill three cards, then you may return a creature or land card from your graveyard to your hand. (To mill three cards, put the top three cards of your library into your graveyard.)",,,,Mill,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/199/grapple-with-the-past?utm_source=api
+200,Groundskeeper,{G},1.0,Creature — Human Druid,uncommon,G,G,{1}{G}: Return target basic land card from your graveyard to your hand.,1,1,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/200/groundskeeper?utm_source=api
+201,Hamlet Captain,{1}{G},2.0,Creature — Human Warrior,uncommon,G,G,"Whenever this creature attacks or blocks, other Humans you control get +1/+1 until end of turn.",2,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/201/hamlet-captain?utm_source=api
+202,Hermit Druid,{1}{G},2.0,Creature — Human Druid,rare,G,G,"{G}, {T}: Reveal cards from the top of your library until you reveal a basic land card. Put that card into your hand and all other cards revealed this way into your graveyard.",1,1,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/202/hermit-druid?utm_source=api
+203,Hinterland Logger // Timber Shredder,,2.0,Creature — Human Werewolf // Creature — Werewolf,common,,G,,,,,"Transform, Trample",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/203/hinterland-logger-timber-shredder?utm_source=api
+204,Howlpack Resurgence,{2}{G},3.0,Enchantment,uncommon,G,G,"Flash
+Each creature you control that's a Wolf or a Werewolf gets +1/+1 and has trample.",,,,Flash,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/204/howlpack-resurgence?utm_source=api
+205,Intrepid Provisioner,{3}{G},4.0,Creature — Human Scout,common,G,G,"Trample
+When this creature enters, another target Human you control gets +2/+2 until end of turn.",3,3,,Trample,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/205/intrepid-provisioner?utm_source=api
+206,Lumberknot,{2}{G}{G},4.0,Creature — Treefolk,uncommon,G,G,"Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+Whenever a creature dies, put a +1/+1 counter on this creature.",1,1,,Hexproof,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/206/lumberknot?utm_source=api
+207,Mayor of Avabruck // Howlpack Alpha,,2.0,Creature — Human Advisor Werewolf // Creature — Werewolf,rare,,G,,,,,Transform,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/207/mayor-of-avabruck-howlpack-alpha?utm_source=api
+208,Moldgraf Millipede,{4}{G},5.0,Creature — Insect Horror,common,G,G,"When this creature enters, mill three cards, then put a +1/+1 counter on this creature for each creature card in your graveyard. (To mill three cards, put the top three cards of your library into your graveyard.)",2,2,,Mill,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/208/moldgraf-millipede?utm_source=api
+209,Moonlight Hunt,{1}{G},2.0,Instant,uncommon,G,G,Choose target creature you don't control. Each creature you control that's a Wolf or a Werewolf deals damage equal to its power to that creature.,,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/209/moonlight-hunt?utm_source=api
+210,Noose Constrictor,{1}{G},2.0,Creature — Snake,uncommon,G,G,"Reach
+Discard a card: This creature gets +1/+1 until end of turn.",2,2,,Reach,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/210/noose-constrictor?utm_source=api
+211,Pack Guardian,{2}{G}{G},4.0,Creature — Wolf Spirit,uncommon,G,G,"Flash
+When this creature enters, you may discard a land card. If you do, create a 2/2 green Wolf creature token.",4,3,,Flash,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/211/pack-guardian?utm_source=api
+212,Scorned Villager // Moonscarred Werewolf,,2.0,Creature — Human Werewolf // Creature — Werewolf,common,,G,,,,,"Vigilance, Transform",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/212/scorned-villager-moonscarred-werewolf?utm_source=api
+213,Second Harvest,{2}{G}{G},4.0,Instant,rare,G,G,"For each token you control, create a token that's a copy of that permanent.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/213/second-harvest?utm_source=api
+214,Shrill Howler // Howling Chorus,,3.0,Creature — Werewolf Horror // Creature — Eldrazi Werewolf,uncommon,,G,,,,,Transform,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/214/shrill-howler-howling-chorus?utm_source=api
+215,Somberwald Sage,{2}{G},3.0,Creature — Human Druid,uncommon,G,G,{T}: Add three mana of any one color. Spend this mana only to cast creature spells.,0,1,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/215/somberwald-sage?utm_source=api
+216,Spider Spawning,{4}{G},5.0,Sorcery,uncommon,G,"B, G","Create a 1/2 green Spider creature token with reach for each creature card in your graveyard.
+Flashback {6}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/216/spider-spawning?utm_source=api
+217,Splinterfright,{2}{G},3.0,Creature — Elemental,uncommon,G,G,"Trample
+Splinterfright's power and toughness are each equal to the number of creature cards in your graveyard.
+At the beginning of your upkeep, mill two cards. (Put the top two cards of your library into your graveyard.)",*,*,,"Trample, Mill",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/217/splinterfright?utm_source=api
+218,Spore Crawler,{2}{G},3.0,Creature — Fungus,common,G,G,"When this creature dies, draw a card.",3,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/218/spore-crawler?utm_source=api
+219,Tireless Tracker,{2}{G},3.0,Creature — Human Scout,rare,G,G,"Landfall — Whenever a land you control enters, investigate. (Create a Clue token. It's an artifact with ""{2}, Sacrifice this token: Draw a card."")
+Whenever you sacrifice a Clue, put a +1/+1 counter on this creature.",3,2,,"Investigate, Landfall",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/219/tireless-tracker?utm_source=api
+220,Travel Preparations,{1}{G},2.0,Sorcery,uncommon,G,"G, W","Put a +1/+1 counter on each of up to two target creatures.
+Flashback {1}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/220/travel-preparations?utm_source=api
+221,Traverse the Ulvenwald,{G},1.0,Sorcery,rare,G,G,"Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+Delirium — If there are four or more card types among cards in your graveyard, instead search your library for a creature or land card, reveal it, put it into your hand, then shuffle.",,,,Delirium,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/221/traverse-the-ulvenwald?utm_source=api
+222,Ulvenwald Mysteries,{2}{G},3.0,Enchantment,uncommon,G,G,"Whenever a nontoken creature you control dies, investigate. (Create a Clue token. It's an artifact with ""{2}, Sacrifice this token: Draw a card."")
+Whenever you sacrifice a Clue, create a 1/1 white Human Soldier creature token.",,,,Investigate,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/222/ulvenwald-mysteries?utm_source=api
+223,Unnatural Growth,{1}{G}{G}{G}{G},5.0,Enchantment,rare,G,G,"At the beginning of each combat, double the power and toughness of each creature you control until end of turn.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/223/unnatural-growth?utm_source=api
+224,Villagers of Estwald // Howlpack of Estwald,,3.0,Creature — Human Werewolf // Creature — Werewolf,common,,G,,,,,Transform,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/224/villagers-of-estwald-howlpack-of-estwald?utm_source=api
+225,Wild Hunger,{2}{G},3.0,Instant,uncommon,G,"G, R","Target creature gets +3/+1 and gains trample until end of turn.
+Flashback {3}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/225/wild-hunger?utm_source=api
+226,Wrenn and Seven,{3}{G}{G},5.0,Legendary Planeswalker — Wrenn,mythic,G,G,"+1: Reveal the top four cards of your library. Put all land cards revealed this way into your hand and the rest into your graveyard.
+0: Put any number of land cards from your hand onto the battlefield tapped.
+−3: Create a green Treefolk creature token with reach and ""This token's power and toughness are each equal to the number of lands you control.""
+−8: Return all permanent cards from your graveyard to your hand. You get an emblem with ""You have no maximum hand size.""",,,5,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/226/wrenn-and-seven?utm_source=api
+227,Young Wolf,{G},1.0,Creature — Wolf,common,G,G,"Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)",1,1,,Undying,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/227/young-wolf?utm_source=api
+228,Altered Ego,{X}{2}{G}{U},4.0,Creature — Shapeshifter,rare,"G, U","G, U","This spell can't be countered.
+You may have this creature enter as a copy of any creature on the battlefield, except it enters with X additional +1/+1 counters on it.",0,0,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/228/altered-ego?utm_source=api
+229,Angelfire Ignition,{1}{R}{W},3.0,Sorcery,rare,"R, W","R, W","Put two +1/+1 counters on target creature. It gains vigilance, trample, lifelink, indestructible, and haste until end of turn.
+Flashback {2}{R}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/229/angelfire-ignition?utm_source=api
+230,"Arlinn Kord // Arlinn, Embraced by the Moon",,4.0,Legendary Planeswalker — Arlinn // Legendary Planeswalker — Arlinn,mythic,,"G, R",,,,,Transform,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/230/arlinn-kord-arlinn-embraced-by-the-moon?utm_source=api
+231,Bladestitched Skaab,{U}{B},2.0,Creature — Zombie Soldier,uncommon,"B, U","B, U",Other Zombies you control get +1/+0.,2,3,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/231/bladestitched-skaab?utm_source=api
+232,Bloodhall Priest,{2}{B}{R},4.0,Creature — Vampire Cleric,rare,"B, R","B, R","Whenever this creature enters or attacks, if you have no cards in hand, this creature deals 2 damage to any target.
+Madness {1}{B}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",4,4,,Madness,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/232/bloodhall-priest?utm_source=api
+233,Bloodtithe Harvester,{B}{R},2.0,Creature — Vampire,uncommon,"B, R","B, R","When this creature enters, create a Blood token. (It's an artifact with ""{1}, {T}, Discard a card, Sacrifice this token: Draw a card."")
+{T}, Sacrifice this creature: Target creature gets -X/-X until end of turn, where X is twice the number of Blood tokens you control. Activate only as a sorcery.",3,2,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/233/bloodtithe-harvester?utm_source=api
+234,Edgar Markov,{3}{R}{W}{B},6.0,Legendary Creature — Vampire Knight,mythic,"B, R, W","B, R, W","Eminence — Whenever you cast another Vampire spell, if Edgar is in the command zone or on the battlefield, create a 1/1 black Vampire creature token.
+First strike, haste
+Whenever Edgar attacks, put a +1/+1 counter on each Vampire you control.",4,4,,"First strike, Haste, Eminence",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/234/edgar-markov?utm_source=api
+235,Fleshtaker,{W}{B},2.0,Creature — Human Assassin,uncommon,"B, W","B, W","Whenever you sacrifice another creature, you gain 1 life and scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+{1}, Sacrifice another creature: This creature gets +2/+2 until end of turn.",2,2,,Scry,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/235/fleshtaker?utm_source=api
+236,Galvanic Iteration,{U}{R},2.0,Instant,rare,"R, U","R, U","When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.
+Flashback {1}{U}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/236/galvanic-iteration?utm_source=api
+237,Gisa and Geralf,{2}{U}{B},4.0,Legendary Creature — Human Wizard,rare,"B, U","B, U","When Gisa and Geralf enters, mill four cards.
+Once during each of your turns, you may cast a Zombie creature spell from your graveyard.",4,4,,Mill,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/237/gisa-and-geralf?utm_source=api
+238,The Gitrog Monster,{3}{B}{G},5.0,Legendary Creature — Frog Horror,mythic,"B, G","B, G","Deathtouch
+At the beginning of your upkeep, sacrifice The Gitrog Monster unless you sacrifice a land.
+You may play an additional land on each of your turns.
+Whenever one or more land cards are put into your graveyard from anywhere, draw a card.",6,6,,Deathtouch,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/238/the-gitrog-monster?utm_source=api
+239,"Grimgrin, Corpse-Born",{3}{U}{B},5.0,Legendary Creature — Zombie Warrior,mythic,"B, U","B, U","Grimgrin enters tapped and doesn't untap during your untap step.
+Sacrifice another creature: Untap Grimgrin and put a +1/+1 counter on it.
+Whenever Grimgrin attacks, destroy target creature defending player controls, then put a +1/+1 counter on Grimgrin.",5,5,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/239/grimgrin-corpse-born?utm_source=api
+240,Grizzly Ghoul,{2}{B}{G},4.0,Creature — Zombie Bear,uncommon,"B, G","B, G","Trample
+This creature enters with a +1/+1 counter on it for each creature that died this turn.",4,3,,Trample,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/240/grizzly-ghoul?utm_source=api
+241,Huntmaster of the Fells // Ravager of the Fells,,4.0,Creature — Human Werewolf // Creature — Werewolf,rare,,"G, R",,,,,"Transform, Trample",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/241/huntmaster-of-the-fells-ravager-of-the-fells?utm_source=api
+242,Join the Dance,{G}{W},2.0,Sorcery,uncommon,"G, W","G, W","Create two 1/1 white Human creature tokens.
+Flashback {3}{G}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/242/join-the-dance?utm_source=api
+243,"Liesa, Forgotten Archangel",{2}{W}{W}{B},5.0,Legendary Creature — Angel,rare,"B, W","B, W","Flying, lifelink
+Whenever another nontoken creature you control dies, return that card to its owner's hand at the beginning of the next end step.
+If a creature an opponent controls would die, exile it instead.",4,5,,"Flying, Lifelink",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/243/liesa-forgotten-archangel?utm_source=api
+244,Maelstrom Pulse,{1}{B}{G},3.0,Sorcery,rare,"B, G","B, G",Destroy target nonland permanent and all other permanents with the same name as that permanent.,,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/244/maelstrom-pulse?utm_source=api
+245,Markov Waltzer,{2}{R}{W},4.0,Creature — Vampire,uncommon,"R, W","R, W","Flying, haste
+At the beginning of combat on your turn, up to two target creatures you control each get +1/+0 until end of turn.",1,3,,"Flying, Haste",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/245/markov-waltzer?utm_source=api
+246,Olivia Voldaren,{2}{B}{R},4.0,Legendary Creature — Vampire,mythic,"B, R","B, R","Flying
+{1}{R}: Olivia Voldaren deals 1 damage to another target creature. That creature becomes a Vampire in addition to its other types. Put a +1/+1 counter on Olivia Voldaren.
+{3}{B}{B}: Gain control of target Vampire for as long as you control Olivia Voldaren.",3,3,,Flying,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/246/olivia-voldaren?utm_source=api
+247,"Sigarda, Host of Herons",{2}{G}{W}{W},5.0,Legendary Creature — Angel,mythic,"G, W","G, W","Flying, hexproof
+Spells and abilities your opponents control can't cause you to sacrifice permanents.",5,5,,"Flying, Hexproof",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/247/sigarda-host-of-herons?utm_source=api
+248,Spell Queller,{1}{W}{U},3.0,Creature — Spirit,rare,"U, W","U, W","Flash
+Flying
+When this creature enters, exile target spell with mana value 4 or less.
+When this creature leaves the battlefield, the exiled card's owner may cast that card without paying its mana cost.",2,3,,"Flying, Flash",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/248/spell-queller?utm_source=api
+249,"Tamiyo, Field Researcher",{1}{G}{W}{U},4.0,Legendary Planeswalker — Tamiyo,mythic,"G, U, W","G, U, W","+1: Choose up to two target creatures. Until your next turn, whenever either of those creatures deals combat damage, you draw a card.
+−2: Tap up to two target nonland permanents. They don't untap during their controller's next untap step.
+−7: Draw three cards. You get an emblem with ""You may cast spells from your hand without paying their mana costs.""",,,4,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/249/tamiyo-field-researcher?utm_source=api
+250,"Torens, Fist of the Angels",{1}{G}{W},3.0,Legendary Creature — Human Cleric,rare,"G, W","G, W","Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)
+Whenever you cast a creature spell, create a 1/1 green and white Human Soldier creature token with training.",2,2,,Training,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/250/torens-fist-of-the-angels?utm_source=api
+251,Vilespawn Spider,{G}{U},2.0,Creature — Spider,uncommon,"G, U","G, U","Reach
+At the beginning of your upkeep, mill a card. (Put the top card of your library into your graveyard.)
+{2}{G}{U}, {T}, Sacrifice this creature: Create a 1/1 green Insect creature token for each creature card in your graveyard. Activate only as a sorcery.",2,3,,"Reach, Mill",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/251/vilespawn-spider?utm_source=api
+252,Wandering Mind,{1}{U}{R},3.0,Creature — Horror,uncommon,"R, U","R, U","Flying
+When this creature enters, look at the top six cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",2,1,,Flying,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/252/wandering-mind?utm_source=api
+253,Angel's Tomb,{3},3.0,Artifact,uncommon,,,"Whenever a creature you control enters, you may have this artifact become a 3/3 white Angel artifact creature with flying until end of turn.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/253/angels-tomb?utm_source=api
+254,Blazing Torch,{1},1.0,Artifact — Equipment,common,,,"Equipped creature can't be blocked by Vampires or Zombies.
+Equipped creature has ""{T}, Sacrifice Blazing Torch: Blazing Torch deals 2 damage to any target.""
+Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",,,,Equip,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/254/blazing-torch?utm_source=api
+255,Boarded Window,{3},3.0,Artifact,uncommon,,,"Creatures attacking you get -1/-0.
+At the beginning of each end step, if you were dealt 4 or more damage this turn, exile this artifact.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/255/boarded-window?utm_source=api
+256,Butcher's Cleaver,{3},3.0,Artifact — Equipment,uncommon,,,"Equipped creature gets +3/+0.
+As long as equipped creature is a Human, it has lifelink.
+Equip {3}",,,,Equip,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/256/butchers-cleaver?utm_source=api
+257,Chalice of Life // Chalice of Death,,3.0,Artifact // Artifact,uncommon,,,,,,,Transform,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/257/chalice-of-life-chalice-of-death?utm_source=api
+258,Cobbled Wings,{2},2.0,Artifact — Equipment,common,,,"Equipped creature has flying.
+Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",,,,Equip,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/258/cobbled-wings?utm_source=api
+259,Conjurer's Closet,{5},5.0,Artifact,rare,,,"At the beginning of your end step, you may exile target creature you control, then return that card to the battlefield under your control.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/259/conjurers-closet?utm_source=api
+260,Cryptolith Fragment // Aurora of Emrakul,,3.0,Artifact // Creature — Eldrazi Reflection,uncommon,,,,,,,"Deathtouch, Flying, Transform",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/260/cryptolith-fragment-aurora-of-emrakul?utm_source=api
+261,Demonmail Hauberk,{4},4.0,Artifact — Equipment,uncommon,,,"Equipped creature gets +4/+2.
+Equip—Sacrifice a creature.",,,,Equip,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/261/demonmail-hauberk?utm_source=api
+262,Epitaph Golem,{5},5.0,Artifact Creature — Golem,common,,,{2}: Put target card from your graveyard on the bottom of your library.,3,5,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/262/epitaph-golem?utm_source=api
+263,Galvanic Juggernaut,{4},4.0,Artifact Creature — Juggernaut,uncommon,,,"This creature attacks each combat if able.
+This creature doesn't untap during your untap step.
+Whenever another creature dies, untap this creature.",5,5,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/263/galvanic-juggernaut?utm_source=api
+264,Geistcatcher's Rig,{6},6.0,Artifact Creature — Construct,uncommon,,,"When this creature enters, you may have it deal 4 damage to target creature with flying.",4,5,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/264/geistcatchers-rig?utm_source=api
+265,Harvest Hand // Scrounged Scythe,,3.0,Artifact Creature — Scarecrow // Artifact — Equipment,common,,,,,,,"Transform, Equip",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/265/harvest-hand-scrounged-scythe?utm_source=api
+266,Helvault,{3},3.0,Legendary Artifact,rare,,,"{1}, {T}: Exile target creature you control.
+{7}, {T}: Exile target creature you don't control.
+When Helvault is put into a graveyard from the battlefield, return all cards exiled with it to the battlefield under their owners' control.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/266/helvault?utm_source=api
+267,Lupine Prototype,{2},2.0,Artifact Creature — Wolf Construct,uncommon,,,This creature can't attack or block unless a player has no cards in hand.,5,5,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/267/lupine-prototype?utm_source=api
+268,Metallic Mimic,{2},2.0,Artifact Creature — Shapeshifter,rare,,,"As this creature enters, choose a creature type.
+This creature is the chosen type in addition to its other types.
+Each other creature you control of the chosen type enters with an additional +1/+1 counter on it.",2,1,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/268/metallic-mimic?utm_source=api
+269,Neglected Heirloom // Ashmouth Blade,,1.0,Artifact — Equipment // Artifact — Equipment,uncommon,,,,,,,"Transform, Equip",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/269/neglected-heirloom-ashmouth-blade?utm_source=api
+270,Soul Separator,{3},3.0,Artifact,uncommon,,,"{5}, {T}, Sacrifice this artifact: Exile target creature card from your graveyard. Create a token that's a copy of that card, except it's 1/1, it's a Spirit in addition to its other types, and it has flying. Create a black Zombie creature token with power equal to that card's power and toughness equal to that card's toughness.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/270/soul-separator?utm_source=api
+271,Stitcher's Graft,{1},1.0,Artifact — Equipment,rare,,,"Equipped creature gets +3/+3.
+Whenever equipped creature attacks, it doesn't untap during its controller's next untap step.
+Whenever this Equipment becomes unattached from a permanent, sacrifice that permanent.
+Equip {2}",,,,Equip,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/271/stitchers-graft?utm_source=api
+272,Tamiyo's Journal,{5},5.0,Legendary Artifact,rare,,,"At the beginning of your upkeep, investigate. (Create a Clue token. It's an artifact with ""{2}, Sacrifice this token: Draw a card."")
+{T}, Sacrifice three Clues: Search your library for a card, put that card into your hand, then shuffle.",,,,Investigate,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/272/tamiyos-journal?utm_source=api
+273,Traveler's Amulet,{1},1.0,Artifact,common,,,"{1}, Sacrifice this artifact: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/273/travelers-amulet?utm_source=api
+274,Wild-Field Scarecrow,{3},3.0,Artifact Creature — Scarecrow,common,,,"Defender
+{2}, Sacrifice this creature: Search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle.",1,4,,Defender,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/274/wild-field-scarecrow?utm_source=api
+275,Deathcap Glade,,0.0,Land,rare,,"B, G","This land enters tapped unless you control two or more other lands.
+{T}: Add {B} or {G}.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/275/deathcap-glade?utm_source=api
+276,Deserted Beach,,0.0,Land,rare,,"U, W","This land enters tapped unless you control two or more other lands.
+{T}: Add {W} or {U}.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/276/deserted-beach?utm_source=api
+277,Dreamroot Cascade,,0.0,Land,rare,,"G, U","This land enters tapped unless you control two or more other lands.
+{T}: Add {G} or {U}.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/277/dreamroot-cascade?utm_source=api
+278,Evolving Wilds,,0.0,Land,common,,,"{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/278/evolving-wilds?utm_source=api
+279,Hanweir Battlements,,0.0,Land,rare,,R,"{T}: Add {C}.
+{R}, {T}: Target creature gains haste until end of turn.
+{3}{R}{R}, {T}: If you both own and control this land and a creature named Hanweir Garrison, exile them, then meld them into Hanweir, the Writhing Township.",,,,Meld,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/279/hanweir-battlements?utm_source=api
+280,Haunted Ridge,,0.0,Land,rare,,"B, R","This land enters tapped unless you control two or more other lands.
+{T}: Add {B} or {R}.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/280/haunted-ridge?utm_source=api
+281,Overgrown Farmland,,0.0,Land,rare,,"G, W","This land enters tapped unless you control two or more other lands.
+{T}: Add {G} or {W}.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/281/overgrown-farmland?utm_source=api
+282,Rockfall Vale,,0.0,Land,rare,,"G, R","This land enters tapped unless you control two or more other lands.
+{T}: Add {R} or {G}.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/282/rockfall-vale?utm_source=api
+283,Shattered Sanctum,,0.0,Land,rare,,"B, W","This land enters tapped unless you control two or more other lands.
+{T}: Add {W} or {B}.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/283/shattered-sanctum?utm_source=api
+284,Shipwreck Marsh,,0.0,Land,rare,,"B, U","This land enters tapped unless you control two or more other lands.
+{T}: Add {U} or {B}.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/284/shipwreck-marsh?utm_source=api
+285,Stormcarved Coast,,0.0,Land,rare,,"R, U","This land enters tapped unless you control two or more other lands.
+{T}: Add {U} or {R}.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/285/stormcarved-coast?utm_source=api
+286,Sundown Pass,,0.0,Land,rare,,"R, W","This land enters tapped unless you control two or more other lands.
+{T}: Add {R} or {W}.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/286/sundown-pass?utm_source=api
+287,"Westvale Abbey // Ormendahl, Profane Prince",,0.0,Land // Legendary Creature — Demon,rare,,B,,,,,"Flying, Lifelink, Indestructible, Transform, Haste",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/287/westvale-abbey-ormendahl-profane-prince?utm_source=api
+288,Plains,,0.0,Basic Land — Plains,common,,W,({T}: Add {W}.),,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/288/plains?utm_source=api
+290,Island,,0.0,Basic Land — Island,common,,U,({T}: Add {U}.),,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/290/island?utm_source=api
+292,Swamp,,0.0,Basic Land — Swamp,common,,B,({T}: Add {B}.),,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/292/swamp?utm_source=api
+294,Mountain,,0.0,Basic Land — Mountain,common,,R,({T}: Add {R}.),,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/294/mountain?utm_source=api
+296,Forest,,0.0,Basic Land — Forest,common,,G,({T}: Add {G}.),,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/296/forest?utm_source=api
+475,Liliana of the Veil,{1}{B}{B},3.0,Legendary Planeswalker — Liliana,mythic,B,B,"+1: Each player discards a card.
+−2: Target player sacrifices a creature.
+−6: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of their choice.",,,3,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/475/liliana-of-the-veil?utm_source=api
+477,"Avacyn, Angel of Hope",{5}{W}{W}{W},8.0,Legendary Creature — Angel,mythic,W,W,"Flying, vigilance, indestructible
+Other permanents you control have indestructible.",8,8,,"Flying, Indestructible, Vigilance",Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/477/avacyn-angel-of-hope?utm_source=api
+478,Snapcaster Mage,{1}{U},2.0,Creature — Human Wizard,mythic,U,U,"Flash
+When this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)",2,1,,Flash,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/478/snapcaster-mage?utm_source=api
+479,Balefire Dragon,{5}{R}{R},7.0,Creature — Dragon,mythic,R,R,"Flying
+Whenever this creature deals combat damage to a player, it deals that much damage to each creature that player controls.",6,6,,Flying,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/479/balefire-dragon?utm_source=api
+480,Craterhoof Behemoth,{5}{G}{G}{G},8.0,Creature — Beast,mythic,G,G,"Haste
+When this creature enters, creatures you control gain trample and get +X/+X until end of turn, where X is the number of creatures you control.",5,5,,Haste,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/480/craterhoof-behemoth?utm_source=api
