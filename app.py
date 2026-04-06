@@ -6,6 +6,7 @@ Streamlit app to browse card lists for tracked MTG Arena sets.
 import os
 import pandas as pd
 import streamlit as st
+import streamlit.components.v1 as components
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -13,11 +14,11 @@ import streamlit as st
 
 SETS = [
     ("tmt", "MTG_TeenageMutantNinjaTurtles", "Teenage Mutant Ninja Turtles"),
+    ("ecl", "Lorwyn_Eclipsed",                "Lorwyn Eclipsed"),
     ("tla", "Avatar_TheLastAirbender",        "Avatar: The Last Airbender"),
     ("om1", "Through_the_Omenpaths",          "Through the Omenpaths"),
     ("eoe", "Edge_of_Eternities",             "Edge of Eternities"),
     ("fin", "Final_Fantasy",                  "Final Fantasy"),
-    ("ecl", "Lorwyn_Eclipsed",                "Lorwyn Eclipsed"),
     ("tdm", "Tarkir_Dragonstorm",             "Tarkir: Dragonstorm"),
     ("dft", "Aetherdrift",                    "Aetherdrift"),
     ("inr", "Innistrad_Remastered",           "Innistrad Remastered"),
@@ -46,9 +47,13 @@ COLOR_LABELS  = {
 def load_set(csv_filename: str, set_code: str) -> pd.DataFrame:
     path = os.path.join(DATA_DIR, f"{csv_filename}.csv")
     df = pd.read_csv(path, dtype=str).fillna("")
-    # Build inline image URL using Scryfall API
-    df["image"] = df["collector_number"].apply(
+    # Small thumbnail shown in table; normal (488px) shown on hover
+    df["image_small"] = df["collector_number"].apply(
         lambda n: f"https://api.scryfall.com/cards/{set_code}/{n}?format=image&version=small"
+        if n else ""
+    )
+    df["image_normal"] = df["collector_number"].apply(
+        lambda n: f"https://api.scryfall.com/cards/{set_code}/{n}?format=image&version=normal"
         if n else ""
     )
     return df
@@ -131,62 +136,138 @@ st.caption(
 )
 
 # ---------------------------------------------------------------------------
-# Display table
+# Display table  –  HTML with CSS hover-to-preview
 # ---------------------------------------------------------------------------
 
-DISPLAY_COLS = [
-    "image",
-    "collector_number",
-    "name",
-    "mana_cost",
-    "cmc",
-    "type_line",
-    "rarity",
-    "colors",
-    "color_identity",
-    "oracle_text",
-    "power",
-    "toughness",
-    "loyalty",
-    "keywords",
-    "set_name",
-    "released_at",
-    "scryfall_uri",
-]
+def build_html_table(df_rows: pd.DataFrame) -> str:
+    css = """
+    <style>
+    .card-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+    }
+    .card-table th {
+        background: #0e1117;
+        color: #fafafa;
+        padding: 8px 10px;
+        text-align: left;
+        border-bottom: 2px solid #444;
+        white-space: nowrap;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+    .card-table td {
+        padding: 6px 10px;
+        border-bottom: 1px solid #2a2a2a;
+        vertical-align: middle;
+        color: #e0e0e0;
+    }
+    .card-table tr:hover td { background: #1a1f2e; }
 
-column_config = {
-    "image": st.column_config.ImageColumn(
-        "Card Image",
-        width="small",
-        help="Card art from Scryfall",
-    ),
-    "collector_number": st.column_config.TextColumn("#", width="small"),
-    "name":             st.column_config.TextColumn("Name", width="medium"),
-    "mana_cost":        st.column_config.TextColumn("Mana Cost", width="small"),
-    "cmc":              st.column_config.TextColumn("CMC", width="small"),
-    "type_line":        st.column_config.TextColumn("Type", width="medium"),
-    "rarity":           st.column_config.TextColumn("Rarity", width="small"),
-    "colors":           st.column_config.TextColumn("Colors", width="small"),
-    "color_identity":   st.column_config.TextColumn("Color Identity", width="small"),
-    "oracle_text":      st.column_config.TextColumn("Rules Text", width="large"),
-    "power":            st.column_config.TextColumn("Power", width="small"),
-    "toughness":        st.column_config.TextColumn("Toughness", width="small"),
-    "loyalty":          st.column_config.TextColumn("Loyalty", width="small"),
-    "keywords":         st.column_config.TextColumn("Keywords", width="medium"),
-    "set_name":         st.column_config.TextColumn("Set Name", width="medium"),
-    "released_at":      st.column_config.TextColumn("Released", width="small"),
-    "scryfall_uri": st.column_config.LinkColumn(
-        "Scryfall Page",
-        width="small",
-        help="Click to view the card on Scryfall",
-        display_text="View card ↗",
-    ),
-}
+    /* Thumbnail cell with hover-preview */
+    .thumb-wrap {
+        position: relative;
+        display: inline-block;
+        width: 62px;
+    }
+    .thumb-wrap img.thumb {
+        width: 60px;
+        height: auto;
+        border-radius: 5px;
+        display: block;
+        cursor: default;
+    }
+    .thumb-wrap .preview {
+        display: none;
+        position: absolute;
+        left: 72px;
+        top: -80px;
+        width: 260px;
+        border-radius: 12px;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.9);
+        z-index: 9999;
+        pointer-events: none;
+    }
+    .thumb-wrap:hover .preview { display: block; }
 
-st.dataframe(
-    filtered[DISPLAY_COLS],
-    column_config=column_config,
-    width="stretch",
-    hide_index=True,
-    height=700,
-)
+    .card-table a { color: #d4a017; text-decoration: none; }
+    .card-table a:hover { text-decoration: underline; }
+    </style>
+    """
+
+    headers = ["Card", "#", "Name", "Mana", "CMC", "Type", "Rarity",
+               "Colors", "CI", "Rules Text", "P / T", "Keywords", "Scryfall"]
+    thead = "<tr>" + "".join(f"<th>{h}</th>" for h in headers) + "</tr>"
+
+    rows = []
+    for _, r in df_rows.iterrows():
+        # Image cells
+        thumb  = r.get("image_small", "")
+        normal = r.get("image_normal", "")
+        if thumb:
+            img_html = (
+                '<div class="thumb-wrap">'
+                f'<img class="thumb" src="{thumb}" loading="lazy">'
+                f'<img class="preview" src="{normal}" loading="lazy">'
+                "</div>"
+            )
+        else:
+            img_html = ""
+
+        # Power / Toughness / Loyalty
+        if r["power"] or r["toughness"]:
+            pt = f"{r['power']} / {r['toughness']}"
+        elif r["loyalty"]:
+            pt = f"\u2605 {r['loyalty']}"
+        else:
+            pt = ""
+
+        # Sanitise and truncate oracle text
+        oracle = (
+            r["oracle_text"]
+            .replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+            .replace("\n", " \u00b7 ")
+        )
+        if len(oracle) > 200:
+            oracle = oracle[:197] + "\u2026"
+
+        link = (
+            f'<a href="{r["scryfall_uri"]}" target="_blank">View ↗</a>'
+            if r["scryfall_uri"] else ""
+        )
+
+        rows.append(
+            "<tr>"
+            f"<td>{img_html}</td>"
+            f"<td style='white-space:nowrap'>{r['collector_number']}</td>"
+            f"<td><b>{r['name']}</b></td>"
+            f"<td style='white-space:nowrap'>{r['mana_cost']}</td>"
+            f"<td>{r['cmc']}</td>"
+            f"<td style='white-space:nowrap'>{r['type_line']}</td>"
+            f"<td style='white-space:nowrap'>{r['rarity'].capitalize()}</td>"
+            f"<td>{r['colors']}</td>"
+            f"<td>{r['color_identity']}</td>"
+            f"<td style='font-size:11px;max-width:280px'>{oracle}</td>"
+            f"<td style='white-space:nowrap'>{pt}</td>"
+            f"<td style='font-size:11px'>{r['keywords']}</td>"
+            f"<td>{link}</td>"
+            "</tr>"
+        )
+
+    tbody = "\n".join(rows)
+    return (
+        f"{css}"
+        "<div style='overflow-x:auto;'>"
+        "<table class='card-table'>"
+        f"<thead>{thead}</thead>"
+        f"<tbody>{tbody}</tbody>"
+        "</table>"
+        "</div>"
+    )
+
+
+components.html(build_html_table(filtered), height=750, scrolling=True)
