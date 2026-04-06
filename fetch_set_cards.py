@@ -18,11 +18,13 @@ SETS = [
     ("om1", "Through_the_Omenpaths"),
     ("eoe", "Edge_of_Eternities"),
     ("fin", "Final_Fantasy"),
+    ("ecl", "Lorwyn_Eclipsed"),
     ("tdm", "Tarkir_Dragonstorm"),
     ("dft", "Aetherdrift"),
     ("inr", "Innistrad_Remastered"),
     ("fdn", "MTG_Foundations"),
     ("dsk", "Duskmourn_House_of_Horror"),
+    ("blb", "Bloomburrow"),
 ]
 
 FIELDS = [

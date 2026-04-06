@@ -17,11 +17,13 @@ SETS = [
     ("om1", "Through_the_Omenpaths",          "Through the Omenpaths"),
     ("eoe", "Edge_of_Eternities",             "Edge of Eternities"),
     ("fin", "Final_Fantasy",                  "Final Fantasy"),
+    ("ecl", "Lorwyn_Eclipsed",                "Lorwyn Eclipsed"),
     ("tdm", "Tarkir_Dragonstorm",             "Tarkir: Dragonstorm"),
     ("dft", "Aetherdrift",                    "Aetherdrift"),
     ("inr", "Innistrad_Remastered",           "Innistrad Remastered"),
     ("fdn", "MTG_Foundations",                "MTG Foundations"),
     ("dsk", "Duskmourn_House_of_Horror",      "Duskmourn: House of Horror"),
+    ("blb", "Bloomburrow",                    "Bloomburrow"),
 ]
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")

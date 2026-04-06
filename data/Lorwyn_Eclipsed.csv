@@ -1,0 +1,546 @@
+collector_number,name,mana_cost,cmc,type_line,rarity,colors,color_identity,oracle_text,power,toughness,loyalty,keywords,set_name,released_at,scryfall_uri
+1,Changeling Wayfinder,{3},3.0,Creature — Shapeshifter,common,,,"Changeling (This card is every creature type.)
+When this creature enters, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",1,2,,Changeling,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/1/changeling-wayfinder?utm_source=api
+2,Rooftop Percher,{5},5.0,Creature — Shapeshifter,common,,,"Changeling (This card is every creature type.)
+Flying
+When this creature enters, exile up to two target cards from graveyards. You gain 3 life.",3,3,,"Changeling, Flying",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/2/rooftop-percher?utm_source=api
+3,Adept Watershaper,{2}{W},3.0,Creature — Merfolk Cleric,rare,W,W,Other tapped creatures you control have indestructible.,3,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/3/adept-watershaper?utm_source=api
+4,"Ajani, Outland Chaperone",{1}{W}{W},3.0,Legendary Planeswalker — Ajani,mythic,W,W,"+1: Create a 1/1 green and white Kithkin creature token.
+−2: Ajani deals 4 damage to target tapped creature.
+−8: Look at the top X cards of your library, where X is your life total. You may put any number of nonland permanent cards with mana value 3 or less from among them onto the battlefield. Then shuffle.",,,3,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/4/ajani-outland-chaperone?utm_source=api
+5,Appeal to Eirdu,{3}{W},4.0,Instant,common,W,W,"Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+One or two target creatures each get +2/+1 until end of turn.",,,,Convoke,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/5/appeal-to-eirdu?utm_source=api
+6,Bark of Doran,{1}{W},2.0,Artifact — Equipment,uncommon,W,W,"Equipped creature gets +0/+1.
+As long as equipped creature's toughness is greater than its power, it assigns combat damage equal to its toughness rather than its power.
+Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",,,,Equip,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/6/bark-of-doran?utm_source=api
+7,"Brigid, Clachan's Heart // Brigid, Doun's Mind",,3.0,Legendary Creature — Kithkin Warrior // Legendary Creature — Kithkin Soldier,rare,,"G, W",,,,,Transform,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/7/brigid-clachans-heart-brigid-douns-mind?utm_source=api
+8,Burdened Stoneback,{1}{W},2.0,Creature — Giant Warrior,uncommon,W,W,"This creature enters with two -1/-1 counters on it.
+{1}{W}, Remove a counter from this creature: Target creature gains indestructible until end of turn. Activate only as a sorcery. (Damage and effects that say ""destroy"" don't destroy it. If its toughness is 0 or less, it still dies.)",4,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/8/burdened-stoneback?utm_source=api
+9,Champion of the Clachan,{3}{W},4.0,Creature — Kithkin Knight,rare,W,W,"Flash
+As an additional cost to cast this spell, behold a Kithkin and exile it. (Exile a Kithkin you control or a Kithkin card from your hand.)
+Other Kithkin you control get +1/+1.
+When this creature leaves the battlefield, return the exiled card to its owner's hand.",4,5,,"Behold, Flash",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/9/champion-of-the-clachan?utm_source=api
+10,Clachan Festival,{2}{W},3.0,Kindred Enchantment — Kithkin,uncommon,W,W,"When this enchantment enters, create two 1/1 green and white Kithkin creature tokens.
+{4}{W}: Create a 1/1 green and white Kithkin creature token.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/10/clachan-festival?utm_source=api
+11,Crib Swap,{2}{W},3.0,Kindred Instant — Shapeshifter,uncommon,W,W,"Changeling (This card is every creature type.)
+Exile target creature. Its controller creates a 1/1 colorless Shapeshifter creature token with changeling.",,,,Changeling,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/11/crib-swap?utm_source=api
+12,Curious Colossus,{5}{W}{W},7.0,Creature — Giant Warrior,mythic,W,W,"When this creature enters, each creature target opponent controls loses all abilities, becomes a Coward in addition to its other types, and has base power and toughness 1/1.",7,7,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/12/curious-colossus?utm_source=api
+13,"Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight",,5.0,Legendary Creature — Elemental God // Legendary Creature — Elemental God,mythic,,"B, W",,,,,"Flying, Lifelink, Transform",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/13/eirdu-carrier-of-dawn-isilu-carrier-of-twilight?utm_source=api
+14,Encumbered Reejerey,{1}{W},2.0,Creature — Merfolk Soldier,uncommon,W,W,"This creature enters with three -1/-1 counters on it.
+Whenever this creature becomes tapped while it has a -1/-1 counter on it, remove a -1/-1 counter from it.",5,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/14/encumbered-reejerey?utm_source=api
+15,Evershrike's Gift,{W},1.0,Enchantment — Aura,uncommon,W,W,"Enchant creature
+Enchanted creature gets +1/+0 and has flying.
+{1}{W}, Blight 2: Return this card from your graveyard to your hand. Activate only as a sorcery. (To blight 2, put two -1/-1 counters on a creature you control.)",,,,"Blight, Enchant",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/15/evershrikes-gift?utm_source=api
+16,Flock Impostor,{2}{W},3.0,Creature — Shapeshifter,uncommon,W,W,"Changeling (This card is every creature type.)
+Flash
+Flying
+When this creature enters, return up to one other target creature you control to its owner's hand.",2,2,,"Changeling, Flying, Flash",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/16/flock-impostor?utm_source=api
+17,Gallant Fowlknight,{3}{W},4.0,Creature — Kithkin Knight,common,W,W,"When this creature enters, creatures you control get +1/+0 until end of turn. Kithkin creatures you control also gain first strike until end of turn.",3,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/17/gallant-fowlknight?utm_source=api
+18,Goldmeadow Nomad,{W},1.0,Creature — Kithkin Scout,common,W,W,"{W}, Exile this card from your graveyard: Create a 1/1 green and white Kithkin creature token. Activate only as a sorcery.",1,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/18/goldmeadow-nomad?utm_source=api
+19,Keep Out,{1}{W},2.0,Instant,common,W,W,"Choose one —
+• Keep Out deals 4 damage to target tapped creature.
+• Destroy target enchantment.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/19/keep-out?utm_source=api
+20,Kinbinding,{3}{W}{W},5.0,Enchantment,rare,W,W,"Creatures you control get +X/+X, where X is the number of creatures that entered the battlefield under your control this turn.
+At the beginning of combat on your turn, create a 1/1 green and white Kithkin creature token.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/20/kinbinding?utm_source=api
+21,Kinsbaile Aspirant,{W},1.0,Creature — Kithkin Citizen,uncommon,W,W,"As an additional cost to cast this spell, behold a Kithkin or pay {2}. (To behold a Kithkin, choose a Kithkin you control or reveal a Kithkin card from your hand.)
+Whenever another creature you control enters, this creature gets +1/+1 until end of turn.",2,1,,Behold,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/21/kinsbaile-aspirant?utm_source=api
+22,Kinscaer Sentry,{1}{W},2.0,Creature — Kithkin Soldier,rare,W,W,"First strike, lifelink
+Whenever this creature attacks, you may put a creature card with mana value X or less from your hand onto the battlefield tapped and attacking, where X is the number of attacking creatures you control.",2,2,,"Lifelink, First strike",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/22/kinscaer-sentry?utm_source=api
+23,Kithkeeper,{6}{W},7.0,Creature — Elemental,uncommon,W,W,"Vivid — When this creature enters, create X 1/1 green and white Kithkin creature tokens, where X is the number of colors among permanents you control.
+Tap three untapped creatures you control: This creature gets +3/+0 and gains flying until end of turn.",3,3,,Vivid,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/23/kithkeeper?utm_source=api
+24,Liminal Hold,{3}{W},4.0,Enchantment,common,W,W,"When this enchantment enters, exile up to one target nonland permanent an opponent controls until this enchantment leaves the battlefield. You gain 2 life.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/24/liminal-hold?utm_source=api
+25,Meanders Guide,{2}{W},3.0,Creature — Merfolk Scout,uncommon,W,W,"Whenever this creature attacks, you may tap another untapped Merfolk you control. When you do, return target creature card with mana value 3 or less from your graveyard to the battlefield.",3,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/25/meanders-guide?utm_source=api
+26,Moonlit Lamenter,{2}{W},3.0,Creature — Treefolk Cleric,uncommon,W,W,"This creature enters with a -1/-1 counter on it.
+{1}{W}, Remove a counter from this creature: Draw a card. Activate only as a sorcery.",2,5,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/26/moonlit-lamenter?utm_source=api
+27,Morningtide's Light,{3}{W},4.0,Sorcery,mythic,W,W,"Exile any number of target creatures. At the beginning of the next end step, return those cards to the battlefield tapped under their owners' control.
+Until your next turn, prevent all damage that would be dealt to you.
+Exile Morningtide's Light.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/27/morningtides-light?utm_source=api
+28,Personify,{1}{W},2.0,Instant,uncommon,W,W,"Exile target creature you control, then return that card to the battlefield under its owner's control. Create a 1/1 colorless Shapeshifter creature token with changeling. (It's every creature type.)",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/28/personify?utm_source=api
+29,Protective Response,{2}{W},3.0,Instant,uncommon,W,W,"Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+Destroy target attacking or blocking creature.",,,,Convoke,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/29/protective-response?utm_source=api
+30,Pyrrhic Strike,{2}{W},3.0,Instant,uncommon,W,W,"As an additional cost to cast this spell, you may blight 2. (You may put two -1/-1 counters on a creature you control.)
+Choose one. If this spell's additional cost was paid, choose both instead.
+• Destroy target artifact or enchantment.
+• Destroy target creature with mana value 3 or greater.",,,,Blight,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/30/pyrrhic-strike?utm_source=api
+31,Reluctant Dounguard,{2}{W},3.0,Creature — Kithkin Soldier,common,W,W,"This creature enters with two -1/-1 counters on it.
+Whenever another creature you control enters while this creature has a -1/-1 counter on it, remove a -1/-1 counter from this creature.",4,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/31/reluctant-dounguard?utm_source=api
+32,"Rhys, the Evermore",{1}{W},2.0,Legendary Creature — Elf Warrior,rare,W,W,"Flash
+When Rhys enters, another target creature you control gains persist until end of turn. (When it dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
+{W}, {T}: Remove any number of counters from target creature you control. Activate only as a sorcery.",2,2,,Flash,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/32/rhys-the-evermore?utm_source=api
+33,Riverguard's Reflexes,{1}{W},2.0,Instant,common,W,W,Target creature gets +2/+2 and gains first strike until end of turn. Untap it.,,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/33/riverguards-reflexes?utm_source=api
+34,Shore Lurker,{3}{W},4.0,Creature — Merfolk Scout,common,W,W,"Flying
+When this creature enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",3,3,,"Flying, Surveil",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/34/shore-lurker?utm_source=api
+35,Slumbering Walker,{3}{W}{W},5.0,Creature — Giant Warrior,rare,W,W,"This creature enters with two -1/-1 counters on it.
+At the beginning of your end step, you may remove a counter from this creature. When you do, return target creature card with power 2 or less from your graveyard to the battlefield.",4,7,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/35/slumbering-walker?utm_source=api
+36,Spiral into Solitude,{1}{W},2.0,Enchantment — Aura,common,W,W,"Enchant creature
+Enchanted creature can't attack or block.
+{1}{W}, Blight 1, Sacrifice this Aura: Exile enchanted creature. (To blight 1, put a -1/-1 counter on a creature you control.)",,,,"Blight, Enchant",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/36/spiral-into-solitude?utm_source=api
+37,Sun-Dappled Celebrant,{4}{W}{W},6.0,Creature — Treefolk Cleric,common,W,W,"Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+Vigilance",5,6,,"Vigilance, Convoke",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/37/sun-dappled-celebrant?utm_source=api
+38,Thoughtweft Imbuer,{3}{W},4.0,Creature — Kithkin Advisor,uncommon,W,W,"Whenever a creature you control attacks alone, it gets +X/+X until end of turn, where X is the number of Kithkin you control.",0,5,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/38/thoughtweft-imbuer?utm_source=api
+39,Timid Shieldbearer,{1}{W},2.0,Creature — Kithkin Soldier,common,W,W,{4}{W}: Creatures you control get +1/+1 until end of turn.,2,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/39/timid-shieldbearer?utm_source=api
+40,Tributary Vaulter,{2}{W},3.0,Creature — Merfolk Warrior,common,W,W,"Flying
+Whenever this creature becomes tapped, another target Merfolk you control gets +2/+0 until end of turn.",1,3,,Flying,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/40/tributary-vaulter?utm_source=api
+41,Wanderbrine Preacher,{1}{W},2.0,Creature — Merfolk Cleric,common,W,W,"Whenever this creature becomes tapped, you gain 2 life.",2,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/41/wanderbrine-preacher?utm_source=api
+42,Wanderbrine Trapper,{W},1.0,Creature — Merfolk Scout,uncommon,W,W,"{1}, {T}, Tap another untapped creature you control: Tap target creature an opponent controls.",2,1,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/42/wanderbrine-trapper?utm_source=api
+43,Winnowing,{4}{W}{W},6.0,Sorcery,rare,W,W,"Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+For each player, you choose a creature that player controls. Then each player sacrifices all other creatures they control that don't share a creature type with the chosen creature they control.",,,,Convoke,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/43/winnowing?utm_source=api
+44,Aquitect's Defenses,{1}{U},2.0,Enchantment — Aura,common,U,U,"Flash
+Enchant creature you control
+When this Aura enters, enchanted creature gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)
+Enchanted creature gets +1/+2.",,,,"Enchant, Flash",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/44/aquitects-defenses?utm_source=api
+45,Blossombind,{1}{U},2.0,Enchantment — Aura,common,U,U,"Enchant creature
+When this Aura enters, tap enchanted creature.
+Enchanted creature can't become untapped and can't have counters put on it.",,,,Enchant,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/45/blossombind?utm_source=api
+46,Champions of the Shoal,{3}{U},4.0,Creature — Merfolk Soldier,rare,U,U,"As an additional cost to cast this spell, behold a Merfolk and exile it. (Exile a Merfolk you control or a Merfolk card from your hand.)
+Whenever this creature enters or becomes tapped, tap up to one target creature and put a stun counter on it.
+When this creature leaves the battlefield, return the exiled card to its owner's hand.",4,6,,Behold,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/46/champions-of-the-shoal?utm_source=api
+47,Disruptor of Currents,{3}{U}{U},5.0,Creature — Merfolk Wizard,rare,U,U,"Flash
+Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+When this creature enters, return up to one other target nonland permanent to its owner's hand.",3,3,,"Flash, Convoke",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/47/disruptor-of-currents?utm_source=api
+48,Flitterwing Nuisance,{U},1.0,Creature — Faerie Rogue,rare,U,U,"Flying
+This creature enters with a -1/-1 counter on it.
+{2}{U}, Remove a counter from this creature: Whenever a creature you control deals combat damage to a player or planeswalker this turn, draw a card.",2,2,,Flying,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/48/flitterwing-nuisance?utm_source=api
+49,Glamer Gifter,{1}{U},2.0,Creature — Faerie Wizard,uncommon,U,U,"Flash
+Flying
+When this creature enters, choose up to one other target creature. Until end of turn, that creature has base power and toughness 4/4 and gains all creature types.",1,2,,"Flying, Flash",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/49/glamer-gifter?utm_source=api
+50,Glamermite,{2}{U},3.0,Creature — Faerie Rogue,common,U,U,"Flash
+Flying
+When this creature enters, choose one —
+• Tap target creature.
+• Untap target creature.",2,2,,"Flying, Flash",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/50/glamermite?utm_source=api
+51,Glen Elendra Guardian,{2}{U},3.0,Creature — Faerie Wizard,rare,U,U,"Flash
+Flying
+This creature enters with a -1/-1 counter on it.
+{1}{U}, Remove a counter from this creature: Counter target noncreature spell. Its controller draws a card.",3,4,,"Flying, Flash",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/51/glen-elendra-guardian?utm_source=api
+52,Glen Elendra's Answer,{2}{U}{U},4.0,Instant,mythic,U,U,"This spell can't be countered.
+Counter all spells your opponents control and all abilities your opponents control. Create a 1/1 blue and black Faerie creature token with flying for each spell and ability countered this way.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/52/glen-elendras-answer?utm_source=api
+53,Gravelgill Scoundrel,{1}{U},2.0,Creature — Merfolk Rogue,common,U,U,"Vigilance
+Whenever this creature attacks, you may tap another untapped creature you control. If you do, this creature can't be blocked this turn.",1,3,,Vigilance,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/53/gravelgill-scoundrel?utm_source=api
+54,Harmonized Crescendo,{4}{U}{U},6.0,Instant,rare,U,U,"Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+Choose a creature type. Draw a card for each permanent you control of that type.",,,,Convoke,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/54/harmonized-crescendo?utm_source=api
+55,Illusion Spinners,{4}{U},5.0,Creature — Faerie Wizard,uncommon,U,U,"You may cast this spell as though it had flash if you control a Faerie.
+Flying
+This creature has hexproof as long as it's untapped. (It can't be the target of spells or abilities your opponents control.)",4,3,,Flying,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/55/illusion-spinners?utm_source=api
+56,Kulrath Mystic,{2}{U},3.0,Creature — Elemental Wizard,common,U,U,"Whenever you cast a spell with mana value 4 or greater, this creature gets +2/+0 and gains vigilance until end of turn.",2,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/56/kulrath-mystic?utm_source=api
+57,Loch Mare,{1}{U},2.0,Creature — Horse Serpent,mythic,U,U,"This creature enters with three -1/-1 counters on it.
+{1}{U}, Remove a counter from this creature: Draw a card.
+{2}{U}, Remove two counters from this creature: Tap target creature. Put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)",4,5,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/57/loch-mare?utm_source=api
+58,Lofty Dreams,{3}{U}{U},5.0,Enchantment — Aura,uncommon,U,U,"Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+Enchant creature
+When this Aura enters, draw a card.
+Enchanted creature gets +2/+2 and has flying.",,,,"Enchant, Convoke",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/58/lofty-dreams?utm_source=api
+59,Mirrorform,{4}{U}{U},6.0,Instant,mythic,U,U,Each nonland permanent you control becomes a copy of target non-Aura permanent.,,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/59/mirrorform?utm_source=api
+60,Noggle the Mind,{1}{U},2.0,Enchantment — Aura,uncommon,U,U,"Flash
+Enchant creature
+Enchanted creature loses all abilities and is a colorless Noggle with base power and toughness 1/1. (It loses all colors and all other creature types.)",,,,"Enchant, Flash",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/60/noggle-the-mind?utm_source=api
+61,"Oko, Lorwyn Liege // Oko, Shadowmoor Scion",,3.0,Legendary Planeswalker — Oko // Legendary Planeswalker — Oko,mythic,,"G, U",,,,,"Transform, Mill",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/61/oko-lorwyn-liege-oko-shadowmoor-scion?utm_source=api
+62,Omni-Changeling,{3}{U}{U},5.0,Creature — Shapeshifter,uncommon,U,U,"Changeling (This card is every creature type.)
+Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+You may have this creature enter as a copy of any creature on the battlefield, except it has changeling.",0,0,,"Convoke, Changeling",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/62/omni-changeling?utm_source=api
+63,Pestered Wellguard,{3}{U},4.0,Creature — Merfolk Soldier,uncommon,U,U,"Whenever this creature becomes tapped, create a 1/1 blue and black Faerie creature token with flying.",3,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/63/pestered-wellguard?utm_source=api
+64,Rime Chill,{6}{U},7.0,Instant,uncommon,U,U,"Vivid — This spell costs {1} less to cast for each color among permanents you control.
+Tap up to two target creatures. Put a stun counter on each of them. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+Draw a card.",,,,Vivid,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/64/rime-chill?utm_source=api
+65,Rimefire Torque,{1}{U},2.0,Artifact,rare,U,U,"As this artifact enters, choose a creature type.
+Whenever a permanent you control of the chosen type enters, put a charge counter on this artifact.
+{T}, Remove three charge counters from this artifact: When you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/65/rimefire-torque?utm_source=api
+66,Rimekin Recluse,{2}{U},3.0,Creature — Elemental Wizard,uncommon,U,U,"When this creature enters, return up to one other target creature to its owner's hand.",3,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/66/rimekin-recluse?utm_source=api
+67,Run Away Together,{1}{U},2.0,Instant,common,U,U,Choose two target creatures controlled by different players. Return those creatures to their owners' hands.,,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/67/run-away-together?utm_source=api
+68,Shinestriker,{4}{U}{U},6.0,Creature — Elemental,uncommon,U,U,"Flying
+Vivid — When this creature enters, draw cards equal to the number of colors among permanents you control.",3,3,,"Flying, Vivid",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/68/shinestriker?utm_source=api
+69,Silvergill Mentor,{1}{U},2.0,Creature — Merfolk Wizard,uncommon,U,U,"As an additional cost to cast this spell, behold a Merfolk or pay {2}. (To behold a Merfolk, choose a Merfolk you control or reveal a Merfolk card from your hand.)
+When this creature enters, create a 1/1 white and blue Merfolk creature token.",2,1,,Behold,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/69/silvergill-mentor?utm_source=api
+70,Silvergill Peddler,{2}{U},3.0,Creature — Merfolk Citizen,common,U,U,"Whenever this creature becomes tapped, draw a card, then discard a card.",2,3,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/70/silvergill-peddler?utm_source=api
+71,Spell Snare,{U},1.0,Instant,uncommon,U,U,Counter target spell with mana value 2.,,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/71/spell-snare?utm_source=api
+72,Stratosoarer,{4}{U},5.0,Creature — Elemental,common,U,U,"Flying
+When this creature enters, target creature gains flying until end of turn.
+Basic landcycling {1}{U} ({1}{U}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",3,5,,"Flying, Landcycling, Basic landcycling, Typecycling, Cycling",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/72/stratosoarer?utm_source=api
+73,Summit Sentinel,{1}{U},2.0,Creature — Elemental Soldier,common,U,U,"When this creature dies, draw a card.",1,3,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/73/summit-sentinel?utm_source=api
+74,Sunderflock,{7}{U}{U},9.0,Creature — Elemental,rare,U,U,"This spell costs {X} less to cast, where X is the greatest mana value among Elementals you control.
+Flying
+When this creature enters, if you cast it, return all non-Elemental creatures to their owners' hands.",5,5,,Flying,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/74/sunderflock?utm_source=api
+75,Swat Away,{2}{U}{U},4.0,Instant,uncommon,U,U,"This spell costs {2} less to cast if a creature is attacking you.
+The owner of target spell or creature puts it on their choice of the top or bottom of their library.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/75/swat-away?utm_source=api
+76,"Sygg, Wanderwine Wisdom // Sygg, Wanderbrine Shield",,2.0,Legendary Creature — Merfolk Wizard // Legendary Creature — Merfolk Rogue,rare,,"U, W",,,,,Transform,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/76/sygg-wanderwine-wisdom-sygg-wanderbrine-shield?utm_source=api
+77,Tanufel Rimespeaker,{3}{U},4.0,Creature — Elemental Wizard,uncommon,U,U,"Whenever you cast a spell with mana value 4 or greater, draw a card.",2,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/77/tanufel-rimespeaker?utm_source=api
+78,Temporal Cleansing,{3}{U},4.0,Sorcery,common,U,U,"Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+The owner of target nonland permanent puts it into their library second from the top or on the bottom.",,,,Convoke,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/78/temporal-cleansing?utm_source=api
+79,Thirst for Identity,{2}{U},3.0,Instant,uncommon,U,U,Draw three cards. Then discard two cards unless you discard a creature card.,,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/79/thirst-for-identity?utm_source=api
+80,Unexpected Assistance,{3}{U}{U},5.0,Instant,common,U,U,"Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+Draw three cards, then discard a card.",,,,Convoke,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/80/unexpected-assistance?utm_source=api
+81,Unwelcome Sprite,{1}{U},2.0,Creature — Faerie Rogue,uncommon,U,U,"Flying
+Whenever you cast a spell during an opponent's turn, surveil 2. (Look at the top two cards of your library. You may put any number of them into your graveyard and the rest on top of your library in any order.)",2,1,,"Flying, Surveil",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/81/unwelcome-sprite?utm_source=api
+82,Wanderwine Distracter,{3}{U},4.0,Creature — Merfolk Wizard,common,U,U,"Whenever this creature becomes tapped, target creature an opponent controls gets -3/-0 until end of turn.",4,3,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/82/wanderwine-distracter?utm_source=api
+83,Wanderwine Farewell,{5}{U}{U},7.0,Kindred Sorcery — Merfolk,uncommon,U,U,"Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+Return one or two target nonland permanents to their owners' hands. Then if you control a Merfolk, create a 1/1 white and blue Merfolk creature token for each permanent returned to its owner's hand this way.",,,,Convoke,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/83/wanderwine-farewell?utm_source=api
+84,Wild Unraveling,{U}{U},2.0,Instant,common,U,U,"As an additional cost to cast this spell, blight 2 or pay {1}. (To blight 2, put two -1/-1 counters on a creature you control.)
+Counter target spell.",,,,Blight,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/84/wild-unraveling?utm_source=api
+85,Auntie's Sentence,{1}{B},2.0,Sorcery,common,B,B,"Choose one —
+• Target opponent reveals their hand. You choose a nonland permanent card from it. That player discards that card.
+• Target creature gets -2/-2 until end of turn.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/85/aunties-sentence?utm_source=api
+86,Barbed Bloodletter,{1}{B},2.0,Artifact — Equipment,common,B,B,"Flash
+When this Equipment enters, attach it to target creature you control. That creature gains wither until end of turn. (It deals damage to creatures in the form of -1/-1 counters.)
+Equipped creature gets +1/+2.
+Equip {2}",,,,"Equip, Flash",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/86/barbed-bloodletter?utm_source=api
+87,Bile-Vial Boggart,{B},1.0,Creature — Goblin Assassin,common,B,B,"When this creature dies, put a -1/-1 counter on up to one target creature.",1,1,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/87/bile-vial-boggart?utm_source=api
+88,Bitterbloom Bearer,{B}{B},2.0,Creature — Faerie Rogue,mythic,B,B,"Flash
+Flying
+At the beginning of your upkeep, you lose 1 life and create a 1/1 blue and black Faerie creature token with flying.",1,1,,"Flying, Flash",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/88/bitterbloom-bearer?utm_source=api
+89,Blight Rot,{2}{B},3.0,Instant,common,B,B,Put four -1/-1 counters on target creature.,,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/89/blight-rot?utm_source=api
+90,Blighted Blackthorn,{4}{B},5.0,Creature — Treefolk Warlock,common,B,B,"Whenever this creature enters or attacks, you may blight 2. If you do, you draw a card and lose 1 life. (To blight 2, put two -1/-1 counters on a creature you control.)",3,7,,Blight,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/90/blighted-blackthorn?utm_source=api
+91,Bloodline Bidding,{6}{B}{B},8.0,Sorcery,rare,B,B,"Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+Choose a creature type. Return all creature cards of the chosen type from your graveyard to the battlefield.",,,,Convoke,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/91/bloodline-bidding?utm_source=api
+92,Boggart Mischief,{2}{B},3.0,Kindred Enchantment — Goblin,uncommon,B,B,"When this enchantment enters, you may blight 1. If you do, create two 1/1 black and red Goblin creature tokens. (To blight 1, put a -1/-1 counter on a creature you control.)
+Whenever a Goblin creature you control dies, each opponent loses 1 life and you gain 1 life.",,,,Blight,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/92/boggart-mischief?utm_source=api
+93,Boggart Prankster,{1}{B},2.0,Creature — Goblin Warrior,common,B,B,"Whenever you attack, target attacking Goblin you control gets +1/+0 until end of turn.",1,3,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/93/boggart-prankster?utm_source=api
+94,Bogslither's Embrace,{1}{B},2.0,Sorcery,common,B,B,"As an additional cost to cast this spell, blight 1 or pay {3}. (To blight 1, put a -1/-1 counter on a creature you control.)
+Exile target creature.",,,,Blight,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/94/bogslithers-embrace?utm_source=api
+95,Champion of the Weird,{3}{B},4.0,Creature — Goblin Berserker,rare,B,B,"As an additional cost to cast this spell, behold a Goblin and exile it. (Exile a Goblin you control or a Goblin card from your hand.)
+Pay 1 life, Blight 2: Target opponent blights 2. Activate only as a sorcery.
+When this creature leaves the battlefield, return the exiled card to its owner's hand.",5,5,,"Blight, Behold",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/95/champion-of-the-weird?utm_source=api
+96,Creakwood Safewright,{1}{B},2.0,Creature — Elf Warrior,uncommon,B,B,"This creature enters with three -1/-1 counters on it.
+At the beginning of your end step, if there is an Elf card in your graveyard and this creature has a -1/-1 counter on it, remove a -1/-1 counter from this creature.",5,5,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/96/creakwood-safewright?utm_source=api
+97,Darkness Descends,{2}{B}{B},4.0,Sorcery,uncommon,B,B,Put two -1/-1 counters on each creature.,,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/97/darkness-descends?utm_source=api
+98,Dawnhand Dissident,{B},1.0,Creature — Elf Warlock,rare,B,B,"{T}, Blight 1: Surveil 1.
+{T}, Blight 2: Exile target card from a graveyard.
+During your turn, you may cast creature spells from among cards you own exiled with this creature by removing three counters from among creatures you control in addition to paying their other costs.",1,2,,"Blight, Surveil",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/98/dawnhand-dissident?utm_source=api
+99,Dawnhand Eulogist,{3}{B},4.0,Creature — Elf Warlock,common,B,B,"Menace (This creature can't be blocked except by two or more creatures.)
+When this creature enters, mill three cards. Then if there is an Elf card in your graveyard, each opponent loses 2 life and you gain 2 life. (To mill three cards, put the top three cards of your library into your graveyard.)",3,3,,"Menace, Mill",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/99/dawnhand-eulogist?utm_source=api
+100,Dose of Dawnglow,{4}{B},5.0,Instant,uncommon,B,B,"Return target creature card from your graveyard to the battlefield. Then if it isn't your main phase, blight 2. (Put two -1/-1 counters on a creature you control.)",,,,Blight,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/100/dose-of-dawnglow?utm_source=api
+101,Dream Seizer,{3}{B},4.0,Creature — Faerie Rogue,common,B,B,"Flying
+When this creature enters, you may blight 1. If you do, each opponent discards a card. (To blight 1, put a -1/-1 counter on a creature you control.)",3,2,,"Blight, Flying",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/101/dream-seizer?utm_source=api
+102,Gloom Ripper,{3}{B}{B},5.0,Creature — Elf Assassin,rare,B,B,"When this creature enters, target creature you control gets +X/+0 until end of turn and up to one target creature an opponent controls gets -0/-X until end of turn, where X is the number of Elves you control plus the number of Elf cards in your graveyard.",4,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/102/gloom-ripper?utm_source=api
+103,Gnarlbark Elm,{2}{B},3.0,Creature — Treefolk Warlock,uncommon,B,B,"This creature enters with two -1/-1 counters on it.
+{2}{B}, Remove two counters from this creature: Target creature gets -2/-2 until end of turn. Activate only as a sorcery.",3,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/103/gnarlbark-elm?utm_source=api
+104,Graveshifter,{3}{B},4.0,Creature — Shapeshifter,uncommon,B,B,"Changeling (This card is every creature type.)
+When this creature enters, you may return target creature card from your graveyard to your hand.",2,2,,Changeling,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/104/graveshifter?utm_source=api
+105,"Grub, Storied Matriarch // Grub, Notorious Auntie",,3.0,Legendary Creature — Goblin Warlock // Legendary Creature — Goblin Warrior,rare,,"B, R",,,,,"Blight, Transform, Menace",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/105/grub-storied-matriarch-grub-notorious-auntie?utm_source=api
+106,Gutsplitter Gang,{3}{B},4.0,Creature — Goblin Berserker,uncommon,B,B,"At the beginning of your first main phase, you may blight 2. If you don't, you lose 3 life. (To blight 2, put two -1/-1 counters on a creature you control.)",6,6,,Blight,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/106/gutsplitter-gang?utm_source=api
+107,Heirloom Auntie,{2}{B},3.0,Creature — Goblin Warlock,common,B,B,"This creature enters with two -1/-1 counters on it.
+Whenever another creature you control dies, surveil 1, then remove a -1/-1 counter from this creature. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)",4,4,,Surveil,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/107/heirloom-auntie?utm_source=api
+108,Iron-Shield Elf,{1}{B},2.0,Creature — Elf Warrior,uncommon,B,B,"Discard a card: This creature gains indestructible until end of turn. Tap it. (Damage and effects that say ""destroy"" don't destroy it. If its toughness is 0 or less, it still dies.)",3,1,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/108/iron-shield-elf?utm_source=api
+109,Moonglove Extractor,{2}{B},3.0,Creature — Elf Warlock,common,B,B,"Whenever this creature attacks, you draw a card and lose 1 life.",2,1,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/109/moonglove-extractor?utm_source=api
+110,Moonshadow,{B},1.0,Creature — Elemental,mythic,B,B,"Menace
+This creature enters with six -1/-1 counters on it.
+Whenever one or more permanent cards are put into your graveyard from anywhere while this creature has a -1/-1 counter on it, remove a -1/-1 counter from this creature.",7,7,,Menace,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/110/moonshadow?utm_source=api
+111,Mornsong Aria,{1}{B}{B},3.0,Legendary Enchantment,rare,B,B,"Players can't draw cards or gain life.
+At the beginning of each player's draw step, that player loses 3 life, searches their library for a card, puts it into their hand, then shuffles.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/111/mornsong-aria?utm_source=api
+112,Mudbutton Cursetosser,{B},1.0,Creature — Goblin Warlock,uncommon,B,B,"As an additional cost to cast this spell, behold a Goblin or pay {2}. (To behold a Goblin, choose a Goblin you control or reveal a Goblin card from your hand.)
+This creature can't block.
+When this creature dies, destroy target creature an opponent controls with power 2 or less.",2,1,,Behold,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/112/mudbutton-cursetosser?utm_source=api
+113,Nameless Inversion,{1}{B},2.0,Kindred Instant — Shapeshifter,uncommon,B,B,"Changeling (This card is every creature type.)
+Target creature gets +3/-3 and loses all creature types until end of turn.",,,,Changeling,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/113/nameless-inversion?utm_source=api
+114,Nightmare Sower,{3}{B},4.0,Creature — Faerie Assassin,uncommon,B,B,"Flying, lifelink
+Whenever you cast a spell during an opponent's turn, put a -1/-1 counter on up to one target creature.",2,3,,"Flying, Lifelink",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/114/nightmare-sower?utm_source=api
+115,Perfect Intimidation,{3}{B},4.0,Sorcery,uncommon,B,B,"Choose one or both —
+• Target opponent exiles two cards from their hand.
+• Remove all counters from target creature.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/115/perfect-intimidation?utm_source=api
+116,Requiting Hex,{B},1.0,Instant,uncommon,B,B,"As an additional cost to cast this spell, you may blight 1. (You may put a -1/-1 counter on a creature you control.)
+Destroy target creature with mana value 2 or less. If this spell's additional cost was paid, you gain 2 life.",,,,Blight,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/116/requiting-hex?utm_source=api
+117,Retched Wretch,{2}{B},3.0,Creature — Goblin,uncommon,B,B,"When this creature dies, if it had a -1/-1 counter on it, return it to the battlefield under its owner's control and it loses all abilities.",4,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/117/retched-wretch?utm_source=api
+118,Scarblade Scout,{1}{B},2.0,Creature — Elf Scout,common,B,B,"Lifelink
+When this creature enters, mill two cards. (Put the top two cards of your library into your graveyard.)",2,2,,"Lifelink, Mill",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/118/scarblade-scout?utm_source=api
+119,Scarblade's Malice,{B},1.0,Instant,common,B,B,"Target creature you control gains deathtouch and lifelink until end of turn. When that creature dies this turn, create a 2/2 black and green Elf creature token.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/119/scarblades-malice?utm_source=api
+120,Shimmercreep,{4}{B},5.0,Creature — Elemental,uncommon,B,B,"Menace (This creature can't be blocked except by two or more creatures.)
+Vivid — When this creature enters, each opponent loses X life and you gain X life, where X is the number of colors among permanents you control.",3,5,,"Menace, Vivid",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/120/shimmercreep?utm_source=api
+121,Taster of Wares,{2}{B},3.0,Creature — Goblin Warlock,rare,B,B,"When this creature enters, target opponent reveals X cards from their hand, where X is the number of Goblins you control. You choose one of those cards. That player exiles it. If an instant or sorcery card is exiled this way, you may cast it for as long as you control this creature, and mana of any type can be spent to cast that spell.",3,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/121/taster-of-wares?utm_source=api
+122,Twilight Diviner,{2}{B},3.0,Creature — Elf Cleric,rare,B,B,"When this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+Whenever one or more other creatures you control enter, if they entered or were cast from a graveyard, create a token that's a copy of one of them. This ability triggers only once each turn.",3,3,,Surveil,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/122/twilight-diviner?utm_source=api
+123,Unbury,{1}{B},2.0,Instant,uncommon,B,B,"Choose one —
+• Return target creature card from your graveyard to your hand.
+• Return two target creature cards that share a creature type from your graveyard to your hand.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/123/unbury?utm_source=api
+124,"Ashling, Rekindled // Ashling, Rimebound",,2.0,Legendary Creature — Elemental Sorcerer // Legendary Creature — Elemental Wizard,rare,,"R, U",,,,,Transform,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/124/ashling-rekindled-ashling-rimebound?utm_source=api
+125,Boldwyr Aggressor,{3}{R}{R},5.0,Creature — Giant Warrior,uncommon,R,R,"Double strike
+Other Giants you control have double strike.",2,5,,Double strike,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/125/boldwyr-aggressor?utm_source=api
+126,Boneclub Berserker,{3}{R},4.0,Creature — Goblin Berserker,common,R,R,This creature gets +2/+0 for each other Goblin you control.,2,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/126/boneclub-berserker?utm_source=api
+127,Boulder Dash,{1}{R},2.0,Sorcery,uncommon,R,R,Boulder Dash deals 2 damage to any target and 1 damage to any other target.,,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/127/boulder-dash?utm_source=api
+128,Brambleback Brute,{2}{R},3.0,Creature — Giant Warrior,common,R,R,"This creature enters with two -1/-1 counters on it.
+{1}{R}, Remove a counter from this creature: Target creature can't block this turn. Activate only as a sorcery.",4,5,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/128/brambleback-brute?utm_source=api
+129,Burning Curiosity,{2}{R},3.0,Sorcery,common,R,R,"As an additional cost to cast this spell, you may blight 1. (You may put a -1/-1 counter on a creature you control.)
+Exile the top two cards of your library. If this spell's additional cost was paid, exile the top three cards instead. Until the end of your next turn, you may play those cards.",,,,Blight,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/129/burning-curiosity?utm_source=api
+130,Champion of the Path,{3}{R},4.0,Creature — Elemental Sorcerer,rare,R,R,"As an additional cost to cast this spell, behold an Elemental and exile it. (Exile an Elemental you control or an Elemental card from your hand.)
+Whenever another Elemental you control enters, it deals damage equal to its power to each opponent.
+When this creature leaves the battlefield, return the exiled card to its owner's hand.",7,3,,Behold,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/130/champion-of-the-path?utm_source=api
+131,Cinder Strike,{R},1.0,Sorcery,common,R,R,"As an additional cost to cast this spell, you may blight 1. (You may put a -1/-1 counter on a creature you control.)
+Cinder Strike deals 2 damage to target creature. It deals 4 damage to that creature instead if this spell's additional cost was paid.",,,,Blight,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/131/cinder-strike?utm_source=api
+132,Collective Inferno,{3}{R}{R},5.0,Enchantment,rare,R,R,"Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+As this enchantment enters, choose a creature type.
+Double all damage that sources you control of the chosen type would deal.",,,,Convoke,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/132/collective-inferno?utm_source=api
+133,Elder Auntie,{2}{R},3.0,Creature — Goblin Warlock,common,R,R,"When this creature enters, create a 1/1 black and red Goblin creature token.",2,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/133/elder-auntie?utm_source=api
+134,End-Blaze Epiphany,{X}{R},1.0,Instant,rare,R,R,"End-Blaze Epiphany deals X damage to target creature. When that creature dies this turn, exile a number of cards from the top of your library equal to its power, then choose a card exiled this way. Until the end of your next turn, you may play that card.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/134/end-blaze-epiphany?utm_source=api
+135,Enraged Flamecaster,{2}{R},3.0,Creature — Elemental Sorcerer,common,R,R,"Reach
+Whenever you cast a spell with mana value 4 or greater, this creature deals 2 damage to each opponent.",3,2,,Reach,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/135/enraged-flamecaster?utm_source=api
+136,Explosive Prodigy,{1}{R},2.0,Creature — Elemental Sorcerer,uncommon,R,R,"Vivid — When this creature enters, it deals X damage to target creature an opponent controls, where X is the number of colors among permanents you control.",1,1,,Vivid,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/136/explosive-prodigy?utm_source=api
+137,Feed the Flames,{3}{R},4.0,Instant,common,R,R,"Feed the Flames deals 5 damage to target creature. If that creature would die this turn, exile it instead.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/137/feed-the-flames?utm_source=api
+138,Flame-Chain Mauler,{1}{R},2.0,Creature — Elemental Warrior,common,R,R,{1}{R}: This creature gets +1/+0 and gains menace until end of turn. (It can't be blocked except by two or more creatures.),2,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/138/flame-chain-mauler?utm_source=api
+139,Flamebraider,{1}{R},2.0,Creature — Elemental Bard,uncommon,R,R,{T}: Add two mana in any combination of colors. Spend this mana only to cast Elemental spells or activate abilities of Elemental sources.,2,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/139/flamebraider?utm_source=api
+140,Flamekin Gildweaver,{3}{R},4.0,Creature — Elemental Sorcerer,common,R,R,"Trample
+When this creature enters, create a Treasure token. (It's an artifact with ""{T}, Sacrifice this token: Add one mana of any color."")",4,3,,"Treasure, Trample",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/140/flamekin-gildweaver?utm_source=api
+141,Giantfall,{1}{R},2.0,Instant,uncommon,R,R,"Choose one —
+• Target creature you control deals damage equal to its power to target creature an opponent controls.
+• Destroy target artifact.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/141/giantfall?utm_source=api
+142,Goatnap,{2}{R},3.0,Sorcery,uncommon,R,R,"Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. If that creature is a Goat, it also gets +3/+0 until end of turn.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/142/goatnap?utm_source=api
+143,Goliath Daydreamer,{2}{R}{R},4.0,Creature — Giant Wizard,rare,R,R,"Whenever you cast an instant or sorcery spell from your hand, exile that card with a dream counter on it instead of putting it into your graveyard as it resolves.
+Whenever this creature attacks, you may cast a spell from among cards you own in exile with dream counters on them without paying its mana cost.",4,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/143/goliath-daydreamer?utm_source=api
+144,Gristle Glutton,{1}{R},2.0,Creature — Goblin Scout,common,R,R,"{T}, Blight 1: Discard a card. If you do, draw a card. (To blight 1, put a -1/-1 counter on a creature you control.)",1,3,,Blight,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/144/gristle-glutton?utm_source=api
+145,Hexing Squelcher,{1}{R},2.0,Creature — Goblin Sorcerer,rare,R,R,"This spell can't be countered.
+Ward—Pay 2 life.
+Spells you control can't be countered.
+Other creatures you control have ""Ward—Pay 2 life.""",2,2,,Ward,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/145/hexing-squelcher?utm_source=api
+146,Impolite Entrance,{R},1.0,Sorcery,uncommon,R,R,"Target creature gains trample and haste until end of turn.
+Draw a card.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/146/impolite-entrance?utm_source=api
+147,Kindle the Inner Flame,{3}{R},4.0,Kindred Sorcery — Elemental,uncommon,R,R,"Create a token that's a copy of target creature you control, except it has haste and ""At the beginning of the end step, sacrifice this token.""
+Flashback—{1}{R}, Behold three Elementals. (You may cast this card from your graveyard for its flashback cost. Then exile it. To behold an Elemental, choose an Elemental you control or reveal an Elemental card from your hand.)",,,,"Behold, Flashback",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/147/kindle-the-inner-flame?utm_source=api
+148,Kulrath Zealot,{5}{R},6.0,Creature — Elemental Warrior,common,R,R,"When this creature enters, exile the top card of your library. Until the end of your next turn, you may play that card.
+Basic landcycling {1}{R} ({1}{R}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",6,5,,"Landcycling, Basic landcycling, Typecycling, Cycling",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/148/kulrath-zealot?utm_source=api
+149,Lasting Tarfire,{1}{R},2.0,Enchantment,uncommon,R,R,"At the beginning of each end step, if you put a counter on a creature this turn, this enchantment deals 2 damage to each opponent.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/149/lasting-tarfire?utm_source=api
+150,Lavaleaper,{3}{R},4.0,Creature — Elemental,rare,R,R,"All creatures have haste.
+Whenever a player taps a basic land for mana, that player adds one mana of any type that land produced.",4,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/150/lavaleaper?utm_source=api
+151,Meek Attack,{2}{R},3.0,Enchantment,mythic,R,R,"{1}{R}: You may put a creature card with total power and toughness 5 or less from your hand onto the battlefield. That creature gains haste. At the beginning of the next end step, sacrifice that creature.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/151/meek-attack?utm_source=api
+152,Reckless Ransacking,{1}{R},2.0,Instant,common,R,R,"Target creature gets +3/+2 until end of turn. Create a Treasure token. (It's an artifact with ""{T}, Sacrifice this token: Add one mana of any color."")",,,,Treasure,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/152/reckless-ransacking?utm_source=api
+153,Scuzzback Scrounger,{1}{R},2.0,Creature — Goblin Warrior,rare,R,R,"At the beginning of your first main phase, you may blight 1. If you do, create a Treasure token. (To blight 1, put a -1/-1 counter on a creature you control. A Treasure token is an artifact with ""{T}, Sacrifice this token: Add one mana of any color."")",3,2,,"Blight, Treasure",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/153/scuzzback-scrounger?utm_source=api
+154,Sear,{1}{R},2.0,Instant,uncommon,R,R,Sear deals 4 damage to target creature or planeswalker.,,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/154/sear?utm_source=api
+155,Sizzling Changeling,{2}{R},3.0,Creature — Shapeshifter,uncommon,R,R,"Changeling (This card is every creature type.)
+When this creature dies, exile the top card of your library. Until the end of your next turn, you may play that card.",3,2,,Changeling,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/155/sizzling-changeling?utm_source=api
+156,Soul Immolation,{3}{R}{R},5.0,Sorcery,mythic,R,R,"As an additional cost to cast this spell, blight X. X can't be greater than the greatest toughness among creatures you control. (Put X -1/-1 counters on a creature you control.)
+Soul Immolation deals X damage to each opponent and each creature they control.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/156/soul-immolation?utm_source=api
+157,Soulbright Seeker,{R},1.0,Creature — Elemental Sorcerer,uncommon,R,R,"As an additional cost to cast this spell, behold an Elemental or pay {2}. (To behold an Elemental, choose an Elemental you control or reveal an Elemental card from your hand.)
+{R}: Target creature you control gains trample until end of turn. If this is the third time this ability has resolved this turn, add {R}{R}{R}{R}.",2,1,,Behold,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/157/soulbright-seeker?utm_source=api
+158,Sourbread Auntie,{2}{R}{R},4.0,Creature — Goblin Warrior,uncommon,R,R,"When this creature enters, you may blight 2. If you do, create two 1/1 black and red Goblin creature tokens. (To blight 2, put two -1/-1 counters on a creature you control.)",4,3,,Blight,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/158/sourbread-auntie?utm_source=api
+159,Spinerock Tyrant,{3}{R}{R},5.0,Creature — Dragon,mythic,R,R,"Flying
+Wither (This deals damage to creatures in the form of -1/-1 counters.)
+Whenever you cast an instant or sorcery spell with a single target, you may copy it. If you do, those spells gain wither. You may choose new targets for the copy.",6,6,,"Flying, Wither",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/159/spinerock-tyrant?utm_source=api
+160,Squawkroaster,{3}{R},4.0,Creature — Elemental,uncommon,R,R,"Double strike
+Vivid — Squawkroaster's power is equal to the number of colors among permanents you control.",*,4,,"Double strike, Vivid",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/160/squawkroaster?utm_source=api
+161,Sting-Slinger,{2}{R},3.0,Creature — Goblin Warrior,uncommon,R,R,"{1}{R}, {T}, Blight 1: This creature deals 2 damage to each opponent. (To blight 1, put a -1/-1 counter on a creature you control.)",3,3,,Blight,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/161/sting-slinger?utm_source=api
+162,Tweeze,{2}{R},3.0,Instant,common,R,R,"Tweeze deals 3 damage to any target. You may discard a card. If you do, draw a card.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/162/tweeze?utm_source=api
+163,Warren Torchmaster,{1}{R},2.0,Creature — Goblin Warrior,uncommon,R,R,"At the beginning of combat on your turn, you may blight 1. When you do, target creature gains haste until end of turn. (To blight 1, put a -1/-1 counter on a creature you control.)",2,2,,Blight,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/163/warren-torchmaster?utm_source=api
+164,Assert Perfection,{1}{G},2.0,Sorcery,common,G,G,Target creature you control gets +1/+0 until end of turn. It deals damage equal to its power to up to one target creature an opponent controls.,,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/164/assert-perfection?utm_source=api
+165,Aurora Awakener,{6}{G},7.0,Creature — Giant Druid,mythic,G,G,"Trample
+Vivid — When this creature enters, reveal cards from the top of your library until you reveal X permanent cards, where X is the number of colors among permanents you control. Put any number of those permanent cards onto the battlefield, then put the rest of the revealed cards on the bottom of your library in a random order.",7,7,,"Trample, Vivid",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/165/aurora-awakener?utm_source=api
+166,Bloom Tender,{1}{G},2.0,Creature — Elf Druid,mythic,G,G,"Vivid — {T}: For each color among permanents you control, add one mana of that color.",1,1,,Vivid,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/166/bloom-tender?utm_source=api
+167,Blossoming Defense,{G},1.0,Instant,uncommon,G,G,Target creature you control gets +2/+2 and gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.),,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/167/blossoming-defense?utm_source=api
+168,Bristlebane Battler,{1}{G},2.0,Creature — Kithkin Soldier,rare,G,G,"Trample, ward {2}
+This creature enters with five -1/-1 counters on it.
+Whenever another creature you control enters while this creature has a -1/-1 counter on it, remove a -1/-1 counter from this creature.",6,6,,"Trample, Ward",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/168/bristlebane-battler?utm_source=api
+169,Bristlebane Outrider,{3}{G},4.0,Creature — Kithkin Knight,uncommon,G,G,"This creature can't be blocked by creatures with power 2 or less.
+As long as another creature entered the battlefield under your control this turn, this creature gets +2/+0.",3,5,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/169/bristlebane-outrider?utm_source=api
+170,Celestial Reunion,{X}{G},1.0,Sorcery,mythic,G,G,"As an additional cost to cast this spell, you may choose a creature type and behold two creatures of that type.
+Search your library for a creature card with mana value X or less, reveal it, put it into your hand, then shuffle. If this spell's additional cost was paid and the revealed card is the chosen type, put that card onto the battlefield instead of putting it into your hand.",,,,Behold,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/170/celestial-reunion?utm_source=api
+171,Champions of the Perfect,{3}{G},4.0,Creature — Elf Warrior,rare,G,G,"As an additional cost to cast this spell, behold an Elf and exile it. (Exile an Elf you control or an Elf card from your hand.)
+Whenever you cast a creature spell, draw a card.
+When this creature leaves the battlefield, return the exiled card to its owner's hand.",6,6,,Behold,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/171/champions-of-the-perfect?utm_source=api
+172,Chomping Changeling,{2}{G},3.0,Creature — Shapeshifter,uncommon,G,G,"Changeling (This card is every creature type.)
+When this creature enters, destroy up to one target artifact or enchantment.",1,2,,Changeling,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/172/chomping-changeling?utm_source=api
+173,Crossroads Watcher,{2}{G},3.0,Creature — Kithkin Ranger,common,G,G,"Trample
+Whenever another creature you control enters, this creature gets +1/+0 until end of turn.",3,3,,Trample,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/173/crossroads-watcher?utm_source=api
+174,Dawn's Light Archer,{2}{G},3.0,Creature — Elf Archer,common,G,G,"Flash
+Reach",4,2,,"Reach, Flash",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/174/dawns-light-archer?utm_source=api
+175,Dundoolin Weaver,{1}{G},2.0,Creature — Kithkin Druid,uncommon,G,G,"When this creature enters, if you control three or more creatures, return target permanent card from your graveyard to your hand.",2,1,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/175/dundoolin-weaver?utm_source=api
+176,Formidable Speaker,{2}{G},3.0,Creature — Elf Druid,rare,G,G,"When this creature enters, you may discard a card. If you do, search your library for a creature card, reveal it, put it into your hand, then shuffle.
+{1}, {T}: Untap another target permanent.",2,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/176/formidable-speaker?utm_source=api
+177,Gilt-Leaf's Embrace,{2}{G},3.0,Enchantment — Aura,common,G,G,"Flash
+Enchant creature
+When this Aura enters, enchanted creature gains trample and indestructible until end of turn. (Damage and effects that say ""destroy"" don't destroy it. If its toughness is 0 or less, it still dies.)
+Enchanted creature gets +2/+0.",,,,"Enchant, Flash",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/177/gilt-leafs-embrace?utm_source=api
+178,Great Forest Druid,{1}{G},2.0,Creature — Treefolk Druid,common,G,G,{T}: Add one mana of any color.,0,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/178/great-forest-druid?utm_source=api
+179,Luminollusk,{3}{G},4.0,Creature — Elemental,uncommon,G,G,"Deathtouch
+Vivid — When this creature enters, you gain life equal to the number of colors among permanents you control.",2,4,,"Vivid, Deathtouch",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/179/luminollusk?utm_source=api
+180,Lys Alana Dignitary,{1}{G},2.0,Creature — Elf Advisor,uncommon,G,G,"As an additional cost to cast this spell, behold an Elf or pay {2}. (To behold an Elf, choose an Elf you control or reveal an Elf card from your hand.)
+{T}: Add {G}{G}. Activate only if there is an Elf card in your graveyard.",2,3,,Behold,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/180/lys-alana-dignitary?utm_source=api
+181,Lys Alana Informant,{1}{G},2.0,Creature — Elf Scout,common,G,G,"When this creature enters or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",3,1,,Surveil,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/181/lys-alana-informant?utm_source=api
+182,Midnight Tilling,{1}{G},2.0,Instant,common,G,G,"Mill four cards, then you may return a permanent card from among them to your hand. (To mill four cards, put the top four cards of your library into your graveyard.)",,,,Mill,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/182/midnight-tilling?utm_source=api
+183,Mistmeadow Council,{4}{G},5.0,Creature — Kithkin Advisor,common,G,G,"This spell costs {1} less to cast if you control a Kithkin.
+When this creature enters, draw a card.",4,3,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/183/mistmeadow-council?utm_source=api
+184,Moon-Vigil Adherents,{2}{G}{G},4.0,Creature — Elf Druid,uncommon,G,G,"Trample
+This creature gets +1/+1 for each creature you control and each creature card in your graveyard.",0,0,,Trample,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/184/moon-vigil-adherents?utm_source=api
+185,Morcant's Eyes,{1}{G},2.0,Kindred Enchantment — Elf,uncommon,G,G,"At the beginning of your upkeep, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+{4}{G}{G}, Sacrifice this enchantment: Create X 2/2 black and green Elf creature tokens, where X is the number of Elf cards in your graveyard. Activate only as a sorcery.",,,,Surveil,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/185/morcants-eyes?utm_source=api
+186,Mutable Explorer,{2}{G},3.0,Creature — Shapeshifter,rare,G,G,"Changeling (This card is every creature type.)
+When this creature enters, create a tapped Mutavault token. (It's a land with ""{T}: Add {C}"" and ""{1}: This token becomes a 2/2 creature with all creature types until end of turn. It's still a land."")",1,1,,Changeling,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/186/mutable-explorer?utm_source=api
+187,Pitiless Fists,{3}{G},4.0,Enchantment — Aura,uncommon,G,G,"Enchant creature you control
+When this Aura enters, enchanted creature fights up to one target creature an opponent controls. (Each deals damage equal to its power to the other.)
+Enchanted creature gets +2/+2.",,,,"Fight, Enchant",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/187/pitiless-fists?utm_source=api
+188,Prismabasher,{4}{G}{G},6.0,Creature — Elemental,uncommon,G,G,"Trample
+Vivid — When this creature enters, up to X target creatures you control get +X/+X until end of turn, where X is the number of colors among permanents you control.",6,6,,"Trample, Vivid",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/188/prismabasher?utm_source=api
+189,Prismatic Undercurrents,{3}{G},4.0,Enchantment,uncommon,G,G,"Vivid — When this enchantment enters, search your library for up to X basic land cards, where X is the number of colors among permanents you control. Reveal those cards, put them into your hand, then shuffle.
+You may play an additional land on each of your turns.",,,,Vivid,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/189/prismatic-undercurrents?utm_source=api
+190,Pummeler for Hire,{4}{G},5.0,Creature — Giant Mercenary,uncommon,G,G,"Vigilance, reach
+Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+When this creature enters, you gain X life, where X is the greatest power among Giants you control.",4,4,,"Reach, Vigilance, Ward",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/190/pummeler-for-hire?utm_source=api
+191,Safewright Cavalry,{3}{G},4.0,Creature — Elf Warrior,common,G,G,"This creature can't be blocked by more than one creature.
+{5}: Target Elf you control gets +2/+2 until end of turn.",4,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/191/safewright-cavalry?utm_source=api
+192,Sapling Nursery,{6}{G}{G},8.0,Enchantment,rare,G,G,"Affinity for Forests (This spell costs {1} less to cast for each Forest you control.)
+Landfall — Whenever a land you control enters, create a 3/4 green Treefolk creature token with reach.
+{1}{G}, Exile this enchantment: Treefolk and Forests you control gain indestructible until end of turn.",,,,"Affinity, Landfall",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/192/sapling-nursery?utm_source=api
+193,Selfless Safewright,{3}{G}{G},5.0,Creature — Elf Warrior,rare,G,G,"Flash
+Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+When this creature enters, choose a creature type. Other permanents you control of that type gain hexproof and indestructible until end of turn.",4,2,,"Flash, Convoke",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/193/selfless-safewright?utm_source=api
+194,Shimmerwilds Growth,{1}{G},2.0,Enchantment — Aura,uncommon,G,G,"Enchant land
+As this Aura enters, choose a color.
+Enchanted land is the chosen color.
+Whenever enchanted land is tapped for mana, its controller adds an additional one mana of the chosen color.",,,,Enchant,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/194/shimmerwilds-growth?utm_source=api
+195,Spry and Mighty,{4}{G},5.0,Sorcery,rare,G,G,"Choose two creatures you control. You draw X cards and the chosen creatures get +X/+X and gain trample until end of turn, where X is the difference between the chosen creatures' powers.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/195/spry-and-mighty?utm_source=api
+196,Surly Farrier,{1}{G},2.0,Creature — Kithkin Citizen,common,G,G,{T}: Target creature you control gets +1/+1 and gains vigilance until end of turn. Activate only as a sorcery.,2,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/196/surly-farrier?utm_source=api
+197,Tend the Sprigs,{2}{G},3.0,Sorcery,common,G,G,"Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control seven or more lands and/or Treefolk, create a 3/4 green Treefolk creature token with reach. (It can block creatures with flying.)",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/197/tend-the-sprigs?utm_source=api
+198,Thoughtweft Charge,{1}{G},2.0,Instant,uncommon,G,G,"Target creature gets +3/+3 until end of turn. If a creature entered the battlefield under your control this turn, draw a card.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/198/thoughtweft-charge?utm_source=api
+199,"Trystan, Callous Cultivator // Trystan, Penitent Culler",,3.0,Legendary Creature — Elf Druid // Legendary Creature — Elf Warlock,rare,,"B, G",,,,,"Transform, Mill, Deathtouch",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/199/trystan-callous-cultivator-trystan-penitent-culler?utm_source=api
+200,Unforgiving Aim,{2}{G},3.0,Instant,common,G,G,"Choose one —
+• Destroy target creature with flying.
+• Destroy target enchantment.
+• Create a 2/2 black and green Elf creature token.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/200/unforgiving-aim?utm_source=api
+201,Vinebred Brawler,{2}{G},3.0,Creature — Elf Berserker,uncommon,G,G,"This creature must be blocked if able.
+Whenever this creature attacks, another target Elf you control gets +2/+1 until end of turn.",4,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/201/vinebred-brawler?utm_source=api
+202,Virulent Emissary,{G},1.0,Creature — Elf Assassin,uncommon,G,G,"Deathtouch
+Whenever another creature you control enters, you gain 1 life.",1,1,,Deathtouch,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/202/virulent-emissary?utm_source=api
+203,Wildvine Pummeler,{6}{G},7.0,Creature — Giant Berserker,common,G,G,"Vivid — This spell costs {1} less to cast for each color among permanents you control.
+Reach, trample",6,5,,"Reach, Trample, Vivid",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/203/wildvine-pummeler?utm_source=api
+204,"Abigale, Eloquent First-Year",{W/B}{W/B},2.0,Legendary Creature — Bird Bard,rare,"B, W","B, W","Flying, first strike, lifelink
+When Abigale enters, up to one other target creature loses all abilities. Put a flying counter, a first strike counter, and a lifelink counter on that creature.",1,1,,"Flying, Lifelink, First strike",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/204/abigale-eloquent-first-year?utm_source=api
+205,Ashling's Command,{3}{U}{R},5.0,Kindred Instant — Elemental,rare,"R, U","R, U","Choose two —
+• Create a token that's a copy of target Elemental you control.
+• Target player draws two cards.
+• Ashling's Command deals 2 damage to each creature target player controls.
+• Target player creates two Treasure tokens.",,,,Treasure,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/205/ashlings-command?utm_source=api
+206,Boggart Cursecrafter,{B}{R},2.0,Creature — Goblin Warlock,uncommon,"B, R","B, R","Deathtouch
+Whenever another Goblin you control dies, this creature deals 1 damage to each opponent.",2,3,,Deathtouch,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/206/boggart-cursecrafter?utm_source=api
+207,Bre of Clan Stoutarm,{2}{R}{W},4.0,Legendary Creature — Giant Warrior,rare,"R, W","R, W","{1}{W}, {T}: Another target creature you control gains flying and lifelink until end of turn.
+At the beginning of your end step, if you gained life this turn, exile cards from the top of your library until you exile a nonland card. You may cast that card without paying its mana cost if the spell's mana value is less than or equal to the amount of life you gained this turn. Otherwise, put it into your hand.",4,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/207/bre-of-clan-stoutarm?utm_source=api
+208,Brigid's Command,{1}{G}{W},3.0,Kindred Sorcery — Kithkin,rare,"G, W","G, W","Choose two —
+• Create a token that's a copy of target Kithkin you control.
+• Target player creates a 1/1 green and white Kithkin creature token.
+• Target creature you control gets +3/+3 until end of turn.
+• Target creature you control fights target creature an opponent controls.",,,,Fight,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/208/brigids-command?utm_source=api
+209,Catharsis,{4}{R/W}{R/W},6.0,Creature — Elemental Incarnation,mythic,"R, W","R, W","When this creature enters, if {W}{W} was spent to cast it, create two 1/1 green and white Kithkin creature tokens.
+When this creature enters, if {R}{R} was spent to cast it, creatures you control get +1/+1 and gain haste until end of turn.
+Evoke {R/W}{R/W} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.)",3,4,,Evoke,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/209/catharsis?utm_source=api
+210,Chaos Spewer,{2}{B/R},3.0,Creature — Goblin Warlock,common,"B, R","B, R","When this creature enters, you may pay {2}. If you don't, blight 2. (To blight 2, put two -1/-1 counters on a creature you control.)",5,4,,Blight,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/210/chaos-spewer?utm_source=api
+211,Chitinous Graspling,{3}{G/U},4.0,Creature — Shapeshifter,common,"G, U","G, U","Changeling (This card is every creature type.)
+Reach",3,4,,"Reach, Changeling",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/211/chitinous-graspling?utm_source=api
+212,Deceit,{4}{U/B}{U/B},6.0,Creature — Elemental Incarnation,mythic,"B, U","B, U","When this creature enters, if {U}{U} was spent to cast it, return up to one other target nonland permanent to its owner's hand.
+When this creature enters, if {B}{B} was spent to cast it, target opponent reveals their hand. You choose a nonland card from it. That player discards that card.
+Evoke {U/B}{U/B}",5,5,,Evoke,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/212/deceit?utm_source=api
+213,Deepchannel Duelist,{W}{U},2.0,Creature — Merfolk Soldier,uncommon,"U, W","U, W","At the beginning of your end step, untap target Merfolk you control.
+Other Merfolk you control get +1/+1.",2,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/213/deepchannel-duelist?utm_source=api
+214,Deepway Navigator,{W}{U},2.0,Creature — Merfolk Wizard,rare,"U, W","U, W","Flash
+When this creature enters, untap each other Merfolk you control.
+As long as you attacked with three or more Merfolk this turn, Merfolk you control get +1/+0.",2,2,,Flash,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/214/deepway-navigator?utm_source=api
+215,"Doran, Besieged by Time",{1}{W}{B}{G},4.0,Legendary Creature — Treefolk Druid,rare,"B, G, W","B, G, W","Each creature spell you cast with toughness greater than its power costs {1} less to cast.
+Whenever a creature you control attacks or blocks, it gets +X/+X until end of turn, where X is the difference between its power and toughness.",0,5,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/215/doran-besieged-by-time?utm_source=api
+216,Dream Harvest,{5}{U/B}{U/B},7.0,Sorcery,rare,"B, U","B, U","Each opponent exiles cards from the top of their library until they have exiled cards with total mana value 5 or greater this way. Until end of turn, you may cast cards exiled this way without paying their mana costs.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/216/dream-harvest?utm_source=api
+217,Eclipsed Boggart,{B/R}{B/R}{B/R},3.0,Creature — Goblin Scout,uncommon,"B, R","B, R","When this creature enters, look at the top four cards of your library. You may reveal a Goblin, Swamp, or Mountain card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",2,3,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/217/eclipsed-boggart?utm_source=api
+218,Eclipsed Elf,{B/G}{B/G}{B/G},3.0,Creature — Elf Scout,uncommon,"B, G","B, G","When this creature enters, look at the top four cards of your library. You may reveal an Elf, Swamp, or Forest card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",3,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/218/eclipsed-elf?utm_source=api
+219,Eclipsed Flamekin,{1}{U/R}{U/R},3.0,Creature — Elemental Scout,uncommon,"R, U","R, U","When this creature enters, look at the top four cards of your library. You may reveal an Elemental, Island, or Mountain card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",1,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/219/eclipsed-flamekin?utm_source=api
+220,Eclipsed Kithkin,{G/W}{G/W},2.0,Creature — Kithkin Scout,uncommon,"G, W","G, W","When this creature enters, look at the top four cards of your library. You may reveal a Kithkin, Forest, or Plains card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",2,1,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/220/eclipsed-kithkin?utm_source=api
+221,Eclipsed Merrow,{W/U}{W/U}{W/U},3.0,Creature — Merfolk Scout,uncommon,"U, W","U, W","When this creature enters, look at the top four cards of your library. You may reveal a Merfolk, Plains, or Island card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",2,3,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/221/eclipsed-merrow?utm_source=api
+222,Emptiness,{4}{W/B}{W/B},6.0,Creature — Elemental Incarnation,mythic,"B, W","B, W","When this creature enters, if {W}{W} was spent to cast it, return target creature card with mana value 3 or less from your graveyard to the battlefield.
+When this creature enters, if {B}{B} was spent to cast it, put three -1/-1 counters on up to one target creature.
+Evoke {W/B}{W/B}",3,5,,Evoke,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/222/emptiness?utm_source=api
+223,Feisty Spikeling,{1}{R/W},2.0,Creature — Shapeshifter,common,"R, W","R, W","Changeling (This card is every creature type.)
+During your turn, this creature has first strike.",2,1,,Changeling,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/223/feisty-spikeling?utm_source=api
+224,Figure of Fable,{G/W},1.0,Creature — Kithkin,rare,"G, W","G, W","{G/W}: This creature becomes a Kithkin Scout with base power and toughness 2/3.
+{1}{G/W}{G/W}: If this creature is a Scout, it becomes a Kithkin Soldier with base power and toughness 4/5.
+{3}{G/W}{G/W}{G/W}: If this creature is a Soldier, it becomes a Kithkin Avatar with base power and toughness 7/8 and protection from each of your opponents.",1,1,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/224/figure-of-fable?utm_source=api
+225,Flaring Cinder,{1}{U/R}{U/R},3.0,Creature — Elemental Sorcerer,common,"R, U","R, U","When this creature enters and whenever you cast a spell with mana value 4 or greater, you may discard a card. If you do, draw a card.",3,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/225/flaring-cinder?utm_source=api
+226,Gangly Stompling,{2}{R/G},3.0,Creature — Shapeshifter,common,"G, R","G, R","Changeling (This card is every creature type.)
+Trample",4,2,,"Trample, Changeling",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/226/gangly-stompling?utm_source=api
+227,Glister Bairn,{2}{G/U}{G/U}{G/U},5.0,Creature — Ouphe,uncommon,"G, U","G, U","Vivid — At the beginning of combat on your turn, another target creature you control gets +X/+X until end of turn, where X is the number of colors among permanents you control.",1,4,,Vivid,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/227/glister-bairn?utm_source=api
+228,Grub's Command,{3}{B}{R},5.0,Kindred Sorcery — Goblin,rare,"B, R","B, R","Choose two —
+• Create a token that's a copy of target Goblin you control.
+• Creatures target player controls get +1/+1 and gain haste until end of turn.
+• Destroy target artifact or creature.
+• Target player mills five cards, then puts each Goblin card milled this way into their hand.",,,,Mill,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/228/grubs-command?utm_source=api
+229,High Perfect Morcant,{2}{B}{G},4.0,Legendary Creature — Elf Noble,rare,"B, G","B, G","Whenever High Perfect Morcant or another Elf you control enters, each opponent blights 1. (They each put a -1/-1 counter on a creature they control.)
+Tap three untapped Elves you control: Proliferate. Activate only as a sorcery. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",4,4,,"Blight, Proliferate",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/229/high-perfect-morcant?utm_source=api
+230,Hovel Hurler,{3}{R/W}{R/W},5.0,Creature — Giant Warrior,uncommon,"R, W","R, W","This creature enters with two -1/-1 counters on it.
+{R/W}{R/W}, Remove a counter from this creature: Another target creature you control gets +1/+0 and gains flying until end of turn. Activate only as a sorcery.",6,7,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/230/hovel-hurler?utm_source=api
+231,"Kirol, Attentive First-Year",{1}{R/W}{R/W},3.0,Legendary Creature — Vampire Cleric,rare,"R, W","R, W",Tap two untapped creatures you control: Copy target triggered ability you control. You may choose new targets for the copy. Activate only once each turn.,3,3,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/231/kirol-attentive-first-year?utm_source=api
+232,"Lluwen, Imperfect Naturalist",{B/G}{B/G},2.0,Legendary Creature — Elf Druid,rare,"B, G","B, G","When Lluwen enters, mill four cards, then you may put a creature or land card from among the milled cards on top of your library.
+{2}{B/G}{B/G}{B/G}, {T}, Discard a land card: Create a 1/1 black and green Worm creature token for each land card in your graveyard.",1,3,,Mill,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/232/lluwen-imperfect-naturalist?utm_source=api
+233,"Maralen, Fae Ascendant",{2}{B}{G}{U},5.0,Legendary Creature — Elf Faerie Noble,rare,"B, G, U","B, G, U","Flying
+Whenever Maralen or another Elf or Faerie you control enters, exile the top two cards of target opponent's library.
+Once each turn, you may cast a spell with mana value less than or equal to the number of Elves and Faeries you control from among cards exiled with Maralen this turn without paying its mana cost.",4,5,,Flying,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/233/maralen-fae-ascendant?utm_source=api
+234,Merrow Skyswimmer,{3}{W/U}{W/U},5.0,Creature — Merfolk Soldier,common,"U, W","U, W","Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)
+Flying, vigilance
+When this creature enters, create a 1/1 white and blue Merfolk creature token.",2,2,,"Flying, Vigilance, Convoke",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/234/merrow-skyswimmer?utm_source=api
+235,Mischievous Sneakling,{1}{U/B},2.0,Creature — Shapeshifter,common,"B, U","B, U","Changeling (This card is every creature type.)
+Flash",2,2,,"Flash, Changeling",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/235/mischievous-sneakling?utm_source=api
+236,Morcant's Loyalist,{1}{B}{G},3.0,Creature — Elf Warrior,uncommon,"B, G","B, G","Other Elves you control get +1/+1.
+When this creature dies, return another target Elf card from your graveyard to your hand.",3,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/236/morcants-loyalist?utm_source=api
+237,Noggle Robber,{1}{R/G}{R/G},3.0,Creature — Noggle Rogue,uncommon,"G, R","G, R","When this creature enters or dies, create a Treasure token. (It's an artifact with ""{T}, Sacrifice this token: Add one mana of any color."")",3,3,,Treasure,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/237/noggle-robber?utm_source=api
+238,Prideful Feastling,{2}{W/B},3.0,Creature — Shapeshifter,common,"B, W","B, W","Changeling (This card is every creature type.)
+Lifelink",2,3,,"Lifelink, Changeling",Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/238/prideful-feastling?utm_source=api
+239,Raiding Schemes,{3}{R}{G},5.0,Enchantment,rare,"G, R","G, R","Each noncreature spell you cast has conspire. (As you cast a noncreature spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy. A copy of a permanent spell becomes a token.)",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/239/raiding-schemes?utm_source=api
+240,Reaping Willow,{1}{W/B}{W/B}{W/B},4.0,Creature — Treefolk Cleric,uncommon,"B, W","B, W","Lifelink
+This creature enters with two -1/-1 counters on it.
+{1}{W/B}, Remove two counters from this creature: Return target creature card with mana value 3 or less from your graveyard to the battlefield. Activate only as a sorcery.",3,6,,Lifelink,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/240/reaping-willow?utm_source=api
+241,"Sanar, Innovative First-Year",{2}{U/R}{U/R},4.0,Legendary Creature — Goblin Sorcerer,rare,"R, U","R, U","Vivid — At the beginning of your first main phase, reveal cards from the top of your library until you reveal X nonland cards, where X is the number of colors among permanents you control. For each of those colors, you may exile a card of that color from among the revealed cards. Then shuffle. You may cast the exiled cards this turn.",2,4,,Vivid,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/241/sanar-innovative-first-year?utm_source=api
+242,Shadow Urchin,{2}{B/R},3.0,Creature — Ouphe,rare,"B, R","B, R","Whenever this creature attacks, blight 1. (Put a -1/-1 counter on a creature you control.)
+Whenever a creature you control with one or more counters on it dies, exile that many cards from the top of your library. Until your next end step, you may play those cards.",3,4,,Blight,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/242/shadow-urchin?utm_source=api
+243,Stoic Grove-Guide,{4}{B/G},5.0,Creature — Elf Druid,common,"B, G","B, G","{1}{B/G}, Exile this card from your graveyard: Create a 2/2 black and green Elf creature token. Activate only as a sorcery.",5,4,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/243/stoic-grove-guide?utm_source=api
+244,Sygg's Command,{1}{W}{U},3.0,Kindred Sorcery — Merfolk,rare,"U, W","U, W","Choose two —
+• Create a token that's a copy of target Merfolk you control.
+• Creatures target player controls gain lifelink until end of turn.
+• Target player draws a card.
+• Tap target creature. Put a stun counter on it.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/244/syggs-command?utm_source=api
+245,"Tam, Mindful First-Year",{1}{G/U},2.0,Legendary Creature — Gorgon Wizard,rare,"G, U","G, U","Each other creature you control has hexproof from each of its colors.
+{T}: Target creature you control becomes all colors until end of turn.",2,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/245/tam-mindful-first-year?utm_source=api
+246,Thoughtweft Lieutenant,{G}{W},2.0,Creature — Kithkin Soldier,uncommon,"G, W","G, W","Whenever this creature or another Kithkin you control enters, target creature you control gets +1/+1 and gains trample until end of turn.",2,2,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/246/thoughtweft-lieutenant?utm_source=api
+247,Trystan's Command,{4}{B}{G},6.0,Kindred Sorcery — Elf,rare,"B, G","B, G","Choose two —
+• Create a token that's a copy of target Elf you control.
+• Return one or two target permanent cards from your graveyard to your hand.
+• Destroy target creature or enchantment.
+• Creatures target player controls get +3/+3 until end of turn. Untap them.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/247/trystans-command?utm_source=api
+248,Twinflame Travelers,{2}{U}{R},4.0,Creature — Elemental Sorcerer,uncommon,"R, U","R, U","Flying
+If a triggered ability of another Elemental you control triggers, it triggers an additional time.",3,3,,Flying,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/248/twinflame-travelers?utm_source=api
+249,Vibrance,{3}{R/G}{R/G},5.0,Creature — Elemental Incarnation,mythic,"G, R","G, R","When this creature enters, if {R}{R} was spent to cast it, this creature deals 3 damage to any target.
+When this creature enters, if {G}{G} was spent to cast it, search your library for a land card, reveal it, put it into your hand, then shuffle. You gain 2 life.
+Evoke {R/G}{R/G}",4,4,,Evoke,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/249/vibrance?utm_source=api
+250,Voracious Tome-Skimmer,{U/B}{U/B}{U/B},3.0,Creature — Faerie Rogue,uncommon,"B, U","B, U","Flying
+Whenever you cast a spell during an opponent's turn, you may pay 1 life. If you do, draw a card.",2,3,,Flying,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/250/voracious-tome-skimmer?utm_source=api
+251,Wary Farmer,{1}{G/W}{G/W},3.0,Creature — Kithkin Citizen,common,"G, W","G, W","At the beginning of your end step, if another creature entered the battlefield under your control this turn, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",3,3,,Surveil,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/251/wary-farmer?utm_source=api
+252,Wistfulness,{3}{G/U}{G/U},5.0,Creature — Elemental Incarnation,mythic,"G, U","G, U","When this creature enters, if {G}{G} was spent to cast it, exile target artifact or enchantment an opponent controls.
+When this creature enters, if {U}{U} was spent to cast it, draw two cards, then discard a card.
+Evoke {G/U}{G/U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.)",6,5,,Evoke,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/252/wistfulness?utm_source=api
+253,Chronicle of Victory,{6},6.0,Legendary Artifact,mythic,,,"As Chronicle of Victory enters, choose a creature type.
+Creatures you control of the chosen type get +2/+2 and have first strike and trample.
+Whenever you cast a spell of the chosen type, draw a card.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/253/chronicle-of-victory?utm_source=api
+254,Dawn-Blessed Pennant,{1},1.0,Artifact,uncommon,,,"As this artifact enters, choose Elemental, Elf, Faerie, Giant, Goblin, Kithkin, Merfolk, or Treefolk.
+Whenever a permanent you control of the chosen type enters, you gain 1 life.
+{2}, {T}, Sacrifice this artifact: Return target card of the chosen type from your graveyard to your hand.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/254/dawn-blessed-pennant?utm_source=api
+255,Firdoch Core,{3},3.0,Kindred Artifact — Shapeshifter,common,,,"Changeling (This card is every creature type.)
+{T}: Add one mana of any color.
+{4}: This artifact becomes a 4/4 artifact creature until end of turn.",,,,Changeling,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/255/firdoch-core?utm_source=api
+256,Foraging Wickermaw,{2},2.0,Artifact Creature — Scarecrow,common,,,"When this creature enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+{1}: Add one mana of any color. This creature becomes that color until end of turn. Activate only once each turn.",1,3,,Surveil,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/256/foraging-wickermaw?utm_source=api
+257,Gathering Stone,{4},4.0,Artifact,uncommon,,,"As this artifact enters, choose a creature type.
+Spells you cast of the chosen type cost {1} less to cast.
+When this artifact enters and at the beginning of your upkeep, look at the top card of your library. If it's a card of the chosen type, you may reveal it and put it into your hand. If you don't put the card into your hand, you may put it into your graveyard.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/257/gathering-stone?utm_source=api
+258,Mirrormind Crown,{4},4.0,Artifact — Equipment,rare,,,"As long as this Equipment is attached to a creature, the first time you would create one or more tokens each turn, you may instead create that many tokens that are copies of equipped creature.
+Equip {2}",,,,Equip,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/258/mirrormind-crown?utm_source=api
+259,Puca's Eye,{2},2.0,Artifact,uncommon,,,"When this artifact enters, draw a card, then choose a color. This artifact becomes the chosen color.
+{3}, {T}: Draw a card. Activate only if there are five colors among permanents you control.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/259/pucas-eye?utm_source=api
+260,Springleaf Drum,{1},1.0,Artifact,uncommon,,,"{T}, Tap an untapped creature you control: Add one mana of any color.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/260/springleaf-drum?utm_source=api
+261,Stalactite Dagger,{2},2.0,Artifact — Equipment,common,,,"When this Equipment enters, create a 1/1 colorless Shapeshifter creature token with changeling. (It's every creature type.)
+Equipped creature gets +1/+1 and is all creature types.
+Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",,,,Equip,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/261/stalactite-dagger?utm_source=api
+262,Blood Crypt,,0.0,Land — Swamp Mountain,rare,,"B, R","({T}: Add {B} or {R}.)
+As this land enters, you may pay 2 life. If you don't, it enters tapped.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/262/blood-crypt?utm_source=api
+263,Eclipsed Realms,,0.0,Land,uncommon,,,"As this land enters, choose Elemental, Elf, Faerie, Giant, Goblin, Kithkin, Merfolk, or Treefolk.
+{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast a spell of the chosen type or activate an ability of a source of the chosen type.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/263/eclipsed-realms?utm_source=api
+264,Evolving Wilds,,0.0,Land,common,,,"{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/264/evolving-wilds?utm_source=api
+265,Hallowed Fountain,,0.0,Land — Plains Island,rare,,"U, W","({T}: Add {W} or {U}.)
+As this land enters, you may pay 2 life. If you don't, it enters tapped.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/265/hallowed-fountain?utm_source=api
+266,Overgrown Tomb,,0.0,Land — Swamp Forest,rare,,"B, G","({T}: Add {B} or {G}.)
+As this land enters, you may pay 2 life. If you don't, it enters tapped.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/266/overgrown-tomb?utm_source=api
+267,Steam Vents,,0.0,Land — Island Mountain,rare,,"R, U","({T}: Add {U} or {R}.)
+As this land enters, you may pay 2 life. If you don't, it enters tapped.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/267/steam-vents?utm_source=api
+268,Temple Garden,,0.0,Land — Forest Plains,rare,,"G, W","({T}: Add {G} or {W}.)
+As this land enters, you may pay 2 life. If you don't, it enters tapped.",,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/268/temple-garden?utm_source=api
+269,Plains,,0.0,Basic Land — Plains,common,,W,({T}: Add {W}.),,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/269/plains?utm_source=api
+270,Island,,0.0,Basic Land — Island,common,,U,({T}: Add {U}.),,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/270/island?utm_source=api
+271,Swamp,,0.0,Basic Land — Swamp,common,,B,({T}: Add {B}.),,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/271/swamp?utm_source=api
+272,Mountain,,0.0,Basic Land — Mountain,common,,R,({T}: Add {R}.),,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/272/mountain?utm_source=api
+273,Forest,,0.0,Basic Land — Forest,common,,G,({T}: Add {G}.),,,,,Lorwyn Eclipsed,2026-01-23,https://scryfall.com/card/ecl/273/forest?utm_source=api
