@@ -24,7 +24,7 @@ SETS = [
     ("dsk", "Duskmourn_House_of_Horror",      "Duskmourn: House of Horror"),
 ]
 
-DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
 RARITY_ORDER = ["common", "uncommon", "rare", "mythic"]
 COLOR_OPTIONS = ["W", "U", "B", "R", "G"]

@@ -9,7 +9,7 @@ import csv
 import time
 import os
 
-OUTPUT_DIR = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
 # 10 most recent main Arena sets as of April 2026, newest first
 SETS = [
