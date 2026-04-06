@@ -198,7 +198,7 @@ def build_html_table(df_rows: pd.DataFrame) -> str:
     """
 
     headers = ["Card", "#", "Name", "Mana", "CMC", "Type", "Rarity",
-               "Colors", "CI", "Rules Text", "P / T", "Keywords", "Scryfall"]
+               "Colors", "Rules Text", "P / T", "Keywords", "Scryfall"]
     thead = "<tr>" + "".join(f"<th>{h}</th>" for h in headers) + "</tr>"
 
     rows = []
@@ -250,7 +250,6 @@ def build_html_table(df_rows: pd.DataFrame) -> str:
             f"<td style='white-space:nowrap'>{r['type_line']}</td>"
             f"<td style='white-space:nowrap'>{r['rarity'].capitalize()}</td>"
             f"<td>{r['colors']}</td>"
-            f"<td>{r['color_identity']}</td>"
             f"<td style='font-size:11px;max-width:280px'>{oracle}</td>"
             f"<td style='white-space:nowrap'>{pt}</td>"
             f"<td style='font-size:11px'>{r['keywords']}</td>"
