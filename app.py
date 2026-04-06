@@ -13,6 +13,7 @@ import streamlit.components.v1 as components
 # ---------------------------------------------------------------------------
 
 SETS = [
+    ("sos", "Secrets_of_Strixhaven",           "Secrets of Strixhaven"),
     ("tmt", "MTG_TeenageMutantNinjaTurtles", "Teenage Mutant Ninja Turtles"),
     ("ecl", "Lorwyn_Eclipsed",                "Lorwyn Eclipsed"),
     ("tla", "Avatar_TheLastAirbender",        "Avatar: The Last Airbender"),

@@ -13,6 +13,7 @@ OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
 # 10 most recent main Arena sets as of April 2026, newest first
 SETS = [
+    ("sos", "Secrets_of_Strixhaven"),
     ("tmt", "MTG_TeenageMutantNinjaTurtles"),
     ("tla", "Avatar_TheLastAirbender"),
     ("om1", "Through_the_Omenpaths"),
