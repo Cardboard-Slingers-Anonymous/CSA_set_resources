@@ -1,13 +1,13 @@
 """
 Card Ratings page — auth-gated.
 Lets logged-in users rate cards (LSV 0.0–5.0) and add notes.
-Shows community average alongside personal ratings.
 """
 
 import pandas as pd
 import streamlit as st
+import streamlit.components.v1 as components
 from auth import require_auth
-from ratings_db import get_user_ratings, get_community_ratings, upsert_rating
+from ratings_db import get_user_ratings, upsert_rating
 from set_data import (
     SET_DISPLAY_NAMES, SET_LOOKUP,
     RARITY_ORDER, COLOR_OPTIONS, COLOR_LABELS,
@@ -23,8 +23,8 @@ RATING_OPTIONS = [0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0]
 
 st.set_page_config(page_title="Card Ratings", page_icon="⭐", layout="wide")
 
-client = get_client()
-user   = require_auth(client)
+client  = get_client()
+user    = require_auth(client)
 user_id = user.id
 
 # ---------------------------------------------------------------------------
@@ -38,17 +38,10 @@ set_code, csv_filename = SET_LOOKUP[selected_display]
 # Load card + rating data
 # ---------------------------------------------------------------------------
 
-# Bust the ratings cache when the set changes so stale data isn't shown
-cache_key = f"ratings_loaded_{user_id}_{set_code}"
-if cache_key not in st.session_state:
-    st.session_state[cache_key] = False
+cards_df     = load_set(csv_filename, set_code)
+user_ratings = get_user_ratings(client, user_id, set_code)
 
-cards_df = load_set(csv_filename, set_code)
-user_ratings    = get_user_ratings(client, user_id, set_code)
-community_ratings = get_community_ratings(client, set_code)
-
-# Merge ratings into card dataframe
-def merge_ratings(df, user_ratings, community_ratings):
+def merge_ratings(df, user_ratings):
     df = df.copy()
     df["my_rating"] = df["collector_number"].map(
         lambda cn: user_ratings.get(cn, {}).get("rating", None)
@@ -56,18 +49,10 @@ def merge_ratings(df, user_ratings, community_ratings):
     df["my_notes"] = df["collector_number"].map(
         lambda cn: user_ratings.get(cn, {}).get("notes", "")
     )
-    df["avg_rating"] = df["collector_number"].map(
-        lambda cn: community_ratings.get(cn, {}).get("avg_rating", None)
-    )
-    df["rating_count"] = df["collector_number"].map(
-        lambda cn: community_ratings.get(cn, {}).get("count", 0)
-    )
     df["my_rating"] = pd.to_numeric(df["my_rating"], errors="coerce")
-    df["avg_rating"] = pd.to_numeric(df["avg_rating"], errors="coerce")
-    df["rating_count"] = pd.to_numeric(df["rating_count"], errors="coerce").fillna(0).astype(int)
     return df
 
-display_df = merge_ratings(cards_df, user_ratings, community_ratings)
+display_df = merge_ratings(cards_df, user_ratings)
 
 # ---------------------------------------------------------------------------
 # Sidebar filters
@@ -123,81 +108,190 @@ st.caption(
 )
 
 # ---------------------------------------------------------------------------
-# Ratings table
+# Tabs: Browse (hover zoom) | Edit ratings
 # ---------------------------------------------------------------------------
 
-st.markdown("Edit **My Rating** and **My Notes** inline, then click **Save ratings**.")
+tab_browse, tab_edit = st.tabs(["Browse Cards", "Edit Ratings"])
 
-editor_df = filtered[[
-    "image_small", "collector_number", "name", "mana_cost",
-    "type_line", "rarity", "my_rating", "my_notes", "avg_rating", "rating_count",
-]].copy()
+# ── Tab 1: Browse with hover-zoom ──────────────────────────────────────────
 
-edited_df = st.data_editor(
-    editor_df,
-    use_container_width=True,
-    hide_index=True,
-    column_order=[
-        "image_small", "collector_number", "name", "mana_cost",
-        "type_line", "rarity", "my_rating", "my_notes", "avg_rating", "rating_count",
-    ],
-    column_config={
-        "image_small": st.column_config.ImageColumn("Card", width="small"),
-        "collector_number": st.column_config.TextColumn("#", disabled=True, width="small"),
-        "name": st.column_config.TextColumn("Name", disabled=True),
-        "mana_cost": st.column_config.TextColumn("Mana", disabled=True, width="small"),
-        "type_line": st.column_config.TextColumn("Type", disabled=True),
-        "rarity": st.column_config.TextColumn("Rarity", disabled=True, width="small"),
-        "my_rating": st.column_config.SelectboxColumn(
-            "My Rating",
-            options=RATING_OPTIONS,
-            required=False,
-            width="small",
-        ),
-        "my_notes": st.column_config.TextColumn("My Notes", width="large"),
-        "avg_rating": st.column_config.NumberColumn(
-            "Avg Rating", disabled=True, format="%.1f", width="small"
-        ),
-        "rating_count": st.column_config.NumberColumn(
-            "# Ratings", disabled=True, width="small"
-        ),
-    },
-)
+with tab_browse:
+    def build_ratings_html_table(df_rows):
+        css = """
+        <style>
+        .card-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+        .card-table th {
+            background: #0e1117;
+            color: #fafafa;
+            padding: 8px 10px;
+            text-align: left;
+            border-bottom: 2px solid #444;
+            white-space: nowrap;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        .card-table td {
+            padding: 6px 10px;
+            border-bottom: 1px solid #2a2a2a;
+            vertical-align: middle;
+            color: #e0e0e0;
+        }
+        .card-table tr:hover td { background: #1a1f2e; }
 
-# ---------------------------------------------------------------------------
-# Save
-# ---------------------------------------------------------------------------
+        .thumb-wrap {
+            position: relative;
+            display: inline-block;
+            width: 82px;
+        }
+        .thumb-wrap img.thumb {
+            width: 80px;
+            height: auto;
+            border-radius: 5px;
+            display: block;
+            cursor: default;
+        }
+        .thumb-wrap .preview {
+            display: none;
+            position: absolute;
+            left: 92px;
+            top: -80px;
+            width: 280px;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.9);
+            z-index: 9999;
+            pointer-events: none;
+        }
+        .thumb-wrap:hover .preview { display: block; }
 
-if st.button("Save ratings", type="primary"):
-    changes = []
-    for idx in edited_df.index:
-        orig = editor_df.loc[idx]
-        edit = edited_df.loc[idx]
-        rating_changed = edit["my_rating"] != orig["my_rating"]
-        notes_changed  = str(edit["my_notes"]) != str(orig["my_notes"])
-        if (rating_changed or notes_changed) and pd.notna(edit["my_rating"]):
-            changes.append(edit)
+        .rating-badge {
+            display: inline-block;
+            background: #2a3a5e;
+            color: #7fbfff;
+            border-radius: 6px;
+            padding: 2px 8px;
+            font-weight: bold;
+            font-size: 13px;
+            min-width: 36px;
+            text-align: center;
+        }
+        .unrated { color: #555; font-style: italic; }
+        </style>
+        """
 
-    if not changes:
-        st.info("No changes to save.")
-    else:
-        errors = []
-        for row in changes:
-            try:
-                upsert_rating(
-                    client=client,
-                    user_id=user_id,
-                    set_code=set_code,
-                    collector_number=row["collector_number"],
-                    card_name=row["name"],
-                    rating=float(row["my_rating"]),
-                    notes=str(row["my_notes"]),
-                )
-            except Exception as e:
-                errors.append(f"{row['name']}: {e}")
+        headers = ["Card", "#", "Name", "Mana", "Type", "Rarity", "My Rating", "My Notes"]
+        thead = "<tr>" + "".join(f"<th>{h}</th>" for h in headers) + "</tr>"
 
-        if errors:
-            st.error("Some ratings failed to save:\n" + "\n".join(errors))
+        rows = []
+        for _, r in df_rows.iterrows():
+            thumb  = r.get("image_small", "")
+            normal = r.get("image_normal", "")
+            img_html = (
+                f'<div class="thumb-wrap">'
+                f'<img class="thumb" src="{thumb}" loading="lazy">'
+                f'<img class="preview" src="{normal}" loading="lazy">'
+                f'</div>'
+            ) if thumb else ""
+
+            rating_val = r["my_rating"]
+            if pd.notna(rating_val):
+                rating_html = f'<span class="rating-badge">{rating_val:.1f}</span>'
+            else:
+                rating_html = '<span class="unrated">—</span>'
+
+            notes = str(r["my_notes"]) if r["my_notes"] else ""
+
+            rows.append(
+                "<tr>"
+                f"<td>{img_html}</td>"
+                f"<td style='white-space:nowrap'>{r['collector_number']}</td>"
+                f"<td><b>{r['name']}</b></td>"
+                f"<td style='white-space:nowrap'>{r['mana_cost']}</td>"
+                f"<td style='white-space:nowrap'>{r['type_line']}</td>"
+                f"<td style='white-space:nowrap'>{r['rarity'].capitalize()}</td>"
+                f"<td style='text-align:center'>{rating_html}</td>"
+                f"<td style='font-size:11px;max-width:300px'>{notes}</td>"
+                "</tr>"
+            )
+
+        tbody = "\n".join(rows)
+        return (
+            f"{css}"
+            "<div style='overflow-x:auto;'>"
+            "<table class='card-table'>"
+            f"<thead>{thead}</thead>"
+            f"<tbody>{tbody}</tbody>"
+            "</table>"
+            "</div>"
+        )
+
+    components.html(build_ratings_html_table(filtered), height=750, scrolling=True)
+
+# ── Tab 2: Edit ratings ─────────────────────────────────────────────────────
+
+with tab_edit:
+    st.markdown("Edit **My Rating** and **My Notes** below, then click **Save ratings**.")
+
+    editor_df = filtered[[
+        "collector_number", "name", "rarity", "my_rating", "my_notes",
+    ]].copy()
+
+    edited_df = st.data_editor(
+        editor_df,
+        use_container_width=True,
+        hide_index=True,
+        column_config={
+            "collector_number": st.column_config.TextColumn("#", disabled=True, width="small"),
+            "name":    st.column_config.TextColumn("Name", disabled=True),
+            "rarity":  st.column_config.TextColumn("Rarity", disabled=True, width="small"),
+            "my_rating": st.column_config.SelectboxColumn(
+                "My Rating",
+                options=RATING_OPTIONS,
+                required=False,
+                width="small",
+            ),
+            "my_notes": st.column_config.TextColumn("My Notes", width="large"),
+        },
+    )
+
+    if st.button("Save ratings", type="primary"):
+        changes = []
+        for idx in edited_df.index:
+            orig = editor_df.loc[idx]
+            edit = edited_df.loc[idx]
+            if (edit["my_rating"] != orig["my_rating"] or
+                    str(edit["my_notes"]) != str(orig["my_notes"])):
+                if pd.notna(edit["my_rating"]):
+                    changes.append(edit)
+
+        if not changes:
+            st.info("No changes to save.")
         else:
-            st.success(f"Saved {len(changes)} rating(s).")
-            st.rerun()
+            errors = []
+            for row in changes:
+                try:
+                    # Look up card name from cards_df using collector_number
+                    card_name = cards_df.loc[
+                        cards_df["collector_number"] == row["collector_number"], "name"
+                    ].iloc[0]
+                    upsert_rating(
+                        client=client,
+                        user_id=user_id,
+                        set_code=set_code,
+                        collector_number=row["collector_number"],
+                        card_name=card_name,
+                        rating=float(row["my_rating"]),
+                        notes=str(row["my_notes"]),
+                    )
+                except Exception as e:
+                    errors.append(f"{row['name']}: {e}")
+
+            if errors:
+                st.error("Some ratings failed to save:\n" + "\n".join(errors))
+            else:
+                st.success(f"Saved {len(changes)} rating(s).")
+                st.rerun()
