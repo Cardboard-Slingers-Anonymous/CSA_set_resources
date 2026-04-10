@@ -1,1 +1,3 @@
 *.pyc
+.venv/
+.streamlit/secrets.toml
