@@ -1,6 +1,6 @@
 """
 Card Ratings page — auth-gated.
-Lets logged-in users rate cards (LSV 0.0–5.0) and add notes.
+Ratings and notes auto-save on change — no Save button needed.
 Click any card image to expand it full-size.
 """
 
@@ -35,24 +35,36 @@ selected_display = st.selectbox("Select a set", SET_DISPLAY_NAMES)
 set_code, csv_filename = SET_LOOKUP[selected_display]
 
 # ---------------------------------------------------------------------------
-# Load card + rating data
+# Load card data and seed the in-session baseline from DB
+#
+# The baseline (stored in session_state, keyed by collector_number) tracks
+# what was last saved. On each rerun we diff the editor against the baseline
+# and auto-save any changes, then update the baseline so we don't re-save.
 # ---------------------------------------------------------------------------
 
 cards_df     = load_set(csv_filename, set_code)
 user_ratings = get_user_ratings(client, user_id, set_code)
 
-def merge_ratings(df, user_ratings):
+baseline_key = f"baseline_{user_id}_{set_code}"
+if baseline_key not in st.session_state:
+    st.session_state[baseline_key] = {
+        cn: {"my_rating": info.get("rating"), "my_notes": info.get("notes", "")}
+        for cn, info in user_ratings.items()
+    }
+baseline = st.session_state[baseline_key]
+
+def build_display_df(df, baseline):
     df = df.copy()
     df["my_rating"] = pd.to_numeric(
-        df["collector_number"].map(lambda cn: user_ratings.get(cn, {}).get("rating", None)),
+        df["collector_number"].map(lambda cn: baseline.get(cn, {}).get("my_rating")),
         errors="coerce",
     )
     df["my_notes"] = df["collector_number"].map(
-        lambda cn: user_ratings.get(cn, {}).get("notes", "")
+        lambda cn: baseline.get(cn, {}).get("my_notes", "")
     )
     return df
 
-display_df = merge_ratings(cards_df, user_ratings)
+display_df = build_display_df(cards_df, baseline)
 
 # ---------------------------------------------------------------------------
 # Sidebar filters
@@ -105,7 +117,7 @@ rated_count = display_df["my_rating"].notna().sum()
 st.caption(
     f"**{len(filtered):,}** cards shown · "
     f"**{rated_count}** of **{len(display_df)}** rated in {selected_display} · "
-    f"Click any image to expand it"
+    f"Click any image to expand · Ratings save automatically"
 )
 
 # ---------------------------------------------------------------------------
@@ -122,12 +134,12 @@ edited_df = st.data_editor(
     use_container_width=True,
     hide_index=True,
     column_config={
-        "image_normal": st.column_config.ImageColumn("Card", width="medium"),
-        "collector_number": st.column_config.TextColumn("#", disabled=True, width="small"),
-        "name":     st.column_config.TextColumn("Name", disabled=True),
-        "mana_cost":st.column_config.TextColumn("Mana", disabled=True, width="small"),
-        "type_line":st.column_config.TextColumn("Type", disabled=True),
-        "rarity":   st.column_config.TextColumn("Rarity", disabled=True, width="small"),
+        "image_normal":    st.column_config.ImageColumn("Card", width="medium"),
+        "collector_number":st.column_config.TextColumn("#", disabled=True, width="small"),
+        "name":            st.column_config.TextColumn("Name", disabled=True),
+        "mana_cost":       st.column_config.TextColumn("Mana", disabled=True, width="small"),
+        "type_line":       st.column_config.TextColumn("Type", disabled=True),
+        "rarity":          st.column_config.TextColumn("Rarity", disabled=True, width="small"),
         "my_rating": st.column_config.SelectboxColumn(
             "My Rating",
             options=RATING_OPTIONS,
@@ -139,42 +151,36 @@ edited_df = st.data_editor(
 )
 
 # ---------------------------------------------------------------------------
-# Save
+# Auto-save: diff edited_df against baseline and upsert any changes
 # ---------------------------------------------------------------------------
 
-if st.button("Save ratings", type="primary"):
-    changes = []
-    for idx in edited_df.index:
-        orig = editor_df.loc[idx]
-        edit = edited_df.loc[idx]
-        if (edit["my_rating"] != orig["my_rating"] or
-                str(edit["my_notes"]) != str(orig["my_notes"])):
-            if pd.notna(edit["my_rating"]):
-                changes.append(edit)
+for _, row in edited_df.iterrows():
+    cn = row["collector_number"]
 
-    if not changes:
-        st.info("No changes to save.")
-    else:
-        errors = []
-        for row in changes:
-            try:
-                card_name = cards_df.loc[
-                    cards_df["collector_number"] == row["collector_number"], "name"
-                ].iloc[0]
-                upsert_rating(
-                    client=client,
-                    user_id=user_id,
-                    set_code=set_code,
-                    collector_number=row["collector_number"],
-                    card_name=card_name,
-                    rating=float(row["my_rating"]),
-                    notes=str(row["my_notes"]),
-                )
-            except Exception as e:
-                errors.append(f"{row['name']}: {e}")
+    edit_rating = float(row["my_rating"]) if pd.notna(row["my_rating"]) else None
+    edit_notes  = str(row["my_notes"]) if row["my_notes"] else ""
 
-        if errors:
-            st.error("Some ratings failed to save:\n" + "\n".join(errors))
-        else:
-            st.success(f"Saved {len(changes)} rating(s).")
-            st.rerun()
+    saved = baseline.get(cn, {})
+    saved_rating = float(saved["my_rating"]) if pd.notna(saved.get("my_rating")) else None
+    saved_notes  = str(saved.get("my_notes", ""))
+
+    if edit_rating is None:
+        continue  # don't save unrated cards
+    if edit_rating == saved_rating and edit_notes == saved_notes:
+        continue  # nothing changed
+
+    try:
+        card_name = cards_df.loc[cards_df["collector_number"] == cn, "name"].iloc[0]
+        upsert_rating(
+            client=client,
+            user_id=user_id,
+            set_code=set_code,
+            collector_number=cn,
+            card_name=card_name,
+            rating=edit_rating,
+            notes=edit_notes,
+        )
+        baseline[cn] = {"my_rating": edit_rating, "my_notes": edit_notes}
+        st.toast(f"{card_name} saved — {edit_rating}", icon="✅")
+    except Exception as e:
+        st.toast(f"Failed to save {row['name']}: {e}", icon="❌")
