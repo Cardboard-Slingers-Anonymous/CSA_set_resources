@@ -1,64 +1,15 @@
 """
-MTGA Set Tracking Viewer
-Streamlit page to browse card lists for tracked MTG Arena sets.
-No authentication required — publicly accessible.
+MTGA Set Card Viewer
+Public page — no authentication required.
 """
 
-import os
-import pandas as pd
 import streamlit as st
 import streamlit.components.v1 as components
-
-# ---------------------------------------------------------------------------
-# Configuration
-# ---------------------------------------------------------------------------
-
-SETS = [
-    ("sos", "Secrets_of_Strixhaven",           "Secrets of Strixhaven"),
-    ("tmt", "MTG_TeenageMutantNinjaTurtles", "Teenage Mutant Ninja Turtles"),
-    ("ecl", "Lorwyn_Eclipsed",                "Lorwyn Eclipsed"),
-    ("tla", "Avatar_TheLastAirbender",        "Avatar: The Last Airbender"),
-    ("om1", "Through_the_Omenpaths",          "Through the Omenpaths"),
-    ("eoe", "Edge_of_Eternities",             "Edge of Eternities"),
-    ("fin", "Final_Fantasy",                  "Final Fantasy"),
-    ("tdm", "Tarkir_Dragonstorm",             "Tarkir: Dragonstorm"),
-    ("dft", "Aetherdrift",                    "Aetherdrift"),
-    ("inr", "Innistrad_Remastered",           "Innistrad Remastered"),
-    ("fdn", "MTG_Foundations",                "MTG Foundations"),
-    ("dsk", "Duskmourn_House_of_Horror",      "Duskmourn: House of Horror"),
-    ("blb", "Bloomburrow",                    "Bloomburrow"),
-]
-
-DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
-
-RARITY_ORDER = ["common", "uncommon", "rare", "mythic"]
-COLOR_OPTIONS = ["W", "U", "B", "R", "G"]
-COLOR_LABELS  = {
-    "W": "White (W)",
-    "U": "Blue (U)",
-    "B": "Black (B)",
-    "R": "Red (R)",
-    "G": "Green (G)",
-}
-
-# ---------------------------------------------------------------------------
-# Data loading
-# ---------------------------------------------------------------------------
-
-@st.cache_data
-def load_set(csv_filename: str, set_code: str) -> pd.DataFrame:
-    path = os.path.join(DATA_DIR, f"{csv_filename}.csv")
-    df = pd.read_csv(path, dtype=str).fillna("")
-    # Small thumbnail shown in table; normal (488px) shown on hover
-    df["image_small"] = df["collector_number"].apply(
-        lambda n: f"https://api.scryfall.com/cards/{set_code}/{n}?format=image&version=small"
-        if n else ""
-    )
-    df["image_normal"] = df["collector_number"].apply(
-        lambda n: f"https://api.scryfall.com/cards/{set_code}/{n}?format=image&version=normal"
-        if n else ""
-    )
-    return df
+from set_data import (
+    SET_DISPLAY_NAMES, SET_LOOKUP,
+    RARITY_ORDER, COLOR_OPTIONS, COLOR_LABELS,
+    load_set,
+)
 
 # ---------------------------------------------------------------------------
 # Page setup
@@ -73,15 +24,11 @@ st.set_page_config(
 st.title("🃏 MTGA Set Card Viewer")
 
 # ---------------------------------------------------------------------------
-# Set selector (top)
+# Set selector
 # ---------------------------------------------------------------------------
 
-set_display_names = [display for _, _, display in SETS]
-set_lookup = {display: (code, fname) for code, fname, display in SETS}
-
-selected_display = st.selectbox("Select a set", set_display_names)
-set_code, csv_filename = set_lookup[selected_display]
-
+selected_display = st.selectbox("Select a set", SET_DISPLAY_NAMES)
+set_code, csv_filename = SET_LOOKUP[selected_display]
 df = load_set(csv_filename, set_code)
 
 # ---------------------------------------------------------------------------
@@ -90,18 +37,13 @@ df = load_set(csv_filename, set_code)
 
 st.sidebar.header("Filters")
 
-# Name search
 name_query = st.sidebar.text_input("Search card name", placeholder="e.g. Dragon")
 
-# Rarity filter
 rarities_in_set = [r for r in RARITY_ORDER if r in df["rarity"].unique()]
 selected_rarities = st.sidebar.multiselect(
-    "Rarity",
-    options=rarities_in_set,
-    default=rarities_in_set,
+    "Rarity", options=rarities_in_set, default=rarities_in_set,
 )
 
-# Color filter
 colors_in_set = [c for c in COLOR_OPTIONS if df["color_identity"].str.contains(c).any()]
 selected_colors = st.sidebar.multiselect(
     "Color identity (include colorless if none selected)",
@@ -138,10 +80,10 @@ st.caption(
 )
 
 # ---------------------------------------------------------------------------
-# Display table  –  HTML with CSS hover-to-preview
+# HTML table with CSS hover-to-preview
 # ---------------------------------------------------------------------------
 
-def build_html_table(df_rows: pd.DataFrame) -> str:
+def build_html_table(df_rows):
     css = """
     <style>
     .card-table {
@@ -167,8 +109,6 @@ def build_html_table(df_rows: pd.DataFrame) -> str:
         color: #e0e0e0;
     }
     .card-table tr:hover td { background: #1a1f2e; }
-
-    /* Thumbnail cell with hover-preview */
     .thumb-wrap {
         position: relative;
         display: inline-block;
@@ -193,7 +133,6 @@ def build_html_table(df_rows: pd.DataFrame) -> str:
         pointer-events: none;
     }
     .thumb-wrap:hover .preview { display: block; }
-
     .card-table a { color: #d4a017; text-decoration: none; }
     .card-table a:hover { text-decoration: underline; }
     </style>
@@ -205,7 +144,6 @@ def build_html_table(df_rows: pd.DataFrame) -> str:
 
     rows = []
     for _, r in df_rows.iterrows():
-        # Image cells
         thumb  = r.get("image_small", "")
         normal = r.get("image_normal", "")
         if thumb:
@@ -218,7 +156,6 @@ def build_html_table(df_rows: pd.DataFrame) -> str:
         else:
             img_html = ""
 
-        # Power / Toughness / Loyalty
         if r["power"] or r["toughness"]:
             pt = f"{r['power']} / {r['toughness']}"
         elif r["loyalty"]:
@@ -226,7 +163,6 @@ def build_html_table(df_rows: pd.DataFrame) -> str:
         else:
             pt = ""
 
-        # Sanitise and truncate oracle text
         oracle = (
             r["oracle_text"]
             .replace("&", "&amp;")
