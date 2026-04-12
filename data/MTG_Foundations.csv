@@ -19,13 +19,8 @@ Creatures you control get +2/+2 until end of turn.",,,,Affinity,Foundations,2024
 You have hexproof. (You can't be the target of spells or abilities your opponents control.)
 Prevent all noncombat damage that would be dealt to other creatures you control.",0,4,,Defender,Foundations,2024-11-15,https://scryfall.com/card/fdn/7/crystal-barricade?utm_source=api
 8,Dauntless Veteran,{1}{W}{W},3.0,Creature — Human Soldier,uncommon,W,W,"Whenever this creature attacks, creatures you control get +1/+1 until end of turn.",2,2,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/8/dauntless-veteran?utm_source=api
-9,Dazzling Angel,{2}{W},3.0,Creature — Angel,common,W,W,"Flying
-Whenever another creature you control enters, you gain 1 life.",2,3,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/9/dazzling-angel?utm_source=api
 10,Divine Resilience,{W},1.0,Instant,uncommon,W,W,"Kicker {2}{W} (You may pay an additional {2}{W} as you cast this spell.)
 Target creature you control gains indestructible until end of turn. If this spell was kicked, instead any number of target creatures you control gain indestructible until end of turn. (Damage and effects that say ""destroy"" don't destroy them.)",,,,Kicker,Foundations,2024-11-15,https://scryfall.com/card/fdn/10/divine-resilience?utm_source=api
-11,Exemplar of Light,{2}{W}{W},4.0,Creature — Angel,rare,W,W,"Flying
-Whenever you gain life, put a +1/+1 counter on this creature.
-Whenever you put one or more +1/+1 counters on this creature, draw a card. This ability triggers only once each turn.",3,3,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/11/exemplar-of-light?utm_source=api
 12,Felidar Savior,{3}{W},4.0,Creature — Cat Beast,common,W,W,"Lifelink (Damage dealt by this creature also causes you to gain that much life.)
 When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control.",2,3,,Lifelink,Foundations,2024-11-15,https://scryfall.com/card/fdn/12/felidar-savior?utm_source=api
 13,Fleeting Flight,{W},1.0,Instant,common,W,W,Put a +1/+1 counter on target creature. It gains flying until end of turn. Prevent all combat damage that would be dealt to it this turn.,,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/13/fleeting-flight?utm_source=api
@@ -81,8 +76,6 @@ Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until e
 Flying
 You may cast spells as though they had flash.",4,2,,"Flying, Flash",Foundations,2024-11-15,https://scryfall.com/card/fdn/40/high-fae-trickster?utm_source=api
 41,Homunculus Horde,{3}{U},4.0,Creature — Homunculus,rare,U,U,"Whenever you draw your second card each turn, create a token that's a copy of this creature.",2,2,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/41/homunculus-horde?utm_source=api
-42,Icewind Elemental,{4}{U},5.0,Creature — Elemental,common,U,U,"Flying
-When this creature enters, draw a card, then discard a card.",3,4,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/42/icewind-elemental?utm_source=api
 43,Inspiration from Beyond,{2}{U},3.0,Sorcery,uncommon,U,U,"Mill three cards, then return an instant or sorcery card from your graveyard to your hand.
 Flashback {5}{U}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,"Flashback, Mill",Foundations,2024-11-15,https://scryfall.com/card/fdn/43/inspiration-from-beyond?utm_source=api
 44,"Kaito, Cunning Infiltrator",{1}{U}{U},3.0,Legendary Planeswalker — Kaito,mythic,U,U,"Whenever a creature you control deals combat damage to a player, put a loyalty counter on Kaito.
@@ -95,15 +88,11 @@ Threshold — Whenever Kiora attacks, if there are seven or more cards in your g
 47,Mischievous Mystic,{1}{U},2.0,Creature — Human Wizard,uncommon,U,U,"Flying
 Whenever you draw your second card each turn, create a 1/1 blue Faerie creature token with flying.",2,1,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/47/mischievous-mystic?utm_source=api
 48,Refute,{1}{U}{U},3.0,Instant,common,U,U,"Counter target spell. Draw a card, then discard a card.",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/48/refute?utm_source=api
-49,Rune-Sealed Wall,{2}{U},3.0,Artifact Creature — Wall,uncommon,U,U,"Defender
-{T}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",0,6,,"Surveil, Defender",Foundations,2024-11-15,https://scryfall.com/card/fdn/49/rune-sealed-wall?utm_source=api
 50,Skyship Buccaneer,{3}{U}{U},5.0,Creature — Human Pirate,uncommon,U,U,"Flying
 Raid — When this creature enters, if you attacked this turn, draw a card.",4,3,,"Flying, Raid",Foundations,2024-11-15,https://scryfall.com/card/fdn/50/skyship-buccaneer?utm_source=api
 51,Sphinx of Forgotten Lore,{2}{U}{U},4.0,Creature — Sphinx,mythic,U,U,"Flash (You may cast this spell any time you could cast an instant.)
 Flying
 Whenever this creature attacks, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to that card's mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)",3,3,,"Flying, Flash",Foundations,2024-11-15,https://scryfall.com/card/fdn/51/sphinx-of-forgotten-lore?utm_source=api
-52,Strix Lookout,{1}{U},2.0,Creature — Bird,common,U,U,"Flying, vigilance (Attacking doesn't cause this creature to tap.)
-{1}{U}, {T}: Draw a card, then discard a card.",1,2,,"Flying, Vigilance",Foundations,2024-11-15,https://scryfall.com/card/fdn/52/strix-lookout?utm_source=api
 53,Uncharted Voyage,{3}{U},4.0,Instant,common,U,U,"Target creature's owner puts it on their choice of the top or bottom of their library.
 Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",,,,Surveil,Foundations,2024-11-15,https://scryfall.com/card/fdn/53/uncharted-voyage?utm_source=api
 54,Abyssal Harvester,{1}{B}{B},3.0,Creature — Demon Warlock,rare,B,B,"{T}: Exile target creature card from a graveyard that was put there this turn. Create a token that's a copy of it, except it's a Nightmare in addition to its other types. Then exile all other Nightmare tokens you control.",3,2,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/54/abyssal-harvester?utm_source=api
@@ -144,9 +133,6 @@ During your turn, you may play cards you don't own with stash counters on them f
 {3}{B}, {T}: Each opponent discards a card. Activate only as a sorcery.",1,3,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/72/tinybones-bauble-burglar?utm_source=api
 73,Tragic Banshee,{4}{B},5.0,Creature — Spirit,uncommon,B,B,"Morbid — When this creature enters, target creature an opponent controls gets -1/-1 until end of turn. If a creature died this turn, that creature gets -13/-13 until end of turn instead.",5,3,,Morbid,Foundations,2024-11-15,https://scryfall.com/card/fdn/73/tragic-banshee?utm_source=api
 74,Vampire Gourmand,{1}{B},2.0,Creature — Vampire,uncommon,B,B,"Whenever this creature attacks, you may sacrifice another creature. If you do, draw a card and this creature can't be blocked this turn.",2,2,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/74/vampire-gourmand?utm_source=api
-75,Vampire Soulcaller,{4}{B},5.0,Creature — Vampire Warlock,common,B,B,"Flying
-This creature can't block.
-When this creature enters, return target creature card from your graveyard to your hand.",3,2,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/75/vampire-soulcaller?utm_source=api
 76,Vengeful Bloodwitch,{1}{B},2.0,Creature — Vampire Warlock,uncommon,B,B,"Whenever this creature or another creature you control dies, target opponent loses 1 life and you gain 1 life.",1,1,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/76/vengeful-bloodwitch?utm_source=api
 77,"Zul Ashur, Lich Lord",{1}{B},2.0,Legendary Creature — Zombie Warlock,rare,B,B,"Ward—Pay 2 life. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 2 life.)
 {T}: You may cast target Zombie creature card from your graveyard this turn.",2,2,,Ward,Foundations,2024-11-15,https://scryfall.com/card/fdn/77/zul-ashur-lich-lord?utm_source=api
@@ -274,16 +260,12 @@ Whenever a creature an opponent controls enters, you gain 1 life.",,,,,Foundatio
 141,"Giada, Font of Hope",{1}{W},2.0,Legendary Creature — Angel,rare,W,W,"Flying, vigilance
 Each other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.
 {T}: Add {W}. Spend this mana only to cast an Angel spell.",2,2,,"Flying, Vigilance",Foundations,2024-11-15,https://scryfall.com/card/fdn/141/giada-font-of-hope?utm_source=api
-142,Healer's Hawk,{W},1.0,Creature — Bird,common,W,W,"Flying
-Lifelink (Damage dealt by this creature also causes you to gain that much life.)",1,1,,"Flying, Lifelink",Foundations,2024-11-15,https://scryfall.com/card/fdn/142/healers-hawk?utm_source=api
 143,Make Your Move,{2}{W},3.0,Instant,common,W,W,"Destroy target artifact, enchantment, or creature with power 4 or greater.",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/143/make-your-move?utm_source=api
 144,Mischievous Pup,{2}{W},3.0,Creature — Dog,uncommon,W,W,"Flash (You may cast this spell any time you could cast an instant.)
 When this creature enters, return up to one other target permanent you control to its owner's hand.",3,1,,Flash,Foundations,2024-11-15,https://scryfall.com/card/fdn/144/mischievous-pup?utm_source=api
 145,Resolute Reinforcements,{1}{W},2.0,Creature — Human Soldier,uncommon,W,W,"Flash (You may cast this spell any time you could cast an instant.)
 When this creature enters, create a 1/1 white Soldier creature token.",1,1,,Flash,Foundations,2024-11-15,https://scryfall.com/card/fdn/145/resolute-reinforcements?utm_source=api
 146,Savannah Lions,{W},1.0,Creature — Cat,uncommon,W,W,,2,1,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/146/savannah-lions?utm_source=api
-147,Serra Angel,{3}{W}{W},5.0,Creature — Angel,uncommon,W,W,"Flying
-Vigilance (Attacking doesn't cause this creature to tap.)",4,4,,"Flying, Vigilance",Foundations,2024-11-15,https://scryfall.com/card/fdn/147/serra-angel?utm_source=api
 148,Stroke of Midnight,{2}{W},3.0,Instant,uncommon,W,W,Destroy target nonland permanent. Its controller creates a 1/1 white Human creature token.,,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/148/stroke-of-midnight?utm_source=api
 149,Youthful Valkyrie,{1}{W},2.0,Creature — Angel,uncommon,W,W,"Flying
 Whenever another Angel you control enters, put a +1/+1 counter on this creature.",1,3,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/149/youthful-valkyrie?utm_source=api
@@ -300,16 +282,11 @@ Enchanted permanent is a colorless land with ""{T}: Add {C}"" and loses all othe
 157,Lightshell Duo,{3}{U},4.0,Creature — Rat Otter,common,U,U,"Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 When this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",3,4,,"Surveil, Prowess",Foundations,2024-11-15,https://scryfall.com/card/fdn/157/lightshell-duo?utm_source=api
 158,Micromancer,{3}{U},4.0,Creature — Human Wizard,uncommon,U,U,"When this creature enters, you may search your library for an instant or sorcery card with mana value 1, reveal it, put it into your hand, then shuffle.",3,3,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/158/micromancer?utm_source=api
-159,Mocking Sprite,{2}{U},3.0,Creature — Faerie Rogue,common,U,U,"Flying
-Instant and sorcery spells you cast cost {1} less to cast.",2,1,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/159/mocking-sprite?utm_source=api
 160,An Offer You Can't Refuse,{U},1.0,Instant,uncommon,U,U,"Counter target noncreature spell. Its controller creates two Treasure tokens. (They're artifacts with ""{T}, Sacrifice this token: Add one mana of any color."")",,,,Treasure,Foundations,2024-11-15,https://scryfall.com/card/fdn/160/an-offer-you-cant-refuse?utm_source=api
 161,Omniscience,{7}{U}{U}{U},10.0,Enchantment,mythic,U,U,You may cast spells from your hand without paying their mana costs.,,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/161/omniscience?utm_source=api
 162,Run Away Together,{1}{U},2.0,Instant,common,U,U,Choose two target creatures controlled by different players. Return those creatures to their owners' hands.,,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/162/run-away-together?utm_source=api
 163,Self-Reflection,{4}{U}{U},6.0,Sorcery,uncommon,U,U,"Create a token that's a copy of target creature you control.
 Flashback {3}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Foundations,2024-11-15,https://scryfall.com/card/fdn/163/self-reflection?utm_source=api
-164,Spectral Sailor,{U},1.0,Creature — Spirit Pirate,uncommon,U,U,"Flash (You may cast this spell any time you could cast an instant.)
-Flying
-{3}{U}: Draw a card.",1,1,,"Flying, Flash",Foundations,2024-11-15,https://scryfall.com/card/fdn/164/spectral-sailor?utm_source=api
 165,Think Twice,{1}{U},2.0,Instant,common,U,U,"Draw a card.
 Flashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Foundations,2024-11-15,https://scryfall.com/card/fdn/165/think-twice?utm_source=api
 166,Time Stop,{4}{U}{U},6.0,Instant,rare,U,U,"End the turn. (Exile all spells and abilities, including this spell. The player whose turn it is discards down to their maximum hand size. Damage heals and ""this turn"" and ""until end of turn"" effects end.)",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/166/time-stop?utm_source=api
@@ -339,9 +316,6 @@ Exile target creature or planeswalker.",,,,,Foundations,2024-11-15,https://scryf
 184,Rune-Scarred Demon,{5}{B}{B},7.0,Creature — Demon,rare,B,B,"Flying
 When this creature enters, search your library for a card, put it into your hand, then shuffle.",6,6,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/184/rune-scarred-demon?utm_source=api
 185,Stromkirk Bloodthief,{2}{B},3.0,Creature — Vampire Rogue,uncommon,B,B,"At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control.",2,2,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/185/stromkirk-bloodthief?utm_source=api
-186,Vampire Nighthawk,{1}{B}{B},3.0,Creature — Vampire Shaman,uncommon,B,B,"Flying
-Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
-Lifelink (Damage dealt by this creature also causes you to gain that much life.)",2,3,,"Deathtouch, Flying, Lifelink",Foundations,2024-11-15,https://scryfall.com/card/fdn/186/vampire-nighthawk?utm_source=api
 187,Zombify,{3}{B},4.0,Sorcery,uncommon,B,B,Return target creature card from your graveyard to the battlefield.,,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/187/zombify?utm_source=api
 188,Abrade,{1}{R},2.0,Instant,uncommon,R,R,"Choose one —
 • Abrade deals 3 damage to target creature.
@@ -351,14 +325,10 @@ Lifelink (Damage dealt by this creature also causes you to gain that much life.)
 191,Brazen Scourge,{1}{R}{R},3.0,Creature — Gremlin,uncommon,R,R,Haste (This creature can attack and {T} as soon as it comes under your control.),3,3,,Haste,Foundations,2024-11-15,https://scryfall.com/card/fdn/191/brazen-scourge?utm_source=api
 192,Burst Lightning,{R},1.0,Instant,common,R,R,"Kicker {4} (You may pay an additional {4} as you cast this spell.)
 Burst Lightning deals 2 damage to any target. If this spell was kicked, it deals 4 damage instead.",,,,Kicker,Foundations,2024-11-15,https://scryfall.com/card/fdn/192/burst-lightning?utm_source=api
-193,"Drakuseth, Maw of Flames",{4}{R}{R}{R},7.0,Legendary Creature — Dragon,rare,R,R,"Flying
-Whenever Drakuseth attacks, it deals 4 damage to any target and 3 damage to each of up to two other targets.",7,7,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/193/drakuseth-maw-of-flames?utm_source=api
 194,"Etali, Primal Storm",{4}{R}{R},6.0,Legendary Creature — Elder Dinosaur,rare,R,R,"Whenever Etali attacks, exile the top card of each player's library, then you may cast any number of spells from among those cards without paying their mana costs.",6,6,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/194/etali-primal-storm?utm_source=api
 195,Fanatical Firebrand,{R},1.0,Creature — Goblin Pirate,common,R,R,"Haste (This creature can attack and {T} as soon as it comes under your control.)
 {T}, Sacrifice this creature: It deals 1 damage to any target.",1,1,,Haste,Foundations,2024-11-15,https://scryfall.com/card/fdn/195/fanatical-firebrand?utm_source=api
 196,Firebrand Archer,{1}{R},2.0,Creature — Human Archer,common,R,R,"Whenever you cast a noncreature spell, this creature deals 1 damage to each opponent.",2,1,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/196/firebrand-archer?utm_source=api
-197,Firespitter Whelp,{2}{R},3.0,Creature — Dragon,uncommon,R,R,"Flying
-Whenever you cast a noncreature or Dragon spell, this creature deals 1 damage to each opponent.",2,2,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/197/firespitter-whelp?utm_source=api
 198,Flamewake Phoenix,{1}{R}{R},3.0,Creature — Phoenix,rare,R,R,"Flying, haste
 This creature attacks each combat if able.
 Ferocious — At the beginning of combat on your turn, if you control a creature with power 4 or greater, you may pay {R}. If you do, return this card from your graveyard to the battlefield.",2,2,,"Flying, Ferocious, Haste",Foundations,2024-11-15,https://scryfall.com/card/fdn/198/flamewake-phoenix?utm_source=api
@@ -372,8 +342,6 @@ Ferocious — At the beginning of combat on your turn, if you control a creature
 203,Involuntary Employment,{3}{R},4.0,Sorcery,common,R,R,"Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. Create a Treasure token. (It's an artifact with ""{T}, Sacrifice this token: Add one mana of any color."")",,,,Treasure,Foundations,2024-11-15,https://scryfall.com/card/fdn/203/involuntary-employment?utm_source=api
 204,"Krenko, Mob Boss",{2}{R}{R},4.0,Legendary Creature — Goblin Warrior,rare,R,R,"{T}: Create X 1/1 red Goblin creature tokens, where X is the number of Goblins you control.",3,3,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/204/krenko-mob-boss?utm_source=api
 205,Seismic Rupture,{2}{R},3.0,Sorcery,uncommon,R,R,Seismic Rupture deals 2 damage to each creature without flying.,,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/205/seismic-rupture?utm_source=api
-206,Shivan Dragon,{4}{R}{R},6.0,Creature — Dragon,uncommon,R,R,"Flying
-{R}: This creature gets +1/+0 until end of turn.",5,5,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/206/shivan-dragon?utm_source=api
 207,Slagstorm,{1}{R}{R},3.0,Sorcery,rare,R,R,"Choose one —
 • Slagstorm deals 3 damage to each creature.
 • Slagstorm deals 3 damage to each player.",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/207/slagstorm?utm_source=api
@@ -512,11 +480,7 @@ Whenever one or more creatures you control attack, you gain 1 life for each atta
 491,Bishop's Soldier,{1}{W},2.0,Creature — Vampire Soldier,common,W,W,Lifelink (Damage dealt by this creature also causes you to gain that much life.),2,2,,Lifelink,Foundations,2024-11-15,https://scryfall.com/card/fdn/491/bishops-soldier?utm_source=api
 492,Deadly Riposte,{1}{W},2.0,Instant,common,W,W,Deadly Riposte deals 3 damage to target tapped creature and you gain 2 life.,,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/492/deadly-riposte?utm_source=api
 493,Elspeth's Smite,{W},1.0,Instant,uncommon,W,W,"Elspeth's Smite deals 3 damage to target attacking or blocking creature. If that creature would die this turn, exile it instead.",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/493/elspeths-smite?utm_source=api
-494,Herald of Faith,{3}{W}{W},5.0,Creature — Angel,uncommon,W,W,"Flying
-Whenever this creature attacks, you gain 2 life.",4,3,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/494/herald-of-faith?utm_source=api
 495,Ingenious Leonin,{4}{W},5.0,Creature — Cat Soldier,uncommon,W,W,"{3}{W}: Put a +1/+1 counter on another target attacking creature you control. If that creature is a Cat, it gains first strike until end of turn. (It deals combat damage before creatures without first strike.)",4,4,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/495/ingenious-leonin?utm_source=api
-496,Inspiring Overseer,{2}{W},3.0,Creature — Angel Cleric,common,W,W,"Flying
-When this creature enters, you gain 1 life and draw a card.",2,1,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/496/inspiring-overseer?utm_source=api
 497,Jazal Goldmane,{2}{W}{W},4.0,Legendary Creature — Cat Warrior,rare,W,W,"First strike (This creature deals combat damage before creatures without first strike.)
 {3}{W}{W}: Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.",4,4,,First strike,Foundations,2024-11-15,https://scryfall.com/card/fdn/497/jazal-goldmane?utm_source=api
 498,Leonin Skyhunter,{W}{W},2.0,Creature — Cat Knight,uncommon,W,W,Flying,2,2,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/498/leonin-skyhunter?utm_source=api
@@ -524,8 +488,6 @@ When this creature enters, you gain 1 life and draw a card.",2,1,,Flying,Foundat
 500,Moment of Triumph,{W},1.0,Instant,common,W,W,Target creature gets +2/+2 until end of turn. You gain 2 life.,,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/500/moment-of-triumph?utm_source=api
 501,Pacifism,{1}{W},2.0,Enchantment — Aura,common,W,W,"Enchant creature
 Enchanted creature can't attack or block.",,,,Enchant,Foundations,2024-11-15,https://scryfall.com/card/fdn/501/pacifism?utm_source=api
-502,Prayer of Binding,{3}{W},4.0,Enchantment,uncommon,W,W,"Flash
-When this enchantment enters, exile up to one target nonland permanent an opponent controls until this enchantment leaves the battlefield. You gain 2 life.",,,,Flash,Foundations,2024-11-15,https://scryfall.com/card/fdn/502/prayer-of-binding?utm_source=api
 503,Twinblade Paladin,{3}{W},4.0,Creature — Human Knight,uncommon,W,W,"Whenever you gain life, put a +1/+1 counter on this creature.
 As long as you have 25 or more life, this creature has double strike. (It deals both first-strike and regular combat damage.)",3,3,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/503/twinblade-paladin?utm_source=api
 504,Burrog Befuddler,{1}{U},2.0,Creature — Frog Wizard,common,U,U,"Flash (You may cast this spell any time you could cast an instant.)
@@ -539,7 +501,6 @@ Enchanted creature loses all abilities and is a black Skeleton creature with bas
 508,Exclusion Mage,{2}{U},3.0,Creature — Human Wizard,uncommon,U,U,"When this creature enters, return target creature an opponent controls to its owner's hand.",2,2,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/508/exclusion-mage?utm_source=api
 509,Into the Roil,{1}{U},2.0,Instant,common,U,U,"Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)
 Return target nonland permanent to its owner's hand. If this spell was kicked, draw a card.",,,,Kicker,Foundations,2024-11-15,https://scryfall.com/card/fdn/509/into-the-roil?utm_source=api
-510,Kitesail Corsair,{1}{U},2.0,Creature — Human Pirate,common,U,U,This creature has flying as long as it's attacking.,2,1,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/510/kitesail-corsair?utm_source=api
 511,Mystic Archaeologist,{1}{U},2.0,Creature — Human Wizard,rare,U,U,{3}{U}{U}: Draw two cards.,2,1,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/511/mystic-archaeologist?utm_source=api
 512,Opt,{U},1.0,Instant,common,U,U,"Scry 1. (Look at the top card of your library. You may put that card on the bottom.)
 Draw a card.",,,,Scry,Foundations,2024-11-15,https://scryfall.com/card/fdn/512/opt?utm_source=api
@@ -548,8 +509,6 @@ Draw a card.",,,,Scry,Foundations,2024-11-15,https://scryfall.com/card/fdn/512/o
 When this Aura enters, tap enchanted creature.
 Enchanted creature doesn't untap during its controller's untap step.",,,,Enchant,Foundations,2024-11-15,https://scryfall.com/card/fdn/514/starlight-snare?utm_source=api
 515,Storm Fleet Spy,{2}{U},3.0,Creature — Human Pirate,uncommon,U,U,"Raid — When this creature enters, if you attacked this turn, draw a card.",2,2,,Raid,Foundations,2024-11-15,https://scryfall.com/card/fdn/515/storm-fleet-spy?utm_source=api
-516,Bloodtithe Collector,{4}{B},5.0,Creature — Vampire Noble,uncommon,B,B,"Flying
-When this creature enters, if an opponent lost life this turn, each opponent discards a card.",3,4,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/516/bloodtithe-collector?utm_source=api
 517,Cemetery Recruitment,{1}{B},2.0,Sorcery,common,B,B,"Return target creature card from your graveyard to your hand. If it's a Zombie card, draw a card.",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/517/cemetery-recruitment?utm_source=api
 518,Crossway Troublemakers,{5}{B},6.0,Creature — Vampire,rare,B,B,"Attacking Vampires you control have deathtouch and lifelink. (Any amount of damage they deal to a creature is enough to destroy it. Damage dealt by those creatures also causes their controller to gain that much life.)
 Whenever a Vampire you control dies, you may pay 2 life. If you do, draw a card.",5,5,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/518/crossway-troublemakers?utm_source=api
@@ -568,12 +527,9 @@ When this creature enters or dies, mill two cards. (Put the top two cards of you
 528,Undying Malice,{B},1.0,Instant,common,B,B,"Until end of turn, target creature gains ""When this creature dies, return it to the battlefield tapped under its owner's control with a +1/+1 counter on it.""",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/528/undying-malice?utm_source=api
 529,Untamed Hunger,{2}{B},3.0,Enchantment — Aura,common,B,B,"Enchant creature
 Enchanted creature gets +2/+1 and has menace. (It can't be blocked except by two or more creatures.)",,,,Enchant,Foundations,2024-11-15,https://scryfall.com/card/fdn/529/untamed-hunger?utm_source=api
-530,Vampire Interloper,{1}{B},2.0,Creature — Vampire Scout,common,B,B,"Flying
-This creature can't block.",2,1,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/530/vampire-interloper?utm_source=api
 531,Vampire Neonate,{B},1.0,Creature — Vampire,common,B,B,"{2}, {T}: Each opponent loses 1 life and you gain 1 life.",0,3,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/531/vampire-neonate?utm_source=api
 532,Vampire Spawn,{2}{B},3.0,Creature — Vampire,common,B,B,"When this creature enters, each opponent loses 2 life and you gain 2 life.",2,3,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/532/vampire-spawn?utm_source=api
 533,Battle-Rattle Shaman,{3}{R},4.0,Creature — Goblin Shaman,uncommon,R,R,"At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn.",2,2,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/533/battle-rattle-shaman?utm_source=api
-534,Carnelian Orb of Dragonkind,{2}{R},3.0,Artifact,common,R,R,"{T}: Add {R}. If that mana is spent on a Dragon creature spell, it gains haste until end of turn.",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/534/carnelian-orb-of-dragonkind?utm_source=api
 535,Dragon Fodder,{1}{R},2.0,Sorcery,common,R,R,Create two 1/1 red Goblin creature tokens.,,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/535/dragon-fodder?utm_source=api
 536,Dragonlord's Servant,{1}{R},2.0,Creature — Goblin Shaman,uncommon,R,R,Dragon spells you cast cost {1} less to cast.,1,3,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/536/dragonlords-servant?utm_source=api
 537,Dropkick Bomber,{2}{R},3.0,Creature — Goblin Warrior,rare,R,R,"Other Goblins you control get +1/+1.
@@ -582,7 +538,6 @@ This creature can't block.",2,1,,Flying,Foundations,2024-11-15,https://scryfall.
 539,Goblin Oriflamme,{1}{R},2.0,Enchantment,uncommon,R,R,Attacking creatures you control get +1/+0.,,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/539/goblin-oriflamme?utm_source=api
 540,Goblin Smuggler,{2}{R},3.0,Creature — Goblin Rogue,common,R,R,"Haste (This creature can attack and {T} as soon as it comes under your control.)
 {T}: Another target creature with power 2 or less can't be blocked this turn.",2,2,,Haste,Foundations,2024-11-15,https://scryfall.com/card/fdn/540/goblin-smuggler?utm_source=api
-541,Kargan Dragonrider,{1}{R},2.0,Creature — Human Warrior,common,R,R,"As long as you control a Dragon, this creature has flying.",2,2,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/541/kargan-dragonrider?utm_source=api
 542,Kindled Fury,{R},1.0,Instant,common,R,R,Target creature gets +1/+0 and gains first strike until end of turn. (It deals combat damage before creatures without first strike.),,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/542/kindled-fury?utm_source=api
 543,Raging Redcap,{2}{R},3.0,Creature — Goblin Knight,common,R,R,Double strike (This creature deals both first-strike and regular combat damage.),1,2,,Double strike,Foundations,2024-11-15,https://scryfall.com/card/fdn/543/raging-redcap?utm_source=api
 544,Rapacious Dragon,{4}{R},5.0,Creature — Dragon,common,R,R,"Flying
@@ -592,9 +547,6 @@ When this creature enters, create two Treasure tokens. (They're artifacts with "
 Draw two cards and create a Treasure token. (It's an artifact with ""{T}, Sacrifice this token: Add one mana of any color."")",,,,Treasure,Foundations,2024-11-15,https://scryfall.com/card/fdn/546/seize-the-spoils?utm_source=api
 547,Skyraker Giant,{2}{R}{R},4.0,Creature — Giant,common,R,R,Reach (This creature can block creatures with flying.),4,3,,Reach,Foundations,2024-11-15,https://scryfall.com/card/fdn/547/skyraker-giant?utm_source=api
 548,Swab Goblin,{1}{R},2.0,Creature — Goblin Pirate,common,R,R,,2,2,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/548/swab-goblin?utm_source=api
-549,Terror of Mount Velus,{5}{R}{R},7.0,Creature — Dragon,rare,R,R,"Flying
-Double strike (This creature deals both first-strike and regular combat damage.)
-When this creature enters, creatures you control gain double strike until end of turn.",5,5,,"Flying, Double strike",Foundations,2024-11-15,https://scryfall.com/card/fdn/549/terror-of-mount-velus?utm_source=api
 550,Volley Veteran,{3}{R},4.0,Creature — Goblin Warrior,uncommon,R,R,"When this creature enters, it deals damage to target creature an opponent controls equal to the number of Goblins you control.",4,2,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/550/volley-veteran?utm_source=api
 551,Aggressive Mammoth,{3}{G}{G}{G},6.0,Creature — Elephant,rare,G,G,"Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 Other creatures you control have trample.",8,8,,Trample,Foundations,2024-11-15,https://scryfall.com/card/fdn/551/aggressive-mammoth?utm_source=api
@@ -629,7 +581,6 @@ When this creature enters, you gain 2 life for each Gate you control.",3,4,,Flyi
 • Scry 2.
 • You gain 3 life.
 • Exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step.",2,2,,Scry,Foundations,2024-11-15,https://scryfall.com/card/fdn/568/charming-prince?utm_source=api
-569,Crusader of Odric,{2}{W},3.0,Creature — Human Soldier,common,W,W,Crusader of Odric's power and toughness are each equal to the number of creatures you control.,*,*,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/569/crusader-of-odric?utm_source=api
 570,Dawnwing Marshal,{1}{W},2.0,Creature — Cat Soldier,uncommon,W,W,"Flying
 {4}{W}: Creatures you control get +1/+1 until end of turn.",2,2,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/570/dawnwing-marshal?utm_source=api
 571,Devout Decree,{1}{W},2.0,Sorcery,uncommon,W,W,Exile target creature or planeswalker that's black or red. Scry 1. (Look at the top card of your library. You may put that card on the bottom.),,,,Scry,Foundations,2024-11-15,https://scryfall.com/card/fdn/571/devout-decree?utm_source=api
@@ -642,8 +593,6 @@ When this creature enters, you gain 2 life for each Gate you control.",3,4,,Flyi
 576,Knight of Grace,{1}{W},2.0,Creature — Human Knight,uncommon,W,W,"First strike (This creature deals combat damage before creatures without first strike.)
 Hexproof from black (This creature can't be the target of black spells or abilities your opponents control.)
 This creature gets +1/+0 as long as any player controls a black permanent.",2,2,,"Hexproof from, Hexproof, First strike",Foundations,2024-11-15,https://scryfall.com/card/fdn/576/knight-of-grace?utm_source=api
-577,"Linden, the Steadfast Queen",{W}{W}{W},3.0,Legendary Creature — Human Noble,rare,W,W,"Vigilance (Attacking doesn't cause this creature to tap.)
-Whenever a white creature you control attacks, you gain 1 life.",3,3,,Vigilance,Foundations,2024-11-15,https://scryfall.com/card/fdn/577/linden-the-steadfast-queen?utm_source=api
 578,Mentor of the Meek,{2}{W},3.0,Creature — Human Soldier,rare,W,W,"Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card.",2,2,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/578/mentor-of-the-meek?utm_source=api
 579,Regal Caracal,{3}{W}{W},5.0,Creature — Cat,rare,W,W,"Other Cats you control get +1/+1 and have lifelink. (Damage dealt by those creatures also causes you to gain that much life.)
 When this creature enters, create two 1/1 white Cat creature tokens with lifelink.",3,3,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/579/regal-caracal?utm_source=api
@@ -656,8 +605,6 @@ Whenever Syr Alin attacks, other creatures you control get +1/+1 until end of tu
 • Target creature gains indestructible until end of turn. (Damage and effects that say ""destroy"" don't destroy it.)
 • Destroy target creature with toughness 4 or greater.",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/583/valorous-stance?utm_source=api
 584,"Zetalpa, Primal Dawn",{6}{W}{W},8.0,Legendary Creature — Elder Dinosaur,rare,W,W,"Flying, double strike, vigilance, trample, indestructible",4,8,,"Flying, Indestructible, Vigilance, Trample, Double strike",Foundations,2024-11-15,https://scryfall.com/card/fdn/584/zetalpa-primal-dawn?utm_source=api
-585,Arcanis the Omnipotent,{3}{U}{U}{U},6.0,Legendary Creature — Wizard,rare,U,U,"{T}: Draw three cards.
-{2}{U}{U}: Return Arcanis to its owner's hand.",3,4,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/585/arcanis-the-omnipotent?utm_source=api
 586,Chart a Course,{1}{U},2.0,Sorcery,uncommon,U,U,Draw two cards. Then discard a card unless you attacked this turn.,,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/586/chart-a-course?utm_source=api
 587,Dictate of Kruphix,{1}{U}{U},3.0,Enchantment,rare,U,U,"Flash (You may cast this spell any time you could cast an instant.)
 At the beginning of each player's draw step, that player draws an additional card.",,,,Flash,Foundations,2024-11-15,https://scryfall.com/card/fdn/587/dictate-of-kruphix?utm_source=api
@@ -677,13 +624,6 @@ Flashback {5}{B} (You may cast this card from your graveyard for its flashback c
 595,River's Rebuke,{4}{U}{U},6.0,Sorcery,rare,U,U,Return all nonland permanents target player controls to their owner's hand.,,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/595/rivers-rebuke?utm_source=api
 596,Shipwreck Dowser,{3}{U}{U},5.0,Creature — Merfolk Wizard,uncommon,U,U,"Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 When this creature enters, return target instant or sorcery card from your graveyard to your hand.",3,3,,Prowess,Foundations,2024-11-15,https://scryfall.com/card/fdn/596/shipwreck-dowser?utm_source=api
-597,Sphinx of the Final Word,{5}{U}{U},7.0,Creature — Sphinx,mythic,U,U,"This spell can't be countered.
-Flying
-Hexproof (This creature can't be the target of spells or abilities your opponents control.)
-Instant and sorcery spells you control can't be countered.",5,5,,"Flying, Hexproof",Foundations,2024-11-15,https://scryfall.com/card/fdn/597/sphinx-of-the-final-word?utm_source=api
-598,Tempest Djinn,{U}{U}{U},3.0,Creature — Djinn,rare,U,U,"Flying
-This creature gets +1/+0 for each basic Island you control.",0,4,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/598/tempest-djinn?utm_source=api
-599,Unsummon,{U},1.0,Instant,common,U,U,Return target creature to its owner's hand.,,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/599/unsummon?utm_source=api
 600,Voracious Greatshark,{3}{U}{U},5.0,Creature — Shark,rare,U,U,"Flash (You may cast this spell any time you could cast an instant.)
 When this creature enters, counter target artifact or creature spell.",5,4,,Flash,Foundations,2024-11-15,https://scryfall.com/card/fdn/600/voracious-greatshark?utm_source=api
 601,Deathmark,{B},1.0,Sorcery,uncommon,B,B,Destroy target green or white creature.,,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/601/deathmark?utm_source=api
@@ -697,7 +637,6 @@ At the beginning of each combat, any opponent may sacrifice a creature of their 
 604,Dread Summons,{X}{B}{B},2.0,Sorcery,rare,B,B,"Each player mills X cards. For each creature card put into a graveyard this way, you create a tapped 2/2 black Zombie creature token. (To mill a card, a player puts the top card of their library into their graveyard.)",,,,Mill,Foundations,2024-11-15,https://scryfall.com/card/fdn/604/dread-summons?utm_source=api
 605,Driver of the Dead,{3}{B},4.0,Creature — Vampire,common,B,B,"When this creature dies, return target creature card with mana value 2 or less from your graveyard to the battlefield.",3,2,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/605/driver-of-the-dead?utm_source=api
 606,Duress,{B},1.0,Sorcery,common,B,B,"Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/606/duress?utm_source=api
-607,Kalastria Highborn,{B}{B},2.0,Creature — Vampire Shaman,rare,B,B,"Whenever this creature or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life.",2,2,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/607/kalastria-highborn?utm_source=api
 608,Knight of Malice,{1}{B},2.0,Creature — Human Knight,uncommon,B,B,"First strike (This creature deals combat damage before creatures without first strike.)
 Hexproof from white (This creature can't be the target of white spells or abilities your opponents control.)
 This creature gets +1/+0 as long as any player controls a white permanent.",2,2,,"Hexproof from, Hexproof, First strike",Foundations,2024-11-15,https://scryfall.com/card/fdn/608/knight-of-malice?utm_source=api
@@ -709,7 +648,6 @@ Remove a divinity counter from Myojin of Night's Reach: Each opponent discards t
 Lifelink
 Menace (This creature can't be blocked except by two or more creatures.)
 When this creature enters, if it was kicked, return target creature card from your graveyard to the battlefield.",2,1,,"Lifelink, Menace, Kicker",Foundations,2024-11-15,https://scryfall.com/card/fdn/611/nullpriest-of-oblivion?utm_source=api
-612,Pulse Tracker,{B},1.0,Creature — Vampire Rogue,common,B,B,"Whenever this creature attacks, each opponent loses 1 life.",1,1,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/612/pulse-tracker?utm_source=api
 613,Sanguine Indulgence,{3}{B},4.0,Sorcery,common,B,B,"This spell costs {3} less to cast if you've gained 3 or more life this turn.
 Return up to two target creature cards from your graveyard to your hand.",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/613/sanguine-indulgence?utm_source=api
 614,Tribute to Hunger,{2}{B},3.0,Instant,uncommon,B,B,Target opponent sacrifices a creature of their choice. You gain life equal to that creature's toughness.,,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/614/tribute-to-hunger?utm_source=api
@@ -765,18 +703,12 @@ When you sacrifice this Aura, search your library for up to two basic land cards
 642,Predator Ooze,{G}{G}{G},3.0,Creature — Ooze,rare,G,G,"Indestructible (Damage and effects that say ""destroy"" don't destroy this creature.)
 Whenever this creature attacks, put a +1/+1 counter on it.
 Whenever a creature dealt damage by this creature this turn dies, put a +1/+1 counter on this creature.",1,1,,Indestructible,Foundations,2024-11-15,https://scryfall.com/card/fdn/642/predator-ooze?utm_source=api
-643,Primal Might,{X}{G},1.0,Sorcery,rare,G,G,Target creature you control gets +X/+X until end of turn. Then it fights up to one target creature you don't control. (Each deals damage equal to its power to the other.),,,,Fight,Foundations,2024-11-15,https://scryfall.com/card/fdn/643/primal-might?utm_source=api
 644,Primeval Bounty,{5}{G},6.0,Enchantment,mythic,G,G,"Whenever you cast a creature spell, create a 3/3 green Beast creature token.
 Whenever you cast a noncreature spell, put three +1/+1 counters on target creature you control.
 Landfall — Whenever a land you control enters, you gain 3 life.",,,,Landfall,Foundations,2024-11-15,https://scryfall.com/card/fdn/644/primeval-bounty?utm_source=api
 645,Rampaging Baloths,{4}{G}{G},6.0,Creature — Beast,rare,G,G,"Trample
 Landfall — Whenever a land you control enters, create a 4/4 green Beast creature token.",6,6,,"Trample, Landfall",Foundations,2024-11-15,https://scryfall.com/card/fdn/645/rampaging-baloths?utm_source=api
-646,Springbloom Druid,{2}{G},3.0,Creature — Elf Druid,common,G,G,"When this creature enters, you may sacrifice a land. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",1,1,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/646/springbloom-druid?utm_source=api
-647,"Surrak, the Hunt Caller",{2}{G}{G},4.0,Legendary Creature — Human Warrior,rare,G,G,"Formidable — At the beginning of combat on your turn, if creatures you control have total power 8 or greater, target creature you control gains haste until end of turn. (It can attack and {T} no matter when it came under your control.)",5,4,,Formidable,Foundations,2024-11-15,https://scryfall.com/card/fdn/647/surrak-the-hunt-caller?utm_source=api
 648,Venom Connoisseur,{1}{G},2.0,Creature — Human Druid,uncommon,G,G,"Alliance — Whenever another creature you control enters, this creature gains deathtouch until end of turn. If this is the second time this ability has resolved this turn, all creatures you control gain deathtouch until end of turn.",2,2,,Alliance,Foundations,2024-11-15,https://scryfall.com/card/fdn/648/venom-connoisseur?utm_source=api
-649,Vizier of the Menagerie,{3}{G},4.0,Creature — Snake Cleric,mythic,G,G,"You may look at the top card of your library any time.
-You may cast creature spells from the top of your library.
-You can spend mana of any type to cast creature spells.",3,4,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/649/vizier-of-the-menagerie?utm_source=api
 650,Wildborn Preserver,{1}{G},2.0,Creature — Elf Archer,rare,G,G,"Flash (You may cast this spell any time you could cast an instant.)
 Reach (This creature can block creatures with flying.)
 Whenever another non-Human creature you control enters, you may pay {X}. When you do, put X +1/+1 counters on this creature.",2,2,,"Reach, Flash",Foundations,2024-11-15,https://scryfall.com/card/fdn/650/wildborn-preserver?utm_source=api
@@ -827,8 +759,6 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 671,Darksteel Colossus,{11},11.0,Artifact Creature — Golem,mythic,,,"Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 Indestructible (Damage and effects that say ""destroy"" don't destroy this creature.)
 If Darksteel Colossus would be put into a graveyard from anywhere, reveal Darksteel Colossus and shuffle it into its owner's library instead.",11,11,,"Indestructible, Trample",Foundations,2024-11-15,https://scryfall.com/card/fdn/671/darksteel-colossus?utm_source=api
-672,Diamond Mare,{2},2.0,Artifact Creature — Horse,uncommon,,,"As this creature enters, choose a color.
-Whenever you cast a spell of the chosen color, you gain 1 life.",1,3,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/672/diamond-mare?utm_source=api
 673,Feldon's Cane,{1},1.0,Artifact,uncommon,,,"{T}, Exile this artifact: Shuffle your graveyard into your library.",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/673/feldons-cane?utm_source=api
 674,Fireshrieker,{3},3.0,Artifact — Equipment,uncommon,,,"Equipped creature has double strike. (It deals both first-strike and regular combat damage.)
 Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",,,,Equip,Foundations,2024-11-15,https://scryfall.com/card/fdn/674/fireshrieker?utm_source=api
@@ -858,8 +788,6 @@ Activated abilities of sources with the chosen name can't be activated unless th
 {T}: Add {R} or {W}.",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/684/boros-guildgate?utm_source=api
 685,Crawling Barrens,,0.0,Land,rare,,,"{T}: Add {C}.
 {4}: Put two +1/+1 counters on this land. Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/685/crawling-barrens?utm_source=api
-686,Cryptic Caves,,0.0,Land,uncommon,,,"{T}: Add {C}.
-{1}, {T}, Sacrifice this land: Draw a card. Activate only if you control five or more lands.",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/686/cryptic-caves?utm_source=api
 687,Demolition Field,,0.0,Land,uncommon,,,"{T}: Add {C}.
 {2}, {T}, Sacrifice this land: Destroy target nonbasic land an opponent controls. That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle.",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/687/demolition-field?utm_source=api
 688,Dimir Guildgate,,0.0,Land — Gate,common,,"B, U","This land enters tapped.
@@ -911,10 +839,6 @@ When this land enters, scry 1. (Look at the top card of your library. You may pu
 706,Angel of Vitality,{2}{W},3.0,Creature — Angel,uncommon,W,W,"Flying
 If you would gain life, you gain that much life plus 1 instead.
 This creature gets +2/+2 as long as you have 25 or more life.",2,2,,Flying,Foundations,2024-11-15,https://scryfall.com/card/fdn/706/angel-of-vitality?utm_source=api
-707,Lyra Dawnbringer,{3}{W}{W},5.0,Legendary Creature — Angel,mythic,W,W,"Flying
-First strike (This creature deals combat damage before creatures without first strike.)
-Lifelink (Damage dealt by this creature also causes you to gain that much life.)
-Other Angels you control get +1/+1 and have lifelink.",5,5,,"Flying, Lifelink, First strike",Foundations,2024-11-15,https://scryfall.com/card/fdn/707/lyra-dawnbringer?utm_source=api
 708,Make a Stand,{2}{W},3.0,Instant,uncommon,W,W,"Creatures you control get +1/+0 and gain indestructible until end of turn. (Damage and effects that say ""destroy"" don't destroy them.)",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/708/make-a-stand?utm_source=api
 709,Confiscate,{4}{U}{U},6.0,Enchantment — Aura,uncommon,U,U,"Enchant permanent
 You control enchanted permanent.",,,,Enchant,Foundations,2024-11-15,https://scryfall.com/card/fdn/709/confiscate?utm_source=api
@@ -922,19 +846,12 @@ You control enchanted permanent.",,,,Enchant,Foundations,2024-11-15,https://scry
 711,Rite of Replication,{2}{U}{U},4.0,Sorcery,rare,U,U,"Kicker {5} (You may pay an additional {5} as you cast this spell.)
 Create a token that's a copy of target creature. If this spell was kicked, create five of those tokens instead.",,,,Kicker,Foundations,2024-11-15,https://scryfall.com/card/fdn/711/rite-of-replication?utm_source=api
 712,Feed the Swarm,{1}{B},2.0,Sorcery,common,B,B,Destroy target creature or enchantment an opponent controls. You lose life equal to that permanent's mana value.,,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/712/feed-the-swarm?utm_source=api
-713,Gatekeeper of Malakir,{B}{B},2.0,Creature — Vampire Warrior,uncommon,B,B,"Kicker {B} (You may pay an additional {B} as you cast this spell.)
-When this creature enters, if it was kicked, target player sacrifices a creature of their choice.",2,2,,Kicker,Foundations,2024-11-15,https://scryfall.com/card/fdn/713/gatekeeper-of-malakir?utm_source=api
-714,Massacre Wurm,{3}{B}{B}{B},6.0,Creature — Phyrexian Wurm,mythic,B,B,"When this creature enters, creatures your opponents control get -2/-2 until end of turn.
-Whenever a creature an opponent controls dies, that player loses 2 life.",6,5,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/714/massacre-wurm?utm_source=api
 715,Gratuitous Violence,{2}{R}{R}{R},5.0,Enchantment,rare,R,R,"If a creature you control would deal damage to a permanent or player, it deals double that damage instead.",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/715/gratuitous-violence?utm_source=api
 716,Guttersnipe,{2}{R},3.0,Creature — Goblin Shaman,uncommon,R,R,"Whenever you cast an instant or sorcery spell, this creature deals 2 damage to each opponent.",2,2,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/716/guttersnipe?utm_source=api
 717,Impact Tremors,{1}{R},2.0,Enchantment,common,R,R,"Whenever a creature you control enters, this enchantment deals 1 damage to each opponent.",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/717/impact-tremors?utm_source=api
 718,Gigantosaurus,{G}{G}{G}{G}{G},5.0,Creature — Dinosaur,rare,G,G,,10,10,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/718/gigantosaurus?utm_source=api
 719,Imperious Perfect,{2}{G},3.0,Creature — Elf Warrior,uncommon,G,G,"Other Elves you control get +1/+1.
 {G}, {T}: Create a 1/1 green Elf Warrior creature token.",2,2,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/719/imperious-perfect?utm_source=api
-720,Pelakka Wurm,{4}{G}{G}{G},7.0,Creature — Wurm,uncommon,G,G,"Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
-When this creature enters, you gain 7 life.
-When this creature dies, draw a card.",7,7,,Trample,Foundations,2024-11-15,https://scryfall.com/card/fdn/720/pelakka-wurm?utm_source=api
 721,Boros Charm,{R}{W},2.0,Instant,uncommon,"R, W","R, W","Choose one —
 • Boros Charm deals 4 damage to target player or planeswalker.
 • Permanents you control gain indestructible until end of turn.
@@ -952,3 +869,86 @@ Other creatures you control of the chosen type get +1/+1.",2,2,,,Foundations,202
 {T}: Add {C}.
 {3}, {T}, Return this land to its owner's hand: Search your library for a Gate card, put it onto the battlefield, then shuffle. If you control ten or more Gates with different names, you win the game.",,,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/727/mazes-end?utm_source=api
 730,Hinterland Sanctifier,{W},1.0,Creature — Rabbit Cleric,common,W,W,"Whenever another creature you control enters, you gain 1 life.",1,2,,,Foundations,2024-11-15,https://scryfall.com/card/fdn/730/hinterland-sanctifier?utm_source=api
+731,Crusader of Odric,{2}{W},3.0,Creature — Human Soldier,common,W,W,Crusader of Odric's power and toughness are each equal to the number of creatures you control.,*,*,,,Foundations,2026-04-24,https://scryfall.com/card/fdn/731/crusader-of-odric?utm_source=api
+732,Dazzling Angel,{2}{W},3.0,Creature — Angel,common,W,W,"Flying
+Whenever another creature you control enters, you gain 1 life.",2,3,,Flying,Foundations,2026-04-24,https://scryfall.com/card/fdn/732/dazzling-angel?utm_source=api
+733,Exemplar of Light,{2}{W}{W},4.0,Creature — Angel,rare,W,W,"Flying
+Whenever you gain life, put a +1/+1 counter on this creature.
+Whenever you put one or more +1/+1 counters on this creature, draw a card. This ability triggers only once each turn.",3,3,,Flying,Foundations,2026-04-24,https://scryfall.com/card/fdn/733/exemplar-of-light?utm_source=api
+734,Healer's Hawk,{W},1.0,Creature — Bird,common,W,W,"Flying
+Lifelink (Damage dealt by this creature also causes you to gain that much life.)",1,1,,"Flying, Lifelink",Foundations,2026-04-24,https://scryfall.com/card/fdn/734/healers-hawk?utm_source=api
+735,Herald of Faith,{3}{W}{W},5.0,Creature — Angel,uncommon,W,W,"Flying
+Whenever this creature attacks, you gain 2 life.",4,3,,Flying,Foundations,2026-04-24,https://scryfall.com/card/fdn/735/herald-of-faith?utm_source=api
+736,Inspiring Overseer,{2}{W},3.0,Creature — Angel Cleric,common,W,W,"Flying
+When this creature enters, you gain 1 life and draw a card.",2,1,,Flying,Foundations,2026-04-24,https://scryfall.com/card/fdn/736/inspiring-overseer?utm_source=api
+737,"Linden, the Steadfast Queen",{W}{W}{W},3.0,Legendary Creature — Human Noble,rare,W,W,"Vigilance (Attacking doesn't cause this creature to tap.)
+Whenever a white creature you control attacks, you gain 1 life.",3,3,,Vigilance,Foundations,2026-04-24,https://scryfall.com/card/fdn/737/linden-the-steadfast-queen?utm_source=api
+738,Lyra Dawnbringer,{3}{W}{W},5.0,Legendary Creature — Angel,mythic,W,W,"Flying
+First strike (This creature deals combat damage before creatures without first strike.)
+Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+Other Angels you control get +1/+1 and have lifelink.",5,5,,"Flying, Lifelink, First strike",Foundations,2026-04-24,https://scryfall.com/card/fdn/738/lyra-dawnbringer?utm_source=api
+739,Prayer of Binding,{3}{W},4.0,Enchantment,uncommon,W,W,"Flash
+When this enchantment enters, exile up to one target nonland permanent an opponent controls until this enchantment leaves the battlefield. You gain 2 life.",,,,Flash,Foundations,2026-04-24,https://scryfall.com/card/fdn/739/prayer-of-binding?utm_source=api
+740,Serra Angel,{3}{W}{W},5.0,Creature — Angel,uncommon,W,W,"Flying
+Vigilance (Attacking doesn't cause this creature to tap.)",4,4,,"Flying, Vigilance",Foundations,2026-04-24,https://scryfall.com/card/fdn/740/serra-angel?utm_source=api
+741,Arcanis the Omnipotent,{3}{U}{U}{U},6.0,Legendary Creature — Wizard,rare,U,U,"{T}: Draw three cards.
+{2}{U}{U}: Return Arcanis to its owner's hand.",3,4,,,Foundations,2026-04-24,https://scryfall.com/card/fdn/741/arcanis-the-omnipotent?utm_source=api
+742,Icewind Elemental,{4}{U},5.0,Creature — Elemental,common,U,U,"Flying
+When this creature enters, draw a card, then discard a card.",3,4,,Flying,Foundations,2026-04-24,https://scryfall.com/card/fdn/742/icewind-elemental?utm_source=api
+743,Kitesail Corsair,{1}{U},2.0,Creature — Human Pirate,common,U,U,This creature has flying as long as it's attacking.,2,1,,,Foundations,2026-04-24,https://scryfall.com/card/fdn/743/kitesail-corsair?utm_source=api
+744,Mocking Sprite,{2}{U},3.0,Creature — Faerie Rogue,common,U,U,"Flying
+Instant and sorcery spells you cast cost {1} less to cast.",2,1,,Flying,Foundations,2026-04-24,https://scryfall.com/card/fdn/744/mocking-sprite?utm_source=api
+745,Rune-Sealed Wall,{2}{U},3.0,Artifact Creature — Wall,uncommon,U,U,"Defender
+{T}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",0,6,,"Surveil, Defender",Foundations,2026-04-24,https://scryfall.com/card/fdn/745/rune-sealed-wall?utm_source=api
+746,Spectral Sailor,{U},1.0,Creature — Spirit Pirate,uncommon,U,U,"Flash (You may cast this spell any time you could cast an instant.)
+Flying
+{3}{U}: Draw a card.",1,1,,"Flying, Flash",Foundations,2026-04-24,https://scryfall.com/card/fdn/746/spectral-sailor?utm_source=api
+747,Sphinx of the Final Word,{5}{U}{U},7.0,Creature — Sphinx,mythic,U,U,"This spell can't be countered.
+Flying
+Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+Instant and sorcery spells you control can't be countered.",5,5,,"Flying, Hexproof",Foundations,2026-04-24,https://scryfall.com/card/fdn/747/sphinx-of-the-final-word?utm_source=api
+748,Strix Lookout,{1}{U},2.0,Creature — Bird,common,U,U,"Flying, vigilance (Attacking doesn't cause this creature to tap.)
+{1}{U}, {T}: Draw a card, then discard a card.",1,2,,"Flying, Vigilance",Foundations,2026-04-24,https://scryfall.com/card/fdn/748/strix-lookout?utm_source=api
+749,Tempest Djinn,{U}{U}{U},3.0,Creature — Djinn,rare,U,U,"Flying
+This creature gets +1/+0 for each basic Island you control.",0,4,,Flying,Foundations,2026-04-24,https://scryfall.com/card/fdn/749/tempest-djinn?utm_source=api
+750,Unsummon,{U},1.0,Instant,common,U,U,Return target creature to its owner's hand.,,,,,Foundations,2026-04-24,https://scryfall.com/card/fdn/750/unsummon?utm_source=api
+751,Bloodtithe Collector,{4}{B},5.0,Creature — Vampire Noble,uncommon,B,B,"Flying
+When this creature enters, if an opponent lost life this turn, each opponent discards a card.",3,4,,Flying,Foundations,2026-04-24,https://scryfall.com/card/fdn/751/bloodtithe-collector?utm_source=api
+752,Gatekeeper of Malakir,{B}{B},2.0,Creature — Vampire Warrior,uncommon,B,B,"Kicker {B} (You may pay an additional {B} as you cast this spell.)
+When this creature enters, if it was kicked, target player sacrifices a creature of their choice.",2,2,,Kicker,Foundations,2026-04-24,https://scryfall.com/card/fdn/752/gatekeeper-of-malakir?utm_source=api
+753,Kalastria Highborn,{B}{B},2.0,Creature — Vampire Shaman,rare,B,B,"Whenever this creature or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life.",2,2,,,Foundations,2026-04-24,https://scryfall.com/card/fdn/753/kalastria-highborn?utm_source=api
+754,Massacre Wurm,{3}{B}{B}{B},6.0,Creature — Phyrexian Wurm,mythic,B,B,"When this creature enters, creatures your opponents control get -2/-2 until end of turn.
+Whenever a creature an opponent controls dies, that player loses 2 life.",6,5,,,Foundations,2026-04-24,https://scryfall.com/card/fdn/754/massacre-wurm?utm_source=api
+755,Pulse Tracker,{B},1.0,Creature — Vampire Rogue,common,B,B,"Whenever this creature attacks, each opponent loses 1 life.",1,1,,,Foundations,2026-04-24,https://scryfall.com/card/fdn/755/pulse-tracker?utm_source=api
+756,Vampire Interloper,{1}{B},2.0,Creature — Vampire Scout,common,B,B,"Flying
+This creature can't block.",2,1,,Flying,Foundations,2026-04-24,https://scryfall.com/card/fdn/756/vampire-interloper?utm_source=api
+757,Vampire Nighthawk,{1}{B}{B},3.0,Creature — Vampire Shaman,uncommon,B,B,"Flying
+Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+Lifelink (Damage dealt by this creature also causes you to gain that much life.)",2,3,,"Deathtouch, Flying, Lifelink",Foundations,2026-04-24,https://scryfall.com/card/fdn/757/vampire-nighthawk?utm_source=api
+758,Vampire Soulcaller,{4}{B},5.0,Creature — Vampire Warlock,common,B,B,"Flying
+This creature can't block.
+When this creature enters, return target creature card from your graveyard to your hand.",3,2,,Flying,Foundations,2026-04-24,https://scryfall.com/card/fdn/758/vampire-soulcaller?utm_source=api
+759,Carnelian Orb of Dragonkind,{2}{R},3.0,Artifact,common,R,R,"{T}: Add {R}. If that mana is spent on a Dragon creature spell, it gains haste until end of turn.",,,,,Foundations,2026-04-24,https://scryfall.com/card/fdn/759/carnelian-orb-of-dragonkind?utm_source=api
+760,"Drakuseth, Maw of Flames",{4}{R}{R}{R},7.0,Legendary Creature — Dragon,rare,R,R,"Flying
+Whenever Drakuseth attacks, it deals 4 damage to any target and 3 damage to each of up to two other targets.",7,7,,Flying,Foundations,2026-04-24,https://scryfall.com/card/fdn/760/drakuseth-maw-of-flames?utm_source=api
+761,Firespitter Whelp,{2}{R},3.0,Creature — Dragon,uncommon,R,R,"Flying
+Whenever you cast a noncreature or Dragon spell, this creature deals 1 damage to each opponent.",2,2,,Flying,Foundations,2026-04-24,https://scryfall.com/card/fdn/761/firespitter-whelp?utm_source=api
+762,Kargan Dragonrider,{1}{R},2.0,Creature — Human Warrior,common,R,R,"As long as you control a Dragon, this creature has flying.",2,2,,,Foundations,2026-04-24,https://scryfall.com/card/fdn/762/kargan-dragonrider?utm_source=api
+763,Shivan Dragon,{4}{R}{R},6.0,Creature — Dragon,uncommon,R,R,"Flying
+{R}: This creature gets +1/+0 until end of turn.",5,5,,Flying,Foundations,2026-04-24,https://scryfall.com/card/fdn/763/shivan-dragon?utm_source=api
+764,Terror of Mount Velus,{5}{R}{R},7.0,Creature — Dragon,rare,R,R,"Flying
+Double strike (This creature deals both first-strike and regular combat damage.)
+When this creature enters, creatures you control gain double strike until end of turn.",5,5,,"Flying, Double strike",Foundations,2026-04-24,https://scryfall.com/card/fdn/764/terror-of-mount-velus?utm_source=api
+765,Pelakka Wurm,{4}{G}{G}{G},7.0,Creature — Wurm,uncommon,G,G,"Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
+When this creature enters, you gain 7 life.
+When this creature dies, draw a card.",7,7,,Trample,Foundations,2026-04-24,https://scryfall.com/card/fdn/765/pelakka-wurm?utm_source=api
+766,Primal Might,{X}{G},1.0,Sorcery,rare,G,G,Target creature you control gets +X/+X until end of turn. Then it fights up to one target creature you don't control. (Each deals damage equal to its power to the other.),,,,Fight,Foundations,2026-04-24,https://scryfall.com/card/fdn/766/primal-might?utm_source=api
+767,Springbloom Druid,{2}{G},3.0,Creature — Elf Druid,common,G,G,"When this creature enters, you may sacrifice a land. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",1,1,,,Foundations,2026-04-24,https://scryfall.com/card/fdn/767/springbloom-druid?utm_source=api
+768,"Surrak, the Hunt Caller",{2}{G}{G},4.0,Legendary Creature — Human Warrior,rare,G,G,"Formidable — At the beginning of combat on your turn, if creatures you control have total power 8 or greater, target creature you control gains haste until end of turn. (It can attack and {T} no matter when it came under your control.)",5,4,,Formidable,Foundations,2026-04-24,https://scryfall.com/card/fdn/768/surrak-the-hunt-caller?utm_source=api
+769,Vizier of the Menagerie,{3}{G},4.0,Creature — Snake Cleric,mythic,G,G,"You may look at the top card of your library any time.
+You may cast creature spells from the top of your library.
+You can spend mana of any type to cast creature spells.",3,4,,,Foundations,2026-04-24,https://scryfall.com/card/fdn/769/vizier-of-the-menagerie?utm_source=api
+770,Diamond Mare,{2},2.0,Artifact Creature — Horse,uncommon,,,"As this creature enters, choose a color.
+Whenever you cast a spell of the chosen color, you gain 1 life.",1,3,,,Foundations,2026-04-24,https://scryfall.com/card/fdn/770/diamond-mare?utm_source=api
+771,Cryptic Caves,,0.0,Land,uncommon,,,"{T}: Add {C}.
+{1}, {T}, Sacrifice this land: Draw a card. Activate only if you control five or more lands.",,,,,Foundations,2026-04-24,https://scryfall.com/card/fdn/771/cryptic-caves?utm_source=api
