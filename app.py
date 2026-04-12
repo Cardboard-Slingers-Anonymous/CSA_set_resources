@@ -29,6 +29,7 @@ SETS = [
 ]
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+RATINGS_PATH = os.path.join(DATA_DIR, "user_ratings.csv")
 
 RARITY_ORDER = ["common", "uncommon", "rare", "mythic"]
 COLOR_OPTIONS = ["W", "U", "B", "R", "G"]
@@ -59,6 +60,29 @@ def load_set(csv_filename: str, set_code: str) -> pd.DataFrame:
     )
     return df
 
+
+def load_ratings() -> pd.DataFrame:
+    """Load user ratings from the shared CSV, or return an empty frame."""
+    if os.path.exists(RATINGS_PATH):
+        return pd.read_csv(RATINGS_PATH, dtype=str).fillna("")
+    return pd.DataFrame(columns=["set_code", "collector_number", "rating", "comment"])
+
+
+def save_rating(set_code: str, collector_number: str, rating: int, comment: str) -> None:
+    """Upsert a rating+comment for one card into the shared CSV."""
+    ratings = load_ratings()
+    mask = (ratings["set_code"] == set_code) & (ratings["collector_number"] == collector_number)
+    ratings = ratings[~mask]
+    new_row = pd.DataFrame([{
+        "set_code": set_code,
+        "collector_number": collector_number,
+        "rating": str(rating),
+        "comment": comment,
+    }])
+    ratings = pd.concat([ratings, new_row], ignore_index=True)
+    ratings.to_csv(RATINGS_PATH, index=False)
+
+
 # ---------------------------------------------------------------------------
 # Page setup
 # ---------------------------------------------------------------------------
@@ -82,6 +106,13 @@ selected_display = st.selectbox("Select a set", set_display_names)
 set_code, csv_filename = set_lookup[selected_display]
 
 df = load_set(csv_filename, set_code)
+
+# Merge persisted ratings/comments into the set dataframe
+_ratings = load_ratings()
+_set_ratings = _ratings[_ratings["set_code"] == set_code][["collector_number", "rating", "comment"]]
+df = df.merge(_set_ratings, on="collector_number", how="left")
+df["rating"]  = df["rating"].fillna("")
+df["comment"] = df["comment"].fillna("")
 
 # ---------------------------------------------------------------------------
 # Sidebar filters
@@ -135,6 +166,29 @@ st.caption(
     f"({'all' if len(filtered) == len(df) else f'{len(df):,} total'}) "
     f"· Set: {selected_display}"
 )
+
+# ---------------------------------------------------------------------------
+# Rate / Comment form
+# ---------------------------------------------------------------------------
+
+with st.expander("⭐ Add or edit a rating"):
+    card_labels = filtered["name"] + " (#" + filtered["collector_number"] + ")"
+    card_label_map = dict(zip(card_labels, filtered["collector_number"]))
+
+    with st.form("rating_form", clear_on_submit=True):
+        selected_label = st.selectbox("Card", options=list(card_label_map.keys()))
+        col_r, col_c = st.columns([1, 3])
+        with col_r:
+            rating_val = st.slider("Rating (1–10)", min_value=1, max_value=10, value=5)
+        with col_c:
+            comment_val = st.text_input("Comment", max_chars=200)
+        submitted = st.form_submit_button("Save")
+
+    if submitted and selected_label:
+        cn = card_label_map[selected_label]
+        save_rating(set_code, cn, rating_val, comment_val.strip())
+        st.success(f"Saved rating for **{selected_label.split(' (#')[0]}**.")
+        st.rerun()
 
 # ---------------------------------------------------------------------------
 # Display table  –  HTML with CSS hover-to-preview
@@ -199,7 +253,7 @@ def build_html_table(df_rows: pd.DataFrame) -> str:
     """
 
     headers = ["Card", "#", "Name", "Mana", "CMC", "Type", "Rarity",
-               "Colors", "Rules Text", "P / T", "Keywords", "Scryfall"]
+               "Colors", "Rules Text", "P / T", "Keywords", "Rating", "Comment", "Scryfall"]
     thead = "<tr>" + "".join(f"<th>{h}</th>" for h in headers) + "</tr>"
 
     rows = []
@@ -241,6 +295,14 @@ def build_html_table(df_rows: pd.DataFrame) -> str:
             if r["scryfall_uri"] else ""
         )
 
+        rating_disp = f"⭐ {r.get('rating', '')}" if r.get("rating", "") else ""
+        comment_disp = (
+            r.get("comment", "")
+            .replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+        )
+
         rows.append(
             "<tr>"
             f"<td>{img_html}</td>"
@@ -254,6 +316,8 @@ def build_html_table(df_rows: pd.DataFrame) -> str:
             f"<td style='font-size:11px;max-width:280px'>{oracle}</td>"
             f"<td style='white-space:nowrap'>{pt}</td>"
             f"<td style='font-size:11px'>{r['keywords']}</td>"
+            f"<td style='white-space:nowrap;text-align:center'>{rating_disp}</td>"
+            f"<td style='font-size:11px;max-width:200px'>{comment_disp}</td>"
             f"<td>{link}</td>"
             "</tr>"
         )
