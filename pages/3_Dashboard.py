@@ -6,6 +6,7 @@ Per-user rating histograms and a sortable community summary table.
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
+import streamlit.components.v1 as components
 from auth import require_auth
 from ratings_db import get_all_ratings_for_set
 from set_data import SET_DISPLAY_NAMES, SET_LOOKUP, RARITY_ORDER, load_set
@@ -41,7 +42,7 @@ set_code, csv_filename = SET_LOOKUP[selected_display]
 # Load data
 # ---------------------------------------------------------------------------
 
-cards_df  = load_set(csv_filename, set_code)[["collector_number", "name", "rarity", "type_line", "colors"]]
+cards_df  = load_set(csv_filename, set_code)[["collector_number", "name", "rarity", "type_line", "colors", "image_small", "image_normal"]]
 ratings_df = get_all_ratings_for_set(client, set_code)
 
 if ratings_df.empty:
@@ -163,26 +164,169 @@ if show_contested:
 
 st.caption(f"**{len(filtered_summary):,}** cards · {selected_display}")
 
-st.dataframe(
-    filtered_summary[[
-        "collector_number", "name", "rarity", "type_line",
-        "rating_count", "avg_rating", "contentiousness", "my_rating",
-    ]],
-    use_container_width=True,
-    hide_index=True,
-    column_config={
-        "collector_number": st.column_config.TextColumn("#", width="small"),
-        "name":             st.column_config.TextColumn("Name"),
-        "rarity":           st.column_config.TextColumn("Rarity", width="small"),
-        "type_line":        st.column_config.TextColumn("Type"),
-        "rating_count":     st.column_config.NumberColumn("# Ratings", width="small"),
-        "avg_rating":       st.column_config.NumberColumn("Avg Rating", format="%.2f", width="small"),
-        "contentiousness":  st.column_config.NumberColumn(
-            "Contentiousness",
-            help="Standard deviation of ratings — higher means more disagreement.",
-            format="%.2f",
-            width="small",
-        ),
-        "my_rating":        st.column_config.NumberColumn("My Rating", format="%.1f", width="small"),
-    },
-)
+
+def build_summary_html_table(df_rows):
+    css = """
+    <style>
+    .sum-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+    }
+    .sum-table th {
+        background: #0e1117;
+        color: #fafafa;
+        padding: 8px 10px;
+        text-align: left;
+        border-bottom: 2px solid #444;
+        white-space: nowrap;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        cursor: pointer;
+        user-select: none;
+    }
+    .sum-table th:hover { background: #1a1f2e; }
+    .sum-table th .sort-arrow { margin-left: 4px; opacity: 0.4; font-size: 10px; }
+    .sum-table th.asc .sort-arrow::after  { content: "▲"; opacity: 1; }
+    .sum-table th.desc .sort-arrow::after { content: "▼"; opacity: 1; }
+    .sum-table th:not(.asc):not(.desc) .sort-arrow::after { content: "⇅"; }
+    .sum-table td {
+        padding: 6px 10px;
+        border-bottom: 1px solid #2a2a2a;
+        vertical-align: middle;
+        color: #e0e0e0;
+    }
+    .sum-table tr:hover td { background: #1a1f2e; }
+    .thumb-wrap {
+        position: relative;
+        display: inline-block;
+        width: 62px;
+    }
+    .thumb-wrap img.thumb {
+        width: 60px;
+        height: auto;
+        border-radius: 5px;
+        display: block;
+        cursor: default;
+    }
+    .thumb-wrap .preview {
+        display: none;
+        position: absolute;
+        left: 72px;
+        top: -80px;
+        width: 260px;
+        border-radius: 12px;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.9);
+        z-index: 9999;
+        pointer-events: none;
+    }
+    .thumb-wrap:hover .preview { display: block; }
+    </style>
+    """
+
+    js = """
+    <script>
+    (function() {
+        function getVal(td, isNum) {
+            var t = td.getAttribute('data-val') || td.innerText.trim();
+            if (isNum) { var n = parseFloat(t); return isNaN(n) ? -Infinity : n; }
+            return t.toLowerCase();
+        }
+        function sortTable(th) {
+            var table = th.closest('table');
+            var tbody = table.querySelector('tbody');
+            var ths   = Array.from(table.querySelectorAll('thead th'));
+            var col   = ths.indexOf(th);
+            var isNum = th.getAttribute('data-type') === 'num';
+            var asc   = !th.classList.contains('asc');
+            ths.forEach(function(h) { h.classList.remove('asc', 'desc'); });
+            th.classList.add(asc ? 'asc' : 'desc');
+            var rows = Array.from(tbody.querySelectorAll('tr'));
+            rows.sort(function(a, b) {
+                var va = getVal(a.cells[col], isNum);
+                var vb = getVal(b.cells[col], isNum);
+                if (va < vb) return asc ? -1 : 1;
+                if (va > vb) return asc ? 1 : -1;
+                return 0;
+            });
+            rows.forEach(function(r) { tbody.appendChild(r); });
+        }
+        document.querySelectorAll('.sum-table thead th').forEach(function(th) {
+            th.addEventListener('click', function() { sortTable(th); });
+        });
+    })();
+    </script>
+    """
+
+    col_defs = [
+        ("Card",           "",               False),
+        ("#",              "collector_number", False),
+        ("Name",           "name",            False),
+        ("Rarity",         "rarity",          False),
+        ("Type",           "type_line",       False),
+        ("# Ratings",      "rating_count",    True),
+        ("Avg Rating",     "avg_rating",      True),
+        ("Contentiousness","contentiousness", True),
+        ("My Rating",      "my_rating",       True),
+    ]
+
+    thead_cells = []
+    for label, _, is_num in col_defs:
+        dtype = 'num' if is_num else 'str'
+        thead_cells.append(
+            f'<th data-type="{dtype}">{label}<span class="sort-arrow"></span></th>'
+        )
+    thead = "<tr>" + "".join(thead_cells) + "</tr>"
+
+    def fmt_num(val, decimals=2):
+        try:
+            f = float(val)
+            if pd.isna(f):
+                return '<td data-val="-1">—</td>'
+            return f'<td data-val="{f}">{f:.{decimals}f}</td>'
+        except (TypeError, ValueError):
+            return '<td data-val="-1">—</td>'
+
+    rows = []
+    for _, r in df_rows.iterrows():
+        thumb  = r.get("image_small", "")
+        normal = r.get("image_normal", "")
+        if thumb:
+            img_html = (
+                '<div class="thumb-wrap">'
+                f'<img class="thumb" src="{thumb}" loading="lazy">'
+                f'<img class="preview" src="{normal}" loading="lazy">'
+                "</div>"
+            )
+        else:
+            img_html = ""
+
+        rows.append(
+            "<tr>"
+            f"<td>{img_html}</td>"
+            f"<td style='white-space:nowrap'>{r['collector_number']}</td>"
+            f"<td><b>{r['name']}</b></td>"
+            f"<td style='white-space:nowrap'>{r['rarity'].capitalize()}</td>"
+            f"<td style='white-space:nowrap'>{r['type_line']}</td>"
+            f"<td>{int(r['rating_count'])}</td>"
+            + fmt_num(r['avg_rating'], 2)
+            + fmt_num(r['contentiousness'], 2)
+            + fmt_num(r['my_rating'], 1)
+            + "</tr>"
+        )
+
+    tbody = "\n".join(rows)
+    return (
+        f"{css}"
+        "<div style='overflow-x:auto;'>"
+        "<table class='sum-table'>"
+        f"<thead>{thead}</thead>"
+        f"<tbody>{tbody}</tbody>"
+        "</table>"
+        "</div>"
+        f"{js}"
+    )
+
+
+components.html(build_summary_html_table(filtered_summary), height=750, scrolling=True)
