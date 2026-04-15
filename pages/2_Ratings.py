@@ -1,7 +1,7 @@
 """
 Card Ratings page — auth-gated.
 Hover over any card image to zoom. Single-click to change ratings inline.
-Ratings auto-save on any filter interaction; click Save Changes to save immediately.
+Click Save Changes to persist ratings to the database.
 """
 
 import html
@@ -40,14 +40,53 @@ selected_display = st.selectbox("Select a set", SET_DISPLAY_NAMES)
 set_code, csv_filename = SET_LOOKUP[selected_display]
 
 # ---------------------------------------------------------------------------
-# Read pending changes from the browser's sessionStorage.
-# Key is scoped to set_code so switching sets never mixes pending changes.
-# streamlit_js_eval fires on every rerun and returns the current value.
+# JS → Python data bridge.
+#
+# components.html() renders a srcdoc iframe without allow-same-origin, so the
+# table iframe cannot access localStorage directly.  Instead:
+#
+#   1. A streamlit_js_eval call installs a postMessage listener on the parent
+#      page (same-origin context → can write localStorage).
+#   2. The table iframe fires window.parent.postMessage() — allowed from any
+#      sandboxed iframe as long as allow-scripts is set.
+#   3. The listener receives the message and merges it into localStorage.
+#   4. A second streamlit_js_eval reads localStorage on Save.
+#
+# streamlit_js_eval only re-evaluates when the expression STRING changes, so
+# we embed a save_counter in the read expression as a JS comment.  Clicking
+# Save increments the counter → new expression → fresh read → Streamlit rerun
+# where raw_pending contains the current pending changes.
 # ---------------------------------------------------------------------------
 
-storage_key = f"rating_pending_{set_code}"
+storage_key  = f"rating_pending_{set_code}"
+bridge_var   = f"_rb_{set_code.replace('-', '_').replace('.', '_')}"
+save_counter = st.session_state.get("_save_counter", 0)
+
+# Step 1 — install listener (evaluates once; guard prevents duplicate installs)
+streamlit_js_eval(
+    js_expressions=f"""
+    (function() {{
+        if (window.parent.{bridge_var}) return 'ok';
+        window.parent.addEventListener('message', function(e) {{
+            if (!e.data || e.data.ratingKey !== '{storage_key}') return;
+            try {{
+                var d = JSON.parse(localStorage.getItem('{storage_key}') || '{{}}');
+                var u = e.data.update;
+                if (!d[u.cn]) d[u.cn] = {{}};
+                d[u.cn][u.field] = u.val;
+                localStorage.setItem('{storage_key}', JSON.stringify(d));
+            }} catch(_) {{}}
+        }});
+        window.parent.{bridge_var} = true;
+        return 'ok';
+    }})()
+    """,
+    key=f"bridge_{set_code}",
+)
+
+# Step 2 — read pending changes (counter comment forces re-evaluation on Save)
 raw_pending = streamlit_js_eval(
-    js_expressions=f"window.parent.sessionStorage.getItem('{storage_key}') || '{{}}'",
+    js_expressions=f"localStorage.getItem('{storage_key}') /* {save_counter} */",
     key=f"get_pending_{set_code}",
 )
 
@@ -71,7 +110,7 @@ baseline = st.session_state[baseline_key]
 # The diff check makes this idempotent — already-saved rows are skipped.
 # ---------------------------------------------------------------------------
 
-if raw_pending and raw_pending not in ("{}", "null", ""):
+if raw_pending and raw_pending not in ("{}", "null", "", None):
     try:
         pending = json.loads(raw_pending)
     except (json.JSONDecodeError, TypeError):
@@ -160,10 +199,15 @@ with col_cap:
     st.caption(
         f"**{len(filtered):,}** cards shown · "
         f"**{rated_count}** of **{len(cards_df)}** rated in {selected_display} · "
-        f"Hover to zoom · Changes save on filter interaction or Save button"
+        f"Hover to zoom · Click Save Changes after rating cards"
     )
 with col_btn:
-    st.button("💾 Save Changes", type="primary")
+    if st.button("💾 Save Changes", type="primary"):
+        # Increment counter so the next streamlit_js_eval expression is unique,
+        # forcing a fresh localStorage read. The save actually processes on the
+        # following rerun (when the component sends its updated value back).
+        st.session_state["_save_counter"] = save_counter + 1
+        st.rerun()
 
 # ---------------------------------------------------------------------------
 # Build ratings HTML table
@@ -244,18 +288,14 @@ def build_ratings_table(df_rows, baseline, storage_key):
     </style>
     """
 
-    # JS: stores changes into window.parent.sessionStorage under the set-scoped key.
-    # Both rating (onchange) and notes (onblur) merge into the same pending object.
+    # JS: this iframe is sandboxed without allow-same-origin, so localStorage is
+    # not accessible here.  Instead, send postMessage to window.parent — the
+    # streamlit_js_eval bridge listener catches it and writes to localStorage.
     js = f"""
     <script>
     var SK = {json.dumps(storage_key)};
     function storePending(cn, field, val) {{
-        try {{
-            var pending = JSON.parse(window.parent.sessionStorage.getItem(SK) || '{{}}');
-            if (!pending[cn]) pending[cn] = {{}};
-            pending[cn][field] = val;
-            window.parent.sessionStorage.setItem(SK, JSON.stringify(pending));
-        }} catch(e) {{}}
+        window.parent.postMessage({{ratingKey: SK, update: {{cn: cn, field: field, val: val}}}}, '*');
     }}
     </script>
     """
