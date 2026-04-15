@@ -45,7 +45,7 @@ def _render_login_form(client: Client) -> None:
             try:
                 client.auth.sign_in_with_otp({
                     "email": email.strip(),
-                    "options": {"should_create_user": False},
+                    "options": {"should_create_user": True},
                 })
                 st.session_state["otp_email"] = email.strip()
                 st.rerun()
@@ -67,7 +67,7 @@ def _render_login_form(client: Client) -> None:
         try:
             client.auth.sign_in_with_otp({
                 "email": email,
-                "options": {"should_create_user": False},
+                "options": {"should_create_user": True},
             })
             st.success("New code sent.")
         except Exception as e:
