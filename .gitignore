@@ -1,2 +1,4 @@
 *.pyc
+.venv/
+.streamlit/secrets.toml
 run_card_fetcher.ipynb
