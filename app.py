@@ -6,6 +6,7 @@ Streamlit app to browse card lists for tracked MTG Arena sets.
 import os
 import pandas as pd
 import streamlit as st
+import streamlit.components.v1 as components
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -80,13 +81,6 @@ def save_rating(set_code: str, collector_number: str, rating: int, comment: str)
     }])
     ratings = pd.concat([ratings, new_row], ignore_index=True)
     ratings.to_csv(RATINGS_PATH, index=False)
-
-
-def delete_rating(set_code: str, collector_number: str) -> None:
-    """Remove a card's rating/comment row from the shared CSV."""
-    ratings = load_ratings()
-    mask = (ratings["set_code"] == set_code) & (ratings["collector_number"] == collector_number)
-    ratings[~mask].to_csv(RATINGS_PATH, index=False)
 
 
 # ---------------------------------------------------------------------------
@@ -174,75 +168,170 @@ st.caption(
 )
 
 # ---------------------------------------------------------------------------
-# Display table  –  data_editor with inline Rating / Comment editing
+# Rate / Comment form
 # ---------------------------------------------------------------------------
 
-# Build display dataframe: convert rating to numeric for the NumberColumn widget
-display_df = filtered[[
-    "image_small", "collector_number", "name", "mana_cost", "cmc",
-    "type_line", "rarity", "colors", "oracle_text",
-    "power", "toughness", "loyalty", "keywords",
-    "rating", "comment", "scryfall_uri",
-]].copy()
-display_df["rating"] = pd.to_numeric(display_df["rating"], errors="coerce")
+with st.expander("⭐ Add or edit a rating"):
+    card_labels = filtered["name"] + " (#" + filtered["collector_number"] + ")"
+    card_label_map = dict(zip(card_labels, filtered["collector_number"]))
 
-# Key changes whenever set or filters change to avoid stale edited_rows indices
-_filter_sig = f"{set_code}|{name_query}|{'|'.join(selected_rarities)}|{'|'.join(selected_colors)}"
-editor_key = f"card_editor_{hash(_filter_sig)}"
+    with st.form("rating_form", clear_on_submit=True):
+        selected_label = st.selectbox("Card", options=list(card_label_map.keys()))
+        col_r, col_c = st.columns([1, 3])
+        with col_r:
+            rating_val = st.slider("Rating (1–10)", min_value=1, max_value=10, value=5)
+        with col_c:
+            comment_val = st.text_input("Comment", max_chars=200)
+        submitted = st.form_submit_button("Save")
 
-st.info(
-    "Double-click any **Rating ⭐** or **Comment** cell to edit it inline. "
-    "Changes are saved automatically when you press Enter or click away."
-)
+    if submitted and selected_label:
+        cn = card_label_map[selected_label]
+        save_rating(set_code, cn, rating_val, comment_val.strip())
+        st.success(f"Saved rating for **{selected_label.split(' (#')[0]}**.")
+        st.rerun()
 
-edited_df = st.data_editor(
-    display_df,
-    column_config={
-        "image_small":       st.column_config.ImageColumn("Card",        width="small"),
-        "collector_number":  st.column_config.TextColumn("#"),
-        "name":              st.column_config.TextColumn("Name"),
-        "mana_cost":         st.column_config.TextColumn("Mana"),
-        "cmc":               st.column_config.TextColumn("CMC"),
-        "type_line":         st.column_config.TextColumn("Type"),
-        "rarity":            st.column_config.TextColumn("Rarity"),
-        "colors":            st.column_config.TextColumn("Colors"),
-        "oracle_text":       st.column_config.TextColumn("Rules Text",   width="large"),
-        "power":             st.column_config.TextColumn("Power"),
-        "toughness":         st.column_config.TextColumn("Toughness"),
-        "loyalty":           st.column_config.TextColumn("Loyalty"),
-        "keywords":          st.column_config.TextColumn("Keywords"),
-        "rating":            st.column_config.NumberColumn(
-                                "Rating ⭐", min_value=1, max_value=10, step=1,
-                                help="Your personal rating (1–10). Double-click to edit.",
-                             ),
-        "comment":           st.column_config.TextColumn(
-                                "Comment", max_chars=200, width="medium",
-                                help="Short note about the card. Double-click to edit.",
-                             ),
-        "scryfall_uri":      st.column_config.LinkColumn("Scryfall", display_text="View ↗"),
-    },
-    disabled=[
-        "image_small", "collector_number", "name", "mana_cost", "cmc",
-        "type_line", "rarity", "colors", "oracle_text",
-        "power", "toughness", "loyalty", "keywords", "scryfall_uri",
-    ],
-    hide_index=True,
-    use_container_width=True,
-    key=editor_key,
-)
+# ---------------------------------------------------------------------------
+# Display table  –  HTML with CSS hover-to-preview
+# ---------------------------------------------------------------------------
 
-# Persist any inline edits made this render
-_editor_state = st.session_state.get(editor_key, {})
-for row_idx, changes in _editor_state.get("edited_rows", {}).items():
-    if row_idx >= len(display_df):
-        continue
-    cn = str(display_df.iloc[row_idx]["collector_number"])
-    new_rating  = changes.get("rating",  display_df.iloc[row_idx]["rating"])
-    new_comment = changes.get("comment", display_df.iloc[row_idx]["comment"])
-    if pd.isna(new_rating) or str(new_rating).strip() in ("", "nan"):
-        delete_rating(set_code, cn)
-    else:
-        save_rating(set_code, cn, int(float(new_rating)), str(new_comment or ""))
+def build_html_table(df_rows: pd.DataFrame) -> str:
+    css = """
+    <style>
+    .card-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+    }
+    .card-table th {
+        background: #0e1117;
+        color: #fafafa;
+        padding: 8px 10px;
+        text-align: left;
+        border-bottom: 2px solid #444;
+        white-space: nowrap;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+    .card-table td {
+        padding: 6px 10px;
+        border-bottom: 1px solid #2a2a2a;
+        vertical-align: middle;
+        color: #e0e0e0;
+    }
+    .card-table tr:hover td { background: #1a1f2e; }
+
+    /* Thumbnail cell with hover-preview */
+    .thumb-wrap {
+        position: relative;
+        display: inline-block;
+        width: 62px;
+    }
+    .thumb-wrap img.thumb {
+        width: 60px;
+        height: auto;
+        border-radius: 5px;
+        display: block;
+        cursor: default;
+    }
+    .thumb-wrap .preview {
+        display: none;
+        position: absolute;
+        left: 72px;
+        top: -80px;
+        width: 260px;
+        border-radius: 12px;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.9);
+        z-index: 9999;
+        pointer-events: none;
+    }
+    .thumb-wrap:hover .preview { display: block; }
+
+    .card-table a { color: #d4a017; text-decoration: none; }
+    .card-table a:hover { text-decoration: underline; }
+    </style>
+    """
+
+    headers = ["Card", "#", "Name", "Mana", "CMC", "Type", "Rarity",
+               "Colors", "Rules Text", "P / T", "Keywords", "Rating", "Comment", "Scryfall"]
+    thead = "<tr>" + "".join(f"<th>{h}</th>" for h in headers) + "</tr>"
+
+    rows = []
+    for _, r in df_rows.iterrows():
+        # Image cells
+        thumb  = r.get("image_small", "")
+        normal = r.get("image_normal", "")
+        if thumb:
+            img_html = (
+                '<div class="thumb-wrap">'
+                f'<img class="thumb" src="{thumb}" loading="lazy">'
+                f'<img class="preview" src="{normal}" loading="lazy">'
+                "</div>"
+            )
+        else:
+            img_html = ""
+
+        # Power / Toughness / Loyalty
+        if r["power"] or r["toughness"]:
+            pt = f"{r['power']} / {r['toughness']}"
+        elif r["loyalty"]:
+            pt = f"\u2605 {r['loyalty']}"
+        else:
+            pt = ""
+
+        # Sanitise and truncate oracle text
+        oracle = (
+            r["oracle_text"]
+            .replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+            .replace("\n", " \u00b7 ")
+        )
+        if len(oracle) > 200:
+            oracle = oracle[:197] + "\u2026"
+
+        link = (
+            f'<a href="{r["scryfall_uri"]}" target="_blank">View ↗</a>'
+            if r["scryfall_uri"] else ""
+        )
+
+        rating_disp = f"⭐ {r.get('rating', '')}" if r.get("rating", "") else ""
+        comment_disp = (
+            r.get("comment", "")
+            .replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+        )
+
+        rows.append(
+            "<tr>"
+            f"<td>{img_html}</td>"
+            f"<td style='white-space:nowrap'>{r['collector_number']}</td>"
+            f"<td><b>{r['name']}</b></td>"
+            f"<td style='white-space:nowrap'>{r['mana_cost']}</td>"
+            f"<td>{r['cmc']}</td>"
+            f"<td style='white-space:nowrap'>{r['type_line']}</td>"
+            f"<td style='white-space:nowrap'>{r['rarity'].capitalize()}</td>"
+            f"<td>{r['colors']}</td>"
+            f"<td style='font-size:11px;max-width:280px'>{oracle}</td>"
+            f"<td style='white-space:nowrap'>{pt}</td>"
+            f"<td style='font-size:11px'>{r['keywords']}</td>"
+            f"<td style='white-space:nowrap;text-align:center'>{rating_disp}</td>"
+            f"<td style='font-size:11px;max-width:200px'>{comment_disp}</td>"
+            f"<td>{link}</td>"
+            "</tr>"
+        )
+
+    tbody = "\n".join(rows)
+    return (
+        f"{css}"
+        "<div style='overflow-x:auto;'>"
+        "<table class='card-table'>"
+        f"<thead>{thead}</thead>"
+        f"<tbody>{tbody}</tbody>"
+        "</table>"
+        "</div>"
+    )
 
 
-
+components.html(build_html_table(filtered), height=750, scrolling=True)
