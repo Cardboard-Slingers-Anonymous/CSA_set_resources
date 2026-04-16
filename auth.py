@@ -106,11 +106,11 @@ def render_auth_widget(client: Client) -> None:
         else:
             if st.button("Sign in", key="header_signin", width="stretch"):
                 st.session_state["_login_dialog_open"] = True
+                st.rerun()
 
-    # Keep the dialog open as long as the flag is set and the user is not yet
-    # authenticated. Placing this outside the column ensures it renders at
-    # page level. The flag is only cleared on successful sign-in, so the
-    # dialog survives intermediate reruns (OTP steps, errors, resends).
+    # The rerun() above ensures this check fires in a clean render pass where
+    # @st.dialog reliably opens on the first click. The flag also keeps the
+    # dialog alive across intermediate reruns (OTP steps, errors, resends).
     if st.session_state.get("_login_dialog_open") and "user" not in st.session_state:
         _login_dialog(client)
 
