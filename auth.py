@@ -31,6 +31,7 @@ def handle_oauth_callback(client: Client) -> None:
     try:
         response = client.auth.exchange_code_for_session({"auth_code": code})
         st.session_state["user"] = response.user
+        st.session_state.pop("_login_dialog_open", None)
         st.rerun()
     except Exception as e:
         st.error(f"OAuth sign-in failed: {e}")
@@ -72,7 +73,14 @@ def render_auth_widget(client: Client) -> None:
                 st.rerun()
         else:
             if st.button("Sign in", key="header_signin", use_container_width=True):
-                _login_dialog(client)
+                st.session_state["_login_dialog_open"] = True
+
+    # Keep the dialog open as long as the flag is set and the user is not yet
+    # authenticated. Placing this outside the column ensures it renders at
+    # page level. The flag is only cleared on successful sign-in, so the
+    # dialog survives intermediate reruns (OTP steps, errors, resends).
+    if st.session_state.get("_login_dialog_open") and "user" not in st.session_state:
+        _login_dialog(client)
 
 
 def _start_oauth(client: Client, provider: str) -> None:
@@ -147,6 +155,7 @@ def _login_dialog(client: Client) -> None:
                         "type": "email",
                     })
                     st.session_state["user"] = response.user
+                    st.session_state.pop("_login_dialog_open", None)
                     del st.session_state["otp_email"]
                     st.rerun()
                 except Exception as e:
