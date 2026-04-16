@@ -83,7 +83,7 @@ def _draw_chart(user_name, data_to_draw, col_for_chart):
     fig = go.Figure(go.Bar(
         x=[str(k) for k in counts.keys()],         # Bin labels as strings
         y=list(counts.values()),                   # Counts as bar heights
-        marker_color=dict(color="#5b8dee"),        # Blue bars cast as a plotly type to match stubs
+        marker_color="#5b8dee",                    # type: ignore - Blue bars, PyCharm complains about typing but string is correct
     ))
 
     # --- Update the figure layout ---
