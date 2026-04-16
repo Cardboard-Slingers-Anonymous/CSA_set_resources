@@ -64,7 +64,7 @@ def render_auth_widget(client: Client) -> None:
             user = st.session_state["user"]
             email = getattr(user, "email", "")
             st.caption(email)
-            if st.button("Log out", key="header_logout", use_container_width=True):
+            if st.button("Log out", key="header_logout", width="stretch"):
                 try:
                     client.auth.sign_out()
                 except Exception:
@@ -73,7 +73,7 @@ def render_auth_widget(client: Client) -> None:
                 st.session_state.pop("supabase_client", None)
                 st.rerun()
         else:
-            if st.button("Sign in", key="header_signin", use_container_width=True):
+            if st.button("Sign in", key="header_signin", width="stretch"):
                 st.session_state["_login_dialog_open"] = True
 
     # Keep the dialog open as long as the flag is set and the user is not yet
@@ -110,9 +110,9 @@ def _login_dialog(client: Client) -> None:
     """Modal dialog containing OAuth buttons and email OTP flow."""
 
     # OAuth buttons
-    if st.button("Sign in with Google", use_container_width=True, key="dlg_google"):
+    if st.button("Sign in with Google", width="stretch", key="dlg_google"):
         _start_oauth(client, "google")
-    if st.button("Sign in with GitHub", use_container_width=True, key="dlg_github"):
+    if st.button("Sign in with GitHub", width="stretch", key="dlg_github"):
         _start_oauth(client, "github")
 
     st.divider()
@@ -122,7 +122,7 @@ def _login_dialog(client: Client) -> None:
         # Step 1: request a code
         with st.form("dlg_email_form"):
             email = st.text_input("Email address", key="dlg_email_input")
-            submitted = st.form_submit_button("Send code", use_container_width=True)
+            submitted = st.form_submit_button("Send code", width="stretch")
         if submitted:
             if not email.strip():
                 st.warning("Please enter an email address.")

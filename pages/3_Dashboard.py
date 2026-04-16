@@ -86,7 +86,7 @@ for col, user_label in zip(cols, users):
         paper_bgcolor="#0e1117",
         font_color="#e0e0e0",
     )
-    col.plotly_chart(fig, use_container_width=True)
+    col.plotly_chart(fig, width="stretch")
 
 # ---------------------------------------------------------------------------
 # Summary table
