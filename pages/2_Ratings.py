@@ -9,7 +9,6 @@ import json
 
 import pandas as pd
 import streamlit as st
-import streamlit.components.v1 as components
 from streamlit_js_eval import streamlit_js_eval
 
 from auth import require_auth
@@ -42,10 +41,14 @@ set_code, csv_filename = SET_LOOKUP[selected_display]
 # ---------------------------------------------------------------------------
 # JS → Python bridge via localStorage.
 #
-# components.html() iframes have allow-same-origin in their sandbox, so they
-# share the same localStorage origin (localhost:8501) as the streamlit_js_eval
-# component iframe.  The table writes directly to localStorage; streamlit_js_eval
-# reads it back on demand.
+# st.html renders inline in the parent page context (same-origin), so the
+# table's JS can write pending changes directly to localStorage.
+# Streamlit then reads those pending changes on Save:
+#
+#   1. The table JS stores pending edits under the set-specific localStorage key.
+#   2. Clicking Save triggers streamlit_js_eval to read that localStorage value.
+#   3. The returned value causes a rerun where raw_pending contains the current
+#      pending changes.
 #
 # streamlit_js_eval only re-evaluates its JS when the expression STRING changes.
 # We embed a save_counter as a JS comment so clicking Save produces a new string
@@ -342,8 +345,8 @@ def build_ratings_table(df_rows, baseline, storage_key):
     )
 
 
-components.html(
-    build_ratings_table(filtered, baseline, storage_key),
-    height=750,
-    scrolling=True,
+st.html(
+    f'<div style="height:750px;overflow:auto">'
+    + build_ratings_table(filtered, baseline, storage_key)
+    + '</div>'
 )

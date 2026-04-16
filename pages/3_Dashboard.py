@@ -356,4 +356,4 @@ def build_summary_html_table(df_rows):
     )
 
 
-components.html(build_summary_html_table(filtered_summary), height=750, scrolling=True)
+st.html(f'<div style="height:750px;overflow:auto">{build_summary_html_table(filtered_summary)}</div>')
