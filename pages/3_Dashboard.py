@@ -97,15 +97,16 @@ def _draw_streamlit_chart(user_name: str, data_to_draw: pd.Series, col_for_chart
 
     col_for_chart.plotly_chart(fig, use_container_width=True)  # Render chart in its column
 
-# --- Draw the header
+# --- Draw the header ---
 st.subheader("Rating distributions by user")
 
 # --- Create user list and set the comparison user ---
 users: list[str] = ratings_df["user_label"].unique()        # Set all unique users in the dataset as a list
+active_user: str = user_labels[user.id]
 user_to_compare = st.selectbox("Select a set", users)  # Create a selection box for a user to compare
 
-# --- Create a pandas data series for the active user and comparison user ---
-active_user_data: pd.Series = ratings_df[ratings_df["user_label"] == user_labels[user.id]]["rating"].dropna()
+# --- Create a cleaned pandas data series for the active user and comparison user ---
+active_user_data: pd.Series = ratings_df[ratings_df["user_label"] == active_user]["rating"].dropna()
 comparison_user_data: pd.Series = ratings_df[ratings_df["user_label"] == user_to_compare]["rating"].dropna()
 
 # --- Create the streamlit DeltaGenerator column objects ---
