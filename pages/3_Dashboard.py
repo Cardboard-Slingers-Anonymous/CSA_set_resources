@@ -106,7 +106,7 @@ user_to_compare = st.selectbox("Select a set", users)  # Create a selection box 
 
 # --- Create a pandas data series for the active user and comparison user ---
 active_user_data: pd.Series = ratings_df[ratings_df["user_label"] == user_labels[user.id]]["rating"].dropna()
-comparison_user_data: pd.Series = ratings_df[ratings_df["user_label"] == user_labels[user_to_compare]]["rating"].dropna()
+comparison_user_data: pd.Series = ratings_df[ratings_df["user_label"] == user_to_compare]["rating"].dropna()
 
 # --- Create the streamlit DeltaGenerator column objects ---
 cols: list[DeltaGenerator] = st.columns(2)
