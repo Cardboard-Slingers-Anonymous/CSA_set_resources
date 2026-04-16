@@ -59,25 +59,37 @@ ratings_df["user_label"] = ratings_df["user_id"].map(user_labels)               
 st.subheader("Rating distributions by user")
 
 users = ratings_df["user_label"].unique()          # All unique users in the dataset
-#cols  = st.columns(len(users))                     # One column per user for side-by-side charts
+#cols  = st.columns(len(users))                    # One column per user for side-by-side charts
 cols = st.columns(2) # set a left and right column
+user_data = ratings_df[ratings_df["user_label"] == user]["rating"].dropna() # Filter & clean ratings for this user, drop NAs
 
 
-
-def _draw_chart(user_to_draw, col_for_chart):
-    user_data = ratings_df[ratings_df["user_label"] == user_to_draw]["rating"].dropna()  # Filter & clean ratings for this user
+def _draw_chart(user_name, data_to_draw, col_for_chart):
+    """
+    Draws a histogram figure on the dashboard
+        user_name: name of the user being drawn (or the figure label)
+        data_to_draw: dataframe containing the data to be plotted
+        col_for_chart: column to draw chart on
+    """
+    # --- initialize bins to count each rating ---
     counts = {b: 0 for b in RATING_BINS}           # Initialize bin counts to 0
-    for val in user_data:
+
+    # --- Round any ratings just in case they're magically not on the .5 scale  ---
+    for val in data_to_draw:
         rounded = round(val * 2) / 2               # Snap value to nearest 0.5
         if rounded in counts:
             counts[rounded] += 1                   # Increment matching bin
+
+    # --- Draw the figure ---
     fig = go.Figure(go.Bar(
         x=[str(k) for k in counts.keys()],         # Bin labels as strings
         y=list(counts.values()),                   # Counts as bar heights
         marker_color=dict(color="#5b8dee"),        # Blue bars cast as a plotly type to match stubs
     ))
+
+    # --- Update the figure layout ---
     fig.update_layout(
-        title=user_to_draw,                          # Chart title = user label
+        title=user_name,                          # Chart title = user label
         xaxis_title="Rating",
         yaxis_title="# Cards",
         margin=dict(l=20, r=20, t=40, b=40),       # Tight margins
@@ -86,10 +98,11 @@ def _draw_chart(user_to_draw, col_for_chart):
         paper_bgcolor="#0e1117",                   # Dark paper background
         font_color="#e0e0e0",                      # Light text
     )
+
     col_for_chart.plotly_chart(fig, use_container_width=True)  # Render chart in its column
 
-_draw_chart(user,cols[1])
-_draw_chart(user,cols[2])
+_draw_chart(user_labels[user.id],user_data,cols[1])
+_draw_chart(user_labels[user.id],user_data,cols[2])
 
 # ---------------------------------------------------------------------------
 # Summary table
