@@ -7,7 +7,6 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 import streamlit.components.v1 as components
-from pandas import DataFrame
 
 from auth import require_auth
 from ratings_db import get_all_ratings_for_set
