@@ -13,7 +13,7 @@ import streamlit.components.v1 as components
 from streamlit_js_eval import streamlit_js_eval
 
 from auth import require_auth
-from ratings_db import get_user_ratings, upsert_rating
+from ratings_db import delete_rating, get_user_ratings, upsert_rating
 from set_data import (
     COLOR_LABELS, COLOR_OPTIONS, RARITY_ORDER,
     SET_DISPLAY_NAMES, SET_LOOKUP, load_set,
@@ -103,20 +103,25 @@ if raw_pending and raw_pending not in ("{}", "null", "", None):
         saved_rating = float(saved["my_rating"]) if pd.notna(saved.get("my_rating")) else None
         saved_notes  = str(saved.get("my_notes", ""))
 
-        if edit_rating is None:
+        if edit_rating is None and saved_rating is None:
             continue
         if edit_rating == saved_rating and edit_notes == saved_notes:
             continue
 
         try:
             card_name = cards_df.loc[cards_df["collector_number"] == cn, "name"].iloc[0]
-            upsert_rating(
-                client=client, user_id=user_id, set_code=set_code,
-                collector_number=cn, card_name=card_name,
-                rating=edit_rating, notes=edit_notes,
-            )
-            baseline[cn] = {"my_rating": edit_rating, "my_notes": edit_notes}
-            st.toast(f"{card_name} — {edit_rating}", icon="✅")
+            if edit_rating is None:
+                delete_rating(client=client, user_id=user_id, set_code=set_code, collector_number=cn)
+                baseline[cn] = {"my_rating": None, "my_notes": ""}
+                st.toast(f"{card_name} — rating cleared", icon="🗑️")
+            else:
+                upsert_rating(
+                    client=client, user_id=user_id, set_code=set_code,
+                    collector_number=cn, card_name=card_name,
+                    rating=edit_rating, notes=edit_notes,
+                )
+                baseline[cn] = {"my_rating": edit_rating, "my_notes": edit_notes}
+                st.toast(f"{card_name} — {edit_rating}", icon="✅")
         except Exception as e:
             st.toast(f"Failed to save {cn}: {e}", icon="❌")
 
