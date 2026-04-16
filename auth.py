@@ -128,27 +128,32 @@ def _start_oauth(client: Client, provider: str) -> None:
             "provider": provider,
             "options": {"redirect_to": redirect_to},
         })
-        code_verifier = getattr(response, "code_verifier", "") or ""
-        _dbg(f"sign_in_with_oauth response received. URL present: {bool(response.url)}. code_verifier present: {bool(code_verifier)} (len={len(code_verifier)})")
+        _dbg(f"sign_in_with_oauth response received. URL present: {bool(response.url)}")
+
+        # supabase-py (PKCE mode) stores the verifier in its in-memory storage.
+        # Session state is lost across the browser redirect, so we read it now
+        # and embed it inside the redirect_to param in the OAuth URL so Supabase
+        # echoes it back as a query param when it redirects to our callback.
+        _VERIFIER_KEY = "supabase.auth.token-code-verifier"
+        try:
+            code_verifier = client.auth._storage.storage.get(_VERIFIER_KEY, "")
+        except Exception:
+            code_verifier = ""
+        _dbg(f"code_verifier from storage: present={bool(code_verifier)} len={len(code_verifier)}")
 
         if code_verifier:
-            # The verifier must survive the full redirect chain:
-            #   browser → Google → Supabase → our app
-            # We do this by modifying the `redirect_to` param that is already
-            # encoded inside response.url, appending ?cv=VERIFIER to it so
-            # Supabase echoes it back when it redirects to our callback URL.
             parsed = urlparse(response.url)
             params = parse_qs(parsed.query, keep_blank_values=True)
             if "redirect_to" in params:
                 original_redirect = params["redirect_to"][0]
                 sep = "&" if "?" in original_redirect else "?"
                 params["redirect_to"] = [f"{original_redirect}{sep}cv={code_verifier}"]
-                _dbg(f"Embedded cv into redirect_to: {params['redirect_to'][0][:60]}…")
+                _dbg(f"Embedded cv into redirect_to: {params['redirect_to'][0][:80]}…")
             else:
-                _dbg("WARNING: 'redirect_to' not found in OAuth URL params — cv not embedded.")
+                _dbg("WARNING: 'redirect_to' not found in OAuth URL — cv not embedded.")
             oauth_url = urlunparse(parsed._replace(query=urlencode(params, doseq=True)))
         else:
-            _dbg("WARNING: code_verifier is empty — PKCE flow may not be enabled on the client.")
+            _dbg("WARNING: code_verifier empty — cannot complete PKCE exchange.")
             oauth_url = response.url
 
         # Redirect the browser via JavaScript
