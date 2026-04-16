@@ -2,8 +2,8 @@
 Ratings Dashboard — auth-gated.
 Per-user rating histograms and a sortable community summary table.
 """
-from typing import TYPE_CHECKING
-if TYPE_CHECKING: from streamlit.delta_generator import DeltaGenerator  # only imported for type hints, not at runtime
+from typing import Any
+StreamlitColumn = Any # Create an alias for verbose typing
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
@@ -57,7 +57,7 @@ ratings_df["user_label"] = ratings_df["user_id"].map(user_labels)               
 # Per-user rating histograms
 # ---------------------------------------------------------------------------
 
-def _draw_streamlit_chart(user_name: str, data_to_draw: pd.Series, col_for_chart: DeltaGenerator):
+def _draw_streamlit_chart(user_name: str, data_to_draw: pd.Series, col_for_chart: StreamlitColumn):
     """
     Renders a rating distribution bar chart into a Streamlit column.
 
@@ -109,8 +109,8 @@ user_to_compare: str = st.selectbox("Compare against", all_other_users)  # Creat
 active_user_data: pd.Series = ratings_df[ratings_df["user_label"] == active_user]["rating"].dropna()
 comparison_user_data: pd.Series = ratings_df[ratings_df["user_label"] == user_to_compare]["rating"].dropna()
 
-# --- Create the streamlit DeltaGenerator column objects ---
-cols: list[DeltaGenerator] = st.columns(2)
+# --- Create the streamlit StreamlitColumn objects ---
+cols: list[StreamlitColumn] = st.columns(2)
 
 # --- Draw the histogram tables ---
 _draw_streamlit_chart(active_user,active_user_data,cols[0])
