@@ -58,12 +58,6 @@ ratings_df["user_label"] = ratings_df["user_id"].map(user_labels)               
 # Per-user rating histograms
 # ---------------------------------------------------------------------------
 
-st.subheader("Rating distributions by user")
-
-users: list[str] = ratings_df["user_label"].unique()          # All unique users in the dataset
-cols: list[DeltaGenerator] = st.columns(2) # set a left and right column
-user_data: pd.Series = ratings_df[ratings_df["user_label"] == user_labels[user.id]]["rating"].dropna()
-
 def _draw_streamlit_chart(user_name: str, data_to_draw: pd.Series, col_for_chart: DeltaGenerator):
     """
     Renders a rating distribution bar chart into a Streamlit column.
@@ -91,7 +85,7 @@ def _draw_streamlit_chart(user_name: str, data_to_draw: pd.Series, col_for_chart
 
     # --- Update the figure layout ---
     fig.update_layout(
-        title=user_name,                          # Chart title = user label
+        title=user_name,                           # Chart title = user label
         xaxis_title="Rating",
         yaxis_title="# Cards",
         margin=dict(l=20, r=20, t=40, b=40),       # Tight margins
@@ -103,8 +97,23 @@ def _draw_streamlit_chart(user_name: str, data_to_draw: pd.Series, col_for_chart
 
     col_for_chart.plotly_chart(fig, use_container_width=True)  # Render chart in its column
 
-_draw_streamlit_chart(user_labels[user.id],user_data,cols[0])
-_draw_streamlit_chart("You again",user_data,cols[1])
+# --- Draw the header
+st.subheader("Rating distributions by user")
+
+# --- Create user list and set the comparison user ---
+users: list[str] = ratings_df["user_label"].unique()        # Set all unique users in the dataset as a list
+user_to_compare = st.selectbox("Select a set", users)  # Create a selection box for a user to compare
+
+# --- Create a pandas data series for the active user and comparison user ---
+active_user_data: pd.Series = ratings_df[ratings_df["user_label"] == user_labels[user.id]]["rating"].dropna()
+comparison_user_data: pd.Series = ratings_df[ratings_df["user_label"] == user_labels[user_to_compare]]["rating"].dropna()
+
+# --- Create the streamlit DeltaGenerator column objects ---
+cols: list[DeltaGenerator] = st.columns(2)
+
+# --- Draw the histogram tables ---
+_draw_streamlit_chart(user_labels[user.id],active_user_data,cols[0])
+_draw_streamlit_chart(user_to_compare,comparison_user_data,cols[1])
 
 # ---------------------------------------------------------------------------
 # Summary table
