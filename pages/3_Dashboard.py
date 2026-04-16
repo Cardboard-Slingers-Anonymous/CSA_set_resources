@@ -113,7 +113,7 @@ comparison_user_data: pd.Series = ratings_df[ratings_df["user_label"] == user_to
 cols: list[DeltaGenerator] = st.columns(2)
 
 # --- Draw the histogram tables ---
-_draw_streamlit_chart(user_labels[user.id],active_user_data,cols[0])
+_draw_streamlit_chart(active_user,active_user_data,cols[0])
 _draw_streamlit_chart(user_to_compare,comparison_user_data,cols[1])
 
 # ---------------------------------------------------------------------------
