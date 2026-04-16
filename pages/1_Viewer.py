@@ -4,7 +4,6 @@ Public page — no authentication required.
 """
 
 import streamlit as st
-import streamlit.components.v1 as components
 from set_data import (
     SET_DISPLAY_NAMES, SET_LOOKUP,
     RARITY_ORDER, COLOR_OPTIONS, COLOR_LABELS,
@@ -207,4 +206,4 @@ def build_html_table(df_rows):
     )
 
 
-components.html(build_html_table(filtered), height=750, scrolling=True)
+st.html(f'<div style="height:750px;overflow:auto">{build_html_table(filtered)}</div>')

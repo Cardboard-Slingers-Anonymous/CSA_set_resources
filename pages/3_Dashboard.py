@@ -6,7 +6,6 @@ Per-user rating histograms and a sortable community summary table.
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
-import streamlit.components.v1 as components
 from auth import require_auth
 from ratings_db import get_all_ratings_for_set
 from set_data import SET_DISPLAY_NAMES, SET_LOOKUP, RARITY_ORDER, load_set
@@ -329,4 +328,4 @@ def build_summary_html_table(df_rows):
     )
 
 
-components.html(build_summary_html_table(filtered_summary), height=750, scrolling=True)
+st.html(f'<div style="height:750px;overflow:auto">{build_summary_html_table(filtered_summary)}</div>')
