@@ -41,15 +41,14 @@ set_code, csv_filename = SET_LOOKUP[selected_display]
 # ---------------------------------------------------------------------------
 # JS → Python bridge via localStorage.
 #
-# st.html renders inline in the parent page context (same-origin), but the
-# table's JS still communicates changes via postMessage + localStorage so that
-# Streamlit can read them on Save:
+# st.html renders inline in the parent page context (same-origin), so the
+# table's JS can write pending changes directly to localStorage.
+# Streamlit then reads those pending changes on Save:
 #
-#   1. A streamlit_js_eval call installs a postMessage listener on the parent
-#      page (can write localStorage directly).
-#   2. The table JS fires window.parent.postMessage() with pending changes.
-#   3. The listener receives the message and merges it into localStorage.
-#   4. A second streamlit_js_eval reads localStorage on Save.
+#   1. The table JS stores pending edits under the set-specific localStorage key.
+#   2. Clicking Save triggers streamlit_js_eval to read that localStorage value.
+#   3. The returned value causes a rerun where raw_pending contains the current
+#      pending changes.
 #
 # streamlit_js_eval only re-evaluates its JS when the expression STRING changes.
 # We embed a save_counter as a JS comment so clicking Save produces a new string
