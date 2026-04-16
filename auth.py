@@ -26,8 +26,9 @@ def handle_oauth_callback(client: Client) -> None:
     code = st.query_params.get("code")
     if not code:
         return
-    # Remove the code from the URL immediately so a refresh doesn't replay it
-    st.query_params.clear()
+    # Remove only OAuth callback params so unrelated query params are preserved  
+    st.query_params.pop("code", None)  
+    st.query_params.pop("state", None)
     try:
         response = client.auth.exchange_code_for_session({"auth_code": code})
         st.session_state["user"] = response.user
