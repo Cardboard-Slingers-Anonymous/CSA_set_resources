@@ -12,7 +12,7 @@ st.set_page_config(
     layout="wide",
 )
 
-# Handle OAuth redirects and render the persistent sign-in widget in the sidebar
+# Handle OAuth redirects and render the persistent sign-in widget
 _client = get_client()
 handle_oauth_callback(_client)
 render_auth_widget(_client)
