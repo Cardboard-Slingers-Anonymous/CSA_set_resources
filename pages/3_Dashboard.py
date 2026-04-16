@@ -61,8 +61,7 @@ st.subheader("Rating distributions by user")
 users = ratings_df["user_label"].unique()          # All unique users in the dataset
 #cols  = st.columns(len(users))                    # One column per user for side-by-side charts
 cols = st.columns(2) # set a left and right column
-user_data = ratings_df[ratings_df["user_label"] == user]["rating"].dropna() # Filter & clean ratings for this user, drop NAs
-
+user_data = ratings_df[ratings_df["user_label"] == user_labels[user.id]]["rating"].dropna()
 
 def _draw_chart(user_name, data_to_draw, col_for_chart):
     """
