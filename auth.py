@@ -108,6 +108,24 @@ def render_auth_widget(client: Client) -> None:
                 st.session_state["_login_dialog_open"] = True
                 st.rerun()
 
+    # If a provider was chosen in the dialog, build the OAuth URL and render
+    # the link button at the page level (outside the iframe) so the browser
+    # navigates the same tab instead of opening a new one.
+    pending_provider = st.session_state.pop("_pending_oauth", None)
+    if pending_provider and "user" not in st.session_state:
+        oauth_url = _build_oauth_url(client, pending_provider)
+        if oauth_url:
+            _dbg(f"Rendering page-level redirect for provider='{pending_provider}'")
+            # st.markdown with unsafe_allow_html renders inline in the main
+            # document (not a sandboxed iframe), so meta refresh and target="_self"
+            # both work correctly here.
+            st.markdown(
+                f'<meta http-equiv="refresh" content="0;url={oauth_url}">'
+                f'<a href="{oauth_url}" target="_self">Click here if not redirected automatically</a>',
+                unsafe_allow_html=True,
+            )
+            st.stop()
+
     # The rerun() above ensures this check fires in a clean render pass where
     # @st.dialog reliably opens on the first click. The flag also keeps the
     # dialog alive across intermediate reruns (OTP steps, errors, resends).
@@ -160,23 +178,17 @@ def _build_oauth_url(client: Client, provider: str) -> str | None:
 def _login_dialog(client: Client) -> None:
     """Modal dialog containing OAuth buttons and email OTP flow."""
 
-    # Build OAuth URLs eagerly at render time so we can pass them directly to
-    # st.link_button. This renders a real <a> tag — the browser follows it
-    # natively with no JS or iframe sandbox issues.
-    google_url = _build_oauth_url(client, "google")
-    github_url = _build_oauth_url(client, "github")
-
-    if google_url:
-        st.link_button("Sign in with Google", url=google_url, use_container_width=True)
-    else:
-        st.button("Sign in with Google", disabled=True, use_container_width=True)
-        st.caption("Google sign-in unavailable — check logs.")
-
-    if github_url:
-        st.link_button("Sign in with GitHub", url=github_url, use_container_width=True)
-    else:
-        st.button("Sign in with GitHub", disabled=True, use_container_width=True)
-        st.caption("GitHub sign-in unavailable — check logs.")
+    # Regular buttons that store the provider choice and close the dialog.
+    # The actual redirect is handled at page level by render_auth_widget so
+    # it navigates the same tab rather than opening a new one.
+    if st.button("Sign in with Google", width="stretch", key="dlg_google"):
+        st.session_state["_pending_oauth"] = "google"
+        st.session_state.pop("_login_dialog_open", None)
+        st.rerun()
+    if st.button("Sign in with GitHub", width="stretch", key="dlg_github"):
+        st.session_state["_pending_oauth"] = "github"
+        st.session_state.pop("_login_dialog_open", None)
+        st.rerun()
 
     st.divider()
     st.write("**Or sign in with email:**")
