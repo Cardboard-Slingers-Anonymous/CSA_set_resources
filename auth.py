@@ -18,6 +18,7 @@ from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
 
 DEBUG_AUTH = True  # Set to False to silence OAuth diagnostics
 
+
 def _dbg(msg: str) -> None:
     if DEBUG_AUTH:
         print(f"[AUTH DEBUG] {msg}", flush=True)
@@ -30,18 +31,17 @@ def handle_oauth_callback(client: Client) -> None:
     Call this ONCE at the top of app.py (before pg.run()) so it fires on
     every page load, including public pages that never call require_auth.
 
-    PKCE note: the code_verifier is stored in localStorage by _start_oauth.
-    On the first callback load we inject JS to read it and append it as ?cv=…
-    so that on the second load Python can consume both code + verifier together.
+    PKCE note: supabase-py stores the code_verifier in its in-memory storage
+    after sign_in_with_oauth. Since session state is lost across the browser
+    redirect, _start_oauth reads it immediately and embeds it inside the
+    redirect_to URL so it arrives back as ?cv= on the callback.
     """
-    all_params = dict(st.query_params)
-    _dbg(f"handle_oauth_callback fired. Query params: {list(all_params.keys())}")
-
     code = st.query_params.get("code")
     if not code:
-        _dbg("No 'code' param found — skipping callback handler.")
+        _dbg(f"handle_oauth_callback fired. Query params: {list(st.query_params.keys())} — no code, skipping.")
         return
 
+    _dbg(f"handle_oauth_callback fired. Query params: {list(st.query_params.keys())}")
     _dbg(f"OAuth code found (first 10 chars): {code[:10]}…")
 
     verifier = st.query_params.get("cv")
@@ -51,8 +51,6 @@ def handle_oauth_callback(client: Client) -> None:
         return
 
     _dbg(f"code_verifier found (first 10 chars): {verifier[:10]}…")
-
-    # Both auth code and verifier are available — exchange for a session.
     _dbg("Clearing callback query params and calling exchange_code_for_session…")
     st.query_params.pop("code", None)
     st.query_params.pop("state", None)
@@ -133,7 +131,7 @@ def _start_oauth(client: Client, provider: str) -> None:
         # supabase-py (PKCE mode) stores the verifier in its in-memory storage.
         # Session state is lost across the browser redirect, so we read it now
         # and embed it inside the redirect_to param in the OAuth URL so Supabase
-        # echoes it back as a query param when it redirects to our callback.
+        # echoes it back as ?cv= when it redirects to our callback.
         _VERIFIER_KEY = "supabase.auth.token-code-verifier"
         try:
             code_verifier = client.auth._storage.storage.get(_VERIFIER_KEY, "")
@@ -156,7 +154,6 @@ def _start_oauth(client: Client, provider: str) -> None:
             _dbg("WARNING: code_verifier empty — cannot complete PKCE exchange.")
             oauth_url = response.url
 
-        # Redirect the browser via JavaScript
         st.html(f'<script>window.top.location.href = "{oauth_url}";</script>')
         st.info(
             f"Redirecting to {provider.title()}…  "
