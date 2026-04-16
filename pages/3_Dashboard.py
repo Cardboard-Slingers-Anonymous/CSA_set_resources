@@ -2,7 +2,8 @@
 Ratings Dashboard — auth-gated.
 Per-user rating histograms and a sortable community summary table.
 """
-from streamlit.delta_generator import DeltaGenerator
+from typing import TYPE_CHECKING
+if TYPE_CHECKING: from streamlit.delta_generator import DeltaGenerator  # only imported for type hints, not at runtime
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
