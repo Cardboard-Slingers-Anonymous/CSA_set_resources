@@ -13,7 +13,6 @@ OAuth redirects are caught on every page, including public ones.
 """
 
 import streamlit as st
-import streamlit.components.v1 as components
 from supabase import Client
 
 
@@ -86,11 +85,8 @@ def _start_oauth(client: Client, provider: str) -> None:
             "provider": provider,
             "options": {"redirect_to": redirect_to},
         })
-        # Redirect the browser via JavaScript (works inside Streamlit iframes too)
-        components.html(
-            f'<script>window.top.location.href = "{response.url}";</script>',
-            height=0,
-        )
+        # Redirect the browser via JavaScript
+        st.html(f'<script>window.top.location.href = "{response.url}";</script>')
         st.info(
             f"Redirecting to {provider.title()}…  "
             f"[Click here if you are not redirected automatically.]({response.url})"

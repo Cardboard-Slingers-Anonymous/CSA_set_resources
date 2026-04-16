@@ -9,7 +9,6 @@ import json
 
 import pandas as pd
 import streamlit as st
-import streamlit.components.v1 as components
 from streamlit_js_eval import streamlit_js_eval
 
 from auth import require_auth
@@ -42,13 +41,13 @@ set_code, csv_filename = SET_LOOKUP[selected_display]
 # ---------------------------------------------------------------------------
 # JS → Python data bridge.
 #
-# components.html() renders a srcdoc iframe without allow-same-origin, so the
-# table iframe cannot access localStorage directly.  Instead:
+# st.html renders inline in the parent page context (same-origin), but the
+# table's JS still communicates changes via postMessage + localStorage so that
+# Streamlit can read them on Save:
 #
 #   1. A streamlit_js_eval call installs a postMessage listener on the parent
-#      page (same-origin context → can write localStorage).
-#   2. The table iframe fires window.parent.postMessage() — allowed from any
-#      sandboxed iframe as long as allow-scripts is set.
+#      page (can write localStorage directly).
+#   2. The table JS fires window.parent.postMessage() with pending changes.
 #   3. The listener receives the message and merges it into localStorage.
 #   4. A second streamlit_js_eval reads localStorage on Save.
 #
@@ -367,8 +366,8 @@ def build_ratings_table(df_rows, baseline, storage_key):
     )
 
 
-components.html(
-    build_ratings_table(filtered, baseline, storage_key),
-    height=750,
-    scrolling=True,
+st.html(
+    f'<div style="height:750px;overflow:auto">'
+    + build_ratings_table(filtered, baseline, storage_key)
+    + '</div>'
 )
