@@ -48,7 +48,7 @@ def require_auth(client: Client):
     if "user" in st.session_state:
         return st.session_state["user"]
 
-    st.info("👈 Please sign in using the sidebar to access this page.")
+    st.info("Please sign in using the button in the top-right to access this page.")
     st.stop()
 
 
