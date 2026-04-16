@@ -7,7 +7,6 @@ if TYPE_CHECKING: from streamlit.delta_generator import DeltaGenerator  # only i
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
-import streamlit.components.v1 as components
 
 from auth import require_auth
 from ratings_db import get_all_ratings_for_set
@@ -46,7 +45,7 @@ set_code, csv_filename = SET_LOOKUP[selected_display]
 
 cards_df  = load_set(csv_filename, set_code)[["collector_number", "name", "rarity",
                                               "type_line", "colors", "image_small", "image_normal"]]  # Load set and keep only needed columns
-ratings_df: DataFrame = get_all_ratings_for_set(client, set_code)                                                # Fetch all ratings for this set from the DB
+ratings_df: pd.DataFrame = get_all_ratings_for_set(client, set_code)                                                # Fetch all ratings for this set from the DB
 if ratings_df.empty:
     st.info("No ratings yet for this set. Head to the Ratings page to get started.")
     st.stop()                                                                               # Halt execution if there's nothing to display
