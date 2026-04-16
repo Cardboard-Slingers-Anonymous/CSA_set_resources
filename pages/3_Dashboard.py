@@ -100,7 +100,7 @@ def _draw_streamlit_chart(user_name: str, data_to_draw: pd.Series, col_for_chart
 st.subheader("Rating distributions by user")
 
 # --- Create user list and set the comparison user ---
-users: list[str] = ratings_df["user_label"].unique()        # Set all unique users in the dataset as a list
+users: list[str] = ratings_df["user_label"].unique().tolist()        # Set all unique users in the dataset as a list
 active_user: str = user_labels[user.id]
 user_to_compare: str = st.selectbox("Compare against", users)  # Create a selection box for a user to compare
 
