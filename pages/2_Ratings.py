@@ -9,6 +9,7 @@ import json
 
 import pandas as pd
 import streamlit as st
+import streamlit.components.v1 as components
 from streamlit_js_eval import streamlit_js_eval
 
 from auth import require_auth
@@ -41,7 +42,7 @@ set_code, csv_filename = SET_LOOKUP[selected_display]
 # ---------------------------------------------------------------------------
 # JS → Python bridge via localStorage.
 #
-# st.html renders inline in the parent page context (same-origin), so the
+# components.html() renders in an iframe with allow-same-origin, so the
 # table's JS can write pending changes directly to localStorage.
 # Streamlit then reads those pending changes on Save:
 #
@@ -262,8 +263,8 @@ def build_ratings_table(df_rows, baseline, storage_key):
     </style>
     """
 
-    # components.html() iframes have allow-same-origin, so localStorage is
-    # accessible directly here (same origin as the parent page).
+    # components.html() iframes have allow-same-origin, so localStorage
+    # is shared with the parent frame where streamlit_js_eval reads it.
     js = f"""
     <script>
     var SK = {json.dumps(storage_key)};
@@ -273,7 +274,8 @@ def build_ratings_table(df_rows, baseline, storage_key):
             if (!pending[cn]) pending[cn] = {{}};
             pending[cn][field] = val;
             localStorage.setItem(SK, JSON.stringify(pending));
-        }} catch(e) {{}}
+            console.log('[Ratings] storePending', cn, field, val, JSON.parse(localStorage.getItem(SK)));
+        }} catch(e) {{ console.error('[Ratings] storePending error', e); }}
     }}
     </script>
     """
@@ -345,8 +347,8 @@ def build_ratings_table(df_rows, baseline, storage_key):
     )
 
 
-st.html(
-    f'<div style="height:750px;overflow:auto">'
-    + build_ratings_table(filtered, baseline, storage_key)
-    + '</div>'
+components.html(
+    build_ratings_table(filtered, baseline, storage_key),
+    height=750,
+    scrolling=True,
 )
