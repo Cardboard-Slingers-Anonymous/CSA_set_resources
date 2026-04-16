@@ -2,11 +2,13 @@
 Ratings Dashboard — auth-gated.
 Per-user rating histograms and a sortable community summary table.
 """
-
+from streamlit.delta_generator import DeltaGenerator
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 import streamlit.components.v1 as components
+from pandas import DataFrame
+
 from auth import require_auth
 from ratings_db import get_all_ratings_for_set
 from set_data import SET_DISPLAY_NAMES, SET_LOOKUP, RARITY_ORDER, load_set
@@ -44,11 +46,11 @@ set_code, csv_filename = SET_LOOKUP[selected_display]
 
 cards_df  = load_set(csv_filename, set_code)[["collector_number", "name", "rarity",
                                               "type_line", "colors", "image_small", "image_normal"]]  # Load set and keep only needed columns
-ratings_df = get_all_ratings_for_set(client, set_code)                                                # Fetch all ratings for this set from the DB
+ratings_df: DataFrame = get_all_ratings_for_set(client, set_code)                                                # Fetch all ratings for this set from the DB
 if ratings_df.empty:
     st.info("No ratings yet for this set. Head to the Ratings page to get started.")
     st.stop()                                                                               # Halt execution if there's nothing to display
-user_labels = {uid: f"User {i+1}" for i, uid in enumerate(ratings_df["user_id"].unique())}  # Assign anonymous labels to each user_id
+user_labels: dict[str,str] = {uid: f"User {i+1}" for i, uid in enumerate(ratings_df["user_id"].unique())}  # Assign anonymous labels to each user_id
 user_labels[user.id] = "You"                                                                # Override current user's label with "You"
 ratings_df["user_label"] = ratings_df["user_id"].map(user_labels)                           # Add display name column to dataframe
 
@@ -58,17 +60,18 @@ ratings_df["user_label"] = ratings_df["user_id"].map(user_labels)               
 
 st.subheader("Rating distributions by user")
 
-users = ratings_df["user_label"].unique()          # All unique users in the dataset
-#cols  = st.columns(len(users))                    # One column per user for side-by-side charts
-cols = st.columns(2) # set a left and right column
-user_data = ratings_df[ratings_df["user_label"] == user_labels[user.id]]["rating"].dropna()
+users: list[str] = ratings_df["user_label"].unique()          # All unique users in the dataset
+cols: list[DeltaGenerator] = st.columns(2) # set a left and right column
+user_data: pd.Series = ratings_df[ratings_df["user_label"] == user_labels[user.id]]["rating"].dropna()
 
-def _draw_chart(user_name, data_to_draw, col_for_chart):
+def _draw_streamlit_chart(user_name: str, data_to_draw: pd.Series, col_for_chart: DeltaGenerator):
     """
-    Draws a histogram figure on the dashboard
-        user_name: name of the user being drawn (or the figure label)
-        data_to_draw: dataframe containing the data to be plotted
-        col_for_chart: column to draw chart on
+    Renders a rating distribution bar chart into a Streamlit column.
+
+    Args:
+        user_name (str): Display label used as the chart title.
+        data_to_draw (pd.Series): Series of rating values to plot.
+        col_for_chart (DeltaGenerator): Streamlit column to render the chart into.
     """
     # --- initialize bins to count each rating ---
     counts = {b: 0 for b in RATING_BINS}           # Initialize bin counts to 0
@@ -100,8 +103,8 @@ def _draw_chart(user_name, data_to_draw, col_for_chart):
 
     col_for_chart.plotly_chart(fig, use_container_width=True)  # Render chart in its column
 
-_draw_chart(user_labels[user.id],user_data,cols[1])
-_draw_chart(user_labels[user.id],user_data,cols[2])
+_draw_streamlit_chart(user_labels[user.id],user_data,cols[0])
+_draw_streamlit_chart("You again",user_data,cols[1])
 
 # ---------------------------------------------------------------------------
 # Summary table
