@@ -14,6 +14,13 @@ OAuth redirects are caught on every page, including public ones.
 
 import streamlit as st
 from supabase import Client
+from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
+
+DEBUG_AUTH = True  # Set to False to silence OAuth diagnostics
+
+def _dbg(msg: str) -> None:
+    if DEBUG_AUTH:
+        print(f"[AUTH DEBUG] {msg}", flush=True)
 
 
 def handle_oauth_callback(client: Client) -> None:
@@ -22,19 +29,45 @@ def handle_oauth_callback(client: Client) -> None:
 
     Call this ONCE at the top of app.py (before pg.run()) so it fires on
     every page load, including public pages that never call require_auth.
+
+    PKCE note: the code_verifier is stored in localStorage by _start_oauth.
+    On the first callback load we inject JS to read it and append it as ?cv=…
+    so that on the second load Python can consume both code + verifier together.
     """
+    all_params = dict(st.query_params)
+    _dbg(f"handle_oauth_callback fired. Query params: {list(all_params.keys())}")
+
     code = st.query_params.get("code")
     if not code:
+        _dbg("No 'code' param found — skipping callback handler.")
         return
-    # Remove only OAuth callback params so unrelated query params are preserved  
-    st.query_params.pop("code", None)  
+
+    _dbg(f"OAuth code found (first 10 chars): {code[:10]}…")
+
+    verifier = st.query_params.get("cv")
+    if not verifier:
+        _dbg("ERROR: No 'cv' param in callback URL — verifier was not embedded in redirect_to.")
+        st.error("Sign-in failed: missing PKCE verifier. Please try again.")
+        return
+
+    _dbg(f"code_verifier found (first 10 chars): {verifier[:10]}…")
+
+    # Both auth code and verifier are available — exchange for a session.
+    _dbg("Clearing callback query params and calling exchange_code_for_session…")
+    st.query_params.pop("code", None)
     st.query_params.pop("state", None)
+    st.query_params.pop("cv", None)
     try:
-        response = client.auth.exchange_code_for_session({"auth_code": code})
+        response = client.auth.exchange_code_for_session(
+            {"auth_code": code, "code_verifier": verifier}
+        )
+        _dbg(f"exchange_code_for_session succeeded. User: {getattr(response.user, 'email', response.user)}")
         st.session_state["user"] = response.user
         st.session_state.pop("_login_dialog_open", None)
+        _dbg("Session state updated — calling st.rerun()")
         st.rerun()
     except Exception as e:
+        _dbg(f"exchange_code_for_session FAILED: {e}")
         st.error(f"OAuth sign-in failed: {e}")
 
 
@@ -89,13 +122,51 @@ def _start_oauth(client: Client, provider: str) -> None:
     # Configure [app] url in .streamlit/secrets.toml for production.
     # Example:  [app]\n  url = "https://yourapp.streamlit.app"
     redirect_to = st.secrets.get("app", {}).get("url", "http://localhost:8501")
+    _dbg(f"_start_oauth called for provider='{provider}', redirect_to='{redirect_to}'")
     try:
         response = client.auth.sign_in_with_oauth({
             "provider": provider,
             "options": {"redirect_to": redirect_to},
         })
+        code_verifier = getattr(response, "code_verifier", "") or ""
+        _dbg(f"sign_in_with_oauth response received. URL present: {bool(response.url)}. code_verifier present: {bool(code_verifier)} (len={len(code_verifier)})")
+
+        if code_verifier:
+            # The verifier must survive the full redirect chain:
+            #   browser → Google → Supabase → our app
+            # We do this by modifying the `redirect_to` param that is already
+            # encoded inside response.url, appending ?cv=VERIFIER to it so
+            # Supabase echoes it back when it redirects to our callback URL.
+            parsed = urlparse(response.url)
+            params = parse_qs(parsed.query, keep_blank_values=True)
+            if "redirect_to" in params:
+                original_redirect = params["redirect_to"][0]
+                sep = "&" if "?" in original_redirect else "?"
+                params["redirect_to"] = [f"{original_redirect}{sep}cv={code_verifier}"]
+                _dbg(f"Embedded cv into redirect_to: {params['redirect_to'][0][:60]}…")
+            else:
+                _dbg("WARNING: 'redirect_to' not found in OAuth URL params — cv not embedded.")
+            oauth_url = urlunparse(parsed._replace(query=urlencode(params, doseq=True)))
+        else:
+            _dbg("WARNING: code_verifier is empty — PKCE flow may not be enabled on the client.")
+            oauth_url = response.url
+
         # Redirect the browser via JavaScript
-        st.html(f'<script>window.top.location.href = "{response.url}";</script>')
+        st.html(f'<script>window.top.location.href = "{oauth_url}";</script>')
+        st.info(
+            f"Redirecting to {provider.title()}…  "
+            f"[Click here if you are not redirected automatically.]({oauth_url})"
+        )
+        st.stop()
+    except Exception as e:
+        _dbg(f"_start_oauth FAILED: {e}")
+        st.error(f"Could not start {provider.title()} sign-in: {e}")
+        st.html(
+            f"<script>"
+            f"localStorage.setItem('supabase_pkce_verifier', '{code_verifier}');"
+            f"window.top.location.href = '{response.url}';"
+            f"</script>"
+        )
         st.info(
             f"Redirecting to {provider.title()}…  "
             f"[Click here if you are not redirected automatically.]({response.url})"
