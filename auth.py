@@ -115,12 +115,14 @@ def render_auth_widget(client: Client) -> None:
         _login_dialog(client)
 
 
-def _start_oauth(client: Client, provider: str) -> None:
-    """Initiate a PKCE OAuth flow for the given provider and redirect the browser."""
-    # Configure [app] url in .streamlit/secrets.toml for production.
-    # Example:  [app]\n  url = "https://yourapp.streamlit.app"
+def _build_oauth_url(client: Client, provider: str) -> str | None:
+    """
+    Call sign_in_with_oauth, read the PKCE verifier from the client's in-memory
+    storage, embed it in the redirect_to URL, and return the final OAuth URL.
+    Returns None on error.
+    """
     redirect_to = st.secrets.get("app", {}).get("url", "http://localhost:8501")
-    _dbg(f"_start_oauth called for provider='{provider}', redirect_to='{redirect_to}'")
+    _dbg(f"_build_oauth_url called for provider='{provider}', redirect_to='{redirect_to}'")
     try:
         response = client.auth.sign_in_with_oauth({
             "provider": provider,
@@ -128,10 +130,6 @@ def _start_oauth(client: Client, provider: str) -> None:
         })
         _dbg(f"sign_in_with_oauth response received. URL present: {bool(response.url)}")
 
-        # supabase-py (PKCE mode) stores the verifier in its in-memory storage.
-        # Session state is lost across the browser redirect, so we read it now
-        # and embed it inside the redirect_to param in the OAuth URL so Supabase
-        # echoes it back as ?cv= when it redirects to our callback.
         _VERIFIER_KEY = "supabase.auth.token-code-verifier"
         try:
             code_verifier = client.auth._storage.storage.get(_VERIFIER_KEY, "")
@@ -149,44 +147,36 @@ def _start_oauth(client: Client, provider: str) -> None:
                 _dbg(f"Embedded cv into redirect_to: {params['redirect_to'][0][:80]}…")
             else:
                 _dbg("WARNING: 'redirect_to' not found in OAuth URL — cv not embedded.")
-            oauth_url = urlunparse(parsed._replace(query=urlencode(params, doseq=True)))
+            return urlunparse(parsed._replace(query=urlencode(params, doseq=True)))
         else:
             _dbg("WARNING: code_verifier empty — cannot complete PKCE exchange.")
-            oauth_url = response.url
-
-        st.html(f'<script>window.top.location.href = "{oauth_url}";</script>')
-        st.info(
-            f"Redirecting to {provider.title()}…  "
-            f"[Click here if you are not redirected automatically.]({oauth_url})"
-        )
-        st.stop()
+            return response.url
     except Exception as e:
-        _dbg(f"_start_oauth FAILED: {e}")
-        st.error(f"Could not start {provider.title()} sign-in: {e}")
-        st.html(
-            f"<script>"
-            f"localStorage.setItem('supabase_pkce_verifier', '{code_verifier}');"
-            f"window.top.location.href = '{response.url}';"
-            f"</script>"
-        )
-        st.info(
-            f"Redirecting to {provider.title()}…  "
-            f"[Click here if you are not redirected automatically.]({response.url})"
-        )
-        st.stop()
-    except Exception as e:
-        st.error(f"Could not start {provider.title()} sign-in: {e}")
+        _dbg(f"_build_oauth_url FAILED: {e}")
+        return None
 
 
 @st.dialog("Sign in")
 def _login_dialog(client: Client) -> None:
     """Modal dialog containing OAuth buttons and email OTP flow."""
 
-    # OAuth buttons
-    if st.button("Sign in with Google", width="stretch", key="dlg_google"):
-        _start_oauth(client, "google")
-    if st.button("Sign in with GitHub", width="stretch", key="dlg_github"):
-        _start_oauth(client, "github")
+    # Build OAuth URLs eagerly at render time so we can pass them directly to
+    # st.link_button. This renders a real <a> tag — the browser follows it
+    # natively with no JS or iframe sandbox issues.
+    google_url = _build_oauth_url(client, "google")
+    github_url = _build_oauth_url(client, "github")
+
+    if google_url:
+        st.link_button("Sign in with Google", url=google_url, use_container_width=True)
+    else:
+        st.button("Sign in with Google", disabled=True, use_container_width=True)
+        st.caption("Google sign-in unavailable — check logs.")
+
+    if github_url:
+        st.link_button("Sign in with GitHub", url=github_url, use_container_width=True)
+    else:
+        st.button("Sign in with GitHub", disabled=True, use_container_width=True)
+        st.caption("GitHub sign-in unavailable — check logs.")
 
     st.divider()
     st.write("**Or sign in with email:**")
