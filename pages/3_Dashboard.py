@@ -59,10 +59,13 @@ ratings_df["user_label"] = ratings_df["user_id"].map(user_labels)               
 st.subheader("Rating distributions by user")
 
 users = ratings_df["user_label"].unique()          # All unique users in the dataset
-cols  = st.columns(len(users))                     # One column per user for side-by-side charts
+#cols  = st.columns(len(users))                     # One column per user for side-by-side charts
+cols = st.columns(2) # set a left and right column
 
-for col, user_label in zip(cols, users):
-    user_data = ratings_df[ratings_df["user_label"] == user_label]["rating"].dropna()  # Filter & clean ratings for this user
+
+
+def _draw_chart(user_to_draw, col_for_chart):
+    user_data = ratings_df[ratings_df["user_label"] == user_to_draw]["rating"].dropna()  # Filter & clean ratings for this user
     counts = {b: 0 for b in RATING_BINS}           # Initialize bin counts to 0
     for val in user_data:
         rounded = round(val * 2) / 2               # Snap value to nearest 0.5
@@ -74,7 +77,7 @@ for col, user_label in zip(cols, users):
         marker_color=dict(color="#5b8dee"),        # Blue bars cast as a plotly type to match stubs
     ))
     fig.update_layout(
-        title=user_label,                          # Chart title = user label
+        title=user_to_draw,                          # Chart title = user label
         xaxis_title="Rating",
         yaxis_title="# Cards",
         margin=dict(l=20, r=20, t=40, b=40),       # Tight margins
@@ -83,7 +86,10 @@ for col, user_label in zip(cols, users):
         paper_bgcolor="#0e1117",                   # Dark paper background
         font_color="#e0e0e0",                      # Light text
     )
-    col.plotly_chart(fig, use_container_width=True)  # Render chart in its column
+    col_for_chart.plotly_chart(fig, use_container_width=True)  # Render chart in its column
+
+_draw_chart(user,cols[1])
+_draw_chart(user,cols[2])
 
 # ---------------------------------------------------------------------------
 # Summary table
