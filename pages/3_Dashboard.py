@@ -64,7 +64,7 @@ def _draw_streamlit_chart(user_name: str, data_to_draw: pd.Series, col_for_chart
     Args:
         user_name (str): Display label used as the chart title.
         data_to_draw (pd.Series): Series of rating values to plot.
-        col_for_chart (DeltaGenerator): Streamlit column to render the chart into.
+        col_for_chart (StreamlitColumn): Streamlit column to render the chart into (alias for Any object).
     """
     # --- initialize bins to count each rating ---
     counts = {b: 0 for b in RATING_BINS}           # Initialize bin counts to 0
@@ -94,7 +94,7 @@ def _draw_streamlit_chart(user_name: str, data_to_draw: pd.Series, col_for_chart
         font_color="#e0e0e0",                      # Light text
     )
 
-    col_for_chart.plotly_chart(fig, use_container_width=True)  # Render chart in its column
+    col_for_chart.plotly_chart(fig, width='stretch')  # Render chart in its column
 
 # --- Draw the header ---
 st.subheader("Rating distributions by user")
@@ -103,11 +103,15 @@ st.subheader("Rating distributions by user")
 all_users: list[str] = ratings_df["user_label"].unique()                            # Set all unique users in the dataset as a list
 active_user: str = user_labels[user.id]                                             # Set name of active user for easy reference later
 all_other_users: list[str] = [user for user in all_users if user != active_user]    # Create list of users other than the active user.
+all_other_users.insert(0, "Aggregated Ratings")                         # Add a dummy user for aggregated ratings
 user_to_compare: str = st.selectbox("Compare against", all_other_users)  # Create a selection box for a user to compare
 
 # --- Create a cleaned pandas data series for the active user and comparison user ---
 active_user_data: pd.Series = ratings_df[ratings_df["user_label"] == active_user]["rating"].dropna()
-comparison_user_data: pd.Series = ratings_df[ratings_df["user_label"] == user_to_compare]["rating"].dropna()
+if user_to_compare == "Aggregated Ratings":
+    comparison_user_data: pd.Series = ratings_df["rating"].dropna()     # If Aggregated ratings is selected, use all ratings
+else:
+    comparison_user_data: pd.Series = ratings_df[ratings_df["user_label"] == user_to_compare]["rating"].dropna()    # Otherwise use just selected user
 
 # --- Create the streamlit StreamlitColumn objects ---
 cols: list[StreamlitColumn] = st.columns(2)
