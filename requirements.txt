@@ -3,3 +3,5 @@ streamlit==1.56.0
 supabase>=2.0.0
 plotly>=5.0.0
 streamlit-js-eval>=0.1.0
+
+requests
