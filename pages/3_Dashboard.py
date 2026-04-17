@@ -2,12 +2,11 @@
 Ratings Dashboard — auth-gated.
 Per-user rating histograms and a sortable community summary table.
 """
-from typing import TYPE_CHECKING
-if TYPE_CHECKING: from streamlit.delta_generator import DeltaGenerator  # only imported for type hints, not at runtime
+from typing import Any
+StreamlitColumn = Any # Create an alias for verbose typing
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
-import streamlit.components.v1 as components
 
 from auth import require_auth
 from ratings_db import get_all_ratings_for_set
@@ -46,7 +45,7 @@ set_code, csv_filename = SET_LOOKUP[selected_display]
 
 cards_df  = load_set(csv_filename, set_code)[["collector_number", "name", "rarity",
                                               "type_line", "colors", "image_small", "image_normal"]]  # Load set and keep only needed columns
-ratings_df: DataFrame = get_all_ratings_for_set(client, set_code)                                                # Fetch all ratings for this set from the DB
+ratings_df: pd.DataFrame = get_all_ratings_for_set(client, set_code)                                                # Fetch all ratings for this set from the DB
 if ratings_df.empty:
     st.info("No ratings yet for this set. Head to the Ratings page to get started.")
     st.stop()                                                                               # Halt execution if there's nothing to display
@@ -58,7 +57,7 @@ ratings_df["user_label"] = ratings_df["user_id"].map(user_labels)               
 # Per-user rating histograms
 # ---------------------------------------------------------------------------
 
-def _draw_streamlit_chart(user_name: str, data_to_draw: pd.Series, col_for_chart: DeltaGenerator):
+def _draw_streamlit_chart(user_name: str, data_to_draw: pd.Series, col_for_chart: StreamlitColumn):
     """
     Renders a rating distribution bar chart into a Streamlit column.
 
@@ -101,16 +100,17 @@ def _draw_streamlit_chart(user_name: str, data_to_draw: pd.Series, col_for_chart
 st.subheader("Rating distributions by user")
 
 # --- Create user list and set the comparison user ---
-users: list[str] = ratings_df["user_label"].unique()        # Set all unique users in the dataset as a list
-active_user: str = user_labels[user.id]
-user_to_compare: str = st.selectbox("Compare against", users)  # Create a selection box for a user to compare
+all_users: list[str] = ratings_df["user_label"].unique()                            # Set all unique users in the dataset as a list
+active_user: str = user_labels[user.id]                                             # Set name of active user for easy reference later
+all_other_users: list[str] = [user for user in all_users if user != active_user]    # Create list of users other than the active user.
+user_to_compare: str = st.selectbox("Compare against", all_other_users)  # Create a selection box for a user to compare
 
 # --- Create a cleaned pandas data series for the active user and comparison user ---
 active_user_data: pd.Series = ratings_df[ratings_df["user_label"] == active_user]["rating"].dropna()
 comparison_user_data: pd.Series = ratings_df[ratings_df["user_label"] == user_to_compare]["rating"].dropna()
 
-# --- Create the streamlit DeltaGenerator column objects ---
-cols: list[DeltaGenerator] = st.columns(2)
+# --- Create the streamlit StreamlitColumn objects ---
+cols: list[StreamlitColumn] = st.columns(2)
 
 # --- Draw the histogram tables ---
 _draw_streamlit_chart(active_user,active_user_data,cols[0])
