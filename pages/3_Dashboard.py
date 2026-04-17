@@ -64,7 +64,7 @@ def _draw_streamlit_chart(user_name: str, data_to_draw: pd.Series, col_for_chart
     Args:
         user_name (str): Display label used as the chart title.
         data_to_draw (pd.Series): Series of rating values to plot.
-        col_for_chart (DeltaGenerator): Streamlit column to render the chart into.
+        col_for_chart (StreamlitColumn): Streamlit column to render the chart into (alias for Any object).
     """
     # --- initialize bins to count each rating ---
     counts = {b: 0 for b in RATING_BINS}           # Initialize bin counts to 0
