@@ -95,7 +95,7 @@ def _draw_streamlit_chart(user_name: str, data_to_draw: pd.Series, col_for_chart
         font_color="#e0e0e0",                      # Light text
     )
 
-    col_for_chart.plotly_chart(fig, width='stretch')  # Render chart in its column
+    col_for_chart.plotly_chart(fig, use_container_width=True)  # Render chart in its column
 
 # --- Draw the header ---
 st.subheader("Rating distributions by user")
