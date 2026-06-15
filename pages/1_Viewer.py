@@ -5,10 +5,10 @@ Public page — no authentication required.
 
 import streamlit as st
 from set_data import (
-    SET_DISPLAY_NAMES, SET_LOOKUP,
     RARITY_ORDER, COLOR_OPTIONS, COLOR_LABELS,
-    load_set,
+    get_active_sets, load_set,
 )
+from supabase_client import get_client
 
 # ---------------------------------------------------------------------------
 # Page setup
@@ -26,8 +26,11 @@ st.title("🃏 MTGA Set Card Viewer")
 # Set selector
 # ---------------------------------------------------------------------------
 
-selected_display = st.selectbox("Select a set", SET_DISPLAY_NAMES)
-set_code, csv_filename = SET_LOOKUP[selected_display]
+client = get_client()
+set_display_names, set_lookup = get_active_sets(client)
+
+selected_display = st.selectbox("Select a set", set_display_names)
+set_code, csv_filename = set_lookup[selected_display]
 df = load_set(csv_filename, set_code)
 
 # ---------------------------------------------------------------------------

@@ -10,7 +10,7 @@ import streamlit as st
 
 from auth import require_auth
 from ratings_db import get_all_ratings_for_set
-from set_data import SET_DISPLAY_NAMES, SET_LOOKUP, RARITY_ORDER, load_set
+from set_data import get_active_sets, RARITY_ORDER, load_set
 from supabase_client import get_client
 
 RATING_BINS   = [0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0]
@@ -36,8 +36,9 @@ user   = require_auth(client)
 
 st.title("📊 Ratings Dashboard")
 
-selected_display = st.selectbox("Select a set", SET_DISPLAY_NAMES)
-set_code, csv_filename = SET_LOOKUP[selected_display]
+set_display_names, set_lookup = get_active_sets(client)
+selected_display = st.selectbox("Select a set", set_display_names)
+set_code, csv_filename = set_lookup[selected_display]
 
 # ---------------------------------------------------------------------------
 # Load data

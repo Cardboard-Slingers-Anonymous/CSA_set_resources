@@ -16,7 +16,7 @@ from auth import require_auth
 from ratings_db import delete_rating, get_user_ratings, upsert_rating
 from set_data import (
     COLOR_LABELS, COLOR_OPTIONS, RARITY_ORDER,
-    SET_DISPLAY_NAMES, SET_LOOKUP, load_set,
+    get_active_sets, load_set,
 )
 from supabase_client import get_client
 
@@ -36,8 +36,9 @@ user_id = user.id
 # Set selector
 # ---------------------------------------------------------------------------
 
-selected_display = st.selectbox("Select a set", SET_DISPLAY_NAMES)
-set_code, csv_filename = SET_LOOKUP[selected_display]
+set_display_names, set_lookup = get_active_sets(client)
+selected_display = st.selectbox("Select a set", set_display_names)
+set_code, csv_filename = set_lookup[selected_display]
 
 # ---------------------------------------------------------------------------
 # JS → Python bridge via localStorage.
