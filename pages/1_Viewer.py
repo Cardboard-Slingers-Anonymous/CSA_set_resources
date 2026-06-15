@@ -26,9 +26,13 @@ st.title("🃏 MTGA Set Card Viewer")
 # Set selector
 # ---------------------------------------------------------------------------
 
-client = get_client()
-set_display_names, set_lookup = get_active_sets(client)
+try:
+    client = get_client()
+    set_display_names, set_lookup = get_active_sets(client)
+except Exception:
+    from set_data import SET_DISPLAY_NAMES, SET_LOOKUP
 
+    set_display_names, set_lookup = SET_DISPLAY_NAMES, SET_LOOKUP
 selected_display = st.selectbox("Select a set", set_display_names)
 set_code, csv_filename = set_lookup[selected_display]
 df = load_set(csv_filename, set_code)
