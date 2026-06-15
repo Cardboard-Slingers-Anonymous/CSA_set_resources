@@ -142,7 +142,7 @@ FROM pg_settings
 WHERE name IN ('shared_buffers', 'work_mem', 'maintenance_work_mem');
 ```
 
-## �️ PostgreSQL Advanced Data Types
+## PostgreSQL Advanced Data Types
 
 ### Custom Types & Domains
 ```sql
