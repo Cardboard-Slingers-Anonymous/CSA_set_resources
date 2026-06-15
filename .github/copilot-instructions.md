@@ -87,6 +87,19 @@ pages/
 
 ---
 
+## Code Style
+
+All Python files must conform to **PEP 8** and pass `ruff` lint + format checks (enforced by CI).
+
+- **Formatter**: `ruff format` (88-character line length default). Run before committing.
+- **Linter**: `ruff check`. All errors must be resolved; do not silence rules without justification.
+- **Imports**: Standard library → third-party → local, each group separated by a blank line. No imports between non-import statements (avoids `E402`).
+- **Naming**: `snake_case` for functions and variables, `PascalCase` for classes, `UPPER_SNAKE_CASE` for module-level constants.
+- **Suppressing rules**: Use `# nosec <ID>` (bandit) or `# noqa: <CODE>` (ruff) only when the flag is a confirmed false positive. Always include a brief explanation on the same line.
+- **New files**: Run `ruff format <file>` and `ruff check <file>` immediately after creating a file to catch issues before committing.
+
+---
+
 ## Development Patterns
 
 - **Do not** use `st.cache_resource` for the Supabase client — always use `st.session_state`.
