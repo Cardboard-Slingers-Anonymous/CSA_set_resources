@@ -53,16 +53,20 @@ def fetch_cards_for_set(set_code):
     cards = []
     import urllib.parse
     import urllib.request
+
     query = f"set:{set_code}"
     encoded_q = urllib.parse.quote(query)
     url = f"https://api.scryfall.com/cards/search?q={encoded_q}&order=set&unique=cards"
     while url:
         print(f"  Fetching: {url[:80]}...")
-        req = urllib.request.Request(url, headers={
-            "User-Agent": "ProjectDepot/1.0 (github.com/djsmith17)",
-            "Accept": "application/json",
-        })
-        with urllib.request.urlopen(req) as resp:
+        req = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": "ProjectDepot/1.0 (github.com/djsmith17)",
+                "Accept": "application/json",
+            },
+        )
+        with urllib.request.urlopen(req) as resp:  # nosec B310 - URL is always HTTPS (api.scryfall.com)
             data = json.loads(resp.read().decode())
         cards.extend(data.get("data", []))
         url = data.get("next_page") if data.get("has_more") else None

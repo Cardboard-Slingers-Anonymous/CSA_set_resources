@@ -61,7 +61,9 @@ def get_all_ratings_for_set(client: Client, set_code: str) -> pd.DataFrame:
         .execute()
     )
     if not response.data:
-        return pd.DataFrame(columns=["user_id", "collector_number", "card_name", "rating", "notes"])
+        return pd.DataFrame(
+            columns=["user_id", "collector_number", "card_name", "rating", "notes"]
+        )
 
     df = pd.DataFrame(response.data)
     df["rating"] = pd.to_numeric(df["rating"], errors="coerce")
@@ -78,9 +80,9 @@ def delete_rating(
     Remove a user's rating for a single card.
     Called when the user clears their rating back to "—".
     """
-    client.table("ratings").delete().eq("user_id", user_id).eq(
-        "set_code", set_code
-    ).eq("collector_number", collector_number).execute()
+    client.table("ratings").delete().eq("user_id", user_id).eq("set_code", set_code).eq(
+        "collector_number", collector_number
+    ).execute()
 
 
 def upsert_rating(

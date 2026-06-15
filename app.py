@@ -17,9 +17,11 @@ _client = get_client()
 handle_oauth_callback(_client)
 render_auth_widget(_client)
 
-pg = st.navigation([
-    st.Page("pages/1_Viewer.py", title="Viewer", icon="🔍"),
-    st.Page("pages/2_Ratings.py", title="Ratings", icon="⭐"),
-    st.Page("pages/3_Dashboard.py", title="Dashboard", icon="📊"),
-])
+pg = st.navigation(
+    [
+        st.Page("pages/1_Viewer.py", title="Viewer", icon="🔍"),
+        st.Page("pages/2_Ratings.py", title="Ratings", icon="⭐"),
+        st.Page("pages/3_Dashboard.py", title="Dashboard", icon="📊"),
+    ]
+)
 pg.run()
