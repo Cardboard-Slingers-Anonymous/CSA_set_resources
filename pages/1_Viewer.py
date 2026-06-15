@@ -3,7 +3,11 @@ MTGA Set Card Viewer
 Public page — no authentication required.
 """
 
+import html
+import re
+
 import streamlit as st
+import streamlit.components.v1 as components
 from set_data import (
     SET_DISPLAY_NAMES, SET_LOOKUP,
     RARITY_ORDER, COLOR_OPTIONS, COLOR_LABELS,
@@ -82,9 +86,36 @@ st.caption(
 # HTML table with CSS hover-to-preview
 # ---------------------------------------------------------------------------
 
+_PIP_MAP = {
+    "W": "w", "U": "u", "B": "b", "R": "r", "G": "g",
+    "C": "c", "X": "x", "Y": "y", "Z": "z", "T": "t", "Q": "q",
+    "S": "s", "E": "e", "P": "p",
+    **{str(n): str(n) for n in range(21)},
+    "W/U": "wu", "W/B": "wb", "U/B": "ub", "U/R": "ur",
+    "B/R": "br", "B/G": "bg", "R/G": "rg", "R/W": "rw",
+    "G/W": "gw", "G/U": "gu",
+    "W/P": "wp", "U/P": "up", "B/P": "bp", "R/P": "rp", "G/P": "gp",
+    "2/W": "2w", "2/U": "2u", "2/B": "2b", "2/R": "2r", "2/G": "2g",
+}
+
+def mana_cost_html(cost_str: str) -> str:
+    if not cost_str or cost_str in ("nan", "None", ""):
+        return ""
+    def replace_pip(m):
+        pip = m.group(1)
+        key = _PIP_MAP.get(pip.upper())
+        return f'<i class="ms ms-{key} ms-cost"></i>' if key else html.escape(m.group(0))
+    # Escape non-pip text, then substitute {X} tokens with icon tags
+    safe = html.escape(cost_str)
+    # html.escape turns { } into { } (they're not HTML special chars), so regex still matches
+    return re.sub(r"\{([^}]+)\}", replace_pip, safe)
+
+
 def build_html_table(df_rows):
     css = """
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mana-font@latest/css/mana.css">
     <style>
+    .ms { font-size: 14px; }
     .card-table {
         width: 100%;
         border-collapse: collapse;
@@ -182,7 +213,7 @@ def build_html_table(df_rows):
             f"<td>{img_html}</td>"
             f"<td style='white-space:nowrap'>{r['collector_number']}</td>"
             f"<td><b>{r['name']}</b></td>"
-            f"<td style='white-space:nowrap'>{r['mana_cost']}</td>"
+            f"<td style='white-space:nowrap'>{mana_cost_html(str(r['mana_cost']))}</td>"
             f"<td>{r['cmc']}</td>"
             f"<td style='white-space:nowrap'>{r['type_line']}</td>"
             f"<td style='white-space:nowrap'>{r['rarity'].capitalize()}</td>"
@@ -206,4 +237,4 @@ def build_html_table(df_rows):
     )
 
 
-st.html(f'<div style="height:750px;overflow:auto">{build_html_table(filtered)}</div>')
+components.html(build_html_table(filtered), height=750, scrolling=True)

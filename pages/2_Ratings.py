@@ -193,9 +193,35 @@ with col_btn:
 # Build ratings HTML table
 # ---------------------------------------------------------------------------
 
+_PIP_MAP = {
+    "W": "w", "U": "u", "B": "b", "R": "r", "G": "g",
+    "C": "c", "X": "x", "Y": "y", "Z": "z", "T": "t", "Q": "q",
+    "S": "s", "E": "e", "P": "p",
+    **{str(n): str(n) for n in range(21)},
+    "W/U": "wu", "W/B": "wb", "U/B": "ub", "U/R": "ur",
+    "B/R": "br", "B/G": "bg", "R/G": "rg", "R/W": "rw",
+    "G/W": "gw", "G/U": "gu",
+    "W/P": "wp", "U/P": "up", "B/P": "bp", "R/P": "rp", "G/P": "gp",
+    "2/W": "2w", "2/U": "2u", "2/B": "2b", "2/R": "2r", "2/G": "2g",
+}
+
+def mana_cost_html(cost_str: str) -> str:
+    import re
+    if not cost_str or cost_str in ("nan", "None", ""):
+        return ""
+    def replace_pip(m):
+        pip = m.group(1)
+        key = _PIP_MAP.get(pip.upper())
+        return f'<i class="ms ms-{key} ms-cost"></i>' if key else html.escape(m.group(0))
+    safe = html.escape(cost_str)
+    return re.sub(r"\{([^}]+)\}", replace_pip, safe)
+
+
 def build_ratings_table(df_rows, baseline, storage_key):
     css = """
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mana-font@latest/css/mana.css">
     <style>
+    .ms { font-size: 14px; }
     body { margin: 0; background: transparent; }
     .card-table {
         width: 100%;
@@ -333,7 +359,7 @@ def build_ratings_table(df_rows, baseline, storage_key):
             f"<td>{img_html}</td>"
             f"<td style='white-space:nowrap'>{html.escape(cn)}</td>"
             f"<td><b>{html.escape(str(r['name']))}</b></td>"
-            f"<td style='white-space:nowrap'>{html.escape(str(r['mana_cost']))}</td>"
+            f"<td style='white-space:nowrap'>{mana_cost_html(str(r['mana_cost']))}</td>"
             f"<td style='white-space:nowrap;font-size:11px'>{html.escape(str(r['type_line']))}</td>"
             f"<td style='white-space:nowrap'>{html.escape(str(r['rarity']).capitalize())}</td>"
             f"<td>{rating_cell}</td>"
