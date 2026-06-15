@@ -238,7 +238,7 @@ Whenever Slash attacks, create a 2/2 red Mutant creature token.",7,5,,Alliance,T
 109,Spicy Oatmeal Pizza,{2}{R},3.0,Artifact — Food,uncommon,R,R,"When this artifact enters, it deals 4 damage to any target and 3 damage to you.
 {2}, {T}, Sacrifice this artifact: You gain 3 life.",,,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/109/spicy-oatmeal-pizza?utm_source=api
 110,"Wingnut, Bat on the Belfry",{1}{R},2.0,Legendary Creature — Bat Mutant,uncommon,R,R,"Alliance — Whenever another creature you control enters, Wingnut gains your choice of flying, menace, or haste until end of turn.
-Whenever Wingnut attacks, each other attacking creature gets +1/+0 until end of turn.",1,2,,"Alliance, Menace",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/110/wingnut-bat-on-the-belfry?utm_source=api
+Whenever Wingnut attacks, each other attacking creature gets +1/+0 until end of turn.",1,2,,Alliance,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/110/wingnut-bat-on-the-belfry?utm_source=api
 111,"Zog, Triceraton Castaway",{4}{R},5.0,Legendary Creature — Dinosaur Soldier,common,R,R,"Reach, trample
 When Zog enters, target creature can't block this turn.
 Mountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)",5,4,,"Mountaincycling, Reach, Landcycling, Trample, Typecycling, Cycling",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/111/zog-triceraton-castaway?utm_source=api
@@ -359,7 +359,7 @@ Disappear — This creature enters with two +1/+1 counters on it if a permanent 
 167,"Raph & Mikey, Troublemakers",{5}{R/G}{R/G},7.0,Legendary Creature — Mutant Ninja Turtle,rare,"G, R","G, R","Trample, haste
 Whenever Raph & Mikey attack, reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield tapped and attacking and the rest on the bottom of your library in a random order.",7,7,,"Haste, Trample",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/167/raph-&-mikey-troublemakers?utm_source=api
 168,Slithering Cryptid,{2}{G/U},3.0,Creature — Fish Mutant,common,"G, U","G, U","When this creature enters, create a Mutagen token. (It's an artifact with ""{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."")",2,3,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/168/slithering-cryptid?utm_source=api
-169,"Splinter, Radical Rat",{1}{W/B}{W/B},3.0,Legendary Creature — Mutant Ninja Rat,rare,"B, W","B, U, W","If an ability of a Ninja creature you control triggers, that ability triggers an additional time.
+169,"Splinter, Radical Rat",{1}{W/B}{W/B},3.0,Legendary Creature — Mutant Ninja Rat,rare,"B, W","B, U, W","If a triggered ability of a Ninja creature you control triggers, that ability triggers an additional time.
 {1}{U}: Target Ninja can't be blocked this turn.",2,4,,,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/169/splinter-radical-rat?utm_source=api
 170,Tainted Treats,{1}{B}{G},3.0,Instant,uncommon,"B, G","B, G","Destroy target artifact or creature. If its mana value was 4 or less, create a Food token. (It's an artifact with ""{2}, {T}, Sacrifice this token: You gain 3 life."")",,,,Food,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/170/tainted-treats?utm_source=api
 171,"Tokka & Rahzar, Terrible Twos",{B/R}{B/R},2.0,Legendary Creature — Turtle Wolf Mutant,rare,"B, R","B, R","This spell can't be countered.
@@ -387,7 +387,7 @@ This creature can't attack or block unless its power is 6 or greater.
 When this Vehicle enters, create a 2/2 red Mutant creature token.
 Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)",3,4,,"Flying, Crew",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/180/turtle-blimp?utm_source=api
 181,Turtle Van,{3},3.0,Artifact — Vehicle,rare,,,"Whenever this Vehicle attacks, put a +1/+1 counter on target creature that crewed it this turn. Then if that creature is a Mutant, Ninja, or Turtle, double the number of +1/+1 counters on it.
-Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",4,4,,Crew,Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/181/turtle-van?utm_source=api
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",4,4,,"Crew, Double",Teenage Mutant Ninja Turtles,2026-03-06,https://scryfall.com/card/tmt/181/turtle-van?utm_source=api
 182,Weather Maker,{3},3.0,Artifact,rare,,,"Landfall — Whenever a land you control enters, put a charge counter on this artifact.
 {T}: Add one mana of any color.
 {T}, Remove two charge counters from this artifact: Add {C}{C}.

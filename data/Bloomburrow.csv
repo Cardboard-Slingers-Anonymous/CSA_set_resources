@@ -302,7 +302,7 @@ This creature enters with a +1/+1 counter on it if an opponent lost life this tu
 138,Heartfire Hero,{R},1.0,Creature — Mouse Soldier,uncommon,R,R,"Valiant — Whenever this creature becomes the target of a spell or ability you control for the first time each turn, put a +1/+1 counter on it.
 When this creature dies, it deals damage equal to its power to each opponent.",1,1,,Valiant,Bloomburrow,2024-08-02,https://scryfall.com/card/blb/138/heartfire-hero?utm_source=api
 A-138,A-Heartfire Hero,{R},1.0,Creature — Mouse Soldier,uncommon,R,R,"Valiant — Whenever Heartfire Hero becomes the target of a spell or ability you control for the first time each turn, put a +1/+1 counter on it.
-When Heartfire Hero dies, it deals damage equal to its power to each opponent.",0,1,,Valiant,Bloomburrow,2024-08-02,https://scryfall.com/card/blb/A-138/a-heartfire-hero?utm_source=api
+When Heartfire Hero dies, it deals damage equal to its power to each opponent.",0,1,,Valiant,Bloomburrow,2024-11-11,https://scryfall.com/card/blb/A-138/a-heartfire-hero?utm_source=api
 139,Hearthborn Battler,{2}{R},3.0,Creature — Lizard Warlock,rare,R,R,"Haste
 Whenever a player casts their second spell each turn, this creature deals 2 damage to target opponent.",2,3,,Haste,Bloomburrow,2024-08-02,https://scryfall.com/card/blb/139/hearthborn-battler?utm_source=api
 140,Hired Claw,{R},1.0,Creature — Lizard Mercenary,rare,R,R,"Whenever you attack with one or more Lizards, this creature deals 1 damage to target opponent.
@@ -536,7 +536,7 @@ Reach
 {5}, {T}, Sacrifice this artifact: Destroy target nonland permanent. Activate only as a sorcery.",,,,Food,Bloomburrow,2024-08-02,https://scryfall.com/card/blb/244/bumbleflowers-sharepot?utm_source=api
 245,Fountainport Bell,{1},1.0,Artifact,common,,,"When this artifact enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.
 {1}, Sacrifice this artifact: Draw a card.",,,,,Bloomburrow,2024-08-02,https://scryfall.com/card/blb/245/fountainport-bell?utm_source=api
-246,Heirloom Epic,{1},1.0,Artifact,uncommon,,,"{4}, {T}: Draw a card. For each mana in this ability's activation cost, you may tap an untapped creature you control rather than pay that mana. Activate only as a sorcery.",,,,,Bloomburrow,2024-08-02,https://scryfall.com/card/blb/246/heirloom-epic?utm_source=api
+246,Heirloom Epic,{1},1.0,Artifact — Book,uncommon,,,"{4}, {T}: Draw a card. For each mana in this ability's activation cost, you may tap an untapped creature you control rather than pay that mana. Activate only as a sorcery.",,,,,Bloomburrow,2024-08-02,https://scryfall.com/card/blb/246/heirloom-epic?utm_source=api
 247,Patchwork Banner,{3},3.0,Artifact,uncommon,,,"As this artifact enters, choose a creature type.
 Creatures you control of the chosen type get +1/+1.
 {T}: Add one mana of any color.",,,,,Bloomburrow,2024-08-02,https://scryfall.com/card/blb/247/patchwork-banner?utm_source=api
@@ -589,7 +589,7 @@ Other creatures you control have prowess. (If a creature has multiple instances 
 Whenever you cast a noncreature spell, target creature you control can't be blocked this turn.",3,3,,Prowess,Bloomburrow,2024-08-02,https://scryfall.com/card/blb/379/bria-riptide-rogue?utm_source=api
 380,"Byrke, Long Ear of the Law",{4}{G}{W},6.0,Legendary Creature — Rabbit Soldier,mythic,"G, W","G, W","Vigilance
 When Byrke enters, put a +1/+1 counter on each of up to two target creatures.
-Whenever a creature you control with a +1/+1 counter on it attacks, double the number of +1/+1 counters on it.",4,4,,Vigilance,Bloomburrow,2024-08-02,https://scryfall.com/card/blb/380/byrke-long-ear-of-the-law?utm_source=api
+Whenever a creature you control with a +1/+1 counter on it attacks, double the number of +1/+1 counters on it.",4,4,,"Vigilance, Double",Bloomburrow,2024-08-02,https://scryfall.com/card/blb/380/byrke-long-ear-of-the-law?utm_source=api
 387,Serra Redeemer,{3}{W}{W},5.0,Creature — Angel Soldier,rare,W,W,"Flying
 Whenever another creature you control with power 2 or less enters, put two +1/+1 counters on that creature.",2,4,,Flying,Bloomburrow,2024-08-02,https://scryfall.com/card/blb/387/serra-redeemer?utm_source=api
 388,Charmed Sleep,{1}{U}{U},3.0,Enchantment — Aura,common,U,U,"Enchant creature

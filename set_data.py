@@ -30,6 +30,7 @@ SETS = [
     ("ecl", "Lorwyn_Eclipsed",               "Lorwyn Eclipsed"),
     ("tmt", "MTG_TeenageMutantNinjaTurtles", "Teenage Mutant Ninja Turtles"),
     ("sos", "Secrets_of_Strixhaven",         "Secrets of Strixhaven"),
+    ("msh", "Marvel_Super_Heroes",           "Marvel Super Heroes"),
 ]
 
 # Module-level constants built from the fallback list.

@@ -204,7 +204,7 @@ Flurry — Whenever you cast your second spell each turn, create a 1/1 white Mon
 Equip {1}{R}",,,,"Flurry, Equip",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/103/cori-steel-cutter?utm_source=api
 A-103,A-Cori-Steel Cutter,{1}{R},2.0,Artifact — Equipment,rare,R,R,"Equipped creature has haste.
 Flurry — Whenever you cast your second spell each turn, create a 1/1 white Monk creature token with prowess. You may attach this Equipment to it.
-Equip {1}{R}",,,,"Flurry, Equip",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/A-103/a-cori-steel-cutter?utm_source=api
+Equip {1}{R}",,,,"Flurry, Equip",Tarkir: Dragonstorm,2025-08-18,https://scryfall.com/card/tdm/A-103/a-cori-steel-cutter?utm_source=api
 104,Devoted Duelist,{1}{R},2.0,Creature — Goblin Monk,common,R,R,"Haste
 Flurry — Whenever you cast your second spell each turn, this creature deals 1 damage to each opponent.",2,1,,"Flurry, Haste",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/104/devoted-duelist?utm_source=api
 105,Dracogenesis,{6}{R}{R},8.0,Enchantment,mythic,R,R,You may cast Dragon spells without paying their mana costs.,,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/105/dracogenesis?utm_source=api
@@ -304,7 +304,7 @@ Target creature you control deals damage equal to its power to target creature o
 154,Roamer's Routine,{2}{G},3.0,Sorcery,common,G,G,"Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
 Harmonize {4}{G} (You may cast this card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile this spell.)",,,,Harmonize,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/154/roamers-routine?utm_source=api
 155,Sage of the Fang,{2}{G},3.0,Creature — Human Druid,uncommon,G,G,"When this creature enters, put a +1/+1 counter on target creature.
-Renew — {3}{G}, Exile this card from your graveyard: Put a +1/+1 counter on target creature, then double the number of +1/+1 counters on that creature. Activate only as a sorcery.",2,2,,Renew,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/155/sage-of-the-fang?utm_source=api
+Renew — {3}{G}, Exile this card from your graveyard: Put a +1/+1 counter on target creature, then double the number of +1/+1 counters on that creature. Activate only as a sorcery.",2,2,,"Renew, Double",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/155/sage-of-the-fang?utm_source=api
 156,Sagu Pummeler,{3}{G},4.0,Creature — Beast,common,G,G,"Reach
 Renew — {4}{G}, Exile this card from your graveyard: Put two +1/+1 counters and a reach counter on target creature. Activate only as a sorcery.",4,4,,"Reach, Renew",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/156/sagu-pummeler?utm_source=api
 157,Sagu Wildling // Roost Seek,{4}{G} // {G},5.0,Creature — Dragon // Sorcery — Omen,common,G,G,,3,3,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/157/sagu-wildling-roost-seek?utm_source=api
@@ -349,7 +349,7 @@ At the beginning of your upkeep, for each color, put a +1/+1 counter on a Dragon
 178,Disruptive Stormbrood // Petty Revenge,{4}{G} // {1}{B},5.0,Creature — Dragon // Sorcery — Omen,uncommon,G,"B, G",,3,3,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/178/disruptive-stormbrood-petty-revenge?utm_source=api
 179,Dragonback Assault,{3}{G}{U}{R},6.0,Enchantment,mythic,"G, R, U","G, R, U","When this enchantment enters, it deals 3 damage to each creature and each planeswalker.
 Landfall — Whenever a land you control enters, create a 4/4 red Dragon creature token with flying.",,,,Landfall,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/179/dragonback-assault?utm_source=api
-180,Dragonclaw Strike,{2/G}{2/U}{2/R},6.0,Sorcery,uncommon,"G, R, U","G, R, U",Double the power and toughness of target creature you control until end of turn. Then it fights up to one target creature an opponent controls. (Each deals damage equal to its power to the other.),,,,Fight,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/180/dragonclaw-strike?utm_source=api
+180,Dragonclaw Strike,{2/G}{2/U}{2/R},6.0,Sorcery,uncommon,"G, R, U","G, R, U",Double the power and toughness of target creature you control until end of turn. Then it fights up to one target creature an opponent controls. (Each deals damage equal to its power to the other.),,,,"Fight, Double",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/180/dragonclaw-strike?utm_source=api
 181,Effortless Master,{2}{U}{R},4.0,Creature — Orc Monk,uncommon,"R, U","R, U","Vigilance
 Menace (This creature can't be blocked except by two or more creatures.)
 This creature enters with two +1/+1 counters on it if you've cast two or more spells this turn.",4,3,,"Vigilance, Menace",Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/181/effortless-master?utm_source=api
@@ -432,7 +432,7 @@ III — Creatures you control gain trample and lifelink until end of turn.",,,,,
 Exile the top two cards of your library. Choose one of them. Until the end of your next turn, you may play that card.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/219/riverwheel-sweep?utm_source=api
 220,Roar of Endless Song,{2}{G}{U}{R},5.0,Enchantment — Saga,rare,"G, R, U","G, R, U","(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I, II — Create a 5/5 green Elephant creature token.
-III — Double the power and toughness of each creature you control until end of turn.",,,,,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/220/roar-of-endless-song?utm_source=api
+III — Double the power and toughness of each creature you control until end of turn.",,,,Double,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/220/roar-of-endless-song?utm_source=api
 221,Runescale Stormbrood // Chilling Screech,{3}{R} // {1}{U},4.0,Creature — Dragon // Instant — Omen,uncommon,R,"R, U",,2,4,,Flying,Tarkir: Dragonstorm,2025-04-11,https://scryfall.com/card/tdm/221/runescale-stormbrood-chilling-screech?utm_source=api
 222,Severance Priest,{W}{B}{G},3.0,Creature — Djinn Cleric,rare,"B, G, W","B, G, W","Deathtouch
 When this creature enters, target opponent reveals their hand. You may choose a nonland card from it. If you do, exile that card.

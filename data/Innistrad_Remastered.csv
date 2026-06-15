@@ -395,7 +395,7 @@ Flashback {1}{W} (You may cast this card from your graveyard for its flashback c
 Delirium — If there are four or more card types among cards in your graveyard, instead search your library for a creature or land card, reveal it, put it into your hand, then shuffle.",,,,Delirium,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/221/traverse-the-ulvenwald?utm_source=api
 222,Ulvenwald Mysteries,{2}{G},3.0,Enchantment,uncommon,G,G,"Whenever a nontoken creature you control dies, investigate. (Create a Clue token. It's an artifact with ""{2}, Sacrifice this token: Draw a card."")
 Whenever you sacrifice a Clue, create a 1/1 white Human Soldier creature token.",,,,Investigate,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/222/ulvenwald-mysteries?utm_source=api
-223,Unnatural Growth,{1}{G}{G}{G}{G},5.0,Enchantment,rare,G,G,"At the beginning of each combat, double the power and toughness of each creature you control until end of turn.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/223/unnatural-growth?utm_source=api
+223,Unnatural Growth,{1}{G}{G}{G}{G},5.0,Enchantment,rare,G,G,"At the beginning of each combat, double the power and toughness of each creature you control until end of turn.",,,,Double,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/223/unnatural-growth?utm_source=api
 224,Villagers of Estwald // Howlpack of Estwald,,3.0,Creature — Human Werewolf // Creature — Werewolf,common,,G,,,,,Transform,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/224/villagers-of-estwald-howlpack-of-estwald?utm_source=api
 225,Wild Hunger,{2}{G},3.0,Instant,uncommon,G,"G, R","Target creature gets +3/+1 and gains trample until end of turn.
 Flashback {3}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/225/wild-hunger?utm_source=api
@@ -495,7 +495,7 @@ Each other creature you control of the chosen type enters with an additional +1/
 Whenever equipped creature attacks, it doesn't untap during its controller's next untap step.
 Whenever this Equipment becomes unattached from a permanent, sacrifice that permanent.
 Equip {2}",,,,Equip,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/271/stitchers-graft?utm_source=api
-272,Tamiyo's Journal,{5},5.0,Legendary Artifact,rare,,,"At the beginning of your upkeep, investigate. (Create a Clue token. It's an artifact with ""{2}, Sacrifice this token: Draw a card."")
+272,Tamiyo's Journal,{5},5.0,Legendary Artifact — Book,rare,,,"At the beginning of your upkeep, investigate. (Create a Clue token. It's an artifact with ""{2}, Sacrifice this token: Draw a card."")
 {T}, Sacrifice three Clues: Search your library for a card, put that card into your hand, then shuffle.",,,,Investigate,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/272/tamiyos-journal?utm_source=api
 273,Traveler's Amulet,{1},1.0,Artifact,common,,,"{1}, Sacrifice this artifact: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",,,,,Innistrad Remastered,2025-01-24,https://scryfall.com/card/inr/273/travelers-amulet?utm_source=api
 274,Wild-Field Scarecrow,{3},3.0,Artifact Creature — Scarecrow,common,,,"Defender
