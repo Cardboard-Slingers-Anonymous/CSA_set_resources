@@ -17,19 +17,20 @@ import streamlit as st
 # Tuple order: (set_code, csv_filename, display_name)
 # ---------------------------------------------------------------------------
 SETS = [
-    ("blb", "Bloomburrow",                   "Bloomburrow"),
-    ("dsk", "Duskmourn_House_of_Horror",     "Duskmourn: House of Horror"),
-    ("fdn", "MTG_Foundations",               "MTG Foundations"),
-    ("inr", "Innistrad_Remastered",          "Innistrad Remastered"),
-    ("dft", "Aetherdrift",                   "Aetherdrift"),
-    ("tdm", "Tarkir_Dragonstorm",            "Tarkir: Dragonstorm"),
-    ("fin", "Final_Fantasy",                 "Final Fantasy"),
-    ("eoe", "Edge_of_Eternities",            "Edge of Eternities"),
-    ("om1", "Through_the_Omenpaths",         "Through the Omenpaths"),
-    ("tla", "Avatar_TheLastAirbender",       "Avatar: The Last Airbender"),
-    ("ecl", "Lorwyn_Eclipsed",               "Lorwyn Eclipsed"),
+    ("blb", "Bloomburrow", "Bloomburrow"),
+    ("dsk", "Duskmourn_House_of_Horror", "Duskmourn: House of Horror"),
+    ("fdn", "MTG_Foundations", "MTG Foundations"),
+    ("inr", "Innistrad_Remastered", "Innistrad Remastered"),
+    ("dft", "Aetherdrift", "Aetherdrift"),
+    ("tdm", "Tarkir_Dragonstorm", "Tarkir: Dragonstorm"),
+    ("fin", "Final_Fantasy", "Final Fantasy"),
+    ("eoe", "Edge_of_Eternities", "Edge of Eternities"),
+    ("om1", "Through_the_Omenpaths", "Through the Omenpaths"),
+    ("tla", "Avatar_TheLastAirbender", "Avatar: The Last Airbender"),
+    ("ecl", "Lorwyn_Eclipsed", "Lorwyn Eclipsed"),
     ("tmt", "MTG_TeenageMutantNinjaTurtles", "Teenage Mutant Ninja Turtles"),
-    ("sos", "Secrets_of_Strixhaven",         "Secrets of Strixhaven"),
+    ("sos", "Secrets_of_Strixhaven", "Secrets of Strixhaven"),
+    ("msh", "Marvel_Super_Heroes", "Marvel Super Heroes"),
 ]
 
 # Module-level constants built from the fallback list.
@@ -87,11 +88,12 @@ def get_active_sets(_client) -> tuple[list[str], dict[str, tuple[str, str]]]:
     lookup = {display: (code, fname) for code, fname, display in active}
     return display_names, lookup
 
+
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
-RARITY_ORDER  = ["common", "uncommon", "rare", "mythic"]
+RARITY_ORDER = ["common", "uncommon", "rare", "mythic"]
 COLOR_OPTIONS = ["W", "U", "B", "R", "G"]
-COLOR_LABELS  = {
+COLOR_LABELS = {
     "W": "White (W)",
     "U": "Blue (U)",
     "B": "Black (B)",
@@ -105,11 +107,17 @@ def load_set(csv_filename: str, set_code: str) -> pd.DataFrame:
     path = os.path.join(DATA_DIR, f"{csv_filename}.csv")
     df = pd.read_csv(path, dtype=str).fillna("")
     df["image_small"] = df["collector_number"].apply(
-        lambda n: f"https://api.scryfall.com/cards/{set_code}/{n}?format=image&version=small"
-        if n else ""
+        lambda n: (
+            f"https://api.scryfall.com/cards/{set_code}/{n}?format=image&version=small"
+            if n
+            else ""
+        )
     )
     df["image_normal"] = df["collector_number"].apply(
-        lambda n: f"https://api.scryfall.com/cards/{set_code}/{n}?format=image&version=normal"
-        if n else ""
+        lambda n: (
+            f"https://api.scryfall.com/cards/{set_code}/{n}?format=image&version=normal"
+            if n
+            else ""
+        )
     )
     return df

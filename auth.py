@@ -38,7 +38,9 @@ def handle_oauth_callback(client: Client) -> None:
     """
     code = st.query_params.get("code")
     if not code:
-        _dbg(f"handle_oauth_callback fired. Query params: {list(st.query_params.keys())} — no code, skipping.")
+        _dbg(
+            f"handle_oauth_callback fired. Query params: {list(st.query_params.keys())} — no code, skipping."
+        )
         return
 
     _dbg(f"handle_oauth_callback fired. Query params: {list(st.query_params.keys())}")
@@ -46,7 +48,9 @@ def handle_oauth_callback(client: Client) -> None:
 
     verifier = st.query_params.get("cv")
     if not verifier:
-        _dbg("ERROR: No 'cv' param in callback URL — verifier was not embedded in redirect_to.")
+        _dbg(
+            "ERROR: No 'cv' param in callback URL — verifier was not embedded in redirect_to."
+        )
         st.error("Sign-in failed: missing PKCE verifier. Please try again.")
         return
 
@@ -59,7 +63,9 @@ def handle_oauth_callback(client: Client) -> None:
         response = client.auth.exchange_code_for_session(
             {"auth_code": code, "code_verifier": verifier}
         )
-        _dbg(f"exchange_code_for_session succeeded. User: {getattr(response.user, 'email', response.user)}")
+        _dbg(
+            f"exchange_code_for_session succeeded. User: {getattr(response.user, 'email', response.user)}"
+        )
         st.session_state["user"] = response.user
         st.session_state.pop("_login_dialog_open", None)
         _dbg("Session state updated — calling st.rerun()")
@@ -98,7 +104,7 @@ def render_auth_widget(client: Client) -> None:
             if st.button("Log out", key="header_logout", width="stretch"):
                 try:
                     client.auth.sign_out()
-                except Exception:
+                except Exception:  # nosec B110 - sign_out failure should not block session cleanup
                     pass
                 st.session_state.pop("user", None)
                 st.session_state.pop("supabase_client", None)
@@ -140,12 +146,16 @@ def _build_oauth_url(client: Client, provider: str) -> str | None:
     Returns None on error.
     """
     redirect_to = st.secrets.get("app", {}).get("url", "http://localhost:8501")
-    _dbg(f"_build_oauth_url called for provider='{provider}', redirect_to='{redirect_to}'")
+    _dbg(
+        f"_build_oauth_url called for provider='{provider}', redirect_to='{redirect_to}'"
+    )
     try:
-        response = client.auth.sign_in_with_oauth({
-            "provider": provider,
-            "options": {"redirect_to": redirect_to},
-        })
+        response = client.auth.sign_in_with_oauth(
+            {
+                "provider": provider,
+                "options": {"redirect_to": redirect_to},
+            }
+        )
         _dbg(f"sign_in_with_oauth response received. URL present: {bool(response.url)}")
 
         _VERIFIER_KEY = "supabase.auth.token-code-verifier"
@@ -153,7 +163,9 @@ def _build_oauth_url(client: Client, provider: str) -> str | None:
             code_verifier = client.auth._storage.storage.get(_VERIFIER_KEY, "")
         except Exception:
             code_verifier = ""
-        _dbg(f"code_verifier from storage: present={bool(code_verifier)} len={len(code_verifier)}")
+        _dbg(
+            f"code_verifier from storage: present={bool(code_verifier)} len={len(code_verifier)}"
+        )
 
         if code_verifier:
             parsed = urlparse(response.url)
@@ -203,10 +215,12 @@ def _login_dialog(client: Client) -> None:
                 st.warning("Please enter an email address.")
             else:
                 try:
-                    client.auth.sign_in_with_otp({
-                        "email": email.strip(),
-                        "options": {"should_create_user": True},
-                    })
+                    client.auth.sign_in_with_otp(
+                        {
+                            "email": email.strip(),
+                            "options": {"should_create_user": True},
+                        }
+                    )
                     st.session_state["otp_email"] = email.strip()
                     st.rerun()
                 except Exception as e:
@@ -219,17 +233,19 @@ def _login_dialog(client: Client) -> None:
             code = st.text_input("6-digit code", max_chars=6, key="dlg_otp_input")
             col1, col2 = st.columns(2)
             verified = col1.form_submit_button("Verify")
-            resend   = col2.form_submit_button("Resend")
+            resend = col2.form_submit_button("Resend")
         if verified:
             if not code.strip():
                 st.warning("Please enter the code.")
             else:
                 try:
-                    response = client.auth.verify_otp({
-                        "email": email,
-                        "token": code.strip(),
-                        "type": "email",
-                    })
+                    response = client.auth.verify_otp(
+                        {
+                            "email": email,
+                            "token": code.strip(),
+                            "type": "email",
+                        }
+                    )
                     st.session_state["user"] = response.user
                     st.session_state.pop("_login_dialog_open", None)
                     del st.session_state["otp_email"]
@@ -238,10 +254,12 @@ def _login_dialog(client: Client) -> None:
                     st.error(f"Invalid or expired code: {e}")
         if resend:
             try:
-                client.auth.sign_in_with_otp({
-                    "email": email,
-                    "options": {"should_create_user": True},
-                })
+                client.auth.sign_in_with_otp(
+                    {
+                        "email": email,
+                        "options": {"should_create_user": True},
+                    }
+                )
                 st.success("New code sent.")
             except Exception as e:
                 st.error(f"Could not resend: {e}")

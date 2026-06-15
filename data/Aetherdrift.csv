@@ -5,7 +5,7 @@ Crew 1 (Tap any number of creatures you control with total power 1 or more: This
 At the beginning of combat on your turn, choose up to one target Mount or Vehicle you control. Until end of turn, that permanent becomes saddled if it's a Mount and becomes an artifact creature if it's a Vehicle.",,,,,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/2/alacrian-armory?utm_source=api
 3,"Basri, Tomorrow's Champion",{W},1.0,Legendary Creature — Human Knight,rare,W,W,"{W}, {T}, Exert Basri: Create a 1/1 white Cat creature token with lifelink. (An exerted creature won't untap during your next untap step.)
 Cycling {2}{W} ({2}{W}, Discard this card: Draw a card.)
-When you cycle this card, Cats you control gain hexproof and indestructible until end of turn.",2,1,,Cycling,Aetherdrift,2025-02-14,https://scryfall.com/card/dft/3/basri-tomorrows-champion?utm_source=api
+When you cycle this card, Cats you control gain hexproof and indestructible until end of turn.",2,1,,"Exert, Cycling",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/3/basri-tomorrows-champion?utm_source=api
 4,Brightfield Glider,{W},1.0,Creature — Possum Mount,common,W,W,"Vigilance
 Whenever this creature attacks while saddled, it gets +1/+2 and gains flying until end of turn.
 Saddle 3 (Tap any number of other creatures you control with total power 3 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)",1,1,,"Saddle, Vigilance",Aetherdrift,2025-02-14,https://scryfall.com/card/dft/4/brightfield-glider?utm_source=api

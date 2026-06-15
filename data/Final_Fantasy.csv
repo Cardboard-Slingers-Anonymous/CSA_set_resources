@@ -27,7 +27,7 @@ Flashback {2}{W}{W} (You may cast this card from your graveyard for its flashbac
 • Magic — Destroy target creature with power 4 or greater.
 • Item — You gain 4 life.",,,,"Attack, Ability, Item, Magic",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/9/battle-menu?utm_source=api
 10,"Cloud, Midgar Mercenary",{W}{W},2.0,Legendary Creature — Human Soldier Mercenary,mythic,W,W,"When Cloud enters, search your library for an Equipment card, reveal it, put it into your hand, then shuffle.
-As long as Cloud is equipped, if an ability of Cloud or an Equipment attached to it triggers, that ability triggers an additional time.",2,1,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/10/cloud-midgar-mercenary?utm_source=api
+As long as Cloud is equipped, if a triggered ability of Cloud or an Equipment attached to it triggers, that ability triggers an additional time.",2,1,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/10/cloud-midgar-mercenary?utm_source=api
 11,Cloudbound Moogle,{3}{W}{W},5.0,Creature — Moogle,common,W,W,"Flying
 When this creature enters, put a +1/+1 counter on target creature.
 Plainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)",2,3,,"Flying, Plainscycling, Landcycling, Typecycling, Cycling",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/11/cloudbound-moogle?utm_source=api
@@ -336,7 +336,7 @@ When this creature enters, destroy target land. Its controller may search their 
 156,Seifer Almasy,{3}{R},4.0,Legendary Creature — Human Knight,rare,R,R,"Whenever a creature you control attacks alone, it gains double strike until end of turn.
 Fire Cross — Whenever Seifer Almasy deals combat damage to a player, you may cast target instant or sorcery card with mana value 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.",3,4,,Fire Cross,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/156/seifer-almasy?utm_source=api
 157,Self-Destruct,{1}{R},2.0,Instant,uncommon,R,R,"Target creature you control deals X damage to any other target and X damage to itself, where X is its power.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/157/self-destruct?utm_source=api
-158,"Sidequest: Play Blitzball // World Champion, Celestial Weapon",,3.0,Enchantment // Legendary Artifact — Equipment,uncommon,,R,,,,,"Double Overdrive, Transform, Equip",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/158/sidequest:-play-blitzball-world-champion-celestial-weapon?utm_source=api
+158,"Sidequest: Play Blitzball // World Champion, Celestial Weapon",,3.0,Enchantment // Legendary Artifact — Equipment,uncommon,,R,,,,,"Double Overdrive, Transform, Equip, Double",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/158/sidequest:-play-blitzball-world-champion-celestial-weapon?utm_source=api
 159,Sorceress's Schemes,{3}{R},4.0,Sorcery,uncommon,R,R,"Return target instant or sorcery card from your graveyard or exiled card with flashback you own to your hand. Add {R}.
 Flashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",,,,Flashback,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/159/sorceresss-schemes?utm_source=api
 160,Summon: Brynhildr,{1}{R},2.0,Enchantment Creature — Saga Knight,rare,R,R,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
@@ -348,7 +348,7 @@ II, III — Wizards you control get +1/+0 until end of turn.",3,3,,,Final Fantas
 162,Summon: G.F. Cerberus,{2}{R}{R},4.0,Enchantment Creature — Saga Dog,rare,R,R,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I — Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 II — Double — When you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.
-III — Triple — When you next cast an instant or sorcery spell this turn, copy it twice. You may choose new targets for the copies.",3,3,,Surveil,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/162/summon:-gf-cerberus?utm_source=api
+III — Triple — When you next cast an instant or sorcery spell this turn, copy it twice. You may choose new targets for the copies.",3,3,,"Surveil, Double",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/162/summon:-gf-cerberus?utm_source=api
 163,Summon: G.F. Ifrit,{2}{R},3.0,Enchantment Creature — Saga Demon,common,R,R,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)
 I, II — You may discard a card. If you do, draw a card.
 III, IV — Add {R}.",3,2,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/163/summon:-gf-ifrit?utm_source=api
@@ -425,7 +425,7 @@ Flashback {6}{G} (You may cast this card from your graveyard for its flashback c
 • Creatures you control get +3/+3 until end of turn.
 • Return up to two target permanent cards from your graveyard to your hand.",,,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/198/rydias-return?utm_source=api
 199,Sazh Katzroy,{3}{G},4.0,Legendary Creature — Human Pilot,rare,G,G,"When Sazh Katzroy enters, you may search your library for a Bird or basic land card, reveal it, put it into your hand, then shuffle.
-Whenever Sazh Katzroy attacks, put a +1/+1 counter on target creature, then double the number of +1/+1 counters on that creature.",3,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/199/sazh-katzroy?utm_source=api
+Whenever Sazh Katzroy attacks, put a +1/+1 counter on target creature, then double the number of +1/+1 counters on that creature.",3,3,,Double,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/199/sazh-katzroy?utm_source=api
 200,Sazh's Chocobo,{G},1.0,Creature — Bird,uncommon,G,G,"Landfall — Whenever a land you control enters, put a +1/+1 counter on this creature.",0,1,,Landfall,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/200/sazhs-chocobo?utm_source=api
 201,Sidequest: Raise a Chocobo // Black Chocobo,,2.0,Enchantment // Creature — Bird,uncommon,,G,,,,,"Transform, Landfall",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/201/sidequest:-raise-a-chocobo-black-chocobo?utm_source=api
 202,Summon: Fat Chocobo,{4}{G},5.0,Enchantment Creature — Saga Bird,common,G,G,"(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)
@@ -440,15 +440,15 @@ I — Mill five cards.
 II — Return all land cards from your graveyard to the battlefield tapped.
 III — Until end of turn, another target creature you control gains trample and gets +X/+X, where X is the number of lands you control.
 Reach, trample",7,7,,"Reach, Trample, Mill",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/204/summon:-titan?utm_source=api
-205,Summoner's Grimoire,{3}{G},4.0,Artifact — Equipment,rare,G,G,"Job select
+205,Summoner's Grimoire,{3}{G},4.0,Artifact — Book Equipment,rare,G,G,"Job select
 Equipped creature is a Shaman in addition to its other types and has ""Whenever this creature attacks, you may put a creature card from your hand onto the battlefield. If that card is an enchantment card, it enters tapped and attacking.""
 Abraxas — Equip {3}",,,,"Job select, Equip, Abraxas",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/205/summoners-grimoire?utm_source=api
 206,Tifa Lockhart,{1}{G},2.0,Legendary Creature — Human Monk,rare,G,G,"Trample
-Landfall — Whenever a land you control enters, double Tifa Lockhart's power until end of turn.",1,2,,"Trample, Landfall",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/206/tifa-lockhart?utm_source=api
+Landfall — Whenever a land you control enters, double Tifa Lockhart's power until end of turn.",1,2,,"Trample, Double, Landfall",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/206/tifa-lockhart?utm_source=api
 207,Tifa's Limit Break,{G},1.0,Instant,uncommon,G,G,"Tiered (Choose one additional cost.)
 • Somersault — {0} — Target creature gets +2/+2 until end of turn.
 • Meteor Strikes — {2} — Double target creature's power and toughness until end of turn.
-• Final Heaven — {6}{G} — Triple target creature's power and toughness until end of turn.",,,,"Final Heaven, Meteor Strikes, Somersault, Tiered",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/207/tifas-limit-break?utm_source=api
+• Final Heaven — {6}{G} — Triple target creature's power and toughness until end of turn.",,,,"Triple, Final Heaven, Meteor Strikes, Somersault, Tiered, Double",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/207/tifas-limit-break?utm_source=api
 208,"Torgal, A Fine Hound",{1}{G},2.0,Legendary Creature — Wolf,uncommon,G,G,"Whenever you cast your first Human creature spell each turn, that creature enters with an additional +1/+1 counter on it for each Dog and/or Wolf you control.
 {T}: Add one mana of any color.",2,2,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/208/torgal-a-fine-hound?utm_source=api
 209,Town Greeter,{1}{G},2.0,Creature — Human Citizen,common,G,G,"When this creature enters, mill four cards. You may put a land card from among them into your hand. If you put a Town card into your hand this way, you gain 2 life. (To mill four cards, a player puts the top four cards of their library into their graveyard.)",1,1,,Mill,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/209/town-greeter?utm_source=api
@@ -494,9 +494,9 @@ Whenever a Mutant you control dies during your turn, you draw cards equal to its
 230,Judge Magister Gabranth,{W}{B},2.0,Legendary Creature — Human Advisor Knight,uncommon,"B, W","B, W","Menace (This creature can't be blocked except by two or more creatures.)
 Whenever another creature or artifact you control dies, put a +1/+1 counter on Judge Magister Gabranth.",2,2,,Menace,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/230/judge-magister-gabranth?utm_source=api
 231,"Kefka, Court Mage // Kefka, Ruler of Ruin",,5.0,Legendary Creature — Human Wizard // Legendary Creature — Avatar Wizard,mythic,,"B, R, U",,,,,"Flying, Transform",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/231/kefka-court-mage-kefka-ruler-of-ruin?utm_source=api
-232,"Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",,4.0,Legendary Creature — Human Mutant Wizard // Legendary Creature — Avatar Wizard,rare,,"B, R",,,,,Transform,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/232/kuja-genome-sorcerer-trance-kuja-fate-defied?utm_source=api
+232,"Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",,4.0,Legendary Creature — Human Mutant Wizard // Legendary Creature — Avatar Wizard,rare,,"B, R",,,,,"Transform, Double",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/232/kuja-genome-sorcerer-trance-kuja-fate-defied?utm_source=api
 233,"Lightning, Army of One",{1}{R}{W},3.0,Legendary Creature — Human Soldier,mythic,"R, W","R, W","First strike, trample, lifelink
-Stagger — Whenever Lightning deals combat damage to a player, until your next turn, if a source would deal damage to that player or a permanent that player controls, it deals double that damage instead.",3,2,,"Lifelink, Stagger, First strike, Trample",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/233/lightning-army-of-one?utm_source=api
+Stagger — Whenever Lightning deals combat damage to a player, until your next turn, if a source would deal damage to that player or a permanent that player controls, it deals double that damage instead.",3,2,,"Lifelink, Stagger, First strike, Trample, Double",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/233/lightning-army-of-one?utm_source=api
 234,Locke Cole,{1}{U}{B},3.0,Legendary Creature — Human Rogue,uncommon,"B, U","B, U","Deathtouch, lifelink
 Whenever Locke Cole deals combat damage to a player, draw a card, then discard a card.",2,3,,"Lifelink, Deathtouch",Final Fantasy,2025-06-13,https://scryfall.com/card/fin/234/locke-cole?utm_source=api
 235,"Noctis, Prince of Lucis",{1}{W}{U}{B},4.0,Legendary Creature — Human Noble,rare,"B, U, W","B, U, W","Lifelink
@@ -521,7 +521,7 @@ Whenever Tidus attacks, tap target creature an opponent controls.",2,1,,,Final F
 248,Vivi Ornitier,{1}{U}{R},3.0,Legendary Creature — Wizard,mythic,"R, U","R, U","{0}: Add X mana in any combination of {U} and/or {R}, where X is Vivi Ornitier's power. Activate only during your turn and only once each turn.
 Whenever you cast a noncreature spell, put a +1/+1 counter on Vivi Ornitier and it deals 1 damage to each opponent.",0,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/248/vivi-ornitier?utm_source=api
 A-248,A-Vivi Ornitier,{1}{U}{R},3.0,Legendary Creature — Wizard,mythic,"R, U","R, U","{T}: Add X mana in any combination of {U} and/or {R}, where X is Vivi Ornitier's power.
-Whenever you cast a noncreature spell, put a +1/+1 counter on Vivi Ornitier and it deals 1 damage to each opponent.",0,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/A-248/a-vivi-ornitier?utm_source=api
+Whenever you cast a noncreature spell, put a +1/+1 counter on Vivi Ornitier and it deals 1 damage to each opponent.",0,3,,,Final Fantasy,2025-10-28,https://scryfall.com/card/fin/A-248/a-vivi-ornitier?utm_source=api
 249,The Wandering Minstrel,{G}{U},2.0,Legendary Creature — Human Bard,rare,"G, U","B, G, R, U, W","Lands you control enter untapped.
 The Minstrel's Ballad — At the beginning of combat on your turn, if you control five or more Towns, create a 2/2 Elemental creature token that's all colors.
 {3}{W}{U}{B}{R}{G}: Other creatures you control get +X/+X until end of turn, where X is the number of Towns you control.",1,3,,,Final Fantasy,2025-06-13,https://scryfall.com/card/fin/249/the-wandering-minstrel?utm_source=api

@@ -5,8 +5,11 @@ Public page — no authentication required.
 
 import streamlit as st
 from set_data import (
-    RARITY_ORDER, COLOR_OPTIONS, COLOR_LABELS,
-    get_active_sets, load_set,
+    RARITY_ORDER,
+    COLOR_OPTIONS,
+    COLOR_LABELS,
+    get_active_sets,
+    load_set,
 )
 from supabase_client import get_client
 
@@ -47,7 +50,9 @@ name_query = st.sidebar.text_input("Search card name", placeholder="e.g. Dragon"
 
 rarities_in_set = [r for r in RARITY_ORDER if r in df["rarity"].unique()]
 selected_rarities = st.sidebar.multiselect(
-    "Rarity", options=rarities_in_set, default=rarities_in_set,
+    "Rarity",
+    options=rarities_in_set,
+    default=rarities_in_set,
 )
 
 colors_in_set = [c for c in COLOR_OPTIONS if df["color_identity"].str.contains(c).any()]
@@ -64,7 +69,9 @@ selected_colors = st.sidebar.multiselect(
 filtered = df.copy()
 
 if name_query.strip():
-    filtered = filtered[filtered["name"].str.contains(name_query.strip(), case=False, na=False)]
+    filtered = filtered[
+        filtered["name"].str.contains(name_query.strip(), case=False, na=False)
+    ]
 
 if selected_rarities:
     filtered = filtered[filtered["rarity"].isin(selected_rarities)]
@@ -88,6 +95,7 @@ st.caption(
 # ---------------------------------------------------------------------------
 # HTML table with CSS hover-to-preview
 # ---------------------------------------------------------------------------
+
 
 def build_html_table(df_rows):
     css = """
@@ -144,13 +152,25 @@ def build_html_table(df_rows):
     </style>
     """
 
-    headers = ["Card", "#", "Name", "Mana", "CMC", "Type", "Rarity",
-               "Colors", "Rules Text", "P / T", "Keywords", "Scryfall"]
+    headers = [
+        "Card",
+        "#",
+        "Name",
+        "Mana",
+        "CMC",
+        "Type",
+        "Rarity",
+        "Colors",
+        "Rules Text",
+        "P / T",
+        "Keywords",
+        "Scryfall",
+    ]
     thead = "<tr>" + "".join(f"<th>{h}</th>" for h in headers) + "</tr>"
 
     rows = []
     for _, r in df_rows.iterrows():
-        thumb  = r.get("image_small", "")
+        thumb = r.get("image_small", "")
         normal = r.get("image_normal", "")
         if thumb:
             img_html = (
@@ -181,7 +201,8 @@ def build_html_table(df_rows):
 
         link = (
             f'<a href="{r["scryfall_uri"]}" target="_blank">View ↗</a>'
-            if r["scryfall_uri"] else ""
+            if r["scryfall_uri"]
+            else ""
         )
 
         rows.append(

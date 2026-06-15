@@ -3,7 +3,6 @@ Fetches card lists for the 10 most recent MTG Arena sets from Scryfall API
 and saves each as a CSV file.
 """
 
-import urllib.request
 import json
 import csv
 import time
@@ -11,8 +10,9 @@ import os
 
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
-# 10 most recent main Arena sets as of April 2026, newest first
+# Recent main Arena sets as of April 2026, newest first
 SETS = [
+    ("msh", "Marvel_Super_Heroes"),
     ("sos", "Secrets_of_Strixhaven"),
     ("tmt", "MTG_TeenageMutantNinjaTurtles"),
     ("tla", "Avatar_TheLastAirbender"),
@@ -52,16 +52,21 @@ def fetch_cards_for_set(set_code):
     """Fetches all cards for a given set code via Scryfall search API."""
     cards = []
     import urllib.parse
+    import urllib.request
+
     query = f"set:{set_code}"
     encoded_q = urllib.parse.quote(query)
     url = f"https://api.scryfall.com/cards/search?q={encoded_q}&order=set&unique=cards"
     while url:
         print(f"  Fetching: {url[:80]}...")
-        req = urllib.request.Request(url, headers={
-            "User-Agent": "ProjectDepot/1.0 (github.com/djsmith17)",
-            "Accept": "application/json",
-        })
-        with urllib.request.urlopen(req) as resp:
+        req = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": "ProjectDepot/1.0 (github.com/djsmith17)",
+                "Accept": "application/json",
+            },
+        )
+        with urllib.request.urlopen(req) as resp:  # nosec B310 - URL is always HTTPS (api.scryfall.com)
             data = json.loads(resp.read().decode())
         cards.extend(data.get("data", []))
         url = data.get("next_page") if data.get("has_more") else None

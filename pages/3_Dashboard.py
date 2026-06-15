@@ -2,8 +2,9 @@
 Ratings Dashboard — auth-gated.
 Per-user rating histograms and a sortable community summary table.
 """
+
 from typing import Any
-StreamlitColumn = Any # Create an alias for verbose typing
+
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
@@ -13,12 +14,14 @@ from ratings_db import get_all_ratings_for_set
 from set_data import get_active_sets, RARITY_ORDER, load_set
 from supabase_client import get_client
 
-RATING_BINS   = [0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0]
+StreamlitColumn = Any  # Create an alias for verbose typing
+
+RATING_BINS = [0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0]
 RARITY_COLORS = {
-    "common":   "#c0c0c0",
+    "common": "#c0c0c0",
     "uncommon": "#7fbfff",
-    "rare":     "#e6c84a",
-    "mythic":   "#e87c3e",
+    "rare": "#e6c84a",
+    "mythic": "#e87c3e",
 }
 
 # ---------------------------------------------------------------------------
@@ -28,7 +31,7 @@ RARITY_COLORS = {
 st.set_page_config(page_title="Ratings Dashboard", page_icon="📊", layout="wide")
 
 client = get_client()
-user   = require_auth(client)
+user = require_auth(client)
 
 # ---------------------------------------------------------------------------
 # Set selector
@@ -44,21 +47,39 @@ set_code, csv_filename = set_lookup[selected_display]
 # Load data
 # ---------------------------------------------------------------------------
 
-cards_df  = load_set(csv_filename, set_code)[["collector_number", "name", "rarity",
-                                              "type_line", "colors", "image_small", "image_normal"]]  # Load set and keep only needed columns
-ratings_df: pd.DataFrame = get_all_ratings_for_set(client, set_code)                                                # Fetch all ratings for this set from the DB
+cards_df = load_set(csv_filename, set_code)[
+    [
+        "collector_number",
+        "name",
+        "rarity",
+        "type_line",
+        "colors",
+        "image_small",
+        "image_normal",
+    ]
+]  # Load set and keep only needed columns
+ratings_df: pd.DataFrame = get_all_ratings_for_set(
+    client, set_code
+)  # Fetch all ratings for this set from the DB
 if ratings_df.empty:
     st.info("No ratings yet for this set. Head to the Ratings page to get started.")
-    st.stop()                                                                               # Halt execution if there's nothing to display
-user_labels: dict[str,str] = {uid: f"User {i+1}" for i, uid in enumerate(ratings_df["user_id"].unique())}  # Assign anonymous labels to each user_id
-user_labels[user.id] = "You"                                                                # Override current user's label with "You"
-ratings_df["user_label"] = ratings_df["user_id"].map(user_labels)                           # Add display name column to dataframe
+    st.stop()  # Halt execution if there's nothing to display
+user_labels: dict[str, str] = {
+    uid: f"User {i + 1}" for i, uid in enumerate(ratings_df["user_id"].unique())
+}  # Assign anonymous labels to each user_id
+user_labels[user.id] = "You"  # Override current user's label with "You"
+ratings_df["user_label"] = ratings_df["user_id"].map(
+    user_labels
+)  # Add display name column to dataframe
 
 # ---------------------------------------------------------------------------
 # Per-user rating histograms
 # ---------------------------------------------------------------------------
 
-def _draw_streamlit_chart(user_name: str, data_to_draw: pd.Series, col_for_chart: StreamlitColumn):
+
+def _draw_streamlit_chart(
+    user_name: str, data_to_draw: pd.Series, col_for_chart: StreamlitColumn
+):
     """
     Renders a rating distribution bar chart into a Streamlit column.
 
@@ -68,58 +89,79 @@ def _draw_streamlit_chart(user_name: str, data_to_draw: pd.Series, col_for_chart
         col_for_chart (StreamlitColumn): Streamlit column to render the chart into (alias for Any object).
     """
     # --- initialize bins to count each rating ---
-    counts = {b: 0 for b in RATING_BINS}           # Initialize bin counts to 0
+    counts = {b: 0 for b in RATING_BINS}  # Initialize bin counts to 0
 
     # --- Round any ratings just in case they're magically not on the .5 scale  ---
     for val in data_to_draw:
-        rounded = round(val * 2) / 2               # Snap value to nearest 0.5
+        rounded = round(val * 2) / 2  # Snap value to nearest 0.5
         if rounded in counts:
-            counts[rounded] += 1                   # Increment matching bin
+            counts[rounded] += 1  # Increment matching bin
 
     # --- Draw the figure ---
-    fig = go.Figure(go.Bar(
-        x=[str(k) for k in counts.keys()],         # Bin labels as strings
-        y=list(counts.values()),                   # Counts as bar heights
-        marker_color="#5b8dee",                    # type: ignore - Blue bars, PyCharm complains about typing but string is correct
-    ))
+    fig = go.Figure(
+        go.Bar(
+            x=[str(k) for k in counts.keys()],  # Bin labels as strings
+            y=list(counts.values()),  # Counts as bar heights
+            marker_color="#5b8dee",  # type: ignore - Blue bars, PyCharm complains about typing but string is correct
+        )
+    )
 
     # --- Update the figure layout ---
     fig.update_layout(
-        title=user_name,                           # Chart title = user label
+        title=user_name,  # Chart title = user label
         xaxis_title="Rating",
         yaxis_title="# Cards",
-        margin=dict(l=20, r=20, t=40, b=40),       # Tight margins
+        margin=dict(l=20, r=20, t=40, b=40),  # Tight margins
         height=280,
-        plot_bgcolor="#0e1117",                    # Dark plot background
-        paper_bgcolor="#0e1117",                   # Dark paper background
-        font_color="#e0e0e0",                      # Light text
+        plot_bgcolor="#0e1117",  # Dark plot background
+        paper_bgcolor="#0e1117",  # Dark paper background
+        font_color="#e0e0e0",  # Light text
     )
 
-    col_for_chart.plotly_chart(fig, use_container_width=True)  # Render chart in its column
+    col_for_chart.plotly_chart(
+        fig, use_container_width=True
+    )  # Render chart in its column
+
 
 # --- Draw the header ---
 st.subheader("Rating distributions by user")
 
 # --- Create user list and set the comparison user ---
-all_users: list[str] = ratings_df["user_label"].unique()                            # Set all unique users in the dataset as a list
-active_user: str = user_labels[user.id]                                             # Set name of active user for easy reference later
-all_other_users: list[str] = [user for user in all_users if user != active_user]    # Create list of users other than the active user.
-all_other_users.insert(0, "Aggregated Ratings")                         # Add a dummy user for aggregated ratings
-user_to_compare: str = st.selectbox("Compare against", all_other_users)  # Create a selection box for a user to compare
+all_users: list[str] = ratings_df[
+    "user_label"
+].unique()  # Set all unique users in the dataset as a list
+active_user: str = user_labels[
+    user.id
+]  # Set name of active user for easy reference later
+all_other_users: list[str] = [
+    user for user in all_users if user != active_user
+]  # Create list of users other than the active user.
+all_other_users.insert(
+    0, "Aggregated Ratings"
+)  # Add a dummy user for aggregated ratings
+user_to_compare: str = st.selectbox(
+    "Compare against", all_other_users
+)  # Create a selection box for a user to compare
 
 # --- Create a cleaned pandas data series for the active user and comparison user ---
-active_user_data: pd.Series = ratings_df[ratings_df["user_label"] == active_user]["rating"].dropna()
+active_user_data: pd.Series = ratings_df[ratings_df["user_label"] == active_user][
+    "rating"
+].dropna()
 if user_to_compare == "Aggregated Ratings":
-    comparison_user_data: pd.Series = ratings_df["rating"].dropna()     # If Aggregated ratings is selected, use all ratings
+    comparison_user_data: pd.Series = ratings_df[
+        "rating"
+    ].dropna()  # If Aggregated ratings is selected, use all ratings
 else:
-    comparison_user_data: pd.Series = ratings_df[ratings_df["user_label"] == user_to_compare]["rating"].dropna()    # Otherwise use just selected user
+    comparison_user_data: pd.Series = ratings_df[
+        ratings_df["user_label"] == user_to_compare
+    ]["rating"].dropna()  # Otherwise use just selected user
 
 # --- Create the streamlit StreamlitColumn objects ---
 cols: list[StreamlitColumn] = st.columns(2)
 
 # --- Draw the histogram tables ---
-_draw_streamlit_chart(active_user,active_user_data,cols[0])
-_draw_streamlit_chart(user_to_compare,comparison_user_data,cols[1])
+_draw_streamlit_chart(active_user, active_user_data, cols[0])
+_draw_streamlit_chart(user_to_compare, comparison_user_data, cols[1])
 
 # ---------------------------------------------------------------------------
 # Summary table
@@ -137,24 +179,21 @@ agg = (
     )
     .reset_index()
 )
-agg["avg_rating"]      = agg["avg_rating"].round(2)
+agg["avg_rating"] = agg["avg_rating"].round(2)
 agg["contentiousness"] = agg["contentiousness"].round(2).fillna(0.0)
 
 # Add the current user's rating for context
-my_ratings = (
-    ratings_df[ratings_df["user_id"] == user.id][["collector_number", "rating"]]
-    .rename(columns={"rating": "my_rating"})
-)
+my_ratings = ratings_df[ratings_df["user_id"] == user.id][
+    ["collector_number", "rating"]
+].rename(columns={"rating": "my_rating"})
 
-summary = (
-    cards_df
-    .merge(agg, on="collector_number", how="left")
-    .merge(my_ratings, on="collector_number", how="left")
+summary = cards_df.merge(agg, on="collector_number", how="left").merge(
+    my_ratings, on="collector_number", how="left"
 )
-summary["rating_count"]   = summary["rating_count"].fillna(0).astype(int)
-summary["avg_rating"]     = pd.to_numeric(summary["avg_rating"],     errors="coerce")
-summary["contentiousness"]= pd.to_numeric(summary["contentiousness"],errors="coerce")
-summary["my_rating"]      = pd.to_numeric(summary["my_rating"],      errors="coerce")
+summary["rating_count"] = summary["rating_count"].fillna(0).astype(int)
+summary["avg_rating"] = pd.to_numeric(summary["avg_rating"], errors="coerce")
+summary["contentiousness"] = pd.to_numeric(summary["contentiousness"], errors="coerce")
+summary["my_rating"] = pd.to_numeric(summary["my_rating"], errors="coerce")
 
 # ---------------------------------------------------------------------------
 # Summary table filters
@@ -173,7 +212,9 @@ with filter_col2:
     min_ratings = st.slider(
         "Minimum # of ratings",
         min_value=0,
-        max_value=int(summary["rating_count"].max()) if summary["rating_count"].max() > 0 else 1,
+        max_value=int(summary["rating_count"].max())
+        if summary["rating_count"].max() > 0
+        else 1,
         value=0,
     )
 
@@ -183,7 +224,9 @@ with filter_col3:
 filtered_summary = summary.copy()
 
 if selected_rarities:
-    filtered_summary = filtered_summary[filtered_summary["rarity"].isin(selected_rarities)]
+    filtered_summary = filtered_summary[
+        filtered_summary["rarity"].isin(selected_rarities)
+    ]
 
 filtered_summary = filtered_summary[filtered_summary["rating_count"] >= min_ratings]
 
@@ -292,20 +335,20 @@ def build_summary_html_table(df_rows):
     """
 
     col_defs = [
-        ("Card",           "",               False),
-        ("#",              "collector_number", False),
-        ("Name",           "name",            False),
-        ("Rarity",         "rarity",          False),
-        ("Type",           "type_line",       False),
-        ("# Ratings",      "rating_count",    True),
-        ("Avg Rating",     "avg_rating",      True),
-        ("Contentiousness","contentiousness", True),
-        ("My Rating",      "my_rating",       True),
+        ("Card", "", False),
+        ("#", "collector_number", False),
+        ("Name", "name", False),
+        ("Rarity", "rarity", False),
+        ("Type", "type_line", False),
+        ("# Ratings", "rating_count", True),
+        ("Avg Rating", "avg_rating", True),
+        ("Contentiousness", "contentiousness", True),
+        ("My Rating", "my_rating", True),
     ]
 
     thead_cells = []
     for label, _, is_num in col_defs:
-        dtype = 'num' if is_num else 'str'
+        dtype = "num" if is_num else "str"
         thead_cells.append(
             f'<th data-type="{dtype}">{label}<span class="sort-arrow"></span></th>'
         )
@@ -322,7 +365,7 @@ def build_summary_html_table(df_rows):
 
     rows = []
     for _, r in df_rows.iterrows():
-        thumb  = r.get("image_small", "")
+        thumb = r.get("image_small", "")
         normal = r.get("image_normal", "")
         if thumb:
             img_html = (
@@ -342,9 +385,9 @@ def build_summary_html_table(df_rows):
             f"<td style='white-space:nowrap'>{r['rarity'].capitalize()}</td>"
             f"<td style='white-space:nowrap'>{r['type_line']}</td>"
             f"<td>{int(r['rating_count'])}</td>"
-            + fmt_num(r['avg_rating'], 2)
-            + fmt_num(r['contentiousness'], 2)
-            + fmt_num(r['my_rating'], 1)
+            + fmt_num(r["avg_rating"], 2)
+            + fmt_num(r["contentiousness"], 2)
+            + fmt_num(r["my_rating"], 1)
             + "</tr>"
         )
 
@@ -361,4 +404,6 @@ def build_summary_html_table(df_rows):
     )
 
 
-st.html(f'<div style="height:750px;overflow:auto">{build_summary_html_table(filtered_summary)}</div>')
+st.html(
+    f'<div style="height:750px;overflow:auto">{build_summary_html_table(filtered_summary)}</div>'
+)

@@ -15,8 +15,11 @@ from streamlit_js_eval import streamlit_js_eval
 from auth import require_auth
 from ratings_db import delete_rating, get_user_ratings, upsert_rating
 from set_data import (
-    COLOR_LABELS, COLOR_OPTIONS, RARITY_ORDER,
-    get_active_sets, load_set,
+    COLOR_LABELS,
+    COLOR_OPTIONS,
+    RARITY_ORDER,
+    get_active_sets,
+    load_set,
 )
 from supabase_client import get_client
 
@@ -28,8 +31,8 @@ RATING_OPTIONS = [0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0]
 
 st.set_page_config(page_title="Card Ratings", page_icon="⭐", layout="wide")
 
-client  = get_client()
-user    = require_auth(client)
+client = get_client()
+user = require_auth(client)
 user_id = user.id
 
 # ---------------------------------------------------------------------------
@@ -58,7 +61,7 @@ set_code, csv_filename = set_lookup[selected_display]
 # where raw_pending contains the current pending changes.
 # ---------------------------------------------------------------------------
 
-storage_key  = f"rating_pending_{set_code}"
+storage_key = f"rating_pending_{set_code}"
 save_counter = st.session_state.get("_save_counter", 0)
 
 # Changing the KEY on each save forces streamlit_js_eval to create a fresh
@@ -73,7 +76,7 @@ raw_pending = streamlit_js_eval(
 # Load card data and seed baseline from DB
 # ---------------------------------------------------------------------------
 
-cards_df     = load_set(csv_filename, set_code)
+cards_df = load_set(csv_filename, set_code)
 user_ratings = get_user_ratings(client, user_id, set_code)
 
 baseline_key = f"baseline_{user_id}_{set_code}"
@@ -98,11 +101,13 @@ if raw_pending and raw_pending not in ("{}", "null", "", None):
     for cn, data in pending.items():
         raw_rating = data.get("rating")
         edit_rating = float(raw_rating) if raw_rating is not None else None
-        edit_notes  = str(data.get("notes", ""))
+        edit_notes = str(data.get("notes", ""))
 
-        saved        = baseline.get(cn, {})
-        saved_rating = float(saved["my_rating"]) if pd.notna(saved.get("my_rating")) else None
-        saved_notes  = str(saved.get("my_notes", ""))
+        saved = baseline.get(cn, {})
+        saved_rating = (
+            float(saved["my_rating"]) if pd.notna(saved.get("my_rating")) else None
+        )
+        saved_notes = str(saved.get("my_notes", ""))
 
         if edit_rating is None and saved_rating is None:
             continue
@@ -112,14 +117,23 @@ if raw_pending and raw_pending not in ("{}", "null", "", None):
         try:
             card_name = cards_df.loc[cards_df["collector_number"] == cn, "name"].iloc[0]
             if edit_rating is None:
-                delete_rating(client=client, user_id=user_id, set_code=set_code, collector_number=cn)
+                delete_rating(
+                    client=client,
+                    user_id=user_id,
+                    set_code=set_code,
+                    collector_number=cn,
+                )
                 baseline[cn] = {"my_rating": None, "my_notes": ""}
                 st.toast(f"{card_name} — rating cleared", icon="🗑️")
             else:
                 upsert_rating(
-                    client=client, user_id=user_id, set_code=set_code,
-                    collector_number=cn, card_name=card_name,
-                    rating=edit_rating, notes=edit_notes,
+                    client=client,
+                    user_id=user_id,
+                    set_code=set_code,
+                    collector_number=cn,
+                    card_name=card_name,
+                    rating=edit_rating,
+                    notes=edit_notes,
                 )
                 baseline[cn] = {"my_rating": edit_rating, "my_notes": edit_notes}
                 st.toast(f"{card_name} — {edit_rating}", icon="✅")
@@ -136,10 +150,14 @@ name_query = st.sidebar.text_input("Search card name", placeholder="e.g. Dragon"
 
 rarities_in_set = [r for r in RARITY_ORDER if r in cards_df["rarity"].unique()]
 selected_rarities = st.sidebar.multiselect(
-    "Rarity", options=rarities_in_set, default=rarities_in_set,
+    "Rarity",
+    options=rarities_in_set,
+    default=rarities_in_set,
 )
 
-colors_in_set = [c for c in COLOR_OPTIONS if cards_df["color_identity"].str.contains(c).any()]
+colors_in_set = [
+    c for c in COLOR_OPTIONS if cards_df["color_identity"].str.contains(c).any()
+]
 selected_colors = st.sidebar.multiselect(
     "Color identity (include colorless if none selected)",
     options=colors_in_set,
@@ -156,7 +174,9 @@ show_unrated = st.sidebar.checkbox("Show only unrated cards", value=False)
 filtered = cards_df.copy()
 
 if name_query.strip():
-    filtered = filtered[filtered["name"].str.contains(name_query.strip(), case=False, na=False)]
+    filtered = filtered[
+        filtered["name"].str.contains(name_query.strip(), case=False, na=False)
+    ]
 
 if selected_rarities:
     filtered = filtered[filtered["rarity"].isin(selected_rarities)]
@@ -193,6 +213,7 @@ with col_btn:
 # ---------------------------------------------------------------------------
 # Build ratings HTML table
 # ---------------------------------------------------------------------------
+
 
 def build_ratings_table(df_rows, baseline, storage_key):
     css = """
@@ -292,18 +313,18 @@ def build_ratings_table(df_rows, baseline, storage_key):
     rows = []
     for _, r in df_rows.iterrows():
         cn = str(r["collector_number"])
-        saved           = baseline.get(cn, {})
-        current_rating  = saved.get("my_rating")
-        current_notes   = saved.get("my_notes") or ""
+        saved = baseline.get(cn, {})
+        current_rating = saved.get("my_rating")
+        current_notes = saved.get("my_notes") or ""
 
-        thumb  = r.get("image_small", "")
+        thumb = r.get("image_small", "")
         normal = r.get("image_normal", "")
         if thumb:
             img_html = (
                 '<div class="thumb-wrap">'
                 f'<img class="thumb" src="{thumb}" loading="lazy">'
                 f'<img class="preview" src="{normal}" loading="lazy">'
-                '</div>'
+                "</div>"
             )
         else:
             img_html = ""
@@ -313,20 +334,25 @@ def build_ratings_table(df_rows, baseline, storage_key):
         safe_cn = html.escape(cn, quote=True)
         opts = '<option value="">—</option>'
         for opt in RATING_OPTIONS:
-            sel = "selected" if current_rating is not None and abs(float(current_rating) - opt) < 0.01 else ""
+            sel = (
+                "selected"
+                if current_rating is not None
+                and abs(float(current_rating) - opt) < 0.01
+                else ""
+            )
             opts += f'<option value="{opt}" {sel}>{opt}</option>'
         rating_cell = (
             f'<select class="rating-select" data-cn="{safe_cn}" '
-            f'onchange="storePending(this.dataset.cn, \'rating\', '
-            f'this.value === \'\' ? null : parseFloat(this.value))">'
-            f'{opts}</select>'
+            f"onchange=\"storePending(this.dataset.cn, 'rating', "
+            f"this.value === '' ? null : parseFloat(this.value))\">"
+            f"{opts}</select>"
         )
 
         safe_notes = html.escape(current_notes, quote=True)
         notes_cell = (
             f'<input class="notes-input" type="text" value="{safe_notes}" '
             f'data-cn="{safe_cn}" '
-            f'onblur="storePending(this.dataset.cn, \'notes\', this.value)">'
+            f"onblur=\"storePending(this.dataset.cn, 'notes', this.value)\">"
         )
 
         rows.append(
@@ -344,7 +370,8 @@ def build_ratings_table(df_rows, baseline, storage_key):
 
     tbody = "\n".join(rows)
     return (
-        css + js
+        css
+        + js
         + "<div style='overflow-x:auto'>"
         + "<table class='card-table'>"
         + f"<thead>{thead}</thead>"

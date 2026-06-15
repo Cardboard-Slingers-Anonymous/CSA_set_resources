@@ -17,6 +17,7 @@ def get_client() -> Client:
         # cross-origin redirect without relying on session state.
         try:
             from supabase.lib.client_options import ClientOptions
+
             client = create_client(url, key, options=ClientOptions(flow_type="pkce"))
         except Exception:
             # Older supabase-py versions — fall back gracefully

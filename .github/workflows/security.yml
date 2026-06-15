@@ -1,0 +1,35 @@
+name: Security
+
+on:
+  push:
+    branches: ["main", "dante_dev"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  pip-audit:
+    name: Dependency CVE Audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install pip-audit
+        run: pip install pip-audit
+      - name: Audit dependencies
+        run: pip-audit -r requirements.txt
+
+  bandit:
+    name: Bandit Static Security Analysis
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install bandit
+        run: pip install bandit
+      - name: Run bandit
+        # Exclude virtualenv and raw card data; flag medium+ severity issues
+        run: bandit -r . --exclude ./.venv,./data --severity-level medium -f txt
