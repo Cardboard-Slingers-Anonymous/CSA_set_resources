@@ -69,8 +69,7 @@ pages/
 - Card images are **not** stored locally. They are fetched at runtime from the Scryfall API:
   - Thumbnail: `https://api.scryfall.com/cards/{set_code}/{collector_number}?format=image&version=small`
   - Full size: `https://api.scryfall.com/cards/{set_code}/{collector_number}?format=image&version=normal`
-- To add a new set: add an entry to the `SETS` list in `set_data.py` (tuple of `(set_code, csv_filename, display_name)`), then run `fetch_set_cards.py` to generate the CSV.
-
+- To add a new set: add/generate the CSV via `fetch_set_cards.py`, then add (or seed) a row in the `public.sets` table with `included_in_app = TRUE` and the correct `csv_filename`/`display_name`.
 ### Rating Scale
 - Ratings are floats from `0.0` to `5.0` in `0.5` increments.
 - The canonical options list is `RATING_OPTIONS = [0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0]` (defined in `2_Ratings.py`).
