@@ -94,7 +94,7 @@ WHERE search_vector @@ plainto_tsquery('postgresql')
 ORDER BY rank DESC;
 ```
 
-## � PostgreSQL Performance Tuning
+## PostgreSQL Performance Tuning
 
 ### Query Optimization
 ```sql
